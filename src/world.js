@@ -1,3 +1,5 @@
+import{buildParkingArt}from'./parking-art.js';
+import{PARKING as K}from'./parking-config.js';
 import{landingView,forecastHeading}from'./hud-model.js';
 import{courseBoxes}from'./challenge-course.js';
 import{VehicleFeedback}from'./vehicle-feedback.js';
@@ -89,8 +91,8 @@ export function createWorld(canvas) {
     if (!boxes.length) return;
     const m = new Mesh(name, scene), data = new VertexData(); data.positions = positions; data.normals = normals; data.uvs = uvs; data.indices = indices; data.applyToMesh(m); m.material = material; m.parent = parent; m.isPickable = false; m.receiveShadows=true;
   };
-  const refreshFloor = (mode, groups) => {
-    const gaps = mode==='sprint'?[P.gap]:mode === 'challenge' ? groups.filter(g => g.gap && Number.isFinite(g.z)).map(g => g.gap).sort((a, b) => a.start - b.start) : [];
+  const refreshFloor = (mode, groups, parking) => {
+    const gaps = mode==='parking'?(parking?.open?[]:[K.bridge]):mode==='sprint'?[P.gap]:mode === 'challenge' ? groups.filter(g => g.gap && Number.isFinite(g.z)).map(g => g.gap).sort((a, b) => a.start - b.start) : [];
     const key = `${mode}:${gaps.map(g => `${g.start},${g.end}`).join(';')}`; if (key === floorKey) return; floorKey = key;
     floorRoot.getChildMeshes().forEach(m => m.dispose());
     const start = mode === 'challenge' ? -200 : -600, end = mode === 'challenge' ? 5300 : 2400;
@@ -98,8 +100,10 @@ export function createWorld(canvas) {
     for (const gap of gaps) { solids.push([cursor, gap.start]); cursor = gap.end; } solids.push([cursor, end]);
     floorLayout = { gaps: gaps.map(g => ({ ...g })), solids: solids.map(s => [...s]) };
     const deck = [], road = [], paint = [], joints = [];
-    for (const [a, b] of solids) {
+    const renderSolids=mode==='parking'?solids.flatMap(([a,b])=>{const cuts=[a,...[K.plate.start,K.plate.end].filter(x=>x>a&&x<b),b];return cuts.slice(0,-1).map((x,i)=>[x,cuts[i+1]]);}):solids;
+    for (const [a, b] of renderSolids) {
       const length = b - a; if (length <= 0) continue;
+      if(mode==='parking'&&a>=K.plate.start&&b<=K.plate.end){deck.push([22,1.2,length,0,-1.25,(a+b)/2]);for(const x of[-12,12]){deck.push([2.5,1.2,length,x,-.64,(a+b)/2]);road.push([2,.08,length,x,-.04,(a+b)/2]);paint.push([.12,.02,length,Math.sign(x)*12.2,.015,(a+b)/2]);}continue;}
       deck.push([27, 1.2, length, 0, -.64, (a + b) / 2]); road.push([26, .08, length, 0, -.04, (a + b) / 2]);
       for (const x of [-12.2, 12.2]) paint.push([.12, .02, length, x, .015, (a + b) / 2]);
       for (let z = Math.ceil(a / 12) * 12 + 3; z + 2.4 < b; z += 12) for (const x of [-4.3, 4.3]) paint.push([.16, .025, 4.8, x, .02, z]);
@@ -151,6 +155,7 @@ export function createWorld(canvas) {
   const jumpArt=buildOneJumpArt(scene,{box,mat,mergeStatic,steel,black,cyan,yellow,makeSupply});for(const mesh of jumpArt.casters)realShadow.addShadowCaster(mesh,false);
   const sprintArt=buildSprintArt(scene,{box,mat,mergeStatic,steel,black,cyan,yellow,makeSupply});for(const mesh of sprintArt.casters)realShadow.addShadowCaster(mesh,false);
   const car = new TransformNode('car-position', scene), body = new TransformNode('car-attitude', scene); body.parent = car;
+  const parkingArt=buildParkingArt(scene,{box,mat,steel,black,cyan,yellow,makeSupply});for(const mesh of parkingArt.casters)realShadow.addShadowCaster(mesh,false);
   const carArt = buildCarArt(scene, body, mat, steel, black);
   const { fins, wing } = carArt;const flightEffects=new FlightEffects(scene);for(const mesh of body.getChildMeshes()){realShadow.addShadowCaster(mesh,false);mesh.receiveShadows=true;} const coldJets = [];const vehicleFeedback=new VehicleFeedback(scene,{carArt,body,dustMaterial:flightEffects.dustMaterial,speedCanvas:document.getElementById('speed-canvas')});
   const paintReflection=new ReflectionProbe('local-sunset-reflection',128,scene);paintReflection.position.set(0,2,0);paintReflection.renderList=[sky,sun,...cityArt.reflectionMeshes];paintReflection.refreshRate=0;paintReflection.cubeTexture.level=.26;carArt.paint.reflectionTexture=paintReflection.cubeTexture;carArt.glass.reflectionTexture=paintReflection.cubeTexture;
@@ -193,7 +198,7 @@ export function createWorld(canvas) {
     currentZ = s.z; currentX=s.x;currentY=s.y;forecast=s.releasePrediction??s.prediction;
     const mode = session?.mode ?? 'practice', levelGroups = session?.groups ?? [],oneJump=mode==='practice'&&!!session?.oneJump;
     const feedbackActive=session?.phase==='running'&&!(mode==='sprint'&&session?.sprint?.complete);mist.alpha=.30;coreMat.alpha=.75;jumpArt.update(s.z,session?.oneJump?.state,oneJump);sprintArt.update(s.z,session?.sprint,mode==='sprint');
-    refreshFloor(mode, levelGroups); floorRoot.position.z = mode === 'practice' ? -(s.z%600) : -s.z;
+    parkingArt.update(s,session?.parking,mode==='parking');refreshFloor(mode, levelGroups,session?.parking); floorRoot.position.z = mode === 'practice' ? -(s.z%600) : -s.z;
     for (const v of challengeVisuals) {
       const g = levelGroups.find(g => g.id === v.id && Number.isFinite(g.z));
       v.root.setEnabled(mode === 'challenge' && !!g && ['preview','active','passed','failed'].includes(g.status) && g.z - s.z > -180 && g.z - s.z < 1300);

@@ -1,0 +1,50 @@
+TAP version 13
+# Subtest: wide lane needs no stunts; exact physical event chain opens actual bridge before exit
+ok 1 - wide lane needs no stunts; exact physical event chain opens actual bridge before exit
+  ---
+  duration_ms: 2133.3588
+  ...
+# Subtest: shortcut accepts a useful small-input range and real pose clearance instead of circles
+ok 2 - shortcut accepts a useful small-input range and real pose clearance instead of circles
+  ---
+  duration_ms: 5703.3756
+  ...
+# Subtest: finite rack allows above-frame space but visible central base blocks ground
+ok 3 - finite rack allows above-frame space but visible central base blocks ground
+  ---
+  duration_ms: 12.5699
+  ...
+# Subtest: inclined/sheared aperture equals independently enumerated eight OBB corners
+ok 4 - inclined/sheared aperture equals independently enumerated eight OBB corners
+  ---
+  duration_ms: 10.9301
+  ...
+# Subtest: projectile physically crosses wall before wall event; bridge cannot unlock early
+ok 5 - projectile physically crosses wall before wall event; bridge cannot unlock early
+  ---
+  duration_ms: 2.74
+  ...
+# Subtest: light landing returns locally then a legal retry jump opens route, no ring requirement
+ok 6 - light landing returns locally then a legal retry jump opens route, no ring requirement
+  ---
+  duration_ms: 1650.1238
+  ...
+# Subtest: one contact cannot farm the actuator; pause and post-open crash preserve locked success
+ok 7 - one contact cannot farm the actuator; pause and post-open crash preserve locked success
+  ---
+  duration_ms: 67.9467
+  ...
+# Subtest: visible ring uses car center, pays once per flight and delegates actual100/60 caps
+ok 8 - visible ring uses car center, pays once per flight and delegates actual100/60 caps
+  ---
+  duration_ms: 4.3537
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 10256.1233

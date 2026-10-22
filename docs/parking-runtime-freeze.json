@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-22",
+  "status": "Runtime, tests and replay scripts frozen. No further runtime/test/build writes. Supervisor owns independent checks, Git and Pages.",
+  "baselineCommit": "9667acaca14f9e789a6347f8c42541c73b2cab68",
+  "production": {
+    "file": "dist/assets/index-BJJYocJ2.js",
+    "sha256": "7f336f7bee01486d1bd286cda4e6d64d5fb749bec83a1f51426200bba3278e92",
+    "bytes": 1425453,
+    "base": "./"
+  },
+  "runtime": {
+    "index.html": "45f15557e9e54790f07aba69ddfc2b1d08cbb010a6b8850db5f887649bf3a71b",
+    "package-lock.json": "15c99d90bac2f0fa0120fd49d23519215d83cb3ad92558473493bb2c893627fa",
+    "package.json": "aa88a493e5da7b9437678123868ebc5eeb31e862a376645ea83bb1c779511399",
+    "public/favicon.svg": "4e1858f24e85cc71b88502caf6968c5ee53048485c18c63bfcc9ff800ec6fc10",
+    "src/art-config.js": "fc5cf7e5ce69879cfc1508011f03e3d9e0d6737c2865670880bde18d7df9600d",
+    "src/art-geometry.js": "98ba39f83c47588bcfaab751a02424cfc42cf4fa6ef1ecca68980674d19c300f",
+    "src/audio.js": "7a75e89d209a6b21c6326347c07f92737657dff71733ea3fb42aec35d578ab3b",
+    "src/car-art.js": "4ae33301382a81a2f05196408a5e8c37ff602f16c90626f3b4f62e2e3dc27fd7",
+    "src/challenge-config.js": "aedc28159742986ba20f5ed39efe54b0e6f130f68506f4986393b2b1a6b7c473",
+    "src/challenge-course.js": "56993c51fcde00dfa4b55856a0d78defee08149ed188897708359dc3b8aa4229",
+    "src/challenge-scenario.js": "c74ef10cd7b74cae87a36608a136202a055b8691c455d3c953d92b4caf9778e4",
+    "src/challenge.js": "b579a1052971f79593e54929d95242480437c238a8e42dd0caa074b5a5dec7b8",
+    "src/city-art.js": "c20b4bbc0ad0bdeb171d0c2a734a6bd1b3cbfd37229efb1e29c6bdd290c81659",
+    "src/config.js": "0d238911873c7b55ddfd3595abc92e30e97819542aea3f76b5002ac6137b667b",
+    "src/drive-feedback.js": "f66aa1ea88fa6066ef327adb6662376f46ed2d5b1c936cd8557bd4ac57fb032d",
+    "src/feedback-config.js": "6b705c28e3271da2ae44c63471686cde299d0049010dfe4693c96fd95f0e5f83",
+    "src/feedback-model.js": "04527713aed62116822ff2c58cee80a0f825723149c0163f940e6beb4eace2dd",
+    "src/feedback.js": "efb05894691df2c603d9546054fdf1189245b689d3042f5f621d0e5bdbc37725",
+    "src/flight-audio.js": "b8839b5f9dfce876dd8ae872b5d70bc34d9c1c135f67d442e23e8eef21130fc0",
+    "src/flight-effects.js": "89e376482db9a4e2b0ff29a625890e5c7d91ffd01ec046d11b223b981c9ba43f",
+    "src/hud-model.js": "5c16c3539f9c931fda61c77aada199231cbeeb9ebef4238ac39210cc3bcf7f3d",
+    "src/input.js": "39403710cd884655357b0587c7310a7ec25167e33b3c68497e68e59ba258ce23",
+    "src/landing-model.js": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1",
+    "src/main.js": "f94728a4116a112c3f43abbba78e86176dc696bdcf6331f774954cd8a18fe5f0",
+    "src/one-jump-art.js": "e094fc3286802021fac65140f914f4ae594283919097aa5dcbc6e7efdb5fc895",
+    "src/one-jump-config.js": "1b707691b3fc1f1122152a22a05f5364ff542afd0745765169838df5883895b0",
+    "src/one-jump.js": "83c2ae116205be8b7036c881d19720e1cc011f95d9143628efa855aac99f258f",
+    "src/particles.js": "6ecba52d66d716fc216faded5e0b74bcc72f58277409cb6f8dcd5883096835dc",
+    "src/pc-hud.css": "b3f1db06887a69d1f6c5132fbce09ab8cd54a7d5ba7616ed1de61d5c32f8bac3",
+    "src/presentation-model.js": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a",
+    "src/scenarios.js": "2839eee80e069fe68a3b94ceb59fe6f2100bb7754001bbf3c1303835e3cd88e8",
+    "src/score-config.js": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48",
+    "src/scoring.js": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084",
+    "src/simulation.js": "6ba386f0fd98eac43954e59be24b1bc45a5a813faa11f317ec0ec5ad988eda78",
+    "src/speed-lines.js": "34957cd65f652d6495a430e1740c5de3ad305032d2c8b9d8a23b1f0c931c7153",
+    "src/sprint-art.js": "e0d3e1fa0dbc8c301ef7d961475749ebcacf75c7b0eca822ddbb01d647f384f3",
+    "src/sprint-config.js": "2717dd36a7bcaae246c619c314f994d4c40c5ae0a9032aaf6bf7fba448f0507e",
+    "src/sprint-visuals.js": "43b0911e74eaeb0418a7937ac1b038462e55332edb5af738ec9b6b56141f15f0",
+    "src/sprint.js": "7fd775a944dbf2645dd06c558f71832db269d7e841667cf070b9635d56d1325d",
+    "src/style.css": "a83f4ce89541cb385a1b77d090b6de7c48ebef5da9302b989c80467c32b7350a",
+    "src/supply-art.js": "1bc52ec246f06c7307bae2ecd910a27d7153e17fa9911a1c314d931a56b1c931",
+    "src/supply-config.js": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4",
+    "src/vehicle-feedback.js": "a054efd48a4e4fbf7d38f28c4ee6a9919e40e2209e4f5fbdc677504df90cde61",
+    "src/world.js": "4d9a8649d9925ba7c19023de5cad34d458783bdb7bd141af36b0363298a31640",
+    "vite.config.js": "5907f52cd5cb812f4a8b3e4c0111b37679b78f5fb0be552fe11e3fc774c0fe50",
+    "src/flow-model.js": "35931acbfee1e8a0359b705d9e7364d6edf2da0f706354aacf395d92751a9eb0",
+    "src/flow-ui.css": "154e696bd0a619e7798cf3b520eb83f1d1a32e2033071e93e8e8542632fd70c5",
+    "src/ceiling-model.js": "fce3b2ddbf1300adc5ba2a480299e0d7e3f14d7044d6d81a027752570e648f51",
+    "src/touch-layout.js": "2c9665e143f88b57d67d1616af532b4a0290ee0b4068e9cd9090ef01ebfd30a7",
+    "src/mobile-hud.css": "5719b90debecdf4019a168456bc636700d1b978af7b23f5445c6a142a5b01766",
+    "src/parking-config.js": "f10101ebbb0f337e7850465926f7c80f0dcaf635584689251eeb4e8cdfbbc90e",
+    "src/parking.js": "18a044cb1bf8023f48fd4c8b970645f8d1e052ddedb14ecb8e658eab0e9cc9f9",
+    "src/parking-art.js": "2e5361996217388bbdb42fca235fe1a3aa4d6f6a365524552796a3e7ba74fc5a",
+    "src/parking-audio.js": "7980863305afd8aeb6a5b32e24dc1f012d1cfbbc344de3cc10d5f93fe3465ab3",
+    "src/parking.css": "f784dbc435f02231daaf0d44ed9d8e4e61e0907fb083a92a09b69f59f1a1ab5c"
+  },
+  "tests": {
+    "tests/art.test.js": "b318f239b48791de9998237c37bcbd497c5861fec6b3d510f595d38252e7559f",
+    "tests/browser/art.spec.js": "30df13bd4b9ff7ee08d50d6a28c5a041098144a09949eb63f85e62192782274b",
+    "tests/browser/challenge-flow.spec.js": "98a0e69407299166e24b83b3749468c5f829b03d1458ce46b547b2e16e2fb0d2",
+    "tests/browser/challenge.spec.js": "af7e3b40e26c54b8c31b574c68091dfa7319bc202bc9c4e836d554b577ed2685",
+    "tests/browser/continuous-first.spec.js": "ee55cd7a24d41bba6117dde0921eb5e9562e76a244866c78d3f2fb5c66b1493f",
+    "tests/browser/continuous-touch.spec.js": "2320a3357998ffde3dcfeceba7bb49fb2758a02959b92969097ed620034461fb",
+    "tests/browser/continuous-yaw.spec.js": "55eabb72814967af5c77c66e6330c4abda25d95e0eb27a387c41c05abc87b41f",
+    "tests/browser/feedback.spec.js": "b36d1ee46b7f621d31cff2179c1a1a743a3640c9f40cd6c7beab761b54f83106",
+    "tests/browser/game.spec.js": "6689a61d12c9bbb4ab130de30e114a7e125e8a3505af4e7d8fbf69f086a2ec58",
+    "tests/browser/landing-boundary.spec.js": "d641af765cec945d19a5a77691c13881d5af7f23fb4811d008aad5f3cb36afe3",
+    "tests/browser/landing-flow.spec.js": "e4b5f0dd1354086758175dcb70339543d5fbf06c50a194aa0e90fcd0dbfdebc7",
+    "tests/browser/one-jump.spec.js": "4e30672307f80fe15dedd0fbe5409d245b90dd62e8b92ba30d4e75a22a9e067c",
+    "tests/browser/pc-hud.spec.js": "b540ec4a4fc0d4c6a63abe6889b969cf07915e6967476c92d698a63c3e44bfc6",
+    "tests/browser/performance.spec.js": "d699812e2fbf396472ac81c05d21e53eded5cb0be2f3316386b4c17db3aa9a5d",
+    "tests/browser/rework-evidence.spec.js": "5ce6d22625c8cc0049848056c52a20ecf5bc33dd4808d0afce75a700f013a964",
+    "tests/browser/shared-feedback.spec.js": "ee46908c63cd48615109939d3454e080d68623dfae82b088cedad8441b3ebd9b",
+    "tests/browser/sprint.spec.js": "aadc349b67a37e562859046eb291af5fc9a2e3d3107718ee2eacec8e4852629e",
+    "tests/challenge-flow.test.js": "95da817de08952142b30413140375ac413b5ccd3da6c42f7947cedbcb9aa9c60",
+    "tests/challenge.test.js": "f6317e7f0f22bc0e37625654fdea6f58f199bf5403cf586269c9c0bdee8ef0f1",
+    "tests/core.test.js": "f82c133f8aeac4999969f1bace2178809276610cfd5d0bc747068749f7212656",
+    "tests/feedback.test.js": "5cd77a8d5424d4a834b053d55c20ec5690787bb53d9e75057e198ddc0863558b",
+    "tests/hud-model.test.js": "7270591c7bb93a7b8fff344590787ae89125c24f1f16785c771443758e148968",
+    "tests/landing-model.test.js": "d07ab5bff3d4971baecae45fd6a61cd8b265998e38385a63e5a12ff859775eb3",
+    "tests/one-jump.test.js": "dc4a04dd0a7b4ead5eef9781bb631bff9199f5d50be25ba6f5b76d6f530eca22",
+    "tests/rework-physics.test.js": "90b0b96f868aee021a671a6ad007b5d266f75e40d56e7def41f05757059476ef",
+    "tests/shared-feedback.test.js": "8f06fc2f5932cc594209bc81ab6950351004f0268c7ee4ce75427ed4b2e49048",
+    "tests/sprint-visuals.test.js": "e9cfc7238a1ed649b268677b85a5850031dd0f4570a30f2f36f1880c478221a9",
+    "tests/sprint.test.js": "51aaca51eaf5096b32ca895b91648a5a9828d0ec9b065b6d6e1512e7877c2fe9",
+    "tests/yaw.test.js": "d64a9295d7d534cc416c2337a0bc8f158c3ceaa062e6264c7b327c7b3072b727",
+    "tests/flow-model.test.js": "ae564a3e41a42b24c789f6ace50f3d372545d4c77903d7e0f8b48fb9ce720815",
+    "tests/browser/menu-results.spec.js": "50d81bee99439594b7513e71f0d59fd12f1fc911d61a1fd4d40279fb67f68842",
+    "tests/browser/menu-results-production.spec.js": "cf319786ff3f5784d746375ac2d99f11000f1b896ab3e6fb57fffab3617efa32",
+    "tests/ceiling.test.js": "5a63e577063469130d1703010d7ff41fb0444cd8abebfdbcb5d14fa3453c6f94",
+    "tests/touch-layout.test.js": "0e59a2c6061cd3cc29a92cf2cac4d9a478924440ce3a59ac602a04550a1b2d21",
+    "tests/browser/mobile-hud.spec.js": "a1ae16ea52b1317374af711199cca4274dfdd0c94471ff89ff50693e1c128615",
+    "tests/browser/mobile-hud-layout.spec.js": "3b7f8a801bf743f607b24884b89860828070305f9bc2f5d9834ad63b850cbb1c",
+    "tests/browser/mobile-hud-production.spec.js": "b7c2f7b563263f8e789a87d72c12be3ec47448f05290be6073df76471bdd67b7",
+    "tests/parking.test.js": "f853b2e4a52bec0b27f2fe1662c2cc275177330194db665124e3c2ff35fb2c28",
+    "tests/browser/parking.spec.js": "d03c3fba7583941baec0983eb8ee6542323a74a07b90b1965a7a1d5a00b9ca07",
+    "tests/browser/parking-mobile.spec.js": "8ccb2278218ffa7f82549412ceb7dabb1fbbcd9bcc4550bca1565fc0e9f3ecd3",
+    "tests/browser/parking-recovery.spec.js": "17f83628030fee74d99659292ab4b62d9d0ef372c3d1c1123b3d3c18724e8aab",
+    "tests/browser/parking-production.spec.js": "ba8aea33001caf94153ede4ada17ae44c10dabd009e3fe28ec6d7cf97851aed5"
+  },
+  "replay": {
+    "scripts/mobile-ceiling-routes.mjs": "91a5ac32de9589920b2a663cb04741edd906e69d79301a73139dbde932b1f18a",
+    "scripts/parking-routes.mjs": "f471c9a644b625125eeb46ebe19b1752ad71d7299bd13417c57debc9a51faa7b",
+    "scripts/parking-retry.mjs": "3de05a6c65537933f55a37b9216928333bdcfbad2ce10b55fff0f0207149d384"
+  },
+  "protected": {
+    "src/input.js": {
+      "baselineGitLfSha256": "1d852f90e3485eda9261d4bf3017ceff8e26a33a1fc1d00431dcbc3fab0a505c",
+      "worktreeSha256": "39403710cd884655357b0587c7310a7ec25167e33b3c68497e68e59ba258ce23",
+      "normalizedLfSha256": "1d852f90e3485eda9261d4bf3017ceff8e26a33a1fc1d00431dcbc3fab0a505c",
+      "contentMatchesBaseline": true
+    },
+    "src/scoring.js": {
+      "baselineGitLfSha256": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084",
+      "worktreeSha256": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084",
+      "normalizedLfSha256": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084",
+      "contentMatchesBaseline": true
+    },
+    "src/landing-model.js": {
+      "baselineGitLfSha256": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1",
+      "worktreeSha256": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1",
+      "normalizedLfSha256": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1",
+      "contentMatchesBaseline": true
+    },
+    "src/ceiling-model.js": {
+      "baselineGitLfSha256": "fce3b2ddbf1300adc5ba2a480299e0d7e3f14d7044d6d81a027752570e648f51",
+      "worktreeSha256": "fce3b2ddbf1300adc5ba2a480299e0d7e3f14d7044d6d81a027752570e648f51",
+      "normalizedLfSha256": "fce3b2ddbf1300adc5ba2a480299e0d7e3f14d7044d6d81a027752570e648f51",
+      "contentMatchesBaseline": true
+    },
+    "src/config.js": {
+      "baselineGitLfSha256": "6f557580bc680c8a43105512315cd4a5f75763bf1f9a61e25d86cc87c390eb4c",
+      "worktreeSha256": "0d238911873c7b55ddfd3595abc92e30e97819542aea3f76b5002ac6137b667b",
+      "normalizedLfSha256": "6f557580bc680c8a43105512315cd4a5f75763bf1f9a61e25d86cc87c390eb4c",
+      "contentMatchesBaseline": true
+    },
+    "src/simulation.js": {
+      "baselineGitLfSha256": "aadaf8453161ca7a0f2c1c6c5e88003fdb59d625f712d30e02190cd1c1204b7c",
+      "worktreeSha256": "6ba386f0fd98eac43954e59be24b1bc45a5a813faa11f317ec0ec5ad988eda78",
+      "normalizedLfSha256": "aadaf8453161ca7a0f2c1c6c5e88003fdb59d625f712d30e02190cd1c1204b7c",
+      "contentMatchesBaseline": true
+    },
+    "src/hud-model.js": {
+      "baselineGitLfSha256": "3bb6ade7dcd9e7c7dcb991d156948daa33f9df83ef31b1d2ca828e438b1e8aaa",
+      "worktreeSha256": "5c16c3539f9c931fda61c77aada199231cbeeb9ebef4238ac39210cc3bcf7f3d",
+      "normalizedLfSha256": "4bce3937406f93c0dc69718b28d521535f04ba2b9beb6285e26f9abc1c4b6a6d",
+      "contentMatchesBaseline": false
+    },
+    "src/flow-model.js": {
+      "baselineGitLfSha256": "574b07916a7a2a351535c082db707590314c259501185903498a48b4fd569a98",
+      "worktreeSha256": "35931acbfee1e8a0359b705d9e7364d6edf2da0f706354aacf395d92751a9eb0",
+      "normalizedLfSha256": "574b07916a7a2a351535c082db707590314c259501185903498a48b4fd569a98",
+      "contentMatchesBaseline": true
+    },
+    "src/audio.js": {
+      "baselineGitLfSha256": "2c53303fa5122ba00d6ae487ad393d015309584be0955889144eb1a212ca1bc4",
+      "worktreeSha256": "7a75e89d209a6b21c6326347c07f92737657dff71733ea3fb42aec35d578ab3b",
+      "normalizedLfSha256": "2c53303fa5122ba00d6ae487ad393d015309584be0955889144eb1a212ca1bc4",
+      "contentMatchesBaseline": true
+    },
+    "src/feedback.js": {
+      "baselineGitLfSha256": "29453d94bdd1f13e793b5c428508909f126a5bb55eaf0e434fe84dd90475f95b",
+      "worktreeSha256": "efb05894691df2c603d9546054fdf1189245b689d3042f5f621d0e5bdbc37725",
+      "normalizedLfSha256": "27c2129ed62a3f7148e095a0dba4456eee86e6a5a376fa0ab3f0a3bf0ae4c17d",
+      "contentMatchesBaseline": false
+    },
+    "src/world.js": {
+      "baselineGitLfSha256": "5fdcc641bd80bdf21cb889405503563d82fbba71bee5c0d6c4ab4b19d12b508c",
+      "worktreeSha256": "4d9a8649d9925ba7c19023de5cad34d458783bdb7bd141af36b0363298a31640",
+      "normalizedLfSha256": "b9a5ab2e532cdd5380d4bba0b396516d4dc81de5d151fa98145a27a2c3fa4d0d",
+      "contentMatchesBaseline": false
+    },
+    "src/presentation-model.js": {
+      "baselineGitLfSha256": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a",
+      "worktreeSha256": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a",
+      "normalizedLfSha256": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a",
+      "contentMatchesBaseline": true
+    },
+    "src/score-config.js": {
+      "baselineGitLfSha256": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48",
+      "worktreeSha256": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48",
+      "normalizedLfSha256": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48",
+      "contentMatchesBaseline": true
+    },
+    "src/challenge-config.js": {
+      "baselineGitLfSha256": "d55f4768e1cb2d510793b82b899837e36a1f1e3f7f4ddce69dfb9eee668204c6",
+      "worktreeSha256": "aedc28159742986ba20f5ed39efe54b0e6f130f68506f4986393b2b1a6b7c473",
+      "normalizedLfSha256": "d55f4768e1cb2d510793b82b899837e36a1f1e3f7f4ddce69dfb9eee668204c6",
+      "contentMatchesBaseline": true
+    },
+    "src/sprint-config.js": {
+      "baselineGitLfSha256": "f59a721035e6d356eb6322936f3ca72e9c6e95c1ea31bdf640f516fa4884b415",
+      "worktreeSha256": "2717dd36a7bcaae246c619c314f994d4c40c5ae0a9032aaf6bf7fba448f0507e",
+      "normalizedLfSha256": "f59a721035e6d356eb6322936f3ca72e9c6e95c1ea31bdf640f516fa4884b415",
+      "contentMatchesBaseline": true
+    },
+    "src/supply-config.js": {
+      "baselineGitLfSha256": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4",
+      "worktreeSha256": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4",
+      "normalizedLfSha256": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4",
+      "contentMatchesBaseline": true
+    }
+  },
+  "lineEndings": "Baseline is Git LF blob; untouched checkout files include CRLF. Compare normalizedLfSha256 to baseline for content protection. Frozen runtime/tests/replay use exact actual worktree-byteSHA. Protected files were not rewritten to normalize line endings.",
+  "modeOnlyChanges": {
+    "src/hud-model.js": "Parking-only target/retry branches",
+    "src/feedback.js": "Parking mechanism interval suppresses scoring audio; existing timeline/landing audio retained",
+    "src/world.js": "Parking art and floor/bridge/recess presentation; original camera and impact retained"
+  },
+  "validation": "docs/parking-validation.json"
+}

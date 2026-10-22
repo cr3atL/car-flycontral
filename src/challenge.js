@@ -1,3 +1,4 @@
+import{ParkingEscape}from'./parking.js';
 import{flowGeometry,courseBoxes,courseCollision,gateHeight}from'./challenge-course.js';
 import {Sprint} from './sprint.js';
 import { OneJump } from './one-jump.js';
@@ -25,7 +26,7 @@ export function buildGroup(def, z, time) {
 }
 export class GameSession {
   constructor(storage = null) {
-    this.sim = new Simulation(); this.oneJump=new OneJump(this.sim);this.sprint=new Sprint(this.sim); this.storage = storage; this.best = 0; this.storageAvailable = true;
+    this.sim = new Simulation(); this.oneJump=new OneJump(this.sim);this.sprint=new Sprint(this.sim);this.parking=new ParkingEscape(this.sim); this.storage = storage; this.best = 0; this.storageAvailable = true;
     try { const n = Number(storage?.getItem(SCORE.bestKey)); if (Number.isFinite(n) && n > 0) this.best = Math.round(n); if (!storage) this.storageAvailable = false; } catch { this.storageAvailable = false; }
     this.phase = 'menu'; this.mode = 'challenge'; this.paused = false; this.resuming = false; this.resumeRemaining = 0; this.countdown = 0;
     this.elapsed = 0; this.groups = []; this.nextGroup = 0; this.result = null; this.resetStats();
@@ -33,7 +34,8 @@ export class GameSession {
   }
   resetStats() { this.tutorial = { stage: 'accelerate', firstLanding: null, rollLanding: null, repeatLanding: null, complete: false, retry: false, shortPractice: false, heldPractice: false }; this.stats = { actions: 0, groups: 0, obstacleScore: 0, bankedTricks: 0, rings: 0, grazes: 0, precision: 0, precisionPads: 0, highestCombo: 0, repairsUsed: 0, crashes: 0, tutorialMistakes: 0, skipped: 0 }; this.lastLandingAt = -10; this.nextAllowedAt = 0; this.recoveryZ = 0;this.routeAnchor=null; }
   start(mode = 'challenge') {
-    this.mode = mode; this.sim.reset(); this.sim.environment = mode === 'challenge' ? this.environment : mode==='sprint'?this.sprint.environment:this.oneJump.environment;
+    this.mode = mode; this.sim.reset(); this.sim.environment = mode === 'challenge' ? this.environment : mode==='sprint'?this.sprint.environment:mode==='parking'?this.parking.environment:this.oneJump.environment;
+    if(mode==='parking'){this.sim.speed=C.practiceSpeed;this.sim.z=-40;this.parking.reset();}
     if(mode==='sprint'){this.sim.speed=C.practiceSpeed;this.sprint.reset();}
     if (mode === 'practice') {this.sim.speed = C.practiceSpeed;this.oneJump.reset();}
     this.phase = mode === 'challenge' ? 'countdown' : 'running'; this.countdown = mode === 'challenge' ? H.countdown : 0;
@@ -41,13 +43,14 @@ export class GameSession {
     if (mode === 'challenge') { this.groups.push(buildGroup(GROUPS[0], 120, 0)); this.nextGroup = 1; }
   }
   menu() { if(this.mode==='sprint'){this.sprint.pending=this.sprint.motor=null;this.sprint.lastAcceleration=0;}this.sim.clearInput(); this.phase = 'menu'; this.paused = false; this.resuming = false; this.resumeRemaining = 0; }
-  get playable() { return this.phase === 'running' && !this.paused && !this.resuming && !(this.mode==='sprint'&&this.sprint.complete); }
+  get playable() { return this.phase === 'running' && !this.paused && !this.resuming && !(this.mode==='sprint'&&this.sprint.complete)&&!(this.mode==='parking'&&this.parking.complete); }
   setPaused(value) { if (!['running', 'countdown'].includes(this.phase)) return; this.paused = value; this.resuming = false; this.resumeRemaining = 0; this.sim.clearInput({ preservePulse: true }); }
   resume() { if (!this.paused) return; this.resuming = true; this.resumeRemaining = H.resumeCountdown; this.sim.clearInput({ preservePulse: true }); }
   tick(dt) {
     if (this.resuming) { this.resumeRemaining = Math.max(0, this.resumeRemaining - dt); if (this.resumeRemaining < 1e-8) { this.resuming = false; this.paused = false; } return; }
     if (this.paused || this.phase === 'menu' || this.phase === 'results') return;
     if (this.phase === 'countdown') { this.countdown = Math.max(0, this.countdown - dt); if (this.countdown < 1e-8) { this.phase = 'running'; this.sim.clearInput(); } return; }
+    if(this.mode==='parking'){if(this.parking.complete){this.sim.clearInput();return;}this.sim.step(dt);this.parking.update(dt);return;}
     if(this.mode==='sprint'){if(this.sprint.complete){this.sim.clearInput();return;}this.sim.step(dt);this.sprint.update(dt);return;}
     if (this.mode === 'practice') { this.sim.step(dt); return; }
     if (this.elapsed >= H.duration - 1e-8) { this.finish('time'); return; }
@@ -136,5 +139,5 @@ export class GameSession {
     try { this.storage?.setItem(SCORE.bestKey, String(this.best)); } catch { this.storageAvailable = false; }
     this.result = { reason, score, elapsed: this.elapsed, unbanked: Math.round(unbanked), rating: ratingFor(score), stats: { ...this.stats }, best: this.best, newBest: score > previousBest };
   }
-  snapshot() { return { phase: this.phase, mode: this.mode, elapsed: this.elapsed, remaining: Math.max(0, H.duration - this.elapsed), countdown: this.countdown, paused: this.paused, resumeRemaining: this.resumeRemaining, resuming: this.resuming, sprint:this.mode==='sprint'?this.sprint.snapshot():null,practice:this.mode==='practice'?this.oneJump.snapshot():null, stats: { ...this.stats }, tutorial: { ...this.tutorial }, routeAnchor:this.routeAnchor,nextGroup: this.nextGroup, groups: structuredClone(this.groups), result: this.result, best: this.best, storageAvailable: this.storageAvailable }; }
+  snapshot() { return { parking:this.mode==='parking'?this.parking.snapshot():null, phase: this.phase, mode: this.mode, elapsed: this.elapsed, remaining: Math.max(0, H.duration - this.elapsed), countdown: this.countdown, paused: this.paused, resumeRemaining: this.resumeRemaining, resuming: this.resuming, sprint:this.mode==='sprint'?this.sprint.snapshot():null,practice:this.mode==='practice'?this.oneJump.snapshot():null, stats: { ...this.stats }, tutorial: { ...this.tutorial }, routeAnchor:this.routeAnchor,nextGroup: this.nextGroup, groups: structuredClone(this.groups), result: this.result, best: this.best, storageAvailable: this.storageAvailable }; }
 }

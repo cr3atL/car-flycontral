@@ -1,0 +1,4019 @@
+{
+  "method": "Actual4173 production, no debug API. Ordinary native keys forPC shortcut; native touchscreen left selection, separate boost, two thumbs three axes after rack for667/844. All captures after release.",
+  "script": "./assets/index-BJJYocJ2.js",
+  "trace": {
+    "inputs": [
+      {
+        "type": "pointerdown",
+        "id": 2,
+        "trusted": true,
+        "wall": 4865.399999976158
+      },
+      {
+        "type": "pointerup",
+        "id": 2,
+        "trusted": true,
+        "wall": 6573.899999976158
+      },
+      {
+        "type": "pointerdown",
+        "id": 3,
+        "trusted": true,
+        "wall": 7919.300000011921
+      },
+      {
+        "type": "pointerup",
+        "id": 3,
+        "trusted": true,
+        "wall": 9018
+      },
+      {
+        "type": "pointerdown",
+        "id": 4,
+        "trusted": true,
+        "wall": 9834.899999976158
+      },
+      {
+        "type": "pointerdown",
+        "id": 5,
+        "trusted": true,
+        "wall": 9836.399999976158
+      },
+      {
+        "type": "pointermove",
+        "id": 5,
+        "trusted": true,
+        "wall": 9918.199999988079
+      },
+      {
+        "type": "pointerup",
+        "id": 4,
+        "trusted": true,
+        "wall": 10220.300000011921
+      },
+      {
+        "type": "pointerup",
+        "id": 5,
+        "trusted": true,
+        "wall": 10220.5
+      }
+    ],
+    "states": [
+      {
+        "wall": 4713.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 4752.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 4789.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 4827.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 4861.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 4894.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 4934.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 4967.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 4994.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5042.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5072.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5096.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5126.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5164,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5190.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5218.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5242.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5266,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5289.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5312,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5336,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5361.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5386.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5408.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5443.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5472.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5502.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5528.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5555.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5579.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5604.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5627.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5654.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5681.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5712.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5735.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5779.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5812.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5846.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5877.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5905.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5936.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 5968.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6002.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6048.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6083.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6110.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6138.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6158.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6186.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6212.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6236.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6257.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6285,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6314.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6344.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6417.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6457.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6480.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6506,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6535.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6569.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6607.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6647.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6671,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6696.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6720,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6745.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6769.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6791.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6816.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6837.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6861.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6886.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6916.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6937.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6958.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 6978.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7004.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7028,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7059,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7088.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7109.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7132.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7164.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7188.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7207.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7226.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7245.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7260.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7279.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7295.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7313.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7332.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7352.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7373.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7396.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7421.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7444.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7469.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7490.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7510.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7531.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7551.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7584.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7611.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7633.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7652.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7677,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7703.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7728.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7749.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7768.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7790.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7811.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7833,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7856.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7877.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7895.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7917.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 7967.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8010.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8203.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8260.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8297.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8331.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8374,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8399.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8460.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8494.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8522.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8551.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8581.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8604,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8634.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8662.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8679.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8708.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8731.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8753.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8777.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8798.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8817.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8839.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8870.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8896.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8922.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8953.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 8983.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9014.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9037.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9071.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9102.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9124.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9144.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9169.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9202.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9239.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9263.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9286.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9314.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9339.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9364.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9389.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9411.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9432.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9459.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9486.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9513.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9556.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9589.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9646,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9666.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9688.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9708,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9725.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9744.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9760.300000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9778.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9800.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9817,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9833.399999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9856,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9876.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9914.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9951.399999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 9990.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10019.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10046.399999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10077,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10105.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10134.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10166.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10218.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10250.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10282,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10304.800000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10329.599999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10362.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10394.5,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10414.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10438.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10466.599999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10486.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10512.599999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10539.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10563.399999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10596.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10618.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10640.599999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10671,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10697.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10724.5,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10748.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10766.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10785.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10817.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10834.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10860.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10886.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10910.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10932.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10958.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 10985.399999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11010.599999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11039.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11061.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11082.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11110.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11134.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11163.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11186.800000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11214.599999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11239.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11259.5,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11275.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11292.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11316.800000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11341.399999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11366.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11385.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11410.399999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11431.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11451.800000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11479.5,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11502.599999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11530,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11553.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11573.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11594,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11612,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11633.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11657.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11684,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11711.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11729.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11748.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11766.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11788.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11811.800000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11835.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11860.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11885.5,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11906.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11932,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11955,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 11979,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12009.5,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12031.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12055.399999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12087.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12116.5,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12146.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12173.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12205.099999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12227.800000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12253.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12278,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12303.300000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12325.699999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12349,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12370.599999964237,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12390.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12413,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12435.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12457.800000011921,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12481.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12514.800000011921,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12542.099999964237,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12566.800000011921,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12585,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12603,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12624.899999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12645.800000011921,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12667,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12690.199999988079,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12708.599999964237,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12726,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12751,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12779.800000011921,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12803.099999964237,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12824.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12848.599999964237,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12867.199999988079,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12887,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12907.699999988079,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12927.599999964237,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12947.300000011921,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12966.899999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 12984.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13007.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13037.800000011921,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13061.899999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13080.899999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13115.199999988079,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13141.300000011921,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13166.5,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13185.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13206.599999964237,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13231.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13254.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13283.5,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13312.599999964237,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13341.300000011921,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13377.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13398.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13421.5,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13447.399999976158,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13486.699999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13518.899999976158,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13540.599999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13571.199999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13592.800000011921,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13623.399999976158,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13645.899999976158,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13667.099999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13695.099999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13720.699999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13751.199999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13776.599999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13801.599999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13827.699999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13853.5,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13881.199999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13920.800000011921,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13954,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 13977.699999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14005.5,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14031,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14054.399999976158,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14083.099999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14104.5,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14135.099999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14154.399999976158,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14183,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14209.599999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14232.300000011921,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14253.199999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14273,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14300.300000011921,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14321.699999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14340.300000011921,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14357.399999976158,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14374.099999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14390.099999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14414.699999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14449.099999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14470.099999964237,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14489.300000011921,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded"
+      },
+      {
+        "wall": 14565.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14589.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14610.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14634.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14656.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14686.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14708.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14729.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14749.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14772.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14790.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14814.199999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14832.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14848.699999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14872.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14893.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14907.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14923.199999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14949.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14965.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 14984.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15006.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15028.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15050.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15068.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15088.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15115.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15138.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15161.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15181.699999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15201.199999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15218.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15237.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15255,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15279.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15299.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15317,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15337.199999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15358.699999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15383.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15400.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15428.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15446.199999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15464,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15484.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15512.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15531.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15552,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15577.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15598.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15613.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15627.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15644.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15657.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15671.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15696.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15720,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15742.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15763.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15780.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15796.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15814.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15834.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15865.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15882.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15902.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15920.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15937.699999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15956.699999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15975.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 15991.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16008.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16024.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16044.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16066.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16090.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16115.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16132.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16155.300000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16181.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16198.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16214.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16230.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16246.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16266.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16287.199999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16310.800000011921,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16329.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16347.699999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16365.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16383.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16401.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16416.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16430.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16446.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16461.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16477.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16492.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16508.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16524.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16543,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16562.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16581.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16595.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16618.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16634.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16649.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16664.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16679.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16701.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16727.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16749.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16769.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16795,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16816.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16831,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16850.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16875.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16898.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16918.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16939.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16966.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 16985.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17009.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17031.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17048.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17066.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17082.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17096.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17113.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17132.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17153.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17174,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17194.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17215.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17233.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17248.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17272.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17294.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17314.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17329.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17344.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17366.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17385.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17401.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17426.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17446.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17474.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17495.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17511.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17537,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17562.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17581.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17601.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17615.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17627.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17641.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17654.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17671.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17690,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17703.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17719.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17743.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17768.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17789.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17809,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17834.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17852.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17870.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17891.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17921.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17946,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17962.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 17982,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18000.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18017.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18035.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18050.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18066.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18079.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18101,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18120.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18145.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18167.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18183.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18199.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18213.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18228.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18245.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18266.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18283.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18300.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18314.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18332.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18347.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18366.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18390.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18406.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18433.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18449.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18464.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18478.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18493.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18506.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18523.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18541.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18561.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18576.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18591.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18606.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18622.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18638.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18660.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18676.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18692.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18711.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18728.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18745.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18760.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18774.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18791.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18809.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18825.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18840.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18858.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18873,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18895.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18916.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18937.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18957.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18979.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 18996.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19019,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19032.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19049,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19064.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19078.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19091.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19109.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19121.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19140.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19159.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19172.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19190.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19208,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19229.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19248.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19261.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19277.30000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19290.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19303,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19320.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19344,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19365.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19381.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19396.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19409.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19423.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19440.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19454.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19480.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19506,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19529.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19545.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19561,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19576.099999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19588,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19603.69999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19619.19999998808,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19643.5,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19658.80000001192,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19675.899999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19705.69999998808,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19741,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19759.69999998808,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19790.19999998808,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19818.099999964237,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19835.899999976158,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19851.899999976158,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19870.399999976158,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19888.80000001192,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19906,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19922.69999998808,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19940,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19964.19999998808,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19981.19999998808,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 19997.599999964237,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 20014.599999964237,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      },
+      {
+        "wall": 20025.599999964237,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked"
+      }
+    ],
+    "bonuses": [
+      {
+        "text": "+30",
+        "wall": 10166.5
+      }
+    ]
+  },
+  "errors": []
+}

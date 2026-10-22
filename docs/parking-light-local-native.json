@@ -1,0 +1,3906 @@
+{
+  "method": "Original-speed native keys, state read only after releases. No pose/velocity/score/time writes.",
+  "light": {
+    "assist": true,
+    "time": 9.300000000000113,
+    "x": 7.199766655172667,
+    "y": -0.09611373208600973,
+    "z": 301.86738145527005,
+    "vx": 1.0548026235498777e-8,
+    "vy": 0.3763682368343307,
+    "speed": 38.12907766646421,
+    "heading": 9.070643632583725e-11,
+    "energy": 0.8325,
+    "pressure": 0.8325,
+    "mainPressure": 83.25,
+    "grounded": true,
+    "pitch": 0,
+    "roll": 0,
+    "yaw": 0,
+    "bodyExtents": {
+      "halfX": 1.1200000001904835,
+      "halfY": 0.76,
+      "halfZ": 2.1000000001015913
+    },
+    "angularVelocity": {
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0
+    },
+    "attitude": {
+      "pitch": {
+        "omega": 0,
+        "targetOmega": 0,
+        "active": false,
+        "direction": 0,
+        "command": 0,
+        "mode": "ground",
+        "releasedAt": -99,
+        "pressedAt": 0,
+        "drivenTime": 0,
+        "pressAngle": 0,
+        "spent": 0,
+        "tracker": {
+          "direction": 0,
+          "progress": 0,
+          "retreat": 0,
+          "eligible": false
+        }
+      },
+      "roll": {
+        "omega": 0,
+        "targetOmega": 0,
+        "active": false,
+        "direction": 0,
+        "command": 0,
+        "mode": "ground",
+        "releasedAt": -99,
+        "pressedAt": 0,
+        "drivenTime": 0,
+        "pressAngle": 0,
+        "spent": 0,
+        "tracker": {
+          "direction": 0,
+          "progress": 0,
+          "retreat": 0,
+          "eligible": false
+        }
+      },
+      "yaw": {
+        "omega": 0,
+        "targetOmega": 0,
+        "active": false,
+        "direction": 0,
+        "command": 0,
+        "mode": "ground",
+        "releasedAt": -99,
+        "pressedAt": 0,
+        "drivenTime": 0,
+        "pressAngle": 0,
+        "spent": 0,
+        "tracker": {
+          "direction": 0,
+          "progress": 0,
+          "retreat": 0,
+          "eligible": false
+        }
+      }
+    },
+    "forces": {
+      "up": 3.065161396950373,
+      "forward": 7.762149423029387e-26,
+      "lateral": 0,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0,
+      "normal": 51.60810330826745,
+      "netVertical": 44.86326470521782,
+      "lateralAcceleration": -4.086508730819744e-8,
+      "forwardAcceleration": 1.626398880839853,
+      "groundMotor": 1.626398880839853,
+      "extraMotor": 0,
+      "grip": 1,
+      "downforce": 0,
+      "gasRate": 0,
+      "mainPointsRate": 0,
+      "authority": 1,
+      "flare": false,
+      "mainUp": 0,
+      "bufferUp": 0,
+      "rotationPointsRate": 0,
+      "reserveTorque": 0,
+      "ceilingAuthority": 1,
+      "ceilingBrake": 0
+    },
+    "jets": {
+      "up": 3.065161396950373,
+      "forward": 7.762149423029387e-26,
+      "lateral": 0,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0
+    },
+    "pulseRemaining": 0,
+    "maneuverActive": false,
+    "stuntLabel": "",
+    "buffer": {
+      "armed": false,
+      "active": false,
+      "startedAt": 8.691666666666814
+    },
+    "flightId": 1,
+    "airSupplyUsed": 0,
+    "supplyCounts": {},
+    "prediction": {
+      "time": 0.041666666666666664,
+      "z": 299.9626625134085,
+      "x": 7.1997666545917145,
+      "buffered": true,
+      "safe": true
+    },
+    "releasePrediction": {
+      "time": 0.03333333333333144,
+      "x": 7.1997666545917145,
+      "z": 299.9626625134085,
+      "y": -0.0297496711346733,
+      "heading": 1.1190254039204878e-10,
+      "pitch": 0,
+      "buffered": true,
+      "safe": true,
+      "assessment": {
+        "grade": 0,
+        "label": "精准落地",
+        "angle": 0,
+        "headingError": 0,
+        "impact": 3.8540331799295484,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "checks": {
+          "pose": true,
+          "direction": true,
+          "settled": true,
+          "descent": true,
+          "safe": true
+        },
+        "reason": null,
+        "tone": "precise"
+      },
+      "padHit": true
+    },
+    "guidance": "尽快松手 · 准备落地",
+    "notice": null,
+    "supplyNotice": null,
+    "pending": 0,
+    "total": 0,
+    "landingCount": 1,
+    "lastLanding": {
+      "x": 7.1997666545917145,
+      "z": 299.9626625134085,
+      "speed": 38.044049450595715,
+      "grade": 0,
+      "assessment": {
+        "grade": 0,
+        "label": "精准落地",
+        "angle": 0,
+        "headingError": 0,
+        "impact": 3.8540331799295484,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "checks": {
+          "pose": true,
+          "direction": true,
+          "settled": true,
+          "descent": true,
+          "safe": true
+        },
+        "reason": null,
+        "tone": "precise"
+      },
+      "reason": null,
+      "padHit": true,
+      "label": "精准落地",
+      "angle": 0,
+      "impact": 3.8540331799295484,
+      "contactHeight": 0,
+      "airTime": 2.7166666666666597,
+      "time": 9.250000000000115,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0,
+      "headingError": 0,
+      "omegaYaw": 0,
+      "omegaPitch": 0,
+      "omegaRoll": 0,
+      "pressure": 0.8200000000000001,
+      "buffered": true,
+      "flight": 1
+    },
+    "popup": {
+      "label": "精准落地",
+      "detail": "×1.2 · +0 已入账",
+      "kind": "land",
+      "amount": 0,
+      "at": 9.250000000000115
+    },
+    "crashTimer": 0,
+    "crashes": 0,
+    "thrusting": true,
+    "input": {
+      "steer": 0,
+      "boost": false,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0
+    },
+    "events": [
+      {
+        "type": "parking-rack-clear",
+        "time": 5.408333333333392,
+        "route": "wide"
+      },
+      {
+        "type": "pulse",
+        "cost": 18,
+        "ground": true,
+        "time": 6.441666666666777
+      },
+      {
+        "type": "takeoff",
+        "flight": 1,
+        "time": 6.5416666666667815
+      },
+      {
+        "type": "buffer",
+        "time": 8.691666666666814,
+        "height": 2.7720774488198536,
+        "vy": -8.142201245737608
+      },
+      {
+        "type": "landing",
+        "x": 7.1997666545917145,
+        "z": 299.9626625134085,
+        "speed": 38.044049450595715,
+        "grade": 0,
+        "assessment": {
+          "grade": 0,
+          "label": "精准落地",
+          "angle": 0,
+          "headingError": 0,
+          "impact": 3.8540331799295484,
+          "omega": {
+            "pitch": 0,
+            "roll": 0,
+            "yaw": 0
+          },
+          "checks": {
+            "pose": true,
+            "direction": true,
+            "settled": true,
+            "descent": true,
+            "safe": true
+          },
+          "reason": null,
+          "tone": "precise"
+        },
+        "reason": null,
+        "padHit": true,
+        "label": "精准落地",
+        "angle": 0,
+        "impact": 3.8540331799295484,
+        "contactHeight": 0,
+        "airTime": 2.7166666666666597,
+        "time": 9.250000000000115,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "headingError": 0,
+        "omegaYaw": 0,
+        "omegaPitch": 0,
+        "omegaRoll": 0,
+        "pressure": 0.8200000000000001,
+        "buffered": true,
+        "flight": 1
+      },
+      {
+        "type": "parking-light",
+        "time": 9.250000000000115,
+        "flight": 1,
+        "energy": 61.09548341207691,
+        "preBufferDown": 8.142201245737608,
+        "apex": 6.198128352522504,
+        "grade": 0,
+        "x": 7.1997666545917145,
+        "z": 299.9626625134085,
+        "heavy": false
+      }
+    ],
+    "ledger": [
+      {
+        "time": 6.441666666666777,
+        "through": 6.441666666666777,
+        "flight": 0,
+        "kind": "cost",
+        "source": "ground-pulse",
+        "requested": 18,
+        "actual": 18,
+        "main": 82,
+        "supplied": 0
+      },
+      {
+        "time": 9.258333333333448,
+        "through": 9.29166666666678,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 1.0416666666666667,
+        "actual": 1.0416666666666667,
+        "main": 83.04166666666667,
+        "supplied": 0
+      },
+      {
+        "time": 9.300000000000113,
+        "through": 9.300000000000113,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 0.20833333333333334,
+        "actual": 0.20833333333333334,
+        "main": 83.25,
+        "supplied": 0
+      }
+    ],
+    "paused": false,
+    "resumeRemaining": 0,
+    "session": {
+      "parking": {
+        "localRetry": false,
+        "phase": "light",
+        "open": false,
+        "wallBroken": false,
+        "complete": false,
+        "triggerAt": null,
+        "hitAt": null,
+        "lightAt": 9.250000000000115,
+        "endedAt": null,
+        "attempt": 0,
+        "rackPassed": true,
+        "scraped": false,
+        "ringCrossed": false,
+        "ringActual": 0,
+        "apex": 6.198128352522504,
+        "preBufferDown": 8.142201245737608,
+        "reason": "再重一点",
+        "lastPress": {
+          "flight": 1,
+          "energy": 61.09548341207691,
+          "preBufferDown": 8.142201245737608,
+          "apex": 6.198128352522504,
+          "grade": 0,
+          "x": 7.1997666545917145,
+          "z": 299.9626625134085,
+          "heavy": false
+        },
+        "events": [
+          {
+            "type": "parking-rack-clear",
+            "time": 5.408333333333392,
+            "route": "wide"
+          },
+          {
+            "type": "parking-light",
+            "time": 9.250000000000115,
+            "flight": 1,
+            "energy": 61.09548341207691,
+            "preBufferDown": 8.142201245737608,
+            "apex": 6.198128352522504,
+            "grade": 0,
+            "x": 7.1997666545917145,
+            "z": 299.9626625134085,
+            "heavy": false
+          }
+        ]
+      },
+      "phase": "running",
+      "mode": "parking",
+      "elapsed": 0,
+      "remaining": 90,
+      "countdown": 0,
+      "paused": false,
+      "resumeRemaining": 0,
+      "resuming": false,
+      "sprint": null,
+      "practice": null,
+      "stats": {
+        "actions": 0,
+        "groups": 0,
+        "obstacleScore": 0,
+        "bankedTricks": 0,
+        "rings": 0,
+        "grazes": 0,
+        "precision": 0,
+        "precisionPads": 0,
+        "highestCombo": 0,
+        "repairsUsed": 0,
+        "crashes": 0,
+        "tutorialMistakes": 0,
+        "skipped": 0
+      },
+      "tutorial": {
+        "stage": "accelerate",
+        "firstLanding": null,
+        "rollLanding": null,
+        "repeatLanding": null,
+        "complete": false,
+        "retry": false,
+        "shortPractice": false,
+        "heldPractice": false
+      },
+      "routeAnchor": null,
+      "nextGroup": 0,
+      "groups": [],
+      "result": null,
+      "best": 0,
+      "storageAvailable": true
+    },
+    "feedback": {
+      "hud": {
+        "active": true,
+        "state": "impact",
+        "retry": false,
+        "retryLabel": "重玩停车场 · R",
+        "clock": "00:09",
+        "clockLabel": "练习用时",
+        "segments": [],
+        "repairs": null,
+        "target": null,
+        "prompt": "",
+        "teaching": "",
+        "landing": {
+          "visible": false,
+          "time": 0,
+          "caption": "松手 · 0.0s后接地",
+          "danger": false,
+          "tone": "precise",
+          "reason": "预计精准",
+          "prediction": {
+            "time": 0.03333333333333144,
+            "x": 7.1997666545917145,
+            "z": 299.9626625134085,
+            "y": -0.0297496711346733,
+            "heading": 1.1190254039204878e-10,
+            "pitch": 0,
+            "buffered": true,
+            "safe": true,
+            "assessment": {
+              "grade": 0,
+              "label": "精准落地",
+              "angle": 0,
+              "headingError": 0,
+              "impact": 3.8540331799295484,
+              "omega": {
+                "pitch": 0,
+                "roll": 0,
+                "yaw": 0
+              },
+              "checks": {
+                "pose": true,
+                "direction": true,
+                "settled": true,
+                "descent": true,
+                "safe": true
+              },
+              "reason": null,
+              "tone": "precise"
+            },
+            "padHit": true
+          }
+        },
+        "combo": {
+          "visible": false,
+          "weak": false,
+          "multiplier": 1,
+          "countVisible": true,
+          "label": "漂亮",
+          "amount": 0,
+          "displayed": 0,
+          "tier": {
+            "min": 0,
+            "name": "漂亮",
+            "color": "#f0f5f5",
+            "index": 0
+          },
+          "rows": [],
+          "formula": "",
+          "reason": "",
+          "transfer": null
+        },
+        "displayedTotal": 0,
+        "supply": 0
+      },
+      "timeline": {
+        "kind": "bank",
+        "amount": 0,
+        "displayed": 0,
+        "total": 0,
+        "visible": true,
+        "deadline": 11.250000000000115,
+        "rows": [],
+        "queue": 0,
+        "upgradeCounts": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bursts": 0,
+        "actionsPresented": 0
+      },
+      "particles": {
+        "capacity": 128,
+        "active": 0,
+        "heavy": 0,
+        "ringCapacity": 8,
+        "rings": 0,
+        "peak": 0,
+        "ringPeak": 0,
+        "emitted": 0,
+        "dpr": 1,
+        "worldParticles": []
+      },
+      "audio": {
+        "flight": {
+          "windContribution": 0,
+          "graphs": 1,
+          "continuousSources": 2,
+          "nodes": 8,
+          "levels": {
+            "engine": 0.0037281764829431674,
+            "jet": 0.0013847317369752273,
+            "brake": 0.10888888888889774
+          },
+          "landings": 1
+        },
+        "enabled": true,
+        "state": "running",
+        "contexts": 1,
+        "voices": 8,
+        "active": 2,
+        "peakVoices": 2,
+        "played": 3,
+        "dropped": 0,
+        "peak": 0.03561460226774216,
+        "rms": 0.012583036030499938,
+        "maxPeak": 0.043349869549274445,
+        "nonzeroFrames": 290,
+        "clippedFrames": 0,
+        "lastEnvelope": {
+          "frequency": 178,
+          "amplitude": 0.12,
+          "glide": 0.65,
+          "attack": 0.0015,
+          "duration": 0.065,
+          "at": 9.245333333333333,
+          "end": 9.318333333333332
+        }
+      },
+      "quality": {
+        "mode": "auto",
+        "reduced": false,
+        "effective": "low",
+        "average": 29.040756265424136,
+        "switches": 1
+      },
+      "cameraImpact": -0.40979431531253285,
+      "rowNodes": 4,
+      "preferences": {
+        "sound": true,
+        "quality": "auto"
+      }
+    },
+    "art": {
+      "presentation": {
+        "landingMarker": {
+          "visible": false,
+          "shape": "ring",
+          "heading": 1.1190254039204878e-10,
+          "broken": false,
+          "tone": "precise",
+          "x": 7.1997666545917145,
+          "z": 299.9626625134085
+        },
+        "vehicleVisuals": {
+          "driveSource": null,
+          "entrySpeed": 38.044049450595715,
+          "actualGain": 0.08502821586849763,
+          "cameraGain": 0,
+          "supplyOrigins": [],
+          "speedLines": {
+            "streaks": 0,
+            "strength": 0,
+            "protectedCentre": [
+              0.245,
+              0.755
+            ]
+          },
+          "motorIntensity": 0,
+          "supplyPulse": 0,
+          "launchStrength": 0,
+          "roadLights": 0,
+          "wakeSegments": 0,
+          "supplyOrbs": 0,
+          "launchDust": 0,
+          "dustEmitted": 8,
+          "capacity": {
+            "roadLights": 16,
+            "wakeSegments": 40,
+            "supplyOrbs": 12,
+            "launchDust": 12
+          }
+        },
+        "vehicleFov": 0,
+        "sprintVisuals": {
+          "driveSource": null,
+          "entrySpeed": 38.044049450595715,
+          "actualGain": 0.08502821586849763,
+          "cameraGain": 0,
+          "supplyOrigins": [],
+          "speedLines": {
+            "streaks": 0,
+            "strength": 0,
+            "protectedCentre": [
+              0.245,
+              0.755
+            ]
+          },
+          "motorIntensity": 0,
+          "supplyPulse": 0,
+          "launchStrength": 0,
+          "roadLights": 0,
+          "wakeSegments": 0,
+          "supplyOrbs": 0,
+          "launchDust": 0,
+          "dustEmitted": 8,
+          "capacity": {
+            "roadLights": 16,
+            "wakeSegments": 40,
+            "supplyOrbs": 12,
+            "launchDust": 12
+          }
+        },
+        "sprintFov": 0,
+        "reflectionProbes": 1,
+        "reflectionSize": 128,
+        "realShadow": true,
+        "sprintVisible": false,
+        "shadowCasters": 299,
+        "effects": {
+          "capacity": 48,
+          "active": 16,
+          "arcs": 0,
+          "arcCapacity": 3,
+          "peak": 16,
+          "dustEmitted": 16
+        },
+        "courseVisible": false
+      },
+      "environment": {
+        "district": "civic",
+        "name": "天际高架",
+        "z": 301.86738145527005,
+        "cycle": 3000,
+        "minSceneryX": 14,
+        "richDetails": false,
+        "visibleModules": 2,
+        "modulePositions": [
+          -301.86738145527005,
+          698.1326185447299,
+          1698.13261854473
+        ]
+      },
+      "car": {
+        "compression": 0.0961137320860097,
+        "wheelLocalY": [
+          -0.3038862679139903,
+          -0.3038862679139903,
+          -0.3038862679139903,
+          -0.3038862679139903
+        ],
+        "wheelAngle": 1.9287874962571028,
+        "spinRate": 105.91410462906725,
+        "wheelRadius": 0.36,
+        "richDetails": false,
+        "bodyMeshes": 37
+      },
+      "quality": "low",
+      "reducedMotion": false,
+      "materials": 66,
+      "textures": 5,
+      "geometries": 950,
+      "vertices": 178808,
+      "activeVertices": 58039,
+      "activeTriangles": 54672,
+      "activeMeshes": 171,
+      "renderWidth": 1024,
+      "renderHeight": 576,
+      "cssWidth": 1280,
+      "cssHeight": 720,
+      "pixelDensity": 0.8,
+      "projectedOrigin": {
+        "x": 335.3031139042688,
+        "y": 456.26234189544977,
+        "visible": true
+      },
+      "fov": 0.9183105089548194,
+      "inspection": null,
+      "vehicleScreen": {
+        "x": 688.8522373453687,
+        "y": 460.86308923055117,
+        "visible": true
+      },
+      "landingScreen": {
+        "x": 696.7056167471359,
+        "y": 524.4732453757194,
+        "visible": true
+      }
+    },
+    "manual": false,
+    "timeScale": 1,
+    "controls": {
+      "steer": 0,
+      "boost": false,
+      "roll": 0,
+      "pitch": 0,
+      "boostPressed": false,
+      "keys": [],
+      "pointers": []
+    },
+    "nozzles": [
+      {
+        "channel": "forward",
+        "sign": 0,
+        "active": false,
+        "strength": 3.234228926262245e-26,
+        "core": false,
+        "exhaust": [
+          0,
+          0,
+          -1
+        ],
+        "position": [
+          6.569766654978091,
+          0.3938862679193061,
+          -2.119999999942855
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": true,
+        "strength": 0.09578629365469915,
+        "core": true,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          6.379766655056752,
+          0.3638862679209093,
+          -1.2499999999256208
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": true,
+        "strength": 0.09578629365469915,
+        "core": true,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          6.379766655283518,
+          0.3638862679209093,
+          1.2500000000743792
+        ]
+      },
+      {
+        "channel": "lateral",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          -1,
+          0,
+          0
+        ],
+        "position": [
+          6.099766655171992,
+          0.5838862679232719,
+          9.977707896020056e-11
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          6.239766655145877,
+          0.7138862679220905,
+          -0.2999999999129218
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          6.239766655145877,
+          0.7138862679220905,
+          -0.2999999999129218
+        ]
+      },
+      {
+        "channel": "forward",
+        "sign": 0,
+        "active": false,
+        "strength": 3.234228926262245e-26,
+        "core": false,
+        "exhaust": [
+          0,
+          0,
+          -1
+        ],
+        "position": [
+          7.829766654978091,
+          0.3938862679086745,
+          -2.120000000057145
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": true,
+        "strength": 0.09578629365469915,
+        "core": true,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          8.019766655056753,
+          0.36388626790707135,
+          -1.2500000000743792
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": true,
+        "strength": 0.09578629365469915,
+        "core": true,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          8.019766655283519,
+          0.36388626790707135,
+          1.2499999999256208
+        ]
+      },
+      {
+        "channel": "lateral",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          1,
+          0,
+          0
+        ],
+        "position": [
+          8.299766655171991,
+          0.5838862679047088,
+          -9.977707896007811e-11
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          8.159766655145877,
+          0.71388626790589,
+          -0.30000000008707817
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          8.159766655145877,
+          0.71388626790589,
+          -0.30000000008707817
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          7.199766655021651,
+          0.5038862679139903,
+          -1.65
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          7.199766655021651,
+          0.5038862679139903,
+          -1.65
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          7.199766655320982,
+          0.5038862679139903,
+          1.65
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          7.199766655320982,
+          0.5038862679139903,
+          1.65
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          -1,
+          0,
+          0
+        ],
+        "position": [
+          7.199766655026693,
+          0.5638862679139903,
+          -1.6
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          1,
+          0,
+          0
+        ],
+        "position": [
+          7.199766655026693,
+          0.5638862679139903,
+          -1.6
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          1,
+          0,
+          0
+        ],
+        "position": [
+          7.199766655316953,
+          0.5638862679139903,
+          1.6
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          -1,
+          0,
+          0
+        ],
+        "position": [
+          7.199766655316953,
+          0.5638862679139903,
+          1.6
+        ]
+      }
+    ],
+    "floor": {
+      "gaps": [
+        {
+          "start": 372,
+          "end": 440,
+          "begin": 1.1,
+          "locked": 2
+        }
+      ],
+      "solids": [
+        [
+          -600,
+          372
+        ],
+        [
+          440,
+          2400
+        ]
+      ]
+    },
+    "meshCount": 950,
+    "drawCalls": 395,
+    "frameTime": 14.599999964237213,
+    "fps": 36.17945007027839,
+    "graphics": {
+      "vendor": "Google Inc. (AMD)",
+      "renderer": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+    },
+    "camera": {
+      "x": 6.0478039867434195,
+      "y": 4.549602097229823,
+      "z": -14.525040515463141,
+      "roll": 0
+    }
+  },
+  "returned": {
+    "assist": true,
+    "time": 10.141666666666731,
+    "x": 0,
+    "y": 0,
+    "z": 162.31291666666678,
+    "vx": 0,
+    "vy": 0,
+    "speed": 21.65000000000001,
+    "heading": 0,
+    "energy": 1,
+    "pressure": 1,
+    "mainPressure": 100,
+    "grounded": true,
+    "pitch": 0,
+    "roll": 0,
+    "yaw": 0,
+    "bodyExtents": {
+      "halfX": 1.12,
+      "halfY": 0.76,
+      "halfZ": 2.1
+    },
+    "angularVelocity": {
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0
+    },
+    "attitude": {
+      "pitch": {
+        "omega": 0,
+        "targetOmega": 0,
+        "active": false,
+        "direction": 0,
+        "command": 0,
+        "mode": "ground",
+        "releasedAt": -99,
+        "pressedAt": 0,
+        "drivenTime": 0,
+        "pressAngle": 0,
+        "spent": 0,
+        "tracker": {
+          "direction": 0,
+          "progress": 0,
+          "retreat": 0,
+          "eligible": false
+        }
+      },
+      "roll": {
+        "omega": 0,
+        "targetOmega": 0,
+        "active": false,
+        "direction": 0,
+        "command": 0,
+        "mode": "ground",
+        "releasedAt": -99,
+        "pressedAt": 0,
+        "drivenTime": 0,
+        "pressAngle": 0,
+        "spent": 0,
+        "tracker": {
+          "direction": 0,
+          "progress": 0,
+          "retreat": 0,
+          "eligible": false
+        }
+      },
+      "yaw": {
+        "omega": 0,
+        "targetOmega": 0,
+        "active": false,
+        "direction": 0,
+        "command": 0,
+        "mode": "ground",
+        "releasedAt": -99,
+        "pressedAt": 0,
+        "drivenTime": 0,
+        "pressAngle": 0,
+        "spent": 0,
+        "tracker": {
+          "direction": 0,
+          "progress": 0,
+          "retreat": 0,
+          "eligible": false
+        }
+      }
+    },
+    "forces": {
+      "up": 0,
+      "forward": 0,
+      "lateral": 0,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0,
+      "normal": 9.81,
+      "netVertical": 0,
+      "lateralAcceleration": 0,
+      "forwardAcceleration": 6,
+      "groundMotor": 6,
+      "extraMotor": 0,
+      "grip": 1,
+      "downforce": 0,
+      "gasRate": 0,
+      "mainPointsRate": 0,
+      "authority": 1,
+      "flare": false,
+      "mainUp": 0,
+      "bufferUp": 0,
+      "rotationPointsRate": 0,
+      "reserveTorque": 0,
+      "ceilingAuthority": 1,
+      "ceilingBrake": 0
+    },
+    "jets": {
+      "up": 0,
+      "forward": 0,
+      "lateral": 0,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0
+    },
+    "pulseRemaining": 0,
+    "maneuverActive": false,
+    "stuntLabel": "",
+    "buffer": {
+      "armed": false,
+      "active": false,
+      "startedAt": null
+    },
+    "flightId": 1,
+    "airSupplyUsed": 0,
+    "supplyCounts": {},
+    "prediction": {
+      "time": 0.041666666666666664,
+      "z": 299.9626625134085,
+      "x": 7.1997666545917145,
+      "buffered": true,
+      "safe": true
+    },
+    "releasePrediction": {
+      "time": 0.03333333333333144,
+      "x": 7.1997666545917145,
+      "z": 299.9626625134085,
+      "y": -0.0297496711346733,
+      "heading": 1.1190254039204878e-10,
+      "pitch": 0,
+      "buffered": true,
+      "safe": true,
+      "assessment": {
+        "grade": 0,
+        "label": "精准落地",
+        "angle": 0,
+        "headingError": 0,
+        "impact": 3.8540331799295484,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "checks": {
+          "pose": true,
+          "direction": true,
+          "settled": true,
+          "descent": true,
+          "safe": true
+        },
+        "reason": null,
+        "tone": "precise"
+      },
+      "padHit": true
+    },
+    "guidance": "尽快松手 · 准备落地",
+    "notice": null,
+    "supplyNotice": null,
+    "pending": 0,
+    "total": 0,
+    "landingCount": 1,
+    "lastLanding": {
+      "x": 7.1997666545917145,
+      "z": 299.9626625134085,
+      "speed": 38.044049450595715,
+      "grade": 0,
+      "assessment": {
+        "grade": 0,
+        "label": "精准落地",
+        "angle": 0,
+        "headingError": 0,
+        "impact": 3.8540331799295484,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "checks": {
+          "pose": true,
+          "direction": true,
+          "settled": true,
+          "descent": true,
+          "safe": true
+        },
+        "reason": null,
+        "tone": "precise"
+      },
+      "reason": null,
+      "padHit": true,
+      "label": "精准落地",
+      "angle": 0,
+      "impact": 3.8540331799295484,
+      "contactHeight": 0,
+      "airTime": 2.7166666666666597,
+      "time": 9.250000000000115,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0,
+      "headingError": 0,
+      "omegaYaw": 0,
+      "omegaPitch": 0,
+      "omegaRoll": 0,
+      "pressure": 0.8200000000000001,
+      "buffered": true,
+      "flight": 1
+    },
+    "popup": {
+      "label": "精准落地",
+      "detail": "×1.2 · +0 已入账",
+      "kind": "land",
+      "amount": 0,
+      "at": 9.250000000000115
+    },
+    "crashTimer": 0,
+    "crashes": 0,
+    "thrusting": false,
+    "input": {
+      "steer": 0,
+      "boost": false,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0
+    },
+    "events": [
+      {
+        "type": "parking-rack-clear",
+        "time": 5.408333333333392,
+        "route": "wide"
+      },
+      {
+        "type": "pulse",
+        "cost": 18,
+        "ground": true,
+        "time": 6.441666666666777
+      },
+      {
+        "type": "takeoff",
+        "flight": 1,
+        "time": 6.5416666666667815
+      },
+      {
+        "type": "buffer",
+        "time": 8.691666666666814,
+        "height": 2.7720774488198536,
+        "vy": -8.142201245737608
+      },
+      {
+        "type": "landing",
+        "x": 7.1997666545917145,
+        "z": 299.9626625134085,
+        "speed": 38.044049450595715,
+        "grade": 0,
+        "assessment": {
+          "grade": 0,
+          "label": "精准落地",
+          "angle": 0,
+          "headingError": 0,
+          "impact": 3.8540331799295484,
+          "omega": {
+            "pitch": 0,
+            "roll": 0,
+            "yaw": 0
+          },
+          "checks": {
+            "pose": true,
+            "direction": true,
+            "settled": true,
+            "descent": true,
+            "safe": true
+          },
+          "reason": null,
+          "tone": "precise"
+        },
+        "reason": null,
+        "padHit": true,
+        "label": "精准落地",
+        "angle": 0,
+        "impact": 3.8540331799295484,
+        "contactHeight": 0,
+        "airTime": 2.7166666666666597,
+        "time": 9.250000000000115,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "headingError": 0,
+        "omegaYaw": 0,
+        "omegaPitch": 0,
+        "omegaRoll": 0,
+        "pressure": 0.8200000000000001,
+        "buffered": true,
+        "flight": 1
+      },
+      {
+        "type": "parking-light",
+        "time": 9.250000000000115,
+        "flight": 1,
+        "energy": 61.09548341207691,
+        "preBufferDown": 8.142201245737608,
+        "apex": 6.198128352522504,
+        "grade": 0,
+        "x": 7.1997666545917145,
+        "z": 299.9626625134085,
+        "heavy": false
+      },
+      {
+        "type": "recovery",
+        "time": 10.033333333333404
+      },
+      {
+        "type": "parking-return",
+        "time": 10.033333333333404
+      }
+    ],
+    "ledger": [
+      {
+        "time": 6.441666666666777,
+        "through": 6.441666666666777,
+        "flight": 0,
+        "kind": "cost",
+        "source": "ground-pulse",
+        "requested": 18,
+        "actual": 18,
+        "main": 82,
+        "supplied": 0
+      },
+      {
+        "time": 9.258333333333448,
+        "through": 9.29166666666678,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 1.0416666666666667,
+        "actual": 1.0416666666666667,
+        "main": 83.04166666666667,
+        "supplied": 0
+      },
+      {
+        "time": 9.300000000000113,
+        "through": 9.366666666666775,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 1.8749999999999998,
+        "actual": 1.8749999999999998,
+        "main": 84.91666666666666,
+        "supplied": 0
+      },
+      {
+        "time": 9.433333333333438,
+        "through": 9.491666666666768,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 1.6666666666666665,
+        "actual": 1.6666666666666665,
+        "main": 86.58333333333333,
+        "supplied": 0
+      },
+      {
+        "time": 9.500000000000101,
+        "through": 9.591666666666763,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 89.08333333333331,
+        "supplied": 0
+      },
+      {
+        "time": 9.600000000000096,
+        "through": 9.691666666666757,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 91.5833333333333,
+        "supplied": 0
+      },
+      {
+        "time": 9.70000000000009,
+        "through": 9.791666666666751,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 94.0833333333333,
+        "supplied": 0
+      },
+      {
+        "time": 9.800000000000084,
+        "through": 9.891666666666746,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 96.58333333333329,
+        "supplied": 0
+      },
+      {
+        "time": 9.900000000000079,
+        "through": 9.99166666666674,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 99.08333333333329,
+        "supplied": 0
+      },
+      {
+        "time": 10.000000000000073,
+        "through": 10.033333333333404,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 0.9166666666667241,
+        "actual": 0.9166666666667241,
+        "main": 100,
+        "supplied": 0
+      }
+    ],
+    "paused": false,
+    "resumeRemaining": 0,
+    "session": {
+      "parking": {
+        "localRetry": true,
+        "phase": "approach",
+        "open": false,
+        "wallBroken": false,
+        "complete": false,
+        "triggerAt": null,
+        "hitAt": null,
+        "lightAt": null,
+        "endedAt": null,
+        "attempt": 1,
+        "rackPassed": true,
+        "scraped": false,
+        "ringCrossed": false,
+        "ringActual": 0,
+        "apex": 6.198128352522504,
+        "preBufferDown": 8.142201245737608,
+        "reason": "",
+        "lastPress": {
+          "flight": 1,
+          "energy": 61.09548341207691,
+          "preBufferDown": 8.142201245737608,
+          "apex": 6.198128352522504,
+          "grade": 0,
+          "x": 7.1997666545917145,
+          "z": 299.9626625134085,
+          "heavy": false
+        },
+        "events": [
+          {
+            "type": "parking-rack-clear",
+            "time": 5.408333333333392,
+            "route": "wide"
+          },
+          {
+            "type": "parking-light",
+            "time": 9.250000000000115,
+            "flight": 1,
+            "energy": 61.09548341207691,
+            "preBufferDown": 8.142201245737608,
+            "apex": 6.198128352522504,
+            "grade": 0,
+            "x": 7.1997666545917145,
+            "z": 299.9626625134085,
+            "heavy": false
+          },
+          {
+            "type": "parking-return",
+            "time": 10.033333333333404
+          }
+        ]
+      },
+      "phase": "running",
+      "mode": "parking",
+      "elapsed": 0,
+      "remaining": 90,
+      "countdown": 0,
+      "paused": false,
+      "resumeRemaining": 0,
+      "resuming": false,
+      "sprint": null,
+      "practice": null,
+      "stats": {
+        "actions": 0,
+        "groups": 0,
+        "obstacleScore": 0,
+        "bankedTricks": 0,
+        "rings": 0,
+        "grazes": 0,
+        "precision": 0,
+        "precisionPads": 0,
+        "highestCombo": 0,
+        "repairsUsed": 0,
+        "crashes": 0,
+        "tutorialMistakes": 0,
+        "skipped": 0
+      },
+      "tutorial": {
+        "stage": "accelerate",
+        "firstLanding": null,
+        "rollLanding": null,
+        "repeatLanding": null,
+        "complete": false,
+        "retry": false,
+        "shortPractice": false,
+        "heldPractice": false
+      },
+      "routeAnchor": null,
+      "nextGroup": 0,
+      "groups": [],
+      "result": null,
+      "best": 0,
+      "storageAvailable": true
+    },
+    "feedback": {
+      "hud": {
+        "active": true,
+        "state": "result",
+        "retry": false,
+        "retryLabel": "重玩停车场 · R",
+        "clock": "00:10",
+        "clockLabel": "练习用时",
+        "segments": [],
+        "repairs": null,
+        "target": null,
+        "prompt": "",
+        "teaching": "",
+        "landing": {
+          "visible": false,
+          "time": 0,
+          "caption": "松手 · 0.0s后接地",
+          "danger": false,
+          "tone": "precise",
+          "reason": "预计精准",
+          "prediction": {
+            "time": 0.03333333333333144,
+            "x": 7.1997666545917145,
+            "z": 299.9626625134085,
+            "y": -0.0297496711346733,
+            "heading": 1.1190254039204878e-10,
+            "pitch": 0,
+            "buffered": true,
+            "safe": true,
+            "assessment": {
+              "grade": 0,
+              "label": "精准落地",
+              "angle": 0,
+              "headingError": 0,
+              "impact": 3.8540331799295484,
+              "omega": {
+                "pitch": 0,
+                "roll": 0,
+                "yaw": 0
+              },
+              "checks": {
+                "pose": true,
+                "direction": true,
+                "settled": true,
+                "descent": true,
+                "safe": true
+              },
+              "reason": null,
+              "tone": "precise"
+            },
+            "padHit": true
+          }
+        },
+        "combo": {
+          "visible": true,
+          "weak": false,
+          "multiplier": 1,
+          "countVisible": false,
+          "label": "精准落地",
+          "amount": 0,
+          "displayed": 0,
+          "tier": {
+            "min": 0,
+            "name": "漂亮",
+            "color": "#f0f5f5",
+            "index": 0
+          },
+          "rows": [],
+          "formula": "",
+          "reason": "",
+          "transfer": null
+        },
+        "displayedTotal": 0,
+        "supply": 0
+      },
+      "timeline": {
+        "kind": "bank",
+        "amount": 0,
+        "displayed": 0,
+        "total": 0,
+        "visible": true,
+        "deadline": 11.250000000000115,
+        "rows": [],
+        "queue": 0,
+        "upgradeCounts": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bursts": 0,
+        "actionsPresented": 0
+      },
+      "particles": {
+        "capacity": 128,
+        "active": 0,
+        "heavy": 0,
+        "ringCapacity": 8,
+        "rings": 0,
+        "peak": 0,
+        "ringPeak": 0,
+        "emitted": 0,
+        "dpr": 1,
+        "worldParticles": []
+      },
+      "audio": {
+        "flight": {
+          "windContribution": 0,
+          "graphs": 1,
+          "continuousSources": 2,
+          "nodes": 8,
+          "levels": {
+            "engine": 0.026461111111111123,
+            "jet": 0,
+            "brake": 0
+          },
+          "landings": 1
+        },
+        "enabled": true,
+        "state": "running",
+        "contexts": 1,
+        "voices": 8,
+        "active": 0,
+        "peakVoices": 2,
+        "played": 3,
+        "dropped": 0,
+        "peak": 0.008377610705792904,
+        "rms": 0.0052130019964186786,
+        "maxPeak": 0.043349869549274445,
+        "nonzeroFrames": 316,
+        "clippedFrames": 0,
+        "lastEnvelope": {
+          "frequency": 178,
+          "amplitude": 0.12,
+          "glide": 0.65,
+          "attack": 0.0015,
+          "duration": 0.065,
+          "at": 9.245333333333333,
+          "end": 9.318333333333332
+        }
+      },
+      "quality": {
+        "mode": "auto",
+        "reduced": false,
+        "effective": "low",
+        "average": 38.43646279013171,
+        "switches": 1
+      },
+      "cameraImpact": 0,
+      "rowNodes": 4,
+      "preferences": {
+        "sound": true,
+        "quality": "auto"
+      }
+    },
+    "art": {
+      "presentation": {
+        "landingMarker": {
+          "visible": false,
+          "shape": "ring",
+          "heading": 1.1190254039204878e-10,
+          "broken": false,
+          "tone": "precise",
+          "x": 7.1997666545917145,
+          "z": 299.9626625134085
+        },
+        "vehicleVisuals": {
+          "driveSource": null,
+          "entrySpeed": 38.044049450595715,
+          "actualGain": 0,
+          "cameraGain": 0,
+          "supplyOrigins": [],
+          "speedLines": {
+            "streaks": 36,
+            "strength": 0.32339174784869257,
+            "protectedCentre": [
+              0.245,
+              0.755
+            ]
+          },
+          "motorIntensity": 0,
+          "supplyPulse": 0,
+          "launchStrength": 0,
+          "roadLights": 0,
+          "wakeSegments": 10,
+          "supplyOrbs": 0,
+          "launchDust": 0,
+          "dustEmitted": 8,
+          "capacity": {
+            "roadLights": 16,
+            "wakeSegments": 40,
+            "supplyOrbs": 12,
+            "launchDust": 12
+          }
+        },
+        "vehicleFov": 0.019751431968425884,
+        "sprintVisuals": {
+          "driveSource": null,
+          "entrySpeed": 38.044049450595715,
+          "actualGain": 0,
+          "cameraGain": 0,
+          "supplyOrigins": [],
+          "speedLines": {
+            "streaks": 36,
+            "strength": 0.32339174784869257,
+            "protectedCentre": [
+              0.245,
+              0.755
+            ]
+          },
+          "motorIntensity": 0,
+          "supplyPulse": 0,
+          "launchStrength": 0,
+          "roadLights": 0,
+          "wakeSegments": 10,
+          "supplyOrbs": 0,
+          "launchDust": 0,
+          "dustEmitted": 8,
+          "capacity": {
+            "roadLights": 16,
+            "wakeSegments": 40,
+            "supplyOrbs": 12,
+            "launchDust": 12
+          }
+        },
+        "sprintFov": 0.019751431968425884,
+        "reflectionProbes": 1,
+        "reflectionSize": 128,
+        "realShadow": true,
+        "sprintVisible": false,
+        "shadowCasters": 299,
+        "effects": {
+          "capacity": 48,
+          "active": 0,
+          "arcs": 0,
+          "arcCapacity": 3,
+          "peak": 16,
+          "dustEmitted": 16
+        },
+        "courseVisible": false
+      },
+      "environment": {
+        "district": "civic",
+        "name": "天际高架",
+        "z": 162.31291666666678,
+        "cycle": 3000,
+        "minSceneryX": 14,
+        "richDetails": false,
+        "visibleModules": 2,
+        "modulePositions": [
+          -162.31291666666678,
+          837.6870833333332,
+          1837.6870833333332
+        ]
+      },
+      "car": {
+        "compression": 0,
+        "wheelLocalY": [
+          -0.4,
+          -0.4,
+          -0.4,
+          -0.4
+        ],
+        "wheelAngle": 5.672433348503793,
+        "spinRate": 60.138888888888914,
+        "wheelRadius": 0.36,
+        "richDetails": false,
+        "bodyMeshes": 37
+      },
+      "quality": "low",
+      "reducedMotion": false,
+      "materials": 66,
+      "textures": 5,
+      "geometries": 950,
+      "vertices": 178808,
+      "activeVertices": 60448,
+      "activeTriangles": 57458,
+      "activeMeshes": 216,
+      "renderWidth": 1024,
+      "renderHeight": 576,
+      "cssWidth": 1280,
+      "cssHeight": 720,
+      "pixelDensity": 0.8,
+      "projectedOrigin": {
+        "x": 431.9257199532295,
+        "y": 485.7025690703712,
+        "visible": true
+      },
+      "fov": 0.9203873347388264,
+      "inspection": null,
+      "vehicleScreen": {
+        "x": 431.96797459594876,
+        "y": 486.71581613635766,
+        "visible": true
+      },
+      "landingScreen": {
+        "x": 650.9821278637673,
+        "y": 281.76771220445477,
+        "visible": true
+      }
+    },
+    "manual": false,
+    "timeScale": 1,
+    "controls": {
+      "steer": 0,
+      "boost": false,
+      "roll": 0,
+      "pitch": 0,
+      "boostPressed": false,
+      "keys": [],
+      "pointers": []
+    },
+    "nozzles": [
+      {
+        "channel": "forward",
+        "sign": 0,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          0,
+          -1
+        ],
+        "position": [
+          -0.6300000000002561,
+          0.4900000000005976,
+          -2.12
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -0.8200000000002845,
+          0.4600000000007779,
+          -1.25
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -0.8200000000002845,
+          0.4600000000007779,
+          1.25
+        ]
+      },
+      {
+        "channel": "lateral",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          -1,
+          0,
+          0
+        ],
+        "position": [
+          -1.100000000000076,
+          0.6800000000010435,
+          0
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -0.9599999999999526,
+          0.8100000000009107,
+          -0.3
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          -0.9599999999999526,
+          0.8100000000009107,
+          -0.3
+        ]
+      },
+      {
+        "channel": "forward",
+        "sign": 0,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          0,
+          -1
+        ],
+        "position": [
+          0.6299999999997439,
+          0.48999999999940236,
+          -2.12
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          0.8199999999997154,
+          0.45999999999922214,
+          -1.25
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          0.8199999999997154,
+          0.45999999999922214,
+          1.25
+        ]
+      },
+      {
+        "channel": "lateral",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          1,
+          0,
+          0
+        ],
+        "position": [
+          1.0999999999999241,
+          0.6799999999989566,
+          0
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          0.9600000000000474,
+          0.8099999999990893,
+          -0.3
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          0.9600000000000474,
+          0.8099999999990893,
+          -0.3
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          -1.5178094892043247e-13,
+          0.6,
+          -1.65
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -1.5178094892043247e-13,
+          0.6,
+          -1.65
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -1.5178094892043247e-13,
+          0.6,
+          1.65
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          -1.5178094892043247e-13,
+          0.6,
+          1.65
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          -1,
+          0,
+          0
+        ],
+        "position": [
+          -9.486309307527031e-14,
+          0.66,
+          -1.6
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          1,
+          0,
+          0
+        ],
+        "position": [
+          -9.486309307527031e-14,
+          0.66,
+          -1.6
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          1,
+          0,
+          0
+        ],
+        "position": [
+          -9.486309307527031e-14,
+          0.66,
+          1.6
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          -1,
+          0,
+          0
+        ],
+        "position": [
+          -9.486309307527031e-14,
+          0.66,
+          1.6
+        ]
+      }
+    ],
+    "floor": {
+      "gaps": [
+        {
+          "start": 372,
+          "end": 440,
+          "begin": 1.1,
+          "locked": 2
+        }
+      ],
+      "solids": [
+        [
+          -600,
+          372
+        ],
+        [
+          440,
+          2400
+        ]
+      ]
+    },
+    "meshCount": 950,
+    "drawCalls": 440,
+    "frameTime": 19.100000023841858,
+    "fps": 30.851501440493188,
+    "graphics": {
+      "vendor": "Google Inc. (AMD)",
+      "renderer": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+    },
+    "camera": {
+      "x": 3.8720931624133783,
+      "y": 5.097591539365062,
+      "z": -13.39455353157234,
+      "roll": 0
+    }
+  },
+  "end": {
+    "assist": true,
+    "time": 20.874999999999456,
+    "x": 0,
+    "y": 1.0918029417239488e-18,
+    "z": 510.13016525416384,
+    "vx": 0,
+    "vy": -1.827598103383682e-17,
+    "speed": 38.88987077958676,
+    "heading": 0,
+    "energy": 1,
+    "pressure": 1,
+    "mainPressure": 100,
+    "grounded": true,
+    "pitch": 0,
+    "roll": 0,
+    "yaw": 0,
+    "bodyExtents": {
+      "halfX": 1.12,
+      "halfY": 0.76,
+      "halfZ": 2.1
+    },
+    "angularVelocity": {
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0
+    },
+    "attitude": {
+      "pitch": {
+        "omega": 0,
+        "targetOmega": 0,
+        "active": false,
+        "direction": 0,
+        "command": 0,
+        "mode": "ground",
+        "releasedAt": -99,
+        "pressedAt": 0,
+        "drivenTime": 0,
+        "pressAngle": 0,
+        "spent": 0,
+        "tracker": {
+          "direction": 0,
+          "progress": 0,
+          "retreat": 0,
+          "eligible": false
+        }
+      },
+      "roll": {
+        "omega": 0,
+        "targetOmega": 0,
+        "active": false,
+        "direction": 0,
+        "command": 0,
+        "mode": "ground",
+        "releasedAt": -99,
+        "pressedAt": 0,
+        "drivenTime": 0,
+        "pressAngle": 0,
+        "spent": 0,
+        "tracker": {
+          "direction": 0,
+          "progress": 0,
+          "retreat": 0,
+          "eligible": false
+        }
+      },
+      "yaw": {
+        "omega": 0,
+        "targetOmega": 0,
+        "active": false,
+        "direction": 0,
+        "command": 0,
+        "mode": "ground",
+        "releasedAt": -99,
+        "pressedAt": 0,
+        "drivenTime": 0,
+        "pressAngle": 0,
+        "spent": 0,
+        "tracker": {
+          "direction": 0,
+          "progress": 0,
+          "retreat": 0,
+          "eligible": false
+        }
+      }
+    },
+    "forces": {
+      "up": 4.4555731766838014e-66,
+      "forward": 1.7041650283040425e-97,
+      "lateral": 0,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0,
+      "normal": 9.81,
+      "netVertical": 0,
+      "lateralAcceleration": 0,
+      "forwardAcceleration": 0.00027619630311477296,
+      "groundMotor": 0.00027619630311477296,
+      "extraMotor": 0,
+      "grip": 1,
+      "downforce": 0,
+      "gasRate": 0,
+      "mainPointsRate": 0,
+      "authority": 1,
+      "flare": false,
+      "mainUp": 0,
+      "bufferUp": 0,
+      "rotationPointsRate": 0,
+      "reserveTorque": 0,
+      "ceilingAuthority": 1,
+      "ceilingBrake": 0
+    },
+    "jets": {
+      "up": 4.4555731766838014e-66,
+      "forward": 1.7041650283040425e-97,
+      "lateral": 0,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0
+    },
+    "pulseRemaining": 0,
+    "maneuverActive": false,
+    "stuntLabel": "",
+    "buffer": {
+      "armed": false,
+      "active": false,
+      "startedAt": 13.80833333333319
+    },
+    "flightId": 2,
+    "airSupplyUsed": 0,
+    "supplyCounts": {},
+    "prediction": {
+      "time": 0.058333333333333334,
+      "z": 276.64079535490225,
+      "x": 0,
+      "buffered": true,
+      "safe": true
+    },
+    "releasePrediction": {
+      "time": 0.04999999999999716,
+      "x": 0,
+      "z": 276.64079535490225,
+      "y": -0.009668831502433521,
+      "heading": 0,
+      "pitch": 0,
+      "buffered": true,
+      "safe": true,
+      "assessment": {
+        "grade": 0,
+        "label": "精准落地",
+        "angle": 0,
+        "headingError": 0,
+        "impact": 3.8581365058300796,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "checks": {
+          "pose": true,
+          "direction": true,
+          "settled": true,
+          "descent": true,
+          "safe": true
+        },
+        "reason": null,
+        "tone": "precise"
+      },
+      "padHit": true
+    },
+    "guidance": "尽快松手 · 准备落地",
+    "notice": null,
+    "supplyNotice": null,
+    "pending": 0,
+    "total": 0,
+    "landingCount": 2,
+    "lastLanding": {
+      "x": 0,
+      "z": 276.64079535490225,
+      "speed": 26.16445190093131,
+      "grade": 0,
+      "assessment": {
+        "grade": 0,
+        "label": "精准落地",
+        "angle": 0,
+        "headingError": 0,
+        "impact": 3.8581365058300796,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "checks": {
+          "pose": true,
+          "direction": true,
+          "settled": true,
+          "descent": true,
+          "safe": true
+        },
+        "reason": null,
+        "tone": "precise"
+      },
+      "reason": null,
+      "padHit": true,
+      "label": "精准落地",
+      "angle": 0,
+      "impact": 3.8581365058300796,
+      "contactHeight": 0,
+      "airTime": 3.5583333333333234,
+      "time": 14.50833333333315,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0,
+      "headingError": 0,
+      "omegaYaw": 0,
+      "omegaPitch": 0,
+      "omegaRoll": 0,
+      "pressure": 0.774666666666668,
+      "buffered": true,
+      "flight": 2
+    },
+    "popup": {
+      "label": "精准落地",
+      "detail": "×1.2 · +0 已入账",
+      "kind": "land",
+      "amount": 0,
+      "at": 14.50833333333315
+    },
+    "crashTimer": 0,
+    "crashes": 0,
+    "thrusting": false,
+    "input": {
+      "steer": 0,
+      "boost": false,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": 0
+    },
+    "events": [
+      {
+        "type": "parking-rack-clear",
+        "time": 5.408333333333392,
+        "route": "wide"
+      },
+      {
+        "type": "pulse",
+        "cost": 18,
+        "ground": true,
+        "time": 6.441666666666777
+      },
+      {
+        "type": "takeoff",
+        "flight": 1,
+        "time": 6.5416666666667815
+      },
+      {
+        "type": "buffer",
+        "time": 8.691666666666814,
+        "height": 2.7720774488198536,
+        "vy": -8.142201245737608
+      },
+      {
+        "type": "landing",
+        "x": 7.1997666545917145,
+        "z": 299.9626625134085,
+        "speed": 38.044049450595715,
+        "grade": 0,
+        "assessment": {
+          "grade": 0,
+          "label": "精准落地",
+          "angle": 0,
+          "headingError": 0,
+          "impact": 3.8540331799295484,
+          "omega": {
+            "pitch": 0,
+            "roll": 0,
+            "yaw": 0
+          },
+          "checks": {
+            "pose": true,
+            "direction": true,
+            "settled": true,
+            "descent": true,
+            "safe": true
+          },
+          "reason": null,
+          "tone": "precise"
+        },
+        "reason": null,
+        "padHit": true,
+        "label": "精准落地",
+        "angle": 0,
+        "impact": 3.8540331799295484,
+        "contactHeight": 0,
+        "airTime": 2.7166666666666597,
+        "time": 9.250000000000115,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "headingError": 0,
+        "omegaYaw": 0,
+        "omegaPitch": 0,
+        "omegaRoll": 0,
+        "pressure": 0.8200000000000001,
+        "buffered": true,
+        "flight": 1
+      },
+      {
+        "type": "parking-light",
+        "time": 9.250000000000115,
+        "flight": 1,
+        "energy": 61.09548341207691,
+        "preBufferDown": 8.142201245737608,
+        "apex": 6.198128352522504,
+        "grade": 0,
+        "x": 7.1997666545917145,
+        "z": 299.9626625134085,
+        "heavy": false
+      },
+      {
+        "type": "recovery",
+        "time": 10.033333333333404
+      },
+      {
+        "type": "parking-return",
+        "time": 10.033333333333404
+      },
+      {
+        "type": "pulse",
+        "cost": 18,
+        "ground": true,
+        "time": 10.858333333333357
+      },
+      {
+        "type": "takeoff",
+        "flight": 2,
+        "time": 10.958333333333352
+      },
+      {
+        "type": "buffer",
+        "time": 13.80833333333319,
+        "height": 4.187455447107705,
+        "vy": -10.851534584584277
+      },
+      {
+        "type": "landing",
+        "x": 0,
+        "z": 276.64079535490225,
+        "speed": 26.16445190093131,
+        "grade": 0,
+        "assessment": {
+          "grade": 0,
+          "label": "精准落地",
+          "angle": 0,
+          "headingError": 0,
+          "impact": 3.8581365058300796,
+          "omega": {
+            "pitch": 0,
+            "roll": 0,
+            "yaw": 0
+          },
+          "checks": {
+            "pose": true,
+            "direction": true,
+            "settled": true,
+            "descent": true,
+            "safe": true
+          },
+          "reason": null,
+          "tone": "precise"
+        },
+        "reason": null,
+        "padHit": true,
+        "label": "精准落地",
+        "angle": 0,
+        "impact": 3.8581365058300796,
+        "contactHeight": 0,
+        "airTime": 3.5583333333333234,
+        "time": 14.50833333333315,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "headingError": 0,
+        "omegaYaw": 0,
+        "omegaPitch": 0,
+        "omegaRoll": 0,
+        "pressure": 0.774666666666668,
+        "buffered": true,
+        "flight": 2
+      },
+      {
+        "type": "parking-heavy",
+        "time": 14.50833333333315,
+        "flight": 2,
+        "energy": 101.15338907860502,
+        "preBufferDown": 10.851534584584277,
+        "apex": 10.301583877835489,
+        "grade": 0,
+        "x": 0,
+        "z": 276.64079535490225,
+        "heavy": true
+      },
+      {
+        "type": "parking-wall-hit",
+        "time": 15.416666666666432,
+        "cart": {
+          "x": -0.15053763440926904,
+          "y": 5.474596821236445,
+          "z": 358.49462365590733
+        }
+      },
+      {
+        "type": "parking-bridge-locked",
+        "time": 16.51666666666637
+      },
+      {
+        "type": "parking-exit",
+        "time": 20.874999999999456
+      }
+    ],
+    "ledger": [
+      {
+        "time": 6.441666666666777,
+        "through": 6.441666666666777,
+        "flight": 0,
+        "kind": "cost",
+        "source": "ground-pulse",
+        "requested": 18,
+        "actual": 18,
+        "main": 82,
+        "supplied": 0
+      },
+      {
+        "time": 9.258333333333448,
+        "through": 9.29166666666678,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 1.0416666666666667,
+        "actual": 1.0416666666666667,
+        "main": 83.04166666666667,
+        "supplied": 0
+      },
+      {
+        "time": 9.300000000000113,
+        "through": 9.366666666666775,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 1.8749999999999998,
+        "actual": 1.8749999999999998,
+        "main": 84.91666666666666,
+        "supplied": 0
+      },
+      {
+        "time": 9.433333333333438,
+        "through": 9.491666666666768,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 1.6666666666666665,
+        "actual": 1.6666666666666665,
+        "main": 86.58333333333333,
+        "supplied": 0
+      },
+      {
+        "time": 9.500000000000101,
+        "through": 9.591666666666763,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 89.08333333333331,
+        "supplied": 0
+      },
+      {
+        "time": 9.600000000000096,
+        "through": 9.691666666666757,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 91.5833333333333,
+        "supplied": 0
+      },
+      {
+        "time": 9.70000000000009,
+        "through": 9.791666666666751,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 94.0833333333333,
+        "supplied": 0
+      },
+      {
+        "time": 9.800000000000084,
+        "through": 9.891666666666746,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 96.58333333333329,
+        "supplied": 0
+      },
+      {
+        "time": 9.900000000000079,
+        "through": 9.99166666666674,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 99.08333333333329,
+        "supplied": 0
+      },
+      {
+        "time": 10.000000000000073,
+        "through": 10.033333333333404,
+        "flight": 1,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 0.9166666666667241,
+        "actual": 0.9166666666667241,
+        "main": 100,
+        "supplied": 0
+      },
+      {
+        "time": 10.858333333333357,
+        "through": 10.858333333333357,
+        "flight": 1,
+        "kind": "cost",
+        "source": "ground-pulse",
+        "requested": 18,
+        "actual": 18,
+        "main": 82,
+        "supplied": 0
+      },
+      {
+        "time": 11.308333333333332,
+        "through": 11.399999999999993,
+        "flight": 2,
+        "kind": "cost",
+        "source": "sustain",
+        "requested": 1.5999999999999999,
+        "actual": 1.5999999999999999,
+        "main": 80.40000000000005,
+        "supplied": 0
+      },
+      {
+        "time": 11.408333333333326,
+        "through": 11.499999999999988,
+        "flight": 2,
+        "kind": "cost",
+        "source": "sustain",
+        "requested": 1.5999999999999999,
+        "actual": 1.5999999999999999,
+        "main": 78.8000000000001,
+        "supplied": 0
+      },
+      {
+        "time": 11.50833333333332,
+        "through": 11.583333333333316,
+        "flight": 2,
+        "kind": "cost",
+        "source": "sustain",
+        "requested": 1.3333333333333333,
+        "actual": 1.3333333333333333,
+        "main": 77.4666666666668,
+        "supplied": 0
+      },
+      {
+        "time": 14.516666666666483,
+        "through": 14.599999999999811,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.2916666666666665,
+        "actual": 2.2916666666666665,
+        "main": 79.75833333333345,
+        "supplied": 0
+      },
+      {
+        "time": 14.608333333333144,
+        "through": 14.699999999999806,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 82.25833333333344,
+        "supplied": 0
+      },
+      {
+        "time": 14.708333333333139,
+        "through": 14.7999999999998,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 84.75833333333344,
+        "supplied": 0
+      },
+      {
+        "time": 14.808333333333133,
+        "through": 14.899999999999794,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 87.25833333333343,
+        "supplied": 0
+      },
+      {
+        "time": 14.908333333333127,
+        "through": 14.999999999999789,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 89.75833333333341,
+        "supplied": 0
+      },
+      {
+        "time": 15.008333333333121,
+        "through": 15.099999999999783,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 92.25833333333341,
+        "supplied": 0
+      },
+      {
+        "time": 15.108333333333116,
+        "through": 15.199999999999777,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 94.7583333333334,
+        "supplied": 0
+      },
+      {
+        "time": 15.20833333333311,
+        "through": 15.299999999999772,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 97.2583333333334,
+        "supplied": 0
+      },
+      {
+        "time": 15.308333333333104,
+        "through": 15.399999999999766,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 2.5,
+        "actual": 2.5,
+        "main": 99.75833333333338,
+        "supplied": 0
+      },
+      {
+        "time": 15.408333333333099,
+        "through": 15.416666666666432,
+        "flight": 2,
+        "kind": "ground",
+        "source": "real-contact",
+        "requested": 0.2416666666666186,
+        "actual": 0.2416666666666186,
+        "main": 100,
+        "supplied": 0
+      }
+    ],
+    "paused": false,
+    "resumeRemaining": 0,
+    "session": {
+      "parking": {
+        "localRetry": true,
+        "phase": "complete",
+        "open": true,
+        "wallBroken": true,
+        "complete": true,
+        "triggerAt": 14.50833333333315,
+        "hitAt": 15.416666666666432,
+        "lightAt": null,
+        "endedAt": 20.874999999999456,
+        "attempt": 1,
+        "rackPassed": true,
+        "scraped": false,
+        "ringCrossed": false,
+        "ringActual": 0,
+        "apex": 10.301583877835489,
+        "preBufferDown": 10.851534584584277,
+        "reason": "",
+        "lastPress": {
+          "flight": 2,
+          "energy": 101.15338907860502,
+          "preBufferDown": 10.851534584584277,
+          "apex": 10.301583877835489,
+          "grade": 0,
+          "x": 0,
+          "z": 276.64079535490225,
+          "heavy": true
+        },
+        "events": [
+          {
+            "type": "parking-rack-clear",
+            "time": 5.408333333333392,
+            "route": "wide"
+          },
+          {
+            "type": "parking-light",
+            "time": 9.250000000000115,
+            "flight": 1,
+            "energy": 61.09548341207691,
+            "preBufferDown": 8.142201245737608,
+            "apex": 6.198128352522504,
+            "grade": 0,
+            "x": 7.1997666545917145,
+            "z": 299.9626625134085,
+            "heavy": false
+          },
+          {
+            "type": "parking-return",
+            "time": 10.033333333333404
+          },
+          {
+            "type": "parking-heavy",
+            "time": 14.50833333333315,
+            "flight": 2,
+            "energy": 101.15338907860502,
+            "preBufferDown": 10.851534584584277,
+            "apex": 10.301583877835489,
+            "grade": 0,
+            "x": 0,
+            "z": 276.64079535490225,
+            "heavy": true
+          },
+          {
+            "type": "parking-wall-hit",
+            "time": 15.416666666666432,
+            "cart": {
+              "x": -0.15053763440926904,
+              "y": 5.474596821236445,
+              "z": 358.49462365590733
+            }
+          },
+          {
+            "type": "parking-bridge-locked",
+            "time": 16.51666666666637
+          },
+          {
+            "type": "parking-exit",
+            "time": 20.874999999999456
+          }
+        ]
+      },
+      "phase": "running",
+      "mode": "parking",
+      "elapsed": 0,
+      "remaining": 90,
+      "countdown": 0,
+      "paused": false,
+      "resumeRemaining": 0,
+      "resuming": false,
+      "sprint": null,
+      "practice": null,
+      "stats": {
+        "actions": 0,
+        "groups": 0,
+        "obstacleScore": 0,
+        "bankedTricks": 0,
+        "rings": 0,
+        "grazes": 0,
+        "precision": 0,
+        "precisionPads": 0,
+        "highestCombo": 0,
+        "repairsUsed": 0,
+        "crashes": 0,
+        "tutorialMistakes": 0,
+        "skipped": 0
+      },
+      "tutorial": {
+        "stage": "accelerate",
+        "firstLanding": null,
+        "rollLanding": null,
+        "repeatLanding": null,
+        "complete": false,
+        "retry": false,
+        "shortPractice": false,
+        "heldPractice": false
+      },
+      "routeAnchor": null,
+      "nextGroup": 0,
+      "groups": [],
+      "result": null,
+      "best": 0,
+      "storageAvailable": true
+    },
+    "feedback": {
+      "hud": {
+        "active": true,
+        "state": "ground",
+        "retry": true,
+        "retryLabel": "重玩停车场 · R",
+        "clock": "00:20",
+        "clockLabel": "练习用时",
+        "segments": [],
+        "repairs": null,
+        "target": null,
+        "prompt": "",
+        "teaching": "",
+        "landing": {
+          "visible": false,
+          "time": 0,
+          "caption": "松手 · 0.0s后接地",
+          "danger": false,
+          "tone": "precise",
+          "reason": "预计精准",
+          "prediction": {
+            "time": 0.04999999999999716,
+            "x": 0,
+            "z": 276.64079535490225,
+            "y": -0.009668831502433521,
+            "heading": 0,
+            "pitch": 0,
+            "buffered": true,
+            "safe": true,
+            "assessment": {
+              "grade": 0,
+              "label": "精准落地",
+              "angle": 0,
+              "headingError": 0,
+              "impact": 3.8581365058300796,
+              "omega": {
+                "pitch": 0,
+                "roll": 0,
+                "yaw": 0
+              },
+              "checks": {
+                "pose": true,
+                "direction": true,
+                "settled": true,
+                "descent": true,
+                "safe": true
+              },
+              "reason": null,
+              "tone": "precise"
+            },
+            "padHit": true
+          }
+        },
+        "combo": {
+          "visible": false,
+          "weak": false,
+          "multiplier": 1,
+          "countVisible": true,
+          "label": "漂亮",
+          "amount": 0,
+          "displayed": 0,
+          "tier": {
+            "min": 0,
+            "name": "漂亮",
+            "color": "#f0f5f5",
+            "index": 0
+          },
+          "rows": [],
+          "formula": "",
+          "reason": "",
+          "transfer": null
+        },
+        "displayedTotal": 0,
+        "supply": 0
+      },
+      "timeline": {
+        "kind": "bank",
+        "amount": 0,
+        "displayed": 0,
+        "total": 0,
+        "visible": false,
+        "deadline": 16.508333333333148,
+        "rows": [],
+        "queue": 0,
+        "upgradeCounts": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bursts": 0,
+        "actionsPresented": 0
+      },
+      "particles": {
+        "capacity": 128,
+        "active": 0,
+        "heavy": 0,
+        "ringCapacity": 8,
+        "rings": 0,
+        "peak": 0,
+        "ringPeak": 0,
+        "emitted": 0,
+        "dpr": 1,
+        "worldParticles": []
+      },
+      "audio": {
+        "flight": {
+          "windContribution": 0,
+          "graphs": 1,
+          "continuousSources": 2,
+          "nodes": 8,
+          "levels": {
+            "engine": 0.04753206428616159,
+            "jet": 2.5160883821273235e-68,
+            "brake": 0
+          },
+          "landings": 2
+        },
+        "enabled": true,
+        "state": "running",
+        "contexts": 1,
+        "voices": 8,
+        "active": 0,
+        "peakVoices": 5,
+        "played": 15,
+        "dropped": 0,
+        "peak": 0.010270719416439533,
+        "rms": 0.007066973512183561,
+        "maxPeak": 0.043349869549274445,
+        "nonzeroFrames": 701,
+        "clippedFrames": 0,
+        "lastEnvelope": {
+          "frequency": 92,
+          "amplitude": 0.065,
+          "glide": 1.04,
+          "attack": 0.008,
+          "duration": 0.18,
+          "at": 16.522666666666666,
+          "end": 16.710666666666665
+        }
+      },
+      "quality": {
+        "mode": "auto",
+        "reduced": false,
+        "effective": "low",
+        "average": 19.65692207122273,
+        "switches": 1
+      },
+      "cameraImpact": 0,
+      "rowNodes": 4,
+      "preferences": {
+        "sound": true,
+        "quality": "auto"
+      }
+    },
+    "art": {
+      "presentation": {
+        "landingMarker": {
+          "visible": false,
+          "shape": "ring",
+          "heading": 0,
+          "broken": false,
+          "tone": "precise",
+          "x": 0,
+          "z": 276.64079535490225
+        },
+        "vehicleVisuals": {
+          "driveSource": null,
+          "entrySpeed": 26.16445190093131,
+          "actualGain": 12.725418878655447,
+          "cameraGain": 0,
+          "supplyOrigins": [],
+          "speedLines": {
+            "streaks": 0,
+            "strength": 1.28022651564707e-15,
+            "protectedCentre": [
+              0.245,
+              0.755
+            ]
+          },
+          "motorIntensity": 0,
+          "supplyPulse": 0,
+          "launchStrength": 0,
+          "roadLights": 0,
+          "wakeSegments": 0,
+          "supplyOrbs": 0,
+          "launchDust": 0,
+          "dustEmitted": 16,
+          "capacity": {
+            "roadLights": 16,
+            "wakeSegments": 40,
+            "supplyOrbs": 12,
+            "launchDust": 12
+          }
+        },
+        "vehicleFov": 6.031881692357939e-8,
+        "sprintVisuals": {
+          "driveSource": null,
+          "entrySpeed": 26.16445190093131,
+          "actualGain": 12.725418878655447,
+          "cameraGain": 0,
+          "supplyOrigins": [],
+          "speedLines": {
+            "streaks": 0,
+            "strength": 1.28022651564707e-15,
+            "protectedCentre": [
+              0.245,
+              0.755
+            ]
+          },
+          "motorIntensity": 0,
+          "supplyPulse": 0,
+          "launchStrength": 0,
+          "roadLights": 0,
+          "wakeSegments": 0,
+          "supplyOrbs": 0,
+          "launchDust": 0,
+          "dustEmitted": 16,
+          "capacity": {
+            "roadLights": 16,
+            "wakeSegments": 40,
+            "supplyOrbs": 12,
+            "launchDust": 12
+          }
+        },
+        "sprintFov": 6.031881692357939e-8,
+        "reflectionProbes": 1,
+        "reflectionSize": 128,
+        "realShadow": true,
+        "sprintVisible": false,
+        "shadowCasters": 299,
+        "effects": {
+          "capacity": 48,
+          "active": 0,
+          "arcs": 0,
+          "arcCapacity": 3,
+          "peak": 16,
+          "dustEmitted": 32
+        },
+        "courseVisible": false
+      },
+      "environment": {
+        "district": "civic",
+        "name": "天际高架",
+        "z": 510.13016525416384,
+        "cycle": 3000,
+        "minSceneryX": 14,
+        "richDetails": false,
+        "visibleModules": 2,
+        "modulePositions": [
+          -510.13016525416384,
+          489.86983474583616,
+          1489.8698347458362
+        ]
+      },
+      "car": {
+        "compression": 0,
+        "wheelLocalY": [
+          -0.4,
+          -0.4,
+          -0.4,
+          -0.4
+        ],
+        "wheelAngle": 4.942311345461622,
+        "spinRate": 108.02741883218545,
+        "wheelRadius": 0.36,
+        "richDetails": false,
+        "bodyMeshes": 37
+      },
+      "quality": "low",
+      "reducedMotion": false,
+      "materials": 66,
+      "textures": 5,
+      "geometries": 950,
+      "vertices": 179048,
+      "activeVertices": 56367,
+      "activeTriangles": 53476,
+      "activeMeshes": 84,
+      "renderWidth": 1024,
+      "renderHeight": 576,
+      "cssWidth": 1280,
+      "cssHeight": 720,
+      "pixelDensity": 0.8,
+      "projectedOrigin": {
+        "x": 639.9999997855423,
+        "y": 485.3015610154677,
+        "visible": true
+      },
+      "fov": 0.9199996081894585,
+      "inspection": null,
+      "vehicleScreen": {
+        "x": 639.9999997910835,
+        "y": 486.3129650636509,
+        "visible": true
+      },
+      "landingScreen": {
+        "x": 639.9999753935502,
+        "y": 239.55386601256006,
+        "visible": false
+      }
+    },
+    "manual": false,
+    "timeScale": 1,
+    "controls": {
+      "steer": 0,
+      "boost": false,
+      "roll": 0,
+      "pitch": 0,
+      "boostPressed": false,
+      "keys": [],
+      "pointers": []
+    },
+    "nozzles": [
+      {
+        "channel": "forward",
+        "sign": 0,
+        "active": false,
+        "strength": 7.100687617933511e-98,
+        "core": false,
+        "exhaust": [
+          0,
+          0,
+          -1
+        ],
+        "position": [
+          -0.63,
+          0.49,
+          -2.12
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": false,
+        "strength": 1.392366617713688e-67,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -0.82,
+          0.46,
+          -1.25
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": false,
+        "strength": 1.392366617713688e-67,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -0.82,
+          0.46,
+          1.25
+        ]
+      },
+      {
+        "channel": "lateral",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          -1,
+          0,
+          0
+        ],
+        "position": [
+          -1.1,
+          0.68,
+          0
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -0.96,
+          0.81,
+          -0.3
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          -0.96,
+          0.81,
+          -0.3
+        ]
+      },
+      {
+        "channel": "forward",
+        "sign": 0,
+        "active": false,
+        "strength": 7.100687617933511e-98,
+        "core": false,
+        "exhaust": [
+          0,
+          0,
+          -1
+        ],
+        "position": [
+          0.63,
+          0.49,
+          -2.12
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": false,
+        "strength": 1.392366617713688e-67,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          0.82,
+          0.46,
+          -1.25
+        ]
+      },
+      {
+        "channel": "up",
+        "sign": 0,
+        "active": false,
+        "strength": 1.392366617713688e-67,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          0.82,
+          0.46,
+          1.25
+        ]
+      },
+      {
+        "channel": "lateral",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          1,
+          0,
+          0
+        ],
+        "position": [
+          1.1,
+          0.68,
+          0
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          0.96,
+          0.81,
+          -0.3
+        ]
+      },
+      {
+        "channel": "roll",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          0.96,
+          0.81,
+          -0.3
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          -2.2420775429197074e-46,
+          0.6,
+          -1.65
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -2.2420775429197074e-46,
+          0.6,
+          -1.65
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          -1,
+          0
+        ],
+        "position": [
+          -2.2420775429197074e-46,
+          0.6,
+          1.65
+        ]
+      },
+      {
+        "channel": "pitch",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          0,
+          1,
+          0
+        ],
+        "position": [
+          -2.2420775429197074e-46,
+          0.6,
+          1.65
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          -1,
+          0,
+          0
+        ],
+        "position": [
+          -1.4012984643248171e-46,
+          0.66,
+          -1.6
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          1,
+          0,
+          0
+        ],
+        "position": [
+          -1.4012984643248171e-46,
+          0.66,
+          -1.6
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": -1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          1,
+          0,
+          0
+        ],
+        "position": [
+          -1.4012984643248171e-46,
+          0.66,
+          1.6
+        ]
+      },
+      {
+        "channel": "yaw",
+        "sign": 1,
+        "active": false,
+        "strength": 0,
+        "core": false,
+        "exhaust": [
+          -1,
+          0,
+          0
+        ],
+        "position": [
+          -1.4012984643248171e-46,
+          0.66,
+          1.6
+        ]
+      }
+    ],
+    "floor": {
+      "gaps": [],
+      "solids": [
+        [
+          -600,
+          2400
+        ]
+      ]
+    },
+    "meshCount": 950,
+    "drawCalls": 288,
+    "frameTime": 10.300000011920929,
+    "fps": 55.05597357554163,
+    "graphics": {
+      "vendor": "Google Inc. (AMD)",
+      "renderer": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x00001636) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+    },
+    "camera": {
+      "x": 1.6881052017249714e-16,
+      "y": 5.09999999998858,
+      "z": -13.399995349468053,
+      "roll": 0
+    }
+  },
+  "inputs": [
+    {
+      "type": "keydown",
+      "code": "KeyD",
+      "trusted": true,
+      "wall": 4284.399999976158,
+      "time": 0.2833333333333334
+    },
+    {
+      "type": "keyup",
+      "code": "KeyD",
+      "trusted": true,
+      "wall": 5937.599999964237,
+      "time": 1.9499999999999955
+    },
+    {
+      "type": "keydown",
+      "code": "Space",
+      "trusted": true,
+      "wall": 10427.199999988079,
+      "time": 6.433333333333443
+    },
+    {
+      "type": "keyup",
+      "code": "Space",
+      "trusted": true,
+      "wall": 10526.300000011921,
+      "time": 6.466666666666778
+    },
+    {
+      "type": "keydown",
+      "code": "Space",
+      "trusted": true,
+      "wall": 14950.399999976158,
+      "time": 10.850000000000025
+    },
+    {
+      "type": "keyup",
+      "code": "Space",
+      "trusted": true,
+      "wall": 15692.199999988079,
+      "time": 11.583333333333316
+    }
+  ]
+}

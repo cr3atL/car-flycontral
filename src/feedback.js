@@ -44,7 +44,7 @@ export class ScoreFeedback {
         if(sim.buffer.startedAt!==null&&sim.buffer.startedAt>this.lastBufferAt){this.lastBufferAt=sim.buffer.startedAt;if(now-sim.buffer.startedAt<.3)this.audio.play({type:'buffer'});}
         this.quality.observe(frameMs);
         const due = this.timeline.tick(now); if (due.length) this.anchors();
-        for (const e of due) { this.particles.emit(e, now, this.quality.effective, this.anchor); if (e.audio) this.audio.play(e); }
+        for (const e of due) { this.particles.emit(e, now, this.quality.effective, this.anchor); if (e.audio&&!(session.mode==='parking'&&session.parking.triggerAt!==null&&now-session.parking.triggerAt<2.1)) this.audio.play(e); }
       } else {this.lastSupplyAt=sim.supplyNotice?.at??this.lastSupplyAt;this.lastBufferAt=sim.buffer.startedAt??this.lastBufferAt;}
     }
     this.audio.flight.update(sim,session.phase==='running'&&!session.paused&&!(session.mode==='sprint'&&session.sprint.complete),session.mode==='sprint');this.paused = session.paused;

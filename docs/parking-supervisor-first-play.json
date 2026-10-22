@@ -1,0 +1,34 @@
+{
+  "method": "Supervisor original-speed CUA mouse/keys in ordinary production4173; no internal state/time/pose/score writes. Provisional candidates only.",
+  "firstPackage": "index-ltDGu3NZ.js",
+  "secondPackage": "index-FAfzg_So.js",
+  "observations": [
+    "Entry exposes suspended rack with driveable centre below; requested visible matching base, later candidate adds it.",
+    "First plate yellow inner mark was smaller than actual trigger; requested full matching boundary, later candidate corrected.",
+    "First attempt yellow hint -> Space1000ms -> Q120ms did not complete.",
+    "FAf repeated Space1000ms -> Q180ms attempts did not complete; some actual recovery/chain cancellation observed.",
+    "One exact-text wait used old hint and timed out after wording changed; a supervisor selector issue, not a game failure.",
+    "One actual air pause after Space1000ms had DOM altitude8.6m and pressure72. Parking-too-narrow shown here was predicted hazard, not proof of actual impact.",
+    "Wide first attempt D2100ms thenSpace1000ms went beyond road; not proof wide route impossible.",
+    "Resume/countdown CUA call timed out and reset kernel; recovered same tab24. Not classified as game defect."
+  ],
+  "status": "Supervisor wide production route completed; final revised candidate and narrow/feedback/mobile verification pending.",
+  "secondCandidateObservations": {
+    "package": "index-B592G7xG.js",
+    "wideCompleted": true,
+    "inputs": "R -> D1550ms -> visible rack distance60..68m -> Space1000ms -> release; native Esc resume after automatic focus-loss pause. Requested wall-clock holds, not measured simulation holds.",
+    "actualUI": [
+      "Passed rack",
+      "Actual supply+28",
+      "Completed bridge traversal and reached exit",
+      "quick title出口已打开,total0",
+      "error/warn[]"
+    ],
+    "limitations": [
+      "No full wall-impact sequence observed this attempt because focus-loss pause and later observation.",
+      "Root timeout waiting countdown.hidden with visible was an incorrect selector-state wait, not game failure.",
+      "Root earlier wide wait timed out while actual session paused, not proof trigger failed.",
+      "Root new package narrow attempts still not completed."
+    ]
+  }
+}

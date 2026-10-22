@@ -1,0 +1,13 @@
+body[data-mode="parking"] .race-clock,body[data-mode="parking"] #pc-repairs{display:none!important}
+body.parking-no-score #hud .score{visibility:hidden}
+#quick-score[hidden]{display:none!important}
+body[data-mode="parking"] #quick-title{font-size:22px;letter-spacing:2px}
+body.mobile-hud[data-mode="parking"] #quick-title{font-size:16px;line-height:22px}
+body[data-mode="parking"][data-parking="complete"] #touch-controls{visibility:hidden}
+body[data-mode="parking"][data-parking="complete"] #quick-result{width:285px;padding:18px;background:linear-gradient(100deg,#10232bde,#10232bf2);border-left:2px solid #9fe6c3}
+body.mobile-hud[data-mode="parking"][data-parking="complete"] #quick-result{width:240px;padding:14px;top:22vh}
+#parking-hint{position:absolute;left:50%;top:19vh;transform:translateX(-50%);font-size:15px;letter-spacing:1px;text-align:center;color:#f1eee1;text-shadow:0 2px 5px #0a131b;background:#112b3659;padding:6px 12px;white-space:nowrap;pointer-events:none}
+#parking-hint[hidden]{display:none}
+body.mobile-hud #parking-hint{top:16vh;font-size:11px;padding:4px 8px;letter-spacing:.2px}
+#menu #start-parking{font-size:23px;letter-spacing:1px;white-space:nowrap}
+@media(max-height:440px){#menu #start-parking{font-size:19px}#menu .flow-card #menu-title{margin-bottom:20px}#menu .menu-actions button{padding-top:8px;padding-bottom:8px}#menu .menu-tools{margin-top:16px}}

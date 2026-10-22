@@ -1,0 +1,50 @@
+{
+  "baseline": "9667aca",
+  "unit": {
+    "tests": 137,
+    "pass": 137,
+    "fail": 0,
+    "milliseconds": 164831.576,
+    "scope": "Independent full run before final OBB shear projection / entry hint / exit layout freeze; targeted or full rerun required after those changes."
+  },
+  "oldPhysics": {
+    "samples": 240,
+    "mismatches": 0,
+    "scope": "Offline legal-input flat road comparison, not browser play."
+  },
+  "nativePlay": {
+    "B592": "PC wide route complete, actual+28 ring, focus pause/resume, exit.",
+    "DKO": "PC wide actual heavy plate, complete; 667 mobileHUD keyboard lane+native screen mouse boost1000ms, wall fragments and actual orange bridge observed, exit complete with no big0, retry/menu/old challenge01:30 0/9 repairs2 verified.",
+    "narrow": "Supervisor attempts not mastered; one released hold left right control DOM roll1; no hidden state writes or input changes. Developer separate trusted-key narrow success evidence reviewed.",
+    "scope": "Not physical phone, not supervisor two thumbs, not independent subjective audio audition. FPS work deferred.",
+    "BJJY": "Final production667 phone HUD: opening goal sentence visible; native keyboardD1550ms then native screen mouse boost at613,184 for1000ms on rack distance60..68m. Actual continuous wide route completed without pause; escape title, zero score hidden, arch behind camera, buttons clear, error/warn empty. Menu returned, viewport reset. No internal writes. Not supervisor two-thumb/physical phone."
+  },
+  "errors": [],
+  "pending": [
+    "Pages deployment and online actual smoke"
+  ],
+  "finalTargeted": {
+    "passed": 8,
+    "failed": 0,
+    "milliseconds": 10256.1233
+  },
+  "finalBuild": {
+    "file": "dist/assets/index-BJJYocJ2.js",
+    "sha256": "7f336f7bee01486d1bd286cda4e6d64d5fb749bec83a1f51426200bba3278e92",
+    "bytes": 1425453,
+    "base": "./"
+  },
+  "freezes": {
+    "developer": 100,
+    "supervisor": 112,
+    "mismatches": 0
+  },
+  "protected": {
+    "LFNormalizedUnchanged": 13,
+    "newModeExceptions": [
+      "src/hud-model.js",
+      "src/feedback.js",
+      "src/world.js"
+    ]
+  }
+}

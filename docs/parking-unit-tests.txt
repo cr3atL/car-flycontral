@@ -1,0 +1,45 @@
+TAP version 13
+# Subtest: wide lane needs no stunts; exact physical event chain opens actual bridge before exit
+ok 1 - wide lane needs no stunts; exact physical event chain opens actual bridge before exit
+  ---
+  duration_ms: 2769.1509
+  ...
+# Subtest: shortcut accepts a useful small-input range and real pose clearance instead of circles
+ok 2 - shortcut accepts a useful small-input range and real pose clearance instead of circles
+  ---
+  duration_ms: 5825.9877
+  ...
+# Subtest: finite rack allows above-frame space but visible central base blocks ground
+ok 3 - finite rack allows above-frame space but visible central base blocks ground
+  ---
+  duration_ms: 4.2784
+  ...
+# Subtest: inclined/sheared aperture projects all OBB corners, including pitch and yaw
+ok 4 - inclined/sheared aperture projects all OBB corners, including pitch and yaw
+  ---
+  duration_ms: 1.8646
+  ...
+# Subtest: projectile physically crosses wall before wall event; bridge cannot unlock early
+ok 5 - projectile physically crosses wall before wall event; bridge cannot unlock early
+  ---
+  duration_ms: 1.168
+  ...
+# Subtest: light landing returns locally then a legal retry jump opens route, no ring requirement
+ok 6 - light landing returns locally then a legal retry jump opens route, no ring requirement
+  ---
+  duration_ms: 2316.1535
+  ...
+# Subtest: one contact cannot farm the actuator; pause and post-open crash preserve locked success
+ok 7 - one contact cannot farm the actuator; pause and post-open crash preserve locked success
+  ---
+  duration_ms: 50.6706
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 11363.3989

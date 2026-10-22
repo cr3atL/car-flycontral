@@ -23,7 +23,7 @@
     <div class="track-label"><span class="dot"></span><b id="mode-label">90 SECOND CHALLENGE</b><span id="race-status">九组挑战 · 两次修复</span></div>
     <div id="flight-info"><span id="state">地面巡航</span><strong id="action">准备起飞</strong><small id="cue">短按空格弹射 · 松开自然落地</small><div id="landing-feedback" class="hidden" aria-live="polite"><span id="landing-caption">松手后的预计落点</span><div><b id="landing-pose"></b><b id="landing-direction"></b><b id="landing-settle"></b></div><small id="landing-reason"></small></div><button id="jump-retry" class="hidden">再来一跳 · R</button></div>
     <svg id="pc-projection" aria-label="松手预计朝向" hidden><path id="pc-projection-link"/><circle id="pc-projection-point" r="3"/><g id="pc-projection-car"><path class="car-edge" d="M-15,-37 L15,-37 L22,-22 L22,31 L15,38 L-15,38 L-22,31 L-22,-22 Z"/><path class="car-window" d="M-12,-15 L12,-15 L15,4 L-15,4 Z"/><path class="car-nose" d="M-7,-25 L0,-34 L7,-25 Z"/></g></svg>
-    <div id="pc-ground-target"></div><div id="pc-prompt"></div><div id="pc-landing"><strong id="pc-touchdown-time"></strong><span id="pc-touchdown-reason"></span></div>
+    <div id="parking-hint" hidden></div><div id="pc-ground-target"></div><div id="pc-prompt"></div><div id="pc-landing"><strong id="pc-touchdown-time"></strong><span id="pc-touchdown-reason"></span></div>
     <div id="pc-score-area"><aside id="combo" aria-live="polite"><small id="combo-label">动作完成 · 落地入账</small><strong id="pending">0</strong><span id="combo-detail"></span><div id="action-records"></div></aside><button id="pc-retry" hidden>再来一跳 · R</button></div>
     <div class="dashboard"><div class="speed"><strong id="speed">0</strong><span>KM/H</span></div><div class="energy"><div><span class="pressure-caption">主气压 / 100点</span><strong id="energy-label">100 /100</strong></div><div class="energy-track"><i id="energy-fill"></i></div><small id="energy-note">地面压缩回充</small><small id="rotation-state">着陆缓冲就绪</small><span id="pc-supply" aria-live="polite"></span></div><div class="height"><span>离地</span><strong id="altitude">0.0 <small>M</small></strong></div></div>
     <div id="pc-height-limit" hidden></div><div class="desktop-help"><kbd>A</kbd><kbd>D</kbd> 地面转向 / 空中平转 <b>·</b> <kbd>SPACE</kbd> 推进 <b>·</b> <kbd>W</kbd> 后翻 <kbd>S</kbd> 前翻 <kbd>Q</kbd><kbd>E</kbd> 侧滚 <b>·</b> <kbd>ESC</kbd> 暂停</div>
@@ -40,7 +40,8 @@
   </section>
   <section id="menu" class="flow-screen" aria-labelledby="menu-title">
     <div class="flow-card"><h1 id="menu-title">赤隼</h1><div class="menu-actions">
-      <button id="start-challenge" class="primary">90秒挑战 <span aria-hidden="true">↗</span></button>
+      <button id="start-parking" class="primary">停车场不让你走 <span aria-hidden="true">↗</span></button>
+      <button id="start-challenge">90秒挑战</button>
       <button id="start-sprint">连续三段</button><button id="start-practice">自由练习</button>
     </div><small id="menu-best" hidden></small><nav class="menu-tools"><button data-open-settings>设置</button><button id="open-help">操作</button></nav></div>
   </section>

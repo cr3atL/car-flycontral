@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-22",
+  "production": {
+    "file": "dist/assets/index-BJJYocJ2.js",
+    "sha256": "7f336f7bee01486d1bd286cda4e6d64d5fb749bec83a1f51426200bba3278e92",
+    "bytes": 1425453,
+    "base": "./"
+  },
+  "unit": {
+    "allPassed": 137,
+    "allFailed": 0,
+    "fullLog": "docs/parking-all-unit-final.txt",
+    "targetedFinalPassed": 8,
+    "targetedFinalLog": "docs/parking-unit-final.txt",
+    "note": "After full137 run, strengthened the existing OBB case with independent eight-corner enumeration; final eight-case suite separately passed."
+  },
+  "browser": {
+    "passedCases": 9,
+    "nativeDev": 6,
+    "finalProduction": 3,
+    "coverage": [
+      "PC wide and shortcut full loops",
+      "667/844 native touch lane, separate boost, then two thumbs three axes",
+      "Native light to local repair return to heavy success",
+      "Native pause while firing, resume, intentional post-open crash, route remains locked",
+      "Final production PC shortcut and667/844 actual touchscreen complete at exit+25, no big zero, restart/menu",
+      "Old challenge/Sprint/practice entry restoration in native recovery tests"
+    ]
+  },
+  "measuredPresses": {
+    "wide": {
+      "press": {
+        "flight": 1,
+        "energy": 132.87943561565191,
+        "preBufferDown": 12.57890850314216,
+        "apex": 13.525584713538642,
+        "grade": 0,
+        "x": 7.170215187070495,
+        "z": 242.63859628394567,
+        "heavy": true
+      },
+      "actualRing": 25.73333333333312,
+      "endTime": 14.666666666666474,
+      "crashes": 0
+    },
+    "shortcut": {
+      "press": {
+        "flight": 1,
+        "energy": 151.06145274429204,
+        "preBufferDown": 13.444926063927698,
+        "apex": 15.38399058476365,
+        "grade": 0,
+        "x": 0,
+        "z": 254.41352973105626,
+        "heavy": true
+      },
+      "actualRing": 28.835737913107522,
+      "endTime": 14.666666666666474,
+      "crashes": 0
+    },
+    "mobile-667": {
+      "press": {
+        "flight": 1,
+        "energy": 168.63926473548997,
+        "preBufferDown": 14.268489804114697,
+        "apex": 17.168889209557175,
+        "grade": 0,
+        "x": 8.289634790948105,
+        "z": 268.2243364399207,
+        "heavy": true
+      },
+      "actualRing": 30,
+      "endTime": 14.658333333333141,
+      "crashes": 0
+    },
+    "mobile-844": {
+      "press": {
+        "flight": 1,
+        "energy": 151.06145274429204,
+        "preBufferDown": 13.444926063927698,
+        "apex": 15.38399058476365,
+        "grade": 0,
+        "x": 7.523201707161378,
+        "z": 256.0624002269565,
+        "heavy": true
+      },
+      "actualRing": 30,
+      "endTime": 14.666666666666474,
+      "crashes": 0
+    },
+    "light-local": {
+      "press": {
+        "flight": 1,
+        "energy": 61.09548341207691,
+        "preBufferDown": 8.142201245737608,
+        "apex": 6.198128352522504,
+        "grade": 0,
+        "x": 7.1997666545917145,
+        "z": 299.9626625134085,
+        "heavy": false
+      },
+      "actualRing": 0,
+      "endTime": 20.874999999999456,
+      "crashes": 0
+    },
+    "pause-lock": {
+      "press": {
+        "flight": 1,
+        "energy": 142.68302150657047,
+        "preBufferDown": 13.033075474912795,
+        "apex": 14.516557478401097,
+        "grade": 0,
+        "x": 7.103598331441789,
+        "z": 250.15322213666428,
+        "heavy": true
+      },
+      "actualRing": 26.66666666666643,
+      "endTime": 14.791666666666467,
+      "crashes": 1
+    }
+  },
+  "oldPhysics": {
+    "comparison": "docs/parking-supervisor-physics-comparison.json",
+    "samples": 240,
+    "mismatches": 0
+  },
+  "native": [
+    "docs/parking-wide-native.json",
+    "docs/parking-shortcut-native.json",
+    "docs/parking-mobile-667-native.json",
+    "docs/parking-mobile-844-native.json",
+    "docs/parking-light-local-native.json",
+    "docs/parking-pause-lock-native.json",
+    "docs/parking-1280-final-production-native.json",
+    "docs/parking-667-final-production-native.json",
+    "docs/parking-844-final-production-native.json"
+  ],
+  "diagnostics": [
+    "docs/parking-first-routes.json",
+    "docs/parking-local-retry-diagnostic.json"
+  ],
+  "scopeNotes": [
+    "Developer native runs precede final surface/hint/exit refinements; final production native receipts bind exact BJJYocJ2 with no dev API.",
+    "First native wide carried excessive air-entry lateral momentum; early shortcut opening/height was too narrow. Native failureJSON/PNGs retained.",
+    "Initial844 dev run was interrupted after opening by HMR; menu-timeout PNG retained, then stable-source844 rerun passed.",
+    "Initial final-production1280 fixed1000ms boost failed before rack. Its production-only trace lacks internal pose, so exact failure subtype is not claimed;1100ms native boost then completed.",
+    "Initial final-production844 timed out waiting rack-clear; trace unavailable after teardown. Error JSON retained; later1750ms native lane selection completed.",
+    "No state/time/pose/score writes in native receipts. Nominal waits are not claimed equal to real simulation drive durations.",
+    "Fixtures for actuator boundary assertions are diagnostics, with separate native light/recovery/pause-lock proof."
+  ]
+}

@@ -1,3 +1,5 @@
+import{PARKING as K}from'./parking-config.js';
+import{ParkingAudio}from'./parking-audio.js';
 import {TouchLayout} from './touch-layout.js';
 import {FlowModel,formatScore} from './flow-model.js';
 import{HudModel,HUD_TIMING,hudNumber,forecastHeading}from'./hud-model.js';
@@ -6,6 +8,7 @@ import './style.css';
 import './pc-hud.css';
 import './flow-ui.css';
 import './mobile-hud.css';
+import './parking.css';
 import { ONE_JUMP as J } from './one-jump-config.js';
 import { CONFIG as C } from './config.js';
 import { nearbyWalls } from './simulation.js';
@@ -32,12 +35,13 @@ try { world = createWorld($('game')); }
 catch (error) { $('fatal').classList.remove('hidden'); setText('fatal', `无法启动3D画面，请使用支持WebGL的浏览器。${error.message}`); throw error; }
 const { engine, scene } = world;
 const feedback = new ScoreFeedback(storage, world),hudModel=new HudModel();
+const parkingAudio=new ParkingAudio(feedback.audio);
 const input=new InputController({steer:$('steer-zone'),boost:$('boost'),stunt:$('stunt-zone'),onPause:event=>togglePause(event),enabled:()=>session.playable&&!sim.crashTimer});
 function clearInput(options) { input.clear(); sim.clearInput(options); }
 const touchLayout=new TouchLayout(storage,()=>clearInput({preservePulse:true}));
 function start(mode) { flowModel.start(session.best);lastResult=null;$('result-details').open=false;hudModel.reset();clearInput(); session.start(mode); feedback.reset(0, 0); accumulator = 0; wasCrashed = false; pilotMemory = { launched: new Set() }; updateHud(); }
 function reset(event) { start(session.mode); feedback.unlock(event); }
-function menu() { menuLeaving=false;clearTimeout(menuFadeTimer);$('menu').classList.remove('leaving');hudModel.reset();clearInput(); session.menu(); feedback.reset(sim.time, sim.score.total); accumulator = 0; updateHud();$('start-challenge').focus({preventScroll:true}); }
+function menu() { menuLeaving=false;clearTimeout(menuFadeTimer);$('menu').classList.remove('leaving');hudModel.reset();clearInput(); session.menu(); feedback.reset(sim.time, sim.score.total); accumulator = 0; updateHud();$('start-parking').focus({preventScroll:true}); }
 function togglePause(event) {
   if (!['running', 'countdown'].includes(session.phase)) return;
   if (session.paused && !session.resuming) resume(event); else { clearInput({ preservePulse: true }); session.setPaused(true); feedback.suspend(); }
@@ -52,6 +56,7 @@ $('open-help').addEventListener('click',()=>{setText('help-launch',$('launch-ins
 for(const id of ['settings-dialog','help-dialog'])$(id).addEventListener('click',e=>{if(e.target===$(id)){const r=$(id).getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$(id).close();}});
 window.addEventListener('keydown',e=>{if(e.code==='Escape'&&document.querySelector('dialog[open]'))e.stopImmediatePropagation();},true);
 $('quick-retry').addEventListener('click',reset);$('quick-menu').addEventListener('click',menu);
+$('start-parking').addEventListener('click',e=>startFromUI('parking',e));
 $('start-sprint').addEventListener('click',e=>startFromUI('sprint',e));$('start-challenge').addEventListener('click', e => startFromUI('challenge', e)); $('start-practice').addEventListener('click', e => startFromUI('practice', e));
 $('retry').addEventListener('click', e => startFromUI('challenge', e)); $('result-menu').addEventListener('click', menu); $('pause-menu').addEventListener('click', menu);
 $('pause').addEventListener('click', togglePause); $('reset').addEventListener('click', reset); $('restart').addEventListener('click', reset); $('resume').addEventListener('click', resume);
@@ -70,9 +75,10 @@ function tick(dt) {
 }
 function updateHud() {
   const mobile=matchMedia('(pointer:coarse)').matches||innerWidth<=950;document.body.classList.toggle('pc-hud',!mobile);document.body.classList.toggle('mobile-hud',mobile);
+  const parking=session.mode==='parking'?session.parking:null;
   const practice=session.mode==='practice'?session.oneJump.state:null,sprint=session.mode==='sprint'?session.sprint:null;
   const challenge = session.mode === 'challenge', active = ['countdown', 'running'].includes(session.phase);
-  document.body.dataset.phase = session.phase;
+  document.body.dataset.phase = session.phase;document.body.dataset.mode=session.mode;document.body.dataset.parking=parking?.phase??'';document.body.dataset.parkingWall=parking?.wallBroken?'broken':'closed';document.body.dataset.parkingBridge=parking?.open?'locked':'folded';document.body.classList.toggle('parking-no-score',!!parking&&sim.score.total===0);
   $('menu').inert=session.phase!=='menu';$('results').inert=session.phase!=='results';
   $('menu').classList.toggle('hidden', session.phase !== 'menu'&&!menuLeaving); $('results').classList.toggle('hidden', session.phase !== 'results');
   $('overlay').classList.toggle('hidden', !active || !session.paused || session.resuming);
@@ -151,7 +157,7 @@ function updateHud() {
   $('landing-feedback').classList.toggle('hidden',!active||!(showForecast||showLanding));
   if(showForecast||showLanding){const r=showForecast?a:last.assessment;$('landing-feedback').dataset.tone=r.tone;setText('landing-caption',showForecast?'松手后的预计落点 · '+Math.max(0,lp.time-(sim.time-sim.releasePredictionAt)).toFixed(1)+'秒':last.label+(last.padHit?' · 命中落地区':''));setText('landing-pose','姿态 '+(r.checks.pose?'稳':r.angle.toFixed(0)+'°'));setText('landing-direction','方向 '+(r.checks.direction?'正':r.headingError.toFixed(0)+'°'));setText('landing-settle',r.checks.settled?'收势 稳':'收势 '+Math.max(...Object.values(r.omega).map(Math.abs)).toFixed(1)+'rad/s');setText('landing-reason',showForecast?(lp.hazard??r.reason??'按当前趋势可精准'):(r.reason??(last.padHit?'车已摆正 · 准备下一跳':'车已摆正 · 准备下一跳')));}
   $('jump-retry').classList.toggle('hidden',session.paused||!(practice&&(practice.result||sim.crashTimer)||sprint&&(sprint.complete||sim.crashTimer)));setText('jump-retry',sprint?'重跑三段 · R':'再来一跳 · R');setText('action',action);setText('cue',cue);
-  const hv=hudModel.update(sim,session);feedback.setHudView(hv,!mobile);document.body.dataset.hudState=hv.active?hv.state:'inactive';
+  const hv=hudModel.update(sim,session);if(parking){hv.teaching=hv.prompt='';}feedback.setHudView(hv,!mobile);document.body.dataset.hudState=hv.active?hv.state:'inactive';
   {
     setText('remaining',hv.clock);document.querySelector('.pressure-caption').textContent='气压';$('remaining').setAttribute('aria-label',hv.clockLabel+' '+hv.clock);setText('energy-label',Math.floor(sim.mainPressure+1e-6));
     const repairs=$('pc-repairs');repairs.hidden=hv.repairs===null;setText('repair-count',hv.repairs??'');repairs.setAttribute('aria-label','剩余修复 '+(hv.repairs??''));
@@ -159,21 +165,23 @@ function updateHud() {
     const place=(el,x,y)=>{const half=el.offsetWidth/2;el.style.left=Math.max(innerWidth*.03+half,Math.min(innerWidth*.97-half,x))+'px';el.style.top=Math.max(innerHeight*.20,Math.min(innerHeight*.78,y))+'px';};
     const target=hv.target&&world.projectPoint(hv.target.x,.7,hv.target.z);$('pc-ground-target').hidden=!target?.visible;if(target?.visible){setText('pc-ground-target',hv.target.label+' · '+Math.round(hv.target.distance)+'m');place($('pc-ground-target'),target.x,target.y-20);}
     let prompt=hv.prompt||hv.teaching;
-    if(mobile){const t=session.tutorial;prompt=hv.target?.launch?(hv.target.hold>=.4?'推进 '+hv.target.hold+'s':'点按推进'):'';if(challenge&&!t.complete){prompt=t.stage==='accelerate'?'左下转向':sim.grounded?(hv.target?.launch||t.stage==='repeat'?'右下推进':''):t.stage==='single-roll'&&!t.shortPractice?'右区轻拖，再松手':t.stage==='repeat'&&!t.heldPractice?'右区按住，再松手':'';}}$('pc-prompt').hidden=!hv.active||!prompt||hv.state==='landing'||hv.state==='impact'||hv.state==='bank'||hv.state==='crash';setText('pc-prompt',prompt);const promptPoint=world.projectPoint(sim.x,.05,sim.z+12);place($('pc-prompt'),promptPoint.x,promptPoint.y-15);
+    if(mobile){const t=session.tutorial;prompt=hv.target?.launch?(hv.target.hold>=.4?'推进 '+hv.target.hold+'s':'点按推进'):'';if(challenge&&!t.complete){prompt=t.stage==='accelerate'?'左下转向':sim.grounded?(hv.target?.launch||t.stage==='repeat'?'右下推进':''):t.stage==='single-roll'&&!t.shortPractice?'右区轻拖，再松手':t.stage==='repeat'&&!t.heldPractice?'右区按住，再松手':'';}}$('pc-prompt').hidden=!!parking||!hv.active||!prompt||hv.state==='landing'||hv.state==='impact'||hv.state==='bank'||hv.state==='crash';setText('pc-prompt',prompt);const promptPoint=world.projectPoint(sim.x,.05,sim.z+12);place($('pc-prompt'),promptPoint.x,promptPoint.y-15);
     $('pc-landing').hidden=!hv.active||!hv.landing.visible;$('pc-landing').dataset.tone=hv.landing.tone;$('pc-touchdown-time').hidden=!hv.landing.caption;setText('pc-touchdown-time',hv.landing.caption??'');setText('pc-touchdown-reason',hv.landing.reason);
-    $('pc-retry').hidden=!hv.retry;setText('pc-retry',mobile?(sprint?'重跑三段':'再来一跳'):hv.retryLabel);
+    $('pc-retry').hidden=!hv.retry;setText('pc-retry',mobile?(parking?'再玩一次':sprint?'重跑三段':'再来一跳'):hv.retryLabel);
     const projection=$('pc-projection'),lp=hv.landing.prediction,pp=hv.landing.visible?{...world.getLandingScreen()}:null,vehicle=world.projectPoint(sim.x,sim.y+.76,sim.z),blocked=pp&&(Math.abs(pp.x-vehicle.x)<110&&Math.abs(pp.y-vehicle.y)<110||!pp.visible||pp.y>innerHeight*.78);
     projection.toggleAttribute('hidden',!hv.active||!hv.landing.visible||!blocked);
     if(pp&&blocked){const angle=forecastHeading(lp)*180/Math.PI,side=pp.x<innerWidth*.76?1:-1,ax=Math.max(innerWidth*.12,Math.min(innerWidth*.77,pp.x+side*(mobile?85:150))),ay=Math.max(innerHeight*.30,Math.min(innerHeight*(mobile?.57:.67),pp.y-65));projection.setAttribute('viewBox',`0 0 ${innerWidth} ${innerHeight}`);projection.dataset.tone=hv.landing.tone;projection.dataset.heading=angle.toFixed(4);$('pc-projection-car').setAttribute('transform',`translate(${ax} ${ay}) rotate(${angle}) scale(${mobile?.6:1})`);$('pc-projection-link').setAttribute('d',`M${ax-Math.sin(angle*Math.PI/180)*(mobile?24:40)} ${ay+Math.cos(angle*Math.PI/180)*(mobile?24:40)} L${pp.x} ${pp.y}`);$('pc-projection-point').setAttribute('cx',pp.x);$('pc-projection-point').setAttribute('cy',pp.y);}
     const amount=hv.supply;setText('pc-supply',amount>0?'+'+(amount<.01?'<0.01':amount<.1?amount.toFixed(2):amount<10?Number(amount.toFixed(1)):Number(amount.toFixed(0))):'');
   }
+  let parkingHint=parking?.hint??'';if(parking&&!sim.crashTimer&&!parking.open&&parking.triggerAt===null){if(sim.grounded&&sim.z>=58&&sim.z<=94)parkingHint=mobile?'黄区按住推进约1秒':'黄区按住空格约1秒';else if(!sim.grounded&&!parking.rackPassed){const wide=Math.abs(sim.x)>K.rack.bypass,t=Math.max(0,(K.rack.z-sim.z)/Math.max(10,sim.speed)),releaseHeight=sim.y+sim.vy*t-.5*C.gravity*t*t+C.carCenterHeight,needsLift=wide?sim.y<5.5:releaseHeight<K.rack.y-1;if(needsLift)parkingHint=input.boost?(mobile?'继续按住推进 · 抬到斜口':'继续按住空格 · 抬到斜口'):(mobile?'高度不足 · 再点推进':'高度不足 · 再点空格');else parkingHint=input.boost?(mobile?'松推进，再轻横拖':'松空格，再轻按Q'):wide?'保持宽道 · 松手向前':mobile?'右区轻横拖，贴合斜架':'轻按Q侧滚，贴合斜架';}}
+  $('parking-hint').hidden=!parking||!active||session.paused||!parkingHint;setText('parking-hint',parkingHint);
   const nearLimit=active&&!sim.grounded&&sim.y>=C.ceilingSoft-1&&(input.boost||sim.y>=C.ceilingTop-.6),atLimit=sim.y>=C.ceilingTop-.6;
   $('height-limit').hidden=!mobile||!nearLimit;setText('height-limit-text',atLimit?'高度上限':sim.notice?.text==='回落后可推进'&&sim.time-sim.notice.at<.9?'回落后可推进':'');$('height-limit-arc').style.strokeDasharray=Math.max(.04,Math.min(1,(sim.y-(C.ceilingSoft-1))/(C.ceilingTop-C.ceilingSoft+1)))+' 1';
   $('pc-height-limit').hidden=mobile||!nearLimit;setText('pc-height-limit',atLimit?'高度上限':sim.vy<=0?'回落后可推进':'升力渐减');
   const endingAge=flowModel.endingAge(sim.lastLanding,sim.time,Boolean(sprint?.complete),session.paused,performance.now());
-  const quick=active&&!session.paused&&hv.retry&&endingAge>=HUD_TIMING.impact+HUD_TIMING.result&&Boolean(practice?.result||sprint?.complete);
+  const quick=active&&!session.paused&&hv.retry&&endingAge>=HUD_TIMING.impact+HUD_TIMING.result&&Boolean(practice?.result||sprint?.complete||parking?.complete);
   $('quick-result').hidden=!quick;document.body.dataset.quick=String(quick);
-  if(quick){setText('quick-title',sprint?(sprint.continuous&&sprint.sections.every(q=>q.completed)?'连续三段完成':'三段练习结束'):practice.result.complete?'一跳完成':'已落地');setText('quick-note',sim.lastLanding?.reason??'');$('quick-note').hidden=!sim.lastLanding?.reason;setText('quick-score',formatScore(sim.score.total));setText('quick-retry',sprint?'重跑三段':'再来一跳');}
+  if(quick){$('quick-score').hidden=!!parking&&sim.score.total===0;setText('quick-title',parking?'逃出停车场':sprint?(sprint.continuous&&sprint.sections.every(q=>q.completed)?'连续三段完成':'三段练习结束'):practice.result.complete?'一跳完成':'已落地');setText('quick-note',sim.lastLanding?.reason??'');$('quick-note').hidden=!sim.lastLanding?.reason;setText('quick-score',formatScore(sim.score.total));setText('quick-retry',parking?'再玩一次':sprint?'重跑三段':'再来一跳');}
   if (session.result && lastResult !== session.result) {
     const v=flowModel.result(session.result);
     setText('result-reason','90秒挑战');setText('result-grade',v.grade);setText('result-title',v.label);setText('result-score',formatScore(v.score));
@@ -190,7 +198,7 @@ function draw(dt, frameMs = 16.7) {
   world.setQuality(feedback.quality.effective, feedback.quality.reduced); world.setImpact(feedback.impact(sim.time,sim.lastLanding)); world.update(sim, session.paused ? 0 : dt, session);
   const b = import.meta.env.DEV ? performance.now() : 0; updateHud();
   const c = import.meta.env.DEV ? performance.now() : 0; scene.render();
-  const d = import.meta.env.DEV ? performance.now() : 0; feedback.update(sim, session, frameMs);
+  const d = import.meta.env.DEV ? performance.now() : 0; feedback.update(sim, session, frameMs);parkingAudio.update(sim,session);
   if (import.meta.env.DEV) { drawCosts.world = b - a; drawCosts.hud = c - b; drawCosts.scene = d - c; drawCosts.feedback = performance.now() - d; }
 }
 engine.runRenderLoop(() => {
@@ -207,7 +215,7 @@ if (import.meta.env.DEV) {
     inspectCar: view => { if (view !== null && !['front', 'rear', 'side'].includes(view)) throw new Error('front/rear/side/null'); world.inspectCar(view); document.body.classList.toggle('art-inspection', view !== null); draw(0); },
     config: C, challengeConfig: H, scoreConfig: SCORE, getDrawCosts: () => ({ ...drawCosts }),
     getState: () => ({ ...sim.snapshot(), ...{ paused: session.paused, resumeRemaining: session.resumeRemaining }, session: session.snapshot(), feedback: feedback.snapshot(), art: world.getArtState(), manual, timeScale, controls: input.snapshot(), nozzles: world.getNozzleState(), floor: world.getFloorLayout(), meshCount: scene.meshes.length, drawCalls: world.instrumentation.drawCallsCounter.current, frameTime: world.instrumentation.frameTimeCounter.current, fps: engine.getFps(), graphics: engine.getGlInfo(), camera: { x: world.camera.position.x, y: world.camera.position.y, z: world.camera.position.z, roll: world.camera.rotation.z } }),
-    reset: () => start('practice'), startChallenge: () => start('challenge'), startPractice: () => start('practice'), startSprint:()=>start('sprint'),menu,
+    reset: () => start('practice'), startChallenge: () => start('challenge'), startPractice: () => start('practice'), startSprint:()=>start('sprint'),startParking:()=>start('parking'),menu,
     setTimeScale: value => { if (![1, 2, 3, 4].includes(value)) throw new Error('Test timeScale: 1,2,3,4 only'); timeScale = value; },
     setManual: value => { manual = Boolean(value); accumulator = 0; clearInput(); },
     advance: (seconds, values = {}) => {

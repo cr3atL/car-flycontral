@@ -1,0 +1,183 @@
+{
+  "method": "Actual4173 production, no debug API. Ordinary native keys forPC shortcut; native touchscreen left selection, separate boost, two thumbs three axes after rack for667/844. All captures after release.",
+  "script": "./assets/index-BJJYocJ2.js",
+  "trace": {
+    "inputs": [
+      {
+        "type": "pointerdown",
+        "id": 2,
+        "trusted": true,
+        "wall": 2991.300000011921
+      },
+      {
+        "type": "pointerup",
+        "id": 2,
+        "trusted": true,
+        "wall": 4815.5
+      },
+      {
+        "type": "pointerdown",
+        "id": 3,
+        "trusted": true,
+        "wall": 6157.199999988079
+      },
+      {
+        "type": "pointerup",
+        "id": 3,
+        "trusted": true,
+        "wall": 7229.300000011921
+      },
+      {
+        "type": "pointerdown",
+        "id": 4,
+        "trusted": true,
+        "wall": 8088.899999976158
+      },
+      {
+        "type": "pointerdown",
+        "id": 5,
+        "trusted": true,
+        "wall": 8090.599999964237
+      },
+      {
+        "type": "pointermove",
+        "id": 5,
+        "trusted": true,
+        "wall": 8147.899999976158
+      },
+      {
+        "type": "pointerup",
+        "id": 4,
+        "trusted": true,
+        "wall": 8389.699999988079
+      },
+      {
+        "type": "pointerup",
+        "id": 5,
+        "trusted": true,
+        "wall": 8390.699999988079
+      }
+    ],
+    "states": [
+      {
+        "wall": 2886.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "ground",
+        "hint": "飞过停车架，重压黄板弹车开路"
+      },
+      {
+        "wall": 4019.099999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "ground",
+        "hint": "选中间斜架或侧面宽道"
+      },
+      {
+        "wall": 5592.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "ground",
+        "hint": "黄区按住推进约1秒"
+      },
+      {
+        "wall": 6480.800000011921,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "air",
+        "hint": "继续按住推进 · 抬到斜口"
+      },
+      {
+        "wall": 7076.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "air",
+        "hint": "松推进，再轻横拖"
+      },
+      {
+        "wall": 7246.399999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "air",
+        "hint": "保持宽道 · 松手向前"
+      },
+      {
+        "wall": 8036.5,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "air",
+        "hint": "松手收势 · 落在黄压板"
+      },
+      {
+        "wall": 9064.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "landing",
+        "hint": "松手收势 · 落在黄压板"
+      },
+      {
+        "wall": 10661.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "impact",
+        "hint": ""
+      },
+      {
+        "wall": 11200,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "result",
+        "hint": ""
+      },
+      {
+        "wall": 11560.199999988079,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded",
+        "hudState": "result",
+        "hint": ""
+      },
+      {
+        "wall": 12721.399999976158,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked",
+        "hudState": "result",
+        "hint": "新路线已锁定 · 继续向前"
+      },
+      {
+        "wall": 13194.699999988079,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked",
+        "hudState": "ground",
+        "hint": "新路线已锁定 · 继续向前"
+      },
+      {
+        "wall": 17953,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked",
+        "hudState": "ground",
+        "hint": ""
+      }
+    ],
+    "bonuses": [
+      {
+        "text": "+30",
+        "wall": 8419.699999988079
+      }
+    ]
+  },
+  "errors": []
+}

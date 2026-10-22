@@ -1,0 +1,6972 @@
+{
+  "commit": "9667aca",
+  "method": "Offline legal-input fixed-step flat-road diagnostic; not native play.",
+  "records": [
+    [
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.032499999999999994,
+        "vx": 0,
+        "vy": 0,
+        "speed": 0.6,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.12500000000000003,
+        "vx": 0,
+        "vy": 0,
+        "speed": 1.2000000000000004,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.2775000000000001,
+        "vx": 0,
+        "vy": 0,
+        "speed": 1.800000000000001,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.49000000000000016,
+        "vx": 0,
+        "vy": 0,
+        "speed": 2.3999999999999995,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.7625000000000001,
+        "vx": 0,
+        "vy": 0,
+        "speed": 2.9999999999999973,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1.0949999999999998,
+        "vx": 0,
+        "vy": 0,
+        "speed": 3.599999999999995,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1.4874999999999992,
+        "vx": 0,
+        "vy": 0,
+        "speed": 4.199999999999993,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1.9399999999999982,
+        "vx": 0,
+        "vy": 0,
+        "speed": 4.799999999999991,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 2.452499999999997,
+        "vx": 0,
+        "vy": 0,
+        "speed": 5.399999999999989,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 3.024999999999996,
+        "vx": 0,
+        "vy": 0,
+        "speed": 5.999999999999987,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.015870970939922784,
+        "z": 3.6574999999999944,
+        "vx": 0,
+        "vy": 0.7012316913056481,
+        "speed": 6.5999999999999845,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.19239231890041383,
+        "z": 4.325004952933743,
+        "vx": 0,
+        "vy": 2.9049297796149407,
+        "speed": 6.712499231846312,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.6020785420065475,
+        "z": 5.001987303569747,
+        "vx": 0,
+        "vy": 5.294771080999536,
+        "speed": 6.819835587053244,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 1.2516373656703512,
+        "z": 5.689995503132483,
+        "vx": 0,
+        "vy": 7.696043589402418,
+        "speed": 6.9311778026489455,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 2.110370419243954,
+        "z": 6.38915783136061,
+        "vx": 0,
+        "vy": 9.134970164331936,
+        "speed": 7.042761562879789,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 81.20000000000003,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 3.053332275243934,
+        "z": 7.099473747565341,
+        "vx": 0,
+        "vy": 9.693759822544003,
+        "speed": 7.154245522875255,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.60000000000007,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 4.046943913888968,
+        "z": 7.820931039337888,
+        "vx": 0,
+        "vy": 10.175527019878826,
+        "speed": 7.265598862502219,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 78.00000000000011,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.0882040465314216,
+        "z": 8.55351645002292,
+        "vx": 0,
+        "vy": 10.64923044384046,
+        "speed": 7.376818931621117,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 76.40000000000016,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 6.1767328915296575,
+        "z": 9.297216642803702,
+        "vx": 0,
+        "vy": 11.12112857347276,
+        "speed": 7.487905635441675,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 74.8000000000002,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 7.272943111126029,
+        "z": 10.04849023697618,
+        "vx": 0,
+        "vy": 10.619196046340104,
+        "speed": 7.5199626959621035,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 74.8000000000002,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 8.287652000677316,
+        "z": 10.800267281134838,
+        "vx": 0,
+        "vy": 9.658679182730205,
+        "speed": 7.514666549955279,
+        "pitch": -0.06353617154436621,
+        "roll": 0.06353617154436621,
+        "yaw": 0.06353617154436621,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.5615082703837257,
+          "roll": 1.5615082703837257,
+          "yaw": 1.5615082703837257
+        },
+        "pressure": 73.22138276349112,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 9.203583288306062,
+        "z": 11.551270100637067,
+        "vx": 0,
+        "vy": 8.65884532391015,
+        "speed": 7.505991637246785,
+        "pitch": -0.33126917006365886,
+        "roll": 0.33126917006365886,
+        "yaw": 0.33126917006365886,
+        "heading": 0,
+        "omega": {
+          "pitch": -3.8057148007123813,
+          "roll": 3.8057148007123813,
+          "yaw": 3.8057148007123813
+        },
+        "pressure": 70.8996615917696,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 10.019397904311962,
+        "z": 12.301383770789299,
+        "vx": 0,
+        "vy": 7.657723839408325,
+        "speed": 7.497020037680554,
+        "pitch": -0.8065396784750583,
+        "roll": 0.8065396784750583,
+        "yaw": 0.8065396784750583,
+        "heading": 0,
+        "omega": {
+          "pitch": -5.517397115896468,
+          "roll": 5.517397115896468,
+          "yaw": 5.517397115896468
+        },
+        "pressure": 69.04753772695607,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 10.735201999514802,
+        "z": 13.050598848014179,
+        "vx": 0,
+        "vy": 6.6587589844883315,
+        "speed": 7.488031339444854,
+        "pitch": -1.400949326680812,
+        "roll": 1.400949326680812,
+        "yaw": 1.400949326680812,
+        "heading": 0,
+        "omega": {
+          "pitch": -6.245573715742765,
+          "roll": 6.245573715742765,
+          "yaw": 6.245573715742765
+        },
+        "pressure": 68.14194845339787,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 11.351232263762418,
+        "z": 13.798915456587384,
+        "vx": 0,
+        "vy": 5.662257537845358,
+        "speed": 7.4790508944349785,
+        "pitch": -2.0390322161673753,
+        "roll": 2.0390322161673753,
+        "yaw": 2.0390322161673753,
+        "heading": 0,
+        "omega": {
+          "pitch": -6.4679740938600485,
+          "roll": 6.4679740938600485,
+          "yaw": 6.4679740938600485
+        },
+        "pressure": 67.7284012089072,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 11.867736662135908,
+        "z": 14.546334587584111,
+        "vx": 0,
+        "vy": 4.668241666898295,
+        "speed": 7.470080990764192,
+        "pitch": -2.6890031237666916,
+        "roll": 2.6890031237666916,
+        "yaw": 2.6890031237666916,
+        "heading": 0,
+        "omega": {
+          "pitch": -6.517818356578962,
+          "roll": 6.517818356578962,
+          "yaw": 6.517818356578962
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.284963616998162,
+        "z": 15.292857309538718,
+        "vx": 0,
+        "vy": 3.6767077338546423,
+        "speed": 7.461121824260761,
+        "pitch": -3.272505537997198,
+        "roll": 3.272505537997198,
+        "yaw": 3.272505537997198,
+        "heading": 0,
+        "omega": {
+          "pitch": -4.835388834263,
+          "roll": 4.835388834263,
+          "yaw": 4.835388834263
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.603161028023779,
+        "z": 16.0384846968388,
+        "vx": 0,
+        "vy": 2.68764977403171,
+        "speed": 7.452173400959222,
+        "pitch": -3.6353819136611043,
+        "roll": 3.6353819136611043,
+        "yaw": 3.6353819136611043,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.4054347645405594,
+          "roll": 2.4054347645405594,
+          "yaw": 2.4054347645405594
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.822576184707003,
+        "z": 16.78321782323063,
+        "vx": 0,
+        "vy": 1.7010616257266322,
+        "speed": 7.443235709690484,
+        "pitch": -3.7733121036016692,
+        "roll": 3.7733121036016692,
+        "yaw": 3.7733121036016692,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.5869684679772804,
+          "roll": 0.5869684679772804,
+          "yaw": 0.5869684679772804
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.94345575982993,
+        "z": 17.527057761231436,
+        "vx": 0,
+        "vy": 0.7169371233986889,
+        "speed": 7.43430873773883,
+        "pitch": -3.795920316989158,
+        "roll": 3.795920316989158,
+        "yaw": 3.795920316989158,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.012165364871880427,
+          "roll": 0.012165364871880427,
+          "yaw": 0.012165364871880427
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.96604581027172,
+        "z": 18.27000558207745,
+        "vx": 0,
+        "vy": -0.26472988484064613,
+        "speed": 7.42539247226227,
+        "pitch": -3.797169216674021,
+        "roll": 3.797169216674021,
+        "yaw": 3.797169216674021,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.14200824550166075,
+          "roll": 0.14200824550166075,
+          "yaw": 0.14200824550166075
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.890591778480315,
+        "z": 19.012062355720598,
+        "vx": 0,
+        "vy": -1.2439455356759992,
+        "speed": 7.416486900421381,
+        "pitch": -3.877348444403508,
+        "roll": 3.877348444403508,
+        "yaw": 3.877348444403508,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.5587610067247104,
+          "roll": 1.5587610067247104,
+          "yaw": 1.5587610067247104
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.717338494000748,
+        "z": 19.753229150829636,
+        "vx": 0,
+        "vy": -2.2207159504822047,
+        "speed": 7.407592009390971,
+        "pitch": -4.094963057647729,
+        "roll": 4.094963057647729,
+        "yaw": 4.094963057647729,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.649630258940945,
+          "roll": 2.649630258940945,
+          "yaw": 2.649630258940945
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.446530175005082,
+        "z": 20.493507034791605,
+        "vx": 0,
+        "vy": -3.1950472353494854,
+        "speed": 7.398707786361125,
+        "pitch": -4.382819073997121,
+        "roll": 4.382819073997121,
+        "yaw": 4.382819073997121,
+        "heading": 0,
+        "omega": {
+          "pitch": -3.0249456310968537,
+          "roll": 3.0249456310968537,
+          "yaw": 3.0249456310968537
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.078410429819058,
+        "z": 21.2328970737134,
+        "vx": 0,
+        "vy": -4.166945481120436,
+        "speed": 7.38983421853728,
+        "pitch": -4.690079068187518,
+        "roll": 4.690079068187518,
+        "yaw": 4.690079068187518,
+        "heading": 0,
+        "omega": {
+          "pitch": -3.096142822982792,
+          "roll": 3.096142822982792,
+          "yaw": 3.096142822982792
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 11.61322225844495,
+        "z": 21.971400332423283,
+        "vx": 0,
+        "vy": -5.136416763427989,
+        "speed": 7.380971293140224,
+        "pitch": -4.99980134549143,
+        "roll": 4.99980134549143,
+        "yaw": 4.99980134549143,
+        "heading": 0,
+        "omega": {
+          "pitch": -3.0948260077001843,
+          "roll": 3.0948260077001843,
+          "yaw": 3.0948260077001843
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 11.05120805408064,
+        "z": 22.709017874472426,
+        "vx": 0,
+        "vy": -6.1034671427333915,
+        "speed": 7.37211899740606,
+        "pitch": -5.308860518456747,
+        "roll": 5.308860518456747,
+        "yaw": 5.308860518456747,
+        "heading": 0,
+        "omega": {
+          "pitch": -3.0815373674243887,
+          "roll": 3.0815373674243887,
+          "yaw": 3.0815373674243887
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 10.392609604634885,
+        "z": 23.445750762136456,
+        "vx": 0,
+        "vy": -7.068102664364083,
+        "speed": 7.363277318586211,
+        "pitch": -5.606070351247753,
+        "roll": 5.606070351247753,
+        "yaw": 5.606070351247753,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.784167954113305,
+          "roll": 2.784167954113305,
+          "yaw": 2.784167954113305
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 9.637668094238819,
+        "z": 24.181600056416947,
+        "vx": 0,
+        "vy": -8.030329358551493,
+        "speed": 7.354446243947379,
+        "pitch": -5.85355866427988,
+        "roll": 5.85355866427988,
+        "yaw": 5.85355866427988,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.1334944923181114,
+          "roll": 2.1334944923181114,
+          "yaw": 2.1334944923181114
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 8.786624104753653,
+        "z": 24.916566817042984,
+        "vx": 0,
+        "vy": -8.990153240468729,
+        "speed": 7.34562576077155,
+        "pitch": -6.031436291081881,
+        "roll": 6.031436291081881,
+        "yaw": 6.031436291081881,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.4370510640595087,
+          "roll": 1.4370510640595087,
+          "yaw": 1.4370510640595087
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 7.8397176172746414,
+        "z": 25.650652102472677,
+        "vx": 0,
+        "vy": -9.947580310268192,
+        "speed": 7.336815856355952,
+        "pitch": -6.145723544044239,
+        "roll": 6.145723544044239,
+        "yaw": 6.145723544044239,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.8778568578627475,
+          "roll": 0.8778568578627475,
+          "yaw": 0.8778568578627475
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 6.797188013631257,
+        "z": 26.383856969894676,
+        "vx": 0,
+        "vy": -10.902616553119072,
+        "speed": 7.328016518013054,
+        "pitch": -6.21298891624692,
+        "roll": 6.21298891624692,
+        "yaw": 6.21298891624692,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.495361456362196,
+          "roll": 0.495361456362196,
+          "yaw": 0.495361456362196
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.659274077883661,
+        "z": 27.11618247522971,
+        "vx": 0,
+        "vy": -11.85526793924477,
+        "speed": 7.319227733070539,
+        "pitch": -6.249748423248128,
+        "roll": 6.249748423248128,
+        "yaw": 6.249748423248128,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.2605111254078387,
+          "roll": 0.2605111254078387,
+          "yaw": 0.2605111254078387
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 4.47300225395723,
+        "z": 27.847629673132104,
+        "vx": 0,
+        "vy": -11.201503569229857,
+        "speed": 7.31044948887129,
+        "pitch": -6.26850040081858,
+        "roll": 6.26850040081858,
+        "yaw": 6.26850040081858,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.12785318637348858,
+          "roll": 0.12785318637348858,
+          "yaw": 0.12785318637348858
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 3.4428518970342434,
+        "z": 28.578199616991288,
+        "vx": 0,
+        "vy": -9.401503569229853,
+        "speed": 7.301681772773368,
+        "pitch": -6.277411084688798,
+        "roll": 6.277411084688798,
+        "yaw": 6.277411084688798,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.05815314357726296,
+          "roll": 0.05815314357726296,
+          "yaw": 0.05815314357726296
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 2.5927015401112583,
+        "z": 29.307893358933306,
+        "vx": 0,
+        "vy": -7.601503569229848,
+        "speed": 7.292924572150002,
+        "pitch": -6.281260151246917,
+        "roll": 6.281260151246917,
+        "yaw": 6.281260151246917,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.021727237672015377,
+          "roll": 0.021727237672015377,
+          "yaw": 0.021727237672015377
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 1.9225238230686152,
+        "z": 30.036711949822372,
+        "vx": 0,
+        "vy": -5.808069997947855,
+        "speed": 7.284177874389558,
+        "pitch": -6.28236506976969,
+        "roll": 6.28236506976969,
+        "yaw": 6.28236506976969,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.0036299478549080477,
+          "roll": 0.0036299478549080477,
+          "yaw": 0.0036299478549080477
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 1.405906700129369,
+        "z": 30.76465643926234,
+        "vx": 0,
+        "vy": -4.677445532243746,
+        "speed": 7.27544166689553,
+        "pitch": -6.2824540360499785,
+        "roll": 6.2824540360499785,
+        "yaw": 6.2824540360499785,
+        "heading": 0,
+        "omega": {
+          "pitch": 0.0005279262188993771,
+          "roll": -0.0005279262188993771,
+          "yaw": -0.0005279262188993771
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.9662105320308758,
+        "z": 31.49172787559824,
+        "vx": 0,
+        "vy": -4.183408279014835,
+        "speed": 7.266715937086518,
+        "pitch": -6.282390706175733,
+        "roll": 6.282390706175733,
+        "yaw": 6.282390706175733,
+        "heading": 0,
+        "omega": {
+          "pitch": 0.0005209571808031996,
+          "roll": -0.0005209571808031996,
+          "yaw": -0.0005209571808031996
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.5601257162407768,
+        "z": 32.217927305917755,
+        "vx": 0,
+        "vy": -3.9675339414416,
+        "speed": 7.258000672396213,
+        "pitch": -6.28235871426679,
+        "roll": 6.28235871426679,
+        "yaw": 6.28235871426679,
+        "heading": 0,
+        "omega": {
+          "pitch": 0.0001522662283196867,
+          "roll": -0.0001522662283196867,
+          "yaw": -0.0001522662283196867
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.1687277046685637,
+        "z": 32.94325577605278,
+        "vx": 0,
+        "vy": -3.873205569809492,
+        "speed": 7.249295860273379,
+        "pitch": -6.282352084734688,
+        "roll": 6.282352084734688,
+        "yaw": 6.282352084734688,
+        "heading": 0,
+        "omega": {
+          "pitch": 0.000012226778569152326,
+          "roll": -0.000012226778569152326,
+          "yaw": -0.000012226778569152326
+        },
+        "pressure": 67.48362797923689,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": -0.0915724139670909,
+        "z": 33.67659109603088,
+        "vx": 0,
+        "vy": 0.3458103640491717,
+        "speed": 7.544947370006617,
+        "pitch": -6.282411771053801,
+        "roll": 6.282411771053801,
+        "yaw": 6.282411771053801,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.0020815208460376,
+          "roll": 0.0020815208460376,
+          "yaw": 0.0020815208460376
+        },
+        "pressure": 68.73362797923687,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": -0.01036799556553715,
+        "z": 34.46358583303155,
+        "vx": 0,
+        "vy": 0.55654081567989,
+        "speed": 8.144947370006618,
+        "pitch": -6.282674741813186,
+        "roll": 6.282674741813186,
+        "yaw": 6.282674741813186,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.002700514545079579,
+          "roll": 0.002700514545079579,
+          "yaw": 0.002700514545079579
+        },
+        "pressure": 70.40029464590354,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.006447501656221245,
+        "z": 35.3105805700322,
+        "vx": 0,
+        "vy": -0.05252222557763697,
+        "speed": 8.744947370006626,
+        "pitch": -6.282906844427293,
+        "roll": 6.282906844427293,
+        "yaw": 6.282906844427293,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.0018773089447485982,
+          "roll": 0.0018773089447485982,
+          "yaw": 0.0018773089447485982
+        },
+        "pressure": 72.27529464590353,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.0010862297015519936,
+        "z": 36.217575307032874,
+        "vx": 0,
+        "vy": -0.02857272387615019,
+        "speed": 9.344947370006635,
+        "pitch": -6.283051277681265,
+        "roll": 6.283051277681265,
+        "yaw": 6.283051277681265,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.0010528053650280865,
+          "roll": 0.0010528053650280865,
+          "yaw": 0.0010528053650280865
+        },
+        "pressure": 74.77529464590353,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.00010272316639895592,
+        "z": 37.18457004403354,
+        "vx": 0,
+        "vy": -0.00019593030568358703,
+        "speed": 9.944947370006643,
+        "pitch": -6.283127379847179,
+        "roll": 6.283127379847179,
+        "yaw": 6.283127379847179,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.0005174054225809735,
+          "roll": 0.0005174054225809735,
+          "yaw": 0.0005174054225809735
+        },
+        "pressure": 77.27529464590351,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.00012237951367631927,
+        "z": 38.21156478103419,
+        "vx": 0,
+        "vy": -0.00036504584957726643,
+        "speed": 10.544947370006652,
+        "pitch": -6.283163023512391,
+        "roll": 6.283163023512391,
+        "yaw": 6.283163023512391,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.00022808254942219568,
+          "roll": 0.00022808254942219568,
+          "yaw": 0.00022808254942219568
+        },
+        "pressure": 79.7752946459035,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.00005661737902118041,
+        "z": 39.29855951803487,
+        "vx": 0,
+        "vy": -0.0006509525866392802,
+        "speed": 11.14494737000666,
+        "pitch": -6.283178016522637,
+        "roll": 6.283178016522637,
+        "yaw": 6.283178016522637,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.0000898163760400509,
+          "roll": 0.0000898163760400509,
+          "yaw": 0.0000898163760400509
+        },
+        "pressure": 82.2752946459035,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.000013942441236807072,
+        "z": 40.44555425503554,
+        "vx": 0,
+        "vy": -0.00022642367207626425,
+        "speed": 11.744947370006669,
+        "pitch": -6.2831835922014125,
+        "roll": 6.2831835922014125,
+        "yaw": 6.2831835922014125,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.000030472063044937454,
+          "roll": 0.000030472063044937454,
+          "yaw": 0.000030472063044937454
+        },
+        "pressure": 84.77529464590349,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.000001830378494460929,
+        "z": 41.652548992036195,
+        "vx": 0,
+        "vy": -0.00005336057692646962,
+        "speed": 12.344947370006677,
+        "pitch": -6.283185316052737,
+        "roll": 6.283185316052737,
+        "yaw": 6.283185316052737,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.000007836108111983193,
+          "roll": 0.000007836108111983193,
+          "yaw": 0.000007836108111983193
+        },
+        "pressure": 87.27529464590347,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 2.55343129791609e-7,
+        "z": 42.919543729036874,
+        "vx": 0,
+        "vy": 0.000009324719892073563,
+        "speed": 12.944947370006686,
+        "pitch": -6.283185659821486,
+        "roll": 6.283185659821486,
+        "yaw": 6.283185659821486,
+        "heading": 0,
+        "omega": {
+          "pitch": -5.310444163734768e-7,
+          "roll": 5.310444163734768e-7,
+          "yaw": 5.310444163734768e-7
+        },
+        "pressure": 89.77529464590347,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.0000010673980154441875,
+        "z": 44.24653846603754,
+        "vx": 0,
+        "vy": 0.0000025076848425809223,
+        "speed": 13.544947370006694,
+        "pitch": -6.283185605234583,
+        "roll": 6.283185605234583,
+        "yaw": 6.283185605234583,
+        "heading": 0,
+        "omega": {
+          "pitch": 0.0000011252940914886301,
+          "roll": -0.0000011252940914886301,
+          "yaw": -0.0000011252940914886301
+        },
+        "pressure": 92.27529464590346,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 8.803785370221916e-7,
+        "z": 45.633533203038205,
+        "vx": 0,
+        "vy": -0.000004201552216910671,
+        "speed": 14.144947370006703,
+        "pitch": -6.283185489645993,
+        "roll": 6.283185489645993,
+        "yaw": 6.283185489645993,
+        "heading": 0,
+        "omega": {
+          "pitch": 0.0000010636624433023036,
+          "roll": -0.0000010636624433023036,
+          "yaw": -0.0000010636624433023036
+        },
+        "pressure": 94.77529464590346,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 4.833648505197998e-7,
+        "z": 47.080527940038884,
+        "vx": 0,
+        "vy": -0.0000032891520499803883,
+        "speed": 14.744947370006711,
+        "pitch": -6.283185402348865,
+        "roll": 6.283185402348865,
+        "yaw": 6.283185402348865,
+        "heading": 0,
+        "omega": {
+          "pitch": 6.779614220941902e-7,
+          "roll": -6.779614220941902e-7,
+          "yaw": -6.779614220941902e-7
+        },
+        "pressure": 97.27529464590344,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 2.3430567258906783e-7,
+        "z": 48.58752267703955,
+        "vx": 0,
+        "vy": -0.0000017921552298901237,
+        "speed": 15.34494737000672,
+        "pitch": -6.283185351382187,
+        "roll": 6.283185351382187,
+        "yaw": 6.283185351382187,
+        "heading": 0,
+        "omega": {
+          "pitch": 3.624136290212112e-7,
+          "roll": -3.624136290212112e-7,
+          "yaw": -3.624136290212112e-7
+        },
+        "pressure": 99.77529464590343,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.0400002667006293e-7,
+        "z": 50.15451741404022,
+        "vx": 0,
+        "vy": -8.986879001689475e-7,
+        "speed": 15.944947370006728,
+        "pitch": -6.283185325613207,
+        "roll": 6.283185325613207,
+        "yaw": 6.283185325613207,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.7172597847152838e-7,
+          "roll": -1.7172597847152838e-7,
+          "yaw": -1.7172597847152838e-7
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 4.120153724454036e-8,
+        "z": 51.7815121510409,
+        "vx": 0,
+        "vy": -4.0892535800268657e-7,
+        "speed": 16.544947370006735,
+        "pitch": -6.283185313958434,
+        "roll": 6.283185313958434,
+        "yaw": 6.283185313958434,
+        "heading": 0,
+        "omega": {
+          "pitch": 7.308642974076642e-8,
+          "roll": -7.308642974076642e-8,
+          "yaw": -7.308642974076642e-8
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.402388282799497e-8,
+        "z": 53.46850688804157,
+        "vx": 0,
+        "vy": -1.652024338934512e-7,
+        "speed": 17.144947370006744,
+        "pitch": -6.283185309234117,
+        "roll": 6.283185309234117,
+        "yaw": 6.283185309234117,
+        "heading": 0,
+        "omega": {
+          "pitch": 2.758748783330977e-8,
+          "roll": -2.758748783330977e-8,
+          "yaw": -2.758748783330977e-8
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 3.6388064529470086e-9,
+        "z": 55.21550162504224,
+        "vx": 0,
+        "vy": -5.800683506638485e-8,
+        "speed": 17.744947370006752,
+        "pitch": -6.2831853075624124,
+        "roll": 6.2831853075624124,
+        "yaw": 6.2831853075624124,
+        "heading": 0,
+        "omega": {
+          "pitch": 8.749934714376814e-9,
+          "roll": -8.749934714376814e-9,
+          "yaw": -8.749934714376814e-9
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 3.0881549352695745e-10,
+        "z": 57.02249636204292,
+        "vx": 0,
+        "vy": -1.3120462373579073e-8,
+        "speed": 18.34494737000676,
+        "pitch": -6.283185307091667,
+        "roll": 6.283185307091667,
+        "yaw": 6.283185307091667,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.888490599805789e-9,
+          "roll": -1.888490599805789e-9,
+          "yaw": -1.888490599805789e-9
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 2.453584726933769e-10,
+        "z": 58.88949109904359,
+        "vx": 0,
+        "vy": 4.490064663058717e-9,
+        "speed": 18.94494737000677,
+        "pitch": -6.283185307027796,
+        "roll": 6.283185307027796,
+        "yaw": 6.283185307027796,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.5498836686167273e-10,
+          "roll": 1.5498836686167273e-10,
+          "yaw": 1.5498836686167273e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 4.6292140885585227e-10,
+        "z": 60.81648583604427,
+        "vx": 0,
+        "vy": -3.732258183795819e-10,
+        "speed": 19.544947370006778,
+        "pitch": -6.283185307068217,
+        "roll": 6.283185307068217,
+        "yaw": 6.283185307068217,
+        "heading": 0,
+        "omega": {
+          "pitch": -5.117940574345185e-10,
+          "roll": 5.117940574345185e-10,
+          "yaw": 5.117940574345185e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 3.1809681515760965e-10,
+        "z": 62.80348057304495,
+        "vx": 0,
+        "vy": -1.8200277262875691e-9,
+        "speed": 20.144947370006786,
+        "pitch": -6.283185307115436,
+        "roll": 6.283185307115436,
+        "yaw": 6.283185307115436,
+        "heading": 0,
+        "omega": {
+          "pitch": -4.0397326981743456e-10,
+          "roll": 4.0397326981743456e-10,
+          "yaw": 4.0397326981743456e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.6516544731849677e-10,
+        "z": 64.85047531004561,
+        "vx": 0,
+        "vy": -1.1764402910906159e-9,
+        "speed": 20.744947370006795,
+        "pitch": -6.283185307147451,
+        "roll": 6.283185307147451,
+        "yaw": 6.283185307147451,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.405016762302218e-10,
+          "roll": 2.405016762302218e-10,
+          "yaw": 2.405016762302218e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 7.78439807567241e-11,
+        "z": 66.95747004704627,
+        "vx": 0,
+        "vy": -6.181567531728943e-10,
+        "speed": 21.344947370006803,
+        "pitch": -6.283185307165171,
+        "roll": 6.283185307165171,
+        "yaw": 6.283185307165171,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.2320295431107286e-10,
+          "roll": 1.2320295431107286e-10,
+          "yaw": 1.2320295431107286e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 3.340871205952306e-11,
+        "z": 69.12446478404699,
+        "vx": 0,
+        "vy": -3.014132624777535e-10,
+        "speed": 21.944947370006812,
+        "pitch": -6.283185307173796,
+        "roll": 6.283185307173796,
+        "yaw": 6.283185307173796,
+        "heading": 0,
+        "omega": {
+          "pitch": -5.6361711942368924e-11,
+          "roll": 5.6361711942368924e-11,
+          "yaw": 5.6361711942368924e-11
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.2670393628569386e-11,
+        "z": 71.35145952104766,
+        "vx": 0,
+        "vy": -1.3219047854399633e-10,
+        "speed": 22.54494737000682,
+        "pitch": -6.283185307177564,
+        "roll": 6.283185307177564,
+        "yaw": 6.283185307177564,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.313007976383213e-11,
+          "roll": 2.313007976383213e-11,
+          "yaw": 2.313007976383213e-11
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 4.031486053557566e-12,
+        "z": 73.63845425804831,
+        "vx": 0,
+        "vy": -5.1263021215942134e-11,
+        "speed": 23.14494737000683,
+        "pitch": -6.283185307179034,
+        "roll": 6.283185307179034,
+        "yaw": 6.283185307179034,
+        "heading": 0,
+        "omega": {
+          "pitch": -8.320994418526215e-12,
+          "roll": 8.320994418526215e-12,
+          "yaw": 8.320994418526215e-12
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 8.768519460043438e-13,
+        "z": 75.98544899504904,
+        "vx": 0,
+        "vy": -1.6977172981362692e-11,
+        "speed": 23.744947370006837,
+        "pitch": -6.283185307179524,
+        "roll": 6.283185307179524,
+        "yaw": 6.283185307179524,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.4152155784077177e-12,
+          "roll": 2.4152155784077177e-12,
+          "yaw": 2.4152155784077177e-12
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 2.949295016000235e-14,
+        "z": 78.39244373204971,
+        "vx": 0,
+        "vy": -8.574748124885012e-13,
+        "speed": 24.344947370006846,
+        "pitch": -6.283185307179645,
+        "roll": 6.283185307179645,
+        "yaw": 6.283185307179645,
+        "heading": 0,
+        "omega": {
+          "pitch": -3.7775304271463303e-13,
+          "roll": 3.7775304271463303e-13,
+          "yaw": 3.7775304271463303e-13
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      }
+    ],
+    [
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.032499999999999994,
+        "vx": 0,
+        "vy": 0,
+        "speed": 0.6,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.12500000000000003,
+        "vx": 0,
+        "vy": 0,
+        "speed": 1.2000000000000004,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.2775000000000001,
+        "vx": 0,
+        "vy": 0,
+        "speed": 1.800000000000001,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.49000000000000016,
+        "vx": 0,
+        "vy": 0,
+        "speed": 2.3999999999999995,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.7625000000000001,
+        "vx": 0,
+        "vy": 0,
+        "speed": 2.9999999999999973,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1.0949999999999998,
+        "vx": 0,
+        "vy": 0,
+        "speed": 3.599999999999995,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1.4874999999999992,
+        "vx": 0,
+        "vy": 0,
+        "speed": 4.199999999999993,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1.9399999999999982,
+        "vx": 0,
+        "vy": 0,
+        "speed": 4.799999999999991,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 2.452499999999997,
+        "vx": 0,
+        "vy": 0,
+        "speed": 5.399999999999989,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 3.024999999999996,
+        "vx": 0,
+        "vy": 0,
+        "speed": 5.999999999999987,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.015870970939922784,
+        "z": 3.6574999999999944,
+        "vx": 0,
+        "vy": 0.7012316913056481,
+        "speed": 6.5999999999999845,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.19239231890041383,
+        "z": 4.325004952933743,
+        "vx": 0,
+        "vy": 2.9049297796149407,
+        "speed": 6.712499231846312,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.6020785420065475,
+        "z": 5.001987303569747,
+        "vx": 0,
+        "vy": 5.294771080999536,
+        "speed": 6.819835587053244,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 1.2516373656703512,
+        "z": 5.689995503132483,
+        "vx": 0,
+        "vy": 7.696043589402418,
+        "speed": 6.9311778026489455,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 2.110370419243954,
+        "z": 6.38915783136061,
+        "vx": 0,
+        "vy": 9.134970164331936,
+        "speed": 7.042761562879789,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 81.20000000000003,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 3.053332275243934,
+        "z": 7.099473747565341,
+        "vx": 0,
+        "vy": 9.693759822544003,
+        "speed": 7.154245522875255,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.60000000000007,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 4.046943913888968,
+        "z": 7.820931039337888,
+        "vx": 0,
+        "vy": 10.175527019878826,
+        "speed": 7.265598862502219,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 78.00000000000011,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.0882040465314216,
+        "z": 8.55351645002292,
+        "vx": 0,
+        "vy": 10.64923044384046,
+        "speed": 7.376818931621117,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 76.40000000000016,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 6.1767328915296575,
+        "z": 9.297216642803702,
+        "vx": 0,
+        "vy": 11.12112857347276,
+        "speed": 7.487905635441675,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 74.8000000000002,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 7.272943111126029,
+        "z": 10.04849023697618,
+        "vx": 0,
+        "vy": 10.619196046340104,
+        "speed": 7.5199626959621035,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 74.8000000000002,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 8.287652000677316,
+        "z": 10.800267281134838,
+        "vx": 0,
+        "vy": 9.658679182730205,
+        "speed": 7.514666549955279,
+        "pitch": 0,
+        "roll": -0.06353617154436621,
+        "yaw": -0.06353617154436621,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -1.5615082703837257,
+          "yaw": -1.5615082703837257
+        },
+        "pressure": 73.78968496863439,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 9.203583288306062,
+        "z": 11.551270100637067,
+        "vx": 0,
+        "vy": 8.65884532391015,
+        "speed": 7.505991637246785,
+        "pitch": 0,
+        "roll": -0.33126917006365886,
+        "yaw": -0.33126917006365886,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -3.8057148007123813,
+          "yaw": -3.8057148007123813
+        },
+        "pressure": 72.3037834187326,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 10.019397904311962,
+        "z": 12.301383770789299,
+        "vx": 0,
+        "vy": 7.657723839408325,
+        "speed": 7.497020037680554,
+        "pitch": 0,
+        "roll": -0.8065396784750583,
+        "yaw": -0.8065396784750583,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -5.517397115896468,
+          "yaw": -5.517397115896468
+        },
+        "pressure": 71.11842414525194,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 10.735201999514802,
+        "z": 13.050598848014179,
+        "vx": 0,
+        "vy": 6.6587589844883315,
+        "speed": 7.488031339444854,
+        "pitch": 0,
+        "roll": -1.400949326680812,
+        "yaw": -1.400949326680812,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -6.245573715742765,
+          "yaw": -6.245573715742765
+        },
+        "pressure": 70.53884701017469,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 11.351232263762418,
+        "z": 13.798915456587384,
+        "vx": 0,
+        "vy": 5.662257537845358,
+        "speed": 7.4790508944349785,
+        "pitch": 0,
+        "roll": -1.9666350375063268,
+        "yaw": -1.9666350375063268,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -4.702106034791633,
+          "yaw": -4.702106034791633
+        },
+        "pressure": 69.65451311173005,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 11.867736662135908,
+        "z": 14.546334587584111,
+        "vx": 0,
+        "vy": 4.668241666898295,
+        "speed": 7.470080990764192,
+        "pitch": 0,
+        "roll": -2.3171947969562345,
+        "yaw": -2.3171947969562345,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -2.287192704457669,
+          "yaw": -2.287192704457669
+        },
+        "pressure": 68.178207984795,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.284963616998162,
+        "z": 15.292857309538718,
+        "vx": 0,
+        "vy": 3.6767077338546423,
+        "speed": 7.461121824260761,
+        "pitch": 0,
+        "roll": -2.4241320018987267,
+        "yaw": -2.4241320018987267,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.13946021582180224,
+          "yaw": 0.13946021582180224
+        },
+        "pressure": 66.64762338150128,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.603161028023779,
+        "z": 16.0384846968388,
+        "vx": 0,
+        "vy": 2.68764977403171,
+        "speed": 7.452173400959222,
+        "pitch": 0,
+        "roll": -2.291493023885939,
+        "yaw": -2.291493023885939,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 2.5018538993576236,
+          "yaw": 2.5018538993576236
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.822576184707003,
+        "z": 16.78321782323063,
+        "vx": 0,
+        "vy": 1.7010616257266322,
+        "speed": 7.443235709690484,
+        "pitch": 0,
+        "roll": -2.0890459954586267,
+        "yaw": -2.0890459954586267,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 1.3102121454090132,
+          "yaw": 1.3102121454090132
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.94345575982993,
+        "z": 17.527057761231436,
+        "vx": 0,
+        "vy": 0.7169371233986889,
+        "speed": 7.43430873773883,
+        "pitch": 0,
+        "roll": -2.0172997168770617,
+        "yaw": -2.0172997168770617,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.27958953339189857,
+          "yaw": 0.27958953339189857
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.96604581027172,
+        "z": 18.27000558207745,
+        "vx": 0,
+        "vy": -0.26472988484064613,
+        "speed": 7.42539247226227,
+        "pitch": 0,
+        "roll": -2.007203360656689,
+        "yaw": -2.007203360656689,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.06813601549844142,
+          "yaw": 0.06813601549844142
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.890591778480315,
+        "z": 19.012062355720598,
+        "vx": 0,
+        "vy": -1.2439455356759992,
+        "speed": 7.416486900421381,
+        "pitch": 0,
+        "roll": -1.941502758628583,
+        "yaw": -1.941502758628583,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 1.3939135416107473,
+          "yaw": 1.3939135416107473
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.717338494000748,
+        "z": 19.753229150829636,
+        "vx": 0,
+        "vy": -2.2207159504822047,
+        "speed": 7.407592009390971,
+        "pitch": 0,
+        "roll": -1.7361447221405801,
+        "yaw": -1.7361447221405801,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 2.572941884764069,
+          "yaw": 2.572941884764069
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.446530175005082,
+        "z": 20.493507034791605,
+        "vx": 0,
+        "vy": -3.1950472353494854,
+        "speed": 7.398707786361125,
+        "pitch": 0,
+        "roll": -1.4526736731237453,
+        "yaw": -1.4526736731237453,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 3.005287493917726,
+          "yaw": 3.005287493917726
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 12.078410429819058,
+        "z": 21.2328970737134,
+        "vx": 0,
+        "vy": -4.166945481120436,
+        "speed": 7.38983421853728,
+        "pitch": 0,
+        "roll": -1.1462885107045173,
+        "yaw": -1.1462885107045173,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 3.0941348430178355,
+          "yaw": 3.0941348430178355
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 11.61322225844495,
+        "z": 21.971400332423283,
+        "vx": 0,
+        "vy": -5.136416763427989,
+        "speed": 7.380971293140224,
+        "pitch": 0,
+        "roll": -0.8381429506841152,
+        "yaw": -0.8381429506841152,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 3.0181869416025764,
+          "yaw": 3.0181869416025764
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 11.05120805408064,
+        "z": 22.709017874472426,
+        "vx": 0,
+        "vy": -6.1034671427333915,
+        "speed": 7.37211899740606,
+        "pitch": 0,
+        "roll": -0.5578924155010443,
+        "yaw": -0.5578924155010443,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 2.522561842007042,
+          "yaw": 2.522561842007042
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 10.392609604634885,
+        "z": 23.445750762136456,
+        "vx": 0,
+        "vy": -7.068102664364083,
+        "speed": 7.363277318586211,
+        "pitch": 0,
+        "roll": -0.34073088730264534,
+        "yaw": -0.34073088730264534,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 1.8128795074263566,
+          "yaw": 1.8128795074263566
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 9.637668094238819,
+        "z": 24.181600056416947,
+        "vx": 0,
+        "vy": -8.030329358551493,
+        "speed": 7.354446243947379,
+        "pitch": 0,
+        "roll": -0.19308540674979047,
+        "yaw": -0.19308540674979047,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 1.1636895121253283,
+          "yaw": 1.1636895121253283
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 8.786624104753653,
+        "z": 24.916566817042984,
+        "vx": 0,
+        "vy": -8.990153240468729,
+        "speed": 7.34562576077155,
+        "pitch": 0,
+        "roll": -0.10219973291860206,
+        "yaw": -0.10219973291860206,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.6841286590907106,
+          "yaw": 0.6841286590907106
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 7.8397176172746414,
+        "z": 25.650652102472677,
+        "vx": 0,
+        "vy": -9.947580310268192,
+        "speed": 7.336815856355952,
+        "pitch": 0,
+        "roll": -0.05057207904554986,
+        "yaw": -0.05057207904554986,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.37341700063803057,
+          "yaw": 0.37341700063803057
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 6.797188013631257,
+        "z": 26.383856969894676,
+        "vx": 0,
+        "vy": -10.902616553119072,
+        "speed": 7.328016518013054,
+        "pitch": 0,
+        "roll": -0.023250123731041305,
+        "yaw": -0.023250123731041305,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.19024365072227006,
+          "yaw": 0.19024365072227006
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.659274077883661,
+        "z": 27.11618247522971,
+        "vx": 0,
+        "vy": -11.85526793924477,
+        "speed": 7.319227733070539,
+        "pitch": 0,
+        "roll": -0.009753262466331103,
+        "yaw": -0.009753262466331103,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.0902663616186511,
+          "yaw": 0.0902663616186511
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 4.47300225395723,
+        "z": 27.847629673132104,
+        "vx": 0,
+        "vy": -11.201503569229857,
+        "speed": 7.31044948887129,
+        "pitch": 0,
+        "roll": -0.003567177264972404,
+        "yaw": -0.003567177264972404,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.03941037426044903,
+          "yaw": 0.03941037426044903
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 3.4428518970342434,
+        "z": 28.578199616991288,
+        "vx": 0,
+        "vy": -9.401503569229853,
+        "speed": 7.301681772773368,
+        "pitch": 0,
+        "roll": -0.0012202763275026324,
+        "yaw": -0.0012202763275026324,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.010649626847243007,
+          "yaw": 0.010649626847243007
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 2.5927015401112583,
+        "z": 29.307893358933306,
+        "vx": 0,
+        "vy": -7.601503569229848,
+        "speed": 7.292924572150002,
+        "pitch": 0,
+        "roll": -0.0007786742633036721,
+        "yaw": -0.0007786742633036721,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.0005933221993729729,
+          "yaw": 0.0005933221993729729
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 1.9225238230686152,
+        "z": 30.036711949822372,
+        "vx": 0,
+        "vy": -5.808069997947855,
+        "speed": 7.284177874389558,
+        "pitch": 0,
+        "roll": -0.000816812201555903,
+        "yaw": -0.000816812201555903,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -0.0007111760280955614,
+          "yaw": -0.0007111760280955614
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 1.405906700129369,
+        "z": 30.76465643926234,
+        "vx": 0,
+        "vy": -4.677445532243746,
+        "speed": 7.27544166689553,
+        "pitch": 0,
+        "roll": -0.0008702373386423638,
+        "yaw": -0.0008702373386423638,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -0.00032354080820077636,
+          "yaw": -0.00032354080820077636
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.9662105320308758,
+        "z": 31.49172787559824,
+        "vx": 0,
+        "vy": -4.183408279014835,
+        "speed": 7.266715937086518,
+        "pitch": 0,
+        "roll": -0.0008872612287766435,
+        "yaw": -0.0008872612287766435,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -0.00006082116876933636,
+          "yaw": -0.00006082116876933636
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.5601257162407768,
+        "z": 32.217927305917755,
+        "vx": 0,
+        "vy": -3.9675339414416,
+        "speed": 7.258000672396213,
+        "pitch": 0,
+        "roll": -0.0008890525177996211,
+        "yaw": -0.0008890525177996211,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.000005279597631193897,
+          "yaw": 0.000005279597631193897
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.1687277046685637,
+        "z": 32.94325577605278,
+        "vx": 0,
+        "vy": -3.873205569809492,
+        "speed": 7.249295860273379,
+        "pitch": 0,
+        "roll": -0.0008882372086667174,
+        "yaw": -0.0008882372086667174,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.000007368430624283336,
+          "yaw": 0.000007368430624283336
+        },
+        "pressure": 65.1121146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": -0.09219189323840926,
+        "z": 33.67659109603088,
+        "vx": 0,
+        "vy": 0.32857090972362724,
+        "speed": 7.544947370006617,
+        "pitch": 0,
+        "roll": -0.0008242694190515508,
+        "yaw": -0.0008242694190515508,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.0022175920581760803,
+          "yaw": 0.0022175920581760803
+        },
+        "pressure": 66.3621146552067,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": -0.01190476257569226,
+        "z": 34.46358583303155,
+        "vx": 0,
+        "vy": 0.5522855490833886,
+        "speed": 8.144947370006618,
+        "pitch": 0,
+        "roll": -0.0005440711656742397,
+        "yaw": -0.0005440711656742397,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.002877599004503017,
+          "yaw": 0.002877599004503017
+        },
+        "pressure": 68.23711465520668,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.005274097774391811,
+        "z": 35.3105805700322,
+        "vx": 0,
+        "vy": -0.04229339965352976,
+        "speed": 8.744947370006626,
+        "pitch": 0,
+        "roll": -0.00029674286521847587,
+        "yaw": -0.00029674286521847587,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.0020004973874479014,
+          "yaw": 0.0020004973874479014
+        },
+        "pressure": 70.32044798854001,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.0006495291324010517,
+        "z": 36.217575307032874,
+        "vx": 0,
+        "vy": -0.02440728261225733,
+        "speed": 9.344947370006635,
+        "pitch": 0,
+        "roll": -0.00014283029198953388,
+        "yaw": -0.00014283029198953388,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.0011219147803249324,
+          "yaw": 0.0011219147803249324
+        },
+        "pressure": 72.82044798854001,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": -0.00008670945127026627,
+        "z": 37.18457004403354,
+        "vx": 0,
+        "vy": 0.0012577311270282777,
+        "speed": 9.944947370006643,
+        "pitch": 0,
+        "roll": -0.00006173195032965374,
+        "yaw": -0.00006173195032965374,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.0005513783658645301,
+          "yaw": 0.0005513783658645301
+        },
+        "pressure": 75.32044798854,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.000038897226184884804,
+        "z": 38.21156478103419,
+        "vx": 0,
+        "vy": 0.00038982805469160817,
+        "speed": 10.544947370006652,
+        "pitch": 0,
+        "roll": -0.000023747672095144117,
+        "yaw": -0.000023747672095144117,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.0002430621161916532,
+          "yaw": 0.0002430621161916532
+        },
+        "pressure": 77.82044798853998,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.00002626372127379326,
+        "z": 39.29855951803487,
+        "vx": 0,
+        "vy": -0.0003107281535294695,
+        "speed": 11.14494737000666,
+        "pitch": 0,
+        "roll": -0.000007769868916952773,
+        "yaw": -0.000007769868916952773,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.0000957168160950732,
+          "yaw": 0.0000957168160950732
+        },
+        "pressure": 80.32044798853998,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.0000052796700139173595,
+        "z": 40.44555425503554,
+        "vx": 0,
+        "vy": -0.00010334411161680422,
+        "speed": 11.744947370006669,
+        "pitch": 0,
+        "roll": -0.0000018278421796187655,
+        "yaw": -0.0000018278421796187655,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.00003247475401537483,
+          "yaw": 0.00003247475401537483
+        },
+        "pressure": 82.82044798853997,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 4.602178515352271e-7,
+        "z": 41.652548992036195,
+        "vx": 0,
+        "vy": -0.00001638714483264678,
+        "speed": 12.344947370006677,
+        "pitch": 0,
+        "roll": 9.338042407056143e-9,
+        "yaw": 9.338042407056143e-9,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0.000008351615341503638,
+          "yaw": 0.000008351615341503638
+        },
+        "pressure": 85.32044798853995,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 9.636424500168265e-8,
+        "z": 42.919543729036874,
+        "vx": 0,
+        "vy": 0.000004148906617705237,
+        "speed": 12.944947370006686,
+        "pitch": 0,
+        "roll": 3.7574829748066365e-7,
+        "yaw": 3.7574829748066365e-7,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 5.663717888839616e-7,
+          "yaw": 5.663717888839616e-7
+        },
+        "pressure": 87.82044798853995,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 4.0445008337530265e-7,
+        "z": 44.24653846603754,
+        "vx": 0,
+        "vy": 7.716185413343672e-7,
+        "speed": 13.544947370006694,
+        "pitch": 0,
+        "roll": 3.176081057706911e-7,
+        "yaw": 3.176081057706911e-7,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -0.0000011989895195586865,
+          "yaw": -0.0000011989895195586865
+        },
+        "pressure": 90.32044798853994,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 3.2598337449930376e-7,
+        "z": 45.633533203038205,
+        "vx": 0,
+        "vy": -0.0000015808587011092543,
+        "speed": 14.144947370006703,
+        "pitch": 0,
+        "roll": 1.9444221341154498e-7,
+        "yaw": 1.9444221341154498e-7,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -0.0000011334321558187546,
+          "yaw": -0.0000011334321558187546
+        },
+        "pressure": 92.82044798853994,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.7881213818970838e-7,
+        "z": 47.080527940038884,
+        "vx": 0,
+        "vy": -0.0000012119818206607817,
+        "speed": 14.744947370006711,
+        "pitch": 0,
+        "roll": 1.0141735273116127e-7,
+        "yaw": 1.0141735273116127e-7,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -7.22455052172336e-7,
+          "yaw": -7.22455052172336e-7
+        },
+        "pressure": 95.32044798853993,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 8.687232748346309e-8,
+        "z": 48.58752267703955,
+        "vx": 0,
+        "vy": -6.635168363428506e-7,
+        "speed": 15.34494737000672,
+        "pitch": 0,
+        "roll": 4.7105308079093756e-8,
+        "yaw": 4.7105308079093756e-8,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -3.8620574271572746e-7,
+          "yaw": -3.8620574271572746e-7
+        },
+        "pressure": 97.82044798853991,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 3.856331056541169e-8,
+        "z": 50.15451741404022,
+        "vx": 0,
+        "vy": -3.334236903701965e-7,
+        "speed": 15.944947370006728,
+        "pitch": 0,
+        "roll": 1.9644429726624568e-8,
+        "yaw": 1.9644429726624568e-8,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -1.8300242424305093e-7,
+          "yaw": -1.8300242424305093e-7
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.5271070249298536e-8,
+        "z": 51.7815121510409,
+        "vx": 0,
+        "vy": -1.5159773224327955e-7,
+        "speed": 16.544947370006735,
+        "pitch": 0,
+        "roll": 7.224262154984462e-9,
+        "yaw": 7.224262154984462e-9,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -7.788686025384889e-8,
+          "yaw": -7.788686025384889e-8
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 5.1979341621467545e-9,
+        "z": 53.46850688804157,
+        "vx": 0,
+        "vy": -6.12229837288398e-8,
+        "speed": 17.144947370006744,
+        "pitch": 0,
+        "roll": 2.189606601733081e-9,
+        "yaw": 2.189606601733081e-9,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -2.9400035212237224e-8,
+          "yaw": -2.9400035212237224e-8
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.3490015805583426e-9,
+        "z": 55.21550162504224,
+        "vx": 0,
+        "vy": -2.150166354024937e-8,
+        "speed": 17.744947370006752,
+        "pitch": 0,
+        "roll": 4.080490499526202e-10,
+        "yaw": 4.080490499526202e-10,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -9.325118727263702e-9,
+          "yaw": -9.325118727263702e-9
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.1453745502120784e-10,
+        "z": 57.02249636204292,
+        "vx": 0,
+        "vy": -4.865418950923297e-9,
+        "speed": 18.34494737000676,
+        "pitch": 0,
+        "roll": -9.365318501117043e-11,
+        "yaw": -9.365318501117043e-11,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": -2.0128234294098338e-9,
+          "yaw": -2.0128234294098338e-9
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 9.09067976041568e-11,
+        "z": 58.88949109904359,
+        "vx": 0,
+        "vy": 1.6642259775350516e-9,
+        "speed": 18.94494737000677,
+        "pitch": 0,
+        "roll": -1.6174027952827821e-10,
+        "yaw": -1.6174027952827821e-10,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 1.650101200613212e-10,
+          "yaw": 1.650101200613212e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.7157010383759453e-10,
+        "z": 60.81648583604427,
+        "vx": 0,
+        "vy": -1.3808364253046793e-10,
+        "speed": 19.544947370006778,
+        "pitch": 0,
+        "roll": -1.1867734956095337e-10,
+        "yaw": -1.1867734956095337e-10,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 5.453343949186774e-10,
+          "yaw": 5.453343949186774e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.179042676320201e-10,
+        "z": 62.80348057304495,
+        "vx": 0,
+        "vy": -6.745580777762422e-10,
+        "speed": 20.144947370006786,
+        "pitch": 0,
+        "roll": -6.836141250633449e-11,
+        "yaw": -6.836141250633449e-11,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 4.304767292627177e-10,
+          "yaw": 4.304767292627177e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 6.122028390441749e-11,
+        "z": 64.85047531004561,
+        "vx": 0,
+        "vy": -4.360593162954249e-10,
+        "speed": 20.744947370006795,
+        "pitch": 0,
+        "roll": -3.424468659387571e-11,
+        "yaw": -3.424468659387571e-11,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 2.5628586716763273e-10,
+          "yaw": 2.5628586716763273e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 2.8853579848189443e-11,
+        "z": 66.95747004704627,
+        "vx": 0,
+        "vy": -2.291335212781077e-10,
+        "speed": 21.344947370006803,
+        "pitch": 0,
+        "roll": -1.53611389300649e-11,
+        "yaw": -1.53611389300649e-11,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 1.3128905439310112e-10,
+          "yaw": 1.3128905439310112e-10
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.2382837869453475e-11,
+        "z": 69.12446478404699,
+        "vx": 0,
+        "vy": -1.117245942530544e-10,
+        "speed": 21.944947370006812,
+        "pitch": 0,
+        "roll": -6.170197378291323e-12,
+        "yaw": -6.170197378291323e-12,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 6.005977238433948e-11,
+          "yaw": 6.005977238433948e-11
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 4.6963694461821586e-12,
+        "z": 71.35145952104766,
+        "vx": 0,
+        "vy": -4.8994713703789166e-11,
+        "speed": 22.54494737000682,
+        "pitch": 0,
+        "roll": -2.1552752313040183e-12,
+        "yaw": -2.1552752313040183e-12,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 2.4648262154597034e-11,
+          "yaw": 2.4648262154597034e-11
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.4953099190670337e-12,
+        "z": 73.63845425804831,
+        "vx": 0,
+        "vy": -1.898430473109389e-11,
+        "speed": 23.14494737000683,
+        "pitch": 0,
+        "roll": -5.90962854579553e-13,
+        "yaw": -5.90962854579553e-13,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 8.872097631383384e-12,
+          "yaw": 8.872097631383384e-12
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 3.2764082329353516e-13,
+        "z": 75.98544899504904,
+        "vx": 0,
+        "vy": -6.284063872117859e-12,
+        "speed": 23.744947370006837,
+        "pitch": 0,
+        "roll": -6.878111380611451e-14,
+        "yaw": -6.878111380611451e-14,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 2.5838114897885993e-12,
+          "yaw": 2.5838114897885993e-12
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.0989563967648624e-14,
+        "z": 78.39244373204971,
+        "vx": 0,
+        "vy": -3.6428068994821685e-13,
+        "speed": 24.344947370006846,
+        "pitch": 0,
+        "roll": 6.043433926222226e-14,
+        "yaw": 6.043433926222226e-14,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 4.1164276547674497e-13,
+          "yaw": 4.1164276547674497e-13
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 4.350000000000006
+        },
+        "landingCount": 1
+      }
+    ],
+    [
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.032499999999999994,
+        "vx": 0,
+        "vy": 0,
+        "speed": 0.6,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.12500000000000003,
+        "vx": 0,
+        "vy": 0,
+        "speed": 1.2000000000000004,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.2775000000000001,
+        "vx": 0,
+        "vy": 0,
+        "speed": 1.800000000000001,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.49000000000000016,
+        "vx": 0,
+        "vy": 0,
+        "speed": 2.3999999999999995,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 0.7625000000000001,
+        "vx": 0,
+        "vy": 0,
+        "speed": 2.9999999999999973,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1.0949999999999998,
+        "vx": 0,
+        "vy": 0,
+        "speed": 3.599999999999995,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1.4874999999999992,
+        "vx": 0,
+        "vy": 0,
+        "speed": 4.199999999999993,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 1.9399999999999982,
+        "vx": 0,
+        "vy": 0,
+        "speed": 4.799999999999991,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 2.452499999999997,
+        "vx": 0,
+        "vy": 0,
+        "speed": 5.399999999999989,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "z": 3.024999999999996,
+        "vx": 0,
+        "vy": 0,
+        "speed": 5.999999999999987,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.015870970939922784,
+        "z": 3.6574999999999944,
+        "vx": 0,
+        "vy": 0.7012316913056481,
+        "speed": 6.5999999999999845,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.19239231890041383,
+        "z": 4.325004952933743,
+        "vx": 0,
+        "vy": 2.9049297796149407,
+        "speed": 6.712499231846312,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.6020785420065475,
+        "z": 5.001987303569747,
+        "vx": 0,
+        "vy": 5.294771080999536,
+        "speed": 6.819835587053244,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 1.2516373656703512,
+        "z": 5.689995503132483,
+        "vx": 0,
+        "vy": 7.696043589402418,
+        "speed": 6.9311778026489455,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 2.103451191362532,
+        "z": 6.388478270685367,
+        "vx": 0,
+        "vy": 8.784379314945875,
+        "speed": 7.014329524928181,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 2.947843163910749,
+        "z": 7.090349629356988,
+        "vx": 0,
+        "vy": 8.018055890343664,
+        "speed": 7.018273852357181,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 3.7010905387616235,
+        "z": 7.791802111333817,
+        "vx": 0,
+        "vy": 7.0395200740785375,
+        "speed": 7.010977546469776,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 4.35528135381829,
+        "z": 8.492451678290214,
+        "vx": 0,
+        "vy": 6.04400272314204,
+        "speed": 7.002670693236826,
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 82,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 4.909924562454328,
+        "z": 9.192264408449082,
+        "vx": 0,
+        "vy": 5.0492091129493915,
+        "speed": 6.9942813341097585,
+        "pitch": 0.06353617154436621,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.5615082703837257,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 81.43169779485675,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.365201762179354,
+        "z": 9.89123814078975,
+        "vx": 0,
+        "vy": 4.056739775653343,
+        "speed": 6.985893648112992,
+        "pitch": 0.33126917006365886,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 3.8057148007123813,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 80.59587817303701,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.721355006689027,
+        "z": 10.589373594463408,
+        "vx": 0,
+        "vy": 3.0667342681789256,
+        "speed": 6.9775152608118995,
+        "pitch": 0.8065396784750583,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 5.517397115896468,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.9786312708373535,
+        "z": 11.286671748806928,
+        "vx": 0,
+        "vy": 2.0791996248527527,
+        "speed": 6.969146853011902,
+        "pitch": 1.2988086345433976,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 3.9710226338064145,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 6.137277414019288,
+        "z": 11.983133605664369,
+        "vx": 0,
+        "vy": 1.094130871871417,
+        "speed": 6.960788475517175,
+        "pitch": 1.5779143985401685,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.6350978340836748,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 6.197539724662244,
+        "z": 12.678760167826605,
+        "vx": 0,
+        "vy": 0.11152196009232739,
+        "speed": 6.952440121992604,
+        "pitch": 1.6626481912034436,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 0.2919446716487898,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 6.159663880302926,
+        "z": 13.373552437076713,
+        "vx": 0,
+        "vy": -0.8686332432008794,
+        "speed": 6.944101780932643,
+        "pitch": 1.6419630482725882,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.9021252008201892,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 6.023894945361711,
+        "z": 14.067511414013973,
+        "vx": 0,
+        "vy": -1.8463408643623158,
+        "speed": 6.935773440375806,
+        "pitch": 1.4752389125006482,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.3189925986359747,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.790477372333399,
+        "z": 14.760638098039216,
+        "vx": 0,
+        "vy": -2.8216070152598522,
+        "speed": 6.927455088332342,
+        "pitch": 1.206679953706965,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.9354285036051158,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.4596550032844,
+        "z": 15.452933487354786,
+        "vx": 0,
+        "vy": -3.7944377925728574,
+        "speed": 6.919146712823009,
+        "pitch": 0.9039937800671307,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -3.0535979108677482,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 5.0316710713742605,
+        "z": 16.144398578965866,
+        "vx": 0,
+        "vy": -4.764839277763139,
+        "speed": 6.910848301882583,
+        "pitch": 0.613799443900029,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.6676290645475484,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 4.506768202375927,
+        "z": 16.83503436868189,
+        "vx": 0,
+        "vy": -5.732817537106862,
+        "speed": 6.902559843560158,
+        "pitch": 0.38082927455589555,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.9720581873919947,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 3.885188416192459,
+        "z": 17.524841851117966,
+        "vx": 0,
+        "vy": -6.698378621731923,
+        "speed": 6.894281325919162,
+        "pitch": 0.2186789181850556,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.2907883780803122,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 3.1671731283699613,
+        "z": 18.21382201969633,
+        "vx": 0,
+        "vy": -7.661528567655727,
+        "speed": 6.886012737037334,
+        "pitch": 0.11714963426932044,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.7702947968260699,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": false,
+          "startedAt": null
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 2.4143026963454766,
+        "z": 18.901975866647774,
+        "vx": 0,
+        "vy": -6.783593686614059,
+        "speed": 6.877754065006713,
+        "pitch": 0.05867777235971757,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.4258583833494797,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 1.8203274541161583,
+        "z": 19.589304383013054,
+        "vx": 0,
+        "vy": -5.19833423053281,
+        "speed": 6.869505297933622,
+        "pitch": 0.02735021886049536,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.2196158050014028,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 1.3451931213099877,
+        "z": 20.275808558644336,
+        "vx": 0,
+        "vy": -4.411015614205881,
+        "speed": 6.8612664239386465,
+        "pitch": 0.01168259079089157,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.10556749638613226,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.9236232580238121,
+        "z": 20.961489382206626,
+        "vx": 0,
+        "vy": -4.066989159423735,
+        "speed": 6.853037431156621,
+        "pitch": 0.004400464991347599,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.04683371226753479,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.5254589057583461,
+        "z": 21.64634784117916,
+        "vx": 0,
+        "vy": -3.9166634855026365,
+        "speed": 6.844818307736607,
+        "pitch": 0.0014252634373792315,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.015144651138571509,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": 0.1375218170324935,
+        "z": 22.33038492185688,
+        "vx": 0,
+        "vy": -3.8509772339783392,
+        "speed": 6.836609041841884,
+        "pitch": 0.0007230858552607142,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.001723709787507958,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 79.92911358170414,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": false,
+        "crashes": 0,
+        "buffer": {
+          "armed": true,
+          "active": true,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 0
+      },
+      {
+        "x": 0,
+        "y": -0.08696161566533683,
+        "z": 23.02542768526738,
+        "vx": 0,
+        "vy": 0.5895819278878571,
+        "speed": 7.183191420913502,
+        "pitch": 0.0006260819504247767,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.0018875828904147565,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 81.38744691503746,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": -0.007336062055211036,
+        "z": 23.776246827358733,
+        "vx": 0,
+        "vy": 0.4643845534844924,
+        "speed": 7.7831914209135,
+        "pitch": 0.0004042898394812269,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.002200237510319537,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 83.05411358170413,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.00498566955814124,
+        "z": 24.58706596945008,
+        "vx": 0,
+        "vy": -0.04971142080483656,
+        "speed": 8.383191420913505,
+        "pitch": 0.00021777149768156578,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.0014909641135644725,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 85.34578024837079,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.0005814984606482829,
+        "z": 25.457885111541433,
+        "vx": 0,
+        "vy": -0.020710898029821793,
+        "speed": 8.983191420913514,
+        "pitch": 0.00010381094688813544,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.0008249767964575501,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 87.84578024837077,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": -0.000019772743634527033,
+        "z": 26.38870425363279,
+        "vx": 0,
+        "vy": 0.0010111270812446231,
+        "speed": 9.583191420913522,
+        "pitch": 0.000044446060379807526,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.00040143226612305,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 90.34578024837077,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.00006165540916014947,
+        "z": 27.37952339572414,
+        "vx": 0,
+        "vy": 0.00003903885971948351,
+        "speed": 10.18319142091353,
+        "pitch": 0.000016901701469631746,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.00017531907742138975,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 92.84578024837076,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.000030805319951288364,
+        "z": 28.43034253781549,
+        "vx": 0,
+        "vy": -0.00037764225554066635,
+        "speed": 10.783191420913539,
+        "pitch": 0.00000542731356884299,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.00006828998332405591,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 95.34578024837074,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 0.000006552120572526302,
+        "z": 29.54116167990685,
+        "vx": 0,
+        "vy": -0.0001194877796159748,
+        "speed": 11.383191420913548,
+        "pitch": 0.0000012136236397327265,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.000022786192798972413,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 97.84578024837074,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 6.260529495818794e-7,
+        "z": 30.711980821998203,
+        "vx": 0,
+        "vy": -0.000023041561324909905,
+        "speed": 11.983191420913556,
+        "pitch": -6.020721193528495e-8,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -0.000005632709362916831,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.8797720332528382e-7,
+        "z": 31.942799964089556,
+        "vx": 0,
+        "vy": 0.000005998796775341949,
+        "speed": 12.583191420913565,
+        "pitch": -2.954043490894681e-7,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.0415564681911803e-7,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 5.920178525551815e-7,
+        "z": 33.2336191061809,
+        "vx": 0,
+        "vy": 6.701704970305185e-7,
+        "speed": 13.183191420913573,
+        "pitch": -2.3905795709310515e-7,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 9.59857500755095e-7,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 4.5613384868770026e-7,
+        "z": 34.58443824827227,
+        "vx": 0,
+        "vy": -0.000002326004946006912,
+        "speed": 13.783191420913582,
+        "pitch": -1.4382070186527574e-7,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 8.572184722096684e-7,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 2.4621182256348705e-7,
+        "z": 35.995257390363626,
+        "vx": 0,
+        "vy": -0.0000016939425959036442,
+        "speed": 14.38319142091359,
+        "pitch": -7.418173945631502e-8,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 5.357185574669461e-7,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.1859462881356895e-7,
+        "z": 37.466076532454984,
+        "vx": 0,
+        "vy": -9.154698063245082e-7,
+        "speed": 14.983191420913599,
+        "pitch": -3.413404708315163e-8,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 2.830107111928092e-7,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 5.218096790493779e-8,
+        "z": 38.99689567454635,
+        "vx": 0,
+        "vy": -4.562487104487653e-7,
+        "speed": 15.583191420913607,
+        "pitch": -1.4095867399372713e-8,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.3283502379204192e-7,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 2.043576709061192e-8,
+        "z": 40.58771481663771,
+        "vx": 0,
+        "vy": -2.0549372442897984e-7,
+        "speed": 16.183191420913616,
+        "pitch": -5.116639612468072e-9,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 5.5996542369471736e-8,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 6.841509605935736e-9,
+        "z": 42.23853395872907,
+        "vx": 0,
+        "vy": -8.210129110608383e-8,
+        "speed": 16.783191420913624,
+        "pitch": -1.5140725335189473e-9,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 2.0882334862545583e-8,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.7086833375040916e-9,
+        "z": 43.94935310082044,
+        "vx": 0,
+        "vy": -2.8408737946960146e-8,
+        "speed": 17.383191420913633,
+        "pitch": -2.57770712484978e-10,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 6.487671583893043e-9,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.132763495942306e-10,
+        "z": 45.720172242911794,
+        "vx": 0,
+        "vy": -5.3025981158555275e-9,
+        "speed": 17.98319142091364,
+        "pitch": 8.549553047652669e-11,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.3142083422265558e-9,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.5350369749647346e-10,
+        "z": 47.550991385003165,
+        "vx": 0,
+        "vy": 2.319682587053259e-9,
+        "speed": 18.58319142091365,
+        "pitch": 1.2456424517823534e-10,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.8805421708527502e-10,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 2.479762123989469e-10,
+        "z": 49.44181052709453,
+        "vx": 0,
+        "vy": -3.7479278169789257e-10,
+        "speed": 19.18319142091366,
+        "pitch": 8.870924523554013e-11,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -4.2434891074795433e-10,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.6361921270977562e-10,
+        "z": 51.39262966918589,
+        "vx": 0,
+        "vy": -9.691398865631708e-10,
+        "speed": 19.783191420913667,
+        "pitch": 5.0361226052953845e-11,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -3.229694534903194e-10,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 8.397250659554071e-11,
+        "z": 53.403448811277265,
+        "vx": 0,
+        "vy": -6.040388408706682e-10,
+        "speed": 20.383191420913676,
+        "pitch": 2.4970031327298977e-11,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.8922111908768867e-10,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 3.9292978523272686e-11,
+        "z": 55.47426795336863,
+        "vx": 0,
+        "vy": -3.152654504854611e-10,
+        "speed": 20.983191420913684,
+        "pitch": 1.1097282802568298e-11,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -9.589917782798807e-11,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.6702665476017716e-11,
+        "z": 57.605087095459986,
+        "vx": 0,
+        "vy": -1.5250509714236306e-10,
+        "speed": 21.583191420913693,
+        "pitch": 4.411069469555371e-12,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -4.346399189269569e-11,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 6.2561202102446165e-12,
+        "z": 59.79590623755137,
+        "vx": 0,
+        "vy": -6.619329499245543e-11,
+        "speed": 22.1831914209137,
+        "pitch": 1.5175397316357625e-12,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.7658728655357608e-11,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.9517394992169904e-12,
+        "z": 62.04672537964274,
+        "vx": 0,
+        "vy": -2.5350662013097438e-11,
+        "speed": 22.78319142091371,
+        "pitch": 4.026974656353559e-13,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -6.268607593313345e-12,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 4.023820347631303e-13,
+        "z": 64.3575445217341,
+        "vx": 0,
+        "vy": -8.243679515858254e-12,
+        "speed": 23.383191420913718,
+        "pitch": 3.7033517458834476e-14,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -1.7766167624219761e-12,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.3393038287670723e-14,
+        "z": 66.72836366382543,
+        "vx": 0,
+        "vy": -6.188353439633267e-14,
+        "speed": 23.983191420913727,
+        "pitch": -4.9544542470182246e-14,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -2.4919862353865787e-13,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 9.277185548100446e-14,
+        "z": 69.15918280591686,
+        "vx": 0,
+        "vy": 6.298150158924634e-13,
+        "speed": 24.583191420913735,
+        "pitch": -4.957828029416642e-14,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.4561470525339783e-13,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 9.761140902402981e-14,
+        "z": 71.65000194800822,
+        "vx": 0,
+        "vy": -3.4917964722199967e-13,
+        "speed": 25.183191420913744,
+        "pitch": -3.2185253490519475e-14,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.739567975618121e-13,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 5.721326009416622e-14,
+        "z": 74.20082109009955,
+        "vx": 0,
+        "vy": -3.720354385556162e-13,
+        "speed": 25.783191420913752,
+        "pitch": -1.738971173820041e-14,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.186086943984904e-13,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 2.8338239295000986e-14,
+        "z": 76.81164023219098,
+        "vx": 0,
+        "vy": -2.110086910639835e-13,
+        "speed": 26.38319142091376,
+        "pitch": -8.309440554183966e-15,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 6.584476224684235e-14,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.2887726914318523e-14,
+        "z": 79.48245937428236,
+        "vx": 0,
+        "vy": -1.075803140899039e-13,
+        "speed": 26.98319142091377,
+        "pitch": -3.5660069823572255e-15,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 3.211867187037662e-14,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 5.278966472791236e-15,
+        "z": 82.21327851637368,
+        "vx": 0,
+        "vy": -5.069248630811089e-14,
+        "speed": 27.583191420913778,
+        "pitch": -1.3599941694246586e-15,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.4059868550138813e-14,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.8778896155363677e-15,
+        "z": 85.00409765846511,
+        "vx": 0,
+        "vy": -2.1323386563360093e-14,
+        "speed": 28.183191420913786,
+        "pitch": -4.387894638542621e-16,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 5.491575780521431e-15,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 5.290600193011011e-16,
+        "z": 87.8549168005565,
+        "vx": 0,
+        "vy": -7.482606189699806e-15,
+        "speed": 28.783191420913795,
+        "pitch": -9.942361132437093e-17,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 1.8401130492484566e-15,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 7.759902224757903e-17,
+        "z": 90.76573594264782,
+        "vx": 0,
+        "vy": -2.4792010920557683e-15,
+        "speed": 29.383191420913803,
+        "pitch": 3.758805196692107e-18,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 4.595461644734972e-16,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": -1.6801914275108106e-17,
+        "z": 93.73655508473925,
+        "vx": 0,
+        "vy": 2.2501456766251055e-17,
+        "speed": 29.983191420913812,
+        "pitch": 2.320256130429505e-17,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": 2.046023237444842e-17,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": -2.8327477829952373e-18,
+        "z": 96.76737422683064,
+        "vx": 0,
+        "vy": 1.113192987362636e-16,
+        "speed": 30.58319142091382,
+        "pitch": 1.8972052938876488e-17,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -7.50757018849811e-17,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 1.6378439428801836e-18,
+        "z": 99.85819336892197,
+        "vx": 0,
+        "vy": 2.250145676625109e-17,
+        "speed": 31.18319142091383,
+        "pitch": 1.1462403034492532e-17,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -6.795166813010038e-17,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      },
+      {
+        "x": 0,
+        "y": 6.189996025534428e-19,
+        "z": 103.0090125110134,
+        "vx": 0,
+        "vy": -2.190746421875517e-17,
+        "speed": 31.783191420913838,
+        "pitch": 5.9284660868841264e-18,
+        "roll": 0,
+        "yaw": 0,
+        "heading": 0,
+        "omega": {
+          "pitch": -4.267005679142242e-17,
+          "roll": 0,
+          "yaw": 0
+        },
+        "pressure": 100,
+        "supply": 0,
+        "total": 0,
+        "pending": 0,
+        "grounded": true,
+        "crashes": 0,
+        "buffer": {
+          "armed": false,
+          "active": false,
+          "startedAt": 3.241666666666658
+        },
+        "landingCount": 1
+      }
+    ]
+  ]
+}

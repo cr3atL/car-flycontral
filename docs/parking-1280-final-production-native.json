@@ -1,0 +1,161 @@
+{
+  "method": "Actual4173 production, no debug API. Ordinary native keys forPC shortcut; native touchscreen left selection, separate boost, two thumbs three axes after rack for667/844. All captures after release.",
+  "script": "./assets/index-BJJYocJ2.js",
+  "trace": {
+    "inputs": [
+      {
+        "type": "keydown",
+        "code": "Space",
+        "trusted": true,
+        "wall": 6215.299999952316
+      },
+      {
+        "type": "keyup",
+        "code": "Space",
+        "trusted": true,
+        "wall": 7337.899999976158
+      },
+      {
+        "type": "keydown",
+        "code": "KeyQ",
+        "trusted": true,
+        "wall": 7360.399999976158
+      },
+      {
+        "type": "keyup",
+        "code": "KeyQ",
+        "trusted": true,
+        "wall": 7551.699999988079
+      }
+    ],
+    "states": [
+      {
+        "wall": 2912.599999964237,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "ground",
+        "hint": "飞过停车架，重压黄板弹车开路"
+      },
+      {
+        "wall": 4082.199999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "ground",
+        "hint": "选中间斜架或侧面宽道"
+      },
+      {
+        "wall": 5674.5,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "ground",
+        "hint": "黄区按住空格约1秒"
+      },
+      {
+        "wall": 6479.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "landing",
+        "hint": "继续按住空格 · 抬到斜口"
+      },
+      {
+        "wall": 7284.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "landing",
+        "hint": "松空格，再轻按Q"
+      },
+      {
+        "wall": 7334.899999976158,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "air",
+        "hint": "松空格，再轻按Q"
+      },
+      {
+        "wall": 7355.699999988079,
+        "phase": "approach",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "air",
+        "hint": "轻按Q侧滚，贴合斜架"
+      },
+      {
+        "wall": 8119.199999988079,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "air",
+        "hint": "松手收势 · 落在黄压板"
+      },
+      {
+        "wall": 9254.899999976158,
+        "phase": "to-plate",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "landing",
+        "hint": "松手收势 · 落在黄压板"
+      },
+      {
+        "wall": 10842.599999964237,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "impact",
+        "hint": ""
+      },
+      {
+        "wall": 11376.399999976158,
+        "phase": "firing",
+        "wallState": "closed",
+        "bridge": "folded",
+        "hudState": "result",
+        "hint": ""
+      },
+      {
+        "wall": 11751,
+        "phase": "firing",
+        "wallState": "broken",
+        "bridge": "folded",
+        "hudState": "result",
+        "hint": ""
+      },
+      {
+        "wall": 12885.799999952316,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked",
+        "hudState": "result",
+        "hint": "新路线已锁定 · 继续向前"
+      },
+      {
+        "wall": 13366.599999964237,
+        "phase": "open",
+        "wallState": "broken",
+        "bridge": "locked",
+        "hudState": "ground",
+        "hint": "新路线已锁定 · 继续向前"
+      },
+      {
+        "wall": 18030.799999952316,
+        "phase": "complete",
+        "wallState": "broken",
+        "bridge": "locked",
+        "hudState": "ground",
+        "hint": ""
+      }
+    ],
+    "bonuses": [
+      {
+        "text": "+29",
+        "wall": 8487.099999964237
+      }
+    ]
+  },
+  "errors": []
+}
