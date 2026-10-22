@@ -1,5 +1,7 @@
+import{HudModel,hudNumber,forecastHeading}from'./hud-model.js';
 import {SPRINT as P} from './sprint-config.js';
 import './style.css';
+import './pc-hud.css';
 import { ONE_JUMP as J } from './one-jump-config.js';
 import { CONFIG as C } from './config.js';
 import { nearbyWalls } from './simulation.js';
@@ -24,12 +26,12 @@ let world;
 try { world = createWorld($('game')); }
 catch (error) { $('fatal').classList.remove('hidden'); setText('fatal', `无法启动3D画面，请使用支持WebGL的浏览器。${error.message}`); throw error; }
 const { engine, scene } = world;
-const feedback = new ScoreFeedback(storage, world);
+const feedback = new ScoreFeedback(storage, world),hudModel=new HudModel();
 const input=new InputController({steer:$('steer-zone'),boost:$('boost'),stunt:$('stunt-zone'),onPause:event=>togglePause(event),enabled:()=>session.playable&&!sim.crashTimer});
 function clearInput(options) { input.clear(); sim.clearInput(options); }
-function start(mode) { clearInput(); session.start(mode); feedback.reset(0, 0); accumulator = 0; wasCrashed = false; pilotMemory = { launched: new Set() }; updateHud(); }
+function start(mode) { hudModel.reset();clearInput(); session.start(mode); feedback.reset(0, 0); accumulator = 0; wasCrashed = false; pilotMemory = { launched: new Set() }; updateHud(); }
 function reset(event) { start(session.mode); feedback.unlock(event); }
-function menu() { clearInput(); session.menu(); feedback.reset(sim.time, sim.score.total); accumulator = 0; updateHud(); }
+function menu() { hudModel.reset();clearInput(); session.menu(); feedback.reset(sim.time, sim.score.total); accumulator = 0; updateHud(); }
 function togglePause(event) {
   if (!['running', 'countdown'].includes(session.phase)) return;
   if (session.paused && !session.resuming) resume(event); else { clearInput({ preservePulse: true }); session.setPaused(true); feedback.suspend(); }
@@ -39,7 +41,7 @@ const startFromUI = (mode, event) => { start(mode); feedback.unlock(event); };
 $('start-sprint').addEventListener('click',e=>startFromUI('sprint',e));$('start-challenge').addEventListener('click', e => startFromUI('challenge', e)); $('start-practice').addEventListener('click', e => startFromUI('practice', e));
 $('retry').addEventListener('click', e => startFromUI('challenge', e)); $('result-menu').addEventListener('click', menu); $('pause-menu').addEventListener('click', menu);
 $('pause').addEventListener('click', togglePause); $('reset').addEventListener('click', reset); $('restart').addEventListener('click', reset); $('resume').addEventListener('click', resume);
-$('jump-retry').addEventListener('click',reset);window.addEventListener('keydown',e=>{if(e.code==='KeyR'&&!e.repeat&&session.mode!=='challenge'&&session.phase==='running'&&!session.paused){e.preventDefault();reset(e);}});
+$('jump-retry').addEventListener('click',reset);$('pc-retry').addEventListener('click',reset);window.addEventListener('keydown',e=>{if(e.code==='KeyR'&&!e.repeat&&session.mode!=='challenge'&&session.phase==='running'&&!session.paused){e.preventDefault();reset(e);}});
 $('assist').addEventListener('change', e => { sim.assist = e.target.checked; }); $('portrait-continue').addEventListener('click', () => $('portrait').classList.add('dismissed'));
 function interrupt() { clearInput({ preservePulse: true }); session.setPaused(true); feedback.suspend(); accumulator = 0; }
 window.addEventListener('blur', interrupt); window.addEventListener('pagehide', interrupt);
@@ -53,7 +55,7 @@ function tick(dt) {
   if (sim.crashTimer > 0 && !wasCrashed) clearInput(); wasCrashed = sim.crashTimer > 0;
 }
 function updateHud() {
-  const mobile=matchMedia('(pointer:coarse)').matches||innerWidth<=950;
+  const mobile=matchMedia('(pointer:coarse)').matches||innerWidth<=950;document.body.classList.toggle('pc-hud',!mobile);
   const practice=session.mode==='practice'?session.oneJump.state:null,sprint=session.mode==='sprint'?session.sprint:null;
   const challenge = session.mode === 'challenge', active = ['countdown', 'running'].includes(session.phase);
   document.body.dataset.phase = session.phase;
@@ -77,6 +79,7 @@ function updateHud() {
   setText('energy-note',freshSupply?supplyText+' · 已补'+sim.airSupplyUsed.toFixed(1)+'/60':sim.grounded?'真实地面回充 25点/秒':sim.mainPressure<1e-6?'主气压用尽 · 松手仍可制动':'当前耗气 '+sim.forces.mainPointsRate.toFixed(1)+' 点/秒');
   const phases={driving:'持续',braking:'制动',leveling:'缓回正',idle:'停止',ground:'接地'};
   setText('steer-caption',sim.grounded?'地面左右转向':'空中左右平转');setText('steer-mode',sim.grounded?'按住两侧 / 拖动':'按住两侧 / 拖动平转');
+  setText('launch-instructions',mobile?'右下推进：点按18点完整脉冲，按住持续16点/秒。':'A/D地面转向，空格推进。Esc暂停；R重试练习/三段，90秒用重新开始。');
   setText('rotation-instructions',mobile?'左区空中左右平转；右区左右侧滚、上下前后翻、斜向双轴。回中或松手制动，提前留出落地时间。':'空中按住A/D平转、Q/E侧滚、W/S前后翻；可同时组合。松手先刹转速，提前留出落地时间。');
   setText('rotation-state',sim.grounded?'按住旋转 · 松手收势':'滚:'+phases[sim.attitude.roll.mode]+' 翻:'+phases[sim.attitude.pitch.mode]+' 平:'+phases[sim.attitude.yaw.mode]+(sim.buffer.active?' · 垂直缓冲':''));
   const altitude=Math.max(0,sim.y).toFixed(1)+' ';if($('altitude').firstChild.data!==altitude)$('altitude').firstChild.data=altitude;
@@ -133,6 +136,22 @@ function updateHud() {
   $('landing-feedback').classList.toggle('hidden',!active||!(showForecast||showLanding));
   if(showForecast||showLanding){const r=showForecast?a:last.assessment;$('landing-feedback').dataset.tone=r.tone;setText('landing-caption',showForecast?'松手后的预计落点 · '+Math.max(0,lp.time-(sim.time-sim.releasePredictionAt)).toFixed(1)+'秒':last.label+(last.padHit?' · 命中落地区':''));setText('landing-pose','姿态 '+(r.checks.pose?'稳':r.angle.toFixed(0)+'°'));setText('landing-direction','方向 '+(r.checks.direction?'正':r.headingError.toFixed(0)+'°'));setText('landing-settle',r.checks.settled?'收势 稳':'收势 '+Math.max(...Object.values(r.omega).map(Math.abs)).toFixed(1)+'rad/s');setText('landing-reason',showForecast?(lp.hazard??r.reason??'按当前趋势可精准'):(r.reason??(last.padHit?'车已摆正 · 准备下一跳':'车已摆正 · 准备下一跳')));}
   $('jump-retry').classList.toggle('hidden',session.paused||!(practice&&(practice.result||sim.crashTimer)||sprint&&(sprint.complete||sim.crashTimer)));setText('jump-retry',sprint?'重跑三段 · R':'再来一跳 · R');setText('action',action);setText('cue',cue);
+  const hv=hudModel.update(sim,session);feedback.setHudView(hv,!mobile);document.body.dataset.hudState=hv.active?hv.state:'inactive';
+  if(mobile)document.querySelector('.pressure-caption').textContent='主气压 / 100点';
+  if(!mobile){
+    setText('remaining',hv.clock);document.querySelector('.pressure-caption').textContent='气压';$('remaining').setAttribute('aria-label',hv.clockLabel+' '+hv.clock);setText('energy-label',Math.floor(sim.mainPressure+1e-6));
+    const repairs=$('pc-repairs');repairs.hidden=hv.repairs===null;setText('repair-count',hv.repairs??'');repairs.setAttribute('aria-label','剩余修复 '+(hv.repairs??''));
+    const segments=$('route-segments');if(segments.children.length!==hv.segments.length)segments.replaceChildren(...hv.segments.map(()=>document.createElement('i')));hv.segments.forEach((state,i)=>segments.children[i].className=state);segments.hidden=!hv.segments.length;segments.setAttribute('aria-label',hv.segments.filter(s=>s==='done').length+' / '+hv.segments.length);
+    const place=(el,x,y)=>{const half=el.offsetWidth/2;el.style.left=Math.max(innerWidth*.03+half,Math.min(innerWidth*.97-half,x))+'px';el.style.top=Math.max(innerHeight*.20,Math.min(innerHeight*.78,y))+'px';};
+    const target=hv.target&&world.projectPoint(hv.target.x,.7,hv.target.z);$('pc-ground-target').hidden=!target?.visible;if(target?.visible){setText('pc-ground-target',hv.target.label+' · '+Math.round(hv.target.distance)+'m');place($('pc-ground-target'),target.x,target.y-20);}
+    const prompt=hv.prompt||hv.teaching;$('pc-prompt').hidden=!hv.active||!prompt||hv.state==='landing'||hv.state==='impact'||hv.state==='bank'||hv.state==='crash';setText('pc-prompt',prompt);const promptPoint=world.projectPoint(sim.x,.05,sim.z+12);place($('pc-prompt'),promptPoint.x,promptPoint.y-15);
+    $('pc-landing').hidden=!hv.active||!hv.landing.visible;$('pc-landing').dataset.tone=hv.landing.tone;$('pc-touchdown-time').hidden=!hv.landing.caption;setText('pc-touchdown-time',hv.landing.caption??'');setText('pc-touchdown-reason',hv.landing.reason);
+    $('pc-retry').hidden=!hv.retry;setText('pc-retry',hv.retryLabel);
+    const projection=$('pc-projection'),lp=hv.landing.prediction,pp=hv.landing.visible?{...world.getLandingScreen()}:null,vehicle=world.projectPoint(sim.x,sim.y+.76,sim.z),blocked=pp&&(Math.abs(pp.x-vehicle.x)<110&&Math.abs(pp.y-vehicle.y)<110||!pp.visible||pp.y>innerHeight*.78);
+    projection.toggleAttribute('hidden',!hv.active||!hv.landing.visible||!blocked);
+    if(pp&&blocked){const angle=forecastHeading(lp)*180/Math.PI,side=pp.x<innerWidth*.76?1:-1,ax=Math.max(innerWidth*.12,Math.min(innerWidth*.77,pp.x+side*150)),ay=Math.max(innerHeight*.30,Math.min(innerHeight*.67,pp.y-65));projection.setAttribute('viewBox',`0 0 ${innerWidth} ${innerHeight}`);projection.dataset.tone=hv.landing.tone;projection.dataset.heading=angle.toFixed(4);$('pc-projection-car').setAttribute('transform',`translate(${ax} ${ay}) rotate(${angle})`);$('pc-projection-link').setAttribute('d',`M${ax-Math.sin(angle*Math.PI/180)*40} ${ay+Math.cos(angle*Math.PI/180)*40} L${pp.x} ${pp.y}`);$('pc-projection-point').setAttribute('cx',pp.x);$('pc-projection-point').setAttribute('cy',pp.y);}
+    const amount=hv.supply;setText('pc-supply',amount>0?'+'+(amount<.01?'<0.01':amount<.1?amount.toFixed(2):amount<10?Number(amount.toFixed(1)):Number(amount.toFixed(0))):'');
+  }
   if (session.result && lastResult !== session.result) {
     const r = session.result; setText('result-reason', r.reason === 'time' ? '90秒挑战完成' : '修复机会用尽 · 挑战中断');
     setText('result-grade', r.rating.grade); setText('result-title', r.rating.label); setText('result-score', r.score.toLocaleString('zh-CN'));

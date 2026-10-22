@@ -1,0 +1,32 @@
+{
+  "method": "4173 production ordinary native keyboard. Space1000ms, yaw180ms, captures only after releases. Assist disabled via pause UI. No dev/state/time writes.",
+  "inputs": [
+    {
+      "type": "keydown",
+      "code": "Space",
+      "trusted": true,
+      "wall": 5947.900000035763
+    },
+    {
+      "type": "keyup",
+      "code": "Space",
+      "trusted": true,
+      "wall": 6966.5
+    },
+    {
+      "type": "keydown",
+      "code": "KeyD",
+      "trusted": true,
+      "wall": 6968.300000011921
+    },
+    {
+      "type": "keyup",
+      "code": "KeyD",
+      "trusted": true,
+      "wall": 7161.700000047684
+    }
+  ],
+  "angle": 46.713,
+  "result": "重落地 · 方向未对齐",
+  "total": "100"
+}

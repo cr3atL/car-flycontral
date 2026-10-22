@@ -101,7 +101,7 @@ export class Simulation {
     g.prediction={...trajectory};g.predictionAt=start;g.predictLanding=()=>({...trajectory,time:Math.max(0,trajectory.time-(g.time-start))});
     g.environment={hasGround:z=>this.hasGround(z),isLandingSafe:(x,z)=>this.environment?.isLandingSafe?.(x,z),collide:this.environment?.forecastCollide?(s,p)=>this.environment.forecastCollide(s,p):undefined};
     let sample=null,hazard=null;g.crash=reason=>{hazard=reason;g.crashTimer=1;};
-    const contact=impact=>{const safe=[-C.carHalfLength,0,C.carHalfLength].every(d=>this.hasGround(g.z+d))&&Math.abs(g.x)<=C.roadHalfWidth-bodyExtents(g.pitch,g.roll,g.yaw+g.heading).halfX&&this.environment?.isLandingSafe?.(g.x,g.z)!==false;return{time:g.time-start,x:g.x,z:g.z,y:g.y,buffered:g.buffer.active,safe,assessment:assessLanding({pitch:g.pitch,roll:g.roll,yaw:g.yaw+g.heading,omega:Object.fromEntries(axes.map(n=>[n,g.attitude[n].omega])),impact,safe}),padHit:this.environment?.precisionAt?.(g.x,g.z)===true};};
+    const contact=impact=>{const safe=[-C.carHalfLength,0,C.carHalfLength].every(d=>this.hasGround(g.z+d))&&Math.abs(g.x)<=C.roadHalfWidth-bodyExtents(g.pitch,g.roll,g.yaw+g.heading).halfX&&this.environment?.isLandingSafe?.(g.x,g.z)!==false;return{time:g.time-start,x:g.x,z:g.z,y:g.y,heading:g.yaw+g.heading,pitch:g.pitch,buffered:g.buffer.active,safe,assessment:assessLanding({pitch:g.pitch,roll:g.roll,yaw:g.yaw+g.heading,omega:Object.fromEntries(axes.map(n=>[n,g.attitude[n].omega])),impact,safe}),padHit:this.environment?.precisionAt?.(g.x,g.z)===true};};
     g.land=impact=>{sample=contact(impact);g.grounded=true;};
     for(let i=0;i<Math.ceil(40/C.step);i++){
       const previous=contactHeight(g.pitch,g.roll);g.step(C.step);

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-22",
+  "tests": {
+    "pass": 111,
+    "fail": 0
+  },
+  "sourceAndTestsMatched": 74,
+  "production": {
+    "file": "dist/assets/index-BjoQz9Zg.js",
+    "sha256": "87c2138066b566d0f43f25ee0cc5a4b7504f7a740fbd6d480661594dbed189f3",
+    "base": "./",
+    "bytes": 1400790
+  },
+  "protectedFiles": {
+    "total": 21,
+    "unchanged": 20,
+    "exception": "src/simulation.js only exposes predicted contact heading/pitch; no control/integration change"
+  },
+  "physicsDiagnostics": {
+    "samples": 360,
+    "differences": 0,
+    "evidence": "pc-hud-physics-comparison.json"
+  },
+  "actualUI": {
+    "full90": {
+      "bundle": "index-BDD98x_l.js",
+      "seconds": 90,
+      "groups": 9,
+      "score": 2700,
+      "precise": 10,
+      "repairs": 0
+    },
+    "finalTargeted": {
+      "bundle": "index-BjoQz9Zg.js",
+      "directionDegrees": 46.713,
+      "unsafeContactCountdownVisible": false,
+      "redBrokenCar": true,
+      "menuClean": true,
+      "assistRestored": true,
+      "errors": []
+    }
+  },
+  "browserEvidence": {
+    "developerCases": 5,
+    "phones": [
+      844,
+      667
+    ],
+    "phoneTotal": 4780,
+    "phoneGrade": 0,
+    "physicalPhone": false
+  },
+  "versionScope": "Four-state/complete90 play in BDD. Final Bjo adds copied projection coordinates, no false grade3 result, no contact countdown for unsafe surface. Targeted final production UI checked.",
+  "failuresRetained": [
+    "First unreadable footprint/sky contrast/missing retry UI",
+    "Capture wait missed transient state, fixed finite waits after releases",
+    "Developer production fixture incorrectly awaited hidden countdown as visible"
+  ]
+}

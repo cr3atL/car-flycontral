@@ -1,0 +1,50 @@
+{
+  "method": "Legal fixed-step release forecast diagnostic, separate from native production evidence. Compares HUD endpoint to independently read world projection after a second projection call; no pose/velocity writes.",
+  "target": {
+    "x": 639.9999927180359,
+    "y": 443.6103602793045,
+    "visible": true
+  },
+  "vehicle": {
+    "x": 640.0000176260422,
+    "y": 473.38586034401027,
+    "visible": true
+  },
+  "dot": {
+    "x": 640.0000168895009,
+    "y": 443.6111894566104
+  },
+  "angle": 39.3744,
+  "forecast": {
+    "time": 1.2166666666667272,
+    "x": 0,
+    "z": 239.9016292069228,
+    "y": -0.017909431808592377,
+    "heading": 0.6872131882447056,
+    "pitch": 0,
+    "buffered": true,
+    "safe": true,
+    "assessment": {
+      "grade": 1,
+      "label": "稳定落地",
+      "angle": 0,
+      "headingError": 39.37441531215099,
+      "impact": 3.8684172580924883,
+      "omega": {
+        "pitch": 0,
+        "roll": 0,
+        "yaw": 8.493161829324853e-41
+      },
+      "checks": {
+        "pose": true,
+        "direction": false,
+        "settled": true,
+        "descent": true,
+        "safe": true
+      },
+      "reason": "方向未对齐",
+      "tone": "adjust"
+    },
+    "padHit": true
+  }
+}

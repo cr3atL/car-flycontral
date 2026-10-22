@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-22",
+  "commit": "e9dfc03eac18e8fea1efedd01b7e7dc9a881367b",
+  "production": {
+    "file": "dist/assets/index-CSK3ViHC.js",
+    "sha256": "c1ec63016e9de0c8defeef1686cbe0d618d582bbf68a57ffad5cf8b212a65bf4"
+  },
+  "protected": {
+    "src/input.js": "931667a2f7c3bcf01f2928410ca1de138dad68645b3845564b12f2bf2f52919c",
+    "src/simulation.js": "ce91b249d707cb1623eade476f141d0d0a6874e2cdeb18c396b21640cae88bb8",
+    "src/landing-model.js": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1",
+    "src/config.js": "bf8d39bda8dcc6c481bb17895cf993f91b968215341b6a6261ecda4dbb79b450",
+    "src/scoring.js": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084",
+    "src/score-config.js": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48",
+    "src/challenge.js": "6d751008888a71fba4336a7938479f569d261a671bcf14e68516f43c6076236f",
+    "src/challenge-config.js": "aedc28159742986ba20f5ed39efe54b0e6f130f68506f4986393b2b1a6b7c473",
+    "src/challenge-course.js": "56993c51fcde00dfa4b55856a0d78defee08149ed188897708359dc3b8aa4229",
+    "src/sprint.js": "7fd775a944dbf2645dd06c558f71832db269d7e841667cf070b9635d56d1325d",
+    "src/sprint-config.js": "2717dd36a7bcaae246c619c314f994d4c40c5ae0a9032aaf6bf7fba448f0507e",
+    "src/one-jump.js": "83c2ae116205be8b7036c881d19720e1cc011f95d9143628efa855aac99f258f",
+    "src/one-jump-config.js": "1b707691b3fc1f1122152a22a05f5364ff542afd0745765169838df5883895b0",
+    "src/presentation-model.js": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a",
+    "src/flight-audio.js": "b8839b5f9dfce876dd8ae872b5d70bc34d9c1c135f67d442e23e8eef21130fc0",
+    "src/audio.js": "7a75e89d209a6b21c6326347c07f92737657dff71733ea3fb42aec35d578ab3b",
+    "src/drive-feedback.js": "f66aa1ea88fa6066ef327adb6662376f46ed2d5b1c936cd8557bd4ac57fb032d",
+    "src/vehicle-feedback.js": "a054efd48a4e4fbf7d38f28c4ee6a9919e40e2209e4f5fbdc677504df90cde61",
+    "src/flight-effects.js": "89e376482db9a4e2b0ff29a625890e5c7d91ffd01ec046d11b223b981c9ba43f",
+    "src/supply-config.js": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4",
+    "package-lock.json": "15c99d90bac2f0fa0120fd49d23519215d83cb3ad92558473493bb2c893627fa"
+  },
+  "globalRule": "Avoid unnecessary secondary labels and descriptions. Let the layout do the explaining."
+}

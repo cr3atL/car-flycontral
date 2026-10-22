@@ -7,7 +7,7 @@
     "dev": "vite --configLoader native --host 0.0.0.0 --port 5173 --strictPort",
     "build": "vite build --configLoader native",
     "preview": "vite preview --configLoader native --host 0.0.0.0 --port 4173 --strictPort",
-    "test": "node --test tests/core.test.js tests/rework-physics.test.js tests/yaw.test.js tests/challenge.test.js tests/feedback.test.js tests/art.test.js tests/one-jump.test.js tests/sprint.test.js tests/sprint-visuals.test.js tests/shared-feedback.test.js tests/landing-model.test.js tests/challenge-flow.test.js",
+    "test": "node --test tests/core.test.js tests/rework-physics.test.js tests/yaw.test.js tests/challenge.test.js tests/feedback.test.js tests/art.test.js tests/one-jump.test.js tests/sprint.test.js tests/sprint-visuals.test.js tests/shared-feedback.test.js tests/landing-model.test.js tests/challenge-flow.test.js tests/hud-model.test.js",
     "scenario": "node scripts/handling-scenario.mjs",
     "scenario:challenge": "node scripts/challenge-scenario.mjs",
     "test:sprint": "playwright test tests/browser/sprint.spec.js",
@@ -16,7 +16,8 @@
     "scenario:rework": "node scripts/rework-scenario.mjs",
     "scenario:continuous": "node scripts/continuous-scenario.mjs",
     "test:shared": "playwright test tests/browser/shared-feedback.spec.js",
-    "test:flow": "playwright test tests/browser/landing-flow.spec.js tests/browser/challenge-flow.spec.js"
+    "test:flow": "playwright test tests/browser/landing-flow.spec.js tests/browser/challenge-flow.spec.js",
+    "test:hud": "playwright test tests/browser/pc-hud.spec.js"
   },
   "dependencies": {
     "@babylonjs/core": "^8.32.0"

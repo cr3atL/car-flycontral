@@ -1,3 +1,4 @@
+import{hudNumber}from'./hud-model.js';
 import { FEEDBACK as F } from './feedback-config.js';
 import { FeedbackTimeline, EffectQuality, valueAt, easeOut } from './feedback-model.js';
 import { scoreTier } from './score-config.js';
@@ -23,12 +24,13 @@ export class ScoreFeedback {
     for (const el of document.querySelectorAll('[data-effects]')) el.addEventListener('change', e => { this.preferences.quality = e.target.value; this.quality.mode = e.target.value; this.saveSettings(); });
     this.syncSettings(); this.reset();
   }
+  setHudView(view,desktop){this.hudView=view;this.desktop=desktop;}
   saveSettings() { try { this.storage?.setItem(F.preferencesKey, JSON.stringify(this.preferences)); } catch { /* No modal or gameplay failure. */ } this.syncSettings(); }
   syncSettings() { for (const el of document.querySelectorAll('[data-sound]')) el.checked = this.preferences.sound; for (const el of document.querySelectorAll('[data-effects]')) el.value = this.preferences.quality; for (const el of document.querySelectorAll('[data-motion-note]')) el.textContent = this.quality.reduced ? '已尊重系统“减弱动态效果”' : '自动档会在持续低帧率时精简效果'; }
   unlock(event) { this.audio.unlock(Boolean(event?.isTrusted)); }
   reset(now = 0, total = 0) { this.timeline.reset(now, total); this.particles.clear(); this.audio.stop();this.audio.flight.reset();this.lastLanding=null; this.lastSupplyAt=-99;this.lastBufferAt=-99; this.lastScore = null; this.lastSequence = -1; this.now = now; for (const slot of this.rowSlots) { slot.id = null; slot.row.style.display = 'none'; } $('combo').style.opacity = 0; $('bank-flight').style.opacity = 0; $('obstacle-toast').style.opacity = 0; }
   suspend() { this.audio.stop(); this.timeline.muteQueued(); }
-  anchors() { const a = $('combo').getBoundingClientRect(), b = $('total').getBoundingClientRect(); this.anchor.x = a.left + a.width * .5; this.anchor.y = a.top + 45; this.target.x = b.left + b.width * .5; this.target.y = b.top + b.height * .5; $('obstacle-toast').style.left = `${b.right}px`; $('obstacle-toast').style.top = `${b.bottom + 8}px`; }
+  anchors() { const rect=$('combo').getBoundingClientRect(),a=this.desktop&&!rect.width?$('pc-score-area').getBoundingClientRect():rect,b=$('total').getBoundingClientRect(); this.anchor.x = a.left + a.width * .5; this.anchor.y = a.top + 45; this.target.x = b.left + b.width * .5; this.target.y = b.top + b.height * .5; $('obstacle-toast').style.left = `${b.right}px`; $('obstacle-toast').style.top = `${b.bottom + 8}px`; }
   impact(now,landing=this.lastLanding) {return landingDip(now,landing,this.quality.reduced);}
   update(sim, session, frameMs) {
     const now = sim.time; this.now = now;this.lastLanding=sim.lastLanding;
@@ -49,8 +51,9 @@ export class ScoreFeedback {
     this.render(now); this.particles.draw(now, this.quality.effective, (x, y, z) => this.world.projectPoint(x, y, z)); this.audio.analyse();
   }
   render(now) {
+    if(this.desktop&&this.hudView){this.renderDesktop(now);return;}
     const t = this.timeline, low = this.quality.effective === 'low', visible = now < t.deadline && !(t.kind==='bank'&&now-t.bankAt<.18);
-    const tier = scoreTier(t.amount), pane = $('combo');
+    const tier = scoreTier(t.amount), pane = $('combo');pane.removeAttribute('aria-hidden');
     pane.className = `${t.kind} ${tier.index === 4 ? 'is-rgb' : ''} ${t.kind === 'bank' && t.grade === 2 ? 'heavy' : ''} ${t.kind === 'bank' && !t.amount ? 'no-points' : ''}`;
     pane.style.opacity = visible ? clamp((t.deadline - now) / (F.duration - F.hold)) : 0;
     pane.style.visibility = visible ? 'visible' : 'hidden';
@@ -78,5 +81,14 @@ export class ScoreFeedback {
     const passVisible = passAge >= 0 && passAge < .8;
     $('obstacle-toast').style.opacity = passVisible ? clamp((.8 - passAge) / .2) : 0; $('obstacle-toast').style.visibility = passVisible ? 'visible' : 'hidden'; if (t.passAmount) text($('obstacle-toast'), `+${t.passAmount} 障碍通过 · 已入账`);
   }
-  snapshot() { return { timeline: this.timeline.snapshot(this.now), particles: this.particles.snapshot(this.now), audio: this.audio.snapshot(), quality: this.quality.snapshot(), cameraImpact: this.impact(this.now), rowNodes: this.rowSlots.length, preferences: { ...this.preferences } }; }
+  renderDesktop(now){
+    const v=this.hudView,c=v.combo,pane=$('combo'),tier=c.tier,low=this.quality.effective==='low',visible=c.visible;
+    pane.setAttribute('aria-hidden',String(!visible));pane.className=`${v.state==='bank'||v.state==='result'?'bank':v.state==='crash'?'crash':'score'} ${tier.index===4?'is-rgb':''} ${c.weak?'preparing':''} ${c.countVisible?'':'result-only'}`;pane.style.opacity=visible?(c.weak?.34:1):0;pane.style.visibility=visible?'visible':'hidden';pane.style.setProperty('--rgb-phase',low?'45%':`${now/1.5*100%250}%`);
+    text($('combo-label'),c.label+((v.state==='bank'||v.state==='result')&&c.reason?' · '+c.reason:(v.state==='air'&&c.multiplier>1?' ×'+c.multiplier:'')));text($('pending'),(v.state==='bank'?'+':'')+hudNumber(c.displayed));$('pending').style.transform='none';$('pending').classList.toggle('rgb',tier.index===4);$('pending').style.color=tier.index===4?'':tier.color;text($('combo-detail'),c.formula);
+    for(let i=0;i<this.rowSlots.length;i++){const slot=this.rowSlots[i],r=c.rows[i];if(!visible||!r){slot.row.style.display='none';slot.id=null;continue;}const rt=scoreTier(r.tierScore),age=now-r.visibleAt,progress=low?1:easeOut(age/.18);slot.id='pc:'+r.id;text(slot.name,r.label);text(slot.points,'+'+hudNumber(r.points));text(slot.multiplier,'');slot.row.className='score-row'+(rt.index===4?' rgb':'');slot.row.style.color=rt.index===4?'':rt.color;slot.row.style.display='flex';slot.row.style.order=i;slot.row.style.opacity=clamp(progress);slot.row.style.transform=`translateX(${(1-progress)*10}px)`;}
+    text($('total'),hudNumber(v.displayedTotal));$('total').style.setProperty('--bank-glow',c.transfer!==null?Math.sin(c.transfer*Math.PI):0);
+    const fly=$('bank-flight'),flying=visible&&c.transfer!==null&&!low;fly.style.opacity=flying?Math.sin(c.transfer*Math.PI):0;if(flying){this.anchors();const p=c.transfer;text(fly,'+'+hudNumber(c.amount));fly.className=tier.index===4?'rgb':'';fly.style.setProperty('--rgb-phase',`${now/1.5*100%250}%`);fly.style.transform=`translate(${this.anchor.x+(this.target.x-this.anchor.x)*p}px,${this.anchor.y+(this.target.y-this.anchor.y)*p}px) scale(${1-p*.4})`;}
+    $('obstacle-toast').style.opacity=0;$('obstacle-toast').style.visibility='hidden';
+  }
+  snapshot() { return { hud:this.desktop?this.hudView:null,timeline: this.timeline.snapshot(this.now), particles: this.particles.snapshot(this.now), audio: this.audio.snapshot(), quality: this.quality.snapshot(), cameraImpact: this.impact(this.now), rowNodes: this.rowSlots.length, preferences: { ...this.preferences } }; }
 }

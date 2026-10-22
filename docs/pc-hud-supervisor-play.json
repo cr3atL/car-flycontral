@@ -1,0 +1,33 @@
+{
+  "bundle": "index-BDD98x_l.js",
+  "practice": {
+    "stunts": 3900,
+    "preciseBank": 4680,
+    "total": 4780,
+    "mouseRetry": true,
+    "noPointsLandingNoFakeBank": true
+  },
+  "unaligned": {
+    "assist": false,
+    "nominalYawMs": 180,
+    "actualLabel": "稳定落地 · 方向未对齐",
+    "assistRestored": true
+  },
+  "challenge": {
+    "method": "Ordinary production UI keyboard, prompts only, no dev entry/state/time writes. Paused/resumed repeatedly.",
+    "seconds": 90,
+    "groups": 9,
+    "total": 2700,
+    "actions": 1,
+    "highestBank": 720,
+    "precision": 10,
+    "pads": 9,
+    "repairs": 0
+  },
+  "gap": {
+    "redBrokenCarVisible": true,
+    "reason": "无安全地面",
+    "remainingFix": "Remove contradictory contact countdown for unsafe forecast"
+  },
+  "errors": []
+}

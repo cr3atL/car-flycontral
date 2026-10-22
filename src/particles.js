@@ -40,7 +40,7 @@ export class FeedbackParticles {
       if (p.end <= now) continue; if (rendered++ >= cap) { p.end = -1; continue; }
       const age = now - p.at, fade = Math.max(0, (p.end - now) / (p.end - p.at)); let x, y;
       if (p.world) { const v = project(p.x + p.vx * age, Math.max(.03, p.y + p.vy * age - 2.8 * age * age), p.z + p.vz * age); if (!v.visible) continue; x = v.x; y = v.y; }
-      else { x = Math.max(this.width * .5, Math.min(this.width * .81, p.x + p.vx * age)); y = Math.max(this.height * .15, Math.min(this.height * .53, p.y + p.vy * age + 18 * age * age)); }
+      else { const pc=document.body.classList.contains('pc-hud');x = Math.max(this.width * (pc?.76:.5), Math.min(this.width * (pc?.97:.81), p.x + p.vx * age)); y = Math.max(this.height * .15, Math.min(this.height * .53, p.y + p.vy * age + 18 * age * age)); }
       c.globalAlpha = fade * (p.dust ? p.heavy ? .42 : .28 : .85); c.fillStyle = p.dust ? p.heavy ? '#edba83' : '#cfe3e2' : p.tier === 4 ? `hsl(${((quality === 'low' ? 0 : now * 120) + p.index * 31) % 360} 90% 74%)` : colors[p.tier];
       c.beginPath(); c.arc(x, y, p.radius * (p.dust ? 1.4 + age * 2 : 1), 0, Math.PI * 2); c.fill();
     }
