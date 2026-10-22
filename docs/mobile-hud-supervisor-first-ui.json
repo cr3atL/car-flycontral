@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-22",
+  "version": "index-DiNE_YBp.js",
+  "method": "Root CUA browser viewport667x375; ordinary native mouse hold on visible boost and keyboard DQW1100ms. No simulation writes, no time scaling; explicitly not two-thumb touch proof.",
+  "defaultTrial": {
+    "bank": 4680,
+    "total": 4780,
+    "bankBeforeQuick": true,
+    "ui": "Central panel absent, readable forward road; independent control hot areas"
+  },
+  "maxLayoutTrial": {
+    "preferences": {
+      "size": 1.12,
+      "opacity": 0.65,
+      "left": 42,
+      "right": 42,
+      "bottom": 36
+    },
+    "actualSize": 1,
+    "airScore": 3900,
+    "visibleRows": 2,
+    "combo": {
+      "x": 467,
+      "y": 63.75,
+      "width": 180,
+      "height": 92.5,
+      "bottom": 156.25
+    },
+    "secondRow": {
+      "x": 530.046875,
+      "right": 583.953125,
+      "y": 142.25,
+      "bottom": 155.25
+    },
+    "boost": {
+      "x": 553,
+      "right": 625,
+      "y": 148,
+      "bottom": 198
+    },
+    "overlap": true,
+    "bank": 4680,
+    "quickTotal": 4780,
+    "verdict": "Needs visual revision: second action row intersects boost at max layout. Bank alone did not show this."
+  },
+  "cleanup": {
+    "layoutDefaultsRestored": true,
+    "viewportReset": true
+  },
+  "earlySharedCeiling": {
+    "version": "index-CBBJl8-b.js",
+    "nativeLongHold4000ms": "Natural descent and landed100, no practice ring collected",
+    "nativeHold2000msThen": "At actual presentation DOM29.3m paused/resumed normally; native DQW1100ms then precise bank4680; no page errors"
+  },
+  "earlierDevPreview": {
+    "url": "5173",
+    "note": "HMR returned menu during early look; restart was no longer visible. Not recorded as game failure."
+  }
+}

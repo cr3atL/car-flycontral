@@ -1,0 +1,2837 @@
+{
+  "method": "Actual legal fixed-step three-axis flight; all16 geometry preference corners applied through input events as a UI diagnostic. All three displayed content states measured; not native input evidence.",
+  "checks": [
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 655,
+        "bottom": 215,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 655,
+        "bottom": 363,
+        "left": 475
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 625,
+        "bottom": 215,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 625,
+        "bottom": 363,
+        "left": 445
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 655,
+        "bottom": 215,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 655,
+        "bottom": 363,
+        "left": 475
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 625,
+        "bottom": 215,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 625,
+        "bottom": 363,
+        "left": 445
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 576.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 655,
+        "bottom": 202.29293823242188,
+        "left": 576.8181762695312
+      },
+      "stunt": {
+        "x": 459.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 655,
+        "bottom": 363,
+        "left": 459.54547119140625
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 546.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 625,
+        "bottom": 202.29293823242188,
+        "left": 546.8181762695312
+      },
+      "stunt": {
+        "x": 429.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 625,
+        "bottom": 363,
+        "left": 429.54547119140625
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 576.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 655,
+        "bottom": 202.29293823242188,
+        "left": 576.8181762695312
+      },
+      "stunt": {
+        "x": 459.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 655,
+        "bottom": 363,
+        "left": 459.54547119140625
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 546.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 625,
+        "bottom": 202.29293823242188,
+        "left": 546.8181762695312
+      },
+      "stunt": {
+        "x": 429.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 625,
+        "bottom": 363,
+        "left": 429.54547119140625
+      }
+    },
+    {
+      "phase": "air",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 77.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 141.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 481,
+        "y": 179,
+        "width": 92,
+        "height": 36,
+        "top": 179,
+        "right": 573,
+        "bottom": 215,
+        "left": 481
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 655,
+        "bottom": 215,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 655,
+        "bottom": 363,
+        "left": 475
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 481,
+        "y": 162,
+        "width": 92,
+        "height": 36,
+        "top": 162,
+        "right": 573,
+        "bottom": 198,
+        "left": 481
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 451,
+        "y": 179,
+        "width": 92,
+        "height": 36,
+        "top": 179,
+        "right": 543,
+        "bottom": 215,
+        "left": 451
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 625,
+        "bottom": 215,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 625,
+        "bottom": 363,
+        "left": 445
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 451,
+        "y": 162,
+        "width": 92,
+        "height": 36,
+        "top": 162,
+        "right": 543,
+        "bottom": 198,
+        "left": 451
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 481,
+        "y": 179,
+        "width": 92,
+        "height": 36,
+        "top": 179,
+        "right": 573,
+        "bottom": 215,
+        "left": 481
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 655,
+        "bottom": 215,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 655,
+        "bottom": 363,
+        "left": 475
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 481,
+        "y": 162,
+        "width": 92,
+        "height": 36,
+        "top": 162,
+        "right": 573,
+        "bottom": 198,
+        "left": 481
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 451,
+        "y": 179,
+        "width": 92,
+        "height": 36,
+        "top": 179,
+        "right": 543,
+        "bottom": 215,
+        "left": 451
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 625,
+        "bottom": 215,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 625,
+        "bottom": 363,
+        "left": 445
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 451,
+        "y": 162,
+        "width": 92,
+        "height": 36,
+        "top": 162,
+        "right": 543,
+        "bottom": 198,
+        "left": 451
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 473.96875,
+        "y": 166.296875,
+        "width": 92,
+        "height": 36,
+        "top": 166.296875,
+        "right": 565.96875,
+        "bottom": 202.296875,
+        "left": 473.96875
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 576.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 655,
+        "bottom": 202.29293823242188,
+        "left": 576.8181762695312
+      },
+      "stunt": {
+        "x": 459.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 655,
+        "bottom": 363,
+        "left": 459.54547119140625
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 481,
+        "y": 162,
+        "width": 92,
+        "height": 36,
+        "top": 162,
+        "right": 573,
+        "bottom": 198,
+        "left": 481
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 443.96875,
+        "y": 166.296875,
+        "width": 92,
+        "height": 36,
+        "top": 166.296875,
+        "right": 535.96875,
+        "bottom": 202.296875,
+        "left": 443.96875
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 546.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 625,
+        "bottom": 202.29293823242188,
+        "left": 546.8181762695312
+      },
+      "stunt": {
+        "x": 429.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 625,
+        "bottom": 363,
+        "left": 429.54547119140625
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 451,
+        "y": 162,
+        "width": 92,
+        "height": 36,
+        "top": 162,
+        "right": 543,
+        "bottom": 198,
+        "left": 451
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 473.96875,
+        "y": 166.296875,
+        "width": 92,
+        "height": 36,
+        "top": 166.296875,
+        "right": 565.96875,
+        "bottom": 202.296875,
+        "left": 473.96875
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 576.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 655,
+        "bottom": 202.29293823242188,
+        "left": 576.8181762695312
+      },
+      "stunt": {
+        "x": 459.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 655,
+        "bottom": 363,
+        "left": 459.54547119140625
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 481,
+        "y": 162,
+        "width": 92,
+        "height": 36,
+        "top": 162,
+        "right": 573,
+        "bottom": 198,
+        "left": 481
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 443.96875,
+        "y": 166.296875,
+        "width": 92,
+        "height": 36,
+        "top": 166.296875,
+        "right": 535.96875,
+        "bottom": 202.296875,
+        "left": 443.96875
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 546.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 625,
+        "bottom": 202.29293823242188,
+        "left": 546.8181762695312
+      },
+      "stunt": {
+        "x": 429.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 625,
+        "bottom": 363,
+        "left": 429.54547119140625
+      }
+    },
+    {
+      "phase": "bank",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 467,
+        "y": 63.75,
+        "width": 180,
+        "height": 65.390625,
+        "top": 63.75,
+        "right": 647,
+        "bottom": 129.140625,
+        "left": 467
+      },
+      "retry": {
+        "x": 451,
+        "y": 162,
+        "width": 92,
+        "height": 36,
+        "top": 162,
+        "right": 543,
+        "bottom": 198,
+        "left": 451
+      },
+      "ending": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 583,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 655,
+        "bottom": 215,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 655,
+        "bottom": 363,
+        "left": 475
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 553,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 625,
+        "bottom": 215,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 625,
+        "bottom": 363,
+        "left": 445
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1,
+        "left": 12,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 583,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 655,
+        "bottom": 215,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 655,
+        "bottom": 363,
+        "left": 475
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 553,
+        "y": 165,
+        "width": 72,
+        "height": 50,
+        "top": 165,
+        "right": 625,
+        "bottom": 215,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 231,
+        "width": 180,
+        "height": 132,
+        "top": 231,
+        "right": 625,
+        "bottom": 363,
+        "left": 445
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1,
+        "left": 42,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 576.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 655,
+        "bottom": 202.29293823242188,
+        "left": 576.8181762695312
+      },
+      "stunt": {
+        "x": 459.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 655,
+        "bottom": 363,
+        "left": 459.54547119140625
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 546.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 625,
+        "bottom": 202.29293823242188,
+        "left": 546.8181762695312
+      },
+      "stunt": {
+        "x": 429.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 625,
+        "bottom": 363,
+        "left": 429.54547119140625
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1.12,
+        "left": 12,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 12,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 576.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 655,
+        "bottom": 202.29293823242188,
+        "left": 576.8181762695312
+      },
+      "stunt": {
+        "x": 459.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 655,
+        "bottom": 363,
+        "left": 459.54547119140625
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 12,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 583,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 655,
+        "bottom": 198,
+        "left": 583
+      },
+      "stunt": {
+        "x": 475,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 655,
+        "bottom": 346,
+        "left": 475
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 42,
+        "bottom": 12
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 546.8181762695312,
+        "y": 148,
+        "width": 78.18182373046875,
+        "height": 54.292938232421875,
+        "top": 148,
+        "right": 625,
+        "bottom": 202.29293823242188,
+        "left": 546.8181762695312
+      },
+      "stunt": {
+        "x": 429.54547119140625,
+        "y": 219.66665649414062,
+        "width": 195.45452880859375,
+        "height": 143.33334350585938,
+        "top": 219.66665649414062,
+        "right": 625,
+        "bottom": 363,
+        "left": 429.54547119140625
+      }
+    },
+    {
+      "phase": "ending",
+      "prefs": {
+        "size": 1.12,
+        "left": 42,
+        "right": 42,
+        "bottom": 36
+      },
+      "combo": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "retry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "ending": {
+        "x": 467,
+        "y": 67.5,
+        "width": 180,
+        "height": 70,
+        "top": 67.5,
+        "right": 647,
+        "bottom": 137.5,
+        "left": 467
+      },
+      "boost": {
+        "x": 553,
+        "y": 148,
+        "width": 72,
+        "height": 50,
+        "top": 148,
+        "right": 625,
+        "bottom": 198,
+        "left": 553
+      },
+      "stunt": {
+        "x": 445,
+        "y": 214,
+        "width": 180,
+        "height": 132,
+        "top": 214,
+        "right": 625,
+        "bottom": 346,
+        "left": 445
+      }
+    }
+  ]
+}

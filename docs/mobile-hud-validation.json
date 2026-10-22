@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-22",
+  "unit": {
+    "passed": 129,
+    "failed": 0,
+    "log": "docs/mobile-hud-unit-tests.txt",
+    "preservedInitialFailure": "docs/mobile-hud-unit-first-128-of-129.txt",
+    "changedLegacyAssertion": "Only obsolete peak>300 became soft24<peak<=top30; actual100+earned60 exhaustion, held input, free braking, buffer and landing assertions retained."
+  },
+  "browser": {
+    "passedCases": 11,
+    "nativeDevCases": 3,
+    "layoutDiagnosticCases": 6,
+    "finalProductionNativeCases": 2,
+    "production": "index-BqvO1ECL.js",
+    "geometryChecks": 48,
+    "geometryCorners": 16
+  },
+  "native": [
+    "docs/mobile-ceiling-native-pc.json",
+    "docs/mobile-hud-667-native.json",
+    "docs/mobile-hud-844-native.json",
+    "docs/mobile-hud-667-final-production-native.json",
+    "docs/mobile-hud-844-final-production-native.json"
+  ],
+  "diagnostics": [
+    "docs/mobile-ceiling-routes.json",
+    "docs/mobile-hud-settings-corners.json",
+    "docs/mobile-hud-gap-diagnostic.json",
+    "docs/mobile-hud-667-max-layout.json",
+    "docs/mobile-hud-844-max-layout.json"
+  ],
+  "physicsComparison": "docs/mobile-hud-physics-comparison.json",
+  "physicsComparisonSamples": 360,
+  "physicsComparisonMismatches": 0,
+  "scopeNotes": [
+    "Final production native touchscreen receipts bind exact BqvO1ECL. Native dev phone and PC traces used same final physics/input semantics; later edits were CSS/display/contrast only.",
+    "Earlier native max-layout tests measured controls after reset. Actual air2-row/bank/ending coverage comes from dedicated layout tests and final667 production max-layout run.",
+    "First DiNE air2-row overlap failed and was fixed with scoped child typography/gaps. Root original bounds retained in mobile-hud-layout-first-failures.json.",
+    "Initial temporary Playwright layout failure PNGs were overwritten before retention; failure summary is explicit about that limitation. Native gesture failure JSON/PNGs and full first unit failure log remain.",
+    "Initial omega<.9 at early landing forecast incorrectly excluded intended late assist leveling; corrected to released controls/no driving, recenter trace and actual precision landing, with no physics changes.",
+    "Native4000ms PC hold and phone1000/1100/120ms are wall-clock intentions; actual simulation timing is in dev traces and trusted event timestamps, not asserted equal to requested waits."
+  ]
+}

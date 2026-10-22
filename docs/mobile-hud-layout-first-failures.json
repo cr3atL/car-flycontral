@@ -1,0 +1,31 @@
+{
+  "method": "Initial browser assertion output and supervisor production observation, retained as a failure summary. The first temporary Playwright layout screenshots were overwritten by the following invocation; native gesture failure originals remain separately retained.",
+  "failures": [
+    {
+      "name": "maximum controls air overlap",
+      "width": 667,
+      "production": "DiNE_YBp",
+      "comboBottom": 156.25,
+      "boostTop": 148,
+      "secondRow": {
+        "x": 530.05,
+        "right": 583.95,
+        "y": 142.25,
+        "bottom": 155.25
+      },
+      "boost": {
+        "x": 553,
+        "right": 625,
+        "y": 148,
+        "bottom": 198
+      },
+      "fix": "Explicit mobile child row typography and compact gaps; real two-row bounds re-tested."
+    },
+    {
+      "name": "gap fixture sampled beyond actual560-650 gap",
+      "expected": "无安全地面",
+      "actual": "未到达断桥远端平台",
+      "fix": "Sample actual560-650 gap before physical failure/recovery, preserve hazard truth."
+    }
+  ]
+}

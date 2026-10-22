@@ -1,0 +1,213 @@
+{
+  "method": "Actual4173 production with no dev API. Ordinary native CDP boost then two thumbs three-axis, recenter right before release. Capture/read only after release. 667 uses maximum stored controls;844 default.",
+  "script": "./assets/index-BqvO1ECL.js",
+  "score": "4,780",
+  "boxes": {
+    "combo": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "boost": {
+      "x": 754,
+      "y": 174,
+      "width": 72,
+      "height": 50,
+      "top": 174,
+      "right": 826,
+      "bottom": 224,
+      "left": 754
+    },
+    "stunt-zone": {
+      "x": 646,
+      "y": 240,
+      "width": 180,
+      "height": 132,
+      "top": 240,
+      "right": 826,
+      "bottom": 372,
+      "left": 646
+    },
+    "pc-retry": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "quick-result": {
+      "x": 644,
+      "y": 70.1875,
+      "width": 180,
+      "height": 70,
+      "top": 70.1875,
+      "right": 824,
+      "bottom": 140.1875,
+      "left": 644
+    }
+  },
+  "errors": [],
+  "inputs": [
+    {
+      "type": "pointerdown",
+      "id": 2,
+      "trusted": true,
+      "wall": 5184.699999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 2,
+      "trusted": true,
+      "wall": 6353.5,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerdown",
+      "id": 3,
+      "trusted": true,
+      "wall": 6604.899999976158,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "1"
+    },
+    {
+      "type": "pointerdown",
+      "id": 4,
+      "trusted": true,
+      "wall": 6607.199999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "1"
+    },
+    {
+      "type": "pointermove",
+      "id": 4,
+      "trusted": true,
+      "wall": 6688.100000023842,
+      "roll": "1",
+      "pitch": "-1",
+      "yaw": "1"
+    },
+    {
+      "type": "pointermove",
+      "id": 4,
+      "trusted": true,
+      "wall": 7904.300000011921,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "1"
+    },
+    {
+      "type": "pointerup",
+      "id": 3,
+      "trusted": true,
+      "wall": 8102.399999976158,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 4,
+      "trusted": true,
+      "wall": 8103.199999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointermove",
+      "id": 1,
+      "trusted": true,
+      "wall": 13080.600000023842,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerdown",
+      "id": 1,
+      "trusted": true,
+      "wall": 13083,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 1,
+      "trusted": true,
+      "wall": 13084.800000011921,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointermove",
+      "id": 1,
+      "trusted": true,
+      "wall": 13338.699999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerdown",
+      "id": 1,
+      "trusted": true,
+      "wall": 13340.300000011921,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 1,
+      "trusted": true,
+      "wall": 13341,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointermove",
+      "id": 1,
+      "trusted": true,
+      "wall": 13586.699999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerdown",
+      "id": 1,
+      "trusted": true,
+      "wall": 13588.300000011921,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 1,
+      "trusted": true,
+      "wall": 13588.899999976158,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    }
+  ]
+}

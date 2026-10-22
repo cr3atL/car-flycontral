@@ -46,8 +46,8 @@ export class InputController{
   this.roll=stunt?.roll??Number(this.keys.has('KeyQ'))-Number(this.keys.has('KeyE'));
   this.pitch=stunt?.pitch??Number(this.keys.has('KeyS'))-Number(this.keys.has('KeyW'));
   this.elements.boost.classList.toggle('pressed',this.boost);document.querySelector('#stick').style.transform='translateX('+this.steer*35+'px)';
-  const el=this.elements.stunt;el.classList.toggle('controlling',!!(this.roll||this.pitch));el.style.setProperty('--input-x',String(-this.roll*9)+'px');el.style.setProperty('--input-y',String(this.pitch*9)+'px');
-  const label=document.getElementById('stunt-vector');if(label)label.textContent=[this.roll?(this.roll>0?'左滚':'右滚')+' '+Math.round(Math.abs(this.roll)*100)+'%':'',this.pitch?(this.pitch<0?'后翻':'前翻')+' '+Math.round(Math.abs(this.pitch)*100)+'%':''].filter(Boolean).join(' / ')||'回中 / 松手收势';
+  const el=this.elements.stunt;el.classList.toggle('controlling',!!(this.roll||this.pitch));el.style.setProperty('--input-x',String(-this.roll*28)+'px');el.style.setProperty('--input-y',String(this.pitch*28)+'px');
+  el.dataset.roll=String(Math.sign(this.roll));el.dataset.pitch=String(Math.sign(this.pitch));this.elements.steer.dataset.direction=String(Math.sign(this.steer));
  }
  clear(){const old=[...this.pointers];this.pointers.clear();this.keys.clear();this.boostPressed=false;for(const[id,p]of old){const el=this.elements[p.kind];if(el.hasPointerCapture(id))el.releasePointerCapture(id);}Object.values(this.elements).forEach(el=>el.classList.remove('pressed'));this.update();}
  consumeBoostPress(){const value=this.boostPressed;this.boostPressed=false;return value;}

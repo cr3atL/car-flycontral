@@ -51,7 +51,7 @@ export class ScoreFeedback {
     this.render(now); this.particles.draw(now, this.quality.effective, (x, y, z) => this.world.projectPoint(x, y, z)); this.audio.analyse();
   }
   render(now) {
-    if(this.desktop&&this.hudView){this.renderDesktop(now);return;}
+    if(this.hudView){this.renderDesktop(now);return;}
     const t = this.timeline, low = this.quality.effective === 'low', visible = now < t.deadline && !(t.kind==='bank'&&now-t.bankAt<.18);
     const tier = scoreTier(t.amount), pane = $('combo');pane.removeAttribute('aria-hidden');
     pane.className = `${t.kind} ${tier.index === 4 ? 'is-rgb' : ''} ${t.kind === 'bank' && t.grade === 2 ? 'heavy' : ''} ${t.kind === 'bank' && !t.amount ? 'no-points' : ''}`;
@@ -85,10 +85,10 @@ export class ScoreFeedback {
     const v=this.hudView,c=v.combo,pane=$('combo'),tier=c.tier,low=this.quality.effective==='low',visible=c.visible;
     pane.setAttribute('aria-hidden',String(!visible));pane.className=`${v.state==='bank'||v.state==='result'?'bank':v.state==='crash'?'crash':'score'} ${tier.index===4?'is-rgb':''} ${c.weak?'preparing':''} ${c.countVisible?'':'result-only'}`;pane.style.opacity=visible?(c.weak?.34:1):0;pane.style.visibility=visible?'visible':'hidden';pane.style.setProperty('--rgb-phase',low?'45%':`${now/1.5*100%250}%`);
     text($('combo-label'),c.label+((v.state==='bank'||v.state==='result')&&c.reason?' · '+c.reason:(v.state==='air'&&c.multiplier>1?' ×'+c.multiplier:'')));text($('pending'),(v.state==='bank'?'+':'')+hudNumber(c.displayed));$('pending').style.transform='none';$('pending').classList.toggle('rgb',tier.index===4);$('pending').style.color=tier.index===4?'':tier.color;text($('combo-detail'),c.formula);
-    for(let i=0;i<this.rowSlots.length;i++){const slot=this.rowSlots[i],r=c.rows[i];if(!visible||!r){slot.row.style.display='none';slot.id=null;continue;}const rt=scoreTier(r.tierScore),age=now-r.visibleAt,progress=low?1:easeOut(age/.18);slot.id='pc:'+r.id;text(slot.name,r.label);text(slot.points,'+'+hudNumber(r.points));text(slot.multiplier,'');slot.row.className='score-row'+(rt.index===4?' rgb':'');slot.row.style.color=rt.index===4?'':rt.color;slot.row.style.display='flex';slot.row.style.order=i;slot.row.style.opacity=clamp(progress);slot.row.style.transform=`translateX(${(1-progress)*10}px)`;}
+    for(let i=0;i<this.rowSlots.length;i++){const slot=this.rowSlots[i],r=(this.desktop?c.rows:c.rows.slice(-2))[i];if(!visible||!r){slot.row.style.display='none';slot.id=null;continue;}const rt=scoreTier(r.tierScore),age=now-r.visibleAt,progress=low?1:easeOut(age/.18);slot.id='pc:'+r.id;text(slot.name,r.label);text(slot.points,'+'+hudNumber(r.points));text(slot.multiplier,'');slot.row.className='score-row'+(rt.index===4?' rgb':'');slot.row.style.color=rt.index===4?'':rt.color;slot.row.style.display='flex';slot.row.style.order=i;slot.row.style.opacity=clamp(progress);slot.row.style.transform=`translateX(${(1-progress)*10}px)`;}
     text($('total'),hudNumber(v.displayedTotal));$('total').style.setProperty('--bank-glow',c.transfer!==null?Math.sin(c.transfer*Math.PI):0);
     const fly=$('bank-flight'),flying=visible&&c.transfer!==null&&!low;fly.style.opacity=flying?Math.sin(c.transfer*Math.PI):0;if(flying){this.anchors();const p=c.transfer;text(fly,'+'+hudNumber(c.amount));fly.className=tier.index===4?'rgb':'';fly.style.setProperty('--rgb-phase',`${now/1.5*100%250}%`);fly.style.transform=`translate(${this.anchor.x+(this.target.x-this.anchor.x)*p}px,${this.anchor.y+(this.target.y-this.anchor.y)*p}px) scale(${1-p*.4})`;}
     $('obstacle-toast').style.opacity=0;$('obstacle-toast').style.visibility='hidden';
   }
-  snapshot() { return { hud:this.desktop?this.hudView:null,timeline: this.timeline.snapshot(this.now), particles: this.particles.snapshot(this.now), audio: this.audio.snapshot(), quality: this.quality.snapshot(), cameraImpact: this.impact(this.now), rowNodes: this.rowSlots.length, preferences: { ...this.preferences } }; }
+  snapshot() { return { hud:this.hudView??null,timeline: this.timeline.snapshot(this.now), particles: this.particles.snapshot(this.now), audio: this.audio.snapshot(), quality: this.quality.snapshot(), cameraImpact: this.impact(this.now), rowNodes: this.rowSlots.length, preferences: { ...this.preferences } }; }
 }

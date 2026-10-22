@@ -1,0 +1,414 @@
+{
+  "method": "Legal fixed-step actual GameSession and existing route input programs; no pose/velocity/score writes. Diagnostic, separate from native play.",
+  "challenge": {
+    "result": {
+      "reason": "time",
+      "score": 2700,
+      "elapsed": 90,
+      "unbanked": 0,
+      "rating": {
+        "min": 0,
+        "grade": "C",
+        "label": "初次升空"
+      },
+      "stats": {
+        "actions": 1,
+        "groups": 9,
+        "obstacleScore": 900,
+        "bankedTricks": 1800,
+        "rings": 2,
+        "grazes": 0,
+        "precision": 10,
+        "precisionPads": 9,
+        "highestCombo": 720,
+        "repairsUsed": 0,
+        "crashes": 0,
+        "tutorialMistakes": 0,
+        "skipped": 0,
+        "supplied": 61.73333333333318
+      },
+      "best": 2700,
+      "newBest": true
+    },
+    "peak": 11.479016635404593,
+    "crashes": 0
+  },
+  "sprint": [
+    {
+      "options": {
+        "ring": true,
+        "holds": [
+          0.5,
+          0.8,
+          0.5
+        ],
+        "starts": [
+          120,
+          540,
+          980
+        ],
+        "turns": false
+      },
+      "complete": true,
+      "ringActual": 30,
+      "sections": [
+        {
+          "id": 1,
+          "cleared": true,
+          "clearedFlight": 1,
+          "bankedObstacle": true,
+          "completed": true,
+          "landing": {
+            "type": "landing",
+            "x": 0,
+            "z": 235.10146029908518,
+            "speed": 37.95272652057701,
+            "grade": 0,
+            "assessment": {
+              "grade": 0,
+              "label": "精准落地",
+              "angle": 0,
+              "headingError": 0,
+              "impact": 3.851446214769656,
+              "omega": {
+                "pitch": 0,
+                "roll": 0,
+                "yaw": 0
+              },
+              "checks": {
+                "pose": true,
+                "direction": true,
+                "settled": true,
+                "descent": true,
+                "safe": true
+              },
+              "reason": null,
+              "tone": "precise"
+            },
+            "reason": null,
+            "padHit": true,
+            "label": "精准落地",
+            "angle": 0,
+            "impact": 3.851446214769656,
+            "contactHeight": 0,
+            "airTime": 2.8749999999999925,
+            "time": 6.558333333333449,
+            "pitch": 0,
+            "roll": 0,
+            "yaw": 0,
+            "headingError": 0,
+            "omegaYaw": 0,
+            "omegaPitch": 0,
+            "omegaRoll": 0,
+            "pressure": 0.8120000000000003,
+            "buffered": true,
+            "flight": 1
+          },
+          "rewarded": true,
+          "attempt": 0
+        },
+        {
+          "id": 2,
+          "cleared": true,
+          "clearedFlight": 2,
+          "bankedObstacle": true,
+          "completed": true,
+          "landing": {
+            "type": "landing",
+            "x": 0,
+            "z": 719.7816957134827,
+            "speed": 37.90625847327091,
+            "grade": 0,
+            "assessment": {
+              "grade": 0,
+              "label": "精准落地",
+              "angle": 0,
+              "headingError": 0,
+              "impact": 3.8635943971735465,
+              "omega": {
+                "pitch": 0,
+                "roll": 0,
+                "yaw": 0
+              },
+              "checks": {
+                "pose": true,
+                "direction": true,
+                "settled": true,
+                "descent": true,
+                "safe": true
+              },
+              "reason": null,
+              "tone": "precise"
+            },
+            "reason": null,
+            "padHit": true,
+            "label": "精准落地",
+            "angle": 0,
+            "impact": 3.8635943971735465,
+            "contactHeight": 0,
+            "airTime": 4.525000000000015,
+            "time": 18.883333333332903,
+            "pitch": 0,
+            "roll": 0,
+            "yaw": 0,
+            "headingError": 0,
+            "omegaYaw": 0,
+            "omegaPitch": 0,
+            "omegaRoll": 0,
+            "pressure": 0.9626666666666683,
+            "buffered": true,
+            "flight": 2
+          },
+          "rewarded": true,
+          "attempt": 0
+        },
+        {
+          "id": 3,
+          "cleared": true,
+          "clearedFlight": 3,
+          "bankedObstacle": true,
+          "completed": true,
+          "landing": {
+            "type": "landing",
+            "x": 0,
+            "z": 1095.8737404338294,
+            "speed": 38.03253122501357,
+            "grade": 0,
+            "assessment": {
+              "grade": 0,
+              "label": "精准落地",
+              "angle": 0,
+              "headingError": 0,
+              "impact": 3.8582851317059284,
+              "omega": {
+                "pitch": 0,
+                "roll": 0,
+                "yaw": 0
+              },
+              "checks": {
+                "pose": true,
+                "direction": true,
+                "settled": true,
+                "descent": true,
+                "safe": true
+              },
+              "reason": null,
+              "tone": "precise"
+            },
+            "reason": null,
+            "padHit": true,
+            "label": "精准落地",
+            "angle": 0,
+            "impact": 3.8582851317059284,
+            "contactHeight": 0,
+            "airTime": 2.891666666666659,
+            "time": 28.424999999999027,
+            "pitch": 0,
+            "roll": 0,
+            "yaw": 0,
+            "headingError": 0,
+            "omegaYaw": 0,
+            "omegaPitch": 0,
+            "omegaRoll": 0,
+            "pressure": 0.810666666666667,
+            "buffered": true,
+            "flight": 3
+          },
+          "rewarded": true,
+          "attempt": 0
+        }
+      ],
+      "peak": 15.63260294174923,
+      "time": 34.816666666665334,
+      "crashes": 0
+    },
+    {
+      "options": {
+        "ring": true,
+        "holds": [
+          0.5,
+          0.8,
+          0.5
+        ],
+        "starts": [
+          120,
+          540,
+          980
+        ],
+        "turns": true
+      },
+      "complete": true,
+      "ringActual": 0.08149959711076349,
+      "sections": [
+        {
+          "id": 1,
+          "cleared": true,
+          "clearedFlight": 1,
+          "bankedObstacle": true,
+          "completed": true,
+          "landing": {
+            "type": "landing",
+            "x": 0,
+            "z": 243.94426736384426,
+            "speed": 37.84660222337018,
+            "grade": 0,
+            "assessment": {
+              "grade": 0,
+              "label": "精准落地",
+              "angle": 0.0747543581708535,
+              "headingError": 0.05285931732723517,
+              "impact": 3.7815642097489195,
+              "omega": {
+                "pitch": 0.005577275851288085,
+                "roll": -0.005577275851288085,
+                "yaw": -0.005577275851288085
+              },
+              "checks": {
+                "pose": true,
+                "direction": true,
+                "settled": true,
+                "descent": true,
+                "safe": true
+              },
+              "reason": null,
+              "tone": "precise"
+            },
+            "reason": null,
+            "padHit": true,
+            "label": "精准落地",
+            "angle": 0.0747543581708535,
+            "impact": 3.7815642097489195,
+            "contactHeight": 0.0029700248691136855,
+            "airTime": 3.108333333333325,
+            "time": 6.791666666666794,
+            "pitch": -6.284107876307459,
+            "roll": 6.284107876307459,
+            "yaw": 6.284107876307459,
+            "headingError": 0.05285931732723517,
+            "omegaYaw": -0.005577275851288085,
+            "omegaPitch": 0.005577275851288085,
+            "omegaRoll": -0.005577275851288085,
+            "pressure": 0.9991850040288924,
+            "buffered": true,
+            "flight": 1
+          },
+          "rewarded": true,
+          "attempt": 0
+        },
+        {
+          "id": 2,
+          "cleared": true,
+          "clearedFlight": 2,
+          "bankedObstacle": true,
+          "completed": true,
+          "landing": {
+            "type": "landing",
+            "x": 0,
+            "z": 719.8245686603008,
+            "speed": 37.90626654044124,
+            "grade": 0,
+            "assessment": {
+              "grade": 0,
+              "label": "精准落地",
+              "angle": 0.06726818046562441,
+              "headingError": 0.047565789306405135,
+              "impact": 3.863594686613845,
+              "omega": {
+                "pitch": -8.708690088584929e-8,
+                "roll": 8.708690088584929e-8,
+                "yaw": 8.708690088584929e-8
+              },
+              "checks": {
+                "pose": true,
+                "direction": true,
+                "settled": true,
+                "descent": true,
+                "safe": true
+              },
+              "reason": null,
+              "tone": "precise"
+            },
+            "reason": null,
+            "padHit": true,
+            "label": "精准落地",
+            "angle": 0.06726818046562441,
+            "impact": 3.863594686613845,
+            "contactHeight": 0.002672654005421604,
+            "airTime": 4.525000000000015,
+            "time": 18.891666666666236,
+            "pitch": -12.567200793993775,
+            "roll": 12.567200793993775,
+            "yaw": 12.567200793993775,
+            "headingError": 0.047565789306405135,
+            "omegaYaw": 8.708690088584929e-8,
+            "omegaPitch": -8.708690088584929e-8,
+            "omegaRoll": 8.708690088584929e-8,
+            "pressure": 1,
+            "buffered": true,
+            "flight": 2
+          },
+          "rewarded": true,
+          "attempt": 0
+        },
+        {
+          "id": 3,
+          "cleared": true,
+          "clearedFlight": 3,
+          "bankedObstacle": true,
+          "completed": true,
+          "landing": {
+            "type": "landing",
+            "x": 0,
+            "z": 1105.0940382721133,
+            "speed": 37.92239115767239,
+            "grade": 0,
+            "assessment": {
+              "grade": 0,
+              "label": "精准落地",
+              "angle": 0.06847211620140083,
+              "headingError": 0.04841710056846076,
+              "impact": 3.7877988543035626,
+              "omega": {
+                "pitch": 0.0037813320402217553,
+                "roll": -0.0037813320402217553,
+                "yaw": -0.0037813320402217553
+              },
+              "checks": {
+                "pose": true,
+                "direction": true,
+                "settled": true,
+                "descent": true,
+                "safe": true
+              },
+              "reason": null,
+              "tone": "precise"
+            },
+            "reason": null,
+            "padHit": true,
+            "label": "精准落地",
+            "angle": 0.06847211620140083,
+            "impact": 3.7877988543035626,
+            "contactHeight": 0.002720478408783089,
+            "airTime": 3.133333333333325,
+            "time": 28.674999999999013,
+            "pitch": -18.850400959358012,
+            "roll": 18.850400959358012,
+            "yaw": 18.850400959358012,
+            "headingError": 0.04841710056846076,
+            "omegaYaw": -0.0037813320402217553,
+            "omegaPitch": 0.0037813320402217553,
+            "omegaRoll": -0.0037813320402217553,
+            "pressure": 0.9991850040288924,
+            "buffered": true,
+            "flight": 3
+          },
+          "rewarded": true,
+          "attempt": 0
+        }
+      ],
+      "peak": 15.63106170401248,
+      "time": 34.833333333332,
+      "crashes": 0
+    }
+  ]
+}

@@ -7,6 +7,7 @@ export const CONFIG = Object.freeze({
   jetResponse: 24, launchPulseTime: .45, launchAcceleration: 34, launchCost: 18,
   airPulseTime: .24, airPulseAcceleration: 22, airPulseCost: 10, pulseCooldown: .55, pulseRamp: .045,
   sustainedUp: 14.8, sustainedCost: 16, microCost: 3, rechargePerSecond: .25,
+  ceilingSoft: 24, ceilingTop: 30,
   angularSpeed: 6.8, angularAcceleration: 24, driveResponse: 7, angularDrag: .3,
   brakeAcceleration: 24, brakeResponse: 9, rotationGas: { roll: .32, pitch: .36, yaw: .32 },
   levelWindow: 2.2, levelDelay: .28, levelEntrySpeed: .7, levelSpeed: 3.2, levelResponse: 3, levelDamping: 8, levelAcceleration: 18,

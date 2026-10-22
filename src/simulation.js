@@ -1,4 +1,5 @@
 import{assessLanding}from'./landing-model.js';
+import{ceilingAuthority,ceilingStep}from'./ceiling-model.js';
 export{landingGrade}from'./landing-model.js';
 import { CONFIG as C, STUNTS } from './config.js';
 import { Score } from './scoring.js';
@@ -29,6 +30,7 @@ export class Simulation {
   constructor() { this.assist = true; this.reset(); }
   reset() {
     Object.assign(this, { x: 0, y: 0, z: 0, vx: 0, vy: 0, speed: 0, heading: 0, energy: 1, pitch: 0, roll: 0, yaw: 0, grounded: true, thrusting: false, time: 0, airTime: 0, lastAirTime: 0, landingCount: 0, crashes: 0, crashTimer: 0, invulnerable: 0, heavyTimer: 0, popup: null, lastLanding: null, pulseElapsed: 0, pulseDuration: 0, pulsePower: 0, cooldown: 0, launchArmed: false, boostWasDown: false, boostRequested: false, holdAuthorized: false, flightId: 0, airSupplyUsed: 0, supplyCounts: {}, supplySequence:0,lastActionEnd: -99, notice: null, supplyNotice: null, settledFlight: true });
+    this.pulseRefundRemaining=0;this.pulsePrepaidCost=0;
     this.attitude = { pitch: axisState(), roll: axisState(), yaw: axisState() }; this.buffer = { armed: false, active: false, startedAt: null };
     this.jets = { up: 0, forward: 0, lateral: 0, pitch: 0, roll: 0, yaw: 0 }; this.forces = { ...this.jets, normal: C.gravity, netVertical: 0, mainUp: 0, bufferUp: 0, reserveTorque: 0, gasRate: 0, authority: 1, flare: false };
     this.score = new Score(); this.events = []; this.ledger = []; this.passedWalls = new Set(); this.claimedSupplies = new Set(); this.input = { steer: 0, boost: false, pitch: 0, roll: 0, yaw: 0 };
@@ -73,7 +75,7 @@ export class Simulation {
     const dt=C.step, solve=(allowBuffer, nominalSafe=true)=>{
       let y=this.y,vy=this.vy,z=this.z,speed=this.speed,x=this.x,vx=this.vx,up=this.jets.up,forward=this.jets.forward,lateral=this.jets.lateral,active=this.buffer.active;
       for(let i=0;i<Math.ceil(40/dt);i++){
-        let paid=active?0:pulseForce(this.pulseElapsed+i*dt,this.pulseDuration,this.pulsePower);
+        let paid=active?0:pulseForce(this.pulseElapsed+i*dt,this.pulseDuration,this.pulsePower)*ceilingAuthority(y,vy);
         const need=Math.max(0,(vy*vy-C.bufferTouchSpeed**2)/(2*C.bufferBrake));
         if(allowBuffer&&!active&&this.buffer.armed&&nominalSafe&&vy<-C.bufferTouchSpeed-.1&&y<=need+C.bufferMargin)active=true;
         if(active)paid=0;
@@ -81,7 +83,7 @@ export class Simulation {
         forward=approach(forward,paid>0?1.2:0,C.jetResponse,dt);lateral=approach(lateral,0,C.jetResponse,dt);
         speed=Math.max(0,speed+(forward-speed*C.airForwardDrag)*dt);z+=speed*dt;
         const ax=lateral-vx*C.airDrag;x+=vx*dt+ax*dt*dt/2;vx+=ax*dt;
-        const ay=up-C.gravity-C.verticalDrag*vy;y+=vy*dt+ay*dt*dt/2;vy+=ay*dt;
+        const next=ceilingStep(y,vy,up,dt);y=next.y;vy=next.vy;
         if(y<=0&&vy<0)return{time:(i+1)*dt,z,x,buffered:active};
       }
       return{time:40,z,x,buffered:active};
@@ -205,14 +207,22 @@ export class Simulation {
     const pressed = this.boostRequested || this.input.boost && !this.boostWasDown; this.boostRequested = false; this.boostWasDown = this.input.boost;
     if (pressed && !this.cooldown) {
       if (this.buffer.active) this.explain('着陆缓冲中 · 不能重新起飞');
+      else if(!this.grounded&&ceilingAuthority(this.y,this.vy)<=0)this.explain(this.y>=C.ceilingTop-.6?'高度上限 · 松手回落':'回落后可推进');
       else { const ground = this.grounded, cost = ground ? C.launchCost : C.airPulseCost; if (this.spend(cost, ground ? 'ground-pulse' : 'air-pulse')) { this.pulseElapsed = 0; this.pulseDuration = ground ? C.launchPulseTime : C.airPulseTime; this.pulsePower = ground ? C.launchAcceleration : C.airPulseAcceleration; this.cooldown = C.pulseCooldown; this.launchArmed = ground;this.holdAuthorized=true; this.notify(ground ? '冷气脉冲起飞' : '空中短喷', ground ? '离地后按住Q / 拖动保持' : '短喷已提交 · 保留惯性', 'launch'); this.predictionAt = -99; this.emit({ type: 'pulse', cost, ground, time: this.time }); } else this.explain(`主气压不足${cost} · 未提交喷气`); }
     }
     if(!this.input.boost)this.holdAuthorized=false;
     const steer = clamp(this.input.steer || 0, -1, 1); this.heading = this.grounded ? approach(this.heading, steer * C.groundHeading, C.headingResponse, dt) : this.heading * Math.exp(-.6 * dt);
     const pulseActive = this.pulseElapsed < this.pulseDuration;
+    if(pressed&&this.pulseElapsed===0&&pulseActive){this.pulsePrepaidCost=this.grounded?C.launchCost:C.airPulseCost;this.pulseRefundRemaining=this.pulsePrepaidCost;}
     let paidUp = this.buffer.active ? 0 : pulseForce(this.pulseElapsed, this.pulseDuration, this.pulsePower); if (this.pulseElapsed < this.pulseDuration) this.pulseElapsed = Math.min(this.pulseDuration, this.pulseElapsed + dt);
+    const liftAuthority=this.buffer.active||this.grounded?1:ceilingAuthority(this.y,this.vy);
+    if(paidUp>0&&liftAuthority<1){
+      const requested=this.pulsePrepaidCost*paidUp*dt/Math.max(1e-8,this.pulsePower*(this.pulseDuration-C.pulseRamp));
+      const refund=Math.min(this.pulseRefundRemaining,requested*(1-liftAuthority));
+      const actual=Math.min(refund,100-this.mainPressure);this.pulseRefundRemaining-=refund;this.energy=Math.min(1,this.energy+actual/100);if(refund)this.account('refund',refund,actual,'ceiling-pulse');paidUp*=liftAuthority;
+    }
     let mainRate = 0;
-    if (!this.grounded && !this.buffer.active && this.input.boost && this.holdAuthorized && this.pulseElapsed >= this.pulseDuration && !pulseActive) { const ratio = Math.min(1, this.mainPressure / (C.sustainedCost * dt)); paidUp = C.sustainedUp * ratio; if (ratio > 0) { const cost = C.sustainedCost * dt * ratio; this.energy = Math.max(0, this.energy - cost / 100); mainRate += cost / dt; this.account('cost', cost, cost, 'sustain'); } }
+    if (!this.grounded && !this.buffer.active && this.input.boost && this.holdAuthorized && this.pulseElapsed >= this.pulseDuration && !pulseActive) { const ratio = Math.min(1, this.mainPressure / (C.sustainedCost * dt)); paidUp = C.sustainedUp * ratio*liftAuthority; if (ratio > 0&&liftAuthority>0) { const cost = C.sustainedCost * dt * ratio*liftAuthority; this.energy = Math.max(0, this.energy - cost / 100); mainRate += cost / dt; this.account('cost', cost, cost, 'sustain'); } }
     if (!this.grounded && this.time - this.predictionAt >= .075) { this.prediction = this.predictLanding(); this.predictionAt = this.time; }
     const need = Math.max(0, (this.vy ** 2 - C.bufferTouchSpeed ** 2) / (2 * C.bufferBrake));
     if (!this.grounded && this.buffer.armed && !this.buffer.active && this.vy < -C.bufferTouchSpeed - .1 && this.y - prevContact <= need + C.bufferMargin && this.prediction.safe) { this.buffer.active = true; this.buffer.startedAt = this.time; this.pulseDuration = this.pulseElapsed = 0; paidUp = 0; this.emit({ type: 'buffer', time: this.time, height: this.y, vy: this.vy }); }
@@ -232,9 +242,12 @@ export class Simulation {
     const groundLateral = this.grounded ? clamp((Math.sin(this.heading) * this.speed - this.vx) * C.groundGrip, -C.groundLateralAccel, C.groundLateralAccel) : 0;
     const lateralAcceleration = groundLateral + this.jets.lateral - (this.grounded ? 0 : this.vx * C.airDrag); this.x += this.vx * dt + lateralAcceleration * dt * dt / 2; this.vx += lateralAcceleration * dt; this.z += this.speed * dt;
     const normal = this.grounded ? Math.max(0, C.gravity - this.jets.up + C.contactSpring * (prevContact - this.y) - C.contactDamping * this.vy) : 0;
-    const netVertical = this.jets.up - C.gravity - (this.grounded ? 0 : C.verticalDrag * this.vy) + normal; this.y += this.vy * dt + netVertical * dt * dt / 2; this.vy += netVertical * dt;
+    let netVertical = this.jets.up - C.gravity - (this.grounded ? 0 : C.verticalDrag * this.vy) + normal,ceilingBrake=0;
+    if(!this.grounded&&!this.buffer.active&&(this.y>=C.ceilingSoft||this.y+this.vy*dt+netVertical*dt*dt/2>C.ceilingSoft)){const before=this.vy,next=ceilingStep(this.y,this.vy,this.jets.up,dt);this.y=next.y;this.vy=next.vy;ceilingBrake=next.brake;netVertical=(this.vy-before)/dt;}
+    else{this.y += this.vy * dt + netVertical * dt * dt / 2;this.vy += netVertical * dt;}
     this.forces = { ...this.jets, normal, netVertical, lateralAcceleration, forwardAcceleration, groundMotor, extraMotor, grip: this.grounded ? 1 : 0, downforce: 0, gasRate: mainRate / 100, mainPointsRate: mainRate, authority: this.energy > 0 ? 1 : 0, flare: this.buffer.active, mainUp: paidUp, bufferUp: this.buffer.active ? this.jets.up : 0, rotationPointsRate: rotationRate, reserveTorque: axes.reduce((v,n)=>v+(!this.attitude[n].active?Math.abs(this.jets[n]):0),0) };
     this.thrusting = this.jets.up > .5;
+    this.forces.ceilingAuthority=liftAuthority;this.forces.ceilingBrake=ceilingBrake;
     if (this.grounded && this.launchArmed && this.y > .02 && this.vy > .3) this.beginFlight();
     for(const name of axes){const before=this[name],a=this.attitude[name],groundTorque=this.grounded?-wrapAngle(this[name])*70-a.omega*15:0,accel=this.jets[name]+groundTorque-a.omega*C.angularDrag;this[name]+=a.omega*dt+accel*dt*dt/2;a.omega+=accel*dt;if(!this.grounded)this.observeTurn(name,before);}
     if (!this.grounded) this.airTime += dt;

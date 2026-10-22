@@ -1,0 +1,75 @@
+TAP version 13
+# Subtest: A 80/150/300ms change actual angle, release brakes rather than finishing a circle
+ok 1 - A 80/150/300ms change actual angle, release brakes rather than finishing a circle
+  ---
+  duration_ms: 6874.7078
+  ...
+# Subtest: B held rotation crosses circles without stopping and never sets angle/omega
+ok 2 - B held rotation crosses circles without stopping and never sets angle/omega
+  ---
+  duration_ms: 1946.4387
+  ...
+# Subtest: C actual full tank plus earned60 exhaustion brakes at zero, held input cannot continue driving
+ok 3 - C actual full tank plus earned60 exhaustion brakes at zero, held input cannot continue driving
+  ---
+  duration_ms: 4535.8404
+  ...
+# Subtest: D reversal responds before a circle and crosses zero continuously; half-circle oscillation does not farm
+ok 4 - D reversal responds before a circle and crosses zero continuously; half-circle oscillation does not farm
+  ---
+  duration_ms: 2662.1855
+  ...
+# Subtest: E both axes truly output simultaneously; release one leaves the other active
+ok 5 - E both axes truly output simultaneously; release one leaves the other active
+  ---
+  duration_ms: 1317.966
+  ...
+# Subtest: continuous rotation gas is actual output integral, no action prepayment, independent axes add
+ok 6 - continuous rotation gas is actual output integral, no action prepayment, independent axes add
+  ---
+  duration_ms: 1331.0589
+  ...
+# Subtest: full turn credit includes legitimate braking inertia, never automatic leveling
+ok 7 - full turn credit includes legitimate braking inertia, never automatic leveling
+  ---
+  duration_ms: 7747.7369
+  ...
+# Subtest: input remains authoritative while vertical buffer is active; late hold can genuinely collide
+ok 8 - input remains authoritative while vertical buffer is active; late hold can genuinely collide
+  ---
+  duration_ms: 460.7467
+  ...
+# Subtest: independent buffer does not generate climb, movement or refill and actual landing preserves momentum
+ok 9 - independent buffer does not generate climb, movement or refill and actual landing preserves momentum
+  ---
+  duration_ms: 3854.5087
+  ...
+# Subtest: full/partial/capped supply boundary fixtures: actual100/60, dedupe and category recurrence
+ok 10 - full/partial/capped supply boundary fixtures: actual100/60, dedupe and category recurrence
+  ---
+  duration_ms: 3696.1013
+  ...
+# Subtest: gap has no fictitious safe marker, buffer cannot create ground
+ok 11 - gap has no fictitious safe marker, buffer cannot create ground
+  ---
+  duration_ms: 1157.8781
+  ...
+# Subtest: R08 same-direction partial turns survive center/idle; real reversals do not sum absolute arcs
+ok 12 - R08 same-direction partial turns survive center/idle; real reversals do not sum absolute arcs
+  ---
+  duration_ms: 5738.6857
+  ...
+# Subtest: assist choice truly disables gentle leveling while independent vertical buffer and braking stay
+ok 13 - assist choice truly disables gentle leveling while independent vertical buffer and braking stay
+  ---
+  duration_ms: 5205.5051
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 47378.2739

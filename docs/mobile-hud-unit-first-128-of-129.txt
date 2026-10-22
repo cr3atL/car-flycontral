@@ -1,0 +1,695 @@
+
+> crimson-lift-prototype@0.1.0 test
+> node --test tests/core.test.js tests/rework-physics.test.js tests/yaw.test.js tests/challenge.test.js tests/feedback.test.js tests/art.test.js tests/one-jump.test.js tests/sprint.test.js tests/sprint-visuals.test.js tests/shared-feedback.test.js tests/landing-model.test.js tests/challenge-flow.test.js tests/hud-model.test.js tests/flow-model.test.js tests/ceiling.test.js tests/touch-layout.test.js
+
+TAP version 13
+# BJS - [21:04:19]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:19]: Babylon.js v8.56.2 - Null engine
+# Subtest: car builds with compatible attributes, wheel alloys remain at preserved axle centres
+ok 1 - car builds with compatible attributes, wheel alloys remain at preserved axle centres
+  ---
+  duration_ms: 508.7391
+  ...
+# Subtest: all scenery stays outside rotated flight corridor; district boundaries and cycle retain the rear module
+ok 2 - all scenery stays outside rotated flight corridor; district boundaries and cycle retain the rear module
+  ---
+  duration_ms: 874.3395
+  ...
+# Subtest: below24 vertical arithmetic and full main authority are exactly the original integrator
+ok 3 - below24 vertical arithmetic and full main authority are exactly the original integrator
+  ---
+  duration_ms: 3.4778
+  ...
+# Subtest: upper edge resolves diverse incoming upward inertia without position clamp, bounce or hovering
+ok 4 - upper edge resolves diverse incoming upward inertia without position clamp, bounce or hovering
+  ---
+  duration_ms: 47.9413
+  ...
+# Subtest: long held propulsion crosses soft band but stays below30, then descends with conserved accounting
+ok 5 - long held propulsion crosses soft band but stays below30, then descends with conserved accounting
+  ---
+  duration_ms: 11273.0946
+  ...
+# Subtest: high pulse refunds only suppressed prepaid lift, never counts as air supply or creates gas
+ok 6 - high pulse refunds only suppressed prepaid lift, never counts as air supply or creates gas
+  ---
+  duration_ms: 283.8614
+  ...
+# Subtest: denied high descending pulse and empty main tank do not authorize sustained thrust
+ok 7 - denied high descending pulse and empty main tank do not authorize sustained thrust
+  ---
+  duration_ms: 1200.5216
+  ...
+# Subtest: ceiling authority does not scale simultaneous axis forces or independent buffer
+ok 8 - ceiling authority does not scale simultaneous axis forces or independent buffer
+  ---
+  duration_ms: 445.506
+  ...
+# Subtest: ordinary and cloned release forecasts share high-flight ceiling and actual release
+ok 9 - ordinary and cloned release forecasts share high-flight ceiling and actual release
+  ---
+  duration_ms: 7311.8444
+  ...
+# Subtest: seven real formal layouts contain fleets, staggered solids, two permanent gaps and finite roofs
+ok 10 - seven real formal layouts contain fleets, staggered solids, two permanent gaps and finite roofs
+  ---
+  duration_ms: 25.1061
+  ...
+# Subtest: same finite solids collide below/inside/above as real OBBs; roof is not a height cap
+ok 11 - same finite solids collide below/inside/above as real OBBs; roof is not a height cap
+  ---
+  duration_ms: 2.8296
+  ...
+# Subtest: swept OBB rotation is accounted at vehicle rows and platform edges
+ok 12 - swept OBB rotation is accounted at vehicle rows and platform edges
+  ---
+  duration_ms: 1.3029
+  ...
+# Subtest: preview geometry and collision persist independently from reward activation and landing
+ok 13 - preview geometry and collision persist independently from reward activation and landing
+  ---
+  duration_ms: 4.6949
+  ...
+# Subtest: all optional ring origins are physical planned coordinates, with no forced ground lane offsets
+ok 14 - all optional ring origins are physical planned coordinates, with no forced ground lane offsets
+  ---
+  duration_ms: 4.0079
+  ...
+# Subtest: base route provides grounded rest and next committed outline, with no extra motor
+ok 15 - base route provides grounded rest and next committed outline, with no extra motor
+  ---
+  duration_ms: 15887.5152
+  ...
+# Subtest: physical clear and optional reward window are independent; only real painted pads count
+ok 16 - physical clear and optional reward window are independent; only real painted pads count
+  ---
+  duration_ms: 4.0305
+  ...
+# Subtest: countdown, pause and resume freeze clocks and clear input
+ok 17 - countdown, pause and resume freeze clocks and clear input
+  ---
+  duration_ms: 8.4326
+  ...
+# Subtest: 90 second legal input route {}
+ok 18 - 90 second legal input route {}
+  ---
+  duration_ms: 20254.2284
+  ...
+# Subtest: 90 second legal input route {"rewards":true}
+ok 19 - 90 second legal input route {"rewards":true}
+  ---
+  duration_ms: 10701.0219
+  ...
+# Subtest: 90 second legal input route {"combo":true}
+ok 20 - 90 second legal input route {"combo":true}
+  ---
+  duration_ms: 14218.4661
+  ...
+# Subtest: 90 second legal input route {"combo":true,"rewards":true}
+ok 21 - 90 second legal input route {"combo":true,"rewards":true}
+  ---
+  duration_ms: 11628.4248
+  ...
+# Subtest: teaching waits for actual events; repeated retries are free and clock continues
+ok 22 - teaching waits for actual events; repeated retries are free and clock continues
+  ---
+  duration_ms: 112.476
+  ...
+# Subtest: after teaching, two repairs and next crash ends
+ok 23 - after teaching, two repairs and next crash ends
+  ---
+  duration_ms: 2.8892
+  ...
+# Subtest: committed gaps stay holes after passed, failed, skipped and closing
+ok 24 - committed gaps stay holes after passed, failed, skipped and closing
+  ---
+  duration_ms: 4.5731
+  ...
+# Subtest: walls, roofs and platform edges remain physical collisions
+ok 25 - walls, roofs and platform edges remain physical collisions
+  ---
+  duration_ms: 5.7961
+  ...
+# Subtest: gas crossing is distinct from score ring, actual, deduped and capped
+ok 26 - gas crossing is distinct from score ring, actual, deduped and capped
+  ---
+  duration_ms: 4.7778
+  ...
+# Subtest: preview commits all seven groups while airborne/low-gas, activation never moves geometry
+ok 27 - preview commits all seven groups while airborne/low-gas, activation never moves geometry
+  ---
+  duration_ms: 3.5287
+  ...
+# Subtest: 90 second boundary discards airborne chain and freezes result
+ok 28 - 90 second boundary discards airborne chain and freezes result
+  ---
+  duration_ms: 8.0443
+  ...
+# Subtest: pause freezes angular momentum but clears continuous input; resume naturally brakes
+ok 29 - pause freezes angular momentum but clears continuous input; resume naturally brakes
+  ---
+  duration_ms: 535.8684
+  ...
+# Subtest: teaching learns partial press before held rotation and release landing, not fixed full-turn playback
+ok 30 - teaching learns partial press before held rotation and release landing, not fixed full-turn playback
+  ---
+  duration_ms: 6275.9936
+  ...
+# Subtest: new best preserves old score data; unavailable storage stays playable
+ok 31 - new best preserves old score data; unavailable storage stays playable
+  ---
+  duration_ms: 1.5563
+  ...
+# Subtest: rating and tier boundaries stay inclusive
+ok 32 - rating and tier boundaries stay inclusive
+  ---
+  duration_ms: 0.2413
+  ...
+# Subtest: continuous dual held-input trace is physically continuous and banks only real events
+ok 33 - continuous dual held-input trace is physically continuous and banks only real events
+  ---
+  duration_ms: 5357.8837
+  ...
+# Subtest: contact preserves actual pose, velocity and omega; bounce cannot bank twice
+ok 34 - contact preserves actual pose, velocity and omega; bounce cannot bank twice
+  ---
+  duration_ms: 52.1449
+  ...
+# Subtest: rotated contact volume and genuine bad attitude remain physical collisions
+ok 35 - rotated contact volume and genuine bad attitude remain physical collisions
+  ---
+  duration_ms: 1.9516
+  ...
+# Subtest: score categories, shared roll repetition and landing factors retain their meanings
+ok 36 - score categories, shared roll repetition and landing factors retain their meanings
+  ---
+  duration_ms: 2.3115
+  ...
+# Subtest: touch deadzone and independent continuous axis magnitude
+ok 37 - touch deadzone and independent continuous axis magnitude
+  ---
+  duration_ms: 2.7585
+  ...
+# Subtest: real ground charges 25 per second; denied air pulse cannot secretly buy sustained force
+ok 38 - real ground charges 25 per second; denied air pulse cannot secretly buy sustained force
+  ---
+  duration_ms: 930.1802
+  ...
+# Subtest: deterministic bounded practice, swept walls and road edges retain collisions
+ok 39 - deterministic bounded practice, swept walls and road edges retain collisions
+  ---
+  duration_ms: 6139.8439
+  ...
+# Subtest: ordinary combo, ring/graze, repeats, capped multiplier and independent obstacle points
+ok 40 - ordinary combo, ring/graze, repeats, capped multiplier and independent obstacle points
+  ---
+  duration_ms: 10.3045
+  ...
+# Subtest: versioned best neither reads nor overwrites the old score scale
+ok 41 - versioned best neither reads nor overwrites the old score scale
+  ---
+  duration_ms: 2.6434
+  ...
+# Subtest: staggered stable rows and only strongest newly crossed celebration, with no replay
+ok 42 - staggered stable rows and only strongest newly crossed celebration, with no replay
+  ---
+  duration_ms: 8.5338
+  ...
+# Subtest: paused clocks freeze, queued sounds mute, stale events and reset never replay
+ok 43 - paused clocks freeze, queued sounds mute, stale events and reset never replay
+  ---
+  duration_ms: 1.3192
+  ...
+# Subtest: rows, journal and signal queues remain bounded over many chains
+ok 44 - rows, journal and signal queues remain bounded over many chains
+  ---
+  duration_ms: 42.8173
+  ...
+# Subtest: auto quality tolerates isolated stalls, downgrades noisy sustained slowness and recovers with hysteresis
+ok 45 - auto quality tolerates isolated stalls, downgrades noisy sustained slowness and recovers with hysteresis
+  ---
+  duration_ms: 5.9014
+  ...
+# Subtest: first actual record has no invented historical delta
+ok 46 - first actual record has no invented historical delta
+  ---
+  duration_ms: 576.6501
+  ...
+# Subtest: new record compares current total with pre-finish record
+ok 47 - new record compares current total with pre-finish record
+  ---
+  duration_ms: 2.6633
+  ...
+# Subtest: non-record and tie use actual best and never combo as score
+ok 48 - non-record and tie use actual best and never combo as score
+  ---
+  duration_ms: 1.503
+  ...
+# Subtest: zero with no previous record has no best claim
+ok 49 - zero with no previous record has no best claim
+  ---
+  duration_ms: 1.4075
+  ...
+# Subtest: unbanked points and repair exhaustion appear only when applicable
+ok 50 - unbanked points and repair exhaustion appear only when applicable
+  ---
+  duration_ms: 1.5447
+  ...
+# Subtest: a missing snapshot cannot produce a fabricated record delta
+ok 51 - a missing snapshot cannot produce a fabricated record delta
+  ---
+  duration_ms: 2.2095
+  ...
+# Subtest: each challenge keeps an independent record snapshot
+ok 52 - each challenge keeps an independent record snapshot
+  ---
+  duration_ms: 3.509
+  ...
+# Subtest: all existing inclusive grade boundaries retain their unique labels
+ok 53 - all existing inclusive grade boundaries retain their unique labels
+  ---
+  duration_ms: 0.9638
+  ...
+# Subtest: Sprint frozen at final landing plus two seconds reaches ending without changing sim time
+ok 54 - Sprint frozen at final landing plus two seconds reaches ending without changing sim time
+  ---
+  duration_ms: 1.103
+  ...
+# Subtest: three real rows stagger, tier and multiplier use score rules
+ok 55 - three real rows stagger, tier and multiplier use score rules
+  ---
+  duration_ms: 14.6749
+  ...
+# Subtest: 2s without new score hides pane but retains real pending; obstacle points do not renew it
+ok 56 - 2s without new score hides pane but retains real pending; obstacle points do not renew it
+  ---
+  duration_ms: 1.1061
+  ...
+# Subtest: landing protection, bank formula and transfer change display only
+ok 57 - landing protection, bank formula and transfer change display only
+  ---
+  duration_ms: 420.06
+  ...
+# Subtest: no-bank contact gives a real brief result and retry without creating points or zero formula
+ok 58 - no-bank contact gives a real brief result and retry without creating points or zero formula
+  ---
+  duration_ms: 3.2875
+  ...
+# Subtest: zero-score direction error uses actual reason, not a success or generic tilt label
+ok 59 - zero-score direction error uses actual reason, not a success or generic tilt label
+  ---
+  duration_ms: 1.1292
+  ...
+# Subtest: old grade3 contact after automatic recovery never becomes a result or undefined label
+ok 60 - old grade3 contact after automatic recovery never becomes a result or undefined label
+  ---
+  duration_ms: 1.4297
+  ...
+# Subtest: landing phase uses descent and release horizon; early hazard preserves the actual cause
+ok 61 - landing phase uses descent and release horizon; early hazard preserves the actual cause
+  ---
+  duration_ms: 2.0458
+  ...
+# Subtest: signed predicted direction is read from forecast, including reversed horizontal forward
+ok 62 - signed predicted direction is read from forecast, including reversed horizontal forward
+  ---
+  duration_ms: 1.0612
+  ...
+# Subtest: mode clocks, progress and repairs represent actual modes
+ok 63 - mode clocks, progress and repairs represent actual modes
+  ---
+  duration_ms: 2.8432
+  ...
+# Subtest: past active target falls through to a real forward preview; hold timing remains available
+ok 64 - past active target falls through to a real forward preview; hold timing remains available
+  ---
+  duration_ms: 1.3168
+  ...
+# Subtest: supplies show only actual same-time quantity near pressure, independent of score
+ok 65 - supplies show only actual same-time quantity near pressure, independent of score
+  ---
+  duration_ms: 2.803
+  ...
+# Subtest: pause freezes presentation time; reset and menu hide old score state
+ok 66 - pause freezes presentation time; reset and menu hide old score state
+  ---
+  duration_ms: 2.4121
+  ...
+# Subtest: precise tilt 18deg, heading 25deg and independent per-axis .6rad/s have inclusive boundaries
+ok 67 - precise tilt 18deg, heading 25deg and independent per-axis .6rad/s have inclusive boundaries
+  ---
+  duration_ms: 8.6624
+  ...
+# Subtest: stable/heavy/crash physical boundaries are retained
+ok 68 - stable/heavy/crash physical boundaries are retained
+  ---
+  duration_ms: 1.4007
+  ...
+# Subtest: actual contact has no .28s lock, active flag gate, summed-rate gate or pad downgrade
+ok 69 - actual contact has no .28s lock, active flag gate, summed-rate gate or pad downgrade
+  ---
+  duration_ms: 4.9659
+  ...
+# Subtest: read-only release projection never changes real rotation, gas, buffer or vertical forecast
+ok 70 - read-only release projection never changes real rotation, gas, buffer or vertical forecast
+  ---
+  duration_ms: 4244.3981
+  ...
+# Subtest: released airborne forecast includes actual braking/assist/buffer and matches subsequent contact
+ok 71 - released airborne forecast includes actual braking/assist/buffer and matches subsequent contact
+  ---
+  duration_ms: 5717.8591
+  ...
+# Subtest: no-ground release forecast keeps an unsafe point/reason instead of disappearing
+ok 72 - no-ground release forecast keeps an unsafe point/reason instead of disappearing
+  ---
+  duration_ms: 12.2297
+  ...
+# Subtest: one jump physical route launch 55, three-axis hold 0
+ok 73 - one jump physical route launch 55, three-axis hold 0
+  ---
+  duration_ms: 2931.7674
+  ...
+# Subtest: one jump physical route launch 55, three-axis hold 1.2
+ok 74 - one jump physical route launch 55, three-axis hold 1.2
+  ---
+  duration_ms: 4927.4451
+  ...
+# Subtest: one jump physical route launch 70, three-axis hold 0
+ok 75 - one jump physical route launch 70, three-axis hold 0
+  ---
+  duration_ms: 3452.858
+  ...
+# Subtest: one jump physical route launch 70, three-axis hold 1.2
+ok 76 - one jump physical route launch 70, three-axis hold 1.2
+  ---
+  duration_ms: 3601.7942
+  ...
+# Subtest: one jump physical route launch 85, three-axis hold 0
+ok 77 - one jump physical route launch 85, three-axis hold 0
+  ---
+  duration_ms: 2269.0688
+  ...
+# Subtest: one jump physical route launch 85, three-axis hold 1.2
+ok 78 - one jump physical route launch 85, three-axis hold 1.2
+  ---
+  duration_ms: 2223.0552
+  ...
+# Subtest: construction array occupies physical lanes and cannot be driven through
+ok 79 - construction array occupies physical lanes and cannot be driven through
+  ---
+  duration_ms: 438.7132
+  ...
+# BJS - [21:04:39]: Babylon.js v8.56.2 - Null engine
+# Subtest: rendered tire bottoms stay on real road after 360n plus small angles
+ok 80 - rendered tire bottoms stay on real road after 360n plus small angles
+  ---
+  duration_ms: 2326.0745
+  ...
+# Subtest: camera landing response is one bounded dip; pause uses simulation time, low motion has none
+ok 81 - camera landing response is one bounded dip; pause uses simulation time, low motion has none
+  ---
+  duration_ms: 3.8374
+  ...
+# Subtest: A 80/150/300ms change actual angle, release brakes rather than finishing a circle
+ok 82 - A 80/150/300ms change actual angle, release brakes rather than finishing a circle
+  ---
+  duration_ms: 13163.9957
+  ...
+# Subtest: B held rotation crosses circles without stopping and never sets angle/omega
+ok 83 - B held rotation crosses circles without stopping and never sets angle/omega
+  ---
+  duration_ms: 2632.9993
+  ...
+# Subtest: C actual full tank plus earned60 exhaustion brakes at zero, held input cannot continue driving
+not ok 84 - C actual full tank plus earned60 exhaustion brakes at zero, held input cannot continue driving
+  ---
+  duration_ms: 6918.2605
+  location: 'D:\\project\\car-flycontral\\tests\\rework-physics.test.js:14:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(peak>300)
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///D:/project/car-flycontral/tests/rework-physics.test.js:16:9)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    Test.postRun (node:internal/test_runner/test:889:19)
+    Test.run (node:internal/test_runner/test:835:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: D reversal responds before a circle and crosses zero continuously; half-circle oscillation does not farm
+ok 85 - D reversal responds before a circle and crosses zero continuously; half-circle oscillation does not farm
+  ---
+  duration_ms: 4697.4068
+  ...
+# Subtest: E both axes truly output simultaneously; release one leaves the other active
+ok 86 - E both axes truly output simultaneously; release one leaves the other active
+  ---
+  duration_ms: 2365.3831
+  ...
+# Subtest: continuous rotation gas is actual output integral, no action prepayment, independent axes add
+ok 87 - continuous rotation gas is actual output integral, no action prepayment, independent axes add
+  ---
+  duration_ms: 2415.8898
+  ...
+# Subtest: full turn credit includes legitimate braking inertia, never automatic leveling
+ok 88 - full turn credit includes legitimate braking inertia, never automatic leveling
+  ---
+  duration_ms: 9763.6976
+  ...
+# Subtest: input remains authoritative while vertical buffer is active; late hold can genuinely collide
+ok 89 - input remains authoritative while vertical buffer is active; late hold can genuinely collide
+  ---
+  duration_ms: 754.6812
+  ...
+# Subtest: independent buffer does not generate climb, movement or refill and actual landing preserves momentum
+ok 90 - independent buffer does not generate climb, movement or refill and actual landing preserves momentum
+  ---
+  duration_ms: 3017.2815
+  ...
+# Subtest: full/partial/capped supply boundary fixtures: actual100/60, dedupe and category recurrence
+ok 91 - full/partial/capped supply boundary fixtures: actual100/60, dedupe and category recurrence
+  ---
+  duration_ms: 2082.9913
+  ...
+# Subtest: gap has no fictitious safe marker, buffer cannot create ground
+ok 92 - gap has no fictitious safe marker, buffer cannot create ground
+  ---
+  duration_ms: 449.3041
+  ...
+# Subtest: R08 same-direction partial turns survive center/idle; real reversals do not sum absolute arcs
+ok 93 - R08 same-direction partial turns survive center/idle; real reversals do not sum absolute arcs
+  ---
+  duration_ms: 3441.4131
+  ...
+# Subtest: assist choice truly disables gentle leveling while independent vertical buffer and braking stay
+ok 94 - assist choice truly disables gentle leveling while independent vertical buffer and braking stay
+  ---
+  duration_ms: 3448.0318
+  ...
+# BJS - [21:04:33]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:45]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:45]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:45]: Babylon.js v8.56.2 - Null engine
+# Subtest: both legacy modes reach recovery visuals through their unchanged ground motor only
+ok 95 - both legacy modes reach recovery visuals through their unchanged ground motor only
+  ---
+  duration_ms: 6967.1011
+  ...
+# Subtest: no restoration effect for grade1, no delivered force, no gain, overspeed, or another flight
+ok 96 - no restoration effect for grade1, no delivered force, no gain, overspeed, or another flight
+  ---
+  duration_ms: 2.4157
+  ...
+# Subtest: multiple same-time refills retain independent real origins and serial deduplication
+ok 97 - multiple same-time refills retain independent real origins and serial deduplication
+  ---
+  duration_ms: 476.4139
+  ...
+# Subtest: actual challenge supply rings publish their own course coordinates; ledger caps remain 100/60
+ok 98 - actual challenge supply rings publish their own course coordinates; ledger caps remain 100/60
+  ---
+  duration_ms: 11458.8688
+  ...
+# Subtest: shared visual pools remain fixed across modes, resets, menu and crash cleanup
+ok 99 - shared visual pools remain fixed across modes, resets, menu and crash cleanup
+  ---
+  duration_ms: 155.5865
+  ...
+# Subtest: full and tiny actual supply never fake full orbs; 60 cap and reset serials remain real
+ok 100 - full and tiny actual supply never fake full orbs; 60 cap and reset serials remain real
+  ---
+  duration_ms: 122.5812
+  ...
+# Subtest: ground jet wash disappears when its actual moving position has no road
+ok 101 - ground jet wash disappears when its actual moving position has no road
+  ---
+  duration_ms: 82.7879
+  ...
+# BJS - [21:04:23]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:24]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:24]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:25]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:25]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:26]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:26]: Babylon.js v8.56.2 - Null engine
+# BJS - [21:04:26]: Babylon.js v8.56.2 - Null engine
+# Subtest: new acceleration lights reserve first .53s, require awarded matching flight and actual gain/force
+ok 102 - new acceleration lights reserve first .53s, require awarded matching flight and actual gain/force
+  ---
+  duration_ms: 1183.5812
+  ...
+# Subtest: actual refill amount grades visual transfer; tiny and zero never show full energy orbs
+ok 103 - actual refill amount grades visual transfer; tiny and zero never show full energy orbs
+  ---
+  duration_ms: 1562.7402
+  ...
+# Subtest: crash removes every new effect and consumes old events; mode switch restores car materials
+ok 104 - crash removes every new effect and consumes old events; mode switch restores car materials
+  ---
+  duration_ms: 297.6882
+  ...
+# Subtest: frozen simulation clock freezes particles; reset pools remain bounded
+ok 105 - frozen simulation clock freezes particles; reset pools remain bounded
+  ---
+  duration_ms: 407.0573
+  ...
+# Subtest: pre-existing overspeed without delivered positive acceleration cannot fake a boost climax
+ok 106 - pre-existing overspeed without delivered positive acceleration cannot fake a boost climax
+  ---
+  duration_ms: 389.9033
+  ...
+# Subtest: sprint actual legal input whole route ring=false, three axes=false
+ok 107 - sprint actual legal input whole route ring=false, three axes=false
+  ---
+  duration_ms: 8874.5928
+  ...
+# Subtest: sprint actual legal input whole route ring=false, three axes=true
+ok 108 - sprint actual legal input whole route ring=false, three axes=true
+  ---
+  duration_ms: 5894.9471
+  ...
+# Subtest: sprint actual legal input whole route ring=true, three axes=false
+ok 109 - sprint actual legal input whole route ring=true, three axes=false
+  ---
+  duration_ms: 4717.0306
+  ...
+# Subtest: sprint actual legal input whole route ring=true, three axes=true
+ok 110 - sprint actual legal input whole route ring=true, three axes=true
+  ---
+  duration_ms: 4382.8744
+  ...
+# Subtest: motor requires qualifying real event, 0.12s grounded, 0.18s delay and only one award
+ok 111 - motor requires qualifying real event, 0.12s grounded, 0.18s delay and only one award
+  ---
+  duration_ms: 197.7666
+  ...
+# Subtest: pause freezes awarded motor and resume keeps remainder; launch/crash/reset clear it
+ok 112 - pause freezes awarded motor and resume keeps remainder; launch/crash/reset clear it
+  ---
+  duration_ms: 10.8047
+  ...
+# Subtest: high flight progresses without fabricating prior landings or motor awards
+ok 113 - high flight progresses without fabricating prior landings or motor awards
+  ---
+  duration_ms: 0.8942
+  ...
+# Subtest: third-section crash invalidates finish clock, retry preserves credited obstacle points
+ok 114 - third-section crash invalidates finish clock, retry preserves credited obstacle points
+  ---
+  duration_ms: 11.4259
+  ...
+# Subtest: finite roof and side posts leave genuine upper and outer clearance; gap has no ground
+ok 115 - finite roof and side posts leave genuine upper and outer clearance; gap has no ground
+  ---
+  duration_ms: 1.8841
+  ...
+# Subtest: ordinary long first flight may miss a pad but never deadlocks route progress
+ok 116 - ordinary long first flight may miss a pad but never deadlocks route progress
+  ---
+  duration_ms: 5853.2977
+  ...
+# Subtest: whole visible action windows tolerate ordinary hold variation, not just a central point
+ok 117 - whole visible action windows tolerate ordinary hold variation, not just a central point
+  ---
+  duration_ms: 61980.9428
+  ...
+# Subtest: highest actual entry speed supports canonical holds at each window edge
+ok 118 - highest actual entry speed supports canonical holds at each window edge
+  ---
+  duration_ms: 2025.8608
+  ...
+# Subtest: a new flight cannot claim an old clearance; final continuity requires all three landings
+ok 119 - a new flight cannot claim an old clearance; final continuity requires all three landings
+  ---
+  duration_ms: 1797.9916
+  ...
+# Subtest: invalid persisted touch settings recover individually within safe ranges
+ok 120 - invalid persisted touch settings recover individually within safe ranges
+  ---
+  duration_ms: 6.9307
+  ...
+# Subtest: 667/844 and safe-area geometry keep existing hot areas large and booster below score zone
+ok 121 - 667/844 and safe-area geometry keep existing hot areas large and booster below score zone
+  ---
+  duration_ms: 1.803
+  ...
+# BJS - [21:04:46]: Babylon.js v8.56.2 - Null engine
+# Subtest: yaw short press is partial; long hold completes real circles without changing forward trajectory
+ok 122 - yaw short press is partial; long hold completes real circles without changing forward trajectory
+  ---
+  duration_ms: 6574.7168
+  ...
+# Subtest: yaw reversal brakes through zero; both directions share category and repeat20/10
+ok 123 - yaw reversal brakes through zero; both directions share category and repeat20/10
+  ---
+  duration_ms: 2824.6401
+  ...
+# Subtest: yaw partial same direction resumes across zero; alternating partial arcs never farm
+ok 124 - yaw partial same direction resumes across zero; alternating partial arcs never farm
+  ---
+  duration_ms: 5427.4109
+  ...
+# Subtest: three continuous axes output and incur actual integrated costs; yaw has no hidden lateral force
+ok 125 - three continuous axes output and incur actual integrated costs; yaw has no hidden lateral force
+  ---
+  duration_ms: 2953.545
+  ...
+# Subtest: three-axis OBB footprint matches actual renderer matrices
+ok 126 - three-axis OBB footprint matches actual renderer matrices
+  ---
+  duration_ms: 48.779
+  ...
+# Subtest: landing heading/rate boundaries are physical rule fixtures; land never snaps yaw or omega
+ok 127 - landing heading/rate boundaries are physical rule fixtures; land never snaps yaw or omega
+  ---
+  duration_ms: 5.7721
+  ...
+# Subtest: assist off also disables yaw return; independent yaw braking remains
+ok 128 - assist off also disables yaw return; independent yaw braking remains
+  ---
+  duration_ms: 4763.3278
+  ...
+# Subtest: left control absolute center is zero even with noncenter start; deadzone and opposite motion agree
+ok 129 - left control absolute center is zero even with noncenter start; deadzone and opposite motion agree
+  ---
+  duration_ms: 2.2128
+  ...
+1..129
+# tests 129
+# suites 0
+# pass 128
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 99804.7491

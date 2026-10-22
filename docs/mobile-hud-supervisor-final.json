@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-22",
+  "baselineCommit": "dbb067e90afec6e7c58880fd06100d3de97500e7",
+  "production": {
+    "file": "dist/assets/index-BqvO1ECL.js",
+    "sha256": "c48f82b2216dab849fefff22aaf4a396f45749d8e160f9ad878d67e7424bb754",
+    "bytes": 1407694,
+    "base": "./"
+  },
+  "independent": {
+    "unit": {
+      "passed": 129,
+      "failed": 0,
+      "durationMs": 155246.4612,
+      "log": "mobile-hud-supervisor-test.log"
+    },
+    "relativeBuild": {
+      "passed": true,
+      "log": "mobile-hud-supervisor-build.log"
+    },
+    "frozenFilesChecked": 88,
+    "changesDuringBuild": [],
+    "protected": {
+      "total": 26,
+      "unchanged": 21,
+      "authorizedExceptions": [
+        "src/config.js",
+        "src/simulation.js",
+        "src/input.js",
+        "src/feedback.js",
+        "src/world.js"
+      ]
+    },
+    "lowFlightComparison": {
+      "samples": 360,
+      "differences": 0,
+      "version": "index-BqvO1ECL.js",
+      "scope": "Three legal-input flat-road trajectories below24m, listed fields only; offline diagnostic."
+    },
+    "productionDevEntrypoints": []
+  },
+  "rootNativeUI": [
+    {
+      "version": "index-CBBJl8-b.js",
+      "mode": "practice",
+      "scope": "Ordinary PC keyboard early ceiling candidate",
+      "longHoldMs": 4000,
+      "landed": true,
+      "anotherTrial": {
+        "holdMs": 2000,
+        "heightDOM": 29.3,
+        "then": "Ordinary pause/resume and DQW1100ms",
+        "preciseBank": 4680
+      }
+    },
+    {
+      "version": "index-DiNE_YBp.js",
+      "viewport": "667x375",
+      "scope": "Native mouse boost1000ms, keyboard DQW1100ms; not a two-thumb test",
+      "pending": 3900,
+      "preciseBank": 4680,
+      "total": 4780,
+      "defaultAndMaximumLayout": true,
+      "foundAirRowBoostOverlap": true,
+      "cleanupDefaults": true
+    },
+    {
+      "version": "index-DgZYXc66.js",
+      "viewport": "667x375",
+      "scope": "Same maximum-layout native mouse boost and keyboard axes, then ordinary pause/resume",
+      "maxAirRows": 2,
+      "comboBottom": 143.140625,
+      "boostTop": 148,
+      "overlap": false,
+      "forecast": "Car heading visible; actual1.3s and expected precise",
+      "bankFormula": "3900 ×1.2",
+      "endingTotal": 4780
+    },
+    {
+      "version": "index-DgZYXc66.js",
+      "viewport": "844x390",
+      "scope": "Native mouse boost2000ms, release, observe and land",
+      "heightDOM": 29.8,
+      "limitCaption": "高度上限",
+      "actualSupply": 30,
+      "practiceComplete": true,
+      "total": 100
+    },
+    {
+      "version": "index-DgZYXc66.js",
+      "viewport": "667x375",
+      "mode": "challenge",
+      "scope": "Original-speed90 seconds with ordinary keyboard inputs and pauses; not touch-only route proof",
+      "elapsed": 90,
+      "score": 3140,
+      "grade": "C",
+      "groups": "8/9",
+      "precision": 9,
+      "highestCombo": 720,
+      "actions": 1,
+      "padHits": 7,
+      "repairsUsed": 1,
+      "obstacleScore": 800,
+      "bankedTricks": 2340,
+      "storedBest": 47763,
+      "differenceFromBest": 44623,
+      "retry": {
+        "clock": "01:30",
+        "score": 0,
+        "repairs": 2
+      },
+      "menu": true,
+      "note": "One collision; no claim of zero repairs or9/9. Short tap immediately followed by pause may clear not-yet-submitted input; changed root capture sequence, not game rules."
+    },
+    {
+      "version": "index-BqvO1ECL.js",
+      "viewport": "667x375",
+      "scope": "Final frozen production native mouse boost1000ms and keyboard DQW1100ms",
+      "preciseBank": 4680,
+      "bankFormula": "3900 ×1.2",
+      "endingTotal": 4780,
+      "menu": true,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "reviewedDeveloperProof": {
+    "finalProductionNativeTouch": [
+      {
+        "width": 667,
+        "layout": "maximum",
+        "script": "index-BqvO1ECL.js",
+        "total": 4780,
+        "trustedEvents": 17
+      },
+      {
+        "width": 844,
+        "layout": "default",
+        "script": "index-BqvO1ECL.js",
+        "total": 4780,
+        "trustedEvents": 17
+      }
+    ],
+    "actualGeometryChecks": 48,
+    "corners": 16,
+    "routeDiagnostics": {
+      "challenge": "Legal fixed-step9/9,2700,zero crashes",
+      "sprint": "Two legal route programs complete;17.5m ring actual30 and0.0815 gas"
+    }
+  },
+  "failuresRetained": [
+    "Old peak>300 unit precondition conflicts with new30m ceiling; corrected only height precondition, all actual empty-tank assertions retained",
+    "First DiNE max-layout air2-row overlap; root bounds retained, narrowed font/gaps and strengthened contrast",
+    "Early preview HMR returned menu during inspection; not a game failure",
+    "First root short-coordinate-tap air wait failed, not diagnosed; native keyboard restarted full90s",
+    "Countdown overlay blocked an immediate pause click after result retry; used actual Escape once running; final reset UI verified"
+  ],
+  "limits": [
+    "Root full90s ran Dg; finalBq scoped typography/contrast revision checked with a complete practice jump, not another full90s",
+    "Desktop small viewport and CDP touch simulation; no physical-phone/iOS claim",
+    "No subjective human-ear or deferred performance audit claim"
+  ],
+  "cleanup": {
+    "layoutDefaultsRestored": true,
+    "browserViewportReset": true
+  },
+  "publication": {
+    "status": "pending"
+  }
+}

@@ -1,0 +1,45 @@
+TAP version 13
+# Subtest: below24 vertical arithmetic and full main authority are exactly the original integrator
+ok 1 - below24 vertical arithmetic and full main authority are exactly the original integrator
+  ---
+  duration_ms: 4.1423
+  ...
+# Subtest: upper edge resolves diverse incoming upward inertia without position clamp, bounce or hovering
+ok 2 - upper edge resolves diverse incoming upward inertia without position clamp, bounce or hovering
+  ---
+  duration_ms: 26.0389
+  ...
+# Subtest: long held propulsion crosses soft band but stays below30, then descends with conserved accounting
+ok 3 - long held propulsion crosses soft band but stays below30, then descends with conserved accounting
+  ---
+  duration_ms: 3191.6083
+  ...
+# Subtest: high pulse refunds only suppressed prepaid lift, never counts as air supply or creates gas
+ok 4 - high pulse refunds only suppressed prepaid lift, never counts as air supply or creates gas
+  ---
+  duration_ms: 136.9794
+  ...
+# Subtest: denied high descending pulse and empty main tank do not authorize sustained thrust
+ok 5 - denied high descending pulse and empty main tank do not authorize sustained thrust
+  ---
+  duration_ms: 340.3097
+  ...
+# Subtest: ceiling authority does not scale simultaneous axis forces or independent buffer
+ok 6 - ceiling authority does not scale simultaneous axis forces or independent buffer
+  ---
+  duration_ms: 179.7568
+  ...
+# Subtest: ordinary and cloned release forecasts share high-flight ceiling and actual release
+ok 7 - ordinary and cloned release forecasts share high-flight ceiling and actual release
+  ---
+  duration_ms: 2297.5547
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6503.804

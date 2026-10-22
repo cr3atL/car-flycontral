@@ -234,7 +234,7 @@ export function createWorld(canvas) {
     wing.rotation.x = 0.12 + s.speed / C.cruise * 0.12 + (s.heavyTimer > 0 ? 0.3 : 0);
     shadow.position.set(s.x, 0.045, 0); sm.alpha = Math.max(0.06, 0.24 - s.y * 0.012);
     shadow.setEnabled(false);if(feedbackActive&&!s.crashTimer)flightEffects.update(s,coldJets,attitudeQ,currentQuality,z=>s.hasGround(z),carArt.wheelContacts(s.z));else flightEffects.reset();vehicleFeedback.update(s,feedbackActive,reducedMotion,{mode,motor:session?.sprint?.motor});
-    const desktop=document.body.classList.contains('pc-hud'),lv=landingView(s),landingVisible=!s.grounded&&!s.crashTimer&&session?.phase==='running',landingDanger=forecast?.assessment?.tone==='danger'||!forecast?.safe;
+    const desktop=document.body.classList.contains('pc-hud')||document.body.classList.contains('mobile-hud'),lv=landingView(s),landingVisible=!s.grounded&&!s.crashTimer&&session?.phase==='running',landingDanger=forecast?.assessment?.tone==='danger'||!forecast?.safe;
     marker.setEnabled(!desktop&&landingVisible&&!landingDanger);unsafeMarker.setEnabled(!desktop&&landingVisible&&landingDanger);marker.position.set(forecast.x,.08,forecast.z-s.z);unsafeMarker.position.copyFrom(marker.position);marker.material=forecast?.assessment?.grade===0?cyan:yellow;
     carMarker.setEnabled(desktop&&landingVisible&&lv.visible);carMarker.position.copyFrom(marker.position);carMarker.rotation.y=forecastHeading(forecast);fullCar.setEnabled(!landingDanger);brokenCar.forEach(m=>m.setEnabled(landingDanger));for(const m of[fullCar,...brokenCar,windscreen,nose])m.material=landingDanger?unsafeMat:forecast?.assessment?.grade===0?cyan:yellow;
 

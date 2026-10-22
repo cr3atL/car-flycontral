@@ -1,9 +1,11 @@
+import {TouchLayout} from './touch-layout.js';
 import {FlowModel,formatScore} from './flow-model.js';
 import{HudModel,HUD_TIMING,hudNumber,forecastHeading}from'./hud-model.js';
 import {SPRINT as P} from './sprint-config.js';
 import './style.css';
 import './pc-hud.css';
 import './flow-ui.css';
+import './mobile-hud.css';
 import { ONE_JUMP as J } from './one-jump-config.js';
 import { CONFIG as C } from './config.js';
 import { nearbyWalls } from './simulation.js';
@@ -32,6 +34,7 @@ const { engine, scene } = world;
 const feedback = new ScoreFeedback(storage, world),hudModel=new HudModel();
 const input=new InputController({steer:$('steer-zone'),boost:$('boost'),stunt:$('stunt-zone'),onPause:event=>togglePause(event),enabled:()=>session.playable&&!sim.crashTimer});
 function clearInput(options) { input.clear(); sim.clearInput(options); }
+const touchLayout=new TouchLayout(storage,()=>clearInput({preservePulse:true}));
 function start(mode) { flowModel.start(session.best);lastResult=null;$('result-details').open=false;hudModel.reset();clearInput(); session.start(mode); feedback.reset(0, 0); accumulator = 0; wasCrashed = false; pilotMemory = { launched: new Set() }; updateHud(); }
 function reset(event) { start(session.mode); feedback.unlock(event); }
 function menu() { menuLeaving=false;clearTimeout(menuFadeTimer);$('menu').classList.remove('leaving');hudModel.reset();clearInput(); session.menu(); feedback.reset(sim.time, sim.score.total); accumulator = 0; updateHud();$('start-challenge').focus({preventScroll:true}); }
@@ -66,7 +69,7 @@ function tick(dt) {
   if (sim.crashTimer > 0 && !wasCrashed) clearInput(); wasCrashed = sim.crashTimer > 0;
 }
 function updateHud() {
-  const mobile=matchMedia('(pointer:coarse)').matches||innerWidth<=950;document.body.classList.toggle('pc-hud',!mobile);
+  const mobile=matchMedia('(pointer:coarse)').matches||innerWidth<=950;document.body.classList.toggle('pc-hud',!mobile);document.body.classList.toggle('mobile-hud',mobile);
   const practice=session.mode==='practice'?session.oneJump.state:null,sprint=session.mode==='sprint'?session.sprint:null;
   const challenge = session.mode === 'challenge', active = ['countdown', 'running'].includes(session.phase);
   document.body.dataset.phase = session.phase;
@@ -149,21 +152,24 @@ function updateHud() {
   if(showForecast||showLanding){const r=showForecast?a:last.assessment;$('landing-feedback').dataset.tone=r.tone;setText('landing-caption',showForecast?'松手后的预计落点 · '+Math.max(0,lp.time-(sim.time-sim.releasePredictionAt)).toFixed(1)+'秒':last.label+(last.padHit?' · 命中落地区':''));setText('landing-pose','姿态 '+(r.checks.pose?'稳':r.angle.toFixed(0)+'°'));setText('landing-direction','方向 '+(r.checks.direction?'正':r.headingError.toFixed(0)+'°'));setText('landing-settle',r.checks.settled?'收势 稳':'收势 '+Math.max(...Object.values(r.omega).map(Math.abs)).toFixed(1)+'rad/s');setText('landing-reason',showForecast?(lp.hazard??r.reason??'按当前趋势可精准'):(r.reason??(last.padHit?'车已摆正 · 准备下一跳':'车已摆正 · 准备下一跳')));}
   $('jump-retry').classList.toggle('hidden',session.paused||!(practice&&(practice.result||sim.crashTimer)||sprint&&(sprint.complete||sim.crashTimer)));setText('jump-retry',sprint?'重跑三段 · R':'再来一跳 · R');setText('action',action);setText('cue',cue);
   const hv=hudModel.update(sim,session);feedback.setHudView(hv,!mobile);document.body.dataset.hudState=hv.active?hv.state:'inactive';
-  if(mobile)document.querySelector('.pressure-caption').textContent='主气压 / 100点';
-  if(!mobile){
+  {
     setText('remaining',hv.clock);document.querySelector('.pressure-caption').textContent='气压';$('remaining').setAttribute('aria-label',hv.clockLabel+' '+hv.clock);setText('energy-label',Math.floor(sim.mainPressure+1e-6));
     const repairs=$('pc-repairs');repairs.hidden=hv.repairs===null;setText('repair-count',hv.repairs??'');repairs.setAttribute('aria-label','剩余修复 '+(hv.repairs??''));
     const segments=$('route-segments');if(segments.children.length!==hv.segments.length)segments.replaceChildren(...hv.segments.map(()=>document.createElement('i')));hv.segments.forEach((state,i)=>segments.children[i].className=state);segments.hidden=!hv.segments.length;segments.setAttribute('aria-label',hv.segments.filter(s=>s==='done').length+' / '+hv.segments.length);
     const place=(el,x,y)=>{const half=el.offsetWidth/2;el.style.left=Math.max(innerWidth*.03+half,Math.min(innerWidth*.97-half,x))+'px';el.style.top=Math.max(innerHeight*.20,Math.min(innerHeight*.78,y))+'px';};
     const target=hv.target&&world.projectPoint(hv.target.x,.7,hv.target.z);$('pc-ground-target').hidden=!target?.visible;if(target?.visible){setText('pc-ground-target',hv.target.label+' · '+Math.round(hv.target.distance)+'m');place($('pc-ground-target'),target.x,target.y-20);}
-    const prompt=hv.prompt||hv.teaching;$('pc-prompt').hidden=!hv.active||!prompt||hv.state==='landing'||hv.state==='impact'||hv.state==='bank'||hv.state==='crash';setText('pc-prompt',prompt);const promptPoint=world.projectPoint(sim.x,.05,sim.z+12);place($('pc-prompt'),promptPoint.x,promptPoint.y-15);
+    let prompt=hv.prompt||hv.teaching;
+    if(mobile){const t=session.tutorial;prompt=hv.target?.launch?(hv.target.hold>=.4?'推进 '+hv.target.hold+'s':'点按推进'):'';if(challenge&&!t.complete){prompt=t.stage==='accelerate'?'左下转向':sim.grounded?(hv.target?.launch||t.stage==='repeat'?'右下推进':''):t.stage==='single-roll'&&!t.shortPractice?'右区轻拖，再松手':t.stage==='repeat'&&!t.heldPractice?'右区按住，再松手':'';}}$('pc-prompt').hidden=!hv.active||!prompt||hv.state==='landing'||hv.state==='impact'||hv.state==='bank'||hv.state==='crash';setText('pc-prompt',prompt);const promptPoint=world.projectPoint(sim.x,.05,sim.z+12);place($('pc-prompt'),promptPoint.x,promptPoint.y-15);
     $('pc-landing').hidden=!hv.active||!hv.landing.visible;$('pc-landing').dataset.tone=hv.landing.tone;$('pc-touchdown-time').hidden=!hv.landing.caption;setText('pc-touchdown-time',hv.landing.caption??'');setText('pc-touchdown-reason',hv.landing.reason);
-    $('pc-retry').hidden=!hv.retry;setText('pc-retry',hv.retryLabel);
+    $('pc-retry').hidden=!hv.retry;setText('pc-retry',mobile?(sprint?'重跑三段':'再来一跳'):hv.retryLabel);
     const projection=$('pc-projection'),lp=hv.landing.prediction,pp=hv.landing.visible?{...world.getLandingScreen()}:null,vehicle=world.projectPoint(sim.x,sim.y+.76,sim.z),blocked=pp&&(Math.abs(pp.x-vehicle.x)<110&&Math.abs(pp.y-vehicle.y)<110||!pp.visible||pp.y>innerHeight*.78);
     projection.toggleAttribute('hidden',!hv.active||!hv.landing.visible||!blocked);
-    if(pp&&blocked){const angle=forecastHeading(lp)*180/Math.PI,side=pp.x<innerWidth*.76?1:-1,ax=Math.max(innerWidth*.12,Math.min(innerWidth*.77,pp.x+side*150)),ay=Math.max(innerHeight*.30,Math.min(innerHeight*.67,pp.y-65));projection.setAttribute('viewBox',`0 0 ${innerWidth} ${innerHeight}`);projection.dataset.tone=hv.landing.tone;projection.dataset.heading=angle.toFixed(4);$('pc-projection-car').setAttribute('transform',`translate(${ax} ${ay}) rotate(${angle})`);$('pc-projection-link').setAttribute('d',`M${ax-Math.sin(angle*Math.PI/180)*40} ${ay+Math.cos(angle*Math.PI/180)*40} L${pp.x} ${pp.y}`);$('pc-projection-point').setAttribute('cx',pp.x);$('pc-projection-point').setAttribute('cy',pp.y);}
+    if(pp&&blocked){const angle=forecastHeading(lp)*180/Math.PI,side=pp.x<innerWidth*.76?1:-1,ax=Math.max(innerWidth*.12,Math.min(innerWidth*.77,pp.x+side*(mobile?85:150))),ay=Math.max(innerHeight*.30,Math.min(innerHeight*(mobile?.57:.67),pp.y-65));projection.setAttribute('viewBox',`0 0 ${innerWidth} ${innerHeight}`);projection.dataset.tone=hv.landing.tone;projection.dataset.heading=angle.toFixed(4);$('pc-projection-car').setAttribute('transform',`translate(${ax} ${ay}) rotate(${angle}) scale(${mobile?.6:1})`);$('pc-projection-link').setAttribute('d',`M${ax-Math.sin(angle*Math.PI/180)*(mobile?24:40)} ${ay+Math.cos(angle*Math.PI/180)*(mobile?24:40)} L${pp.x} ${pp.y}`);$('pc-projection-point').setAttribute('cx',pp.x);$('pc-projection-point').setAttribute('cy',pp.y);}
     const amount=hv.supply;setText('pc-supply',amount>0?'+'+(amount<.01?'<0.01':amount<.1?amount.toFixed(2):amount<10?Number(amount.toFixed(1)):Number(amount.toFixed(0))):'');
   }
+  const nearLimit=active&&!sim.grounded&&sim.y>=C.ceilingSoft-1&&(input.boost||sim.y>=C.ceilingTop-.6),atLimit=sim.y>=C.ceilingTop-.6;
+  $('height-limit').hidden=!mobile||!nearLimit;setText('height-limit-text',atLimit?'高度上限':sim.notice?.text==='回落后可推进'&&sim.time-sim.notice.at<.9?'回落后可推进':'');$('height-limit-arc').style.strokeDasharray=Math.max(.04,Math.min(1,(sim.y-(C.ceilingSoft-1))/(C.ceilingTop-C.ceilingSoft+1)))+' 1';
+  $('pc-height-limit').hidden=mobile||!nearLimit;setText('pc-height-limit',atLimit?'高度上限':sim.vy<=0?'回落后可推进':'升力渐减');
   const endingAge=flowModel.endingAge(sim.lastLanding,sim.time,Boolean(sprint?.complete),session.paused,performance.now());
   const quick=active&&!session.paused&&hv.retry&&endingAge>=HUD_TIMING.impact+HUD_TIMING.result&&Boolean(practice?.result||sprint?.complete);
   $('quick-result').hidden=!quick;document.body.dataset.quick=String(quick);

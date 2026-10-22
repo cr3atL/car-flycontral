@@ -1,0 +1,213 @@
+{
+  "method": "Actual4173 production with no dev API. Ordinary native CDP boost then two thumbs three-axis, recenter right before release. Capture/read only after release. 667 uses maximum stored controls;844 default.",
+  "script": "./assets/index-BqvO1ECL.js",
+  "score": "4,780",
+  "boxes": {
+    "combo": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "boost": {
+      "x": 553,
+      "y": 148,
+      "width": 72,
+      "height": 50,
+      "top": 148,
+      "right": 625,
+      "bottom": 198,
+      "left": 553
+    },
+    "stunt-zone": {
+      "x": 445,
+      "y": 214,
+      "width": 180,
+      "height": 132,
+      "top": 214,
+      "right": 625,
+      "bottom": 346,
+      "left": 445
+    },
+    "pc-retry": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "quick-result": {
+      "x": 467,
+      "y": 67.5,
+      "width": 180,
+      "height": 70,
+      "top": 67.5,
+      "right": 647,
+      "bottom": 137.5,
+      "left": 467
+    }
+  },
+  "errors": [],
+  "inputs": [
+    {
+      "type": "pointerdown",
+      "id": 2,
+      "trusted": true,
+      "wall": 7324.5,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 2,
+      "trusted": true,
+      "wall": 8436.699999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerdown",
+      "id": 3,
+      "trusted": true,
+      "wall": 8724.199999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "1"
+    },
+    {
+      "type": "pointerdown",
+      "id": 4,
+      "trusted": true,
+      "wall": 8727.599999964237,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "1"
+    },
+    {
+      "type": "pointermove",
+      "id": 4,
+      "trusted": true,
+      "wall": 8852,
+      "roll": "1",
+      "pitch": "-1",
+      "yaw": "1"
+    },
+    {
+      "type": "pointermove",
+      "id": 4,
+      "trusted": true,
+      "wall": 10048.699999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "1"
+    },
+    {
+      "type": "pointerup",
+      "id": 3,
+      "trusted": true,
+      "wall": 10185.199999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 4,
+      "trusted": true,
+      "wall": 10186.199999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointermove",
+      "id": 1,
+      "trusted": true,
+      "wall": 14910.699999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerdown",
+      "id": 1,
+      "trusted": true,
+      "wall": 14912.399999976158,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 1,
+      "trusted": true,
+      "wall": 14913.699999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointermove",
+      "id": 1,
+      "trusted": true,
+      "wall": 15098.5,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerdown",
+      "id": 1,
+      "trusted": true,
+      "wall": 15100.699999988079,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 1,
+      "trusted": true,
+      "wall": 15102.599999964237,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointermove",
+      "id": 1,
+      "trusted": true,
+      "wall": 15373.5,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerdown",
+      "id": 1,
+      "trusted": true,
+      "wall": 15376.300000011921,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    },
+    {
+      "type": "pointerup",
+      "id": 1,
+      "trusted": true,
+      "wall": 15377.5,
+      "roll": "0",
+      "pitch": "0",
+      "yaw": "0"
+    }
+  ]
+}
