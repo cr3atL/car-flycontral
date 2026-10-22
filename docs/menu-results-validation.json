@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-22",
+  "unit": {
+    "passed": 120,
+    "failed": 0,
+    "log": "docs/menu-results-unit-tests.txt"
+  },
+  "browser": {
+    "passedCases": 12,
+    "failedCasesAfterCorrections": 0,
+    "coverage": [
+      "Three one-click modes, settings/help, focused menu return",
+      "Phone844/667 menu/settings/help and actual-result data layout",
+      "Original-speed native90s idle finish, detail toggle, retry/menu",
+      "Isolated100 and47763 best record fixtures with legal challenge pilot",
+      "Practice bank at+.65s and ending at+2.65s, retry/menu",
+      "Legal Sprint route and UI conclusion after frozen simulation",
+      "Reduced-motion result/buttons",
+      "Final4173 native production three-axis one-jump bank, ending, retry/menu"
+    ]
+  },
+  "protected": {
+    "src/landing-model.js": {
+      "expected": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1",
+      "actual": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1",
+      "matches": true
+    },
+    "src/presentation-model.js": {
+      "expected": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a",
+      "actual": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a",
+      "matches": true
+    },
+    "src/challenge-config.js": {
+      "expected": "aedc28159742986ba20f5ed39efe54b0e6f130f68506f4986393b2b1a6b7c473",
+      "actual": "aedc28159742986ba20f5ed39efe54b0e6f130f68506f4986393b2b1a6b7c473",
+      "matches": true
+    },
+    "package-lock.json": {
+      "expected": "15c99d90bac2f0fa0120fd49d23519215d83cb3ad92558473493bb2c893627fa",
+      "actual": "15c99d90bac2f0fa0120fd49d23519215d83cb3ad92558473493bb2c893627fa",
+      "matches": true
+    },
+    "src/challenge.js": {
+      "expected": "6d751008888a71fba4336a7938479f569d261a671bcf14e68516f43c6076236f",
+      "actual": "6d751008888a71fba4336a7938479f569d261a671bcf14e68516f43c6076236f",
+      "matches": true
+    },
+    "src/one-jump.js": {
+      "expected": "83c2ae116205be8b7036c881d19720e1cc011f95d9143628efa855aac99f258f",
+      "actual": "83c2ae116205be8b7036c881d19720e1cc011f95d9143628efa855aac99f258f",
+      "matches": true
+    },
+    "src/input.js": {
+      "expected": "931667a2f7c3bcf01f2928410ca1de138dad68645b3845564b12f2bf2f52919c",
+      "actual": "931667a2f7c3bcf01f2928410ca1de138dad68645b3845564b12f2bf2f52919c",
+      "matches": true
+    },
+    "src/drive-feedback.js": {
+      "expected": "f66aa1ea88fa6066ef327adb6662376f46ed2d5b1c936cd8557bd4ac57fb032d",
+      "actual": "f66aa1ea88fa6066ef327adb6662376f46ed2d5b1c936cd8557bd4ac57fb032d",
+      "matches": true
+    },
+    "src/flight-audio.js": {
+      "expected": "b8839b5f9dfce876dd8ae872b5d70bc34d9c1c135f67d442e23e8eef21130fc0",
+      "actual": "b8839b5f9dfce876dd8ae872b5d70bc34d9c1c135f67d442e23e8eef21130fc0",
+      "matches": true
+    },
+    "src/simulation.js": {
+      "expected": "52d15a3cecabf2fbaddc2540e4e6c90f7fec6dab79370760a93e4dd4c9b21402",
+      "actual": "52d15a3cecabf2fbaddc2540e4e6c90f7fec6dab79370760a93e4dd4c9b21402",
+      "matches": true
+    },
+    "src/sprint-config.js": {
+      "expected": "2717dd36a7bcaae246c619c314f994d4c40c5ae0a9032aaf6bf7fba448f0507e",
+      "actual": "2717dd36a7bcaae246c619c314f994d4c40c5ae0a9032aaf6bf7fba448f0507e",
+      "matches": true
+    },
+    "src/vehicle-feedback.js": {
+      "expected": "a054efd48a4e4fbf7d38f28c4ee6a9919e40e2209e4f5fbdc677504df90cde61",
+      "actual": "a054efd48a4e4fbf7d38f28c4ee6a9919e40e2209e4f5fbdc677504df90cde61",
+      "matches": true
+    },
+    "src/score-config.js": {
+      "expected": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48",
+      "actual": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48",
+      "matches": true
+    },
+    "src/sprint.js": {
+      "expected": "7fd775a944dbf2645dd06c558f71832db269d7e841667cf070b9635d56d1325d",
+      "actual": "7fd775a944dbf2645dd06c558f71832db269d7e841667cf070b9635d56d1325d",
+      "matches": true
+    },
+    "src/one-jump-config.js": {
+      "expected": "1b707691b3fc1f1122152a22a05f5364ff542afd0745765169838df5883895b0",
+      "actual": "1b707691b3fc1f1122152a22a05f5364ff542afd0745765169838df5883895b0",
+      "matches": true
+    },
+    "src/flight-effects.js": {
+      "expected": "89e376482db9a4e2b0ff29a625890e5c7d91ffd01ec046d11b223b981c9ba43f",
+      "actual": "89e376482db9a4e2b0ff29a625890e5c7d91ffd01ec046d11b223b981c9ba43f",
+      "matches": true
+    },
+    "src/audio.js": {
+      "expected": "7a75e89d209a6b21c6326347c07f92737657dff71733ea3fb42aec35d578ab3b",
+      "actual": "7a75e89d209a6b21c6326347c07f92737657dff71733ea3fb42aec35d578ab3b",
+      "matches": true
+    },
+    "src/scoring.js": {
+      "expected": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084",
+      "actual": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084",
+      "matches": true
+    },
+    "src/challenge-course.js": {
+      "expected": "56993c51fcde00dfa4b55856a0d78defee08149ed188897708359dc3b8aa4229",
+      "actual": "56993c51fcde00dfa4b55856a0d78defee08149ed188897708359dc3b8aa4229",
+      "matches": true
+    },
+    "src/config.js": {
+      "expected": "bf8d39bda8dcc6c481bb17895cf993f91b968215341b6a6261ecda4dbb79b450",
+      "actual": "bf8d39bda8dcc6c481bb17895cf993f91b968215341b6a6261ecda4dbb79b450",
+      "matches": true
+    },
+    "src/supply-config.js": {
+      "expected": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4",
+      "actual": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4",
+      "matches": true
+    }
+  },
+  "native": [
+    "docs/menu-results-native-90.json",
+    "docs/menu-results-production-native.json"
+  ],
+  "diagnostics": [
+    "docs/menu-results-record-100-diagnostic.json",
+    "docs/menu-results-record-47763-diagnostic.json",
+    "docs/menu-results-practice-diagnostic.json",
+    "docs/menu-results-sprint-diagnostic.json"
+  ],
+  "failureNotes": [
+    "Initial record model fixture assigned getter-only pending; corrected to Score.base. No runtime edit for failure.",
+    "Initial navigation fixture read top-level mode; corrected to session.mode. Raw navigation failureJSON/PNGs retained.",
+    "Initial practice fixture read score.total; corrected to snapshot.total. Raw practice failureJSON/PNG retained.",
+    "First candidate desktop tools inherited body.pc-hud nav position. Scoped #menu .menu-tools; final production rectangle verified static and left."
+  ]
+}

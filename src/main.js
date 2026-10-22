@@ -1,7 +1,9 @@
-import{HudModel,hudNumber,forecastHeading}from'./hud-model.js';
+import {FlowModel,formatScore} from './flow-model.js';
+import{HudModel,HUD_TIMING,hudNumber,forecastHeading}from'./hud-model.js';
 import {SPRINT as P} from './sprint-config.js';
 import './style.css';
 import './pc-hud.css';
+import './flow-ui.css';
 import { ONE_JUMP as J } from './one-jump-config.js';
 import { CONFIG as C } from './config.js';
 import { nearbyWalls } from './simulation.js';
@@ -19,7 +21,8 @@ function setText(id, value) { const el = $(id), s = String(value); if (el.textCo
 let storage = null; try { storage = window.localStorage; } catch { /* Session-only scores remain usable. */ }
 const session = new GameSession(storage), sim = session.sim;
 let manual = false, accumulator = 0, wasCrashed = false, timeScale = 1;
-let lastResult = null;
+let lastResult = null, menuLeaving = false, menuFadeTimer;
+const flowModel = new FlowModel();
 const drawCosts = import.meta.env.DEV ? { world: 0, hud: 0, scene: 0, feedback: 0 } : null;
 let pilotMemory = { launched: new Set() };
 let world;
@@ -29,15 +32,23 @@ const { engine, scene } = world;
 const feedback = new ScoreFeedback(storage, world),hudModel=new HudModel();
 const input=new InputController({steer:$('steer-zone'),boost:$('boost'),stunt:$('stunt-zone'),onPause:event=>togglePause(event),enabled:()=>session.playable&&!sim.crashTimer});
 function clearInput(options) { input.clear(); sim.clearInput(options); }
-function start(mode) { hudModel.reset();clearInput(); session.start(mode); feedback.reset(0, 0); accumulator = 0; wasCrashed = false; pilotMemory = { launched: new Set() }; updateHud(); }
+function start(mode) { flowModel.start(session.best);lastResult=null;$('result-details').open=false;hudModel.reset();clearInput(); session.start(mode); feedback.reset(0, 0); accumulator = 0; wasCrashed = false; pilotMemory = { launched: new Set() }; updateHud(); }
 function reset(event) { start(session.mode); feedback.unlock(event); }
-function menu() { hudModel.reset();clearInput(); session.menu(); feedback.reset(sim.time, sim.score.total); accumulator = 0; updateHud(); }
+function menu() { menuLeaving=false;clearTimeout(menuFadeTimer);$('menu').classList.remove('leaving');hudModel.reset();clearInput(); session.menu(); feedback.reset(sim.time, sim.score.total); accumulator = 0; updateHud();$('start-challenge').focus({preventScroll:true}); }
 function togglePause(event) {
   if (!['running', 'countdown'].includes(session.phase)) return;
   if (session.paused && !session.resuming) resume(event); else { clearInput({ preservePulse: true }); session.setPaused(true); feedback.suspend(); }
 }
 function resume(event) { if (document.hidden) return; clearInput({ preservePulse: true }); session.resume(); feedback.unlock(event); }
-const startFromUI = (mode, event) => { start(mode); feedback.unlock(event); };
+const startFromUI = (mode, event) => {
+  if(session.phase==='menu'){menuLeaving=true;$('menu').classList.add('leaving');clearTimeout(menuFadeTimer);menuFadeTimer=setTimeout(()=>{menuLeaving=false;$('menu').classList.remove('leaving');updateHud();},220);}
+  start(mode); $('menu').inert=true;feedback.unlock(event);$('game').focus({preventScroll:true});
+};
+for(const button of document.querySelectorAll('[data-open-settings]'))button.addEventListener('click',()=>$('settings-dialog').showModal());
+$('open-help').addEventListener('click',()=>{setText('help-launch',$('launch-instructions').textContent);setText('help-rotation',$('rotation-instructions').textContent);$('help-dialog').showModal();});
+for(const id of ['settings-dialog','help-dialog'])$(id).addEventListener('click',e=>{if(e.target===$(id)){const r=$(id).getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$(id).close();}});
+window.addEventListener('keydown',e=>{if(e.code==='Escape'&&document.querySelector('dialog[open]'))e.stopImmediatePropagation();},true);
+$('quick-retry').addEventListener('click',reset);$('quick-menu').addEventListener('click',menu);
 $('start-sprint').addEventListener('click',e=>startFromUI('sprint',e));$('start-challenge').addEventListener('click', e => startFromUI('challenge', e)); $('start-practice').addEventListener('click', e => startFromUI('practice', e));
 $('retry').addEventListener('click', e => startFromUI('challenge', e)); $('result-menu').addEventListener('click', menu); $('pause-menu').addEventListener('click', menu);
 $('pause').addEventListener('click', togglePause); $('reset').addEventListener('click', reset); $('restart').addEventListener('click', reset); $('resume').addEventListener('click', resume);
@@ -59,12 +70,13 @@ function updateHud() {
   const practice=session.mode==='practice'?session.oneJump.state:null,sprint=session.mode==='sprint'?session.sprint:null;
   const challenge = session.mode === 'challenge', active = ['countdown', 'running'].includes(session.phase);
   document.body.dataset.phase = session.phase;
-  $('menu').classList.toggle('hidden', session.phase !== 'menu'); $('results').classList.toggle('hidden', session.phase !== 'results');
+  $('menu').inert=session.phase!=='menu';$('results').inert=session.phase!=='results';
+  $('menu').classList.toggle('hidden', session.phase !== 'menu'&&!menuLeaving); $('results').classList.toggle('hidden', session.phase !== 'results');
   $('overlay').classList.toggle('hidden', !active || !session.paused || session.resuming);
   const counting = active && !session.paused && session.phase === 'countdown';
   $('countdown').classList.toggle('hidden', !counting && !session.resuming);
   setText('countdown', session.resuming ? Math.ceil(session.resumeRemaining) : Math.ceil(session.countdown));
-  setText('menu-best', `${session.storageAvailable ? '本机' : '本次会话'}最佳 ${session.best}`);
+  $('menu-best').hidden=session.best<=0;setText('menu-best', `${session.storageAvailable ? '最佳' : '本次会话最佳'} ${formatScore(session.best)}`);
   setText('remaining', challenge ? Math.max(0, H.duration - session.elapsed).toFixed(1) : '∞');
   setText('race-progress', challenge ? `${session.stats.groups} / 9 组 · 修复 ${H.repairs - session.stats.repairsUsed}` : sprint?`${sprint.sections.filter(q=>q.completed).length} / 3 段`:'自由练习');
   document.querySelector('.race-clock').classList.toggle('closing', challenge && session.elapsed >= 82);
@@ -79,7 +91,7 @@ function updateHud() {
   setText('energy-note',freshSupply?supplyText+' · 已补'+sim.airSupplyUsed.toFixed(1)+'/60':sim.grounded?'真实地面回充 25点/秒':sim.mainPressure<1e-6?'主气压用尽 · 松手仍可制动':'当前耗气 '+sim.forces.mainPointsRate.toFixed(1)+' 点/秒');
   const phases={driving:'持续',braking:'制动',leveling:'缓回正',idle:'停止',ground:'接地'};
   setText('steer-caption',sim.grounded?'地面左右转向':'空中左右平转');setText('steer-mode',sim.grounded?'按住两侧 / 拖动':'按住两侧 / 拖动平转');
-  setText('launch-instructions',mobile?'右下推进：点按18点完整脉冲，按住持续16点/秒。':'A/D地面转向，空格推进。Esc暂停；R重试练习/三段，90秒用重新开始。');
+  setText('launch-instructions',mobile?'右下推进：点按完整脉冲，按住持续推进。':'A/D地面转向。空格轻点完整脉冲，按住持续推进。Esc暂停；R重试练习/三段。');
   setText('rotation-instructions',mobile?'左区空中左右平转；右区左右侧滚、上下前后翻、斜向双轴。回中或松手制动，提前留出落地时间。':'空中按住A/D平转、Q/E侧滚、W/S前后翻；可同时组合。松手先刹转速，提前留出落地时间。');
   setText('rotation-state',sim.grounded?'按住旋转 · 松手收势':'滚:'+phases[sim.attitude.roll.mode]+' 翻:'+phases[sim.attitude.pitch.mode]+' 平:'+phases[sim.attitude.yaw.mode]+(sim.buffer.active?' · 垂直缓冲':''));
   const altitude=Math.max(0,sim.y).toFixed(1)+' ';if($('altitude').firstChild.data!==altitude)$('altitude').firstChild.data=altitude;
@@ -152,13 +164,19 @@ function updateHud() {
     if(pp&&blocked){const angle=forecastHeading(lp)*180/Math.PI,side=pp.x<innerWidth*.76?1:-1,ax=Math.max(innerWidth*.12,Math.min(innerWidth*.77,pp.x+side*150)),ay=Math.max(innerHeight*.30,Math.min(innerHeight*.67,pp.y-65));projection.setAttribute('viewBox',`0 0 ${innerWidth} ${innerHeight}`);projection.dataset.tone=hv.landing.tone;projection.dataset.heading=angle.toFixed(4);$('pc-projection-car').setAttribute('transform',`translate(${ax} ${ay}) rotate(${angle})`);$('pc-projection-link').setAttribute('d',`M${ax-Math.sin(angle*Math.PI/180)*40} ${ay+Math.cos(angle*Math.PI/180)*40} L${pp.x} ${pp.y}`);$('pc-projection-point').setAttribute('cx',pp.x);$('pc-projection-point').setAttribute('cy',pp.y);}
     const amount=hv.supply;setText('pc-supply',amount>0?'+'+(amount<.01?'<0.01':amount<.1?amount.toFixed(2):amount<10?Number(amount.toFixed(1)):Number(amount.toFixed(0))):'');
   }
+  const endingAge=flowModel.endingAge(sim.lastLanding,sim.time,Boolean(sprint?.complete),session.paused,performance.now());
+  const quick=active&&!session.paused&&hv.retry&&endingAge>=HUD_TIMING.impact+HUD_TIMING.result&&Boolean(practice?.result||sprint?.complete);
+  $('quick-result').hidden=!quick;document.body.dataset.quick=String(quick);
+  if(quick){setText('quick-title',sprint?(sprint.continuous&&sprint.sections.every(q=>q.completed)?'连续三段完成':'三段练习结束'):practice.result.complete?'一跳完成':'已落地');setText('quick-note',sim.lastLanding?.reason??'');$('quick-note').hidden=!sim.lastLanding?.reason;setText('quick-score',formatScore(sim.score.total));setText('quick-retry',sprint?'重跑三段':'再来一跳');}
   if (session.result && lastResult !== session.result) {
-    const r = session.result; setText('result-reason', r.reason === 'time' ? '90秒挑战完成' : '修复机会用尽 · 挑战中断');
-    setText('result-grade', r.rating.grade); setText('result-title', r.rating.label); setText('result-score', r.score.toLocaleString('zh-CN'));
-    $('result-stats').innerHTML = `<span>通过组<b>${r.stats.groups} / 9</b></span><span>完整动作<b>${r.stats.actions}</b></span><span>最高入账连击<b>${r.stats.highestCombo}</b></span><span>精准落地<b>${r.stats.precision}</b></span><span>命中落地区<b>${r.stats.precisionPads}</b></span><span>修复使用<b>${r.stats.repairsUsed} / 2</b></span><span>驾驶时间<b>${r.elapsed.toFixed(1)}s</b></span>`;
-    setText('result-note', r.unbanked ? `本次结束时 ${r.unbanked} 待结算分未落地，未计入总分。` : `障碍 ${r.stats.obstacleScore} + 落地入账 ${r.stats.bankedTricks}。${r.stats.skipped ? `恢复/收尾略过${r.stats.skipped}组。` : '尝试青环与不同动作组合提高连击。'}`);
-    setText('result-best', `${r.newBest ? '新纪录 · ' : ''}${session.storageAvailable ? '本机' : '本次会话'}最佳 ${session.best}${session.storageAvailable ? '' : '（本机存储不可用）'}`);
-    lastResult = session.result;
+    const v=flowModel.result(session.result);
+    setText('result-reason','90秒挑战');setText('result-grade',v.grade);setText('result-title',v.label);setText('result-score',formatScore(v.score));
+    $('results').dataset.grade=v.grade;
+    const stats=(id,rows)=>$(id).replaceChildren(...rows.map(([label,value])=>{const row=document.createElement('span'),b=document.createElement('b'),name=document.createElement('small');name.textContent=label;b.textContent=value;row.append(b,name);return row;}));
+    stats('result-stats',v.stats);stats('result-detail-stats',v.details);
+    setText('result-best',v.record);$('result-best').hidden=!v.record;$('result-best').classList.toggle('new-record',session.result.newBest);
+    setText('result-note',v.notes);$('result-note').hidden=!v.notes;
+    lastResult = session.result;$('retry').focus({preventScroll:true});
   }
 }
 function draw(dt, frameMs = 16.7) {

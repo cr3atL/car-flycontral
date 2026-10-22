@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
   <meta name="theme-color" content="#172c38" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <title>赤隼 · 连续三段与飞行练习</title>
+  <title>赤隼</title>
   <meta name="description" content="飞越施工车阵、自由三轴特技、真实空中补气与宽直道落地，保留90秒挑战。" />
 </head>
 <body>
-  <canvas id="game" aria-label="飞行汽车练习赛道"></canvas>
+  <canvas id="game" tabindex="-1" aria-label="飞行汽车练习赛道"></canvas>
   <canvas id="speed-canvas" aria-hidden="true"></canvas>
   <canvas id="feedback-canvas" aria-hidden="true"></canvas>
   <div id="bank-flight" aria-hidden="true"></div><div id="obstacle-toast" aria-live="polite"></div>
@@ -34,14 +34,25 @@
     <button id="boost" aria-label="按住推进"><span>↑</span><strong>推进</strong><small>点按脉冲 / 按住持续推进</small></button>
   </div>
   <section id="overlay" class="hidden" aria-modal="true" role="dialog" aria-labelledby="overlay-title">
-    <div class="pause-card"><small>CRIMSON LIFT / PAUSED</small><h1 id="overlay-title">已暂停</h1><p id="overlay-copy">比赛、倒计时和声画时钟均已冻结。</p><div class="instructions"><p><b>起飞</b> <span id="launch-instructions">空格推进；点按18点完整脉冲，持续推进16点/秒。Esc暂停，练习与三段用R重试；90秒可点重新开始。</span></p><p><b>旋转</b> <span id="rotation-instructions">按住或拖动持续旋转，松手收势。</span></p><p><b>追分</b> 罐形环补气30；青环450先待结算。旋转按实际推力耗气，独立收势与缓冲保留。</p></div><label><input id="assist" type="checkbox" checked /> 落地前辅助回正（关闭需自行摆正，垂直缓冲仍保留）</label><div class="feedback-settings"><label>声音 <input type="checkbox" data-sound checked aria-label="声音开关" /></label><label>效果 <select data-effects aria-label="效果质量"><option value="auto">自动</option><option value="rich">丰富</option><option value="low">精简</option></select></label></div><small class="settings-note" data-motion-note></small><div class="pause-actions"><button id="resume">继续</button><button id="restart">重新开始</button><button id="pause-menu">主菜单</button></div></div>
+    <div class="pause-card"><small>CRIMSON LIFT / PAUSED</small><h1 id="overlay-title">已暂停</h1><p id="overlay-copy">比赛、倒计时和声画时钟均已冻结。</p><div class="instructions"><p><b>起飞</b> <span id="launch-instructions">空格推进；点按18点完整脉冲，持续推进16点/秒。Esc暂停，练习与三段用R重试；90秒可点重新开始。</span></p><p><b>旋转</b> <span id="rotation-instructions">按住或拖动持续旋转，松手收势。</span></p><p><b>追分</b> 罐形环补气30；青环450先待结算。旋转按实际推力耗气，独立收势与缓冲保留。</p></div><label><input id="assist" type="checkbox" checked /> 落地前辅助回正（关闭需自行摆正，垂直缓冲仍保留）</label><button class="plain-setting" data-open-settings>设置</button><div class="pause-actions"><button id="resume">继续</button><button id="restart">重新开始</button><button id="pause-menu">主菜单</button></div></div>
   </section>
   <section id="menu" class="flow-screen" aria-labelledby="menu-title">
-    <div class="flow-card"><div><small class="eyebrow">CRIMSON LIFT / COASTAL RUN</small><h1 id="menu-title">让公路<br>成为起飞线。</h1><p>连续三段：车阵 → 断桥补气 → 桥下收势。<br class="wide-only">精准落地顺势冲出，保留自由练习的一跳对照。</p><div class="menu-actions"><button id="start-sprint" class="primary">连续三段 <span>↗</span></button><button id="start-challenge" class="primary">开始90秒挑战 <span>↗</span></button><button id="start-practice">自由练习</button></div><small id="menu-best">本机最佳 0</small><div class="feedback-settings"><label>声音 <input type="checkbox" data-sound checked aria-label="声音开关" /></label><label>效果 <select data-effects aria-label="效果质量"><option value="auto">自动</option><option value="rich">丰富</option><option value="low">精简</option></select></label></div><small class="settings-note" data-motion-note></small></div><div class="flow-instructions"><span>01 <b>起飞</b></span><p>空格 / 右下推进<br>点按完整脉冲，按住持续施力</p><span>02 <b>持续旋转</b></span><p>按住或拖动保持，旋转持续<br>力度决定转速；松手制动，不自动补圈</p><span>03 <b>落地入账</b></span><p>精准×1.2、稳定×1、重落地×0.5<br>主表用尽仍有独立缓冲</p></div></div>
+    <div class="flow-card"><h1 id="menu-title">赤隼</h1><div class="menu-actions">
+      <button id="start-challenge" class="primary">90秒挑战 <span aria-hidden="true">↗</span></button>
+      <button id="start-sprint">连续三段</button><button id="start-practice">自由练习</button>
+    </div><small id="menu-best" hidden></small><nav class="menu-tools"><button data-open-settings>设置</button><button id="open-help">操作</button></nav></div>
   </section>
   <section id="results" class="flow-screen hidden" aria-labelledby="result-title">
-    <div class="result-card"><small class="eyebrow" id="result-reason">90秒挑战完成</small><div class="result-heading"><strong id="result-grade">C</strong><div><h1 id="result-title">初次升空</h1><b id="result-score">0</b><span>已入账总分</span></div></div><div id="result-stats"></div><p id="result-note"></p><p id="result-best"></p><div class="menu-actions"><button id="retry" class="primary">再来一局 ↗</button><button id="result-menu">主菜单</button></div></div>
+    <div class="result-card"><small id="result-reason">90秒挑战</small>
+      <div class="result-heading"><strong id="result-grade">C</strong><h1 id="result-title">初次升空</h1></div>
+      <b id="result-score">0</b><p id="result-best"></p><div id="result-stats"></div>
+      <p id="result-note" hidden></p><details id="result-details"><summary>详细数据</summary><div id="result-detail-stats"></div></details>
+      <div class="menu-actions"><button id="retry" class="primary">再来一局 <span aria-hidden="true">↗</span></button><button id="result-menu">主菜单</button></div>
+    </div>
   </section>
+  <aside id="quick-result" hidden><h2 id="quick-title"></h2><p id="quick-note" hidden></p><strong id="quick-score"></strong><div><button id="quick-retry" class="primary">再来一跳</button><button id="quick-menu">主菜单</button></div></aside>
+  <dialog id="settings-dialog" class="flow-dialog" aria-labelledby="settings-title"><form method="dialog"><header><h2 id="settings-title">设置</h2><button aria-label="关闭设置">×</button></header></form><div class="feedback-settings"><label>声音 <input type="checkbox" data-sound checked aria-label="声音开关" /></label><label>效果 <select data-effects aria-label="效果质量"><option value="auto">自动</option><option value="rich">丰富</option><option value="low">精简</option></select></label></div><small class="settings-note" data-motion-note></small></dialog>
+  <dialog id="help-dialog" class="flow-dialog" aria-labelledby="help-title"><form method="dialog"><header><h2 id="help-title">操作</h2><button aria-label="关闭操作说明">×</button></header></form><div class="help-content"><h3>起飞</h3><p id="help-launch"></p><h3>特技</h3><p id="help-rotation"></p><h3>落地</h3><p>提前松手收势，摆正车身并朝前落地。精准 ×1.2，稳定 ×1，重落地 ×0.5。</p><p>罐形环补气30；青环450待落地入账。</p></div></dialog>
   <div id="countdown" class="hidden"></div>
   <div id="portrait">↻<strong>横屏体验更好</strong><span>旋转手机后继续练习</span><button id="portrait-continue">仍然继续</button></div>
   <div id="fatal" class="hidden"></div>

@@ -1,0 +1,70 @@
+
+> crimson-lift-prototype@0.1.0 build
+> vite build --configLoader native --base=./
+
+vite v6.4.4 building for production...
+transforming...
+✓ 508 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                     8.85 kB │ gzip:   3.60 kB
+dist/assets/index-DePe3xOp.css                                     40.68 kB │ gzip:   9.30 kB
+dist/assets/kernelBlurVaryingDeclaration-CT953ewc.js                0.17 kB │ gzip:   0.16 kB
+dist/assets/kernelBlurVaryingDeclaration-BzrktbfU.js                0.18 kB │ gzip:   0.16 kB
+dist/assets/pass.fragment--05N0VcF.js                               0.32 kB │ gzip:   0.25 kB
+dist/assets/shadowMapFragmentSoftTransparentShadow-CF31Zb0T.js      0.37 kB │ gzip:   0.27 kB
+dist/assets/shadowMapFragmentSoftTransparentShadow-C5_IvF8P.js      0.40 kB │ gzip:   0.29 kB
+dist/assets/rgbdDecode.fragment-COoa6rXl.js                         0.41 kB │ gzip:   0.31 kB
+dist/assets/pass.fragment-B95-bV7d.js                               0.45 kB │ gzip:   0.29 kB
+dist/assets/packingFunctions-CQ5uZKeF.js                            0.52 kB │ gzip:   0.29 kB
+dist/assets/depthBoxBlur.fragment-B263cKIj.js                       0.53 kB │ gzip:   0.35 kB
+dist/assets/rgbdDecode.fragment-C7F0qdAT.js                         0.55 kB │ gzip:   0.35 kB
+dist/assets/meshUboDeclaration-B6fkP71T.js                          0.56 kB │ gzip:   0.31 kB
+dist/assets/meshUboDeclaration-BA7mBV6m.js                          0.56 kB │ gzip:   0.32 kB
+dist/assets/vertexColorMixing-4CGQ7i4_.js                           0.66 kB │ gzip:   0.34 kB
+dist/assets/depthBoxBlur.fragment-CSb6iDH1.js                       0.71 kB │ gzip:   0.42 kB
+dist/assets/color.fragment-BfpsaNc8.js                              0.75 kB │ gzip:   0.37 kB
+dist/assets/kernelBlur.vertex-BmNnwMBX.js                           0.76 kB │ gzip:   0.42 kB
+dist/assets/passCube.fragment-CK8Rx2kZ.js                           0.82 kB │ gzip:   0.35 kB
+dist/assets/color.fragment-CtpW7Tf2.js                              0.89 kB │ gzip:   0.42 kB
+dist/assets/kernelBlur.vertex-C8oIVX6c.js                           0.92 kB │ gzip:   0.47 kB
+dist/assets/vertexColorMixing-BciLeE5l.js                           0.93 kB │ gzip:   0.39 kB
+dist/assets/mesh.vertexData.functions-ayNlGC5K.js                   0.96 kB │ gzip:   0.49 kB
+dist/assets/instancesDeclaration-C7oudTFz.js                        1.00 kB │ gzip:   0.34 kB
+dist/assets/fogFragment-BVRv6H1Q.js                                 1.02 kB │ gzip:   0.46 kB
+dist/assets/passCube.fragment-CNzLp2Re.js                           1.13 kB │ gzip:   0.40 kB
+dist/assets/fogFragment-BOp4g3uy.js                                 1.15 kB │ gzip:   0.50 kB
+dist/assets/clipPlaneFragment-DI_CF68z.js                           1.21 kB │ gzip:   0.33 kB
+dist/assets/color.vertex-oCe9M1-0.js                                1.22 kB │ gzip:   0.53 kB
+dist/assets/color.vertex-C_4A73k6.js                                1.23 kB │ gzip:   0.55 kB
+dist/assets/depth.fragment-fblClqWj.js                              1.26 kB │ gzip:   0.56 kB
+dist/assets/ddsTextureLoader-Z3DrRUDi.js                            1.30 kB │ gzip:   0.64 kB
+dist/assets/logDepthDeclaration-B-FeHFLV.js                         1.48 kB │ gzip:   0.63 kB
+dist/assets/logDepthDeclaration-99HefXsJ.js                         1.85 kB │ gzip:   0.61 kB
+dist/assets/depth.vertex-46NmIgvB.js                                2.09 kB │ gzip:   0.77 kB
+dist/assets/kernelBlur.fragment-BOr-9jn5.js                         2.10 kB │ gzip:   0.70 kB
+dist/assets/hdrTextureLoader-CrCkjVhM.js                            2.42 kB │ gzip:   1.16 kB
+dist/assets/kernelBlur.fragment-W2R0b1r-.js                         2.67 kB │ gzip:   0.79 kB
+dist/assets/iesTextureLoader-Dxw_go-m.js                            2.70 kB │ gzip:   1.17 kB
+dist/assets/shadowMap.fragment-UtKO-Pc5.js                          3.03 kB │ gzip:   1.06 kB
+dist/assets/dumpTools-DjJKNLBb.js                                   3.09 kB │ gzip:   1.50 kB
+dist/assets/tgaTextureLoader-UN8ha-wL.js                            3.53 kB │ gzip:   1.38 kB
+dist/assets/shadowMap.fragment-ClxPMd6H.js                          3.66 kB │ gzip:   1.18 kB
+dist/assets/morphTargetsVertex-yiTimFi8.js                          4.35 kB │ gzip:   0.94 kB
+dist/assets/shadowMap.vertex-CJWqjdzn.js                            4.40 kB │ gzip:   1.39 kB
+dist/assets/shadowMap.vertex-C168lrln.js                            4.42 kB │ gzip:   1.43 kB
+dist/assets/passPostProcess-D15f46K8.js                             5.34 kB │ gzip:   1.99 kB
+dist/assets/helperFunctions-D6LR5c1N.js                             5.86 kB │ gzip:   1.96 kB
+dist/assets/helperFunctions-CYny4_zd.js                             6.22 kB │ gzip:   2.08 kB
+dist/assets/envTextureLoader-BEefs6WG.js                            7.77 kB │ gzip:   3.13 kB
+dist/assets/basisTextureLoader-CAr5Vlk3.js                          8.18 kB │ gzip:   3.23 kB
+dist/assets/clipPlaneVertex-DcehQIGf.js                             9.46 kB │ gzip:   1.62 kB
+dist/assets/dds-K_EnnlBi.js                                         9.70 kB │ gzip:   3.73 kB
+dist/assets/default.vertex-DukuM-Zs.js                             14.54 kB │ gzip:   3.29 kB
+dist/assets/exrTextureLoader-BYSTbx-M.js                           15.53 kB │ gzip:   5.80 kB
+dist/assets/ktxTextureLoader-BvmnPpve.js                           15.80 kB │ gzip:   4.61 kB
+dist/assets/default.vertex-BoLX3493.js                             16.73 kB │ gzip:   3.42 kB
+dist/assets/default.fragment-C9gPVWOF.js                           99.81 kB │ gzip:  19.31 kB
+dist/assets/default.fragment-BKjME1Ts.js                          106.28 kB │ gzip:  19.45 kB
+dist/assets/index-C53q8ie3.js                                   1,403.44 kB │ gzip: 361.61 kB
+✓ built in 7.54s

@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-22",
+  "baselineCommit": "850e05055d0e58c10283eea19b11aad6c5257d55",
+  "production": {
+    "file": "dist/assets/index-C53q8ie3.js",
+    "sha256": "fa6025f2d251c39ce0e244412bafa973d520a52dcd76817f27492a4d2d2ac873",
+    "bytes": 1403436,
+    "base": "./"
+  },
+  "independent": {
+    "unit": {
+      "passed": 120,
+      "failed": 0,
+      "durationMs": 78465.1973,
+      "log": "menu-results-supervisor-test.log"
+    },
+    "relativeBuild": {
+      "success": true,
+      "log": "menu-results-supervisor-build.log"
+    },
+    "frozenFiles": 79,
+    "changesDuringBuild": [],
+    "protectedFiles": 21,
+    "protectedChanges": [],
+    "developmentEntrypointsFound": []
+  },
+  "nativePlay": [
+    {
+      "version": "index-GJdGAnNY.js",
+      "mode": "practice",
+      "input": "Space1000ms; D+Q+W1100ms; release",
+      "pending": 3900,
+      "preciseBank": 4680,
+      "total": 4780,
+      "bankBeforeEnding": true,
+      "retryResets": true
+    },
+    {
+      "version": "index-GJdGAnNY.js",
+      "mode": "challenge",
+      "elapsed": 90,
+      "score": 2600,
+      "grade": "C",
+      "label": "初次升空",
+      "groups": "8/9",
+      "precision": 10,
+      "highestCombo": 720,
+      "padHits": 9,
+      "actions": 1,
+      "repairsUsed": 0,
+      "obstacleScore": 800,
+      "bankedTricks": 1800,
+      "storedBest": 47763,
+      "differenceFromBest": 45163,
+      "details": true,
+      "retryAndMenu": true,
+      "note": "Normal keyboard with ordinary pauses and visible prompt waits. Late tutorial completion left ninth group incomplete. Not a9/9 claim; no state/time writes."
+    },
+    {
+      "version": "index-GJdGAnNY.js",
+      "mode": "sprint",
+      "elapsedApprox": 34,
+      "sections": "3/3",
+      "score": 300,
+      "input": "Native Space550/800/550ms at visible launch prompts, no stunt axes",
+      "ending": true,
+      "retryAndMenu": true
+    },
+    {
+      "version": "index-C53q8ie3.js",
+      "mode": "practice",
+      "input": "Native Space1000ms; D+Q+W1100ms; release",
+      "preciseBank": 4680,
+      "endingThenMenu": true,
+      "returnedFocus": "start-challenge",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "mobile": {
+    "reviewedImages": [
+      "docs/screenshots/menu-results-mobile-667-menu.png",
+      "docs/screenshots/menu-results-mobile-667-result-diagnostic.png"
+    ],
+    "scope": "Desktop mobile emulation. Result images use legal fixed-step data; not native physical phone."
+  },
+  "issuesResolved": [
+    "Menu nav inherited PC HUD absolute positioning",
+    "Quick ending interrupted existing bank animation",
+    "PC help omitted tap/hold distinction",
+    "Sprint simulation may freeze before complete display window"
+  ],
+  "limits": [
+    "Full native90-second root run was GJdGAnNY; finalC53 narrow display/focus timing rechecked with practice, not another full90-second run",
+    "No physical-phone/iOS or subjective-ear test claimed",
+    "User deferred performance work"
+  ],
+  "publication": {
+    "status": "pending"
+  }
+}
