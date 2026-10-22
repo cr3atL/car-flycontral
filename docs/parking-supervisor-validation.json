@@ -20,9 +20,7 @@
     "BJJY": "Final production667 phone HUD: opening goal sentence visible; native keyboardD1550ms then native screen mouse boost at613,184 for1000ms on rack distance60..68m. Actual continuous wide route completed without pause; escape title, zero score hidden, arch behind camera, buttons clear, error/warn empty. Menu returned, viewport reset. No internal writes. Not supervisor two-thumb/physical phone."
   },
   "errors": [],
-  "pending": [
-    "Pages deployment and online actual smoke"
-  ],
+  "pending": [],
   "finalTargeted": {
     "passed": 8,
     "failed": 0,
@@ -46,5 +44,7 @@
       "src/feedback.js",
       "src/world.js"
     ]
-  }
+  },
+  "deployment": "docs/parking-deployment.json",
+  "status": "Local acceptance and live Pages retry-to-escape smoke completed."
 }

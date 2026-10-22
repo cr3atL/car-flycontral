@@ -1,0 +1,539 @@
+{
+  "commit": "0beee2178966ec6b349bea3d0f426148fdf5b22a",
+  "run": 39807619243,
+  "runUrl": "https://github.com/cr3atL/car-flycontral/actions/runs/39807619243",
+  "url": "https://cr3atl.github.io/car-flycontral/",
+  "jobs": [
+    {
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check out source",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up Node.js",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install locked dependencies",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check game rules",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build static game with relative asset paths",
+          "conclusion": "success"
+        },
+        {
+          "name": "Configure Pages",
+          "conclusion": "success"
+        },
+        {
+          "name": "Upload game",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up Node.js",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Check out source",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Publish game",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": "assets/clipPlaneVertex-DO8UB-Zn.js",
+      "status": 200,
+      "bytes": 9459,
+      "sha256": "c21577713ad96e66bcee2fb7d78107a05c7f8b489896708df3c2f27533a86e88",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/basisTextureLoader-Bj0FfJ2X.js",
+      "status": 200,
+      "bytes": 8179,
+      "sha256": "a482a972e5917eb9a438ed903c44c13dcb7a0424c8df414a191e4afa513303c5",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/color.fragment-D-mek_4z.js",
+      "status": 200,
+      "bytes": 745,
+      "sha256": "e1b2eda1f02f0c80ab3a65d47a5f3f129d099895bc8c2d63d7eb1fdd386c9b7d",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/color.vertex-Dbx3wd6r.js",
+      "status": 200,
+      "bytes": 1215,
+      "sha256": "791011373add94818501de8357fb517c6172c4aa00a9882686e41a99631a3a5f",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/color.vertex-_dq-qzKi.js",
+      "status": 200,
+      "bytes": 1228,
+      "sha256": "d7aca3a51c14042bcc2d430ad33f772551c2361b24184b514b3fae37fee48f46",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/color.fragment-D9G_DcbT.js",
+      "status": 200,
+      "bytes": 885,
+      "sha256": "5d9d9f1188db7f0e15e17b1254716b922b60882265178ce0e85b20a7da233468",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/ddsTextureLoader-Bl-FYk8D.js",
+      "status": 200,
+      "bytes": 1299,
+      "sha256": "d3ea92407338ee83ccd4e1e9aa70e2e7c0bb753976e15e83408f16a65d7f546a",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/default.vertex-OjETEN0w.js",
+      "status": 200,
+      "bytes": 16725,
+      "sha256": "b9e373511d0e3d194ba781bb1efa9b6641b5a4e21ca3e54050d05a549c5c9952",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/default.fragment-CAPLMbAZ.js",
+      "status": 200,
+      "bytes": 106284,
+      "sha256": "8c386658afe770649d5381bb4e63b7e3582ee531845d1329a9b38d5f5fdb5b4e",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/dds-DFjhEdPz.js",
+      "status": 200,
+      "bytes": 9704,
+      "sha256": "496a7114bbf727e92f031424c9d0e79fc5556d8ff1c6dc3058203f8cd4025eae",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/default.vertex-CWmVlk1T.js",
+      "status": 200,
+      "bytes": 14539,
+      "sha256": "772909284b7188f32f8cf828c5f5bc42e03f00e7870f583cf4ef700c1562a76c",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/default.fragment-DeiPnkvL.js",
+      "status": 200,
+      "bytes": 99806,
+      "sha256": "72de42be99b8ad65d3f375cd91bb1f47b6861a5c421355610f32835b9f21f10b",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/depth.fragment-BsdxW1qr.js",
+      "status": 200,
+      "bytes": 1260,
+      "sha256": "f95d0618e67fcf4ab172ecb6f4605649982142a8d873052a2ec147d54ae5a21a",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/depthBoxBlur.fragment-C364Dqzu.js",
+      "status": 200,
+      "bytes": 533,
+      "sha256": "f458149b30657b2d0269393bb07e2f1aec9be9391f8f79232bfedc2451ae58ee",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/depth.vertex-gzkf_NQf.js",
+      "status": 200,
+      "bytes": 2091,
+      "sha256": "d0b1d2417caea979084e2c943e8060881f336ffe4c16b138151262ccaf024600",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/depthBoxBlur.fragment-pz7vzyOn.js",
+      "status": 200,
+      "bytes": 712,
+      "sha256": "1002628cca320ad4b96f57ab8099c73254ea2729ca0b79fd6946018f9af444c0",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/clipPlaneFragment-9flFqmjI.js",
+      "status": 200,
+      "bytes": 1207,
+      "sha256": "47e9c67e412fc7cc69f7aa98fb06b49e1d18018e7b508cdeaec84e2eed40e73f",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/dumpTools-CZRcKFBX.js",
+      "status": 200,
+      "bytes": 3094,
+      "sha256": "86926cceae1dab8e84bafd4048bb1b2edfdf7f96dc827cb9e955cca7158773c8",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/envTextureLoader-C7hZFzyo.js",
+      "status": 200,
+      "bytes": 7767,
+      "sha256": "7dc224a39d3d2569f9663f1a674c72722c6fbfc65675d9692bd1ee95d069d0ed",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/fogFragment-CcsRaK3o.js",
+      "status": 200,
+      "bytes": 1017,
+      "sha256": "55130daa5428057dbf9e81d4471a71b07fe2d96ba5bb39515d9a1f2f73092963",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/fogFragment-Cuni9fMP.js",
+      "status": 200,
+      "bytes": 1147,
+      "sha256": "6c728d41dac65cb5ecde193bcc49b5c82a686a367f6b356867566ac29e6302ff",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/hdrTextureLoader-CWQPW0vm.js",
+      "status": 200,
+      "bytes": 2419,
+      "sha256": "6399db1d3f8c3d23b72dac47739f35daf7f2de8bc50e2c4ab166e228c6bbb1ac",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/exrTextureLoader-Gss9FTYB.js",
+      "status": 200,
+      "bytes": 15528,
+      "sha256": "cceb21294fefab01257d3f2c7cc3572817cb4009416f6e26b7ddea967d8c8ca0",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/iesTextureLoader-BiPL5Mt0.js",
+      "status": 200,
+      "bytes": 2701,
+      "sha256": "06bcd4af3ee1ca6def62a287e66ce08a3e5ff9980ea663f0a385ba9a18401845",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/helperFunctions-eXsYgAPW.js",
+      "status": 200,
+      "bytes": 5864,
+      "sha256": "512c678ed94101dee207b4364bb8b40be3134c2e0af4ccb6715382352d2bc5bd",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/helperFunctions-938tSIGX.js",
+      "status": 200,
+      "bytes": 6219,
+      "sha256": "317580f4c8c87f4887a1df9fd43fd2f86f13b27797cc74e35f908a6f16dd8b3e",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/index-Bf6N3yNM.css",
+      "status": 200,
+      "bytes": 54163,
+      "sha256": "9e20ed8aada3d95ae5c3a74d03ef228ee5ed3e96e359ad41034abe293133448d",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/kernelBlur.fragment-9J_qDQKA.js",
+      "status": 200,
+      "bytes": 2670,
+      "sha256": "762303c71e1a2b1accde71d10574b142e5faf0dee839efcab46b5c4e4c3ada8d",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/kernelBlur.vertex-BvWlAh1U.js",
+      "status": 200,
+      "bytes": 919,
+      "sha256": "6478a6ca089a7bdf0f7999bb396460d374c2b0bf72132b8e332f4d9dfffcabc4",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/index-BJJYocJ2.js",
+      "status": 200,
+      "bytes": 1425453,
+      "sha256": "7f336f7bee01486d1bd286cda4e6d64d5fb749bec83a1f51426200bba3278e92",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/instancesDeclaration-CeKWWCuv.js",
+      "status": 200,
+      "bytes": 998,
+      "sha256": "f5ed805b1836095f42eea18fbb3e00bc1b338c1e81ae3ca993d5a78cdb4fe529",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/kernelBlur.fragment-C7TU_e-X.js",
+      "status": 200,
+      "bytes": 2099,
+      "sha256": "66e63fa7fd28565b6b98d07b8053c122d683f9ed4378056f3666ccc6498136ad",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/kernelBlurVaryingDeclaration-PV143fi2.js",
+      "status": 200,
+      "bytes": 170,
+      "sha256": "d6b78cff77cf89c9762aba07eea162396be605120b1ab50d4449245dc2e78590",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/kernelBlur.vertex-CJmlkbW5.js",
+      "status": 200,
+      "bytes": 762,
+      "sha256": "bb4a886822136ca94446dff2ab210c518bc7aa77294923cc884278fa844b1738",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/logDepthDeclaration-13lVryE9.js",
+      "status": 200,
+      "bytes": 1846,
+      "sha256": "05529642e92373723085081657ab59e407d02880039691183007bd41ae6b2d5b",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/logDepthDeclaration-KCHydriS.js",
+      "status": 200,
+      "bytes": 1477,
+      "sha256": "9cec00823bf8b1d5427d641e350a1b4b0da8e63c40cd623cab5f0fc44bd417b4",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/kernelBlurVaryingDeclaration-DJNE4vog.js",
+      "status": 200,
+      "bytes": 180,
+      "sha256": "aecf27d4ba3f27551ad017152ef41f148a5eb85fa06afe2217e6eb90aa4c175d",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/ktxTextureLoader-CyPQj879.js",
+      "status": 200,
+      "bytes": 15798,
+      "sha256": "42035f48014943a91074b07a57b4f6a2fedda479992ce0539dc1ae0040a65861",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/mesh.vertexData.functions-ayNlGC5K.js",
+      "status": 200,
+      "bytes": 960,
+      "sha256": "109b0c291f78ec6b98053b23c7a9ce01eb8bcee909a0964ce337a68a9b4bc61e",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/morphTargetsVertex-BF3s9jEe.js",
+      "status": 200,
+      "bytes": 4353,
+      "sha256": "2a51823f8be44f04e97bbad1829e2c6b65ef5f3f3a8db8907a757e2a5681e8f8",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/packingFunctions-C00c2cny.js",
+      "status": 200,
+      "bytes": 521,
+      "sha256": "7c1d11f51ab69b2e251069d6037bdccedbafbf3c0890cbd78bdf90f12857e354",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/meshUboDeclaration-D6PyjG-h.js",
+      "status": 200,
+      "bytes": 557,
+      "sha256": "f6f185840bc71940d5367ef01a41f38817b622506656348cc697d30b455d282a",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/pass.fragment-CaT2zGSw.js",
+      "status": 200,
+      "bytes": 317,
+      "sha256": "2a9193205eaec5065549d7b0dfecce638ba39ad2d6c0f9445bc6544e7ea144b4",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/meshUboDeclaration-TX2yKaT4.js",
+      "status": 200,
+      "bytes": 561,
+      "sha256": "6859ae39d9101a47b44e8b5b29c65c1a537e058fa35a378e0441f194146225e4",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/passCube.fragment-C3wNy2nP.js",
+      "status": 200,
+      "bytes": 822,
+      "sha256": "9bcaf5533819c60b6da467188f659e63e39aaf3d5a403a4db12dfedd00fbc63e",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/passCube.fragment-C2I2jtar.js",
+      "status": 200,
+      "bytes": 1131,
+      "sha256": "40512a29e8b772fc967d64c6ff17ad5d600201dee59312adca35061dfe3ed230",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/passPostProcess-B0YCnZ6V.js",
+      "status": 200,
+      "bytes": 5344,
+      "sha256": "0fa8c7115b2db7ea8a7fbb6a58ce86e21742cab15b8f82148b6f3e8382b39dfd",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/rgbdDecode.fragment-8OjBhEJ4.js",
+      "status": 200,
+      "bytes": 548,
+      "sha256": "4a4e01b1245c94eb32554288048e05be0da9f482a613085ce6c59a98685a5f17",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/rgbdDecode.fragment-CKyDokSs.js",
+      "status": 200,
+      "bytes": 413,
+      "sha256": "c54c29dd2dad5d7f3e01d17a8e0f03843b446315a1b45272ce4c77540743bb3c",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/shadowMap.fragment-CNjrNF3G.js",
+      "status": 200,
+      "bytes": 3032,
+      "sha256": "51c569229ce959b601e421f8fac588d3835bedc30113c243ca1e3138829aa406",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/shadowMap.fragment-ZuK_EaMn.js",
+      "status": 200,
+      "bytes": 3663,
+      "sha256": "ef7ff8c02fcc3db114caf77384887dda657a4a23d92528d0c9bb59e7e0f19ba1",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/shadowMap.vertex-xzbiVGFn.js",
+      "status": 200,
+      "bytes": 4423,
+      "sha256": "41854447a28cbd6a5bec42376bc61d1445f7818afe452b370c92da95b1088088",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/shadowMap.vertex-C35g7230.js",
+      "status": 200,
+      "bytes": 4403,
+      "sha256": "0ac0c489abcd8f3a448c1894135fe1d179baa4cb2cec7d03d4b78f2fe0a3d88d",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/shadowMapFragmentSoftTransparentShadow-ccqz73p4.js",
+      "status": 200,
+      "bytes": 369,
+      "sha256": "87f27dee8f00b5323632bf17ff047809995867eafeceed0825594b96a146dde5",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/shadowMapFragmentSoftTransparentShadow-DVEf8aWW.js",
+      "status": 200,
+      "bytes": 404,
+      "sha256": "fdb10f7ed2adfed820a5c60f3af1aa9d34b72db8cf714f78849e2cfe83edb14b",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/vertexColorMixing-CbPePYgT.js",
+      "status": 200,
+      "bytes": 664,
+      "sha256": "f81a4fa14db040ebdf9717872cd0e26e066557f9df13783d7f3eaeb44a93eeb2",
+      "matchesLocal": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "bytes": 199,
+      "sha256": "4e1858f24e85cc71b88502caf6968c5ee53048485c18c63bfcc9ff800ec6fc10",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/pass.fragment-COqtsKUQ.js",
+      "status": 200,
+      "bytes": 451,
+      "sha256": "110b81d77b21ed21cbd38a63292d7551336169441777e4622f5e873560f15baa",
+      "matchesLocal": true
+    },
+    {
+      "path": "assets/tgaTextureLoader-MchnnQ7Z.js",
+      "status": 200,
+      "bytes": 3527,
+      "sha256": "96e72b571ed89a216651eefb20555d43dfa8003795f77960d8ac1b27de4d4322",
+      "matchesLocal": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 10120,
+      "sha256": "63a4a72fe09217744e6cf2945b3436d49d0db7b475a12a6b3960f470f7b73caf",
+      "matchesLocal": false
+    },
+    {
+      "path": "assets/vertexColorMixing-BcNVK-Io.js",
+      "status": 200,
+      "bytes": 929,
+      "sha256": "f4eaa25b152482d694263deb9ac7cd3bf22fe029fb6fc913f7a5f579e23265e9",
+      "matchesLocal": true
+    }
+  ],
+  "main": {
+    "path": "assets/index-BJJYocJ2.js",
+    "status": 200,
+    "bytes": 1425453,
+    "sha256": "7f336f7bee01486d1bd286cda4e6d64d5fb749bec83a1f51426200bba3278e92",
+    "matchesLocal": true
+  },
+  "onlinePlay": {
+    "method": "Supervisor ordinary live Pages667 phoneHUD with native keyboard lane and native screen mouse boost; no hidden writes. Not physical phone or two-thumb.",
+    "package": "index-BJJYocJ2.js",
+    "initialAttempt": "D1550ms and screen boost1000ms on visible rack distance60..68m did not open route; entered normal local repair loop. Exact first failure subtype not inferred from later state.",
+    "retry": "Waited visible local instruction推进约0.7秒，再落黄板; screen boost700ms; actual firing, wall/bridge progression and exit complete.",
+    "observed": [
+      "Opening objective sentence",
+      "Local repair loop available",
+      "Heavy actuator firing",
+      "Actual bridge traversal and escape completion",
+      "No big0 and gate behind completion UI",
+      "Retry wall resetclosed; menu restored",
+      "error/warn empty; viewport reset; new online tab retained"
+    ],
+    "userRecords": "Existing online best46883 preserved; localhost best47763 separately preserved."
+  },
+  "homepage": {
+    "status": 200,
+    "module": "./assets/index-BJJYocJ2.js",
+    "equalAfterLFNormalization": false,
+    "remoteCRLF": 0,
+    "localCRLF": 63,
+    "equalAfterRemovingCarriageReturns": true,
+    "difference": "Line endings only: local HTML contains CRLF plus one additional carriage return at fatal div; deployed HTML is LF. All60 non-index resources, including main JS, match exact bytes."
+  }
+}

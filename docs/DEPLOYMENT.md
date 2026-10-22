@@ -20,7 +20,7 @@ npm run dev
 npm run test:flow
 ```
 
-仓库保留源码、设计文档、最终冻结/验收摘要与选定阶段截图。较大的逐帧原始记录和失败原件留在本地 `docs/`，没有上传；文件未被删除。主控本轮覆盖及边界见 [CORE_ACCEPTANCE.md](CORE_ACCEPTANCE.md) 第十一、十二轮。
+仓库保留源码、设计文档、最终冻结/验收摘要与选定阶段截图。早期较大的逐帧原件保留在本地；停车场本轮的原生输入、失败记录与阶段图随提交保存，范围由各轮验证索引说明。主控本轮覆盖及边界见 [CORE_ACCEPTANCE.md](CORE_ACCEPTANCE.md) 第十一、十二轮。
 
 GitHub 说明：[Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
 
@@ -45,3 +45,12 @@ GitHub 说明：[Pages 自定义工作流](https://docs.github.com/en/pages/gett
 [检查、构建与部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39788378120)，游戏提交 `ada8fee36187d25e2c004eab34ed059e2adf8f1c`。最终包 `index-BqvO1ECL.js`，SHA256 `c48f82b2216dab849fefff22aaf4a396f45749d8e160f9ad878d67e7424bb754`。主控独立129项检查通过，相对构建与88项冻结匹配；低空360采样与旧版完全一致。
 
 主控本地手机HUD原速90秒3140分、8/9、1次修复；最终生产667一跳精准4680。开发最终667最大/844默认原生CDP双指各4780，和48组布局边界诊断已分开审阅，不代表实体手机。线上首页/59静态资源HTTP200、主包SHA一致；主控线上667横屏用屏幕推进与键盘三轴完成精准4680/总4780，另推进2秒到DOM29.8米显示高度上限并自然回落，一跳完成。重试、菜单和浏览器尺寸恢复正常，无错误/警告。线上只做两条一跳冒烟，完整90秒在本地Dg候选，最终Bq显示修订后做针对复验。详见CORE_ACCEPTANCE第十四轮和mobile-hud-deployment.json。
+
+
+## 停车场机关逃脱更新（2026-10-22）
+
+[检查、构建与部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39807619243)，游戏提交 `0beee2178966ec6b349bea3d0f426148fdf5b22a`。主入口为“停车场不让你走”，无总倒计时，包含穿架补气、重压弹车、破墙开桥与出口。三轴、气压、限高、原计分与落地力度保持。
+
+独立137项全量及冻结后8项专项通过，240采样对照一致；最终PC/667/844生产原生证据绑定BJJY。主包 `index-BJJYocJ2.js` SHA256 `7f336f7bee01486d1bd286cda4e6d64d5fb749bec83a1f51426200bba3278e92`，1425453字节，线上与独立构建精确一致。首页及60资源全部200；60非index资源字节全同，index仅CR/LF差异，去CR后相同。
+
+主控线上667原生键盘选宽路加屏幕推进，首跳未开路后按架后维修提示推进700ms，实际重压开路、过桥到出口；无大0或门柱遮挡，重试wall恢复closed、菜单正常、控制台error/warn空，视口已reset。不是线上一跳零失误或实体手机验证。详见[发布证据](parking-deployment.json)与[本轮验收](CORE_ACCEPTANCE.md)。
