@@ -37,5 +37,15 @@
     "Earlier native photo/read delays",
     "Supervisor old hint matcher timeout",
     "98/99 before first supply-ring height correction"
-  ]
+  ],
+  "published": {
+    "repository": "https://github.com/cr3atL/car-flycontral",
+    "pages": "https://cr3atl.github.io/car-flycontral/",
+    "run": "https://github.com/cr3atL/car-flycontral/actions/runs/39745605901",
+    "commit": "02eb356226cc8e0c7e5da5c3235ae19cbf790346",
+    "conclusion": "success",
+    "allAssets200": 59,
+    "bundleHashMatches": true,
+    "actualUI": "Online practice: Space1000ms then D+Q+W1100ms, real three actions and refill, precise landing +4680, no console error/warn."
+  }
 }
