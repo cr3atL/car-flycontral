@@ -55,5 +55,26 @@
     "First unreadable footprint/sky contrast/missing retry UI",
     "Capture wait missed transient state, fixed finite waits after releases",
     "Developer production fixture incorrectly awaited hidden countdown as visible"
-  ]
+  ],
+  "published": {
+    "repository": "https://github.com/cr3atL/car-flycontral",
+    "pages": "https://cr3atl.github.io/car-flycontral/",
+    "run": "https://github.com/cr3atL/car-flycontral/actions/runs/39765545025",
+    "commit": "1ec63d238cbbb84347a30945c978177a09ca6612",
+    "conclusion": "success",
+    "homeStatus": 200,
+    "sha256": "87c2138066b566d0f43f25ee0cc5a4b7504f7a740fbd6d480661594dbed189f3",
+    "assetCount": 59,
+    "failures": [],
+    "onlineUI": {
+      "method": "Ordinary GitHub Pages production UI keyboard, no debug/state/time writes",
+      "boostMs": 1000,
+      "threeAxesMs": 1100,
+      "preciseBank": 4680,
+      "settledTotal": 4780,
+      "mouseRetryClearedTotal": true,
+      "returnedToMenu": true,
+      "errors": []
+    }
+  }
 }

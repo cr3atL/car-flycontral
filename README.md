@@ -2,15 +2,19 @@
 
 Babylon.js 飞行汽车游戏。当前90秒挑战已重组为连续施工组合：车阵、错列双障碍、断桥补气、有限低桥、开放表演、升降闸和最终组合。精准落地按真实姿态、方向、每轴转速和接近速度判定；预计落点明确表示松手后的趋势。连续三段冲刺、自由练习与三模式共享的强喷气/补气/速度反馈保留。
 
+PC HUD按地面、特技、准备落地和接地入账切换；前路提示贴实际障碍，预计朝向用车形与真实点连线，完成后可直接再来。完整键位可在暂停查看，手机沿用触控布局。
+
 ## 开始玩
+
+[在线试玩](https://cr3atl.github.io/car-flycontral/) · [源码仓库](https://github.com/cr3atL/car-flycontral)
 
 打开[生产预览 localhost:4173](http://localhost:4173/)，选择“开始90秒挑战”。前20秒先飞、短按感受转动、再按住体验持续旋转；后续障碍已提前构建，可在接地时看见下一组。基础路线按黄区提示：车阵点按，错列约0.55秒，断桥约0.8秒，低桥和闸点按，最终组合约0.55秒。可选环未拿到也能安全完成。
 
 断桥表演可用推进约1.1秒→松推进、DQW约1.1秒→松手约0.15秒→推进约0.4秒→松推进、DQW约1秒→全松手收势。普通双拇指先释放推进，再左区平转、右区斜拖滚/翻。接续中留出制动和落地时间。
 
-青色预计趋势可精准，黄色仍需调整，缺口有红色断环和“无安全地面”。精准阈值为倾斜18°、方向25°、每轴0.6rad/s、接近速度4.6m/s；命中落地区单列，不另加分。实际没精准会显示真实主因。
+青色预计趋势可精准，黄色仍需调整，缺口有红色断裂落点指示和“无安全地面”。精准阈值为倾斜18°、方向25°、每轴0.6rad/s、接近速度4.6m/s；命中落地区单列，不另加分。实际没精准会显示真实主因。
 
-“连续三段”仍按约0.5/0.8/0.5秒推进，精准接地后顺势冲出；“自由练习”保留施工车阵的一跳体验。练习与三段可按R重试；90秒使用重开按钮。已有页面需要重载取得新版。
+“连续三段”仍按约0.5/0.8/0.5秒推进，精准接地后顺势冲出；“自由练习”保留施工车阵的一跳体验。练习与三段可按R重试；90秒可在暂停菜单重新开始。已有页面需要重载取得新版。
 
 ## 操作
 
@@ -29,14 +33,14 @@ Babylon.js 飞行汽车游戏。当前90秒挑战已重组为连续施工组合�
 
 ## 当前交付
 
-生产包 `index-CSK3ViHC.js`，SHA256 `c1ec63016e9de0c8defeef1686cbe0d618d582bbf68a57ffad5cf8b212a65bf4`，相对路径构建。99/99单元、11个浏览器用例通过；PC基础及PC/844/667表演完整90秒均9/9、零撞毁。主控已独立构建匹配70项冻结文件，独立99/99通过，并实际完整试玩表演路线和复验最终首车阵。
+生产包 `index-BjoQz9Zg.js`，SHA256 `87c2138066b566d0f43f25ee0cc5a4b7504f7a740fbd6d480661594dbed189f3`，相对路径构建。HUD/计分相关18项单测、5项浏览器检查通过；主控独立全量111/111通过。主控独立构建已匹配74项运行时/测试文件。
 
-运行时和测试已冻结，由GitHub Actions检查后部署Pages。四份完整90秒记录早于最终首环布局小修；最终环按自然轨迹修正，并原速验证请求30、到账18、精准接地。原始失败、版本范围、名义与实际输入时长均保留。桌面Edge触屏模拟不代称实体手机/iOS、人耳听验或FPS专项完成。
+运行时与测试已冻结。主控已普通UI验收四状态、失误、重试及BDD候选完整90秒9/9、2700、零修复。最终版本的真实投影点、旧撞毁结果和无地面用词边界也已由主控实际复验，页面无异常；原始失败及版本范围保留。GitHub Pages已更新，线上实际三轴→精准4680入账→总4780及鼠标重试通过。
 
-- [本轮实现与实际按法](docs/CHALLENGE_FLOW_IMPLEMENTATION.md)
-- [本轮验证摘要](docs/challenge-flow-validation.json)与[运行时/测试冻结](docs/challenge-flow-runtime-freeze.json)
-- [共享呈现实现](docs/SHARED_EFFECTS_IMPLEMENTATION.md)与[此前主控独立验收](docs/shared-fx-supervisor-final.json)
-- [三段布局基线](docs/SPRINT_IMPLEMENTATION.md)、[连续操控规则](docs/CONTINUOUS_CONTROL.md)、[一跳基线](docs/ONE_JUMP_EXPERIENCE.md)
+- [PC HUD实现与四状态原图](docs/PC_HUD_IMPLEMENTATION.md)
+- [HUD验证摘要](docs/pc-hud-validation.json)与[运行时/测试冻结](docs/pc-hud-runtime-freeze.json)
+- [90秒路线与实际按法](docs/CHALLENGE_FLOW_IMPLEMENTATION.md)、[路线验证基线](docs/challenge-flow-validation.json)
+- [共享呈现](docs/SHARED_EFFECTS_IMPLEMENTATION.md)、[三段布局](docs/SPRINT_IMPLEMENTATION.md)、[连续操控](docs/CONTINUOUS_CONTROL.md)
 
 ## 本地开发
 
@@ -47,6 +51,7 @@ npm test
 npm run test:sprint
 npm run test:shared
 npm run test:flow
+npm run test:hud
 node scripts/sprint-scenario.mjs
 npm run build -- --base=./
 npm run preview

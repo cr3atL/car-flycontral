@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-22",
+  "production": {
+    "file": "dist/assets/index-BjoQz9Zg.js",
+    "sha256": "87c2138066b566d0f43f25ee0cc5a4b7504f7a740fbd6d480661594dbed189f3",
+    "base": "./",
+    "bytes": 1400790
+  },
+  "status": "Runtime/tests frozen. Supervisor independent111/111, 74-file matching build, final production targeted UI and GitHub Pages online smoke all passed.",
+  "focusedUnit": {
+    "passed": 18,
+    "failed": 0,
+    "command": "node --test tests/hud-model.test.js tests/feedback.test.js",
+    "log": "pc-hud-unit.log"
+  },
+  "browser": {
+    "passed": 5,
+    "failed": 0,
+    "command": "npm run test:hud",
+    "log": "pc-hud-browser.log",
+    "cases": [
+      "Production native direction error, zero-score true result, clickable retry and menu",
+      "Independent world-projection endpoint/signed-heading diagnostic",
+      "Native actual gap, unsafe wording, red broken shape, recovery/pause/menu",
+      "844 native two-thumb compatibility and mobile pause help",
+      "667 native two-thumb compatibility and mobile pause help"
+    ]
+  },
+  "nativeFourStateTiming": {
+    "evidence": "docs/pc-hud-candidate-native.json",
+    "version": "first5r candidate; timing code retained in final, validated by final HUD unit cases",
+    "maximumRows": 3,
+    "idleHiddenBeforeContact": true,
+    "minimumBankAgeSeconds": 0.5333333333333599,
+    "actualFinalTotal": 4780,
+    "anyPaneVisibleInFirst0_53s": false
+  },
+  "productionFourStateImages": {
+    "ground": "docs/screenshots/pc-hud-production-ground.png",
+    "air": "docs/screenshots/pc-hud-production-air.png",
+    "landing": "docs/screenshots/pc-hud-production-final-direction.png",
+    "bank": "docs/screenshots/pc-hud-production-bank.png"
+  },
+  "imageVersionScope": "Ground/air/bank images are BDD production; final Bjo direction/unsafe/zero-result images cover corrected projection cache, failure-state and unsafe wording. No claim that the full four-state normal trial or90s was repeated after these narrow display fixes.",
+  "productionInputs": {
+    "evidence": "docs/pc-hud-production-failure-1792664178197.json",
+    "firstNormalTrialActualWallDurations": [
+      {
+        "code": "Space",
+        "actualWallMs": 1026.800000011921,
+        "trusted": true
+      },
+      {
+        "code": "KeyD",
+        "actualWallMs": 1131.8999999761581,
+        "trusted": true
+      },
+      {
+        "code": "KeyQ",
+        "actualWallMs": 1131.800000011921,
+        "trusted": true
+      },
+      {
+        "code": "KeyW",
+        "actualWallMs": 1131.7999999523163,
+        "trusted": true
+      }
+    ],
+    "plannedMs": {
+      "boost": 1000,
+      "axes": 1100
+    },
+    "scope": "First normal production four-state trial completed. Subsequent no-score direction fixture timed out on an incorrectly visible-waited hidden countdown; retained as fixture failure."
+  },
+  "finalDirection": "docs/pc-hud-production-final-direction.json",
+  "projection": "docs/pc-hud-projection-check.json",
+  "gap": "docs/pc-hud-final-gap.json",
+  "phones": [
+    {
+      "width": 844,
+      "evidence": "docs/pc-hud-mobile-844.json",
+      "grade": 0,
+      "actualTotal": 4780,
+      "crashes": 0,
+      "releaseEvents": [
+        {
+          "axis": "pitch",
+          "duration": 1.150000000000027,
+          "drivenTime": 1.1499999999999984
+        },
+        {
+          "axis": "roll",
+          "duration": 1.150000000000027,
+          "drivenTime": 1.1499999999999984
+        },
+        {
+          "axis": "yaw",
+          "duration": 1.175000000000027,
+          "drivenTime": 1.1749999999999983
+        }
+      ],
+      "help": "右下推进：点按18点完整脉冲，按住持续16点/秒。",
+      "image": "docs/screenshots/pc-hud-mobile-844.png"
+    },
+    {
+      "width": 667,
+      "evidence": "docs/pc-hud-mobile-667.json",
+      "grade": 0,
+      "actualTotal": 4780,
+      "crashes": 0,
+      "releaseEvents": [
+        {
+          "axis": "pitch",
+          "duration": 1.1500000000000266,
+          "drivenTime": 1.1499999999999984
+        },
+        {
+          "axis": "roll",
+          "duration": 1.1500000000000266,
+          "drivenTime": 1.1499999999999984
+        },
+        {
+          "axis": "yaw",
+          "duration": 1.191666666666693,
+          "drivenTime": 1.1916666666666649
+        }
+      ],
+      "help": "右下推进：点按18点完整脉冲，按住持续16点/秒。",
+      "image": "docs/screenshots/pc-hud-mobile-667.png"
+    }
+  ],
+  "physicsComparison": "docs/pc-hud-physics-comparison.json",
+  "protectedException": {
+    "addedReturnFields": "heading:g.yaw+g.heading,pitch:g.pitch,",
+    "location": "Existing predictReleaseLanding clone contact return object only",
+    "removingFieldsRestoresExactOriginalHash": true,
+    "physicsComparison": "docs/pc-hud-physics-comparison.json"
+  },
+  "failures": [
+    "docs/pc-hud-production-failure-1792664178197.json",
+    "pc-hud-unit-before-boundary-fix.log"
+  ],
+  "failureScopes": [
+    "Initial forecast car mesh was occluded; SVG visibility property did not remove its hidden attribute. Actual pixel review led to toggleAttribute and a connected unobstructed heading glyph, retaining the real projection point.",
+    "A reused projection-result object overwrote forecast coordinates with vehicle coordinates. Final clones the forecast coordinates; independent endpoint test compares to scene projection and verifies a different vehicle point.",
+    "Recovered old grade3 contact could enter a normal result branch. Final excludes grade3 fallback, keeps true interruption and creates no success/bank.",
+    "Production fixture mistakenly waited for a hidden countdown selector to be visible. Four prior state images/input history retained; final focused native direction fixture passed without that wait."
+  ],
+  "limits": "Desktop Edge keyboard and CDP touch emulation, not physical phones/iOS or subjective audio verification. No FPS/thermal project. No physics/scoring change; only read-only heading/pitch observations in protected simulation. No git/remote/workflow/CORE_ACCEPTANCE changes by this development task.",
+  "independentBuild": {
+    "matchedRuntimeAndTests": 74,
+    "productionHashMatches": true
+  },
+  "independentFullSuite": {
+    "passed": 111,
+    "failed": 0,
+    "source": "Supervisor independent full npm test"
+  },
+  "independentProduction": {
+    "predictedYawDegrees": 46.713,
+    "directionGlyphReadable": true,
+    "unsafeTimeCaptionHidden": true,
+    "redBrokenCarVisible": true,
+    "menuCleared": true,
+    "pageErrors": []
+  },
+  "supervisorPublication": {
+    "evidence": "docs/pc-hud-supervisor-final.json",
+    "deployment": "docs/pc-hud-deployment.json",
+    "sourceCommit": "1ec63d238cbbb84347a30945c978177a09ca6612",
+    "run": "https://github.com/cr3atL/car-flycontral/actions/runs/39765545025"
+  }
+}
