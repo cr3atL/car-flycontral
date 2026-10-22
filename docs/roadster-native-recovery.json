@@ -1,0 +1,736 @@
+{
+  "method": "real-time native keyboard only; read-only observations; actual start/low departure and collision, automatic recovery; no state writes",
+  "pass": true,
+  "records": [
+    {
+      "name": "airborne-exit-not-complete",
+      "state": {
+        "time": 7.508333333333496,
+        "x": 0,
+        "y": 240.1054916967346,
+        "z": 225.9918575369002,
+        "vx": 0,
+        "vy": 37.39639156802434,
+        "vz": 44.1180837792502,
+        "speed": 44.1180837792502,
+        "heading": 0,
+        "pitch": 0.0352910842671858,
+        "roll": 0,
+        "reference": 0,
+        "pressure": 0,
+        "grounded": false,
+        "surface": null,
+        "input": {
+          "throttle": 1,
+          "steer": 0,
+          "lift": true
+        },
+        "jets": {
+          "lift": 26.999999999999993,
+          "forward": 8.999999999999996,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "start",
+          "x": 0,
+          "z": 12,
+          "heading": 0,
+          "y": 0
+        },
+        "visits": {
+          "low": 0,
+          "high": 0,
+          "far": 0
+        },
+        "complete": false,
+        "crashTimer": 0,
+        "reason": "",
+        "recoveryNotice": null,
+        "landingCount": 0,
+        "lastLanding": null,
+        "events": [
+          {
+            "type": "takeoff",
+            "time": 1.1499999999999984,
+            "x": 0,
+            "y": 0,
+            "z": 14.412966496533901,
+            "pressure": 99.78741795162524,
+            "from": "start",
+            "vx": 0,
+            "vz": 9.378556519007926
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 1,
+          "steer": 0,
+          "lift": true,
+          "keys": [
+            "KeyW",
+            "Space"
+          ],
+          "pointers": []
+        },
+        "prediction": {
+          "trace": [
+            {
+              "x": 0,
+              "y": 240.1054916967346,
+              "z": 225.9918575369002
+            },
+            {
+              "x": 0,
+              "y": 240.41671857091256,
+              "z": 226.3594714699908
+            },
+            {
+              "x": 0,
+              "y": 245.8786773061162,
+              "z": 232.97023962812037
+            },
+            {
+              "x": 0,
+              "y": 251.07513604131987,
+              "z": 239.5691185126482
+            },
+            {
+              "x": 0,
+              "y": 256.0060947765235,
+              "z": 246.15612950608593
+            },
+            {
+              "x": 0,
+              "y": 260.67155351172715,
+              "z": 252.7312939524893
+            },
+            {
+              "x": 0,
+              "y": 265.07151224693075,
+              "z": 259.29463315752747
+            },
+            {
+              "x": 0,
+              "y": 269.2059709821344,
+              "z": 265.84616838855186
+            },
+            {
+              "x": 0,
+              "y": 273.074929717338,
+              "z": 272.3859208746652
+            },
+            {
+              "x": 0,
+              "y": 276.67838845254164,
+              "z": 278.9139118067905
+            }
+          ],
+          "x": 0,
+          "y": 279.8378703135673,
+          "z": 285.06845606450145,
+          "time": 1.3499999999999748,
+          "safe": false,
+          "reason": "驶出试验场",
+          "surface": null,
+          "heading": 0
+        },
+        "world": {
+          "meshes": 94,
+          "rightHanded": false,
+          "camera": {
+            "x": 0,
+            "y": 239.78513764915422,
+            "z": 203.05258763229816
+          },
+          "assetMeshes": 94
+        }
+      }
+    },
+    {
+      "name": "start-crash-recovery",
+      "wallMs": 825,
+      "crashed": {
+        "time": 9.041666666666794,
+        "x": 0,
+        "y": 279.8378703135673,
+        "z": 285.06845606450145,
+        "vx": 0,
+        "vy": 21.46639156802425,
+        "vz": 43.4090936979109,
+        "speed": 43.4090936979109,
+        "heading": 0,
+        "pitch": -0.02842891537124033,
+        "roll": 0,
+        "reference": 0,
+        "pressure": 0,
+        "grounded": false,
+        "surface": null,
+        "input": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false
+        },
+        "jets": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "start",
+          "x": 0,
+          "z": 12,
+          "heading": 0,
+          "y": 0
+        },
+        "visits": {
+          "low": 0,
+          "high": 0,
+          "far": 0
+        },
+        "complete": false,
+        "crashTimer": 0.7666666666666673,
+        "reason": "驶出试验场",
+        "recoveryNotice": null,
+        "landingCount": 0,
+        "lastLanding": null,
+        "events": [
+          {
+            "type": "takeoff",
+            "time": 1.1499999999999984,
+            "x": 0,
+            "y": 0,
+            "z": 14.412966496533901,
+            "pressure": 99.78741795162524,
+            "from": "start",
+            "vx": 0,
+            "vz": 9.378556519007926
+          },
+          {
+            "type": "crash",
+            "time": 8.858333333333471,
+            "x": 0,
+            "y": 279.8378703135673,
+            "z": 285.06845606450145,
+            "pressure": 0,
+            "reason": "驶出试验场"
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false,
+          "keys": [],
+          "pointers": []
+        },
+        "prediction": null,
+        "world": {
+          "meshes": 94,
+          "rightHanded": false,
+          "camera": {
+            "x": 0,
+            "y": 283.9025727784795,
+            "z": 267.36029410295225
+          },
+          "assetMeshes": 94
+        }
+      },
+      "recovered": {
+        "time": 9.87500000000008,
+        "x": 0,
+        "y": 0,
+        "z": 12,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "speed": 0,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "reference": 0,
+        "pressure": 100,
+        "grounded": true,
+        "surface": "start",
+        "input": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false
+        },
+        "jets": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "start",
+          "x": 0,
+          "z": 12,
+          "heading": 0,
+          "y": 0
+        },
+        "visits": {
+          "low": 0,
+          "high": 0,
+          "far": 0
+        },
+        "complete": false,
+        "crashTimer": 0,
+        "reason": "",
+        "recoveryNotice": {
+          "reason": "驶出试验场",
+          "time": 9.81666666666675
+        },
+        "landingCount": 0,
+        "lastLanding": null,
+        "events": [
+          {
+            "type": "takeoff",
+            "time": 1.1499999999999984,
+            "x": 0,
+            "y": 0,
+            "z": 14.412966496533901,
+            "pressure": 99.78741795162524,
+            "from": "start",
+            "vx": 0,
+            "vz": 9.378556519007926
+          },
+          {
+            "type": "crash",
+            "time": 8.858333333333471,
+            "x": 0,
+            "y": 279.8378703135673,
+            "z": 285.06845606450145,
+            "pressure": 0,
+            "reason": "驶出试验场"
+          },
+          {
+            "type": "reset",
+            "time": 9.81666666666675,
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "pressure": 100,
+            "checkpoint": "start"
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false,
+          "keys": [],
+          "pointers": []
+        },
+        "prediction": null,
+        "world": {
+          "meshes": 94,
+          "rightHanded": false,
+          "camera": {
+            "x": 0,
+            "y": 193.30248818930988,
+            "z": 194.95493112341325
+          },
+          "assetMeshes": 94
+        }
+      }
+    },
+    {
+      "name": "stable-low-checkpoint",
+      "state": {
+        "time": 9.341666666666777,
+        "x": -24.061161236871456,
+        "y": 4,
+        "z": 133.3289188501897,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "speed": 0,
+        "heading": -0.6245264014450499,
+        "pitch": 4.406951472198959e-8,
+        "roll": 5.344194629807317e-13,
+        "reference": -0.6245264014450499,
+        "pressure": 100,
+        "grounded": true,
+        "surface": "low",
+        "input": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false
+        },
+        "jets": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "low",
+          "x": -24,
+          "z": 130,
+          "heading": 0.65,
+          "y": 4
+        },
+        "visits": {
+          "low": 1,
+          "high": 0,
+          "far": 0
+        },
+        "complete": false,
+        "crashTimer": 0,
+        "reason": "",
+        "recoveryNotice": null,
+        "landingCount": 1,
+        "lastLanding": {
+          "time": 7.5833333333335,
+          "surface": "low",
+          "impact": 16.385372344094286,
+          "safe": true,
+          "flight": 1
+        },
+        "events": [
+          {
+            "type": "takeoff",
+            "time": 4.008333333333322,
+            "x": -0.006659567668836423,
+            "y": 0,
+            "z": 77.02243252502646,
+            "pressure": 99.78741795162524,
+            "from": "runway",
+            "vx": -0.3929054395017397,
+            "vz": 27.81449201417714
+          },
+          {
+            "type": "landing",
+            "time": 7.5833333333335,
+            "x": -24.061161236871456,
+            "y": 4,
+            "z": 133.3289188501897,
+            "pressure": 60.92515356667524,
+            "surface": "low",
+            "impact": 16.385372344094286,
+            "safe": true,
+            "flight": 1
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false,
+          "keys": [],
+          "pointers": []
+        },
+        "prediction": null,
+        "world": {
+          "meshes": 94,
+          "rightHanded": false,
+          "camera": {
+            "x": -17.922108794338005,
+            "y": 8.400026357227306,
+            "z": 124.81056425074918
+          },
+          "assetMeshes": 94
+        }
+      }
+    },
+    {
+      "name": "low-crash-recovery",
+      "wallMs": 951,
+      "crashed": {
+        "time": 15.024999999999787,
+        "x": -100.07844948929679,
+        "y": 211.96703593902697,
+        "z": 238.79649076798876,
+        "vx": -21.221311368079416,
+        "vy": 46.44305823469128,
+        "vz": 29.44277853572957,
+        "speed": 36.29354300815772,
+        "heading": -0.6245264016347282,
+        "pitch": 0.07147758461699899,
+        "roll": 3.168602915407487e-30,
+        "reference": -0.6245264016347278,
+        "pressure": 0,
+        "grounded": false,
+        "surface": null,
+        "input": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false
+        },
+        "jets": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "low",
+          "x": -24,
+          "z": 130,
+          "heading": 0.65,
+          "y": 4
+        },
+        "visits": {
+          "low": 1,
+          "high": 0,
+          "far": 0
+        },
+        "complete": false,
+        "crashTimer": 0.9333333333333333,
+        "reason": "驶出试验场",
+        "recoveryNotice": null,
+        "landingCount": 1,
+        "lastLanding": {
+          "time": 7.5833333333335,
+          "surface": "low",
+          "impact": 16.385372344094286,
+          "safe": true,
+          "flight": 1
+        },
+        "events": [
+          {
+            "type": "takeoff",
+            "time": 4.008333333333322,
+            "x": -0.006659567668836423,
+            "y": 0,
+            "z": 77.02243252502646,
+            "pressure": 99.78741795162524,
+            "from": "runway",
+            "vx": -0.3929054395017397,
+            "vz": 27.81449201417714
+          },
+          {
+            "type": "landing",
+            "time": 7.5833333333335,
+            "x": -24.061161236871456,
+            "y": 4,
+            "z": 133.3289188501897,
+            "pressure": 60.92515356667524,
+            "surface": "low",
+            "impact": 16.385372344094286,
+            "safe": true,
+            "flight": 1
+          },
+          {
+            "type": "takeoff",
+            "time": 9.416666666666773,
+            "x": -24.070980021160395,
+            "y": 4,
+            "z": 133.34254158472942,
+            "pressure": 99.78741795162524,
+            "from": "low",
+            "vx": -0.3361303194434997,
+            "vz": 0.46635245027341665
+          },
+          {
+            "type": "crash",
+            "time": 15.008333333333121,
+            "x": -100.07844948929679,
+            "y": 211.96703593902697,
+            "z": 238.79649076798876,
+            "pressure": 0,
+            "reason": "驶出试验场"
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false,
+          "keys": [],
+          "pointers": []
+        },
+        "prediction": null,
+        "world": {
+          "meshes": 94,
+          "rightHanded": false,
+          "camera": {
+            "x": -88.2719845173709,
+            "y": 210.92565878701112,
+            "z": 222.41601703351157
+          },
+          "assetMeshes": 94
+        }
+      },
+      "recovered": {
+        "time": 15.974999999999733,
+        "x": -24,
+        "y": 4,
+        "z": 130,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "speed": 0,
+        "heading": 0.6499999999999999,
+        "pitch": 0,
+        "roll": 0,
+        "reference": 0.6499999999999999,
+        "pressure": 100,
+        "grounded": true,
+        "surface": "low",
+        "input": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false
+        },
+        "jets": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "low",
+          "x": -24,
+          "z": 130,
+          "heading": 0.65,
+          "y": 4
+        },
+        "visits": {
+          "low": 1,
+          "high": 0,
+          "far": 0
+        },
+        "complete": false,
+        "crashTimer": 0,
+        "reason": "",
+        "recoveryNotice": {
+          "reason": "驶出试验场",
+          "time": 15.9666666666664
+        },
+        "landingCount": 1,
+        "lastLanding": null,
+        "events": [
+          {
+            "type": "takeoff",
+            "time": 4.008333333333322,
+            "x": -0.006659567668836423,
+            "y": 0,
+            "z": 77.02243252502646,
+            "pressure": 99.78741795162524,
+            "from": "runway",
+            "vx": -0.3929054395017397,
+            "vz": 27.81449201417714
+          },
+          {
+            "type": "landing",
+            "time": 7.5833333333335,
+            "x": -24.061161236871456,
+            "y": 4,
+            "z": 133.3289188501897,
+            "pressure": 60.92515356667524,
+            "surface": "low",
+            "impact": 16.385372344094286,
+            "safe": true,
+            "flight": 1
+          },
+          {
+            "type": "takeoff",
+            "time": 9.416666666666773,
+            "x": -24.070980021160395,
+            "y": 4,
+            "z": 133.34254158472942,
+            "pressure": 99.78741795162524,
+            "from": "low",
+            "vx": -0.3361303194434997,
+            "vz": 0.46635245027341665
+          },
+          {
+            "type": "crash",
+            "time": 15.008333333333121,
+            "x": -100.07844948929679,
+            "y": 211.96703593902697,
+            "z": 238.79649076798876,
+            "pressure": 0,
+            "reason": "驶出试验场"
+          },
+          {
+            "type": "reset",
+            "time": 15.9666666666664,
+            "x": -24,
+            "y": 4,
+            "z": 130,
+            "pressure": 100,
+            "checkpoint": "low"
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false,
+          "keys": [],
+          "pointers": []
+        },
+        "prediction": null,
+        "world": {
+          "meshes": 94,
+          "rightHanded": false,
+          "camera": {
+            "x": -86.02385202841086,
+            "y": 197.64522491346642,
+            "z": 218.9573759953499
+          },
+          "assetMeshes": 94
+        }
+      }
+    }
+  ]
+}

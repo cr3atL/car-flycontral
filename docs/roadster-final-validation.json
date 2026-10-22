@@ -1,0 +1,282 @@
+{
+  "createdAt": "2026-10-22T18:03:34.865Z",
+  "status": "Implementation frozen for supervisor production review; human usability acceptance remains incomplete.",
+  "entry": "/roadster.html",
+  "production": {
+    "chunk": "roadster-28PJ6-kN.js",
+    "path": "dist/assets/roadster-28PJ6-kN.js",
+    "bytes": 683836,
+    "sha256": "f3f848e4d83f6132d258e97bf431740fad488a1a40fbe67b8f12bab73098b35d",
+    "lfSha256": "f3f848e4d83f6132d258e97bf431740fad488a1a40fbe67b8f12bab73098b35d"
+  },
+  "tests": {
+    "total": 155,
+    "passed": 155,
+    "failed": 0,
+    "newCore": 18,
+    "legacy": 137,
+    "log": "docs/roadster-all-unit.txt",
+    "newCoreLog": "docs/roadster-unit.txt",
+    "independentSupervisor": "155/155 independently reported by supervisor; protected seven legacy sources LF-identical.",
+    "independentSupervisorLog": "roadster-supervisor-test.log"
+  },
+  "nativeAutomation": {
+    "environment": "Windows, headless Microsoft Edge/Chromium, real-time render loop; native keyboard and independent touch events; read-only state feedback after platform and toward exit. No advance/setManual/position/velocity/pressure/completion writes. Not manual human usability evidence.",
+    "totalCompleteRuns": 27,
+    "groups": [
+      {
+        "device": "pc",
+        "viewport": "1280x720",
+        "route": "direct",
+        "pass": 3,
+        "consecutive": 3,
+        "path": "docs/roadster-native-pc-direct.json",
+        "wallMs": [
+          11511,
+          11739,
+          10304
+        ],
+        "finishTimes": [
+          8.00833333333352,
+          7.91666666666685,
+          8.00833333333352
+        ]
+      },
+      {
+        "device": "pc",
+        "viewport": "1280x720",
+        "route": "low",
+        "pass": 3,
+        "consecutive": 3,
+        "path": "docs/roadster-native-pc-low.json",
+        "wallMs": [
+          21907,
+          20864,
+          20823
+        ],
+        "finishTimes": [
+          19.4916666666662,
+          19.699999999999523,
+          19.408333333332873
+        ]
+      },
+      {
+        "device": "pc",
+        "viewport": "1280x720",
+        "route": "high",
+        "pass": 3,
+        "consecutive": 3,
+        "path": "docs/roadster-native-pc-high.json",
+        "wallMs": [
+          23443,
+          20953,
+          21405
+        ],
+        "finishTimes": [
+          20.06666666666617,
+          19.54999999999953,
+          19.683333333332858
+        ]
+      },
+      {
+        "device": "mobile",
+        "viewport": "915x412",
+        "route": "direct",
+        "pass": 3,
+        "consecutive": 3,
+        "path": "docs/roadster-native-mobile-direct.json",
+        "wallMs": [
+          11515,
+          9961,
+          10000
+        ],
+        "finishTimes": [
+          8.250000000000172,
+          8.175000000000177,
+          8.108333333333514
+        ]
+      },
+      {
+        "device": "mobile",
+        "viewport": "915x412",
+        "route": "low",
+        "pass": 3,
+        "consecutive": 3,
+        "path": "docs/roadster-native-mobile-low.json",
+        "wallMs": [
+          23543,
+          26668,
+          22461
+        ],
+        "finishTimes": [
+          20.74166666666613,
+          24.799999999999233,
+          20.908333333332788
+        ]
+      },
+      {
+        "device": "mobile",
+        "viewport": "915x412",
+        "route": "high",
+        "pass": 3,
+        "consecutive": 3,
+        "path": "docs/roadster-native-mobile-high.json",
+        "wallMs": [
+          23294,
+          21139,
+          20722
+        ],
+        "finishTimes": [
+          20.283333333332823,
+          20.24166666666616,
+          19.908333333332845
+        ]
+      },
+      {
+        "device": "mobile-667",
+        "viewport": "667x375",
+        "route": "direct",
+        "pass": 3,
+        "consecutive": 3,
+        "path": "docs/roadster-native-mobile-667-direct.json",
+        "wallMs": [
+          11019,
+          8950,
+          8966
+        ],
+        "finishTimes": [
+          8.30000000000017,
+          8.04166666666685,
+          8.091666666666848
+        ]
+      },
+      {
+        "device": "mobile-667",
+        "viewport": "667x375",
+        "route": "low",
+        "pass": 3,
+        "consecutive": 3,
+        "path": "docs/roadster-native-mobile-667-low.json",
+        "wallMs": [
+          23022,
+          20927,
+          21741
+        ],
+        "finishTimes": [
+          20.258333333332825,
+          19.874999999999513,
+          20.383333333332818
+        ]
+      },
+      {
+        "device": "mobile-667",
+        "viewport": "667x375",
+        "route": "high",
+        "pass": 3,
+        "consecutive": 3,
+        "path": "docs/roadster-native-mobile-667-high.json",
+        "wallMs": [
+          22733,
+          21548,
+          20434
+        ],
+        "finishTimes": [
+          20.058333333332836,
+          20.433333333332815,
+          19.641666666666193
+        ]
+      }
+    ],
+    "change": {
+      "pass": true,
+      "path": "docs/roadster-native-pc-change.json",
+      "fromPrediction": "low",
+      "toActual": "recovery"
+    },
+    "groundReturn": {
+      "pass": true,
+      "path": "docs/roadster-native-pc-return.json",
+      "from": "recovery",
+      "to": "start",
+      "takeoffs": 1,
+      "landings": 1,
+      "description": "Only initial runway departure/lower-road arrival; all subsequent return driving stayed grounded without lift."
+    },
+    "recovery": {
+      "pass": true,
+      "path": "docs/roadster-native-recovery.json",
+      "automaticResetWallMs": [
+        {
+          "name": "start-crash-recovery",
+          "wallMs": 825
+        },
+        {
+          "name": "low-crash-recovery",
+          "wallMs": 951
+        }
+      ],
+      "airborneExitNotComplete": true
+    },
+    "lifecycle": {
+      "pass": true,
+      "path": "docs/roadster-lifecycle.json",
+      "viewports": [
+        {
+          "width": 667,
+          "height": 375
+        },
+        {
+          "width": 844,
+          "height": 390
+        }
+      ],
+      "blurScope": "Synthetic blur event tests wiring; real OS background switching unverified."
+    }
+  },
+  "assets": {
+    "glb": {
+      "path": "public/assets/roadster-lab.glb",
+      "bytes": 81452,
+      "sha256": "b9da2c3c5e10677f8a8290f58fc6f6b159d12c1202fa62806f185b9f95e1237b"
+    },
+    "layout": {
+      "path": "public/assets/roadster-lab-layout.json",
+      "bytes": 3400,
+      "sha256": "d748258f0972b8178ccc55c81db3d4b0b80d245b7a92fd456d092858094709b3",
+      "lfSha256": "7c0f73376219e88687db04187d868930d14973ef67f8a6e9d92882d9ac933a88"
+    },
+    "blend": {
+      "path": "assets/blender/roadster-lab.blend",
+      "bytes": 100036,
+      "sha256": "afd566dfb9233286b5c22de3ce3732b738c9b05d26b8fac15db5e2ce62357c99"
+    },
+    "audit": "docs/roadster-blender-validation.json",
+    "source": "assets/blender/build_roadster_lab.py",
+    "runtimeTrackGeneration": false
+  },
+  "lastPresentationChanges": [
+    "Reset/restart camera immediately aligns with current heading.",
+    "Danger forecast preserves known destination alongside lift-buffer hint."
+  ],
+  "failuresPreserved": [
+    "docs/roadster-native-pc-low-failure-01.json",
+    "docs/roadster-native-pc-high-edge-failure.json",
+    "docs/roadster-native-pc-high-driver-timeout.json",
+    "docs/roadster-native-mobile-direct-driver-release.json",
+    "docs/roadster-native-mobile-high-first-contact-failure.json",
+    "docs/roadster-native-mobile-667-high-concurrent-failure.json"
+  ],
+  "failureScope": "Real route misses and collisions remain failures. Driver timeout after completion and wrong CDP ended-pointer list were corrected as driver bugs, with originals preserved. Under concurrent full-suite load, a 667 high-platform attempt launched at z104.98 rather than intended z80 and failed; later serial final sequence passed 3/3. This does not establish a performance cause or justify changing physics.",
+  "humanPlay": {
+    "path": "docs/roadster-supervisor-play.json",
+    "summary": "Supervisor manually completed direct route and high-platform route with pauses/one legal checkpoint R; low-platform contact/recharge confirmed, low second jump remains inconsistent. Do not call these three uninterrupted zero-retry runs."
+  },
+  "unverified": [
+    "Three independent new-player usability study",
+    "Physical phone two-thumb feel and real OS background lifecycle",
+    "Manual three consecutive uninterrupted completions per route/device",
+    "Subjective audio quality and mobile GPU performance"
+  ],
+  "artifacts": "Raw JSON and screenshots are ignored by existing Git rules but remain in workspace and are included in freeze inventory.",
+  "ownership": "No commit/push/deploy. README and CORE_ACCEPTANCE maintained by supervisor, excluded from this source freeze."
+}

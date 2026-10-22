@@ -1,0 +1,1001 @@
+{
+  "method": "legal ground-only return steering from actual lower landing; fixed step diagnostic only",
+  "records": [
+    {
+      "time": 7.825000000000179,
+      "x": 0,
+      "y": -8,
+      "z": 161.22074895480245,
+      "vx": 0,
+      "vy": 0,
+      "vz": 0,
+      "speed": 0,
+      "heading": 0,
+      "reference": 0,
+      "pressure": 94.40004369840129,
+      "grounded": true,
+      "surface": "recovery",
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 9.35000000000011,
+      "x": 0,
+      "y": -8,
+      "z": 169.65820029013094,
+      "vx": 0,
+      "vy": 0,
+      "vz": 6.999207129507379,
+      "speed": 6.999207129507379,
+      "heading": 0,
+      "reference": 0,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "recovery",
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 14.724999999999804,
+      "x": -27.661343679145258,
+      "y": -8,
+      "z": 172.29194347998668,
+      "vx": -7.02080124330354,
+      "vy": 0,
+      "vz": -0.876434286459561,
+      "speed": 7.075294139218129,
+      "heading": -1.6949878135140004,
+      "reference": -1.6949878135140004,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "recovery",
+      "input": {
+        "throttle": 1,
+        "steer": 1.8470396656589116e-7,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 18.749999999999577,
+      "x": -47.31394006041089,
+      "y": -8,
+      "z": 154.69625004624677,
+      "vx": -4.991022119233887,
+      "vy": 0,
+      "vz": -5.021188894674054,
+      "speed": 7.079734437864175,
+      "heading": -2.3592074794424214,
+      "reference": -2.3592074794424214,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "recovery",
+      "input": {
+        "throttle": 1,
+        "steer": 5.604635611167197e-7,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 22.624999999999357,
+      "x": -61.77277726649942,
+      "y": -8,
+      "z": 132.01561707156114,
+      "vx": -3.612762880987631,
+      "vy": 0,
+      "vz": -5.933680707376672,
+      "speed": 6.946986567666312,
+      "heading": -2.594686111729581,
+      "reference": -2.594686111729581,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "return-bottom",
+      "input": {
+        "throttle": 1,
+        "steer": 1.9463730516200428e-7,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 25.208333333332543,
+      "x": -63.87670525621234,
+      "y": -7.523733356950977,
+      "z": 114.34433361379286,
+      "vx": -0.36015356421048544,
+      "vy": 0.5767598313656528,
+      "vz": -6.849022997467126,
+      "speed": 6.858485737365581,
+      "heading": -3.0890563787291647,
+      "reference": -3.0890563787291647,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "return-ramp",
+      "input": {
+        "throttle": -1,
+        "steer": 0.000022394634078271025,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 36.14166666666526,
+      "x": -63.999920070341055,
+      "y": -1.1239221198401537,
+      "z": 38.346575173101826,
+      "vx": -0.00023660771520799985,
+      "vy": 0.5849541076435812,
+      "vz": -6.9463300282675275,
+      "speed": 6.946330032297224,
+      "heading": -3.1415585913275406,
+      "reference": -3.1415585913275406,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "return-ramp",
+      "input": {
+        "throttle": 1,
+        "steer": -2.886579864025407e-14,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 38.29166666666514,
+      "x": -64.00000079015747,
+      "y": 0,
+      "z": 23.399284161949485,
+      "vx": 0.000002628441814812855,
+      "vy": 0,
+      "vz": -7.019621961776286,
+      "speed": 7.019621961776777,
+      "heading": 3.141592279147718,
+      "reference": 3.141592279147718,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "return-top",
+      "input": {
+        "throttle": 1,
+        "steer": 1.1392457754944019e-7,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 41.03333333333165,
+      "x": -55.186179013022226,
+      "y": 0,
+      "z": 19.050766687435583,
+      "vx": 6.583521502153769,
+      "vy": 0,
+      "vz": 2.5179370490622532,
+      "speed": 7.048600027832573,
+      "heading": 1.2055010239970958,
+      "reference": 1.2055010239970958,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "return-top",
+      "input": {
+        "throttle": 1,
+        "steer": -0.11259694393003007,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 43.616666666664834,
+      "x": -37.351826761725384,
+      "y": 0,
+      "z": 19.998069608725274,
+      "vx": 6.960533447454885,
+      "vy": 0,
+      "vz": 0.005612904879839235,
+      "speed": 6.960535710549825,
+      "heading": 1.5699899369246968,
+      "reference": 1.5699899369246968,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "return-top",
+      "input": {
+        "throttle": 1,
+        "steer": -0.0000381711493674386,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "time": 47.933333333331255,
+      "x": -7.346866860016053,
+      "y": 0,
+      "z": 20.000001863492177,
+      "vx": 7.011009676408153,
+      "vy": 0,
+      "vz": -0.0000055689926080952,
+      "speed": 7.0110096764103655,
+      "heading": 1.5707971211159524,
+      "reference": 1.5707971211159524,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "start",
+      "input": {
+        "throttle": 1,
+        "steer": -7.210815278213545e-10,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastLanding": {
+        "time": 6.825000000000129,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.666666666666738,
+          "x": 0,
+          "y": 0,
+          "z": 128.04604526725157,
+          "pressure": 100,
+          "from": "runway",
+          "vx": 0,
+          "vz": 32.387981220950884
+        },
+        {
+          "type": "landing",
+          "time": 6.825000000000129,
+          "x": 0,
+          "y": -8,
+          "z": 155.90101887475222,
+          "pressure": 92.18157252304304,
+          "surface": "recovery",
+          "impact": 13.766666666666639,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    }
+  ],
+  "end": {
+    "time": 47.933333333331255,
+    "x": -7.346866860016053,
+    "y": 0,
+    "z": 20.000001863492177,
+    "vx": 7.011009676408153,
+    "vy": 0,
+    "vz": -0.0000055689926080952,
+    "speed": 7.0110096764103655,
+    "heading": 1.5707971211159524,
+    "reference": 1.5707971211159524,
+    "pressure": 100,
+    "grounded": true,
+    "surface": "start",
+    "input": {
+      "throttle": 1,
+      "steer": -7.210815278213545e-10,
+      "lift": false
+    },
+    "jets": {
+      "lift": 0,
+      "forward": 0,
+      "side": 0,
+      "brake": 0
+    },
+    "forces": {
+      "lift": 0,
+      "forward": 0,
+      "side": 0,
+      "brake": 0,
+      "cost": 0
+    },
+    "reverse": false,
+    "checkpoint": {
+      "surface": "start",
+      "x": 0,
+      "z": 12,
+      "heading": 0,
+      "y": 0
+    },
+    "visits": {
+      "low": 0,
+      "high": 0,
+      "far": 0
+    },
+    "complete": false,
+    "crashTimer": 0,
+    "reason": "",
+    "recoveryNotice": null,
+    "landingCount": 1,
+    "lastLanding": {
+      "time": 6.825000000000129,
+      "surface": "recovery",
+      "impact": 13.766666666666639,
+      "safe": true,
+      "flight": 1
+    },
+    "events": [
+      {
+        "type": "takeoff",
+        "time": 5.666666666666738,
+        "x": 0,
+        "y": 0,
+        "z": 128.04604526725157,
+        "pressure": 100,
+        "from": "runway",
+        "vx": 0,
+        "vz": 32.387981220950884
+      },
+      {
+        "type": "landing",
+        "time": 6.825000000000129,
+        "x": 0,
+        "y": -8,
+        "z": 155.90101887475222,
+        "pressure": 92.18157252304304,
+        "surface": "recovery",
+        "impact": 13.766666666666639,
+        "safe": true,
+        "flight": 1
+      }
+    ]
+  }
+}

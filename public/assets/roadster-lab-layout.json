@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "createdWith": "Blender MCP",
+  "coordinates": "x right, y up, z forward; use Babylon right handed scene or compensate loader root",
+  "asset": "roadster-lab.glb",
+  "surfaces": [
+    {
+      "id": "start",
+      "xmin": -15,
+      "xmax": 15,
+      "zmin": 0,
+      "zmax": 30,
+      "top": 0,
+      "depth": 0.8,
+      "material": "road"
+    },
+    {
+      "id": "runway",
+      "xmin": -7,
+      "xmax": 7,
+      "zmin": 30,
+      "zmax": 130,
+      "top": 0,
+      "depth": 0.8,
+      "material": "road"
+    },
+    {
+      "id": "far",
+      "xmin": -9,
+      "xmax": 9,
+      "zmin": 160,
+      "zmax": 245,
+      "top": 0,
+      "depth": 0.8,
+      "material": "road"
+    },
+    {
+      "id": "low",
+      "xmin": -36,
+      "xmax": -12,
+      "zmin": 110,
+      "zmax": 150,
+      "top": 4,
+      "depth": 1.2,
+      "material": "low"
+    },
+    {
+      "id": "high",
+      "xmin": 14,
+      "xmax": 44,
+      "zmin": 126,
+      "zmax": 162,
+      "top": 10,
+      "depth": 1.2,
+      "material": "high"
+    },
+    {
+      "id": "recovery",
+      "xmin": -60,
+      "xmax": 60,
+      "zmin": 120,
+      "zmax": 190,
+      "top": -8,
+      "depth": 0.8,
+      "material": "lower"
+    },
+    {
+      "id": "return-bottom",
+      "xmin": -70,
+      "xmax": -60,
+      "zmin": 120,
+      "zmax": 136,
+      "top": -8,
+      "depth": 0.8,
+      "material": "lower"
+    },
+    {
+      "id": "return-ramp",
+      "xmin": -70,
+      "xmax": -58,
+      "zmin": 25,
+      "zmax": 120,
+      "top": 0,
+      "depth": 0.8,
+      "material": "lower",
+      "slope": -0.08421052631578947,
+      "origin_z": 25
+    },
+    {
+      "id": "return-top",
+      "xmin": -70,
+      "xmax": -15,
+      "zmin": 15,
+      "zmax": 25,
+      "top": 0,
+      "depth": 0.8,
+      "material": "lower"
+    }
+  ],
+  "refillZones": [
+    {
+      "id": "low-refill",
+      "surface": "low",
+      "xmin": -30,
+      "xmax": -18,
+      "zmin": 124,
+      "zmax": 136
+    },
+    {
+      "id": "high-refill",
+      "surface": "high",
+      "xmin": 23,
+      "xmax": 35,
+      "zmin": 138,
+      "zmax": 150
+    }
+  ],
+  "colliders": [
+    {
+      "id": "exit-left",
+      "xmin": -12,
+      "xmax": -10,
+      "zmin": 219,
+      "zmax": 221,
+      "ymin": 0,
+      "ymax": 7
+    },
+    {
+      "id": "exit-right",
+      "xmin": 10,
+      "xmax": 12,
+      "zmin": 219,
+      "zmax": 221,
+      "ymin": 0,
+      "ymax": 7
+    },
+    {
+      "id": "exit-header",
+      "xmin": -12,
+      "xmax": 12,
+      "zmin": 219,
+      "zmax": 221,
+      "ymin": 7,
+      "ymax": 8
+    }
+  ],
+  "spawn": {
+    "x": 0,
+    "z": 10,
+    "y": 0,
+    "heading": 0
+  },
+  "exit": {
+    "xmin": -9,
+    "xmax": 9,
+    "z": 220,
+    "surface": "far"
+  },
+  "bounds": {
+    "xmin": -100,
+    "xmax": 100,
+    "zmin": -30,
+    "zmax": 285,
+    "ymin": -40
+  },
+  "checkpoints": [
+    {
+      "surface": "start",
+      "x": 0,
+      "z": 12,
+      "heading": 0
+    },
+    {
+      "surface": "low",
+      "x": -24,
+      "z": 130,
+      "heading": 0.65
+    },
+    {
+      "surface": "high",
+      "x": 29,
+      "z": 144,
+      "heading": -0.7
+    },
+    {
+      "surface": "far",
+      "x": 0,
+      "z": 195,
+      "heading": 0
+    }
+  ]
+}

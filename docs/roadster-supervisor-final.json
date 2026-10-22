@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-23",
+  "production": {
+    "chunk": "roadster-28PJ6-kN.js",
+    "bytes": 683836,
+    "sha256": "f3f848e4d83f6132d258e97bf431740fad488a1a40fbe67b8f12bab73098b35d",
+    "independentRelativeBuild": true,
+    "developerFreezeFilesChecked": 385,
+    "mismatches": [],
+    "developmentHooksAbsent": true
+  },
+  "unit": { "passed": 155, "failed": 0, "durationMs": 117033.4953, "log": "roadster-supervisor-test.log" },
+  "assets": { "source": "Blender MCP", "surfacesVerifiedFromBinaryVertices": 9, "meshes": 76, "glbSha256": "b9da2c3c5e10677f8a8290f58fc6f6b159d12c1202fa62806f185b9f95e1237b", "savedBlendScenes": ["Roadster_Core_Lab_v1"], "nonLabMeshes": [] },
+  "nativeAudit": { "groups": 9, "repetitionsPerGroup": 3, "complete": 27, "environments": ["PC1280x720", "mobile915x412", "mobile667x375"], "scope": "Developer automatic state-feedback controller using ordinary native input. Not manual usability or physical phone proof." },
+  "finalManualProduction": [
+    { "name": "direct-brake-landing", "method": "ordinary CUA keyboard, no state/time/pose writes", "inputs": "R; W4300ms; Space800ms separately; W600ms; S1500ms; pause; resume; W2300ms, later W700ms", "observed": "Paused above far road with3.1m clearance,14m/s descent and71 pressure. Resumed, actual far contact and then visible exit completion at89km/h/82 pressure. Bundle28PJ6-kN confirmed from DOM.", "image": "screenshots/roadster-supervisor-final-direct.png", "consoleErrorsAndWarnings": [] },
+    { "name": "mobile-buttons-and-pause", "viewport": { "width": 667, "height": 375 }, "method": "ordinary on-screen mouse presses, not two-thumb proof", "inputs": "Restart; upper stick1200ms; lower stick1200ms; right jet300ms; visible pause button", "observed": "Stopped at0km/h, real1.1m clearance and93 pressure; mobile pause/help fit, no stale jet after release; viewport reset after check.", "image": "screenshots/roadster-supervisor-final-mobile.png", "consoleErrorsAndWarnings": [] }
+  ],
+  "failures": ["Two earlier final-build straight attempts based on short timed chords hit a platform side and showed the retained reset reason. They were not counted as success; the recorded separate lift/brake run subsequently completed."],
+  "manualScope": "Broader actual high-route and low-contact/failed-second-hop records remain in roadster-supervisor-play.json. Final manual straight run included a pause; no claim of manual three-consecutive zero-retry routes.",
+  "unverified": ["physical phone/iOS", "three independent new players", "subjective audio quality", "performance"],
+  "deployment": "Pending GitHub Actions and online supervisor smoke; see roadster-deployment.json when published."
+}

@@ -1,0 +1,244 @@
+{
+  "method": "Legal fixed-step new simulation, no state/time/velocity/pressure injection.",
+  "results": [
+    {
+      "launch": 103,
+      "hold": 0.4,
+      "complete": false,
+      "crashes": 1,
+      "z": 161.17921978004063,
+      "landings": []
+    },
+    {
+      "launch": 103,
+      "hold": 0.5,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.33544366789877,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 6.8416666666667965,
+          "x": 0,
+          "y": 0,
+          "z": 178.90913968825842,
+          "pressure": 79.64855556325894,
+          "surface": "far",
+          "impact": 9.613705675803555,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 103,
+      "hold": 0.6,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.01499569373578,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 7.241666666666816,
+          "x": 0,
+          "y": 0,
+          "z": 198.35216341752204,
+          "pressure": 75.44855556422193,
+          "surface": "far",
+          "impact": 11.633705677247741,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 108,
+      "hold": 0.4,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.25311105641163,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 6.6083333333334515,
+          "x": 0,
+          "y": 0,
+          "z": 166.58426469901224,
+          "pressure": 83.8485555545695,
+          "surface": "far",
+          "impact": 7.59370566276962,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 108,
+      "hold": 0.5,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.29176377793817,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 7.008333333333471,
+          "x": 0,
+          "y": 0,
+          "z": 184.8337622107006,
+          "pressure": 79.64855556325894,
+          "surface": "far",
+          "impact": 9.613705675803555,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 108,
+      "hold": 0.6,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.1793124843328,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 7.408333333333491,
+          "x": 0,
+          "y": 0,
+          "z": 204.4324888563439,
+          "pressure": 75.44855556422193,
+          "surface": "far",
+          "impact": 11.633705677247741,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 113,
+      "hold": 0.4,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.22952940053906,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 6.766666666666793,
+          "x": 0,
+          "y": 0,
+          "z": 172.08973525559506,
+          "pressure": 83.8485555545695,
+          "surface": "far",
+          "impact": 7.59370566276962,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 113,
+      "hold": 0.5,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.18186839745505,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 7.166666666666813,
+          "x": 0,
+          "y": 0,
+          "z": 190.47908749213065,
+          "pressure": 79.64855556325894,
+          "surface": "far",
+          "impact": 9.613705675803555,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 113,
+      "hold": 0.6,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.2921540104826,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 7.5666666666668325,
+          "x": 0,
+          "y": 0,
+          "z": 210.21699913508698,
+          "pressure": 75.44855556422193,
+          "surface": "far",
+          "impact": 11.633705677247741,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 118,
+      "hold": 0.4,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.11494788998576,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 6.925000000000134,
+          "x": 0,
+          "y": 0,
+          "z": 177.61863292279486,
+          "pressure": 83.8485555545695,
+          "surface": "far",
+          "impact": 7.59370566276962,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 118,
+      "hold": 0.5,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.33003060023765,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 7.325000000000154,
+          "x": 0,
+          "y": 0,
+          "z": 196.1397526631617,
+          "pressure": 79.64855556325894,
+          "surface": "far",
+          "impact": 9.613705675803555,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    },
+    {
+      "launch": 118,
+      "hold": 0.6,
+      "complete": true,
+      "crashes": 0,
+      "z": 220.2617124733661,
+      "landings": [
+        {
+          "type": "landing",
+          "time": 7.725000000000174,
+          "x": 0,
+          "y": 0,
+          "z": 216.00880080999212,
+          "pressure": 75.44855556422193,
+          "surface": "far",
+          "impact": 11.633705677247741,
+          "safe": true,
+          "flight": 1
+        }
+      ]
+    }
+  ]
+}

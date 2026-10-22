@@ -1,0 +1,2 @@
+#menu .menu-actions .roadster-entry{display:flex;align-items:center;justify-content:space-between;font-size:28px;color:#f3f6f5;text-decoration:none;padding:0 0 20px;margin:0 0 8px;border-bottom:1px solid #edf5f36b;letter-spacing:1px}#menu .roadster-entry span{color:#9df1dc}#menu .menu-actions #start-parking{font-size:18px;padding:13px 0}
+@media(max-height:440px){#menu .menu-actions .roadster-entry{font-size:24px;padding-bottom:12px}#menu .menu-actions #start-parking{font-size:15px;padding:8px 0}#menu .flow-card #menu-title{font-size:38px;margin-bottom:18px}}

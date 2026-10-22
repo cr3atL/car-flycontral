@@ -1,0 +1,220 @@
+{
+  "scope": "Offline legal input diagnostic from normal spawn, not browser play or mobile touch proof",
+  "results": [
+    {
+      "trigger": 103,
+      "duration": 0.45,
+      "complete": true,
+      "crashes": 0,
+      "pressure": 87.27512974738086,
+      "z": 220.08054843254718,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 8.603705672548463
+        }
+      ]
+    },
+    {
+      "trigger": 103,
+      "duration": 0.6,
+      "complete": true,
+      "crashes": 0,
+      "pressure": 75.9584630838469,
+      "z": 220.01499569373578,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 11.633705677247741
+        }
+      ]
+    },
+    {
+      "trigger": 103,
+      "duration": 0.75,
+      "complete": false,
+      "crashes": 1,
+      "pressure": 64.84855552909406,
+      "z": 285.35640970144607,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 14.663705677421056
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        }
+      ]
+    },
+    {
+      "trigger": 108,
+      "duration": 0.45,
+      "complete": true,
+      "crashes": 0,
+      "pressure": 86.28346308071413,
+      "z": 220.26505319032796,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 8.603705672548463
+        }
+      ]
+    },
+    {
+      "trigger": 108,
+      "duration": 0.6,
+      "complete": true,
+      "crashes": 0,
+      "pressure": 75.20029910483858,
+      "z": 220.1793124843328,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 11.633705677247741
+        }
+      ]
+    },
+    {
+      "trigger": 108,
+      "duration": 0.75,
+      "complete": false,
+      "crashes": 1,
+      "pressure": 64.89855552322177,
+      "z": 285.4545388614855,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 14.663705677421056
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        }
+      ]
+    },
+    {
+      "trigger": 113,
+      "duration": 0.45,
+      "complete": true,
+      "crashes": 0,
+      "pressure": 85.2917964140474,
+      "z": 220.03116754331154,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 8.603705672548463
+        }
+      ]
+    },
+    {
+      "trigger": 113,
+      "duration": 0.6,
+      "complete": true,
+      "crashes": 0,
+      "pressure": 75.20311563538739,
+      "z": 220.2921540104826,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 11.633705677247741
+        }
+      ]
+    },
+    {
+      "trigger": 113,
+      "duration": 0.75,
+      "complete": false,
+      "crashes": 1,
+      "pressure": 64.99855552350532,
+      "z": 285.42902918796364,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 14.663705677421056
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        },
+        {
+          "surface": "far",
+          "impact": 0.09833333333333334
+        }
+      ]
+    },
+    {
+      "trigger": 118,
+      "duration": 0.45,
+      "complete": true,
+      "crashes": 0,
+      "pressure": 84.358463080714,
+      "z": 220.05039600370878,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 8.603705672548463
+        }
+      ]
+    },
+    {
+      "trigger": 118,
+      "duration": 0.6,
+      "complete": true,
+      "crashes": 0,
+      "pressure": 75.23979346564414,
+      "z": 220.2617124733661,
+      "landings": [
+        {
+          "surface": "far",
+          "impact": 11.633705677247741
+        }
+      ]
+    },
+    {
+      "trigger": 118,
+      "duration": 0.75,
+      "complete": false,
+      "crashes": 1,
+      "pressure": 72.59855556433756,
+      "z": 217.29522424246662,
+      "landings": []
+    }
+  ]
+}

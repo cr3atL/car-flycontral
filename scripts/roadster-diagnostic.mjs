@@ -1,0 +1,7 @@
+import{RoadsterSimulation}from'../src/roadster/simulation.js';import{ROADSTER as C}from'../src/roadster/config.js';import{readFileSync,writeFileSync}from'node:fs';
+export const layout=JSON.parse(readFileSync('public/assets/roadster-lab-layout.json','utf8'));
+export function fresh(){return new RoadsterSimulation(layout);}
+export function advance(s,seconds,input={}){s.input={throttle:0,steer:0,lift:false,...input};for(let i=0;i<Math.round(seconds/C.step)&&!s.complete;i++)s.step(C.step);}
+export function until(s,test,input={},max=30){s.input={throttle:0,steer:0,lift:false,...input};for(let i=0;i<max/C.step&&!test(s)&&!s.crashTimer&&!s.complete;i++)s.step(C.step);return s;}
+export function straight({launch=110,hold=.5}={}){const s=fresh();until(s,s=>s.z>=launch,{throttle:1});advance(s,hold,{throttle:1,lift:true});until(s,s=>s.complete,{throttle:1});return s;}
+if(process.argv[1]?.endsWith('roadster-diagnostic.mjs')){const out=[];for(const launch of[103,108,113,118])for(const hold of[.4,.5,.6]){const s=straight({launch,hold});out.push({launch,hold,complete:s.complete,crashes:s.crashes,z:s.z,landings:s.events.filter(e=>e.type==='landing')});}writeFileSync('docs/roadster-straight-diagnostic.json',JSON.stringify({method:'Legal fixed-step new simulation, no state/time/velocity/pressure injection.',results:out},null,2));console.log(out.map(r=>({launch:r.launch,hold:r.hold,complete:r.complete,land:r.landings.map(e=>e.surface)})));}

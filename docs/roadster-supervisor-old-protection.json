@@ -1,0 +1,30 @@
+[
+  {
+    "file": "src/input.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/simulation.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/config.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/challenge.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/audio.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/vehicle-feedback.js",
+    "unchanged": true
+  },
+  {
+    "file": "src/landing-model.js",
+    "unchanged": true
+  }
+]

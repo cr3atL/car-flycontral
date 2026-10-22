@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: ground support updates identity across runway, lower road, ramp and top seam
+ok 1 - ground support updates identity across runway, lower road, ramp and top seam
+  ---
+  duration_ms: 508.9442
+  ...
+# Subtest: airborne flyover and lower road cannot trigger exit
+ok 2 - airborne flyover and lower road cannot trigger exit
+  ---
+  duration_ms: 5.5996
+  ...
+# Subtest: crash stops forces; reset retains reason and clears departure grace
+ok 3 - crash stops forces; reset retains reason and clears departure grace
+  ---
+  duration_ms: 3.1303
+  ...
+# Subtest: no automatic cruise; motor does not consume pressure; coast preserves motion
+ok 4 - no automatic cruise; motor does not consume pressure; coast preserves motion
+  ---
+  duration_ms: 40.8329
+  ...
+# Subtest: stationary steering changes wheels but cannot rotate body
+ok 5 - stationary steering changes wheels but cannot rotate body
+  ---
+  duration_ms: 19.642
+  ...
+# Subtest: brake holds at rest, release then press reverses; forward input first brakes reverse
+ok 6 - brake holds at rest, release then press reverses; forward input first brakes reverse
+  ---
+  duration_ms: 39.0224
+  ...
+# Subtest: joystick axes remain independent at diagonals and outside its visible bounds
+ok 7 - joystick axes remain independent at diagonals and outside its visible bounds
+  ---
+  duration_ms: 11.9903
+  ...
+# Subtest: airborne side force changes actual route while lift preserves takeoff velocity
+ok 8 - airborne side force changes actual route while lift preserves takeoff velocity
+  ---
+  duration_ms: 9.9423
+  ...
+# Subtest: air brake follows velocity, stops without reverse regardless visual heading
+ok 9 - air brake follows velocity, stops without reverse regardless visual heading
+  ---
+  duration_ms: 21.2247
+  ...
+# Subtest: combined actual jets are paid and no old ceiling or rescue tank exists
+ok 10 - combined actual jets are paid and no old ceiling or rescue tank exists
+  ---
+  duration_ms: 22.7522
+  ...
+# Subtest: empty pressure cannot lift, push, steer or brake in air
+ok 11 - empty pressure cannot lift, push, steer or brake in air
+  ---
+  duration_ms: 2.1275
+  ...
+# Subtest: no ground pressure recovery while any residual actual jet is consuming
+ok 12 - no ground pressure recovery while any residual actual jet is consuming
+  ---
+  duration_ms: 27.6181
+  ...
+# Subtest: platform refill cannot make gas by alternating grounded lift
+ok 13 - platform refill cannot make gas by alternating grounded lift
+  ---
+  duration_ms: 35.4382
+  ...
+# Subtest: same edge contact cannot repeat landing/visits every step
+ok 14 - same edge contact cannot repeat landing/visits every step
+  ---
+  duration_ms: 80.7393
+  ...
+# Subtest: prediction is read-only and matches actual held input with finite tank
+ok 15 - prediction is read-only and matches actual held input with finite tank
+  ---
+  duration_ms: 47.6609
+  ...
+# Subtest: prediction distinguishes upper side/underside from support below
+ok 16 - prediction distinguishes upper side/underside from support below
+  ---
+  duration_ms: 5.9773
+  ...
+# Subtest: footprint includes real wheels and front lip, unsafe edges stay unsafe
+ok 17 - footprint includes real wheels and front lip, unsafe edges stay unsafe
+  ---
+  duration_ms: 0.8443
+  ...
+# Subtest: checkpoint confirmation is stable/inside; recovery clears input and speed
+ok 18 - checkpoint confirmation is stable/inside; recovery clears input and speed
+  ---
+  duration_ms: 8.209
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1798.8531

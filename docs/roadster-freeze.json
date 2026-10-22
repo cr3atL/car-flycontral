@@ -1,0 +1,2298 @@
+{
+  "createdAt": "2026-10-22T18:03:35.189Z",
+  "gitHead": "ee618eec390122635a9f3f6945e77683e1718146",
+  "productionChunk": "roadster-28PJ6-kN.js",
+  "productionChunkSha256": "f3f848e4d83f6132d258e97bf431740fad488a1a40fbe67b8f12bab73098b35d",
+  "validation": "docs/roadster-final-validation.json",
+  "inventorySha256": "3989eacb3a22f13259026a3a4df8aa150e2c7dc2acd51361a4d3c6f9b6c33a31",
+  "counts": {
+    "runtime": 64,
+    "tests": 43,
+    "replays": 12,
+    "assets": 5,
+    "documentation": 3,
+    "evidence": 99,
+    "production": 159
+  },
+  "manifest": {
+    "runtime": [
+      {
+        "path": "index.html",
+        "bytes": 10231,
+        "sha256": "c7c5d6d8779bb2fa7632bba40742d8c5a2baae35b9deb869556dac65dbc65041",
+        "lfSha256": "32c7ee33b03f84ffa4cb3bcf869b94c7a4380abf642d691f2ccd97528cf7c0ef"
+      },
+      {
+        "path": "package-lock.json",
+        "bytes": 38798,
+        "sha256": "75cb0b462012a0256535ea4a35ad6ee7d82d5022b5c5ce2778ba22e0a6c95f67",
+        "lfSha256": "6ebe1258030ab2495dcfef5ec3f52a6703aadec5ddf5a78e0913389de0ecda85"
+      },
+      {
+        "path": "package.json",
+        "bytes": 1678,
+        "sha256": "4d022671d7d35156b7f88d69577dee691c1d9225726c9f7b7195afc386d1804f",
+        "lfSha256": "f57f8ecae19771d08c0e722f28ffa59ba7c56716d73039d6dcf955812e81adb3"
+      },
+      {
+        "path": "roadster.html",
+        "bytes": 2392,
+        "sha256": "792f0fb72996024756f22b0a2fd9e195d5465df06791142f9293734da511d082",
+        "lfSha256": "792f0fb72996024756f22b0a2fd9e195d5465df06791142f9293734da511d082"
+      },
+      {
+        "path": "src/art-config.js",
+        "bytes": 1074,
+        "sha256": "fc5cf7e5ce69879cfc1508011f03e3d9e0d6737c2865670880bde18d7df9600d",
+        "lfSha256": "fc5cf7e5ce69879cfc1508011f03e3d9e0d6737c2865670880bde18d7df9600d"
+      },
+      {
+        "path": "src/art-geometry.js",
+        "bytes": 3742,
+        "sha256": "98ba39f83c47588bcfaab751a02424cfc42cf4fa6ef1ecca68980674d19c300f",
+        "lfSha256": "98ba39f83c47588bcfaab751a02424cfc42cf4fa6ef1ecca68980674d19c300f"
+      },
+      {
+        "path": "src/audio.js",
+        "bytes": 6045,
+        "sha256": "7a75e89d209a6b21c6326347c07f92737657dff71733ea3fb42aec35d578ab3b",
+        "lfSha256": "2c53303fa5122ba00d6ae487ad393d015309584be0955889144eb1a212ca1bc4"
+      },
+      {
+        "path": "src/car-art.js",
+        "bytes": 10517,
+        "sha256": "4ae33301382a81a2f05196408a5e8c37ff602f16c90626f3b4f62e2e3dc27fd7",
+        "lfSha256": "f71e60b06ea4ef8d113a170bd6b43f6013ea169f5e57035b76c18e11cbc29322"
+      },
+      {
+        "path": "src/ceiling-model.js",
+        "bytes": 1215,
+        "sha256": "fce3b2ddbf1300adc5ba2a480299e0d7e3f14d7044d6d81a027752570e648f51",
+        "lfSha256": "fce3b2ddbf1300adc5ba2a480299e0d7e3f14d7044d6d81a027752570e648f51"
+      },
+      {
+        "path": "src/challenge-config.js",
+        "bytes": 1864,
+        "sha256": "aedc28159742986ba20f5ed39efe54b0e6f130f68506f4986393b2b1a6b7c473",
+        "lfSha256": "d55f4768e1cb2d510793b82b899837e36a1f1e3f7f4ddce69dfb9eee668204c6"
+      },
+      {
+        "path": "src/challenge-course.js",
+        "bytes": 3620,
+        "sha256": "56993c51fcde00dfa4b55856a0d78defee08149ed188897708359dc3b8aa4229",
+        "lfSha256": "32abddac331ad76582a5433b98d653c563d3e4aca587d1f26af7525c0b1267ca"
+      },
+      {
+        "path": "src/challenge-scenario.js",
+        "bytes": 2340,
+        "sha256": "c74ef10cd7b74cae87a36608a136202a055b8691c455d3c953d92b4caf9778e4",
+        "lfSha256": "4cbe481cb0083e2936ae07f49ec028a1b34b9f0cd3dcdfbee8af3b8d653c1c04"
+      },
+      {
+        "path": "src/challenge.js",
+        "bytes": 14831,
+        "sha256": "b579a1052971f79593e54929d95242480437c238a8e42dd0caa074b5a5dec7b8",
+        "lfSha256": "da9a8423c3791f174223617b67bd5963e3901e7d8911c8e8aa4339fec72f11ff"
+      },
+      {
+        "path": "src/city-art.js",
+        "bytes": 9234,
+        "sha256": "c20b4bbc0ad0bdeb171d0c2a734a6bd1b3cbfd37229efb1e29c6bdd290c81659",
+        "lfSha256": "c20b4bbc0ad0bdeb171d0c2a734a6bd1b3cbfd37229efb1e29c6bdd290c81659"
+      },
+      {
+        "path": "src/config.js",
+        "bytes": 2479,
+        "sha256": "0d238911873c7b55ddfd3595abc92e30e97819542aea3f76b5002ac6137b667b",
+        "lfSha256": "6f557580bc680c8a43105512315cd4a5f75763bf1f9a61e25d86cc87c390eb4c"
+      },
+      {
+        "path": "src/drive-feedback.js",
+        "bytes": 2278,
+        "sha256": "f66aa1ea88fa6066ef327adb6662376f46ed2d5b1c936cd8557bd4ac57fb032d",
+        "lfSha256": "f66aa1ea88fa6066ef327adb6662376f46ed2d5b1c936cd8557bd4ac57fb032d"
+      },
+      {
+        "path": "src/feedback-config.js",
+        "bytes": 500,
+        "sha256": "6b705c28e3271da2ae44c63471686cde299d0049010dfe4693c96fd95f0e5f83",
+        "lfSha256": "6b705c28e3271da2ae44c63471686cde299d0049010dfe4693c96fd95f0e5f83"
+      },
+      {
+        "path": "src/feedback-model.js",
+        "bytes": 6047,
+        "sha256": "04527713aed62116822ff2c58cee80a0f825723149c0163f940e6beb4eace2dd",
+        "lfSha256": "04527713aed62116822ff2c58cee80a0f825723149c0163f940e6beb4eace2dd"
+      },
+      {
+        "path": "src/feedback.js",
+        "bytes": 13468,
+        "sha256": "efb05894691df2c603d9546054fdf1189245b689d3042f5f621d0e5bdbc37725",
+        "lfSha256": "27c2129ed62a3f7148e095a0dba4456eee86e6a5a376fa0ab3f0a3bf0ae4c17d"
+      },
+      {
+        "path": "src/flight-audio.js",
+        "bytes": 3930,
+        "sha256": "b8839b5f9dfce876dd8ae872b5d70bc34d9c1c135f67d442e23e8eef21130fc0",
+        "lfSha256": "256ba0797e8b052e8b05129495a09d6d561d7346448a46dc6e6a084571a4f9bc"
+      },
+      {
+        "path": "src/flight-effects.js",
+        "bytes": 5563,
+        "sha256": "89e376482db9a4e2b0ff29a625890e5c7d91ffd01ec046d11b223b981c9ba43f",
+        "lfSha256": "4822f4c7871e3f9a9d59d41857beb867b43bd3037c8fbac38884c8ef6da91afd"
+      },
+      {
+        "path": "src/flow-model.js",
+        "bytes": 2011,
+        "sha256": "35931acbfee1e8a0359b705d9e7364d6edf2da0f706354aacf395d92751a9eb0",
+        "lfSha256": "574b07916a7a2a351535c082db707590314c259501185903498a48b4fd569a98"
+      },
+      {
+        "path": "src/flow-ui.css",
+        "bytes": 9457,
+        "sha256": "154e696bd0a619e7798cf3b520eb83f1d1a32e2033071e93e8e8542632fd70c5",
+        "lfSha256": "154e696bd0a619e7798cf3b520eb83f1d1a32e2033071e93e8e8542632fd70c5"
+      },
+      {
+        "path": "src/hud-model.js",
+        "bytes": 8326,
+        "sha256": "5c16c3539f9c931fda61c77aada199231cbeeb9ebef4238ac39210cc3bcf7f3d",
+        "lfSha256": "4bce3937406f93c0dc69718b28d521535f04ba2b9beb6285e26f9abc1c4b6a6d"
+      },
+      {
+        "path": "src/input.js",
+        "bytes": 4432,
+        "sha256": "39403710cd884655357b0587c7310a7ec25167e33b3c68497e68e59ba258ce23",
+        "lfSha256": "1d852f90e3485eda9261d4bf3017ceff8e26a33a1fc1d00431dcbc3fab0a505c"
+      },
+      {
+        "path": "src/landing-model.js",
+        "bytes": 1678,
+        "sha256": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1",
+        "lfSha256": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1"
+      },
+      {
+        "path": "src/main.js",
+        "bytes": 32662,
+        "sha256": "f94728a4116a112c3f43abbba78e86176dc696bdcf6331f774954cd8a18fe5f0",
+        "lfSha256": "45e0c4c7df65153f15cc7e4972f749216c2003a0ff64b0ac890b706c8529c079"
+      },
+      {
+        "path": "src/mobile-hud.css",
+        "bytes": 12252,
+        "sha256": "5719b90debecdf4019a168456bc636700d1b978af7b23f5445c6a142a5b01766",
+        "lfSha256": "5719b90debecdf4019a168456bc636700d1b978af7b23f5445c6a142a5b01766"
+      },
+      {
+        "path": "src/one-jump-art.js",
+        "bytes": 2910,
+        "sha256": "e094fc3286802021fac65140f914f4ae594283919097aa5dcbc6e7efdb5fc895",
+        "lfSha256": "b2b0f27de38d868980fcd346f866d59f41ad5cb9b19599b67fc1c93300532675"
+      },
+      {
+        "path": "src/one-jump-config.js",
+        "bytes": 724,
+        "sha256": "1b707691b3fc1f1122152a22a05f5364ff542afd0745765169838df5883895b0",
+        "lfSha256": "1b707691b3fc1f1122152a22a05f5364ff542afd0745765169838df5883895b0"
+      },
+      {
+        "path": "src/one-jump.js",
+        "bytes": 2951,
+        "sha256": "83c2ae116205be8b7036c881d19720e1cc011f95d9143628efa855aac99f258f",
+        "lfSha256": "6851140af7219146a9094398f76695ddda247a371f495d10eb7d742303c04e5e"
+      },
+      {
+        "path": "src/parking-art.js",
+        "bytes": 7972,
+        "sha256": "2e5361996217388bbdb42fca235fe1a3aa4d6f6a365524552796a3e7ba74fc5a",
+        "lfSha256": "dd62458120a6c0d30d64d0897a9d2fc0c3ec7136c8547b93c03747956446cd23"
+      },
+      {
+        "path": "src/parking-audio.js",
+        "bytes": 1001,
+        "sha256": "7980863305afd8aeb6a5b32e24dc1f012d1cfbbc344de3cc10d5f93fe3465ab3",
+        "lfSha256": "7980863305afd8aeb6a5b32e24dc1f012d1cfbbc344de3cc10d5f93fe3465ab3"
+      },
+      {
+        "path": "src/parking-config.js",
+        "bytes": 715,
+        "sha256": "f10101ebbb0f337e7850465926f7c80f0dcaf635584689251eeb4e8cdfbbc90e",
+        "lfSha256": "6247c10f30cc6c7818785359364701cb9ee1769bf885571df2112328adede293"
+      },
+      {
+        "path": "src/parking.css",
+        "bytes": 1388,
+        "sha256": "f784dbc435f02231daaf0d44ed9d8e4e61e0907fb083a92a09b69f59f1a1ab5c",
+        "lfSha256": "f784dbc435f02231daaf0d44ed9d8e4e61e0907fb083a92a09b69f59f1a1ab5c"
+      },
+      {
+        "path": "src/parking.js",
+        "bytes": 7943,
+        "sha256": "18a044cb1bf8023f48fd4c8b970645f8d1e052ddedb14ecb8e658eab0e9cc9f9",
+        "lfSha256": "8152bf8dc2b6132b04b3eb914aaf0eba94bd5cd42135faf4d7d781b5338a2bbf"
+      },
+      {
+        "path": "src/particles.js",
+        "bytes": 5863,
+        "sha256": "6ecba52d66d716fc216faded5e0b74bcc72f58277409cb6f8dcd5883096835dc",
+        "lfSha256": "10f1c975b6fcf1d46cc62bb4c8abbdc70fa37bf981924d6c78a8c7bd89dcdee1"
+      },
+      {
+        "path": "src/pc-hud.css",
+        "bytes": 6940,
+        "sha256": "b3f1db06887a69d1f6c5132fbce09ab8cd54a7d5ba7616ed1de61d5c32f8bac3",
+        "lfSha256": "f7e1db25853bdb4a7a20333526985b32bd44c9c4b896759413f61c3710b5d148"
+      },
+      {
+        "path": "src/presentation-model.js",
+        "bytes": 870,
+        "sha256": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a",
+        "lfSha256": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a"
+      },
+      {
+        "path": "src/roadster-entry.css",
+        "bytes": 565,
+        "sha256": "75e8f15663f4de4456d819e9bc704b4f6a20e34f0b7a15f1e55767792c9033c8",
+        "lfSha256": "75e8f15663f4de4456d819e9bc704b4f6a20e34f0b7a15f1e55767792c9033c8"
+      },
+      {
+        "path": "src/roadster/audio.js",
+        "bytes": 1704,
+        "sha256": "47c5d7ad8c822dfa9e3e4d60561255b2bb80a825021da7a919c09b2a8acbf67f",
+        "lfSha256": "47c5d7ad8c822dfa9e3e4d60561255b2bb80a825021da7a919c09b2a8acbf67f"
+      },
+      {
+        "path": "src/roadster/config.js",
+        "bytes": 553,
+        "sha256": "baaf4a016f7e8a1507ef2eeabee2250c3337a2c7dd17219831c9ea21983077ef",
+        "lfSha256": "baaf4a016f7e8a1507ef2eeabee2250c3337a2c7dd17219831c9ea21983077ef"
+      },
+      {
+        "path": "src/roadster/geometry.js",
+        "bytes": 1160,
+        "sha256": "d20dc7e04df825163d7b2f5b0c7af6f6b161dbee872b70fe5b41ea6d212106e1",
+        "lfSha256": "d20dc7e04df825163d7b2f5b0c7af6f6b161dbee872b70fe5b41ea6d212106e1"
+      },
+      {
+        "path": "src/roadster/input.js",
+        "bytes": 2810,
+        "sha256": "b0220bf36b9dc310928e95178963fe131f63370ba79c71f3b769ad352ad95ae4",
+        "lfSha256": "088699ebad85944388a81c5342dee347ac2e010ac147dff37997c047305b1ab6"
+      },
+      {
+        "path": "src/roadster/main.js",
+        "bytes": 7006,
+        "sha256": "00a020a0b015c37092639b47c5ebbf867d35956c77b4ce0e0b661484a1fdb2f7",
+        "lfSha256": "7bc17c2a520a03435fac8d692c0e446dfe9ea2c04fd316651b4e237a5226f97e"
+      },
+      {
+        "path": "src/roadster/simulation.js",
+        "bytes": 10637,
+        "sha256": "62ba3a817b28723936667b8b3e479a01f11db1343d231eedcbb77d21715985d8",
+        "lfSha256": "0cd16c0e5404177cb3fa73686f05d1d463f7f5d65521426b0f10f594364b4345"
+      },
+      {
+        "path": "src/roadster/style.css",
+        "bytes": 6250,
+        "sha256": "d97a20f4422492a5e17491945c4deb529d7783b1f35418dfc98ed3c20b974775",
+        "lfSha256": "38ca72d3aae384c12c0806c82cb9120c91f1e6fb280ad00398523fa91999613b"
+      },
+      {
+        "path": "src/roadster/world.js",
+        "bytes": 7893,
+        "sha256": "05d10928cd90f6df3c6c14ae968a8f628b09abdbc4ed899db14b7ed36cfbc13c",
+        "lfSha256": "49e4c90655930207188c54043426b2f5c38e459db6c933392206e41acc73fd7f"
+      },
+      {
+        "path": "src/scenarios.js",
+        "bytes": 1074,
+        "sha256": "2839eee80e069fe68a3b94ceb59fe6f2100bb7754001bbf3c1303835e3cd88e8",
+        "lfSha256": "2839eee80e069fe68a3b94ceb59fe6f2100bb7754001bbf3c1303835e3cd88e8"
+      },
+      {
+        "path": "src/score-config.js",
+        "bytes": 1184,
+        "sha256": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48",
+        "lfSha256": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48"
+      },
+      {
+        "path": "src/scoring.js",
+        "bytes": 2498,
+        "sha256": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084",
+        "lfSha256": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084"
+      },
+      {
+        "path": "src/simulation.js",
+        "bytes": 31729,
+        "sha256": "6ba386f0fd98eac43954e59be24b1bc45a5a813faa11f317ec0ec5ad988eda78",
+        "lfSha256": "aadaf8453161ca7a0f2c1c6c5e88003fdb59d625f712d30e02190cd1c1204b7c"
+      },
+      {
+        "path": "src/speed-lines.js",
+        "bytes": 2152,
+        "sha256": "34957cd65f652d6495a430e1740c5de3ad305032d2c8b9d8a23b1f0c931c7153",
+        "lfSha256": "34957cd65f652d6495a430e1740c5de3ad305032d2c8b9d8a23b1f0c931c7153"
+      },
+      {
+        "path": "src/sprint-art.js",
+        "bytes": 3151,
+        "sha256": "e0d3e1fa0dbc8c301ef7d961475749ebcacf75c7b0eca822ddbb01d647f384f3",
+        "lfSha256": "3ee0f179870953dc987df4f819de73904fa95dc9964eb7e95c05ecd6c3a76bfd"
+      },
+      {
+        "path": "src/sprint-config.js",
+        "bytes": 1152,
+        "sha256": "2717dd36a7bcaae246c619c314f994d4c40c5ae0a9032aaf6bf7fba448f0507e",
+        "lfSha256": "f59a721035e6d356eb6322936f3ca72e9c6e95c1ea31bdf640f516fa4884b415"
+      },
+      {
+        "path": "src/sprint-visuals.js",
+        "bytes": 156,
+        "sha256": "43b0911e74eaeb0418a7937ac1b038462e55332edb5af738ec9b6b56141f15f0",
+        "lfSha256": "9a285dc1261659543ed28e625bb05129f04376fbd691271c9ec5e25f68a46e41"
+      },
+      {
+        "path": "src/sprint.js",
+        "bytes": 6703,
+        "sha256": "7fd775a944dbf2645dd06c558f71832db269d7e841667cf070b9635d56d1325d",
+        "lfSha256": "442c28f95cb38a36cbba7b7d872705366772a1d203929e026d61dfe417c998ed"
+      },
+      {
+        "path": "src/style.css",
+        "bytes": 25111,
+        "sha256": "a83f4ce89541cb385a1b77d090b6de7c48ebef5da9302b989c80467c32b7350a",
+        "lfSha256": "99173aa429771138e1718a21a989ef373fb9459ccaae2d66fe957648829f4fc1"
+      },
+      {
+        "path": "src/supply-art.js",
+        "bytes": 2428,
+        "sha256": "1bc52ec246f06c7307bae2ecd910a27d7153e17fa9911a1c314d931a56b1c931",
+        "lfSha256": "1bc52ec246f06c7307bae2ecd910a27d7153e17fa9911a1c314d931a56b1c931"
+      },
+      {
+        "path": "src/supply-config.js",
+        "bytes": 430,
+        "sha256": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4",
+        "lfSha256": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4"
+      },
+      {
+        "path": "src/touch-layout.js",
+        "bytes": 2218,
+        "sha256": "2c9665e143f88b57d67d1616af532b4a0290ee0b4068e9cd9090ef01ebfd30a7",
+        "lfSha256": "961c2575abae05bfda234a9f51500bf5b1aee15fd408e80507c00c556209951c"
+      },
+      {
+        "path": "src/vehicle-feedback.js",
+        "bytes": 10620,
+        "sha256": "a054efd48a4e4fbf7d38f28c4ee6a9919e40e2209e4f5fbdc677504df90cde61",
+        "lfSha256": "d18c4f1103449955b43e87f7f5a38477c5c4a05268633164a2511d5317208e65"
+      },
+      {
+        "path": "src/world.js",
+        "bytes": 31525,
+        "sha256": "4d9a8649d9925ba7c19023de5cad34d458783bdb7bd141af36b0363298a31640",
+        "lfSha256": "b9a5ab2e532cdd5380d4bba0b396516d4dc81de5d151fa98145a27a2c3fa4d0d"
+      },
+      {
+        "path": "vite.config.js",
+        "bytes": 328,
+        "sha256": "41eb9a9902495f7c15baf152db4624c265360345856f56bca0d872688b9dcffd",
+        "lfSha256": "d06549c678fc008a25b76a328dd206313e6e2ea3babf0c5dafe12f6231d9bde2"
+      }
+    ],
+    "tests": [
+      {
+        "path": "tests/art.test.js",
+        "bytes": 3495,
+        "sha256": "b318f239b48791de9998237c37bcbd497c5861fec6b3d510f595d38252e7559f",
+        "lfSha256": "b318f239b48791de9998237c37bcbd497c5861fec6b3d510f595d38252e7559f"
+      },
+      {
+        "path": "tests/browser/art.spec.js",
+        "bytes": 6125,
+        "sha256": "30df13bd4b9ff7ee08d50d6a28c5a041098144a09949eb63f85e62192782274b",
+        "lfSha256": "30df13bd4b9ff7ee08d50d6a28c5a041098144a09949eb63f85e62192782274b"
+      },
+      {
+        "path": "tests/browser/challenge-flow.spec.js",
+        "bytes": 9471,
+        "sha256": "98a0e69407299166e24b83b3749468c5f829b03d1458ce46b547b2e16e2fb0d2",
+        "lfSha256": "98a0e69407299166e24b83b3749468c5f829b03d1458ce46b547b2e16e2fb0d2"
+      },
+      {
+        "path": "tests/browser/challenge.spec.js",
+        "bytes": 4645,
+        "sha256": "af7e3b40e26c54b8c31b574c68091dfa7319bc202bc9c4e836d554b577ed2685",
+        "lfSha256": "af7e3b40e26c54b8c31b574c68091dfa7319bc202bc9c4e836d554b577ed2685"
+      },
+      {
+        "path": "tests/browser/continuous-first.spec.js",
+        "bytes": 4426,
+        "sha256": "ee55cd7a24d41bba6117dde0921eb5e9562e76a244866c78d3f2fb5c66b1493f",
+        "lfSha256": "ee55cd7a24d41bba6117dde0921eb5e9562e76a244866c78d3f2fb5c66b1493f"
+      },
+      {
+        "path": "tests/browser/continuous-touch.spec.js",
+        "bytes": 6813,
+        "sha256": "2320a3357998ffde3dcfeceba7bb49fb2758a02959b92969097ed620034461fb",
+        "lfSha256": "2320a3357998ffde3dcfeceba7bb49fb2758a02959b92969097ed620034461fb"
+      },
+      {
+        "path": "tests/browser/continuous-yaw.spec.js",
+        "bytes": 7319,
+        "sha256": "55eabb72814967af5c77c66e6330c4abda25d95e0eb27a387c41c05abc87b41f",
+        "lfSha256": "55eabb72814967af5c77c66e6330c4abda25d95e0eb27a387c41c05abc87b41f"
+      },
+      {
+        "path": "tests/browser/feedback.spec.js",
+        "bytes": 4394,
+        "sha256": "b36d1ee46b7f621d31cff2179c1a1a743a3640c9f40cd6c7beab761b54f83106",
+        "lfSha256": "6121830fc789626b4347913c10b9fda7ee0f93addc6543da86025b4972ac6b5b"
+      },
+      {
+        "path": "tests/browser/game.spec.js",
+        "bytes": 3781,
+        "sha256": "6689a61d12c9bbb4ab130de30e114a7e125e8a3505af4e7d8fbf69f086a2ec58",
+        "lfSha256": "6689a61d12c9bbb4ab130de30e114a7e125e8a3505af4e7d8fbf69f086a2ec58"
+      },
+      {
+        "path": "tests/browser/landing-boundary.spec.js",
+        "bytes": 2719,
+        "sha256": "d641af765cec945d19a5a77691c13881d5af7f23fb4811d008aad5f3cb36afe3",
+        "lfSha256": "d641af765cec945d19a5a77691c13881d5af7f23fb4811d008aad5f3cb36afe3"
+      },
+      {
+        "path": "tests/browser/landing-flow.spec.js",
+        "bytes": 4769,
+        "sha256": "e4b5f0dd1354086758175dcb70339543d5fbf06c50a194aa0e90fcd0dbfdebc7",
+        "lfSha256": "33abd81d40a6a07b9e806cfd8f19fb7d8fc3eabab1c420a24e23eb0c715aa0c8"
+      },
+      {
+        "path": "tests/browser/menu-results-production.spec.js",
+        "bytes": 3139,
+        "sha256": "cf319786ff3f5784d746375ac2d99f11000f1b896ab3e6fb57fffab3617efa32",
+        "lfSha256": "2f15beafd1ea782bc1a561cce00a856238b8040f47c4ff938ec38d76b740f0f1"
+      },
+      {
+        "path": "tests/browser/menu-results.spec.js",
+        "bytes": 10985,
+        "sha256": "50d81bee99439594b7513e71f0d59fd12f1fc911d61a1fd4d40279fb67f68842",
+        "lfSha256": "bafe95cd9503741d33c9f0131888f8bb9928588ee8407e091858f87eb0244245"
+      },
+      {
+        "path": "tests/browser/mobile-hud-layout.spec.js",
+        "bytes": 8254,
+        "sha256": "3b7f8a801bf743f607b24884b89860828070305f9bc2f5d9834ad63b850cbb1c",
+        "lfSha256": "3c5ba84e011476a632199839b68b010bedb4eb2e0fd8df992689f806cd680498"
+      },
+      {
+        "path": "tests/browser/mobile-hud-production.spec.js",
+        "bytes": 4496,
+        "sha256": "b7c2f7b563263f8e789a87d72c12be3ec47448f05290be6073df76471bdd67b7",
+        "lfSha256": "b7c2f7b563263f8e789a87d72c12be3ec47448f05290be6073df76471bdd67b7"
+      },
+      {
+        "path": "tests/browser/mobile-hud.spec.js",
+        "bytes": 8733,
+        "sha256": "a1ae16ea52b1317374af711199cca4274dfdd0c94471ff89ff50693e1c128615",
+        "lfSha256": "45f1234b521f72a14dd1255148c3d2d51a2d90c5e6a09823b6551436bffeed8d"
+      },
+      {
+        "path": "tests/browser/one-jump.spec.js",
+        "bytes": 9499,
+        "sha256": "4e30672307f80fe15dedd0fbe5409d245b90dd62e8b92ba30d4e75a22a9e067c",
+        "lfSha256": "32868a396efafc68569c7474d0d5bc9d2f544d4959967c32902bafc36603f259"
+      },
+      {
+        "path": "tests/browser/parking-mobile.spec.js",
+        "bytes": 4262,
+        "sha256": "8ccb2278218ffa7f82549412ceb7dabb1fbbcd9bcc4550bca1565fc0e9f3ecd3",
+        "lfSha256": "6dc857c9b6565570936bf953682d5a4eb70d65a307e6baf6b223888995601aa9"
+      },
+      {
+        "path": "tests/browser/parking-production.spec.js",
+        "bytes": 5439,
+        "sha256": "ba8aea33001caf94153ede4ada17ae44c10dabd009e3fe28ec6d7cf97851aed5",
+        "lfSha256": "84343467de1f7a57d4fa39886aed3a300dac7c02143f4484acdf5f250507a2fc"
+      },
+      {
+        "path": "tests/browser/parking-recovery.spec.js",
+        "bytes": 3904,
+        "sha256": "17f83628030fee74d99659292ab4b62d9d0ef372c3d1c1123b3d3c18724e8aab",
+        "lfSha256": "17f83628030fee74d99659292ab4b62d9d0ef372c3d1c1123b3d3c18724e8aab"
+      },
+      {
+        "path": "tests/browser/parking.spec.js",
+        "bytes": 3252,
+        "sha256": "d03c3fba7583941baec0983eb8ee6542323a74a07b90b1965a7a1d5a00b9ca07",
+        "lfSha256": "bdf35aeb9dd571714f4c36c3627b944010df1f2d2e895d095db2e3e47707f73f"
+      },
+      {
+        "path": "tests/browser/pc-hud.spec.js",
+        "bytes": 9093,
+        "sha256": "b540ec4a4fc0d4c6a63abe6889b969cf07915e6967476c92d698a63c3e44bfc6",
+        "lfSha256": "b540ec4a4fc0d4c6a63abe6889b969cf07915e6967476c92d698a63c3e44bfc6"
+      },
+      {
+        "path": "tests/browser/performance.spec.js",
+        "bytes": 5498,
+        "sha256": "d699812e2fbf396472ac81c05d21e53eded5cb0be2f3316386b4c17db3aa9a5d",
+        "lfSha256": "d699812e2fbf396472ac81c05d21e53eded5cb0be2f3316386b4c17db3aa9a5d"
+      },
+      {
+        "path": "tests/browser/rework-evidence.spec.js",
+        "bytes": 2035,
+        "sha256": "5ce6d22625c8cc0049848056c52a20ecf5bc33dd4808d0afce75a700f013a964",
+        "lfSha256": "5ce6d22625c8cc0049848056c52a20ecf5bc33dd4808d0afce75a700f013a964"
+      },
+      {
+        "path": "tests/browser/shared-feedback.spec.js",
+        "bytes": 12497,
+        "sha256": "ee46908c63cd48615109939d3454e080d68623dfae82b088cedad8441b3ebd9b",
+        "lfSha256": "29da0e4e616ee5ca94a8657dcf81de37686c40558447aeca4022260afae38795"
+      },
+      {
+        "path": "tests/browser/sprint.spec.js",
+        "bytes": 10154,
+        "sha256": "aadc349b67a37e562859046eb291af5fc9a2e3d3107718ee2eacec8e4852629e",
+        "lfSha256": "d3f1e9864d024fd802582eb63f21bcbb0e52ed87018dec76f5d15dccd1c332bb"
+      },
+      {
+        "path": "tests/ceiling.test.js",
+        "bytes": 4528,
+        "sha256": "5a63e577063469130d1703010d7ff41fb0444cd8abebfdbcb5d14fa3453c6f94",
+        "lfSha256": "eb94bd2bd41c32906b60ab84a99d519977991b845068762750f183dc23dc8e77"
+      },
+      {
+        "path": "tests/challenge-flow.test.js",
+        "bytes": 4861,
+        "sha256": "95da817de08952142b30413140375ac413b5ccd3da6c42f7947cedbcb9aa9c60",
+        "lfSha256": "95da817de08952142b30413140375ac413b5ccd3da6c42f7947cedbcb9aa9c60"
+      },
+      {
+        "path": "tests/challenge.test.js",
+        "bytes": 6856,
+        "sha256": "f6317e7f0f22bc0e37625654fdea6f58f199bf5403cf586269c9c0bdee8ef0f1",
+        "lfSha256": "812195163afa2c8caf38ae5a1ca0e3838f2a6d2676adccc3c85af409c870bfa8"
+      },
+      {
+        "path": "tests/core.test.js",
+        "bytes": 3371,
+        "sha256": "f82c133f8aeac4999969f1bace2178809276610cfd5d0bc747068749f7212656",
+        "lfSha256": "f82c133f8aeac4999969f1bace2178809276610cfd5d0bc747068749f7212656"
+      },
+      {
+        "path": "tests/feedback.test.js",
+        "bytes": 4644,
+        "sha256": "5cd77a8d5424d4a834b053d55c20ec5690787bb53d9e75057e198ddc0863558b",
+        "lfSha256": "5cd77a8d5424d4a834b053d55c20ec5690787bb53d9e75057e198ddc0863558b"
+      },
+      {
+        "path": "tests/flow-model.test.js",
+        "bytes": 3280,
+        "sha256": "ae564a3e41a42b24c789f6ace50f3d372545d4c77903d7e0f8b48fb9ce720815",
+        "lfSha256": "ba3f66733830115a10b766c52a8a938d6f7d733e798deb3eb6e3d930be2acd2d"
+      },
+      {
+        "path": "tests/hud-model.test.js",
+        "bytes": 7211,
+        "sha256": "7270591c7bb93a7b8fff344590787ae89125c24f1f16785c771443758e148968",
+        "lfSha256": "44dfeed0411677592e5f5165c1331176aa664de18b8cf8a74e8c2f57c6db93b1"
+      },
+      {
+        "path": "tests/landing-model.test.js",
+        "bytes": 4291,
+        "sha256": "d07ab5bff3d4971baecae45fd6a61cd8b265998e38385a63e5a12ff859775eb3",
+        "lfSha256": "d07ab5bff3d4971baecae45fd6a61cd8b265998e38385a63e5a12ff859775eb3"
+      },
+      {
+        "path": "tests/one-jump.test.js",
+        "bytes": 3200,
+        "sha256": "dc4a04dd0a7b4ead5eef9781bb631bff9199f5d50be25ba6f5b76d6f530eca22",
+        "lfSha256": "d52637eb3db31a00c947ac9f804b38a00bbd6c3379797b829794210c1218ca1b"
+      },
+      {
+        "path": "tests/parking.test.js",
+        "bytes": 6296,
+        "sha256": "f853b2e4a52bec0b27f2fe1662c2cc275177330194db665124e3c2ff35fb2c28",
+        "lfSha256": "3eeeee6bc4e41123d6b8ebf6d169b35c0be8b8e7792d4cb6afb216be34fcc4d8"
+      },
+      {
+        "path": "tests/rework-physics.test.js",
+        "bytes": 8757,
+        "sha256": "90b0b96f868aee021a671a6ad007b5d266f75e40d56e7def41f05757059476ef",
+        "lfSha256": "7e334a0905ee1cd1540d498c783f1ca13109ef72a02bb91a10b374550f1ccbe3"
+      },
+      {
+        "path": "tests/roadster.test.js",
+        "bytes": 7413,
+        "sha256": "aef537bbc94836aaa584c8e7bc18c2bcc6d2e7a72ba1421570720273d6197456",
+        "lfSha256": "20a35b666a1b48504a2af96e3a4ec013a3d1985a7dafd1a5bdb697dd42b1a0c6"
+      },
+      {
+        "path": "tests/shared-feedback.test.js",
+        "bytes": 7072,
+        "sha256": "8f06fc2f5932cc594209bc81ab6950351004f0268c7ee4ce75427ed4b2e49048",
+        "lfSha256": "d9d795daa345fe331dbb62ac70ba79b37f6d934550673f23ecda4e0549a40374"
+      },
+      {
+        "path": "tests/sprint-visuals.test.js",
+        "bytes": 4241,
+        "sha256": "e9cfc7238a1ed649b268677b85a5850031dd0f4570a30f2f36f1880c478221a9",
+        "lfSha256": "aadcd49d2855eff9b41a6735d2222bf9c25cc37326da63b902b3869060606abd"
+      },
+      {
+        "path": "tests/sprint.test.js",
+        "bytes": 6943,
+        "sha256": "51aaca51eaf5096b32ca895b91648a5a9828d0ec9b065b6d6e1512e7877c2fe9",
+        "lfSha256": "449c2f6d973418a211909f1d1b31a8a0e09d0aec565e06e71ed3ac9a2882b934"
+      },
+      {
+        "path": "tests/touch-layout.test.js",
+        "bytes": 879,
+        "sha256": "0e59a2c6061cd3cc29a92cf2cac4d9a478924440ce3a59ac602a04550a1b2d21",
+        "lfSha256": "53e24519c085bdf2acad4c7b43fd0f6095b0c0244dd01ef9eb9fc6987b8424df"
+      },
+      {
+        "path": "tests/yaw.test.js",
+        "bytes": 5115,
+        "sha256": "d64a9295d7d534cc416c2337a0bc8f158c3ceaa062e6264c7b327c7b3072b727",
+        "lfSha256": "d64a9295d7d534cc416c2337a0bc8f158c3ceaa062e6264c7b327c7b3072b727"
+      }
+    ],
+    "replays": [
+      {
+        "path": "scripts/audit-roadster-blender.mjs",
+        "bytes": 2212,
+        "sha256": "8d623b78562d8efbefdb758f2f8a5fd5b7f415b88b1051ec4911befcfd7044b1",
+        "lfSha256": "8d623b78562d8efbefdb758f2f8a5fd5b7f415b88b1051ec4911befcfd7044b1"
+      },
+      {
+        "path": "scripts/roadster-change-diagnostic.mjs",
+        "bytes": 1141,
+        "sha256": "113f375a5a745d159a4e5cfc532b361bbf416a8072f547a9a4ddc504217301ed",
+        "lfSha256": "113f375a5a745d159a4e5cfc532b361bbf416a8072f547a9a4ddc504217301ed"
+      },
+      {
+        "path": "scripts/roadster-diagnostic.mjs",
+        "bytes": 1445,
+        "sha256": "c17e849aeb43e96dc85f38a852b6907b5511295c1dcbe2333ad0e919f0f3dede",
+        "lfSha256": "e5298fa3cddf799a74cabcf9f952e5b4b5280b62d18a77d265a07f7ccccb0535"
+      },
+      {
+        "path": "scripts/roadster-first-smoke.mjs",
+        "bytes": 741,
+        "sha256": "8b680acdcdad7bcd4d439d83e329579f7c007548489bbfaf07b8a8dc17c6d07c",
+        "lfSha256": "3c20b04f8e31bed4089be09263735608aacc460734afe9dc8a8284f76c102344"
+      },
+      {
+        "path": "scripts/roadster-freeze.mjs",
+        "bytes": 7552,
+        "sha256": "0ca5334f5968593cdc064d6f2a383fc803b4129bae8aed12c59e2f195c7a7a6d",
+        "lfSha256": "0ca5334f5968593cdc064d6f2a383fc803b4129bae8aed12c59e2f195c7a7a6d"
+      },
+      {
+        "path": "scripts/roadster-lifecycle.mjs",
+        "bytes": 4766,
+        "sha256": "b780b1e1d938414190e45955928c366698b27a0f11c4b7e023eb463b28c14966",
+        "lfSha256": "b780b1e1d938414190e45955928c366698b27a0f11c4b7e023eb463b28c14966"
+      },
+      {
+        "path": "scripts/roadster-native.mjs",
+        "bytes": 8884,
+        "sha256": "c270b315f71842b75949be7ec55bee198fc7a42b4d685e3bad470dc63b9e86b1",
+        "lfSha256": "c270b315f71842b75949be7ec55bee198fc7a42b4d685e3bad470dc63b9e86b1"
+      },
+      {
+        "path": "scripts/roadster-platform-full.mjs",
+        "bytes": 2239,
+        "sha256": "69adabcdf59281c415f7898cec8b15e8b1d603c6265dde57fcc0d355e8154d51",
+        "lfSha256": "e4666fcc580032bc40e11df8dc01fa99c4c6f6bba3028ed76bd6602c79303a2c"
+      },
+      {
+        "path": "scripts/roadster-platform-search.mjs",
+        "bytes": 1371,
+        "sha256": "4b0e5d654e05e0c0e215589353d3abaa27d2457540b33f640903a9db1b9e0c53",
+        "lfSha256": "c98ca61152abe365a8140f4d9e5e2e3afe65ffb473e81388e992bdc2d9f26745"
+      },
+      {
+        "path": "scripts/roadster-recovery.mjs",
+        "bytes": 2972,
+        "sha256": "7631c2ba411b986ceb7a2ff4aceb79fb16b6b7d9eb10d5afc107efff999968e2",
+        "lfSha256": "7631c2ba411b986ceb7a2ff4aceb79fb16b6b7d9eb10d5afc107efff999968e2"
+      },
+      {
+        "path": "scripts/roadster-return-diagnostic.mjs",
+        "bytes": 1273,
+        "sha256": "1edadb1027b251b303626f7f74f2bc5a2b03ec1f6478c3ea0053a535fca85108",
+        "lfSha256": "1edadb1027b251b303626f7f74f2bc5a2b03ec1f6478c3ea0053a535fca85108"
+      },
+      {
+        "path": "scripts/roadster-touch-probe.mjs",
+        "bytes": 1117,
+        "sha256": "44b129f95f4699c6ac892dbb5310821dd62be02a69f83ad7aa043f2e5e138b9d",
+        "lfSha256": "44b129f95f4699c6ac892dbb5310821dd62be02a69f83ad7aa043f2e5e138b9d"
+      }
+    ],
+    "assets": [
+      {
+        "path": "assets/blender/build_roadster_lab.py",
+        "bytes": 8876,
+        "sha256": "86a0c2286f5993dd5fad1b612b5fd4a59606e8dfd6963bb1310360c1fc7f02cf",
+        "lfSha256": "86a0c2286f5993dd5fad1b612b5fd4a59606e8dfd6963bb1310360c1fc7f02cf"
+      },
+      {
+        "path": "assets/blender/roadster-lab-overview.png",
+        "bytes": 416371,
+        "sha256": "0e8d59fcbe9155c3a1d661f1bb8333415370aa3369ebd592d902081f1c6d8331"
+      },
+      {
+        "path": "assets/blender/roadster-lab.blend",
+        "bytes": 100036,
+        "sha256": "afd566dfb9233286b5c22de3ce3732b738c9b05d26b8fac15db5e2ce62357c99"
+      },
+      {
+        "path": "public/assets/roadster-lab-layout.json",
+        "bytes": 3400,
+        "sha256": "d748258f0972b8178ccc55c81db3d4b0b80d245b7a92fd456d092858094709b3",
+        "lfSha256": "7c0f73376219e88687db04187d868930d14973ef67f8a6e9d92882d9ac933a88"
+      },
+      {
+        "path": "public/assets/roadster-lab.glb",
+        "bytes": 81452,
+        "sha256": "b9da2c3c5e10677f8a8290f58fc6f6b159d12c1202fa62806f185b9f95e1237b"
+      }
+    ],
+    "documentation": [
+      {
+        "path": "docs/ROADSTER_BLENDER_SCENE.md",
+        "bytes": 2392,
+        "sha256": "c6c61059ee1fc804f921a5fb9f3884b0fd9c47eb2212dc1bb932367eb4e37f2d",
+        "lfSha256": "c6c61059ee1fc804f921a5fb9f3884b0fd9c47eb2212dc1bb932367eb4e37f2d"
+      },
+      {
+        "path": "docs/ROADSTER_CORE_IMPLEMENTATION.md",
+        "bytes": 6625,
+        "sha256": "e5c3b87ec37b3764275b3257f462ae464b339b7835f499f57ec6b6d0e391dab8",
+        "lfSha256": "e5c3b87ec37b3764275b3257f462ae464b339b7835f499f57ec6b6d0e391dab8"
+      },
+      {
+        "path": "docs/ROADSTER_CORE_PROTOTYPE.md",
+        "bytes": 21243,
+        "sha256": "2bdbda955c0f7c3f2ac124cace903a4d7b5a3d0670ad39d0c9ecb5be346f9e72",
+        "lfSha256": "2bdbda955c0f7c3f2ac124cace903a4d7b5a3d0670ad39d0c9ecb5be346f9e72"
+      }
+    ],
+    "evidence": [
+      {
+        "path": "docs/roadster-all-unit.txt",
+        "bytes": 34801,
+        "sha256": "0bd4f016fd8869e081073af6d990604acccaaa690a3ee4642e9850b5bc0ced08",
+        "lfSha256": "db1171389ee2464399a92405c899e6384773ed69d98368865229322b4f2797f4"
+      },
+      {
+        "path": "docs/roadster-blender-validation.json",
+        "bytes": 2218,
+        "sha256": "282bcdbed1bb01ad44d0d859b1407175fa4ec660c14a12b1392579862eb16fcb",
+        "lfSha256": "282bcdbed1bb01ad44d0d859b1407175fa4ec660c14a12b1392579862eb16fcb"
+      },
+      {
+        "path": "docs/roadster-candidate-build.txt",
+        "bytes": 15911,
+        "sha256": "bda68f0fb91d836175591c739ea5d14567aeeafea7e26dbdfeb1d8ab8cef0c32",
+        "lfSha256": "bda68f0fb91d836175591c739ea5d14567aeeafea7e26dbdfeb1d8ab8cef0c32"
+      },
+      {
+        "path": "docs/roadster-change-diagnostic.json",
+        "bytes": 52890,
+        "sha256": "e273dcaf3a4c92a26a008713049be02d3273da1200ee0c7205d5d6db06382979",
+        "lfSha256": "e273dcaf3a4c92a26a008713049be02d3273da1200ee0c7205d5d6db06382979"
+      },
+      {
+        "path": "docs/roadster-change-inspect.txt",
+        "bytes": 4441,
+        "sha256": "db90185873322a827bdcee237af1113a48a58abdb35fc22b125801e1ec019ab9",
+        "lfSha256": "7e57a54532bf1d886daf88573c63d483e8ea2043b38110fca5ad75fa72199c81"
+      },
+      {
+        "path": "docs/roadster-change-run.txt",
+        "bytes": 1869,
+        "sha256": "54db7661b7a0a2b8d0543473b17b9f5ebe157d69aa22fd6504b5c435d6610c90",
+        "lfSha256": "449567da9cc1061620adf984828e2cd197fcfc9d68f53833643741460a45b3e9"
+      },
+      {
+        "path": "docs/roadster-expanded-candidate-build.txt",
+        "bytes": 16294,
+        "sha256": "1bb300de1b5c6281ce0656c28164cbdedb959b39939df66af08b648091d12e5d",
+        "lfSha256": "5d1497d754d91119ad3a665476859eea5c3eb46fee41dc47b411e5e783743f42"
+      },
+      {
+        "path": "docs/roadster-feedback-candidate-build.txt",
+        "bytes": 15898,
+        "sha256": "bde8baa6ad15668478783dafc2dcf50f3bda841894897118372c3b9b3842ba91",
+        "lfSha256": "7a061bfad05f77c1ab01cbd456cea39f448b332d1a697471503dc3aab0477866"
+      },
+      {
+        "path": "docs/roadster-final-build.txt",
+        "bytes": 15898,
+        "sha256": "beadffaf52cf42a495dc33e84bf383e7af88833b4c04b8286f929cb813168c0a",
+        "lfSha256": "742a64718d18d70ca571426385dcb537ec5816a67615cb0d2a102ca2701a4e3c"
+      },
+      {
+        "path": "docs/roadster-final-validation.json",
+        "bytes": 8733,
+        "sha256": "a8581b2f168ba120fc68418f09bb3ffe6c5a32fefa9c57a4e167a1e59340000c",
+        "lfSha256": "a8581b2f168ba120fc68418f09bb3ffe6c5a32fefa9c57a4e167a1e59340000c"
+      },
+      {
+        "path": "docs/roadster-first-build.txt",
+        "bytes": 15910,
+        "sha256": "58abea17121e8debb78bdbbcaf2484abb574bc1c83a8e1672d107b38bee95210",
+        "lfSha256": "58abea17121e8debb78bdbbcaf2484abb574bc1c83a8e1672d107b38bee95210"
+      },
+      {
+        "path": "docs/roadster-lifecycle-run.txt",
+        "bytes": 1165,
+        "sha256": "781d771ccfb8b0e0ce30d0ed30c0df5d8f57ddd36adf7787176b12aae0a3a20a",
+        "lfSha256": "035e86f33543b9c86ffdcaa5f1844f3e524355d27b4d240cfaee06ca60b7980b"
+      },
+      {
+        "path": "docs/roadster-lifecycle.json",
+        "bytes": 1400,
+        "sha256": "b9f2ca4f5f5050afac280d34d7dc4bc129e5a0410f98d77a845403fac85e1c29",
+        "lfSha256": "b9f2ca4f5f5050afac280d34d7dc4bc129e5a0410f98d77a845403fac85e1c29"
+      },
+      {
+        "path": "docs/roadster-low-rolloff-diagnostic.txt",
+        "bytes": 1639,
+        "sha256": "517f95f18fc631ad5fa6532925f73eda4fb4ba142b8fe90b7f2027a68a2466ef",
+        "lfSha256": "abf732b69a47d1a10d08f0229e6b6d86d0fe0f0f4e308b6eeb05d3dc2cca007e"
+      },
+      {
+        "path": "docs/roadster-low-shortlift-diagnostic.txt",
+        "bytes": 1359,
+        "sha256": "f8ca3ba33a2fe94adf8ac82a4b65f8a7446fa48aee8315accdab8917b58e7f6e",
+        "lfSha256": "d51305457d55e136246a40862bd7529d1e2a2c11b3d9dda7447cf219a48fc1a2"
+      },
+      {
+        "path": "docs/roadster-native-mobile-667-direct-run.txt",
+        "bytes": 2827,
+        "sha256": "1ab76330a7293755574e5fc83696916c0f216cf3f3da6ce74adba5c3c92149b8",
+        "lfSha256": "01ec7ff0f20020cbb6de8c945f2437302b8eb091dd420a733b8423bad1ed97d8"
+      },
+      {
+        "path": "docs/roadster-native-mobile-667-direct.json",
+        "bytes": 24473,
+        "sha256": "3be28ea92bf3fd771d9668c5a016d3917ad5533307baa089a47e3b92475621a2",
+        "lfSha256": "3be28ea92bf3fd771d9668c5a016d3917ad5533307baa089a47e3b92475621a2"
+      },
+      {
+        "path": "docs/roadster-native-mobile-667-high-concurrent-failure.json",
+        "bytes": 9890,
+        "sha256": "d28eec9725dc025d383b61eab762273243fe688636f7bf55d2cb79913ab37034",
+        "lfSha256": "d28eec9725dc025d383b61eab762273243fe688636f7bf55d2cb79913ab37034"
+      },
+      {
+        "path": "docs/roadster-native-mobile-667-high-run.txt",
+        "bytes": 5436,
+        "sha256": "2d076bc37b5d305a1a14a2ca64c6fe00b73f1c96d2e84dae077d727c34850fae",
+        "lfSha256": "45ea90b0d2961c7d2f292b69aa169ac0bf4c04c62874279d808c844bee4f2c25"
+      },
+      {
+        "path": "docs/roadster-native-mobile-667-high.json",
+        "bytes": 421135,
+        "sha256": "dfb5b8d510f4925f2ec706f51c2f722573b10ed7e5e2dc0ebfea7af17e032930",
+        "lfSha256": "dfb5b8d510f4925f2ec706f51c2f722573b10ed7e5e2dc0ebfea7af17e032930"
+      },
+      {
+        "path": "docs/roadster-native-mobile-667-low-run.txt",
+        "bytes": 5483,
+        "sha256": "d37ecdbd23dc40b5aec93ff1eeb2b8b38c2a210f6c9e2bc5e0cbcfc73a9f71a7",
+        "lfSha256": "c82e7c0f9ee55f0e4e89f60dd1c6f5f732a71906fb2c9ea5acbd6ae794324aa3"
+      },
+      {
+        "path": "docs/roadster-native-mobile-667-low.json",
+        "bytes": 400608,
+        "sha256": "b4dd9fd1db2e8e314e29f9cc2048ff10ed07148507bf965568fc27523a86f522",
+        "lfSha256": "b4dd9fd1db2e8e314e29f9cc2048ff10ed07148507bf965568fc27523a86f522"
+      },
+      {
+        "path": "docs/roadster-native-mobile-direct-driver-release.json",
+        "bytes": 7125,
+        "sha256": "eacfcb0bd620bc07757f2df99faa519dfd681a5c40cd9ff6ae5d30efaa859a74",
+        "lfSha256": "eacfcb0bd620bc07757f2df99faa519dfd681a5c40cd9ff6ae5d30efaa859a74"
+      },
+      {
+        "path": "docs/roadster-native-mobile-direct-run.txt",
+        "bytes": 2833,
+        "sha256": "4d37dd966cbcd4368a18dddfc53b1b600b6ab052947d9add41b0a785c3c038ff",
+        "lfSha256": "2daaa648b5140e28b4c3b3e6ef57a29b14775f2ed711ca292ebae86d55b3d1ee"
+      },
+      {
+        "path": "docs/roadster-native-mobile-direct.json",
+        "bytes": 24502,
+        "sha256": "f38da38cb22292a938461e02193841d715c14f65a3088ab092930912339db7d7",
+        "lfSha256": "f38da38cb22292a938461e02193841d715c14f65a3088ab092930912339db7d7"
+      },
+      {
+        "path": "docs/roadster-native-mobile-high-first-contact-failure.json",
+        "bytes": 137272,
+        "sha256": "c41f14cddfad549d232078f321681fbaeb49e9c260dab050224214f257d2be92",
+        "lfSha256": "c41f14cddfad549d232078f321681fbaeb49e9c260dab050224214f257d2be92"
+      },
+      {
+        "path": "docs/roadster-native-mobile-high-run.txt",
+        "bytes": 5445,
+        "sha256": "acafe3484a7e66c29cdae3a540b78c006707ab9ec476324a99a779270ea8fb3c",
+        "lfSha256": "a2af10fa8b0321c25e8bd44f3c3aae8749c48c1bf32bb5e0c7c4a94b461c9a9b"
+      },
+      {
+        "path": "docs/roadster-native-mobile-high.json",
+        "bytes": 422237,
+        "sha256": "086579727d78ad81063af1ef161e31eb972f1472de9fe79b12dd40d8cb690e75",
+        "lfSha256": "086579727d78ad81063af1ef161e31eb972f1472de9fe79b12dd40d8cb690e75"
+      },
+      {
+        "path": "docs/roadster-native-mobile-low-run.txt",
+        "bytes": 5397,
+        "sha256": "52d36d5bad319b3a40f6addd7ad6827cc8259e4bcb9a5f920d33cb53a48d2c12",
+        "lfSha256": "c90aad37d95c7a8426f3487f359aae9c307f0561566e491300dd4cf2a0793e64"
+      },
+      {
+        "path": "docs/roadster-native-mobile-low.json",
+        "bytes": 353855,
+        "sha256": "7e333a6cff70790a1a7402ef4cac40d471fb688de4ca3ef6aedc7f015743dc3c",
+        "lfSha256": "7e333a6cff70790a1a7402ef4cac40d471fb688de4ca3ef6aedc7f015743dc3c"
+      },
+      {
+        "path": "docs/roadster-native-pc-change-run.txt",
+        "bytes": 1149,
+        "sha256": "1b8f0c84e89f1e231941fad11f8d6481d539363413e2e05110d524ccb5d5a562",
+        "lfSha256": "7bbb418f3a94cad8e7e5ef5ffff435d92482dd2805aa63804f9f02930589ede9"
+      },
+      {
+        "path": "docs/roadster-native-pc-change.json",
+        "bytes": 57733,
+        "sha256": "8593ac0f24f9e67dead2106b2c827fa2cb09c1e0151a0cabc73c4e42e7c11ede",
+        "lfSha256": "8593ac0f24f9e67dead2106b2c827fa2cb09c1e0151a0cabc73c4e42e7c11ede"
+      },
+      {
+        "path": "docs/roadster-native-pc-direct-run.txt",
+        "bytes": 2832,
+        "sha256": "4f4ae66f92adc80884f5917139471dd51310ace27e5fe4710a13ce9d4f28921a",
+        "lfSha256": "73250c19c85973e7edf935b2720adefd49d944d895baf1b2148a9ac6e8397849"
+      },
+      {
+        "path": "docs/roadster-native-pc-direct.json",
+        "bytes": 24481,
+        "sha256": "5278dc49b093fbb4d0c411f1b1e4648e6d4bc40e773ff22be52faaa0c068ff7e",
+        "lfSha256": "5278dc49b093fbb4d0c411f1b1e4648e6d4bc40e773ff22be52faaa0c068ff7e"
+      },
+      {
+        "path": "docs/roadster-native-pc-high-driver-timeout.json",
+        "bytes": 8412,
+        "sha256": "4399f4a7a4e878b330053406558960658e1b3edd9aa76ecc3fe3d16aa3cf80e2",
+        "lfSha256": "4399f4a7a4e878b330053406558960658e1b3edd9aa76ecc3fe3d16aa3cf80e2"
+      },
+      {
+        "path": "docs/roadster-native-pc-high-edge-failure.json",
+        "bytes": 419370,
+        "sha256": "cca603a348da5d4bcd8b8dbdf4a84d7cf6ae125036770e86349fdf7b34f8db77",
+        "lfSha256": "cca603a348da5d4bcd8b8dbdf4a84d7cf6ae125036770e86349fdf7b34f8db77"
+      },
+      {
+        "path": "docs/roadster-native-pc-high-repeat-run.txt",
+        "bytes": 5519,
+        "sha256": "d74443dd341186b978e6434769f11873ca91fe4eabea454b34e2db3aa074c59f",
+        "lfSha256": "5c355b29c9fbdcfd92846bc5b992543d8b838672ef14d9eefd26574741af2331"
+      },
+      {
+        "path": "docs/roadster-native-pc-high-run.txt",
+        "bytes": 3123,
+        "sha256": "2b908d086d19ac7a8600246f9b3fcbc2a729df43bfedbf564f1d1fab13c77850",
+        "lfSha256": "2541558671fb933fbaeb6d587e88db6aa3c9882b5738ae106f46e8bf619bb633"
+      },
+      {
+        "path": "docs/roadster-native-pc-high.json",
+        "bytes": 384930,
+        "sha256": "ec1a9f67de282a76d747d548daa917695c5aa0006f3b66faa61c0997539dc951",
+        "lfSha256": "ec1a9f67de282a76d747d548daa917695c5aa0006f3b66faa61c0997539dc951"
+      },
+      {
+        "path": "docs/roadster-native-pc-low-failure-01.json",
+        "bytes": 6003,
+        "sha256": "257ec11385cfd6cdae3701372c40b0f35a545ad74c444d02ae62ac709b3458b6",
+        "lfSha256": "257ec11385cfd6cdae3701372c40b0f35a545ad74c444d02ae62ac709b3458b6"
+      },
+      {
+        "path": "docs/roadster-native-pc-low-repeat-run.txt",
+        "bytes": 5516,
+        "sha256": "01c0451231d97368cf113ef1cbaabb7585d3208a38071244c350de0340b54c32",
+        "lfSha256": "8278c4d47305bea33ad7f7e30afac2a5243d460dd424d69a9c7ba13994253455"
+      },
+      {
+        "path": "docs/roadster-native-pc-low-run.txt",
+        "bytes": 1700,
+        "sha256": "0a359181c7ba2078a9a1b118c43671a6a8ad26163a36b474fe65e6c655eb8833",
+        "lfSha256": "10c02d1b5cbad3819b1e63d491adef97e72ee20b179c1f45dab5cadd6820ed49"
+      },
+      {
+        "path": "docs/roadster-native-pc-low.json",
+        "bytes": 381739,
+        "sha256": "1eed91a1eae1994dace634913ce8839fe69a145fc11623fffb2812a03908b910",
+        "lfSha256": "1eed91a1eae1994dace634913ce8839fe69a145fc11623fffb2812a03908b910"
+      },
+      {
+        "path": "docs/roadster-native-pc-return-run.txt",
+        "bytes": 2160,
+        "sha256": "9fc3b241775da910d95a29ad7d085a42b85cb56428046bd03f89a0ed257a26ba",
+        "lfSha256": "3af44a5044214315ff66e1ce521abe11b2602879114cbf1ce6066dac71c0b0a9"
+      },
+      {
+        "path": "docs/roadster-native-pc-return.json",
+        "bytes": 796778,
+        "sha256": "c64d2e6a2d2f5eff4f292aa30bb19928266c4ad726a2bc9ef27de518dcde852d",
+        "lfSha256": "c64d2e6a2d2f5eff4f292aa30bb19928266c4ad726a2bc9ef27de518dcde852d"
+      },
+      {
+        "path": "docs/roadster-native-recovery-run.txt",
+        "bytes": 263,
+        "sha256": "5383ef7744a099e055f1ed2749709ae3e56cb193314c96b9094ac1a18102e9b3",
+        "lfSha256": "09247c961c0fe60f1e41a2d1b6c514ac3856b9d720806ebee266e6ed6d9e71ef"
+      },
+      {
+        "path": "docs/roadster-native-recovery.json",
+        "bytes": 18066,
+        "sha256": "5e8c03a80965dc6f5e6b6ec0c916141371152e23b85e06fba3cd55ea710d4457",
+        "lfSha256": "5e8c03a80965dc6f5e6b6ec0c916141371152e23b85e06fba3cd55ea710d4457"
+      },
+      {
+        "path": "docs/roadster-platform-full-diagnostic.json",
+        "bytes": 106895,
+        "sha256": "9c8e7f443cdd4c512e4f7861c34de6fdb3d5ec8e64184cba6c76c7e5911e5779",
+        "lfSha256": "9c8e7f443cdd4c512e4f7861c34de6fdb3d5ec8e64184cba6c76c7e5911e5779"
+      },
+      {
+        "path": "docs/roadster-platform-full-run.txt",
+        "bytes": 3887,
+        "sha256": "d26846ac58a03d96c53f2d949ddce265d9538055a6dbe78a40c70c4b7b015f36",
+        "lfSha256": "68498aabb4e34397050e374a64e545085700c72f68714ea62252e62a10d89c9f"
+      },
+      {
+        "path": "docs/roadster-platform-search.json",
+        "bytes": 145442,
+        "sha256": "0c281222476e2a87a45e50429f7c90aea2f1b102ba6ec353f277d6235d4174cd",
+        "lfSha256": "0c281222476e2a87a45e50429f7c90aea2f1b102ba6ec353f277d6235d4174cd"
+      },
+      {
+        "path": "docs/roadster-return-diagnostic.json",
+        "bytes": 22372,
+        "sha256": "1bfa2347797d68f734d65bb9f879fee2c2f7c4134380ddc500a172a84db18fad",
+        "lfSha256": "1bfa2347797d68f734d65bb9f879fee2c2f7c4134380ddc500a172a84db18fad"
+      },
+      {
+        "path": "docs/roadster-return-run.txt",
+        "bytes": 1985,
+        "sha256": "f949e8801441e4c03dfe916c2f8713be33ae594f4f92ae6c67672cafa925e6aa",
+        "lfSha256": "403c02180e36d7d9230c6d417de856923321f4f5fc6704e98c78c55abb64109f"
+      },
+      {
+        "path": "docs/roadster-shadow-candidate-build.txt",
+        "bytes": 15898,
+        "sha256": "c6e7668b4ea1ac04596d303945de1c4c0b1681c62beecbb78938dea626acfecd",
+        "lfSha256": "ecf81c472726533969e04e34c907f8ce98071cfb936b543c035518d5a3af190a"
+      },
+      {
+        "path": "docs/roadster-shadow-smoke.txt",
+        "bytes": 259,
+        "sha256": "8a37242a521b2efc930836b83505b3673ad49b0a707067e1d580bbbb16150a8c",
+        "lfSha256": "4434d91c67b384a32a9514451e4db516eae775313c2a4871db1a94c02f7e043a"
+      },
+      {
+        "path": "docs/roadster-stable-candidate-build.txt",
+        "bytes": 15911,
+        "sha256": "d58be8d159c810a5ea31af8f4e70179a7d31268b310c1fe141f29d9933891348",
+        "lfSha256": "d58be8d159c810a5ea31af8f4e70179a7d31268b310c1fe141f29d9933891348"
+      },
+      {
+        "path": "docs/roadster-straight-diagnostic.json",
+        "bytes": 5394,
+        "sha256": "c1aca8bcb2187daafb5205ab703280eee7aff0e2362185421e4fe51c16be071b",
+        "lfSha256": "c1aca8bcb2187daafb5205ab703280eee7aff0e2362185421e4fe51c16be071b"
+      },
+      {
+        "path": "docs/roadster-touch-probe.txt",
+        "bytes": 646,
+        "sha256": "a19bb5041e08aa5662f028b657dffc18f6a71f0f11a4c5c0a5c5973138a54fae",
+        "lfSha256": "1c3eb2ec71801f3c4ce0367803a6c1fd7f53835cb2682a3a8882e06f64f36f7a"
+      },
+      {
+        "path": "docs/roadster-unit-first.txt",
+        "bytes": 4711,
+        "sha256": "2a67c90dbc837d86d58bf7b01adbc903774ee7187b6fe615e6d99a340f98a110",
+        "lfSha256": "2a67c90dbc837d86d58bf7b01adbc903774ee7187b6fe615e6d99a340f98a110"
+      },
+      {
+        "path": "docs/roadster-unit.txt",
+        "bytes": 3670,
+        "sha256": "ad647cc039abc4e8af3541f778acdd2cdcc285c5b8ac8914387d9cc82169fc68",
+        "lfSha256": "7483a060066bc5eaa926fda230d47a80c30bf56798f74c0ffe06f852559965db"
+      },
+      {
+        "path": "docs/screenshots/roadster-first-direction.png",
+        "bytes": 29539,
+        "sha256": "4d0305d6e0ff606e80f61dd73bc825dad332036749a01b835f6e9f5cf9167a18"
+      },
+      {
+        "path": "docs/screenshots/roadster-layout-667x375.png",
+        "bytes": 28692,
+        "sha256": "6446a2ed2365da60f0f5e072266bf5c0ff43011b4e86a9ebe0be34e2ee9bd074"
+      },
+      {
+        "path": "docs/screenshots/roadster-layout-844x390.png",
+        "bytes": 30325,
+        "sha256": "6546c4b7d7d7dea364493906a46a8a0c8fca82a8e2f3194ce1be4f73f1f418c0"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-low-recovery.png",
+        "bytes": 63421,
+        "sha256": "849bfcb27d304ef8f6f9523d9ecf8608073bd83bfa4c85962b96cfed420ca9ad"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-direct-1.png",
+        "bytes": 66793,
+        "sha256": "657ad32329c18a044bf55d245e97e5b05e03621deda1ec89e312a1614bb32f17"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-direct-2.png",
+        "bytes": 66662,
+        "sha256": "8abe4134d9db4618a260ffdc0d137c6229046a45a9317ca17ab44fb1d57e9ed2"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-direct-3.png",
+        "bytes": 67036,
+        "sha256": "58165758c87a60b38de47dee40cc7fe052e0e9733bb31e9563370eeb3339579a"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-high-1-failure.png",
+        "bytes": 23645,
+        "sha256": "312a535429abbc917af95e555d9207e27ca3c61febb6f94df027a09c71bb6556"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-high-1.png",
+        "bytes": 73069,
+        "sha256": "f8ba1b5a1be72578bd15f949c9b7286b8fa25872e4f41895b7edae0607922ead"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-high-2.png",
+        "bytes": 65232,
+        "sha256": "0c53d8b55816a875063314e7cf94f9c6f7912cea45ca7797933c3ea3a43d4974"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-high-3.png",
+        "bytes": 73168,
+        "sha256": "c539c2d02b09f23be0229e0e3dbe0672c5bb0629aff74f24817e569b69c8a28b"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-low-1.png",
+        "bytes": 71456,
+        "sha256": "fb6197c6093b987701caf60fa5ba0ec8e9222173e154bb18cc37418cf1603b09"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-low-2.png",
+        "bytes": 73399,
+        "sha256": "095cc6484e9f703ac3d70312a115118a98ef323c86f062e6caef01458c401344"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-667-low-3.png",
+        "bytes": 71800,
+        "sha256": "92393acdfcbd212658d3edf3cb0b258532b71bfa38a7b4b7387cbbbf6b5570b8"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-direct-1-failure.png",
+        "bytes": 22626,
+        "sha256": "b89509a380d112e6f08f394b80453e5e7feb9213487a34fefd77e20fc620ab39"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-direct-1.png",
+        "bytes": 102345,
+        "sha256": "f5ccb0c6cbaafc93ec70c4f9301cdc3dfb3dd0d5958b41a830624e0359875552"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-direct-2.png",
+        "bytes": 102557,
+        "sha256": "a19b38930684ca4e13a8c677f5fbe7c46f494ebbdd93cedb8076d83b6ed95304"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-direct-3.png",
+        "bytes": 102422,
+        "sha256": "c5fe09ee4cbbb65667171ed550ab44098382191bc24dc75b9ce83df1d16ab57a"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-high-1.png",
+        "bytes": 108536,
+        "sha256": "cd594cbebe3b3606084f84199108ebed0a15eafc10e0a86f3bd3795700da6765"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-high-2-failure.png",
+        "bytes": 36091,
+        "sha256": "d4b4e580e40e8ead6ec4c573c2873c11ef8ae454e75c40038611e0c0eb0f8b28"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-high-2.png",
+        "bytes": 107302,
+        "sha256": "6a6ae00bed139223fe1466a88671d611810138e44c2f43986e5db0c4bf996595"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-high-3.png",
+        "bytes": 107884,
+        "sha256": "922a3476477bd0ca4c7c7bb277658cf843edbe18fb59be61cacac273883757be"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-low-1.png",
+        "bytes": 111215,
+        "sha256": "89c573130be5c6dc5d2801f77c7713a71f16124697c1f7f0ef83d1c71fcb17d6"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-low-2.png",
+        "bytes": 106270,
+        "sha256": "0c496c60985e915bb3a944e0f2e44fc442ac1457e22435d7f946f1d4b38620c8"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-mobile-low-3.png",
+        "bytes": 111004,
+        "sha256": "0802e59957d3044676fd3e98af03afe0fa30f67d1fbd66c9106f76148e02e218"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-change-1.png",
+        "bytes": 28601,
+        "sha256": "fd5757c852c4dfee9762b0676939131b8dfabb9eb5d5ab91f96401d495d6769e"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-direct-1.png",
+        "bytes": 254652,
+        "sha256": "ab332667382c729d61f3a5ada84fb3757147fd3b6119163899336114a430f89d"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-direct-2.png",
+        "bytes": 256197,
+        "sha256": "fb516a82d1a5129bd0657fba8c4a20692c94a022927ef2ad3ccbe0cdc017a332"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-direct-3.png",
+        "bytes": 255449,
+        "sha256": "66aef46952df4c6ddbbcf32ad4335edda30438923019b756e3f13c15f6be12f4"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-high-1-failure.png",
+        "bytes": 257506,
+        "sha256": "b295ccfdded0ddd88e80933f620af31db9c129f3654f2b3df513fabbc9367936"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-high-1.png",
+        "bytes": 262099,
+        "sha256": "7a6a5bf38ff202e714eebb8c4924400f70da7544fd2a22a46c10017d8db33a6e"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-high-2.png",
+        "bytes": 260594,
+        "sha256": "b8065c2c2263ff0432d96419e3ea86fac7588de19ac31b9b1e7494b8e7e37cee"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-high-3-failure.png",
+        "bytes": 17944,
+        "sha256": "38c4f9196213f30df11e1b39c6cdd4a672736688abdc877e8593d9e040e578b0"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-high-3.png",
+        "bytes": 261591,
+        "sha256": "dcb44aad685ac469d5cd6016c53309ccb4cdfc92e206cc13d4acdc58030d5a0a"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-low-1-failure.png",
+        "bytes": 35627,
+        "sha256": "eba6b9ca6cdafa554ac72088d889911febbc4d3cc8e35934b419576f4a5e26d2"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-low-1.png",
+        "bytes": 259453,
+        "sha256": "99697f88bef511f633164f96dbe00069f955af6f8d74378a4aafefdf9e7c5571"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-low-2.png",
+        "bytes": 261849,
+        "sha256": "6c2a166116d1b803e4580b7ef6d0e9418efec1195d67874c4af6ff5144975374"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-low-3.png",
+        "bytes": 262124,
+        "sha256": "6e1168350f8480d4fe27ef2d1d799f29a592e17bd5be3778cb4afed7a5c90aba"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-pc-return-1.png",
+        "bytes": 21259,
+        "sha256": "e47b0a495b2a10c7fd8bd607c60f453577b8b9d6cdbe3b8414fc7ab09447fb86"
+      },
+      {
+        "path": "docs/screenshots/roadster-native-start-recovery.png",
+        "bytes": 29869,
+        "sha256": "2cd88f4c257ea1aa0bb9be63d1d76ccfcda40346bb825e528d692585654aa241"
+      }
+    ],
+    "production": [
+      {
+        "path": "dist/assets/abstractAudioBus-DHDkPWTO.js",
+        "bytes": 108,
+        "sha256": "7f0450acd299f002a1630cf38409f7b5e81e3e53189433ac21086a6c0bc7bf27",
+        "lfSha256": "7f0450acd299f002a1630cf38409f7b5e81e3e53189433ac21086a6c0bc7bf27"
+      },
+      {
+        "path": "dist/assets/abstractEngine.cubeTexture-BTTJzteb.js",
+        "bytes": 3553,
+        "sha256": "4a324c96af7457cfc5c33dbafa2d42b7a8aa8d5b131a1e600ab2636447fa0bd2",
+        "lfSha256": "4a324c96af7457cfc5c33dbafa2d42b7a8aa8d5b131a1e600ab2636447fa0bd2"
+      },
+      {
+        "path": "dist/assets/animationGroup-DbkAxWzX.js",
+        "bytes": 34696,
+        "sha256": "f4dc2ee72d882eb4fa308cb871c92761bc330819004a8ca335ecfac8cc692316",
+        "lfSha256": "f4dc2ee72d882eb4fa308cb871c92761bc330819004a8ca335ecfac8cc692316"
+      },
+      {
+        "path": "dist/assets/basisTextureLoader-CtvW5hFK.js",
+        "bytes": 8184,
+        "sha256": "27a2171ddc613185ea879676b137b8855add48b56946be6feaa90ce783f0bb11",
+        "lfSha256": "27a2171ddc613185ea879676b137b8855add48b56946be6feaa90ce783f0bb11"
+      },
+      {
+        "path": "dist/assets/bumpVertex-BNXttSYV.js",
+        "bytes": 744,
+        "sha256": "c639968f0c955077ede7c2be88885c0a4deee0f3ac5e445269d960916ae0edd9",
+        "lfSha256": "c639968f0c955077ede7c2be88885c0a4deee0f3ac5e445269d960916ae0edd9"
+      },
+      {
+        "path": "dist/assets/bumpVertex-DhQHmDNW.js",
+        "bytes": 974,
+        "sha256": "37ee873b0751bc3a2872570f9b400b039a5aea8c8ea0b44a086559a0f05c7b42",
+        "lfSha256": "37ee873b0751bc3a2872570f9b400b039a5aea8c8ea0b44a086559a0f05c7b42"
+      },
+      {
+        "path": "dist/assets/clipPlaneFragment-Cxq4FGO-.js",
+        "bytes": 1213,
+        "sha256": "9f195e93de7910bd8bbc7bf6e4c17c7da5c0c620a474d6ebf258225d0ebf8c86",
+        "lfSha256": "9f195e93de7910bd8bbc7bf6e4c17c7da5c0c620a474d6ebf258225d0ebf8c86"
+      },
+      {
+        "path": "dist/assets/clipPlaneVertex-tOVSj9EO.js",
+        "bytes": 9465,
+        "sha256": "bb50bcb4c3f75689fc949cb898cc8bc8b2661c313e02a0fcdfcfd27e38ce118e",
+        "lfSha256": "bb50bcb4c3f75689fc949cb898cc8bc8b2661c313e02a0fcdfcfd27e38ce118e"
+      },
+      {
+        "path": "dist/assets/color.fragment-BIfB1tNB.js",
+        "bytes": 891,
+        "sha256": "212aed6c98080676aec822792b8e0808c74d4ce9016eb290c13c3fb5d0e089e8",
+        "lfSha256": "212aed6c98080676aec822792b8e0808c74d4ce9016eb290c13c3fb5d0e089e8"
+      },
+      {
+        "path": "dist/assets/color.fragment-C_iz5iMe.js",
+        "bytes": 751,
+        "sha256": "3d2296c9df72648ae63a544b0406b46ad53a7f82f74e1544da54ed03c191c0db",
+        "lfSha256": "3d2296c9df72648ae63a544b0406b46ad53a7f82f74e1544da54ed03c191c0db"
+      },
+      {
+        "path": "dist/assets/color.vertex-Dc3rnwtA.js",
+        "bytes": 1221,
+        "sha256": "155ebd57bf2aeee6af9f49d6192e52d008c32c0a0285eda42bd7d83821f99f53",
+        "lfSha256": "155ebd57bf2aeee6af9f49d6192e52d008c32c0a0285eda42bd7d83821f99f53"
+      },
+      {
+        "path": "dist/assets/color.vertex-m4HQWpRJ.js",
+        "bytes": 1234,
+        "sha256": "2e95279d3c2aacc908b03fe1cc304df3b0fac4e969d528ff17c26da43417d9a5",
+        "lfSha256": "2e95279d3c2aacc908b03fe1cc304df3b0fac4e969d528ff17c26da43417d9a5"
+      },
+      {
+        "path": "dist/assets/cubemapToSphericalPolynomial-DLOre-t3.js",
+        "bytes": 5331,
+        "sha256": "3dd3f4211d34d6d1e81688f132fae268926407cca1990835be7a3801b384985c",
+        "lfSha256": "3dd3f4211d34d6d1e81688f132fae268926407cca1990835be7a3801b384985c"
+      },
+      {
+        "path": "dist/assets/dds-C2rP5Xr1.js",
+        "bytes": 7113,
+        "sha256": "305b7829540b60e5d15dd5c90969eb06b211e0884c75cea5f025e6671e5ab61d",
+        "lfSha256": "305b7829540b60e5d15dd5c90969eb06b211e0884c75cea5f025e6671e5ab61d"
+      },
+      {
+        "path": "dist/assets/ddsTextureLoader-BsfSIbcM.js",
+        "bytes": 1367,
+        "sha256": "074b7d83dea1f1a888b23f4ec6da0d3ecd1f0a05b74b920b0c28fa02a7188b38",
+        "lfSha256": "074b7d83dea1f1a888b23f4ec6da0d3ecd1f0a05b74b920b0c28fa02a7188b38"
+      },
+      {
+        "path": "dist/assets/default.fragment-BR9bgPnz.js",
+        "bytes": 24740,
+        "sha256": "a6ab75ed67402534401556096767f870665ee59c01f51de58fbfa2b721eca07b",
+        "lfSha256": "a6ab75ed67402534401556096767f870665ee59c01f51de58fbfa2b721eca07b"
+      },
+      {
+        "path": "dist/assets/default.fragment-BwLCwYNE.js",
+        "bytes": 23132,
+        "sha256": "d257a8471e5be087aee487a685dd1d84f17ce27a4ef1c872eee6ac3e69ddd272",
+        "lfSha256": "d257a8471e5be087aee487a685dd1d84f17ce27a4ef1c872eee6ac3e69ddd272"
+      },
+      {
+        "path": "dist/assets/default.vertex-BPWSDhI6.js",
+        "bytes": 7898,
+        "sha256": "7ef96a132b9a38401952d926dd13046899c8167b809541fdad9bdb3186438837",
+        "lfSha256": "7ef96a132b9a38401952d926dd13046899c8167b809541fdad9bdb3186438837"
+      },
+      {
+        "path": "dist/assets/default.vertex-C_-jN3sb.js",
+        "bytes": 7199,
+        "sha256": "7c0869b6b9c0ef5bc8734d27bf9abb208789591f049515eb32d0d99c5e56ba1e",
+        "lfSha256": "7c0869b6b9c0ef5bc8734d27bf9abb208789591f049515eb32d0d99c5e56ba1e"
+      },
+      {
+        "path": "dist/assets/defaultUboDeclaration-BJfS41pb.js",
+        "bytes": 1498,
+        "sha256": "b6c6e451171e7453b75cd9a82b58f3789241cb7fc0e88f9c9f65d1540ee9ab21",
+        "lfSha256": "b6c6e451171e7453b75cd9a82b58f3789241cb7fc0e88f9c9f65d1540ee9ab21"
+      },
+      {
+        "path": "dist/assets/defaultUboDeclaration-D_qvgtE_.js",
+        "bytes": 1145,
+        "sha256": "145b81a5b3a3ddbd8a808ee309cf7d0c18594543a486db33a16dafecd94d2a52",
+        "lfSha256": "145b81a5b3a3ddbd8a808ee309cf7d0c18594543a486db33a16dafecd94d2a52"
+      },
+      {
+        "path": "dist/assets/depth.fragment-HnAVgunX.js",
+        "bytes": 1266,
+        "sha256": "6e2ba0b769d235905b4a59478273baa507590ed88ddf1d020176125df58a0e69",
+        "lfSha256": "6e2ba0b769d235905b4a59478273baa507590ed88ddf1d020176125df58a0e69"
+      },
+      {
+        "path": "dist/assets/depth.vertex-BHtfDowk.js",
+        "bytes": 2097,
+        "sha256": "3f8278eea5a7122c1939aae1da694ad1e2d36b22652c7add8a4fa9d608b3572f",
+        "lfSha256": "3f8278eea5a7122c1939aae1da694ad1e2d36b22652c7add8a4fa9d608b3572f"
+      },
+      {
+        "path": "dist/assets/depthBoxBlur.fragment-1e1fvs6x.js",
+        "bytes": 539,
+        "sha256": "32b38bbfa453b819cf8c9baec9badd3b8d0dadf976c08c6e11efe1c9886834c5",
+        "lfSha256": "32b38bbfa453b819cf8c9baec9badd3b8d0dadf976c08c6e11efe1c9886834c5"
+      },
+      {
+        "path": "dist/assets/depthBoxBlur.fragment-DSpfGU94.js",
+        "bytes": 718,
+        "sha256": "24d7b66b17584680298c2f1a2aecf66e4677a5a56cebbf3d646d51942b32a6a3",
+        "lfSha256": "24d7b66b17584680298c2f1a2aecf66e4677a5a56cebbf3d646d51942b32a6a3"
+      },
+      {
+        "path": "dist/assets/dumpTools-73a2f71g.js",
+        "bytes": 3076,
+        "sha256": "c165b2747417dca00e1235f0c77b4c2a7ff71ddaae0b4de2de0eeeea1671e2e5",
+        "lfSha256": "c165b2747417dca00e1235f0c77b4c2a7ff71ddaae0b4de2de0eeeea1671e2e5"
+      },
+      {
+        "path": "dist/assets/easing-Dny4gHZd.js",
+        "bytes": 1915,
+        "sha256": "e372df26632d90bc5e1147a82cab20e66bcf39e8ea40a29f11e365c20f5a0fe8",
+        "lfSha256": "e372df26632d90bc5e1147a82cab20e66bcf39e8ea40a29f11e365c20f5a0fe8"
+      },
+      {
+        "path": "dist/assets/envTextureLoader-BsH5jtQ_.js",
+        "bytes": 687,
+        "sha256": "3b8cd76cee9fead3220e1c307b57a671f76372a9c57a2759053a3cc9b5146611",
+        "lfSha256": "3b8cd76cee9fead3220e1c307b57a671f76372a9c57a2759053a3cc9b5146611"
+      },
+      {
+        "path": "dist/assets/environmentTextureTools-6XQlunZJ.js",
+        "bytes": 7692,
+        "sha256": "46a1d85e13f6412e519ae3bbb804c030dc998cd3f9302c9817171d15293cc424",
+        "lfSha256": "46a1d85e13f6412e519ae3bbb804c030dc998cd3f9302c9817171d15293cc424"
+      },
+      {
+        "path": "dist/assets/exrTextureLoader-CBHDhkjU.js",
+        "bytes": 15534,
+        "sha256": "e75c5f4318a75bd8d1debbe3b9246a5ef543c1207eed8d9eaffbb91363c26ea8",
+        "lfSha256": "e75c5f4318a75bd8d1debbe3b9246a5ef543c1207eed8d9eaffbb91363c26ea8"
+      },
+      {
+        "path": "dist/assets/flowGraphArrayIndexBlock-c3fKeDSA.js",
+        "bytes": 827,
+        "sha256": "711c5668de322c11518746d3aef83488b0e90445aa3811684125d001e509940d",
+        "lfSha256": "711c5668de322c11518746d3aef83488b0e90445aa3811684125d001e509940d"
+      },
+      {
+        "path": "dist/assets/flowGraphBezierCurveEasingBlock-CtYkjxgX.js",
+        "bytes": 1146,
+        "sha256": "90bf126dd57ddde7a6e3a74e975518b54af11751a50d39edc595093ed8273e7d",
+        "lfSha256": "90bf126dd57ddde7a6e3a74e975518b54af11751a50d39edc595093ed8273e7d"
+      },
+      {
+        "path": "dist/assets/flowGraphBinaryOperationBlock-DGvWV2e9.js",
+        "bytes": 375,
+        "sha256": "2c119a04643946d1136bc414bb3b8da645d362047cce9a5f4d67a892860c1a17",
+        "lfSha256": "2c119a04643946d1136bc414bb3b8da645d362047cce9a5f4d67a892860c1a17"
+      },
+      {
+        "path": "dist/assets/flowGraphBranchBlock-BPRaSsXt.js",
+        "bytes": 711,
+        "sha256": "b179f23a651e9a874c7da0eed015423823dd6123a47fcf0e85381b9d43af8765",
+        "lfSha256": "b179f23a651e9a874c7da0eed015423823dd6123a47fcf0e85381b9d43af8765"
+      },
+      {
+        "path": "dist/assets/flowGraphCachedOperationBlock-BrnGc-XF.js",
+        "bytes": 696,
+        "sha256": "c6f70dd5e75e360433ee5c443d998f2c6f6814443d76d4dda85af8cafb01cb82",
+        "lfSha256": "c6f70dd5e75e360433ee5c443d998f2c6f6814443d76d4dda85af8cafb01cb82"
+      },
+      {
+        "path": "dist/assets/flowGraphCancelDelayBlock-Cc8bnzpl.js",
+        "bytes": 770,
+        "sha256": "01a45a82c6525b4911258167d1a414eb1116293d7a0438e2947d275c85ae2bfb",
+        "lfSha256": "01a45a82c6525b4911258167d1a414eb1116293d7a0438e2947d275c85ae2bfb"
+      },
+      {
+        "path": "dist/assets/flowGraphCodeExecutionBlock-DcLNUKdd.js",
+        "bytes": 717,
+        "sha256": "4999c217593f4055c1b2bc4499633d21d57541b808d42ee7b261b4bf10acb1f0",
+        "lfSha256": "4999c217593f4055c1b2bc4499633d21d57541b808d42ee7b261b4bf10acb1f0"
+      },
+      {
+        "path": "dist/assets/flowGraphConditionalDataBlock-BTvLuSvf.js",
+        "bytes": 807,
+        "sha256": "6d25bb1ea0d5584665eab4fc37b2b351108b48ccda93dcf95f683c4bd8b64262",
+        "lfSha256": "6d25bb1ea0d5584665eab4fc37b2b351108b48ccda93dcf95f683c4bd8b64262"
+      },
+      {
+        "path": "dist/assets/flowGraphConsoleLogBlock-CEkSNbkC.js",
+        "bytes": 1257,
+        "sha256": "93522a71af158b2ee9282247d05591fb51b6f3624143536eea020d7ccf7c4116",
+        "lfSha256": "93522a71af158b2ee9282247d05591fb51b6f3624143536eea020d7ccf7c4116"
+      },
+      {
+        "path": "dist/assets/flowGraphConstantBlock-CIk3PZsf.js",
+        "bytes": 677,
+        "sha256": "cac8c16d72fe85a07e16e57afe37ae8e7de337b9c42347b99c78b47fd5f1e206",
+        "lfSha256": "cac8c16d72fe85a07e16e57afe37ae8e7de337b9c42347b99c78b47fd5f1e206"
+      },
+      {
+        "path": "dist/assets/flowGraphContextBlock-3fJeJS3D.js",
+        "bytes": 726,
+        "sha256": "57f191e29a292942493520f86c17680cd9324d9727a709245e5a892745ee1646",
+        "lfSha256": "57f191e29a292942493520f86c17680cd9324d9727a709245e5a892745ee1646"
+      },
+      {
+        "path": "dist/assets/flowGraphCounterBlock-Eti0F9Cj.js",
+        "bytes": 811,
+        "sha256": "1fe954648d400663e64562eb5e6d2d8ec882965a0d955bc8400c540d3ecc39c7",
+        "lfSha256": "1fe954648d400663e64562eb5e6d2d8ec882965a0d955bc8400c540d3ecc39c7"
+      },
+      {
+        "path": "dist/assets/flowGraphDataSwitchBlock-9XVhbIIg.js",
+        "bytes": 1082,
+        "sha256": "6ecc14243600eb6ef75a2936d6fba1ce704c0f6ee9d5216d953405763b204711",
+        "lfSha256": "6ecc14243600eb6ef75a2936d6fba1ce704c0f6ee9d5216d953405763b204711"
+      },
+      {
+        "path": "dist/assets/flowGraphDebounceBlock-CNcXzoIL.js",
+        "bytes": 948,
+        "sha256": "77009b02ce5687a5e698ef80271d88c4c235583aa9ecdae8c61c217c6bb99497",
+        "lfSha256": "77009b02ce5687a5e698ef80271d88c4c235583aa9ecdae8c61c217c6bb99497"
+      },
+      {
+        "path": "dist/assets/flowGraphDoNBlock-DpFdaYyo.js",
+        "bytes": 955,
+        "sha256": "c7d5896fa5e1c636e78b8b5200b9233b497308080b4fb3bf351b2ee45506395b",
+        "lfSha256": "c7d5896fa5e1c636e78b8b5200b9233b497308080b4fb3bf351b2ee45506395b"
+      },
+      {
+        "path": "dist/assets/flowGraphEasingBlock-BLdbYCBm.js",
+        "bytes": 1836,
+        "sha256": "7fe551b6c010e653ed3e77dfaf7c5f61dfbecb39d2d4e349cb29c9c414f64567",
+        "lfSha256": "7fe551b6c010e653ed3e77dfaf7c5f61dfbecb39d2d4e349cb29c9c414f64567"
+      },
+      {
+        "path": "dist/assets/flowGraphFlipFlopBlock-Bdr6yT6m.js",
+        "bytes": 858,
+        "sha256": "d7bff33abc12fdb1c187c5c9f2e6645c0b8f98c4d3c146d0ed8a39733e1713f6",
+        "lfSha256": "d7bff33abc12fdb1c187c5c9f2e6645c0b8f98c4d3c146d0ed8a39733e1713f6"
+      },
+      {
+        "path": "dist/assets/flowGraphForLoopBlock-B1WK0UHL.js",
+        "bytes": 1279,
+        "sha256": "d7ce7607864392ea0484a7f27a1abc69ca1c598de588928678d207ad7c24edd0",
+        "lfSha256": "d7ce7607864392ea0484a7f27a1abc69ca1c598de588928678d207ad7c24edd0"
+      },
+      {
+        "path": "dist/assets/flowGraphFunctionReferenceBlock-DYFtULdd.js",
+        "bytes": 885,
+        "sha256": "d968b72cddb9167065230cd4ce9427c6a8776a6222c4d859a2ce955110a765f9",
+        "lfSha256": "d968b72cddb9167065230cd4ce9427c6a8776a6222c4d859a2ce955110a765f9"
+      },
+      {
+        "path": "dist/assets/flowGraphGLTFDataProvider-PbD8q8EK.js",
+        "bytes": 662,
+        "sha256": "77c69674e85d8535da9fa37ac4281fd09f505a0c7fa6b8db8070ee33e17fb46a",
+        "lfSha256": "77c69674e85d8535da9fa37ac4281fd09f505a0c7fa6b8db8070ee33e17fb46a"
+      },
+      {
+        "path": "dist/assets/flowGraphGetAssetBlock--qouVN-0.js",
+        "bytes": 817,
+        "sha256": "683b0dcaa3487909ae668cebfef70c4862bf78fcafd783189a0e091a00c27a50",
+        "lfSha256": "683b0dcaa3487909ae668cebfef70c4862bf78fcafd783189a0e091a00c27a50"
+      },
+      {
+        "path": "dist/assets/flowGraphGetPropertyBlock-8bKvHa_3.js",
+        "bytes": 1100,
+        "sha256": "40c950c450ab1d8936b87e3f883882044bd43416b1077df9e77c66f9e046bfff",
+        "lfSha256": "40c950c450ab1d8936b87e3f883882044bd43416b1077df9e77c66f9e046bfff"
+      },
+      {
+        "path": "dist/assets/flowGraphGetVariableBlock-DH_Ti3um.js",
+        "bytes": 722,
+        "sha256": "87b7e53353806be04cb537f546364913b1c4f70839f3b8a7ebe328c0614b92a0",
+        "lfSha256": "87b7e53353806be04cb537f546364913b1c4f70839f3b8a7ebe328c0614b92a0"
+      },
+      {
+        "path": "dist/assets/flowGraphIndexOfBlock-vKR_Vlvs.js",
+        "bytes": 788,
+        "sha256": "e5b88297b09d0bb3264afb6b056f2000ee0b15613091dd3c95f25e0272a87a16",
+        "lfSha256": "e5b88297b09d0bb3264afb6b056f2000ee0b15613091dd3c95f25e0272a87a16"
+      },
+      {
+        "path": "dist/assets/flowGraphInterpolationBlock-B03l5F6E.js",
+        "bytes": 2284,
+        "sha256": "1e6d5c24c610e496effb4a63db3c9e4dfa373e003285e58796be06a72ffbdae8",
+        "lfSha256": "1e6d5c24c610e496effb4a63db3c9e4dfa373e003285e58796be06a72ffbdae8"
+      },
+      {
+        "path": "dist/assets/flowGraphJsonPointerParserBlock-BPK3jig-.js",
+        "bytes": 3197,
+        "sha256": "391be42361773de65fb8efceb041da38008cfa3db48afe2706060d6ce9914e40",
+        "lfSha256": "391be42361773de65fb8efceb041da38008cfa3db48afe2706060d6ce9914e40"
+      },
+      {
+        "path": "dist/assets/flowGraphMathBlocks-BxxxYOWy.js",
+        "bytes": 18680,
+        "sha256": "d5f08ebe75a72ee4db04af2b53cd465c5e872363f107c510c461670758412539",
+        "lfSha256": "d5f08ebe75a72ee4db04af2b53cd465c5e872363f107c510c461670758412539"
+      },
+      {
+        "path": "dist/assets/flowGraphMathCombineExtractBlocks-D5OaUpiE.js",
+        "bytes": 8128,
+        "sha256": "57748db423f1db44a7c7a8da48139bd6cd9667440ba55130bd3a1d966656c558",
+        "lfSha256": "57748db423f1db44a7c7a8da48139bd6cd9667440ba55130bd3a1d966656c558"
+      },
+      {
+        "path": "dist/assets/flowGraphMatrixMathBlocks-DjTtDP1E.js",
+        "bytes": 3747,
+        "sha256": "58e36b5605a56aa2eb75f3f7ecee19a78e4b43abca4d5151b6446ec82f7d5ea7",
+        "lfSha256": "58e36b5605a56aa2eb75f3f7ecee19a78e4b43abca4d5151b6446ec82f7d5ea7"
+      },
+      {
+        "path": "dist/assets/flowGraphMeshPickEventBlock-0IEkPcCW.js",
+        "bytes": 1600,
+        "sha256": "82081f306f1894e683ece7e6643d1616aca48a86699635a84f9f67f57968399c",
+        "lfSha256": "82081f306f1894e683ece7e6643d1616aca48a86699635a84f9f67f57968399c"
+      },
+      {
+        "path": "dist/assets/flowGraphMultiGateBlock--BWmJk4s.js",
+        "bytes": 1839,
+        "sha256": "ac3f17eae50fb02e04e225b79c88da6f14dbd7e717d159c3b6723480cec53b7a",
+        "lfSha256": "ac3f17eae50fb02e04e225b79c88da6f14dbd7e717d159c3b6723480cec53b7a"
+      },
+      {
+        "path": "dist/assets/flowGraphPauseAnimationBlock-CmjU0Lpa.js",
+        "bytes": 629,
+        "sha256": "b251362af053b51a1b0b6a603417014a064ea80c6f6db488f1652846098d5422",
+        "lfSha256": "b251362af053b51a1b0b6a603417014a064ea80c6f6db488f1652846098d5422"
+      },
+      {
+        "path": "dist/assets/flowGraphPlayAnimationBlock-DoQXQlKM.js",
+        "bytes": 3864,
+        "sha256": "a6f9c7eeea82f0ff68b499d6edc7ee801736b43ce48fcd89a1d8c95278346de4",
+        "lfSha256": "a6f9c7eeea82f0ff68b499d6edc7ee801736b43ce48fcd89a1d8c95278346de4"
+      },
+      {
+        "path": "dist/assets/flowGraphPointerOutEventBlock-COWF_HlV.js",
+        "bytes": 999,
+        "sha256": "f7ff683ac46c5ae4ebc2286bc0f196d057ea18a89e82829f191c5649567a400a",
+        "lfSha256": "f7ff683ac46c5ae4ebc2286bc0f196d057ea18a89e82829f191c5649567a400a"
+      },
+      {
+        "path": "dist/assets/flowGraphPointerOverEventBlock-BxmhXovo.js",
+        "bytes": 1009,
+        "sha256": "f80ffab14b82ce2acd636706c152bb402b1ba0dd103cac2183fdf1fda78f1a4a",
+        "lfSha256": "f80ffab14b82ce2acd636706c152bb402b1ba0dd103cac2183fdf1fda78f1a4a"
+      },
+      {
+        "path": "dist/assets/flowGraphReceiveCustomEventBlock-D5H7pLos.js",
+        "bytes": 1416,
+        "sha256": "a28d695f499edf96732eee89511764d4445d5023f8ad68a4df8bb29b467a921f",
+        "lfSha256": "a28d695f499edf96732eee89511764d4445d5023f8ad68a4df8bb29b467a921f"
+      },
+      {
+        "path": "dist/assets/flowGraphSceneReadyEventBlock-CMz7FmUX.js",
+        "bytes": 625,
+        "sha256": "da30162dce192da6810d0372c322e46a7f677b2f9d75ee0a6366297db51888b0",
+        "lfSha256": "da30162dce192da6810d0372c322e46a7f677b2f9d75ee0a6366297db51888b0"
+      },
+      {
+        "path": "dist/assets/flowGraphSceneTickEventBlock-BhkPbkGk.js",
+        "bytes": 809,
+        "sha256": "9b88695c807dbca0df54717a78ba9cda71e414c69a4228cec3e349214632e871",
+        "lfSha256": "9b88695c807dbca0df54717a78ba9cda71e414c69a4228cec3e349214632e871"
+      },
+      {
+        "path": "dist/assets/flowGraphSendCustomEventBlock-CFD-YKUl.js",
+        "bytes": 799,
+        "sha256": "ef2e3897d01000e29dbaeb30aa9a706088f8bb2297a2a407ac8966ee39d713de",
+        "lfSha256": "ef2e3897d01000e29dbaeb30aa9a706088f8bb2297a2a407ac8966ee39d713de"
+      },
+      {
+        "path": "dist/assets/flowGraphSequenceBlock-Ba7aP2Ho.js",
+        "bytes": 957,
+        "sha256": "49d261b6d93f22f82f65a642fc4495a2a1c1cf07144ca845abee81c8fadf75a2",
+        "lfSha256": "49d261b6d93f22f82f65a642fc4495a2a1c1cf07144ca845abee81c8fadf75a2"
+      },
+      {
+        "path": "dist/assets/flowGraphSetDelayBlock-KHSN6KoL.js",
+        "bytes": 4362,
+        "sha256": "9ccac4cc2e09ec4fc1311c0a950fadc838a494072cfe71984f6746ec031fd117",
+        "lfSha256": "9ccac4cc2e09ec4fc1311c0a950fadc838a494072cfe71984f6746ec031fd117"
+      },
+      {
+        "path": "dist/assets/flowGraphSetPropertyBlock-BdQtU_ZO.js",
+        "bytes": 1578,
+        "sha256": "d77d9997bbe7ecda4cfc2ed7e07334d8d43c22ab896b00a48922cb32dd8a0ed4",
+        "lfSha256": "d77d9997bbe7ecda4cfc2ed7e07334d8d43c22ab896b00a48922cb32dd8a0ed4"
+      },
+      {
+        "path": "dist/assets/flowGraphSetVariableBlock-DCmuUndh.js",
+        "bytes": 1514,
+        "sha256": "b23b566c64f0b577d05ba809f6746e74dbb5f4ed00bc2a3422acb93fd5468f7f",
+        "lfSha256": "b23b566c64f0b577d05ba809f6746e74dbb5f4ed00bc2a3422acb93fd5468f7f"
+      },
+      {
+        "path": "dist/assets/flowGraphStopAnimationBlock-BVJR6MVd.js",
+        "bytes": 2064,
+        "sha256": "f2086ea200786146bf42338a9b9505cd704977aa44c02a3a09510143f2d5f54a",
+        "lfSha256": "f2086ea200786146bf42338a9b9505cd704977aa44c02a3a09510143f2d5f54a"
+      },
+      {
+        "path": "dist/assets/flowGraphSwitchBlock-BVr9M-RP.js",
+        "bytes": 1316,
+        "sha256": "82ccbbdc2514b9c75899fd304c1d33700157ac22159563002d25a88662e551eb",
+        "lfSha256": "82ccbbdc2514b9c75899fd304c1d33700157ac22159563002d25a88662e551eb"
+      },
+      {
+        "path": "dist/assets/flowGraphThrottleBlock-CowhxWbz.js",
+        "bytes": 1543,
+        "sha256": "370cb356f78273807a5f44079a9feab6c3cef055ed80ac950a22aff3f48d060b",
+        "lfSha256": "370cb356f78273807a5f44079a9feab6c3cef055ed80ac950a22aff3f48d060b"
+      },
+      {
+        "path": "dist/assets/flowGraphTransformCoordinatesSystemBlock-BT3ONHQs.js",
+        "bytes": 1129,
+        "sha256": "6e755e30feb4d6bf232b7923f186d7e3a5d004ee7e67233509158911b71d8f3d",
+        "lfSha256": "6e755e30feb4d6bf232b7923f186d7e3a5d004ee7e67233509158911b71d8f3d"
+      },
+      {
+        "path": "dist/assets/flowGraphTypeToTypeBlocks-DVJREcHa.js",
+        "bytes": 1458,
+        "sha256": "39790c849be93a5ed75768ec797590cebb63040ca6663e0dc874578bc4af28e7",
+        "lfSha256": "39790c849be93a5ed75768ec797590cebb63040ca6663e0dc874578bc4af28e7"
+      },
+      {
+        "path": "dist/assets/flowGraphUnaryOperationBlock-CKlcGguJ.js",
+        "bytes": 303,
+        "sha256": "f7d0b0076f86334ac190303b806ad982aabe5a4743742f30b889561084398340",
+        "lfSha256": "f7d0b0076f86334ac190303b806ad982aabe5a4743742f30b889561084398340"
+      },
+      {
+        "path": "dist/assets/flowGraphVectorMathBlocks-Doxq2_-3.js",
+        "bytes": 4899,
+        "sha256": "17ee0334995b847fe3ca7342da9b563db3d1f5aac3cbc39c319b2bc99d6e5383",
+        "lfSha256": "17ee0334995b847fe3ca7342da9b563db3d1f5aac3cbc39c319b2bc99d6e5383"
+      },
+      {
+        "path": "dist/assets/flowGraphWaitAllBlock-EqUIFXAX.js",
+        "bytes": 1712,
+        "sha256": "e5acd9231947c175fedb55045956bc4e3e414e0274ef9b74ed9e55b03c854919",
+        "lfSha256": "e5acd9231947c175fedb55045956bc4e3e414e0274ef9b74ed9e55b03c854919"
+      },
+      {
+        "path": "dist/assets/flowGraphWhileLoopBlock-kjx5mbWo.js",
+        "bytes": 1042,
+        "sha256": "70f468f5aaff47bf423b5354f8e10dec96c2e932b29102d213b7db947a9ca2f9",
+        "lfSha256": "70f468f5aaff47bf423b5354f8e10dec96c2e932b29102d213b7db947a9ca2f9"
+      },
+      {
+        "path": "dist/assets/fogFragment-BA1pk6wK.js",
+        "bytes": 1153,
+        "sha256": "445e94d3a30c681b02cddd11d2a8fa450d87f9bc5fd91d95793ebb510943b17b",
+        "lfSha256": "445e94d3a30c681b02cddd11d2a8fa450d87f9bc5fd91d95793ebb510943b17b"
+      },
+      {
+        "path": "dist/assets/fogFragment-CJKQXZi6.js",
+        "bytes": 1023,
+        "sha256": "6ac01db68d43eb5ada04dbbe53deb9fbab9a921ba3ac4550ddcfd4500d2eb5da",
+        "lfSha256": "6ac01db68d43eb5ada04dbbe53deb9fbab9a921ba3ac4550ddcfd4500d2eb5da"
+      },
+      {
+        "path": "dist/assets/freeCamera-C1HnrcKn.js",
+        "bytes": 1218401,
+        "sha256": "f7dc8259a2f3ab1184813ac6d0874ad0ebe465b1e4e303b1bb7c65ab818cc914",
+        "lfSha256": "f7dc8259a2f3ab1184813ac6d0874ad0ebe465b1e4e303b1bb7c65ab818cc914"
+      },
+      {
+        "path": "dist/assets/harmonicsFunctions-D1wl7XlR.js",
+        "bytes": 12629,
+        "sha256": "f11ca4e6a2b1ceaf1b4c61ec6754f246df2ea247df8592d3cf47e1358b91575f",
+        "lfSha256": "f11ca4e6a2b1ceaf1b4c61ec6754f246df2ea247df8592d3cf47e1358b91575f"
+      },
+      {
+        "path": "dist/assets/harmonicsFunctions-Dqgkvj3o.js",
+        "bytes": 13672,
+        "sha256": "fae0e06208aea424b5cac429c39026cf03c3524eb1733b323f3baa3787b9e5d1",
+        "lfSha256": "fae0e06208aea424b5cac429c39026cf03c3524eb1733b323f3baa3787b9e5d1"
+      },
+      {
+        "path": "dist/assets/hdrTextureLoader-iJd4yf6W.js",
+        "bytes": 2424,
+        "sha256": "6a9f0de3836b3f8764a1bc1fe5e9655a49b395641c9d0e01ae719f932f2c95ef",
+        "lfSha256": "6a9f0de3836b3f8764a1bc1fe5e9655a49b395641c9d0e01ae719f932f2c95ef"
+      },
+      {
+        "path": "dist/assets/helperFunctions-QQtLTAox.js",
+        "bytes": 6225,
+        "sha256": "fec40a9f385d8bff9414e9b40f9a41d5c93be2e37fae93a4b127182a95af188d",
+        "lfSha256": "fec40a9f385d8bff9414e9b40f9a41d5c93be2e37fae93a4b127182a95af188d"
+      },
+      {
+        "path": "dist/assets/helperFunctions-ikZZszlE.js",
+        "bytes": 5870,
+        "sha256": "c427d9df687f7cf1ee4f5c4b65c827f1f1c1c58f56c164c1f812a583199003d5",
+        "lfSha256": "c427d9df687f7cf1ee4f5c4b65c827f1f1c1c58f56c164c1f812a583199003d5"
+      },
+      {
+        "path": "dist/assets/iesTextureLoader-C_LwOoAz.js",
+        "bytes": 2706,
+        "sha256": "ade3652a93b86f07a1563f3dc3c5e1d023d1e89f9146e3512e3f4062df6677af",
+        "lfSha256": "ade3652a93b86f07a1563f3dc3c5e1d023d1e89f9146e3512e3f4062df6677af"
+      },
+      {
+        "path": "dist/assets/instancesDeclaration-CQDmUKpA.js",
+        "bytes": 1004,
+        "sha256": "bd0818f6af5a628e7ae26f1e660835decbfcd808f11eb30438965b4304eb994c",
+        "lfSha256": "bd0818f6af5a628e7ae26f1e660835decbfcd808f11eb30438965b4304eb994c"
+      },
+      {
+        "path": "dist/assets/kernelBlur.fragment-C3ZZ4KTA.js",
+        "bytes": 2105,
+        "sha256": "d203ba1c05cbaaf3154058ff085b5b66d1a50457e261f54972668fd53b0455cf",
+        "lfSha256": "d203ba1c05cbaaf3154058ff085b5b66d1a50457e261f54972668fd53b0455cf"
+      },
+      {
+        "path": "dist/assets/kernelBlur.fragment-CMm0l6OE.js",
+        "bytes": 2676,
+        "sha256": "2e4ac0f120309c82a34a2db5caf9ecd217ed82f1c2d0d18cc8d68894be0c20df",
+        "lfSha256": "2e4ac0f120309c82a34a2db5caf9ecd217ed82f1c2d0d18cc8d68894be0c20df"
+      },
+      {
+        "path": "dist/assets/kernelBlur.vertex-BGgmdFLP.js",
+        "bytes": 925,
+        "sha256": "ac26d45b93097de85ecd302a53c73fe8060113fe746bf20d54de00cb3c639e4f",
+        "lfSha256": "ac26d45b93097de85ecd302a53c73fe8060113fe746bf20d54de00cb3c639e4f"
+      },
+      {
+        "path": "dist/assets/kernelBlur.vertex-wklGuqId.js",
+        "bytes": 768,
+        "sha256": "f7473cf7ef6860502248a1d348997b5391476bfbba47a0ddd8e1037e501c3ce4",
+        "lfSha256": "f7473cf7ef6860502248a1d348997b5391476bfbba47a0ddd8e1037e501c3ce4"
+      },
+      {
+        "path": "dist/assets/kernelBlurVaryingDeclaration-DLQTG_x3.js",
+        "bytes": 176,
+        "sha256": "8104295052edd1b10735690d8c06d12dd47b2f4b591144adca5e73d4984b17e8",
+        "lfSha256": "8104295052edd1b10735690d8c06d12dd47b2f4b591144adca5e73d4984b17e8"
+      },
+      {
+        "path": "dist/assets/kernelBlurVaryingDeclaration-eNO0tp9B.js",
+        "bytes": 186,
+        "sha256": "dd18313fd4faee3e86e148385cf6b7e1154765840eef8c0532c830779e396743",
+        "lfSha256": "dd18313fd4faee3e86e148385cf6b7e1154765840eef8c0532c830779e396743"
+      },
+      {
+        "path": "dist/assets/ktxTextureLoader-qfko5Twg.js",
+        "bytes": 14560,
+        "sha256": "4d1acf045b78ecee94eddc27efa368af26ce37930fdc47eb5a854a263eda8ab5",
+        "lfSha256": "4d1acf045b78ecee94eddc27efa368af26ce37930fdc47eb5a854a263eda8ab5"
+      },
+      {
+        "path": "dist/assets/lightFragment-Cnr4rq0Y.js",
+        "bytes": 30357,
+        "sha256": "bd5fe7553e606797386e47f56f887c3a8e22634c3e20578f57cfdfad19cde6c4",
+        "lfSha256": "bd5fe7553e606797386e47f56f887c3a8e22634c3e20578f57cfdfad19cde6c4"
+      },
+      {
+        "path": "dist/assets/lightFragment-qfhVdY-i.js",
+        "bytes": 27138,
+        "sha256": "19ad5951041d3877786abd75308a738f39f3556e3d85959e404845c5becee44f",
+        "lfSha256": "19ad5951041d3877786abd75308a738f39f3556e3d85959e404845c5becee44f"
+      },
+      {
+        "path": "dist/assets/logDepthDeclaration-CLMF6wqr.js",
+        "bytes": 385,
+        "sha256": "757ed5b2e6f80761e2da87d885d72771f039a24c480028aeb4f1997d98b3294a",
+        "lfSha256": "757ed5b2e6f80761e2da87d885d72771f039a24c480028aeb4f1997d98b3294a"
+      },
+      {
+        "path": "dist/assets/logDepthDeclaration-D5H6fZjV.js",
+        "bytes": 401,
+        "sha256": "9c9a906a95d87cf085f94d11819f395d394582ce48cafc4cc404da1e9f4b2630",
+        "lfSha256": "9c9a906a95d87cf085f94d11819f395d394582ce48cafc4cc404da1e9f4b2630"
+      },
+      {
+        "path": "dist/assets/logDepthVertex-BnRIHpyL.js",
+        "bytes": 6810,
+        "sha256": "53c02daf45e0cfce40882aefd52fb0206a833e1a89d2a58ce51df093f387a51c",
+        "lfSha256": "53c02daf45e0cfce40882aefd52fb0206a833e1a89d2a58ce51df093f387a51c"
+      },
+      {
+        "path": "dist/assets/logDepthVertex-EcjT3yZ_.js",
+        "bytes": 8067,
+        "sha256": "def2f666c876a683e8072ca9bdbcbee86401559d630eb64caa14d1b2133f25eb",
+        "lfSha256": "def2f666c876a683e8072ca9bdbcbee86401559d630eb64caa14d1b2133f25eb"
+      },
+      {
+        "path": "dist/assets/main-CC4VYigH.js",
+        "bytes": 210076,
+        "sha256": "ee847e71241cf2ea0dbc0a09928f05b7b59ca3e7d8dbf7d411770ba3b69c2af6",
+        "lfSha256": "ee847e71241cf2ea0dbc0a09928f05b7b59ca3e7d8dbf7d411770ba3b69c2af6"
+      },
+      {
+        "path": "dist/assets/main-CWqn90wK.css",
+        "bytes": 54726,
+        "sha256": "749a0accae9dd1171e1535bec4941b968dc4bd46e2a4cdf1e8279f287b64c5c2",
+        "lfSha256": "749a0accae9dd1171e1535bec4941b968dc4bd46e2a4cdf1e8279f287b64c5c2"
+      },
+      {
+        "path": "dist/assets/mesh.vertexData.functions-ayNlGC5K.js",
+        "bytes": 960,
+        "sha256": "109b0c291f78ec6b98053b23c7a9ce01eb8bcee909a0964ce337a68a9b4bc61e",
+        "lfSha256": "109b0c291f78ec6b98053b23c7a9ce01eb8bcee909a0964ce337a68a9b4bc61e"
+      },
+      {
+        "path": "dist/assets/meshUboDeclaration-D0u70OV2.js",
+        "bytes": 563,
+        "sha256": "1fb820e54f5ccc51aac94926afd7d8e4bb2fffa7aa79a1ac448e0a0ba2780ed6",
+        "lfSha256": "1fb820e54f5ccc51aac94926afd7d8e4bb2fffa7aa79a1ac448e0a0ba2780ed6"
+      },
+      {
+        "path": "dist/assets/meshUboDeclaration-DMbFLB6f.js",
+        "bytes": 567,
+        "sha256": "5cc43b1768842b2587faea2dc98f90dc628c3e2f952014ff9ff0a1debdcc55ed",
+        "lfSha256": "5cc43b1768842b2587faea2dc98f90dc628c3e2f952014ff9ff0a1debdcc55ed"
+      },
+      {
+        "path": "dist/assets/morphTargetsVertex-CZMNDIR8.js",
+        "bytes": 4359,
+        "sha256": "91458dd3927bffd41db6b6e248006fefaac166a81982ebe0d2336f4158bded15",
+        "lfSha256": "91458dd3927bffd41db6b6e248006fefaac166a81982ebe0d2336f4158bded15"
+      },
+      {
+        "path": "dist/assets/oitFragment-BsLU0JNZ.js",
+        "bytes": 49782,
+        "sha256": "c3287f38a58cf76d73f7f166ac03fd12f45564385eccf8ae9a99bb9414ed8b8d",
+        "lfSha256": "c3287f38a58cf76d73f7f166ac03fd12f45564385eccf8ae9a99bb9414ed8b8d"
+      },
+      {
+        "path": "dist/assets/oitFragment-EBC5wS-w.js",
+        "bytes": 51435,
+        "sha256": "348372e058a0f33250dd81b85157b9cac55ab27ae86985b19ae5bb02806fff69",
+        "lfSha256": "348372e058a0f33250dd81b85157b9cac55ab27ae86985b19ae5bb02806fff69"
+      },
+      {
+        "path": "dist/assets/openpbr.fragment-dda8H-oz.js",
+        "bytes": 81437,
+        "sha256": "b4be94e9c30034ed3d4bccf7149708d57a85aa12659f7d0b1fba339bfff232e7",
+        "lfSha256": "b4be94e9c30034ed3d4bccf7149708d57a85aa12659f7d0b1fba339bfff232e7"
+      },
+      {
+        "path": "dist/assets/openpbr.fragment-yUu4DR3D.js",
+        "bytes": 80144,
+        "sha256": "b661e55d1fb5c17b5dc6762a3301186f11736c4d7ec1600a799eb8eb74d93e72",
+        "lfSha256": "b661e55d1fb5c17b5dc6762a3301186f11736c4d7ec1600a799eb8eb74d93e72"
+      },
+      {
+        "path": "dist/assets/openpbr.vertex-B2jnEU08.js",
+        "bytes": 14939,
+        "sha256": "ce93a8e0f98ad81dd4c8465fe2b736aba570d10e872ebc4a83da6bbe864b5083",
+        "lfSha256": "ce93a8e0f98ad81dd4c8465fe2b736aba570d10e872ebc4a83da6bbe864b5083"
+      },
+      {
+        "path": "dist/assets/openpbr.vertex-D3TsfrwB.js",
+        "bytes": 18542,
+        "sha256": "b095c28d4f1d49e80029134982b1488b59fae789f8f9656b9f3da5a1c6f76b01",
+        "lfSha256": "b095c28d4f1d49e80029134982b1488b59fae789f8f9656b9f3da5a1c6f76b01"
+      },
+      {
+        "path": "dist/assets/openpbrMaterial-CGtrAR44.js",
+        "bytes": 52014,
+        "sha256": "e3298ce250f242040f29d8be2db755f4ca71f147873722ceab8535afaea97c6f",
+        "lfSha256": "e3298ce250f242040f29d8be2db755f4ca71f147873722ceab8535afaea97c6f"
+      },
+      {
+        "path": "dist/assets/openpbrMaterialLoadingAdapter-RmjZs0KP.js",
+        "bytes": 9205,
+        "sha256": "9324be8623194fb1eec818fee527acdafd22850a2ebd930fb6a3608884aca1e1",
+        "lfSha256": "9324be8623194fb1eec818fee527acdafd22850a2ebd930fb6a3608884aca1e1"
+      },
+      {
+        "path": "dist/assets/openpbrUboDeclaration-BkrYzBgN.js",
+        "bytes": 3401,
+        "sha256": "40f1bd4939584a182a460bc054738fb066faa16621868268392a9c438af12e23",
+        "lfSha256": "40f1bd4939584a182a460bc054738fb066faa16621868268392a9c438af12e23"
+      },
+      {
+        "path": "dist/assets/openpbrUboDeclaration-CLZ9H7zm.js",
+        "bytes": 4604,
+        "sha256": "dd48a8268d8629e020cee029bcf9c2dc307387a850cd70c68ed00790409ceae3",
+        "lfSha256": "dd48a8268d8629e020cee029bcf9c2dc307387a850cd70c68ed00790409ceae3"
+      },
+      {
+        "path": "dist/assets/packingFunctions-CyxCLx4h.js",
+        "bytes": 527,
+        "sha256": "6fd73df916202bea49544ebb86339d07ee91307f8aa22ec1d5eefd1d9f9567e3",
+        "lfSha256": "6fd73df916202bea49544ebb86339d07ee91307f8aa22ec1d5eefd1d9f9567e3"
+      },
+      {
+        "path": "dist/assets/pass.fragment-BZVzZ5EH.js",
+        "bytes": 323,
+        "sha256": "9be1a6eafe939c0c4fa55cb9e8a0c7a54e5d02af1cc0dfeb66b2f059e73446a4",
+        "lfSha256": "9be1a6eafe939c0c4fa55cb9e8a0c7a54e5d02af1cc0dfeb66b2f059e73446a4"
+      },
+      {
+        "path": "dist/assets/pass.fragment-CwuSnE3r.js",
+        "bytes": 457,
+        "sha256": "445e8bf50c7e1465bd66630988b0b6404ca4cc52faadf8b9fb40475e422d7e96",
+        "lfSha256": "445e8bf50c7e1465bd66630988b0b6404ca4cc52faadf8b9fb40475e422d7e96"
+      },
+      {
+        "path": "dist/assets/passCube.fragment-7rMAos1F.js",
+        "bytes": 1137,
+        "sha256": "fad2893eb833437686aa4b93f109a87c3f37b7e435af8b2f22670a73f744a0f3",
+        "lfSha256": "fad2893eb833437686aa4b93f109a87c3f37b7e435af8b2f22670a73f744a0f3"
+      },
+      {
+        "path": "dist/assets/passCube.fragment-Cv2inmTh.js",
+        "bytes": 828,
+        "sha256": "afd5fc567948a9e6b6a3b8bb09a643796b6e6e6476d4e1cdb37fe8be06d14288",
+        "lfSha256": "afd5fc567948a9e6b6a3b8bb09a643796b6e6e6476d4e1cdb37fe8be06d14288"
+      },
+      {
+        "path": "dist/assets/pbr.fragment-DJdBR2xa.js",
+        "bytes": 92956,
+        "sha256": "832191b8dac5e16fe97fba6966e16635363e66c5ee29745032ef9e7098bc2f60",
+        "lfSha256": "832191b8dac5e16fe97fba6966e16635363e66c5ee29745032ef9e7098bc2f60"
+      },
+      {
+        "path": "dist/assets/pbr.fragment-wDbNVwdw.js",
+        "bytes": 89419,
+        "sha256": "231f4234eb31de508ce8b710bc8f0569276a19e176a631f18bca47d72c5db22c",
+        "lfSha256": "231f4234eb31de508ce8b710bc8f0569276a19e176a631f18bca47d72c5db22c"
+      },
+      {
+        "path": "dist/assets/pbr.vertex-C8KomQ1S.js",
+        "bytes": 16188,
+        "sha256": "b4fc8709191545489cddee2affbaeefa28b7470979027e75b7015291d3a8da0a",
+        "lfSha256": "b4fc8709191545489cddee2affbaeefa28b7470979027e75b7015291d3a8da0a"
+      },
+      {
+        "path": "dist/assets/pbr.vertex-GBA7yTPX.js",
+        "bytes": 12853,
+        "sha256": "f81feb3e16d7777ef544f0e30d44cb9435d4cc26e3dbbca7fd81bc0954ec3a2b",
+        "lfSha256": "f81feb3e16d7777ef544f0e30d44cb9435d4cc26e3dbbca7fd81bc0954ec3a2b"
+      },
+      {
+        "path": "dist/assets/pbrDebug-2Hq7bZVE.js",
+        "bytes": 48210,
+        "sha256": "3322780f242b82247c6e11bb3f3f06dc36230ba6333c8bec774edbd7749527f4",
+        "lfSha256": "3322780f242b82247c6e11bb3f3f06dc36230ba6333c8bec774edbd7749527f4"
+      },
+      {
+        "path": "dist/assets/pbrDebug-iCX5HdKW.js",
+        "bytes": 40531,
+        "sha256": "619f05002da1fd44e919112b8377d37565bb050b9601ffccd77b1b38d69c25f1",
+        "lfSha256": "619f05002da1fd44e919112b8377d37565bb050b9601ffccd77b1b38d69c25f1"
+      },
+      {
+        "path": "dist/assets/pbrMaterialLoadingAdapter-DtXdSHA-.js",
+        "bytes": 11825,
+        "sha256": "f560cf682f7319cca76eb3254fd0190a3f7caeafc860edf3120ba880dde09345",
+        "lfSha256": "f560cf682f7319cca76eb3254fd0190a3f7caeafc860edf3120ba880dde09345"
+      },
+      {
+        "path": "dist/assets/pbrUboDeclaration-KbEuMd4e.js",
+        "bytes": 1684,
+        "sha256": "45f28bf8b9f94adf582ce773cbecc26da08a1bd03694367a6c3f6a22f9d2fd58",
+        "lfSha256": "45f28bf8b9f94adf582ce773cbecc26da08a1bd03694367a6c3f6a22f9d2fd58"
+      },
+      {
+        "path": "dist/assets/pbrUboDeclaration-wiWYWgBd.js",
+        "bytes": 2272,
+        "sha256": "bd1a484c8902b1e9eaf0db04a6fd57b494decc2a8e2faff7b5351f15877b0547",
+        "lfSha256": "bd1a484c8902b1e9eaf0db04a6fd57b494decc2a8e2faff7b5351f15877b0547"
+      },
+      {
+        "path": "dist/assets/rgbdDecode.fragment-DPl2UZCu.js",
+        "bytes": 419,
+        "sha256": "f90d64b8e982c6a586b3465b68a761489b3554c2c33c7e996cf9d445ab301f0e",
+        "lfSha256": "f90d64b8e982c6a586b3465b68a761489b3554c2c33c7e996cf9d445ab301f0e"
+      },
+      {
+        "path": "dist/assets/rgbdDecode.fragment-PUdQZyuN.js",
+        "bytes": 554,
+        "sha256": "cd772491060be12d917e68fa626dbbda907c5ab6da70a58588f6770d80b7d6fb",
+        "lfSha256": "cd772491060be12d917e68fa626dbbda907c5ab6da70a58588f6770d80b7d6fb"
+      },
+      {
+        "path": "dist/assets/rgbdEncode.fragment-8YcRxj-V.js",
+        "bytes": 545,
+        "sha256": "a5828dd7f84ee4811de7276818073e95c9b3efb45e24d1c1f296d91fed6e4973",
+        "lfSha256": "a5828dd7f84ee4811de7276818073e95c9b3efb45e24d1c1f296d91fed6e4973"
+      },
+      {
+        "path": "dist/assets/rgbdEncode.fragment-DwwDm_G9.js",
+        "bytes": 411,
+        "sha256": "25f230983f117fc534512776e3944dc8cbae0f309de8d68b4e2767eb5ac4b950",
+        "lfSha256": "25f230983f117fc534512776e3944dc8cbae0f309de8d68b4e2767eb5ac4b950"
+      },
+      {
+        "path": "dist/assets/roadster-28PJ6-kN.js",
+        "bytes": 683836,
+        "sha256": "f3f848e4d83f6132d258e97bf431740fad488a1a40fbe67b8f12bab73098b35d",
+        "lfSha256": "f3f848e4d83f6132d258e97bf431740fad488a1a40fbe67b8f12bab73098b35d"
+      },
+      {
+        "path": "dist/assets/roadster-H2iFeJGx.css",
+        "bytes": 6240,
+        "sha256": "cd448f68ea5aaf8c7c0c5165c91cc4f32d5943b43d1616ce143bf549cf3fe29f",
+        "lfSha256": "cd448f68ea5aaf8c7c0c5165c91cc4f32d5943b43d1616ce143bf549cf3fe29f"
+      },
+      {
+        "path": "dist/assets/roadster-lab-layout.json",
+        "bytes": 3400,
+        "sha256": "d748258f0972b8178ccc55c81db3d4b0b80d245b7a92fd456d092858094709b3",
+        "lfSha256": "7c0f73376219e88687db04187d868930d14973ef67f8a6e9d92882d9ac933a88"
+      },
+      {
+        "path": "dist/assets/roadster-lab.glb",
+        "bytes": 81452,
+        "sha256": "b9da2c3c5e10677f8a8290f58fc6f6b159d12c1202fa62806f185b9f95e1237b"
+      },
+      {
+        "path": "dist/assets/sceneVertexDeclaration-AQQVtjOM.js",
+        "bytes": 294,
+        "sha256": "66e0f68dbe755a1f77369e340fa37b1f0497c57dcb269878bbe80b56251e6e2c",
+        "lfSha256": "66e0f68dbe755a1f77369e340fa37b1f0497c57dcb269878bbe80b56251e6e2c"
+      },
+      {
+        "path": "dist/assets/shadowMap.fragment-BSvkQ7DN.js",
+        "bytes": 3669,
+        "sha256": "d48ac7e04cf5f1e5997b983c8c033bd5ee25ea833b99c613fb142b8c73e587f2",
+        "lfSha256": "d48ac7e04cf5f1e5997b983c8c033bd5ee25ea833b99c613fb142b8c73e587f2"
+      },
+      {
+        "path": "dist/assets/shadowMap.fragment-C2ULN5Ik.js",
+        "bytes": 3038,
+        "sha256": "ed1af53dfce8c4d482f4d99ccf4cf661adca60de430ffb3641108df3eb40b9a1",
+        "lfSha256": "ed1af53dfce8c4d482f4d99ccf4cf661adca60de430ffb3641108df3eb40b9a1"
+      },
+      {
+        "path": "dist/assets/shadowMap.vertex-B47oP_nO.js",
+        "bytes": 4409,
+        "sha256": "2999afbbc2bfcda8db6d27b2c07ffdf29bcd90274a8d25f766e6363cb855d4a5",
+        "lfSha256": "2999afbbc2bfcda8db6d27b2c07ffdf29bcd90274a8d25f766e6363cb855d4a5"
+      },
+      {
+        "path": "dist/assets/shadowMap.vertex-PZc_LxAL.js",
+        "bytes": 4227,
+        "sha256": "97369e61556883158d2b2e4c29d1ce7bb3b9afd9827abdf6aeb116032b00efa0",
+        "lfSha256": "97369e61556883158d2b2e4c29d1ce7bb3b9afd9827abdf6aeb116032b00efa0"
+      },
+      {
+        "path": "dist/assets/shadowMapFragmentSoftTransparentShadow-CN1L4Zzp.js",
+        "bytes": 410,
+        "sha256": "d6559850d9ecf8af44baa1587b103af26d47715c85b9af3da71b6084b68cf7e8",
+        "lfSha256": "d6559850d9ecf8af44baa1587b103af26d47715c85b9af3da71b6084b68cf7e8"
+      },
+      {
+        "path": "dist/assets/shadowMapFragmentSoftTransparentShadow-DSgC_IRf.js",
+        "bytes": 375,
+        "sha256": "dcf65c14487b9ca3577dc03dae3b54852107a54008ce9efa55be468ed031d5bb",
+        "lfSha256": "dcf65c14487b9ca3577dc03dae3b54852107a54008ce9efa55be468ed031d5bb"
+      },
+      {
+        "path": "dist/assets/tgaTextureLoader-B3BNPB71.js",
+        "bytes": 3532,
+        "sha256": "6d68b4822e2add927f68cd03e124a1dd48aea658d59da2becd2491cf24cbbb25",
+        "lfSha256": "6d68b4822e2add927f68cd03e124a1dd48aea658d59da2becd2491cf24cbbb25"
+      },
+      {
+        "path": "dist/assets/vertexColorMixing-BX6AS0jG.js",
+        "bytes": 935,
+        "sha256": "75881335fffca84fab394b3c01919904b4315a7403cb43befffbfe3899d6793c",
+        "lfSha256": "75881335fffca84fab394b3c01919904b4315a7403cb43befffbfe3899d6793c"
+      },
+      {
+        "path": "dist/assets/vertexColorMixing-BlRcS-or.js",
+        "bytes": 670,
+        "sha256": "b8c17584f461610b45a929d67ce0b741b38fbc30bb9bf468f27d309f0cdb4b24",
+        "lfSha256": "b8c17584f461610b45a929d67ce0b741b38fbc30bb9bf468f27d309f0cdb4b24"
+      },
+      {
+        "path": "dist/assets/webAudioBus-CgPDmLw-.js",
+        "bytes": 2538,
+        "sha256": "192ddbc7091cbe462350eb48feac95e952c6c40240cca12bf6ded22be7f68b17",
+        "lfSha256": "192ddbc7091cbe462350eb48feac95e952c6c40240cca12bf6ded22be7f68b17"
+      },
+      {
+        "path": "dist/assets/webAudioMainBus-DBH2UDJ1.js",
+        "bytes": 1151,
+        "sha256": "23e3c699b184e0d39dee681154cffe143d28200d3a7f2c1813cc6b2e9f1466ba",
+        "lfSha256": "23e3c699b184e0d39dee681154cffe143d28200d3a7f2c1813cc6b2e9f1466ba"
+      },
+      {
+        "path": "dist/assets/workerPool-CfMXSLnf.js",
+        "bytes": 1304,
+        "sha256": "a67cbddb8ef7f5a96425ea4f1b1b48228273e1149e3ed0ade4cf7544e6af08db",
+        "lfSha256": "a67cbddb8ef7f5a96425ea4f1b1b48228273e1149e3ed0ade4cf7544e6af08db"
+      },
+      {
+        "path": "dist/favicon.svg",
+        "bytes": 199,
+        "sha256": "4e1858f24e85cc71b88502caf6968c5ee53048485c18c63bfcc9ff800ec6fc10"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 10352,
+        "sha256": "63efc89b40ad90ac0a34b0acea549a4e551aba12a81cc65d61e8d67e925b1b3e",
+        "lfSha256": "4786c3e14b56bbc0dbe53dcf5421ac14094d45f8cae92aadcaae99d8dce65b26"
+      },
+      {
+        "path": "dist/roadster.html",
+        "bytes": 3016,
+        "sha256": "1435e658cc74a534f0b968b10cb3a4db03dfac04f523773dfb6170f6f0d2ee82",
+        "lfSha256": "1435e658cc74a534f0b968b10cb3a4db03dfac04f523773dfb6170f6f0d2ee82"
+      }
+    ]
+  }
+}

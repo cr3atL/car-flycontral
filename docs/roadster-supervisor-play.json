@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-23",
+  "method": "Supervisor ordinary CUA keyboard and on-screen mouse inputs. No simulation pose, speed, time, gas or completion writes. Native repeat tests by developer are separate.",
+  "cases": [
+    {
+      "name": "first-direction",
+      "result": "found-and-fixed",
+      "observed": "Initial RHS view showed D steering left and high platform on left. Changed rendering to Babylon LHS with glTF conversion root cancelled; real D right turn and platform sides rechecked."
+    },
+    {
+      "name": "direct-crossing",
+      "result": "complete",
+      "environment": "127.0.0.1:5173 ordinary developer page, real-time inputs",
+      "requestedInputs": "Start; W4300ms; W+Space500ms; W2400ms",
+      "observed": "Far road contact followed by visible exit completion, about147km/h and84 pressure on final HUD.",
+      "image": "screenshots/roadster-supervisor-first-direct.png"
+    },
+    {
+      "name": "air-brake-recovery",
+      "result": "complete",
+      "requestedInputs": "Reset; W4300ms; W+Space800ms; S1400ms; later W1300ms",
+      "observed": "Longer lift followed by horizontal brake lowered speed to51km/h, projected far-road landing, then real contact and exit completion at41km/h/89 pressure.",
+      "image": "screenshots/roadster-supervisor-brake-recovery.png"
+    },
+    {
+      "name": "mobile-controls",
+      "result": "basic-controls-pass",
+      "environment": "667x375 IAB viewport, ordinary on-screen mouse presses, not two-thumb or physical-phone proof",
+      "requestedInputs": "Upper stick hold1200ms; lower stick hold1200ms; right jet hold700ms",
+      "observed": "Speed rose to47km/h then stopped at0; right button visibly lifted stationary car and used gas down to81. Pause panel and drive controls fit viewport.",
+      "image": "screenshots/roadster-supervisor-mobile-controls.png"
+    },
+    {
+      "name": "low-platform-contact",
+      "result": "first-leg-pass",
+      "bundle": "roadster-DTHis7Yu.js",
+      "requestedInputs": "R; W3800ms; S1400ms; W+Space1200ms; A1000ms; A+S600ms; S700ms; pause",
+      "observed": "DOM low/grounded true,0km/h and58 pressure. Resume, stationary ground refill to100, actual teal platform and refill patch visible.",
+      "image": "screenshots/roadster-supervisor-low-contact.png",
+      "scope": "Subsequent second-hop attempts failed and legally recovered to unlocked low checkpoint; supervisor has not claimed a complete manual low-route run. Later C8 repeat also hit a platform side."
+    },
+    {
+      "name": "high-route",
+      "result": "complete-with-pauses-and-one-reset",
+      "bundle": "roadster-C8PfdBsW.js",
+      "requestedInputs": "New start; W3800/S1400; W+Space1200; W650; D1000; D+S600; S700; pause. Resume, refill to100; R at unlocked high checkpoint; W+D300; W2500; S1400; pause. Resume; W+D600; W2000.",
+      "observed": "Actual high/grounded true,0km/h/52 gas. After ground refill and legal checkpoint reset, drove off high platform and glided to actual far/grounded true,0km/h/99 gas. Continued ground drive to complete/far and visible exit panel,68km/h/100 gas.",
+      "images": ["screenshots/roadster-supervisor-high-contact.png", "screenshots/roadster-supervisor-high-complete.png"],
+      "scope": "Individual driving legs used real-time native input; pauses were used to inspect and one R was intentional. Not described as uninterrupted zero-retry play."
+    }
+  ],
+  "failuresAndLimits": [
+    "Several early low-platform attempts hit sides or failed to reach a safe landing; failures prompted extended landing areas, consistent vehicle footprint, real shadows, height/descent feedback and explicit lift-buffer hint.",
+    "Old surfaceId stayed start while driving on runway; this metadata error was fixed. A start attribute alone was not proof of respawn; screenshots and visible reasons were used where available.",
+    "Requested native wall-clock hold durations and gaps between CUA calls are not asserted equal to exact simulation-time inputs. Fixed-step diagnostic recipes were not counted as human play.",
+    "Old IAB27 became stuck on a connection error page; fresh IAB28 recovered access. No duplicate server was started when strict ports were already occupied.",
+    "One browser authority review timed out without an unsafe verdict. The single allowed retry succeeded; there was no approval rejection or bypass.",
+    "No physical phone/iOS, independent new-player study, subjective audio quality or performance result is claimed."
+  ]
+}

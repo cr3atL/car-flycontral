@@ -1,0 +1,4 @@
+both {"throttle":0,"steer":0,"lift":true,"keys":[],"pointers":[{"id":2,"kind":"stick","x":102,"y":296,"axes":{"steer":0,"throttle":0}},{"id":3,"kind":"jet","x":771,"y":308,"axes":{"throttle":0,"steer":0}}]}
+end remaining stick {"throttle":0,"steer":0,"lift":true,"keys":[],"pointers":[{"id":3,"kind":"jet","x":771,"y":308,"axes":{"throttle":0,"steer":0}}]}
+move stick {"throttle":0,"steer":0,"lift":true,"keys":[],"pointers":[{"id":3,"kind":"jet","x":771,"y":308,"axes":{"throttle":0,"steer":0}},{"id":4,"kind":"stick","x":102,"y":296,"axes":{"steer":0,"throttle":0}}]}
+all ended {"throttle":0,"steer":0,"lift":false,"keys":[],"pointers":[]}

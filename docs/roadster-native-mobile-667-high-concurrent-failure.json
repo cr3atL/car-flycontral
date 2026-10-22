@@ -1,0 +1,353 @@
+[
+  {
+    "mobile": true,
+    "viewport": {
+      "width": 667,
+      "height": 375
+    },
+    "route": "high",
+    "trial": 1,
+    "method": "Automated native real-time keyboard / two independent touch pointers; read-only state feedback steers after platform / toward exit. Not manual human usability evidence. No advance/setManual/state writes.",
+    "phases": [
+      {
+        "name": "launch",
+        "time": 5.191666666666714,
+        "x": 0,
+        "y": 0,
+        "z": 97.32820473514695,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 29.031838046697402,
+        "speed": 29.031838046697402,
+        "pressure": 100,
+        "grounded": true,
+        "surface": "runway",
+        "visits": {
+          "low": 0,
+          "high": 0,
+          "far": 0
+        },
+        "complete": false,
+        "events": [],
+        "reason": ""
+      }
+    ],
+    "actions": [
+      {
+        "wallMs": 3999,
+        "input": {
+          "throttle": 1,
+          "steer": 0,
+          "lift": false
+        }
+      },
+      {
+        "wallMs": 8517,
+        "observedTime": 4.708333333333357,
+        "input": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false
+        },
+        "observed": {
+          "time": 4.708333333333357,
+          "x": 0,
+          "y": 0,
+          "z": 83.19079046949622,
+          "heading": 0,
+          "pitch": 0,
+          "roll": 0,
+          "vx": 0,
+          "vy": 0,
+          "vz": 28.782615763638127,
+          "speed": 28.782615763638127,
+          "pressure": 100,
+          "grounded": true,
+          "surface": "runway",
+          "visits": {
+            "low": 0,
+            "high": 0,
+            "far": 0
+          },
+          "complete": false,
+          "events": [],
+          "reason": ""
+        }
+      },
+      {
+        "wallMs": 8966,
+        "observedTime": 5.291666666666719,
+        "input": {
+          "throttle": 0,
+          "steer": 1,
+          "lift": true
+        },
+        "observed": {
+          "time": 5.291666666666719,
+          "x": 0,
+          "y": 0,
+          "z": 100.21759859421027,
+          "heading": 0,
+          "pitch": 0,
+          "roll": 0,
+          "vx": 0,
+          "vy": 0,
+          "vz": 28.77781585536873,
+          "speed": 28.77781585536873,
+          "pressure": 100,
+          "grounded": true,
+          "surface": "runway",
+          "visits": {
+            "low": 0,
+            "high": 0,
+            "far": 0
+          },
+          "complete": false,
+          "events": [],
+          "reason": ""
+        }
+      },
+      {
+        "wallMs": 10421,
+        "observedTime": 6.6750000000001215,
+        "input": {
+          "throttle": 0,
+          "steer": 1,
+          "lift": false
+        },
+        "observed": {
+          "time": 6.6750000000001215,
+          "x": 4.484521757256988,
+          "y": 10.643848260407147,
+          "z": 139.03060977202568,
+          "heading": 0.1285051378950163,
+          "pitch": 0.06455054367166259,
+          "roll": -0.15978051971130489,
+          "vx": 9.796797524051229,
+          "vy": 17.974849931518065,
+          "vz": 27.150497118713496,
+          "speed": 28.863934858583058,
+          "pressure": 73.74421448027384,
+          "grounded": false,
+          "surface": null,
+          "visits": {
+            "low": 0,
+            "high": 0,
+            "far": 0
+          },
+          "complete": false,
+          "events": [
+            {
+              "type": "takeoff",
+              "time": 5.458333333333394,
+              "x": 0,
+              "y": 0,
+              "z": 104.97742193429382,
+              "pressure": 99.78741795162524,
+              "from": "runway",
+              "vx": 0,
+              "vz": 28.362476685137302
+            }
+          ],
+          "reason": ""
+        }
+      },
+      {
+        "wallMs": 10984,
+        "observedTime": 7.308333333333486,
+        "input": {
+          "throttle": -1,
+          "steer": 1,
+          "lift": false
+        },
+        "observed": {
+          "time": 7.308333333333486,
+          "x": 12.80228767316127,
+          "y": 22.974954946824116,
+          "z": 155.53529053528723,
+          "heading": 0.33531605720975405,
+          "pitch": 0.07316457090582439,
+          "roll": -0.15999739370650745,
+          "vx": 16.292782106566815,
+          "vy": 17.019627655905623,
+          "vz": 24.7543957425583,
+          "speed": 29.63502754092279,
+          "pressure": 66.2321404420017,
+          "grounded": false,
+          "surface": null,
+          "visits": {
+            "low": 0,
+            "high": 0,
+            "far": 0
+          },
+          "complete": false,
+          "events": [
+            {
+              "type": "takeoff",
+              "time": 5.458333333333394,
+              "x": 0,
+              "y": 0,
+              "z": 104.97742193429382,
+              "pressure": 99.78741795162524,
+              "from": "runway",
+              "vx": 0,
+              "vz": 28.362476685137302
+            }
+          ],
+          "reason": ""
+        }
+      },
+      {
+        "wallMs": 11605,
+        "observedTime": 8.00833333333352,
+        "input": {
+          "throttle": -1,
+          "steer": 0,
+          "lift": false
+        },
+        "observed": {
+          "time": 8.00833333333352,
+          "x": 25.133178487077828,
+          "y": 31.99769430595807,
+          "z": 169.83748608604378,
+          "heading": 0.5907248834952621,
+          "pitch": 0.1594523622713169,
+          "roll": -0.15999998059201903,
+          "vx": 17.276235460016927,
+          "vy": 8.759627655905675,
+          "vz": 14.705512007184742,
+          "speed": 22.68745016663179,
+          "pressure": 59.05537851471575,
+          "grounded": false,
+          "surface": null,
+          "visits": {
+            "low": 0,
+            "high": 0,
+            "far": 0
+          },
+          "complete": false,
+          "events": [
+            {
+              "type": "takeoff",
+              "time": 5.458333333333394,
+              "x": 0,
+              "y": 0,
+              "z": 104.97742193429382,
+              "pressure": 99.78741795162524,
+              "from": "runway",
+              "vx": 0,
+              "vz": 28.362476685137302
+            }
+          ],
+          "reason": ""
+        }
+      },
+      {
+        "wallMs": 15050,
+        "observedTime": 11.458333333333323,
+        "input": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false
+        },
+        "observed": {
+          "time": 11.458333333333323,
+          "x": 38.605739979931194,
+          "y": -8.006340281167237,
+          "z": 180.35623324861058,
+          "heading": 0.9038347005502284,
+          "pitch": -0.0017026376863748085,
+          "roll": -7.820690892154344e-12,
+          "vx": 0,
+          "vy": -31.950372344094188,
+          "vz": 0,
+          "speed": 0,
+          "pressure": 47.69182023334203,
+          "grounded": false,
+          "surface": null,
+          "visits": {
+            "low": 0,
+            "high": 0,
+            "far": 0
+          },
+          "complete": false,
+          "events": [
+            {
+              "type": "takeoff",
+              "time": 5.458333333333394,
+              "x": 0,
+              "y": 0,
+              "z": 104.97742193429382,
+              "pressure": 99.78741795162524,
+              "from": "runway",
+              "vx": 0,
+              "vz": 28.362476685137302
+            },
+            {
+              "type": "crash",
+              "time": 11.458333333333323,
+              "x": 38.605739979931194,
+              "y": -8.006340281167237,
+              "z": 180.35623324861058,
+              "pressure": 47.69182023334203,
+              "reason": "下降冲击过大"
+            }
+          ],
+          "reason": "下降冲击过大"
+        }
+      }
+    ],
+    "errors": [],
+    "pass": false,
+    "failure": "Error: crash/reset: {\"time\":11.458333333333323,\"x\":38.605739979931194,\"y\":-8.006340281167237,\"z\":180.35623324861058,\"heading\":0.9038347005502284,\"pitch\":-0.0017026376863748085,\"roll\":-7.820690892154344e-12,\"vx\":0,\"vy\":-31.950372344094188,\"vz\":0,\"speed\":0,\"pressure\":47.69182023334203,\"grounded\":false,\"surface\":null,\"visits\":{\"low\":0,\"high\":0,\"far\":0},\"complete\":false,\"events\":[{\"type\":\"takeoff\",\"time\":5.458333333333394,\"x\":0,\"y\":0,\"z\":104.97742193429382,\"pressure\":99.78741795162524,\"from\":\"runway\",\"vx\":0,\"vz\":28.362476685137302},{\"type\":\"crash\",\"time\":11.458333333333323,\"x\":38.605739979931194,\"y\":-8.006340281167237,\"z\":180.35623324861058,\"pressure\":47.69182023334203,\"reason\":\"下降冲击过大\"}],\"reason\":\"下降冲击过大\"}",
+    "end": {
+      "time": 11.62499999999998,
+      "x": 38.605739979931194,
+      "y": -8.006340281167237,
+      "z": 180.35623324861058,
+      "heading": 0.9038347005502284,
+      "pitch": -0.0017026376863748085,
+      "roll": -7.820690892154344e-12,
+      "vx": 0,
+      "vy": -31.950372344094188,
+      "vz": 0,
+      "speed": 0,
+      "pressure": 47.69182023334203,
+      "grounded": false,
+      "surface": null,
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0
+      },
+      "complete": false,
+      "events": [
+        {
+          "type": "takeoff",
+          "time": 5.458333333333394,
+          "x": 0,
+          "y": 0,
+          "z": 104.97742193429382,
+          "pressure": 99.78741795162524,
+          "from": "runway",
+          "vx": 0,
+          "vz": 28.362476685137302
+        },
+        {
+          "type": "crash",
+          "time": 11.458333333333323,
+          "x": 38.605739979931194,
+          "y": -8.006340281167237,
+          "z": 180.35623324861058,
+          "pressure": 47.69182023334203,
+          "reason": "下降冲击过大"
+        }
+      ],
+      "reason": "下降冲击过大"
+    },
+    "wallMs": 15404
+  }
+]
