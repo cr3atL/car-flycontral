@@ -39,3 +39,9 @@ GitHub 说明：[Pages 自定义工作流](https://docs.github.com/en/pages/gett
 [检查、构建与部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39777427418)，游戏提交 `ebda0fb15adc9ad9bca96bcf65dcc4b2560d94a4`。最终包 `index-C53q8ie3.js`，SHA256 `fa6025f2d251c39ce0e244412bafa973d520a52dcd76817f27492a4d2d2ac873`。主控独立120项检查通过；79项运行/测试冻结和21项玩法保护全部匹配。
 
 主控本地普通输入完成90秒真实结算2600分、8/9、零修复，及连续三段3/3；最终生产包针对三轴入账与菜单返回复验。线上首页及59静态资源HTTP200，主包SHA匹配本地构建；线上普通三轴一跳精准+4680、总4780，完整入账后结束区正常，重试归零、返回菜单与操作弹窗均正常，无错误/警告。无历史记录时线上最佳隐藏。详细版本与实际试玩范围见CORE_ACCEPTANCE第十三轮和menu-results-deployment.json，不把固定步长纪录/手机图诊断称为原生试玩。
+
+## 手机HUD与24/30米限高更新（2026-10-22）
+
+[检查、构建与部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39788378120)，游戏提交 `ada8fee36187d25e2c004eab34ed059e2adf8f1c`。最终包 `index-BqvO1ECL.js`，SHA256 `c48f82b2216dab849fefff22aaf4a396f45749d8e160f9ad878d67e7424bb754`。主控独立129项检查通过，相对构建与88项冻结匹配；低空360采样与旧版完全一致。
+
+主控本地手机HUD原速90秒3140分、8/9、1次修复；最终生产667一跳精准4680。开发最终667最大/844默认原生CDP双指各4780，和48组布局边界诊断已分开审阅，不代表实体手机。线上首页/59静态资源HTTP200、主包SHA一致；主控线上667横屏用屏幕推进与键盘三轴完成精准4680/总4780，另推进2秒到DOM29.8米显示高度上限并自然回落，一跳完成。重试、菜单和浏览器尺寸恢复正常，无错误/警告。线上只做两条一跳冒烟，完整90秒在本地Dg候选，最终Bq显示修订后做针对复验。详见CORE_ACCEPTANCE第十四轮和mobile-hud-deployment.json。

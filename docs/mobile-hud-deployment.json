@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-22T13:39:14.975Z",
+  "run": {
+    "sha": "ada8fee36187d25e2c004eab34ed059e2adf8f1c",
+    "id": 39788378120,
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/cr3atL/car-flycontral/actions/runs/39788378120",
+    "updated": "2026-10-22T13:38:32Z"
+  },
+  "homepage": 200,
+  "script": "./assets/index-BqvO1ECL.js",
+  "scriptStatus": 200,
+  "sha256": "c48f82b2216dab849fefff22aaf4a396f45749d8e160f9ad878d67e7424bb754",
+  "expected": "c48f82b2216dab849fefff22aaf4a396f45749d8e160f9ad878d67e7424bb754",
+  "matches": true,
+  "bytes": 1407694,
+  "assetsChecked": 59,
+  "assetFailures": [],
+  "ui": {
+    "method": "Root CUA online667x375 viewport, native screen mouse boost and ordinary keyboard axes, no sim/time/pose/score writes. Not physical-phone or root two-thumb proof.",
+    "script": "./assets/index-BqvO1ECL.js",
+    "jump": {
+      "boostMs": 1000,
+      "axes": "DQW1100ms",
+      "pending": 3900,
+      "preciseBank": 4680,
+      "formula": "3900×1.2",
+      "total": 4780,
+      "bankBeforeEnding": true
+    },
+    "ceiling": {
+      "boostMs": 2000,
+      "heightDOM": 29.8,
+      "caption": "高度上限",
+      "naturalDescent": true,
+      "practiceComplete": true,
+      "total": 100
+    },
+    "retry": true,
+    "menu": true,
+    "errors": [],
+    "warnings": [],
+    "viewportReset": true,
+    "scope": "Two online practice smoke trials; full90seconds root run was local Dg candidate"
+  }
+}

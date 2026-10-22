@@ -429,9 +429,9 @@ not ok 84 - C actual full tank plus earned60 exhaustion brakes at zero, held inp
   failureType: 'testCodeFailure'
   error: |-
     The expression evaluated to a falsy value:
-    
+
       assert.ok(peak>300)
-    
+
   code: 'ERR_ASSERTION'
   name: 'AssertionError'
   expected: true
