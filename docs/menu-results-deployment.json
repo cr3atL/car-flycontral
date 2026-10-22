@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-22T12:21:50.827Z",
+  "run": {
+    "sha": "ebda0fb15adc9ad9bca96bcf65dcc4b2560d94a4",
+    "id": 39777427418,
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/cr3atL/car-flycontral/actions/runs/39777427418",
+    "updated": "2026-10-22T12:20:35Z"
+  },
+  "homepage": 200,
+  "script": "./assets/index-C53q8ie3.js",
+  "scriptStatus": 200,
+  "sha256": "fa6025f2d251c39ce0e244412bafa973d520a52dcd76817f27492a4d2d2ac873",
+  "expected": "fa6025f2d251c39ce0e244412bafa973d520a52dcd76817f27492a4d2d2ac873",
+  "matches": true,
+  "bytes": 1403436,
+  "assetsChecked": 59,
+  "assetFailures": [],
+  "ui": {
+    "method": "GitHub Pages ordinary native keyboard and mouse. No development state/time writes.",
+    "script": "./assets/index-C53q8ie3.js",
+    "noHistoricalBestHidden": true,
+    "input": "Space1000ms; D+Q+W1100ms; release",
+    "bank": 4680,
+    "formula": "3900 × 1.2",
+    "settledTotal": 4780,
+    "endingAfterBank": true,
+    "retryResetsToZero": true,
+    "menuAndHelp": true,
+    "errors": [],
+    "warnings": [],
+    "scope": "Online practice smoke check, not online full90seconds"
+  }
+}
