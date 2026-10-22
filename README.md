@@ -4,6 +4,8 @@ Babylon.js 单人喷气跑车原型，支持PC和手机横屏。当前新核心�
 
 [在线驾驶](https://cr3atl.github.io/car-flycontral/roadster.html) · [源码仓库](https://github.com/cr3atL/car-flycontral) · [原型设计](docs/ROADSTER_CORE_PROTOTYPE.md)
 
+[本轮Pages构建与部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39829688053)，线上主包和Blender场景已与验收构建核对，主控线上实际直跨通关。
+
 ## 开始驾驶
 
 从首页选择Roadster，或直接打开 `roadster.html`。推荐先直线加速、在断口前短喷跨到对岸，接地后继续驶过绿色出口。随后尝试低平台的两次起降，以及高平台的主动爬升与顺势滑落。

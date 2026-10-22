@@ -54,3 +54,14 @@ GitHub 说明：[Pages 自定义工作流](https://docs.github.com/en/pages/gett
 独立137项全量及冻结后8项专项通过，240采样对照一致；最终PC/667/844生产原生证据绑定BJJY。主包 `index-BJJYocJ2.js` SHA256 `7f336f7bee01486d1bd286cda4e6d64d5fb749bec83a1f51426200bba3278e92`，1425453字节，线上与独立构建精确一致。首页及60资源全部200；60非index资源字节全同，index仅CR/LF差异，去CR后相同。
 
 主控线上667原生键盘选宽路加屏幕推进，首跳未开路后按架后维修提示推进700ms，实际重压开路、过桥到出口；无大0或门柱遮挡，重试wall恢复closed、菜单正常、控制台error/warn空，视口已reset。不是线上一跳零失误或实体手机验证。详见[发布证据](parking-deployment.json)与[本轮验收](CORE_ACCEPTANCE.md)。
+
+
+## Roadster新核心原型更新（2026-10-23）
+
+[云端构建与部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39829688053)，代码提交454afb94e0707ba47ab9dce2f446127a2351e8e3。推送后未自动启动，使用既有Pages工作流手动dispatch，未修改发布权限或配置。新入口为 [Roadster](https://cr3atl.github.io/car-flycontral/roadster.html)，首页也可选择Roadster，旧模式独立保留。
+
+独立155项规则检查通过、385项冻结匹配。PC和两种手机模拟尺寸三路线各3次原生自动输入完成，共27次；这些是只读状态辅助控制，不代表人工新手研究。主控另有实际键鼠试玩，详细范围见CORE_ACCEPTANCE第十六轮。
+
+主包roadster-28PJ6-kN.js，683836字节，SHA256 f3f848e4d83f6132d258e97bf431740fad488a1a40fbe67b8f12bab73098b35d。159线上资源HTTP200，157项字节精确一致；index与布局JSON仅换行差异，布局数据深度一致，Blender场景二进制字节相同。
+
+线上实际普通键盘连续完成直跨、喷气、反推、far接地和出口；667屏幕控件实际升空、刹停、暂停与菜单复验，控制台无错误/警告。线上只做上述冒烟，实体手机和新玩家仍未验证。详情见 [发布记录](roadster-deployment.json)。

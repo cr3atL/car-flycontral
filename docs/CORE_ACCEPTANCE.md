@@ -709,7 +709,7 @@ P08发布通过：游戏提交0beee2178966ec6b349bea3d0f426148fdf5b22a，GitHub 
 | R04 | 下层无喷气回程、改道、恢复点、碰撞与出口边界 | 原生自动控制改道/地面回程各1次及规则检查通过 |
 | R05 | 手机组合、取消/滑出释放、暂停、转屏 | 667/844边界检查通过，真机未测 |
 | R06 | Blender实构建、导出几何与碰撞一致、独立入口及旧版回归 | 9实体顶点核对、七旧核心源码对照及155规则检查通过 |
-| R07 | 最终冻结、生产相对构建、Pages与线上实际冒烟 | 本地冻结和最终生产核对通过，Pages与线上待发布 |
+| R07 | 最终冻结、生产相对构建、Pages与线上实际冒烟 | 已通过，线上范围见发布记录 |
 
 ### 场地和规则
 
@@ -754,3 +754,12 @@ scripts/roadster-native.mjs采用普通keyboard与CDP双触点事件，只读开
 主控在最终普通生产页真实W4300→单独Space800→W600→S1500，暂停时对岸上方离地3.1m、下降14m/s、气压71；恢复后实际far接地，W2300并稍后W700驶出出口，complete/far、89km/h/82气压，error/warn为空。两次更早基于短按时长的尝试碰侧面并复位，未抹去失败；最终成功含暂停，不冒称不中断。最终667鼠标实际上摇杆加速、下摇杆刹停、右喷气300及暂停，观察到离地1.1m/93气压，屏幕控件与移动提示正常，error/warn为空，视口已reset。最终重开与恢复方向已检查，不沿用上次转弯镜头。
 
 Blender源另通过MCP只读检查：仅Roadster_Core_Lab_v1场景、76个RL网格、9材质，没有其他项目网格。场景及规则源保持冻结；主控补充最终QA文档/截图是新增记录，不冒充开发冻结时已存在。最终摘要见roadster-supervisor-final.json，发布结果另见roadster-deployment.json。
+
+
+R07发布通过：代码提交454afb94e0707ba47ab9dce2f446127a2351e8e3已推送cr3atL/main。推送后未产生自动run，主控通过既有pages.yml手动dispatch，同一提交的Actions39829688053构建与部署均success。没有修改工作流或扩大权限。
+
+线上159项资源全部HTTP200，157项字节精确一致，含主包f3f848e4d83f6132d258e97bf431740fad488a1a40fbe67b8f12bab73098b35d及场景GLB b9da2c3c5e10677f8a8290f58fc6f6b159d12c1202fa62806f185b9f95e1237b。index.html和布局JSON只差CR/LF；布局JSON额外做了解析后的深度相等和去CR文本相等检查，几何无差异。
+
+主控在线普通PC输入Start→W4300→单独Space800→W600→S1500→W3000，首个线上局连续完成直跨、反推、far接地及出口，complete/far、96km/h、82气压，确认脚本28PJ6-kN。此项无暂停、无R、无注入，但只代表线上直跨冒烟，不冒称线上重跑三路线。667线上鼠标实按上摇杆900、下摇杆1000、喷气250和暂停，0km/h、离地0.8m、94气压，提示适配正确。error/warn为空。返回菜单并reset视口，保留新线上入口，其他原用户标签未关闭。
+
+发布证据见roadster-deployment.json和roadster-supervisor-production-files.json。最终线上截图见screenshots/roadster-supervisor-online-complete.png。低台人工第二跳仍不稳定、新玩家研究和实体手机仍未验证；这次交付为可继续调校的新核心原型，不据自动成功宣称人工易用性已完成验证。
