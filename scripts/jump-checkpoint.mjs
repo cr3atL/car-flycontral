@@ -1,0 +1,18 @@
+import { chromium } from '@playwright/test';
+import { writeFileSync } from 'node:fs';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const page=await browser.newPage({viewport:{width:1280,height:720}}),errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://localhost:5173');await page.waitForFunction(()=>window.__FLIGHT_DEV__);
+await page.locator('#start-practice').click();
+await page.waitForFunction(()=>window.__FLIGHT_DEV__.getState().z>=55);
+await page.screenshot({path:'docs/screenshots/jump-checkpoint-approach.png'});
+await page.waitForFunction(()=>window.__FLIGHT_DEV__.getState().z>=70);
+await page.keyboard.down('Space');await page.waitForTimeout(1000);await page.keyboard.up('Space');
+await page.screenshot({path:'docs/screenshots/jump-checkpoint-jet.png'});
+await page.waitForFunction(()=>window.__FLIGHT_DEV__.getState().session.practice.result,{},{timeout:30000});
+const state=await page.evaluate(()=>window.__FLIGHT_DEV__.getState());await page.screenshot({path:'docs/screenshots/jump-checkpoint-landed.png'});
+const production=await browser.newPage();await production.goto('http://localhost:4173');await production.locator('#start-practice').click();await production.waitForTimeout(500);
+const fatal=await production.locator('#fatal').isVisible();
+writeFileSync('docs/jump-checkpoint.json',JSON.stringify({method:'Native keyboard at original speed; no runtime state writes',errors,fatal,practice:state.session.practice,presentation:state.art.presentation,audio:state.feedback.audio},null,2));
+console.log(JSON.stringify({errors,fatal,practice:state.session.practice,presentation:state.art.presentation}));await browser.close();

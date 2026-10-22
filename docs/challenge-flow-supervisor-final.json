@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-22",
+  "tests": {
+    "pass": 99,
+    "fail": 0
+  },
+  "runtimeAndTestsMatched": 70,
+  "production": {
+    "file": "dist/assets/index-CSK3ViHC.js",
+    "sha256": "c1ec63016e9de0c8defeef1686cbe0d618d582bbf68a57ffad5cf8b212a65bf4",
+    "bytes": 1388288,
+    "base": "./"
+  },
+  "actualUI": {
+    "full90Base": {
+      "bundle": "index-a1F69-W9.js",
+      "groups": 9,
+      "score": 3240,
+      "seconds": 90,
+      "repairs": 0
+    },
+    "full90Performance": {
+      "bundle": "index-CW3swvk9.js",
+      "groups": 9,
+      "score": 12825,
+      "highestBank": 10125,
+      "seconds": 90,
+      "repairs": 0
+    },
+    "finalBundle": "Teaching and fleet short pulse, precise landing and next213m. Final supply height was independently verified by developer native trace; full90 was before final ring height fix."
+  },
+  "limits": [
+    "Desktop mobile-size CDP evidence, not physical phone/iOS",
+    "No FPS optimization or independent subjective ear assessment"
+  ],
+  "failuresRetained": [
+    "Earlier native photo/read delays",
+    "Supervisor old hint matcher timeout",
+    "98/99 before first supply-ring height correction"
+  ]
+}

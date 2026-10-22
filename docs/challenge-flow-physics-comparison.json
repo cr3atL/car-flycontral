@@ -1,0 +1,6 @@
+{
+  "phase": "First precision candidate",
+  "method": "Same ordinary fixed-step inputs as pre-change baseline. Compare position, velocity, attitude, per-axis omega, pressure, buffer and crashes; grade may intentionally change.",
+  "comparedSamples": 190,
+  "differences": []
+}
