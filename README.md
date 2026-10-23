@@ -4,7 +4,7 @@ Babylon.js 单人喷气跑车原型，支持PC和手机横屏。当前场地为�
 
 [在线驾驶](https://cr3atl.github.io/car-flycontral/roadster.html) · [源码仓库](https://github.com/cr3atL/car-flycontral) · [本轮设计与场景](docs/COASTAL_INTERCHANGE.md)
 
-本轮主包 `roadster-x2PXELdW.js`，场景 `coastal-interchange.glb`。最终验收与上线结果分别见[验收记录](docs/CORE_ACCEPTANCE.md)和[部署记录](docs/coastal-deployment.json)。
+本轮[Pages构建与部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39893552399)。主包 `roadster-x2PXELdW.js` 与场景 `coastal-interchange.glb` 已核对线上散列；161项资源全部通过。主控线上实际跨桥并落到接收路面，另完成667布局操作冒烟。最终范围见[验收记录](docs/CORE_ACCEPTANCE.md)和[部署记录](docs/coastal-deployment.json)。
 
 ## 开始驾驶
 

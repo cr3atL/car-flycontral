@@ -783,3 +783,7 @@ R07发布通过：代码提交454afb94e0707ba47ab9dce2f446127a2351e8e3已推送c
 主控在最终普通生产页另实际跨桥、接收路落地、连续缓弯入apron、复位到合法apron检查点后组合喷气/侧修/反推实际落high26km/h。随后转向时机尝试碰栏恢复high，失败保留；合法high检查点起步后连续过坡并地面出口complete，105km/h。error/warn为空。见coastal-supervisor-production.json。此为精确生产包的分段实际操作，不称一遍无失误通关。
 
 实体手机/iOS、独立新玩家研究、真实系统后台、主观声音与性能专项仍未验证。首跳、高架和落地续行已可用，熟练度与触控真机调校仍可继续迭代。部署与线上实测在coastal-deployment.json另记。
+
+发布通过：代码提交a93961da837bfbe1ec4b94b9bab7950bbd5ad43b已推送cr3atL/main，自动push工作流39893552399的build/deploy均success。未更改工作流权限。161个线上静态文件均HTTP200，158项字节精确匹配；index.html、旧lab布局和滨海布局仅CR/LF差异，两个JSON另经解析后深度相等。主包19da3d与GLB2d827d均精确一致。
+
+主控普通线上入口确认x2PXELdW，真实Start→W5000→Space650→等待实际接地→S1000，landing/grounded=true，11km/h、100气压；只代表线上跨桥接地冒烟，不称线上全程复跑。667布局鼠标实按上摇杆1000、下摇杆1000、喷气300后暂停，0km/h、离地1.4m、93气压。线上error/warn为空，已回菜单、reset视口并保留线上入口。三张线上截图、资源逐项结果与Actions记录见coastal-deployment.json；文档记录提交不改变已发布运行时。
