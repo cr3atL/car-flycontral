@@ -10,4 +10,5 @@ playwright-report/
 # Raw local QA recordings remain available in the workspace.
 docs/*.json
 docs/screenshots/
+docs/artifacts/
 flow-combo-diagnostic.json

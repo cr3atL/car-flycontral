@@ -6,6 +6,8 @@ Babylon.js 单人喷气跑车原型，支持PC和手机横屏。当前场地为�
 
 首处跨桥新增Blender MCP制作的跑车、岩岸和植被，配合动态海面、暖色日光与阴影。地面持续按住制动可直接过渡到倒车；碰护栏会阻挡、减速或滑行，驶出地图才自动恢复。最终范围见[验收记录](docs/CORE_ACCEPTANCE.md)，发布结果见[本轮部署记录](docs/coastal-art-deployment.json)。
 
+本轮[Pages部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39930857079)，线上相对路径包 `roadster-BAcCjqFS.js` 及全部213项静态资源已核对。主控普通线上PC和667布局均实际跨桥接地后续行，失败与重试分列保存。
+
 ## 开始驾驶
 
 从首页选择Roadster，或直接打开 `roadster.html`。沿直道加速，在琥珀标线处短喷跨桥；落地后顺着缓弯进入检修区，低速抬升并向右修正，反推缩短落点，接地后沿高架下坡驶出。起飞前可以停车观察，也可以沿岸绕行。

@@ -1,0 +1,42 @@
+{
+  "production": true,
+  "scenario": "main",
+  "onlineURL": "https://cr3atl.github.io/car-flycontral/roadster.html",
+  "expectedBundle": "roadster-BAcCjqFS.js",
+  "scriptSHA256": "c2c5edf4c5deea80f897ab40d9d6bcc237f2511a853e00a68f0260147c69c637",
+  "networkErrors": [
+    {
+      "url": "https://cr3atl.github.io/car-flycontral/roadster.html?qa=1",
+      "failure": "net::ERR_NETWORK_ACCESS_DENIED"
+    }
+  ],
+  "environment": "Windows / headless Microsoft Edge, normal real-time render loop. Native keyboard or two independent touch points. Read-only state feedback controller, not human play; no advance/setManual/state writes.",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "source": {
+    "simulation": "8370e7e24a1870cf4f5dee60f32e67f9194c5f6557eb000f2b436c8adc352e8b",
+    "geometry": "6cf2ad230dc9f962010ac4559cd4ea9b49a82334ce3ad24053403bbfad536332",
+    "config": "08a49bf8ab5f99c1eb8c9284a465d4c27b633e24ab4252f5fb20da533cb202ca",
+    "main": "9ec5dce3f3591ff5ea9dedd7ac55ea3e16d00db48d614e0fc38e55c355abd510",
+    "layout": "224e7433a2e5f063eba9794ef2f94b6fb6d42bae5db723164d58ab2ef0f8417a",
+    "glb": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7"
+  },
+  "phases": [],
+  "actions": [
+    {
+      "wallMs": 107,
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    }
+  ],
+  "errors": [],
+  "pass": false,
+  "failure": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at https://cr3atl.github.io/car-flycontral/roadster.html?qa=1\nCall log:\n\u001b[2m  - navigating to \"https://cr3atl.github.io/car-flycontral/roadster.html?qa=1\", waiting until \"load\"\u001b[22m\n",
+  "end": null,
+  "wallMs": 572
+}

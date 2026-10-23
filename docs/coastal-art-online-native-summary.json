@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-23 Asia/Shanghai",
+  "url": "https://cr3atl.github.io/car-flycontral/roadster.html",
+  "bundle": "roadster-BAcCjqFS.js",
+  "sha256": "cec98cdcc5d3bec360d550961746c97a62f694a7ff512110c52c425051829bb3",
+  "method": "Native production keyboard / CDP touch through actual online pages. Ordinary real-time render loop; QA observer exposes only getState. No state injection, stepping or camera writes.",
+  "cases": [
+    {
+      "file": "docs/coastal-art-online-native-pc.json",
+      "sha256": "3a0406e3515c19ab4d502556503554ad5470eb7869436f91c88b3c4b6dc737c6",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "pass": true,
+      "wallMs": 45092,
+      "bundle": "./assets/roadster-BAcCjqFS.js",
+      "bundleSHA256": "cec98cdcc5d3bec360d550961746c97a62f694a7ff512110c52c425051829bb3",
+      "errors": [],
+      "networkErrors": [],
+      "resetOrCrashEvents": 0,
+      "landing": {
+        "z": 161.24830059493007,
+        "group": "landing"
+      },
+      "highPlatform": {
+        "x": 28.076891751262263,
+        "z": 371.7099363266571,
+        "group": "high"
+      },
+      "end": {
+        "complete": true,
+        "group": "far",
+        "z": 510.06542870410686
+      },
+      "ordinaryEntry": {
+        "readonly": false,
+        "dev": false,
+        "bundle": "./assets/roadster-BAcCjqFS.js"
+      }
+    },
+    {
+      "file": "docs/coastal-art-online-native-touch-667.json",
+      "sha256": "27f4e6c959c060abb1d3e33514cb9deadef09ed3baff2a44967f4e43d0e3a257",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "pass": true,
+      "wallMs": 47864,
+      "bundle": "./assets/roadster-BAcCjqFS.js",
+      "bundleSHA256": "cec98cdcc5d3bec360d550961746c97a62f694a7ff512110c52c425051829bb3",
+      "errors": [],
+      "networkErrors": [],
+      "resetOrCrashEvents": 0,
+      "landing": {
+        "z": 179.10164196747155,
+        "group": "landing"
+      },
+      "highPlatform": {
+        "x": 34.21770294509504,
+        "z": 375.0704819958395,
+        "group": "high"
+      },
+      "end": {
+        "complete": true,
+        "group": "far",
+        "z": 510.0978037305976
+      },
+      "ordinaryEntry": {
+        "readonly": false,
+        "dev": false,
+        "bundle": "./assets/roadster-BAcCjqFS.js"
+      }
+    },
+    {
+      "file": "docs/coastal-art-online-native-touch-844.json",
+      "sha256": "fe2d704d64e3f4d124288dc7623d7221bb4a0406b7ecfb98a4ebe8553e39fe40",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "wallMs": 37546,
+      "bundle": "./assets/roadster-BAcCjqFS.js",
+      "bundleSHA256": "cec98cdcc5d3bec360d550961746c97a62f694a7ff512110c52c425051829bb3",
+      "errors": [],
+      "networkErrors": [],
+      "resetOrCrashEvents": 0,
+      "landing": {
+        "z": 171.8559010255515,
+        "group": "landing"
+      },
+      "highPlatform": {
+        "x": 34.02910607228496,
+        "z": 373.4151552862277,
+        "group": "high"
+      },
+      "end": {
+        "complete": true,
+        "group": "far",
+        "z": 510.13188065673137
+      },
+      "ordinaryEntry": {
+        "readonly": false,
+        "dev": false,
+        "bundle": "./assets/roadster-BAcCjqFS.js"
+      }
+    }
+  ],
+  "firstAttempt": "Initial sandbox network denial preserved in coastal-art-online-native-pc-network-denied.json; game did not load. Same authorized address passed after normal network escalation.",
+  "limits": "Mobile browser emulation, not a physical phone or new-player usability study. No game source/assets/build/freeze modifications, commit, push or 4173 service operation.",
+  "pass": true
+}

@@ -803,3 +803,9 @@ R07发布通过：代码提交454afb94e0707ba47ab9dce2f446127a2351e8e3已推送c
 开发最终普通生产包PC、667及844原生输入主线全部通过，双触点、取消/越界释放、暂停及转屏通过；另有实际护栏倒车与出界恢复记录。原生控制器用只读观察反馈，没有改车辆状态，不能替代新手研究。早期失败记录保留；真实系统后台没有在无头浏览器发出blur，只验证合成事件接线。主控最终本机普通入口PC、667控制及画面检查无console error/warn。实体手机、性能及主观声音尚未验证。
 
 细节见COASTAL_ART_SAMPLE.md、coastal-art-supervisor-play.json及coastal-art-production-files.json。发布和线上普通输入复核另记coastal-art-deployment.json。
+
+发布复核：提交2381ea7fe6d37ac8707ca3b081872abf2dede918，push触发Actions39930857079，build/deploy均success。首次资源核对用默认根路径候选6L2jcyue与工作流相对路径包比较，脚本名和导入路径发生变化，未通过；原失败结果另存coastal-art-root-base-comparison.json。主控以相同 --base=./ 参数独立重建后得到BAcCjqFS，主包SHA256 cec98cdcc5d3bec360d550961746c97a62f694a7ff512110c52c425051829bb3。独立下载并核实云端artifact归档散列，213文件中208字节精确一致，5份仅CR/LF差异，JSON额外深度相等。线上213份HTTP200且同样通过。没有为匹配清单改动游戏源码或重发运行时。
+
+主控普通线上PC第一次W4200起飞较早，落下层恢复路；重开W5000→Space650，接收路真实接地94km/h，S800后28km/h/100气压且继续向前。667第一次上摇杆5000再喷气未达接收路，重试4200后在短喷提示起飞，实际landing重接地87km/h/86气压，下摇杆650后30km/h续行。过程没有状态注入，失败图保留；不是线上全路线人工无失误通关。详细输入与最终截图见coastal-art-online-supervisor-play.json。
+
+开发补充线上BAcCjqFS同包PC、667及844原生完整主线，全部真实接收路接地、高架接地、地面终点完成，0异常复位、0脚本或网络错误。主控独立核对三份原始记录的文件散列、只读接口、阶段接地与最终事件；仅以getState反馈操控，不改状态或推进时间。最初沙箱网络拒绝发生在加载前，独立保留为环境失败，不算游戏失败。记录见coastal-art-online-native-summary.json。主控线上已回菜单，控制均释放，视口重置，原用户标签未操作。后续仅补验收文档与检查脚本，不改变已上线运行时。

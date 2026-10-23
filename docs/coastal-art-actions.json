@@ -1,0 +1,105 @@
+{
+  "account": {
+    "login": "cr3atL",
+    "id": 113228077
+  },
+  "repository": "cr3atL/car-flycontral",
+  "push": true,
+  "sha": "2381ea7fe6d37ac8707ca3b081872abf2dede918",
+  "runs": [
+    {
+      "id": 39930857079,
+      "url": "https://github.com/cr3atL/car-flycontral/actions/runs/39930857079",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "push",
+      "createdAt": "2026-10-23T09:18:03Z",
+      "jobs": [
+        {
+          "name": "build",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check out source",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Set up Node.js",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Install locked dependencies",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check game rules",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Build static game with relative asset paths",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Configure Pages",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Upload game",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Set up Node.js",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Check out source",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Publish game",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

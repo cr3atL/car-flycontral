@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-23",
+  "url": "https://cr3atl.github.io/car-flycontral/roadster.html",
+  "bundle": "./assets/roadster-BAcCjqFS.js",
+  "sha256": "cec98cdcc5d3bec360d550961746c97a62f694a7ff512110c52c425051829bb3",
+  "method": "Supervisor ordinary visible game UI and native browser keyboard/mouse holds in CUA. Read-only DOM observations; no position, gas, velocity, time or completion writes. Not a novice study or physical-phone test. Requested wall durations do not guarantee simulation durations.",
+  "pc": {
+    "viewport": [1280, 720],
+    "firstAttempt": {
+      "inputs": ["Start", "W4200", "Space650", "observe", "S800"],
+      "result": "Did not reach receiving road; actual recovery/grounded true, speed0 before S, speed14 after S. This was a failed crossing, retained.",
+      "screenshots": ["coastal-art-supervisor-online-flight.png", "coastal-art-supervisor-online-landing.png"]
+    },
+    "retry": {
+      "inputs": ["Restart", "W5000", "Space650", "wait for actual landing/grounded DOM", "S800", "pause after screenshot"],
+      "air": {"group":"air","grounded":false,"speed":96,"pressure":90},
+      "landing": {"group":"landing","grounded":true,"contact":"接地","speed":94,"pressure":90},
+      "afterBrake": {"group":"landing","grounded":true,"speed":28,"pressure":100},
+      "screenshots": ["coastal-art-supervisor-online-flight-retry.png", "coastal-art-supervisor-online-landing-retry.png"],
+      "pass": true
+    }
+  },
+  "mobileLayout": {
+    "viewport": [667,375],
+    "method": "Mouse holds on visible mobile controls, not native two-finger touch. Native two-finger main-route evidence is separate.",
+    "firstAttempt": {
+      "inputs": ["Restart", "upper stick5000", "jet650", "wait for actual receiving-road landing"],
+      "result": "Receiving-road landing selector did not match. Actual air speed0 over lower recovery road, later recovery/grounded true. Failed crossing retained.",
+      "screenshot": "coastal-art-supervisor-online-mobile-flight.png"
+    },
+    "retry": {
+      "inputs": ["Restart", "upper stick4200", "jet650", "wait for actual receiving-road landing", "lower stick650", "pause after screenshot"],
+      "beforeJet": {"group":"runway","grounded":true,"speed":92,"pressure":100,"tip":"80–100km/h · 断口前短按喷气"},
+      "air": {"group":"air","grounded":false,"speed":90,"pressure":86},
+      "landing": {"group":"landing","grounded":true,"speed":87,"pressure":86,"contact":"重接地"},
+      "afterBrake": {"group":"landing","grounded":true,"speed":30,"pressure":90},
+      "screenshots": ["coastal-art-supervisor-online-mobile-flight-retry.png", "coastal-art-supervisor-online-mobile-landing-retry.png"],
+      "pass": true
+    }
+  },
+  "consoleErrorsAndWarnings": [],
+  "releasedControls": {"roadster-stick":true,"roadster-jet":true},
+  "cleanup": "Returned to menu, reset viewport override, marked online tab as deliverable; original user tabs untouched.",
+  "scope": "Online first-span visual/control smoke only. Full main-route completion is separately recorded by developer read-only-feedback native input runs. No performance or audio acceptance. Failures preserved above."
+}

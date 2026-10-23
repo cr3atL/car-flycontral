@@ -29,7 +29,11 @@
 
 主控普通入口实际操作PC及667布局：短喷跨桥、真实接收路接地、继续行驶、地面连续倒车、碰栏后退出、掉出地图自动恢复及镜头方向。手机布局使用鼠标按住屏幕控件，双指另由开发原生触控记录补充。初次手机起飞较晚未到对岸的失败保留，重试及最终生产首跳通过，不宣称所有新玩家能一次完成。
 
-最终主包为roadster-6L2jcyue.js，SHA256 b08e7573f55d65a823f808ff2e91e24eb68cb28043d5df28500c470de2f96e7f。记录索引：
+本机首轮候选使用默认根路径，主包roadster-6L2jcyue.js，SHA256 b08e7573f55d65a823f808ff2e91e24eb68cb28043d5df28500c470de2f96e7f。其冻结与本机实玩记录保留原名。发布工作流使用相对路径；主控独立以 `npm run build -- --base=./` 重建得到roadster-BAcCjqFS.js，SHA256 cec98cdcc5d3bec360d550961746c97a62f694a7ff512110c52c425051829bb3，与实际云端产物及线上精确一致。213份文件中208份逐字节一致，5份仅CR/LF差异，涉及JSON另校验解析内容相等。首次错误地将根路径包与相对路径包比较的失败报告另存，不将其冒称资源全通过。
+
+主控普通正式页首跳记录分列：PC首次W4200较早起飞，实际落到下层恢复路，未称成功；重开后W5000、Space650，接收路真实接地94km/h，S800后28km/h且仍向前。667首次上摇杆5000后喷气未到接收路，保留截图；重开后上摇杆4200在可见短喷提示时起飞，喷气650后实际重接地87km/h，下摇杆650后30km/h继续行驶。这些墙钟按法仅为记录，不是保证可重复的新手操作配方。线上错误/警告日志未发现异常。
+
+记录索引：
 
 - [独立冻结与模型边界复核](coastal-art-supervisor-final-review.json)
 - [主控实际输入、观察与截图](coastal-art-supervisor-play.json)
@@ -37,5 +41,8 @@
 - [生产PC](coastal-art-production-native-pc.json)、[667触控](coastal-art-production-native-touch-667.json)、[844触控](coastal-art-production-native-touch-844.json)
 - [触控生命周期及范围限制](coastal-art-lifecycle.json)
 - [线上发布记录](coastal-art-deployment.json)
+- [相对路径生产清单](coastal-art-relative-production-files.json)及[云端产物独立比对](coastal-art-cloud-comparison.json)
+- [主控普通线上操作](coastal-art-online-supervisor-play.json)
+- [线上同包PC与两种尺寸原生完整主线](coastal-art-online-native-summary.json)
 
 本轮不对性能、实体手机/iOS、新玩家上手或主观音频作通过结论。此为向预览美术靠近的首段样板，尚非全图最终美术。

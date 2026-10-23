@@ -1,5 +1,7 @@
 # 滨海立交试驾区实现
 
+本文保留第十七轮路线实现记录。第十八轮新增美术、持续制动倒车和接触不复位，当前规则与最终验收见[首处跨桥美术样段](COASTAL_ART_SAMPLE.md)。
+
 本轮沿用 `/roadster.html`，旧 `/index.html` 与三轴、评分、旧落地系统独立保留。场景使用主控从 Blender 导出的 `coastal-interchange.glb` 和 version 2 布局，运行时没有生成替代道路、碰撞台或额外关卡。
 
 ## 几何与接触
