@@ -1,0 +1,1121 @@
+{
+  "checked": 378,
+  "bad": [],
+  "production": "roadster-x2PXELdW.js",
+  "productionSha256": "19da3d9793d572e4cc594f3d1c9afe0fad4cf047ab0b7b7e73f3f7ed1ee05f6e",
+  "receipts": [
+    {
+      "path": "docs/coastal-production-native-pc.json",
+      "pass": true,
+      "bundle": "./assets/roadster-x2PXELdW.js",
+      "glb": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7",
+      "phases": [
+        {
+          "name": "bridge-contact",
+          "group": "landing",
+          "grounded": true
+        },
+        {
+          "name": "upper-approach",
+          "group": "apron",
+          "grounded": true
+        },
+        {
+          "name": "upper-contact",
+          "group": "high",
+          "grounded": true
+        }
+      ],
+      "result": {
+        "time": 29.066666666665657,
+        "x": 29.9944555955666,
+        "y": 0,
+        "z": 510.08888062745393,
+        "vx": -0.44555988431938737,
+        "vy": 0,
+        "vz": 17.592057198983298,
+        "speed": 17.59769871610532,
+        "heading": -0.025321919106544803,
+        "pitch": -4.7079996954222044e-9,
+        "roll": -0.04403041651766019,
+        "reference": -0.025321919106544803,
+        "pressure": 100,
+        "grounded": true,
+        "surface": "far",
+        "group": "far",
+        "route": "main",
+        "input": {
+          "throttle": 0,
+          "steer": 1,
+          "lift": false
+        },
+        "jets": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "far",
+          "x": 30,
+          "z": 490,
+          "heading": 0,
+          "y": 0
+        },
+        "visits": {
+          "low": 0,
+          "high": 1,
+          "far": 0,
+          "start": 0,
+          "runway": 0,
+          "landing": 1,
+          "curve": 0,
+          "apron": 0,
+          "ramp": 0,
+          "recovery": 0,
+          "return-ramp": 0,
+          "return-top": 0,
+          "ground-bypass": 0,
+          "lower-bypass": 0
+        },
+        "groundContacts": [
+          "start",
+          "runway",
+          "landing",
+          "curve",
+          "apron",
+          "high",
+          "ramp",
+          "far"
+        ],
+        "complete": true,
+        "crashTimer": 0,
+        "reason": "",
+        "recoveryNotice": null,
+        "landingCount": 2,
+        "lastLanding": {
+          "time": 20.99999999999945,
+          "surface": "high",
+          "group": "high",
+          "impact": 15.362816726286432,
+          "safe": true,
+          "flight": 2
+        },
+        "events": [
+          {
+            "type": "ground-stage",
+            "time": 2.1666666666666616,
+            "x": 0,
+            "y": 0,
+            "z": 30.072066974072264,
+            "pressure": 100,
+            "surface": "runway",
+            "group": "runway",
+            "route": "main"
+          },
+          {
+            "type": "takeoff",
+            "time": 5.283333333333386,
+            "x": 0,
+            "y": 0,
+            "z": 101.52283985179697,
+            "pressure": 99.7435073100457,
+            "from": "runway",
+            "group": "runway",
+            "vx": 0,
+            "vz": 27.030578068487063
+          },
+          {
+            "type": "landing",
+            "time": 6.925000000000134,
+            "x": 0,
+            "y": 0,
+            "z": 156.98089939344794,
+            "pressure": 82.52705507872167,
+            "surface": "landing",
+            "group": "landing",
+            "impact": 7.9460681700763915,
+            "safe": true,
+            "flight": 1
+          },
+          {
+            "type": "ground-stage",
+            "time": 6.925000000000134,
+            "x": 0,
+            "y": 0,
+            "z": 156.98089939344794,
+            "pressure": 82.52705507872167,
+            "surface": "landing",
+            "group": "landing",
+            "route": "main"
+          },
+          {
+            "type": "ground-stage",
+            "time": 8.791666666666808,
+            "x": 0.08601789602240856,
+            "y": 0,
+            "z": 204.0386485099926,
+            "pressure": 90.91196259834715,
+            "surface": "curve-000",
+            "group": "curve",
+            "route": "main"
+          },
+          {
+            "type": "ground-stage",
+            "time": 13.74999999999986,
+            "x": 19.48307527268059,
+            "y": 0,
+            "z": 284.0139735980161,
+            "pressure": 100,
+            "surface": "apron",
+            "group": "apron",
+            "route": "main"
+          },
+          {
+            "type": "takeoff",
+            "time": 17.29999999999966,
+            "x": 19.94988201195447,
+            "y": 0,
+            "z": 316.192063256326,
+            "pressure": 99.7435073100457,
+            "from": "apron",
+            "group": "apron",
+            "vx": -0.3778704977405692,
+            "vz": 8.344230370442297
+          },
+          {
+            "type": "landing",
+            "time": 20.99999999999945,
+            "x": 29.59871587889916,
+            "y": 8,
+            "z": 370.12297442986,
+            "pressure": 66.28099481142652,
+            "surface": "high",
+            "group": "high",
+            "impact": 15.362816726286432,
+            "safe": true,
+            "flight": 2
+          },
+          {
+            "type": "ground-stage",
+            "time": 20.99999999999945,
+            "x": 29.59871587889916,
+            "y": 8,
+            "z": 370.12297442986,
+            "pressure": 66.28099481142652,
+            "surface": "high",
+            "group": "high",
+            "route": "upper"
+          },
+          {
+            "type": "ground-stage",
+            "time": 22.4333333333327,
+            "x": 30.125210598047918,
+            "y": 7.994423772120371,
+            "z": 393.0557622787963,
+            "pressure": 77.24766147809363,
+            "surface": "ramp",
+            "group": "ramp",
+            "route": "upper"
+          },
+          {
+            "type": "ground-stage",
+            "time": 26.966666666665777,
+            "x": 29.847713033188075,
+            "y": 0,
+            "z": 473.0057024172658,
+            "pressure": 100,
+            "surface": "far",
+            "group": "far",
+            "route": "main"
+          },
+          {
+            "type": "complete",
+            "time": 29.066666666665657,
+            "x": 29.9944555955666,
+            "y": 0,
+            "z": 510.08888062745393,
+            "pressure": 100,
+            "visits": {
+              "low": 0,
+              "high": 1,
+              "far": 0,
+              "start": 0,
+              "runway": 0,
+              "landing": 1,
+              "curve": 0,
+              "apron": 0,
+              "ramp": 0,
+              "recovery": 0,
+              "return-ramp": 0,
+              "return-top": 0,
+              "ground-bypass": 0,
+              "lower-bypass": 0
+            },
+            "route": "main",
+            "groundContacts": [
+              "start",
+              "runway",
+              "landing",
+              "curve",
+              "apron",
+              "high",
+              "ramp",
+              "far"
+            ]
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false,
+          "keys": [],
+          "pointers": []
+        },
+        "prediction": null,
+        "world": {
+          "asset": "coastal-interchange.glb",
+          "meshes": 349,
+          "rightHanded": false,
+          "camera": {
+            "x": 30.02558648057044,
+            "y": 5.200000697020532,
+            "z": 495.0350100376495
+          },
+          "assetMeshes": 326
+        },
+        "layout": {
+          "version": 2,
+          "name": "滨海立交试驾区",
+          "asset": "coastal-interchange.glb",
+          "surfaces": 154
+        }
+      }
+    },
+    {
+      "path": "docs/coastal-production-native-touch-667.json",
+      "pass": true,
+      "bundle": "./assets/roadster-x2PXELdW.js",
+      "glb": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7",
+      "phases": [
+        {
+          "name": "bridge-contact",
+          "group": "landing",
+          "grounded": true
+        },
+        {
+          "name": "upper-approach",
+          "group": "apron",
+          "grounded": true
+        },
+        {
+          "name": "upper-contact",
+          "group": "high",
+          "grounded": true
+        }
+      ],
+      "result": {
+        "time": 29.324999999998976,
+        "x": 29.999896034473114,
+        "y": 0,
+        "z": 510.1255637555964,
+        "vx": 0.00010673396685000087,
+        "vy": 0,
+        "vz": 17.742340106505182,
+        "speed": 17.742340106826223,
+        "heading": 0.000006015777299274044,
+        "pitch": -5.039776562706182e-9,
+        "roll": -0.000005578476148681453,
+        "reference": 0.000006015777299274044,
+        "pressure": 100,
+        "grounded": true,
+        "surface": "far",
+        "group": "far",
+        "route": "main",
+        "input": {
+          "throttle": 0,
+          "steer": 0.000017742777979651164,
+          "lift": false
+        },
+        "jets": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "far",
+          "x": 30,
+          "z": 490,
+          "heading": 0,
+          "y": 0
+        },
+        "visits": {
+          "low": 0,
+          "high": 1,
+          "far": 0,
+          "start": 0,
+          "runway": 0,
+          "landing": 1,
+          "curve": 0,
+          "apron": 0,
+          "ramp": 0,
+          "recovery": 0,
+          "return-ramp": 0,
+          "return-top": 0,
+          "ground-bypass": 0,
+          "lower-bypass": 0
+        },
+        "groundContacts": [
+          "start",
+          "runway",
+          "landing",
+          "curve",
+          "apron",
+          "high",
+          "ramp",
+          "far"
+        ],
+        "complete": true,
+        "crashTimer": 0,
+        "reason": "",
+        "recoveryNotice": null,
+        "landingCount": 2,
+        "lastLanding": {
+          "time": 21.23333333333277,
+          "surface": "high",
+          "group": "high",
+          "impact": 14.927816307845923,
+          "safe": true,
+          "flight": 2
+        },
+        "events": [
+          {
+            "type": "ground-stage",
+            "time": 2.341666666666661,
+            "x": 0,
+            "y": 0,
+            "z": 30.072066974072264,
+            "pressure": 100,
+            "surface": "runway",
+            "group": "runway",
+            "route": "main"
+          },
+          {
+            "type": "takeoff",
+            "time": 5.491666666666729,
+            "x": 0,
+            "y": 0,
+            "z": 102.4249729998169,
+            "pressure": 99.7435073100457,
+            "from": "runway",
+            "group": "runway",
+            "vx": 0,
+            "vz": 27.083947339588573
+          },
+          {
+            "type": "landing",
+            "time": 7.033333333333473,
+            "x": 0,
+            "y": 0,
+            "z": 153.92670238055956,
+            "pressure": 83.57625807404204,
+            "surface": "landing",
+            "group": "landing",
+            "impact": 7.4398726630568754,
+            "safe": true,
+            "flight": 1
+          },
+          {
+            "type": "ground-stage",
+            "time": 7.033333333333473,
+            "x": 0,
+            "y": 0,
+            "z": 153.92670238055956,
+            "pressure": 83.57625807404204,
+            "surface": "landing",
+            "group": "landing",
+            "route": "main"
+          },
+          {
+            "type": "ground-stage",
+            "time": 9.100000000000124,
+            "x": 0.040774988644340274,
+            "y": 0,
+            "z": 204.09450808116543,
+            "pressure": 93.36116559366761,
+            "surface": "curve-000",
+            "group": "curve",
+            "route": "main"
+          },
+          {
+            "type": "ground-stage",
+            "time": 14.091666666666507,
+            "x": 20.037050184103222,
+            "y": 0,
+            "z": 284.1381742494569,
+            "pressure": 100,
+            "surface": "apron",
+            "group": "apron",
+            "route": "main"
+          },
+          {
+            "type": "takeoff",
+            "time": 17.608333333332975,
+            "x": 19.999230464211358,
+            "y": 0,
+            "z": 316.0679574391518,
+            "pressure": 99.7435073100457,
+            "from": "apron",
+            "group": "apron",
+            "vx": 0.005737966711744343,
+            "vz": 8.897926357559248
+          },
+          {
+            "type": "landing",
+            "time": 21.23333333333277,
+            "x": 31.814822008751758,
+            "y": 8,
+            "z": 369.6264550490813,
+            "pressure": 66.56432786595482,
+            "surface": "high",
+            "group": "high",
+            "impact": 14.927816307845923,
+            "safe": true,
+            "flight": 2
+          },
+          {
+            "type": "ground-stage",
+            "time": 21.23333333333277,
+            "x": 31.814822008751758,
+            "y": 8,
+            "z": 369.6264550490813,
+            "pressure": 66.56432786595482,
+            "surface": "high",
+            "group": "high",
+            "route": "upper"
+          },
+          {
+            "type": "ground-stage",
+            "time": 22.708333333332686,
+            "x": 30.055301303526083,
+            "y": 7.98954573154835,
+            "z": 393.1045426845165,
+            "pressure": 78.5226611992886,
+            "surface": "ramp",
+            "group": "ramp",
+            "route": "upper"
+          },
+          {
+            "type": "ground-stage",
+            "time": 27.23333333333243,
+            "x": 29.998242437602272,
+            "y": 0,
+            "z": 473.128330977286,
+            "pressure": 100,
+            "surface": "far",
+            "group": "far",
+            "route": "main"
+          },
+          {
+            "type": "complete",
+            "time": 29.324999999998976,
+            "x": 29.999896034473114,
+            "y": 0,
+            "z": 510.1255637555964,
+            "pressure": 100,
+            "visits": {
+              "low": 0,
+              "high": 1,
+              "far": 0,
+              "start": 0,
+              "runway": 0,
+              "landing": 1,
+              "curve": 0,
+              "apron": 0,
+              "ramp": 0,
+              "recovery": 0,
+              "return-ramp": 0,
+              "return-top": 0,
+              "ground-bypass": 0,
+              "lower-bypass": 0
+            },
+            "route": "main",
+            "groundContacts": [
+              "start",
+              "runway",
+              "landing",
+              "curve",
+              "apron",
+              "high",
+              "ramp",
+              "far"
+            ]
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false,
+          "keys": [],
+          "pointers": []
+        },
+        "prediction": null,
+        "world": {
+          "asset": "coastal-interchange.glb",
+          "meshes": 349,
+          "rightHanded": false,
+          "camera": {
+            "x": 30.00007507775929,
+            "y": 5.200000523212842,
+            "z": 495.65526260895626
+          },
+          "assetMeshes": 326
+        },
+        "layout": {
+          "version": 2,
+          "name": "滨海立交试驾区",
+          "asset": "coastal-interchange.glb",
+          "surfaces": 154
+        }
+      }
+    },
+    {
+      "path": "docs/coastal-production-native-touch-844.json",
+      "pass": true,
+      "bundle": "./assets/roadster-x2PXELdW.js",
+      "glb": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7",
+      "phases": [
+        {
+          "name": "bridge-contact",
+          "group": "landing",
+          "grounded": true
+        },
+        {
+          "name": "upper-approach",
+          "group": "apron",
+          "grounded": true
+        },
+        {
+          "name": "upper-contact",
+          "group": "high",
+          "grounded": true
+        }
+      ],
+      "result": {
+        "time": 29.01666666666566,
+        "x": 29.999924364701037,
+        "y": 0,
+        "z": 510.0029190808323,
+        "vx": 0.0002007168349658863,
+        "vy": 0,
+        "vz": 17.55201010578902,
+        "speed": 17.552010106936674,
+        "heading": 0.000011435546911572048,
+        "pitch": -4.7147462107449774e-9,
+        "roll": -0.000002197445399013978,
+        "reference": 0.000011435546911572048,
+        "pressure": 100,
+        "grounded": true,
+        "surface": "far",
+        "group": "far",
+        "route": "main",
+        "input": {
+          "throttle": 1,
+          "steer": -0.000004790550054505814,
+          "lift": false
+        },
+        "jets": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "far",
+          "x": 30,
+          "z": 490,
+          "heading": 0,
+          "y": 0
+        },
+        "visits": {
+          "low": 0,
+          "high": 1,
+          "far": 0,
+          "start": 0,
+          "runway": 0,
+          "landing": 1,
+          "curve": 0,
+          "apron": 0,
+          "ramp": 0,
+          "recovery": 0,
+          "return-ramp": 0,
+          "return-top": 0,
+          "ground-bypass": 0,
+          "lower-bypass": 0
+        },
+        "groundContacts": [
+          "start",
+          "runway",
+          "landing",
+          "curve",
+          "apron",
+          "high",
+          "ramp",
+          "far"
+        ],
+        "complete": true,
+        "crashTimer": 0,
+        "reason": "",
+        "recoveryNotice": null,
+        "landingCount": 2,
+        "lastLanding": {
+          "time": 20.7083333333328,
+          "surface": "high",
+          "group": "high",
+          "impact": 14.394482463428188,
+          "safe": true,
+          "flight": 2
+        },
+        "events": [
+          {
+            "type": "ground-stage",
+            "time": 2.5166666666666604,
+            "x": 0,
+            "y": 0,
+            "z": 30.072066974072264,
+            "pressure": 100,
+            "surface": "runway",
+            "group": "runway",
+            "route": "main"
+          },
+          {
+            "type": "takeoff",
+            "time": 5.741666666666742,
+            "x": 0,
+            "y": 0,
+            "z": 104.4611794760767,
+            "pressure": 99.7435073100457,
+            "from": "runway",
+            "group": "runway",
+            "vx": 0,
+            "vz": 27.201229019820413
+          },
+          {
+            "type": "landing",
+            "time": 7.5833333333335,
+            "x": 0,
+            "y": 0,
+            "z": 168.56097386984987,
+            "pressure": 80.42808291975264,
+            "surface": "landing",
+            "group": "landing",
+            "impact": 8.957609931622743,
+            "safe": true,
+            "flight": 1
+          },
+          {
+            "type": "ground-stage",
+            "time": 7.5833333333335,
+            "x": 0,
+            "y": 0,
+            "z": 168.56097386984987,
+            "pressure": 80.42808291975264,
+            "surface": "landing",
+            "group": "landing",
+            "route": "main"
+          },
+          {
+            "type": "ground-stage",
+            "time": 8.65000000000015,
+            "x": 0.02151031547447962,
+            "y": 0,
+            "z": 204.0902440563012,
+            "pressure": 83.21299043937775,
+            "surface": "curve-000",
+            "group": "curve",
+            "route": "main"
+          },
+          {
+            "type": "ground-stage",
+            "time": 13.616666666666534,
+            "x": 20.039929430198583,
+            "y": 0,
+            "z": 284.10321235164344,
+            "pressure": 100,
+            "surface": "apron",
+            "group": "apron",
+            "route": "main"
+          },
+          {
+            "type": "takeoff",
+            "time": 17.166666666666334,
+            "x": 20.000167023949285,
+            "y": 0,
+            "z": 316.3717533407434,
+            "pressure": 99.7435073100457,
+            "from": "apron",
+            "group": "apron",
+            "vx": 0.004721001685568719,
+            "vz": 8.406210872101903
+          },
+          {
+            "type": "landing",
+            "time": 20.7083333333328,
+            "x": 32.08368463378213,
+            "y": 8,
+            "z": 366.61357828536654,
+            "pressure": 66.88099419334264,
+            "surface": "high",
+            "group": "high",
+            "impact": 14.394482463428188,
+            "safe": true,
+            "flight": 2
+          },
+          {
+            "type": "ground-stage",
+            "time": 20.7083333333328,
+            "x": 32.08368463378213,
+            "y": 8,
+            "z": 366.61357828536654,
+            "pressure": 66.88099419334264,
+            "surface": "high",
+            "group": "high",
+            "route": "upper"
+          },
+          {
+            "type": "ground-stage",
+            "time": 22.383333333332704,
+            "x": 29.768136227657767,
+            "y": 7.988145128893796,
+            "z": 393.11854871106203,
+            "pressure": 84.61432752667645,
+            "surface": "ramp",
+            "group": "ramp",
+            "route": "upper"
+          },
+          {
+            "type": "ground-stage",
+            "time": 26.91666666666578,
+            "x": 29.998650528564585,
+            "y": 0,
+            "z": 473.0205153948883,
+            "pressure": 100,
+            "surface": "far",
+            "group": "far",
+            "route": "main"
+          },
+          {
+            "type": "complete",
+            "time": 29.01666666666566,
+            "x": 29.999924364701037,
+            "y": 0,
+            "z": 510.0029190808323,
+            "pressure": 100,
+            "visits": {
+              "low": 0,
+              "high": 1,
+              "far": 0,
+              "start": 0,
+              "runway": 0,
+              "landing": 1,
+              "curve": 0,
+              "apron": 0,
+              "ramp": 0,
+              "recovery": 0,
+              "return-ramp": 0,
+              "return-top": 0,
+              "ground-bypass": 0,
+              "lower-bypass": 0
+            },
+            "route": "main",
+            "groundContacts": [
+              "start",
+              "runway",
+              "landing",
+              "curve",
+              "apron",
+              "high",
+              "ramp",
+              "far"
+            ]
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false,
+          "keys": [],
+          "pointers": []
+        },
+        "prediction": null,
+        "world": {
+          "asset": "coastal-interchange.glb",
+          "meshes": 349,
+          "rightHanded": false,
+          "camera": {
+            "x": 30.000009271984162,
+            "y": 5.20000051294443,
+            "z": 495.5556578956065
+          },
+          "assetMeshes": 326
+        },
+        "layout": {
+          "version": 2,
+          "name": "滨海立交试驾区",
+          "asset": "coastal-interchange.glb",
+          "surfaces": 154
+        }
+      }
+    },
+    {
+      "path": "docs/coastal-production-native-pc-recovery.json",
+      "pass": true,
+      "bundle": "./assets/roadster-x2PXELdW.js",
+      "glb": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7",
+      "phases": [
+        {
+          "name": "lower-contact",
+          "group": "recovery",
+          "grounded": true
+        },
+        {
+          "name": "ground-recovery",
+          "group": "recovery",
+          "grounded": true
+        },
+        {
+          "name": "ground-return-ramp",
+          "group": "return-ramp",
+          "grounded": true
+        },
+        {
+          "name": "ground-return-top",
+          "group": "return-top",
+          "grounded": true
+        }
+      ],
+      "result": {
+        "time": 29.183333333332317,
+        "x": -5.400007544895188,
+        "y": 0,
+        "z": 25.790798705931806,
+        "vx": 7.873750090700962,
+        "vy": 0,
+        "vz": -2.1778229482489824,
+        "speed": 8.169385122806569,
+        "heading": 1.8406427902866493,
+        "pitch": 4.2291764619568254e-12,
+        "roll": 0.006157159764173418,
+        "reference": 1.8406427902866493,
+        "pressure": 100,
+        "grounded": true,
+        "surface": "start",
+        "group": "start",
+        "route": "main",
+        "input": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false
+        },
+        "jets": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0
+        },
+        "forces": {
+          "lift": 0,
+          "forward": 0,
+          "side": 0,
+          "brake": 0,
+          "cost": 0
+        },
+        "reverse": false,
+        "checkpoint": {
+          "surface": "start",
+          "x": 0,
+          "z": 12,
+          "heading": 0,
+          "y": 0
+        },
+        "visits": {
+          "low": 0,
+          "high": 0,
+          "far": 0,
+          "start": 0,
+          "runway": 0,
+          "landing": 0,
+          "curve": 0,
+          "apron": 0,
+          "ramp": 0,
+          "recovery": 1,
+          "return-ramp": 0,
+          "return-top": 0,
+          "ground-bypass": 0,
+          "lower-bypass": 0
+        },
+        "groundContacts": [
+          "start",
+          "runway",
+          "recovery",
+          "return-ramp",
+          "return-top"
+        ],
+        "complete": false,
+        "crashTimer": 0,
+        "reason": "",
+        "recoveryNotice": null,
+        "landingCount": 1,
+        "lastLanding": {
+          "time": 6.416666666666775,
+          "surface": "recovery",
+          "group": "recovery",
+          "impact": 10.91499999999999,
+          "safe": true,
+          "flight": 1
+        },
+        "events": [
+          {
+            "type": "ground-stage",
+            "time": 2.1416666666666617,
+            "x": 0,
+            "y": 0,
+            "z": 30.072066974072264,
+            "pressure": 100,
+            "surface": "runway",
+            "group": "runway",
+            "route": "main"
+          },
+          {
+            "type": "takeoff",
+            "time": 5.500000000000063,
+            "x": 0,
+            "y": 0,
+            "z": 108.10225186923809,
+            "pressure": 100,
+            "from": "runway",
+            "group": "runway",
+            "vx": 0,
+            "vz": 27.400476285220318
+          },
+          {
+            "type": "landing",
+            "time": 6.416666666666775,
+            "x": 0,
+            "y": -5,
+            "z": 128.5477393765107,
+            "pressure": 94.14829540594614,
+            "surface": "recovery",
+            "group": "recovery",
+            "impact": 10.91499999999999,
+            "safe": true,
+            "flight": 1
+          },
+          {
+            "type": "ground-stage",
+            "time": 6.416666666666775,
+            "x": 0,
+            "y": -5,
+            "z": 128.5477393765107,
+            "pressure": 94.14829540594614,
+            "surface": "recovery",
+            "group": "recovery",
+            "route": "recovery"
+          },
+          {
+            "type": "ground-stage",
+            "time": 17.149999999999668,
+            "x": -27.911418273394872,
+            "y": -4.99862235676262,
+            "z": 109.98071299467668,
+            "pressure": 100,
+            "surface": "return-ramp",
+            "group": "return-ramp",
+            "route": "recovery"
+          },
+          {
+            "type": "ground-stage",
+            "time": 26.266666666665817,
+            "x": -22.13983373531587,
+            "y": 0,
+            "z": 39.94986739294843,
+            "pressure": 100,
+            "surface": "return-top",
+            "group": "return-top",
+            "route": "recovery"
+          },
+          {
+            "type": "ground-stage",
+            "time": 29.10833333333232,
+            "x": -5.991317829976204,
+            "y": 0,
+            "z": 25.957078804545684,
+            "pressure": 100,
+            "surface": "start",
+            "group": "start",
+            "route": "main"
+          }
+        ],
+        "paused": false,
+        "manual": false,
+        "controls": {
+          "throttle": 0,
+          "steer": 0,
+          "lift": false,
+          "keys": [],
+          "pointers": []
+        },
+        "prediction": null,
+        "world": {
+          "asset": "coastal-interchange.glb",
+          "meshes": 349,
+          "rightHanded": false,
+          "camera": {
+            "x": -17.353043688138776,
+            "y": 5.199999998743505,
+            "z": 31.15060961111441
+          },
+          "assetMeshes": 326
+        },
+        "layout": {
+          "version": 2,
+          "name": "滨海立交试驾区",
+          "asset": "coastal-interchange.glb",
+          "surfaces": 154
+        }
+      }
+    }
+  ],
+  "protectedOldSourceFiles": 50
+}

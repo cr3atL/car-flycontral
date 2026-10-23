@@ -1,0 +1,18 @@
+{
+  "beforeSha256": "73d33f826c7e7e283f5a06e55f7cf334b1655c4822d2c4608c06becce321d701",
+  "afterSha256": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7",
+  "beforeSurfaces": 167,
+  "afterSurfaces": 154,
+  "sharedRoads": 153,
+  "sharedLayoutRecordsUnchanged": true,
+  "sharedRoadBinaryPositionsUnchanged": true,
+  "collidersRefillsSpawnsExitCheckpointsBoundsUnchanged": true,
+  "nonConvexBefore": [
+    "return-top-000",
+    "return-top-001",
+    "return-top-012",
+    "return-top-013"
+  ],
+  "nonConvexAfter": [],
+  "repair": "Replace tight folded14-quad return-top with one real level turnaround rectangle, not a virtual collider patch. Add route arrows."
+}

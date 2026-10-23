@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-23",
+  "url": "http://localhost:5173/roadster.html",
+  "method": "Supervisor chose ordinary browser UI inputs after examining screenshots and visible DOM. No position, velocity, pressure, time or completion injection. Paused between sections for inspection. This is independent agent-driven play, not a human novice study.",
+  "assetSha256": "73d33f826c7e7e283f5a06e55f7cf334b1655c4822d2c4608c06becce321d701",
+  "assetHashNote": "Manual main-route play used the167-face scene before recovery repair.153 common road visual positions and layout records are unchanged in the154-face final scene. Final production smoke and resource checks are recorded separately.",
+  "pc": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "result": "All primary sections played; reached grounded far-road complete using legal checkpoints and pauses. Not an uninterrupted no-reset run.",
+    "observed": [
+      "W5000ms, Space650ms, actual grounded DOM wait: crossed first bridge and landed on landing surface",
+      "Landing retained forward speed; short ground braking reduced it rather than clearing it on contact",
+      "From landing checkpoint: W2200, D220, W850, S450; next W1600,A100,S600; next W1700,S650: actual curve-009,curve-028,apron transitions",
+      "From apron checkpoint: W1400,W+Space800,Space+D200,D200,S600: real high contact,26km/h retained",
+      "A180,W3000,S200: actual grounded ramp contact",
+      "First far-road attempt drifted into a guardrail, then legal far checkpoint reset and W2600 reached phase=complete,surface=far,grounded=true"
+    ],
+    "failures": [
+      "Initial blind short turn under-corrected into curve guardrail; larger retry also failed. Failure screenshots retained",
+      "Some early development play interrupted by HMR/menu reload; those are not completed-run evidence",
+      "First upper attempt carried excess rightward motion, collision with guardrail; retried from real apron checkpoint",
+      "After high-to-ramp passage, residual yaw in first exit attempt led to far-road guardrail; legal far checkpoint retry completed"
+    ],
+    "screenshots": [
+      "docs/screenshots/coastal-supervisor-first-landing.png",
+      "docs/screenshots/coastal-supervisor-curve-first.png",
+      "docs/screenshots/coastal-supervisor-curve-retry.png",
+      "docs/screenshots/coastal-supervisor-curve-mid.png",
+      "docs/screenshots/coastal-supervisor-apron-approach.png",
+      "docs/screenshots/coastal-supervisor-upper-brake.png",
+      "docs/screenshots/coastal-supervisor-high-contact.png",
+      "docs/screenshots/coastal-supervisor-high-retry.png",
+      "docs/screenshots/coastal-supervisor-ramp.png",
+      "docs/screenshots/coastal-supervisor-far-rail-failure.png",
+      "docs/screenshots/coastal-supervisor-pc-complete.png"
+    ]
+  },
+  "mobileUi": {
+    "viewport": [
+      667,
+      375
+    ],
+    "method": "Actual phone-layout joystick and jet button operated by browser mouse holds. No keyboard driving used. Pause via UI except the first bridge observation. This is not native touch or a physical phone; separate developer native two-touch receipts cover667/844.",
+    "result": "All primary sections and grounded exit played, with pauses and legal landing/apron checkpoint alignment and an upper-route retry. Successful high-contact through ramp and exit contained no reset.",
+    "observed": [
+      "Joystick forward5000ms, jet650ms, actual grounded wait, joystick down850ms: landing=true",
+      "From landing checkpoint, joystick forward2200,right220,forward850,down450: curve-009",
+      "Joystick forward1600,left100,down600,forward1700,down650: apron",
+      "From apron checkpoint, forward1400,jet1100,right450,down200,grounded wait: high=true,34km/h",
+      "Left220,forward2400: grounded ramp; forward4300: phase=complete,surface=far,grounded=true,104km/h"
+    ],
+    "failures": [
+      "Earlier upper attempt used forward1800 then jet1000 and failed; retry took off earlier. Failure screenshot retained. Exact collision subtype was not inferred from hidden state."
+    ],
+    "screenshots": [
+      "docs/screenshots/coastal-supervisor-mobile-apron.png",
+      "docs/screenshots/coastal-supervisor-mobile-high-first-failure.png",
+      "docs/screenshots/coastal-supervisor-mobile-high.png",
+      "docs/screenshots/coastal-supervisor-mobile-ramp.png",
+      "docs/screenshots/coastal-supervisor-mobile-complete.png"
+    ]
+  },
+  "followup": "Supervisor requested a wording fix so predicted guardrail collision is explicitly described as predicted; actual crash wording stays separate.",
+  "limits": [
+    "No physical phone or iOS test",
+    "No3-person novice study",
+    "No subjective audio evaluation",
+    "No performance audit",
+    "No claim of an uninterrupted manual no-reset run"
+  ],
+  "sceneAtPlay": {
+    "sha256": "73d33f826c7e7e283f5a06e55f7cf334b1655c4822d2c4608c06becce321d701",
+    "surfaces": 167
+  },
+  "finalScene": {
+    "beforeSha256": "73d33f826c7e7e283f5a06e55f7cf334b1655c4822d2c4608c06becce321d701",
+    "afterSha256": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7",
+    "beforeSurfaces": 167,
+    "afterSurfaces": 154,
+    "sharedRoads": 153,
+    "sharedLayoutRecordsUnchanged": true,
+    "sharedRoadBinaryPositionsUnchanged": true,
+    "collidersRefillsSpawnsExitCheckpointsBoundsUnchanged": true,
+    "nonConvexBefore": [
+      "return-top-000",
+      "return-top-001",
+      "return-top-012",
+      "return-top-013"
+    ],
+    "nonConvexAfter": [],
+    "repair": "Replace tight folded14-quad return-top with one real level turnaround rectangle, not a virtual collider patch. Add route arrows."
+  }
+}

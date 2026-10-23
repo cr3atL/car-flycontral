@@ -1,0 +1,277 @@
+{
+  "createdAt": "2026-10-23T02:59:21.917Z",
+  "entry": "/roadster.html",
+  "status": "Frozen for independent supervisor production review and publication; physical phone/background and novice usability remain unverified.",
+  "production": {
+    "chunk": "roadster-x2PXELdW.js",
+    "path": "dist/assets/roadster-x2PXELdW.js",
+    "bytes": 690455,
+    "sha256": "19da3d9793d572e4cc594f3d1c9afe0fad4cf047ab0b7b7e73f3f7ed1ee05f6e",
+    "lfSha256": "19da3d9793d572e4cc594f3d1c9afe0fad4cf047ab0b7b7e73f3f7ed1ee05f6e"
+  },
+  "tests": {
+    "total": 176,
+    "passed": 176,
+    "failed": 0,
+    "legacyModes": 137,
+    "priorRoadster": 18,
+    "newCoastal": 21,
+    "log": "docs/coastal-all-unit.txt",
+    "targeted": {
+      "passed": 39,
+      "log": "docs/coastal-targeted.txt"
+    }
+  },
+  "nativeProduction": {
+    "method": "Windows / headless Edge; native keyboard or two independent touch points in real-time render loop. Read-only feedback chooses ordinary controls. No position, velocity, pressure, time or completion writes; not manual human play.",
+    "main": [
+      {
+        "path": "docs/coastal-production-native-pc.json",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "pass": true,
+        "wallMs": 30912,
+        "simulationSeconds": 29.066666666665657,
+        "contacts": [
+          {
+            "type": "landing",
+            "time": 6.925000000000134,
+            "x": 0,
+            "y": 0,
+            "z": 156.98089939344794,
+            "pressure": 82.52705507872167,
+            "surface": "landing",
+            "group": "landing",
+            "impact": 7.9460681700763915,
+            "safe": true,
+            "flight": 1
+          },
+          {
+            "type": "landing",
+            "time": 20.99999999999945,
+            "x": 29.59871587889916,
+            "y": 8,
+            "z": 370.12297442986,
+            "pressure": 66.28099481142652,
+            "surface": "high",
+            "group": "high",
+            "impact": 15.362816726286432,
+            "safe": true,
+            "flight": 2
+          }
+        ],
+        "groundStages": [
+          "runway",
+          "landing",
+          "curve",
+          "apron",
+          "high",
+          "ramp",
+          "far"
+        ],
+        "ordinaryEntry": null
+      },
+      {
+        "path": "docs/coastal-production-native-touch-667.json",
+        "viewport": {
+          "width": 667,
+          "height": 375
+        },
+        "pass": true,
+        "wallMs": 31454,
+        "simulationSeconds": 29.324999999998976,
+        "contacts": [
+          {
+            "type": "landing",
+            "time": 7.033333333333473,
+            "x": 0,
+            "y": 0,
+            "z": 153.92670238055956,
+            "pressure": 83.57625807404204,
+            "surface": "landing",
+            "group": "landing",
+            "impact": 7.4398726630568754,
+            "safe": true,
+            "flight": 1
+          },
+          {
+            "type": "landing",
+            "time": 21.23333333333277,
+            "x": 31.814822008751758,
+            "y": 8,
+            "z": 369.6264550490813,
+            "pressure": 66.56432786595482,
+            "surface": "high",
+            "group": "high",
+            "impact": 14.927816307845923,
+            "safe": true,
+            "flight": 2
+          }
+        ],
+        "groundStages": [
+          "runway",
+          "landing",
+          "curve",
+          "apron",
+          "high",
+          "ramp",
+          "far"
+        ],
+        "ordinaryEntry": {
+          "readonly": false,
+          "dev": false,
+          "bundle": "./assets/roadster-x2PXELdW.js"
+        }
+      },
+      {
+        "path": "docs/coastal-production-native-touch-844.json",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "pass": true,
+        "wallMs": 31480,
+        "simulationSeconds": 29.01666666666566,
+        "contacts": [
+          {
+            "type": "landing",
+            "time": 7.5833333333335,
+            "x": 0,
+            "y": 0,
+            "z": 168.56097386984987,
+            "pressure": 80.42808291975264,
+            "surface": "landing",
+            "group": "landing",
+            "impact": 8.957609931622743,
+            "safe": true,
+            "flight": 1
+          },
+          {
+            "type": "landing",
+            "time": 20.7083333333328,
+            "x": 32.08368463378213,
+            "y": 8,
+            "z": 366.61357828536654,
+            "pressure": 66.88099419334264,
+            "surface": "high",
+            "group": "high",
+            "impact": 14.394482463428188,
+            "safe": true,
+            "flight": 2
+          }
+        ],
+        "groundStages": [
+          "runway",
+          "landing",
+          "curve",
+          "apron",
+          "high",
+          "ramp",
+          "far"
+        ],
+        "ordinaryEntry": {
+          "readonly": false,
+          "dev": false,
+          "bundle": "./assets/roadster-x2PXELdW.js"
+        }
+      }
+    ],
+    "recovery": {
+      "path": "docs/coastal-production-native-pc-recovery.json",
+      "pass": true,
+      "group": "start",
+      "simulationSeconds": 29.183333333332317,
+      "wallMs": 30924,
+      "description": "One actual runway departure and lower-road landing; no further airborne event or lift while returning by the real ramp/apron."
+    }
+  },
+  "groundBypass": {
+    "path": "docs/coastal-native-pc-ground.json",
+    "pass": true,
+    "production": false,
+    "simulationSeconds": 74.04166666667166,
+    "wallMs": 75655,
+    "description": "Actual native keyboard all-ground complete. Earlier development bundle; final asset audit independently proves all 153 shared roads unchanged. Not claimed as a production rerun."
+  },
+  "inputLifecycle": {
+    "path": "docs/coastal-lifecycle.json",
+    "pass": true,
+    "viewports": [
+      {
+        "width": 667,
+        "height": 375
+      },
+      {
+        "width": 844,
+        "height": 390
+      }
+    ],
+    "scope": "Native diagonal throttle/steer/lift and brake/steer/lift, independent release, outside release, touchCancel, pause/resume and orientation. Blur release verified by synthetic event only.",
+    "nativeFocusProbe": {
+      "path": "docs/coastal-focus-probe.json",
+      "scope": "Headless window minimize and tab switch did not deliver focus/visibility events; this is an environment limitation, not a real-OS background pass."
+    }
+  },
+  "assets": {
+    "layout": {
+      "path": "public/assets/coastal-interchange-layout.json",
+      "bytes": 191503,
+      "sha256": "224e7433a2e5f063eba9794ef2f94b6fb6d42bae5db723164d58ab2ef0f8417a",
+      "lfSha256": "30ab063e2a0fcb577c273c50fa5db20545eb38667fccdf17345fbfcda17f660d"
+    },
+    "glb": {
+      "path": "public/assets/coastal-interchange.glb",
+      "bytes": 2362328,
+      "sha256": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7"
+    },
+    "blend": {
+      "path": "assets/blender/coastal-interchange.blend",
+      "bytes": 1344594,
+      "sha256": "5da42566342a190af96019cac8e941209f1e10f569ff5604d9ab9ac4b5289be7"
+    },
+    "surfaces": 154,
+    "colliders": 182,
+    "sourceAndRepair": "docs/COASTAL_INTERCHANGE.md",
+    "audit": "docs/coastal-blender-validation.json",
+    "repair": "docs/coastal-recovery-geometry-fix.json",
+    "license": "assets/third-party/ambientcg-asphalt031/README.md"
+  },
+  "legacyProtection": {
+    "base": "15bd712",
+    "files": 50,
+    "allLfUnchanged": true,
+    "independentReport": "docs/coastal-supervisor-old-protection.json"
+  },
+  "manualSupervisor": {
+    "path": "docs/coastal-supervisor-play.json",
+    "scope": "Independent ordinary UI PC and 667 mouse-operated mobile interface; all primary stages reached complete with pauses and legal checkpoint retries. Not a human novice study or uninterrupted zero-retry proof; two-touch evidence supplied by separate native tests."
+  },
+  "failureScope": [
+    {
+      "path": "docs/coastal-geometry-first.txt",
+      "reason": "Ramp-relative landing fixture exposed a false side contact; fixed before stable candidate and protected by regression."
+    },
+    {
+      "path": "docs/coastal-native-pc-recovery-before-geometry-fix.json",
+      "reason": "Real small airborne event at folded return-top quads; failed, preserved, then repaired by actual Blender geometry."
+    },
+    {
+      "path": "docs/coastal-curve-recipe-diagnostic.txt",
+      "reason": "Fixed blind turn timings include guardrail collisions; no automatic steering was added to game."
+    },
+    {
+      "path": "docs/coastal-curve-invalid-checkpoint-fixture.txt",
+      "reason": "Invalid diagnostic fixture returned to start instead of landing checkpoint; excluded from route conclusions."
+    }
+  ],
+  "unverified": [
+    "Physical phone two-thumb feel and mobile GPU performance",
+    "Real OS background lifecycle; headless blur/visibility not generated",
+    "Independent novice usability study and no-failure first-time play",
+    "Subjective audio quality"
+  ],
+  "ordinaryDiagnostics": "Only explicit ?qa=1 exposes a frozen getState API returning detached deep copies; no mutators. Ordinary production entry and production DEV absence checked.",
+  "ownership": "No commit/push/deploy. Scene, research, README and CORE_ACCEPTANCE owned by supervisor. Raw QA JSON/screenshots are ignored by existing Git rules but inventoried locally."
+}

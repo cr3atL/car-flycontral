@@ -1,0 +1,5 @@
+# Preserve the downloaded archive locally; version only the maps used by the scene.
+Asphalt031_1K-JPG.zip
+source/*
+!source/Asphalt031_1K-JPG_Color.jpg
+!source/Asphalt031_1K-JPG_NormalGL.jpg

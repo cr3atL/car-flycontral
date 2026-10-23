@@ -1,0 +1,1 @@
+{"pass":false,"minimized":{"hidden":false,"focus":true,"paused":false,"controls":{"throttle":1,"steer":0,"lift":true,"keys":["KeyW","Space"],"pointers":[]}},"events":[]}

@@ -1,0 +1,256 @@
+{
+  "base": "15bd712",
+  "files": [
+    {
+      "path": "src/art-config.js",
+      "baseline": "fc5cf7e5ce69879cfc1508011f03e3d9e0d6737c2865670880bde18d7df9600d",
+      "worktree": "fc5cf7e5ce69879cfc1508011f03e3d9e0d6737c2865670880bde18d7df9600d"
+    },
+    {
+      "path": "src/art-geometry.js",
+      "baseline": "98ba39f83c47588bcfaab751a02424cfc42cf4fa6ef1ecca68980674d19c300f",
+      "worktree": "98ba39f83c47588bcfaab751a02424cfc42cf4fa6ef1ecca68980674d19c300f"
+    },
+    {
+      "path": "src/audio.js",
+      "baseline": "2c53303fa5122ba00d6ae487ad393d015309584be0955889144eb1a212ca1bc4",
+      "worktree": "2c53303fa5122ba00d6ae487ad393d015309584be0955889144eb1a212ca1bc4"
+    },
+    {
+      "path": "src/car-art.js",
+      "baseline": "f71e60b06ea4ef8d113a170bd6b43f6013ea169f5e57035b76c18e11cbc29322",
+      "worktree": "f71e60b06ea4ef8d113a170bd6b43f6013ea169f5e57035b76c18e11cbc29322"
+    },
+    {
+      "path": "src/ceiling-model.js",
+      "baseline": "fce3b2ddbf1300adc5ba2a480299e0d7e3f14d7044d6d81a027752570e648f51",
+      "worktree": "fce3b2ddbf1300adc5ba2a480299e0d7e3f14d7044d6d81a027752570e648f51"
+    },
+    {
+      "path": "src/challenge-config.js",
+      "baseline": "d55f4768e1cb2d510793b82b899837e36a1f1e3f7f4ddce69dfb9eee668204c6",
+      "worktree": "d55f4768e1cb2d510793b82b899837e36a1f1e3f7f4ddce69dfb9eee668204c6"
+    },
+    {
+      "path": "src/challenge-course.js",
+      "baseline": "32abddac331ad76582a5433b98d653c563d3e4aca587d1f26af7525c0b1267ca",
+      "worktree": "32abddac331ad76582a5433b98d653c563d3e4aca587d1f26af7525c0b1267ca"
+    },
+    {
+      "path": "src/challenge-scenario.js",
+      "baseline": "4cbe481cb0083e2936ae07f49ec028a1b34b9f0cd3dcdfbee8af3b8d653c1c04",
+      "worktree": "4cbe481cb0083e2936ae07f49ec028a1b34b9f0cd3dcdfbee8af3b8d653c1c04"
+    },
+    {
+      "path": "src/challenge.js",
+      "baseline": "da9a8423c3791f174223617b67bd5963e3901e7d8911c8e8aa4339fec72f11ff",
+      "worktree": "da9a8423c3791f174223617b67bd5963e3901e7d8911c8e8aa4339fec72f11ff"
+    },
+    {
+      "path": "src/city-art.js",
+      "baseline": "c20b4bbc0ad0bdeb171d0c2a734a6bd1b3cbfd37229efb1e29c6bdd290c81659",
+      "worktree": "c20b4bbc0ad0bdeb171d0c2a734a6bd1b3cbfd37229efb1e29c6bdd290c81659"
+    },
+    {
+      "path": "src/config.js",
+      "baseline": "6f557580bc680c8a43105512315cd4a5f75763bf1f9a61e25d86cc87c390eb4c",
+      "worktree": "6f557580bc680c8a43105512315cd4a5f75763bf1f9a61e25d86cc87c390eb4c"
+    },
+    {
+      "path": "src/drive-feedback.js",
+      "baseline": "f66aa1ea88fa6066ef327adb6662376f46ed2d5b1c936cd8557bd4ac57fb032d",
+      "worktree": "f66aa1ea88fa6066ef327adb6662376f46ed2d5b1c936cd8557bd4ac57fb032d"
+    },
+    {
+      "path": "src/feedback-config.js",
+      "baseline": "6b705c28e3271da2ae44c63471686cde299d0049010dfe4693c96fd95f0e5f83",
+      "worktree": "6b705c28e3271da2ae44c63471686cde299d0049010dfe4693c96fd95f0e5f83"
+    },
+    {
+      "path": "src/feedback-model.js",
+      "baseline": "04527713aed62116822ff2c58cee80a0f825723149c0163f940e6beb4eace2dd",
+      "worktree": "04527713aed62116822ff2c58cee80a0f825723149c0163f940e6beb4eace2dd"
+    },
+    {
+      "path": "src/feedback.js",
+      "baseline": "27c2129ed62a3f7148e095a0dba4456eee86e6a5a376fa0ab3f0a3bf0ae4c17d",
+      "worktree": "27c2129ed62a3f7148e095a0dba4456eee86e6a5a376fa0ab3f0a3bf0ae4c17d"
+    },
+    {
+      "path": "src/flight-audio.js",
+      "baseline": "256ba0797e8b052e8b05129495a09d6d561d7346448a46dc6e6a084571a4f9bc",
+      "worktree": "256ba0797e8b052e8b05129495a09d6d561d7346448a46dc6e6a084571a4f9bc"
+    },
+    {
+      "path": "src/flight-effects.js",
+      "baseline": "4822f4c7871e3f9a9d59d41857beb867b43bd3037c8fbac38884c8ef6da91afd",
+      "worktree": "4822f4c7871e3f9a9d59d41857beb867b43bd3037c8fbac38884c8ef6da91afd"
+    },
+    {
+      "path": "src/flow-model.js",
+      "baseline": "574b07916a7a2a351535c082db707590314c259501185903498a48b4fd569a98",
+      "worktree": "574b07916a7a2a351535c082db707590314c259501185903498a48b4fd569a98"
+    },
+    {
+      "path": "src/flow-ui.css",
+      "baseline": "154e696bd0a619e7798cf3b520eb83f1d1a32e2033071e93e8e8542632fd70c5",
+      "worktree": "154e696bd0a619e7798cf3b520eb83f1d1a32e2033071e93e8e8542632fd70c5"
+    },
+    {
+      "path": "src/hud-model.js",
+      "baseline": "4bce3937406f93c0dc69718b28d521535f04ba2b9beb6285e26f9abc1c4b6a6d",
+      "worktree": "4bce3937406f93c0dc69718b28d521535f04ba2b9beb6285e26f9abc1c4b6a6d"
+    },
+    {
+      "path": "src/input.js",
+      "baseline": "1d852f90e3485eda9261d4bf3017ceff8e26a33a1fc1d00431dcbc3fab0a505c",
+      "worktree": "1d852f90e3485eda9261d4bf3017ceff8e26a33a1fc1d00431dcbc3fab0a505c"
+    },
+    {
+      "path": "src/landing-model.js",
+      "baseline": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1",
+      "worktree": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1"
+    },
+    {
+      "path": "src/main.js",
+      "baseline": "45e0c4c7df65153f15cc7e4972f749216c2003a0ff64b0ac890b706c8529c079",
+      "worktree": "45e0c4c7df65153f15cc7e4972f749216c2003a0ff64b0ac890b706c8529c079"
+    },
+    {
+      "path": "src/mobile-hud.css",
+      "baseline": "5719b90debecdf4019a168456bc636700d1b978af7b23f5445c6a142a5b01766",
+      "worktree": "5719b90debecdf4019a168456bc636700d1b978af7b23f5445c6a142a5b01766"
+    },
+    {
+      "path": "src/one-jump-art.js",
+      "baseline": "b2b0f27de38d868980fcd346f866d59f41ad5cb9b19599b67fc1c93300532675",
+      "worktree": "b2b0f27de38d868980fcd346f866d59f41ad5cb9b19599b67fc1c93300532675"
+    },
+    {
+      "path": "src/one-jump-config.js",
+      "baseline": "1b707691b3fc1f1122152a22a05f5364ff542afd0745765169838df5883895b0",
+      "worktree": "1b707691b3fc1f1122152a22a05f5364ff542afd0745765169838df5883895b0"
+    },
+    {
+      "path": "src/one-jump.js",
+      "baseline": "6851140af7219146a9094398f76695ddda247a371f495d10eb7d742303c04e5e",
+      "worktree": "6851140af7219146a9094398f76695ddda247a371f495d10eb7d742303c04e5e"
+    },
+    {
+      "path": "src/parking-art.js",
+      "baseline": "dd62458120a6c0d30d64d0897a9d2fc0c3ec7136c8547b93c03747956446cd23",
+      "worktree": "dd62458120a6c0d30d64d0897a9d2fc0c3ec7136c8547b93c03747956446cd23"
+    },
+    {
+      "path": "src/parking-audio.js",
+      "baseline": "7980863305afd8aeb6a5b32e24dc1f012d1cfbbc344de3cc10d5f93fe3465ab3",
+      "worktree": "7980863305afd8aeb6a5b32e24dc1f012d1cfbbc344de3cc10d5f93fe3465ab3"
+    },
+    {
+      "path": "src/parking-config.js",
+      "baseline": "6247c10f30cc6c7818785359364701cb9ee1769bf885571df2112328adede293",
+      "worktree": "6247c10f30cc6c7818785359364701cb9ee1769bf885571df2112328adede293"
+    },
+    {
+      "path": "src/parking.css",
+      "baseline": "f784dbc435f02231daaf0d44ed9d8e4e61e0907fb083a92a09b69f59f1a1ab5c",
+      "worktree": "f784dbc435f02231daaf0d44ed9d8e4e61e0907fb083a92a09b69f59f1a1ab5c"
+    },
+    {
+      "path": "src/parking.js",
+      "baseline": "8152bf8dc2b6132b04b3eb914aaf0eba94bd5cd42135faf4d7d781b5338a2bbf",
+      "worktree": "8152bf8dc2b6132b04b3eb914aaf0eba94bd5cd42135faf4d7d781b5338a2bbf"
+    },
+    {
+      "path": "src/particles.js",
+      "baseline": "10f1c975b6fcf1d46cc62bb4c8abbdc70fa37bf981924d6c78a8c7bd89dcdee1",
+      "worktree": "10f1c975b6fcf1d46cc62bb4c8abbdc70fa37bf981924d6c78a8c7bd89dcdee1"
+    },
+    {
+      "path": "src/pc-hud.css",
+      "baseline": "f7e1db25853bdb4a7a20333526985b32bd44c9c4b896759413f61c3710b5d148",
+      "worktree": "f7e1db25853bdb4a7a20333526985b32bd44c9c4b896759413f61c3710b5d148"
+    },
+    {
+      "path": "src/presentation-model.js",
+      "baseline": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a",
+      "worktree": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a"
+    },
+    {
+      "path": "src/scenarios.js",
+      "baseline": "2839eee80e069fe68a3b94ceb59fe6f2100bb7754001bbf3c1303835e3cd88e8",
+      "worktree": "2839eee80e069fe68a3b94ceb59fe6f2100bb7754001bbf3c1303835e3cd88e8"
+    },
+    {
+      "path": "src/score-config.js",
+      "baseline": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48",
+      "worktree": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48"
+    },
+    {
+      "path": "src/scoring.js",
+      "baseline": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084",
+      "worktree": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084"
+    },
+    {
+      "path": "src/simulation.js",
+      "baseline": "aadaf8453161ca7a0f2c1c6c5e88003fdb59d625f712d30e02190cd1c1204b7c",
+      "worktree": "aadaf8453161ca7a0f2c1c6c5e88003fdb59d625f712d30e02190cd1c1204b7c"
+    },
+    {
+      "path": "src/speed-lines.js",
+      "baseline": "34957cd65f652d6495a430e1740c5de3ad305032d2c8b9d8a23b1f0c931c7153",
+      "worktree": "34957cd65f652d6495a430e1740c5de3ad305032d2c8b9d8a23b1f0c931c7153"
+    },
+    {
+      "path": "src/sprint-art.js",
+      "baseline": "3ee0f179870953dc987df4f819de73904fa95dc9964eb7e95c05ecd6c3a76bfd",
+      "worktree": "3ee0f179870953dc987df4f819de73904fa95dc9964eb7e95c05ecd6c3a76bfd"
+    },
+    {
+      "path": "src/sprint-config.js",
+      "baseline": "f59a721035e6d356eb6322936f3ca72e9c6e95c1ea31bdf640f516fa4884b415",
+      "worktree": "f59a721035e6d356eb6322936f3ca72e9c6e95c1ea31bdf640f516fa4884b415"
+    },
+    {
+      "path": "src/sprint-visuals.js",
+      "baseline": "9a285dc1261659543ed28e625bb05129f04376fbd691271c9ec5e25f68a46e41",
+      "worktree": "9a285dc1261659543ed28e625bb05129f04376fbd691271c9ec5e25f68a46e41"
+    },
+    {
+      "path": "src/sprint.js",
+      "baseline": "442c28f95cb38a36cbba7b7d872705366772a1d203929e026d61dfe417c998ed",
+      "worktree": "442c28f95cb38a36cbba7b7d872705366772a1d203929e026d61dfe417c998ed"
+    },
+    {
+      "path": "src/style.css",
+      "baseline": "99173aa429771138e1718a21a989ef373fb9459ccaae2d66fe957648829f4fc1",
+      "worktree": "99173aa429771138e1718a21a989ef373fb9459ccaae2d66fe957648829f4fc1"
+    },
+    {
+      "path": "src/supply-art.js",
+      "baseline": "1bc52ec246f06c7307bae2ecd910a27d7153e17fa9911a1c314d931a56b1c931",
+      "worktree": "1bc52ec246f06c7307bae2ecd910a27d7153e17fa9911a1c314d931a56b1c931"
+    },
+    {
+      "path": "src/supply-config.js",
+      "baseline": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4",
+      "worktree": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4"
+    },
+    {
+      "path": "src/touch-layout.js",
+      "baseline": "961c2575abae05bfda234a9f51500bf5b1aee15fd408e80507c00c556209951c",
+      "worktree": "961c2575abae05bfda234a9f51500bf5b1aee15fd408e80507c00c556209951c"
+    },
+    {
+      "path": "src/vehicle-feedback.js",
+      "baseline": "d18c4f1103449955b43e87f7f5a38477c5c4a05268633164a2511d5317208e65",
+      "worktree": "d18c4f1103449955b43e87f7f5a38477c5c4a05268633164a2511d5317208e65"
+    },
+    {
+      "path": "src/world.js",
+      "baseline": "b9a5ab2e532cdd5380d4bba0b396516d4dc81de5d151fa98145a27a2c3fa4d0d",
+      "worktree": "b9a5ab2e532cdd5380d4bba0b396516d4dc81de5d151fa98145a27a2c3fa4d0d"
+    }
+  ],
+  "changed": []
+}

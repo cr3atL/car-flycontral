@@ -1,0 +1,1152 @@
+{
+  "method": "Legal fixed-step from normal spawn, no lift and actual coastal road geometry. Diagnostic feedback only.",
+  "phases": [
+    {
+      "time": 0.008333333333333333,
+      "x": 0,
+      "y": 0,
+      "z": 12.000802081597222,
+      "vx": 0,
+      "vy": 0,
+      "vz": 0.09624979166666667,
+      "speed": 0.09624979166666667,
+      "heading": 0,
+      "pitch": 0,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "start",
+      "group": "start",
+      "route": "main",
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false,
+        "target": {
+          "x": 0,
+          "z": 20
+        },
+        "index": 0
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "x": 0,
+        "y": 0,
+        "z": 12,
+        "heading": 0,
+        "surface": "start"
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastLanding": null,
+      "events": []
+    },
+    {
+      "time": 2.7416666666666596,
+      "x": 0,
+      "y": 0,
+      "z": 30.052627471810446,
+      "vx": 0,
+      "vy": 0,
+      "vz": 7.524063963301108,
+      "speed": 7.524063963301108,
+      "heading": 0,
+      "pitch": 0,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "runway",
+      "group": "runway",
+      "route": "main",
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false,
+        "target": {
+          "x": 0,
+          "z": 37.989926938782936
+        },
+        "index": 0
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.7416666666666596,
+          "x": 0,
+          "y": 0,
+          "z": 30.052627471810446,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        }
+      ]
+    },
+    {
+      "time": 9.041666666666794,
+      "x": 6.037736423755773,
+      "y": 0,
+      "z": 75.1863361252187,
+      "vx": 6.929698684042287,
+      "vy": 0,
+      "vz": 2.949511893061272,
+      "speed": 7.531291008779789,
+      "heading": 1.16838922298047,
+      "pitch": 0,
+      "roll": -0.031045458079676472,
+      "reference": 1.16838922298047,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "ground-bypass-002",
+      "group": "ground-bypass",
+      "route": "ground-bypass",
+      "input": {
+        "throttle": 0,
+        "steer": 0.47131206509492035,
+        "lift": false,
+        "target": {
+          "x": 13.844155961976611,
+          "z": 76.39970048068784
+        },
+        "index": 3
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "ground-bypass"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.7416666666666596,
+          "x": 0,
+          "y": 0,
+          "z": 30.052627471810446,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 9.041666666666794,
+          "x": 6.037736423755773,
+          "y": 0,
+          "z": 75.1863361252187,
+          "pressure": 100,
+          "surface": "ground-bypass-002",
+          "group": "ground-bypass",
+          "route": "ground-bypass"
+        }
+      ]
+    },
+    {
+      "time": 31.449999999998855,
+      "x": 8.968368168400112,
+      "y": 0,
+      "z": 193.1641557491233,
+      "vx": -7.386919755190224,
+      "vy": 0,
+      "vz": 1.3373646221574282,
+      "speed": 7.507005235259789,
+      "heading": -1.3916914034495123,
+      "pitch": 0,
+      "roll": 0.003693393255069742,
+      "reference": -1.3916914034495123,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "landing",
+      "group": "landing",
+      "route": "main",
+      "input": {
+        "throttle": 0,
+        "steer": 0.08293892935416677,
+        "lift": false,
+        "target": {
+          "x": 1.707196637110152,
+          "z": 194.79472403151348
+        },
+        "index": 49
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "landing",
+        "x": 0,
+        "z": 166,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "ground-bypass",
+        "landing"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.7416666666666596,
+          "x": 0,
+          "y": 0,
+          "z": 30.052627471810446,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 9.041666666666794,
+          "x": 6.037736423755773,
+          "y": 0,
+          "z": 75.1863361252187,
+          "pressure": 100,
+          "surface": "ground-bypass-002",
+          "group": "ground-bypass",
+          "route": "ground-bypass"
+        },
+        {
+          "type": "ground-stage",
+          "time": 31.449999999998855,
+          "x": 8.968368168400112,
+          "y": 0,
+          "z": 193.1641557491233,
+          "pressure": 100,
+          "surface": "landing",
+          "group": "landing",
+          "route": "main"
+        }
+      ]
+    },
+    {
+      "time": 33.59999999999874,
+      "x": -0.5878260012690105,
+      "y": 0,
+      "z": 204.0437989363398,
+      "vx": -0.09662341057557056,
+      "vy": 0,
+      "vz": 7.533334334965174,
+      "speed": 7.5339539609581125,
+      "heading": -0.012825411474098429,
+      "pitch": 0,
+      "roll": -0.01944641114173638,
+      "reference": -0.012825411474098429,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "curve-000",
+      "group": "curve",
+      "route": "main",
+      "input": {
+        "throttle": 0,
+        "steer": 0.3044101356334822,
+        "lift": false,
+        "target": {
+          "x": 0.588473018069997,
+          "z": 211.95289562928892
+        },
+        "index": 52
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "landing",
+        "x": 0,
+        "z": 166,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "ground-bypass",
+        "landing",
+        "curve"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.7416666666666596,
+          "x": 0,
+          "y": 0,
+          "z": 30.052627471810446,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 9.041666666666794,
+          "x": 6.037736423755773,
+          "y": 0,
+          "z": 75.1863361252187,
+          "pressure": 100,
+          "surface": "ground-bypass-002",
+          "group": "ground-bypass",
+          "route": "ground-bypass"
+        },
+        {
+          "type": "ground-stage",
+          "time": 31.449999999998855,
+          "x": 8.968368168400112,
+          "y": 0,
+          "z": 193.1641557491233,
+          "pressure": 100,
+          "surface": "landing",
+          "group": "landing",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 33.59999999999874,
+          "x": -0.5878260012690105,
+          "y": 0,
+          "z": 204.0437989363398,
+          "pressure": 100,
+          "surface": "curve-000",
+          "group": "curve",
+          "route": "main"
+        }
+      ]
+    },
+    {
+      "time": 44.608333333331444,
+      "x": 20.005761256857078,
+      "y": 0,
+      "z": 284.0023237475153,
+      "vx": 0.22717356867604516,
+      "vy": 0,
+      "vz": 7.512419279910825,
+      "speed": 7.515853329295409,
+      "heading": 0.03023052262260268,
+      "pitch": 0,
+      "roll": 0.0036857316588350137,
+      "reference": 0.03023052262260268,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "apron",
+      "group": "apron",
+      "route": "main",
+      "input": {
+        "throttle": 0,
+        "steer": -0.05950280590420343,
+        "lift": false,
+        "target": {
+          "x": 20,
+          "z": 291.94005161681787
+        },
+        "index": 70
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "landing",
+        "x": 0,
+        "z": 166,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "ground-bypass",
+        "landing",
+        "curve",
+        "apron"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.7416666666666596,
+          "x": 0,
+          "y": 0,
+          "z": 30.052627471810446,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 9.041666666666794,
+          "x": 6.037736423755773,
+          "y": 0,
+          "z": 75.1863361252187,
+          "pressure": 100,
+          "surface": "ground-bypass-002",
+          "group": "ground-bypass",
+          "route": "ground-bypass"
+        },
+        {
+          "type": "ground-stage",
+          "time": 31.449999999998855,
+          "x": 8.968368168400112,
+          "y": 0,
+          "z": 193.1641557491233,
+          "pressure": 100,
+          "surface": "landing",
+          "group": "landing",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 33.59999999999874,
+          "x": -0.5878260012690105,
+          "y": 0,
+          "z": 204.0437989363398,
+          "pressure": 100,
+          "surface": "curve-000",
+          "group": "curve",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 44.608333333331444,
+          "x": 20.005761256857078,
+          "y": 0,
+          "z": 284.0023237475153,
+          "pressure": 100,
+          "surface": "apron",
+          "group": "apron",
+          "route": "main"
+        }
+      ]
+    },
+    {
+      "time": 50.10833333333113,
+      "x": 13.067091924942437,
+      "y": 0,
+      "z": 324.0021479182901,
+      "vx": -4.2489416490254195,
+      "vy": 0,
+      "vz": 6.191626314805475,
+      "speed": 7.509310325124037,
+      "heading": -0.6014312466908716,
+      "pitch": 0,
+      "roll": 0.006812645973004838,
+      "reference": -0.6014312466908716,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "lower-bypass-007",
+      "group": "lower-bypass",
+      "route": "ground-bypass",
+      "input": {
+        "throttle": 0,
+        "steer": -0.11420051208505483,
+        "lift": false,
+        "target": {
+          "x": 8.192817912368495,
+          "z": 330.2698778351284
+        },
+        "index": 81
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "apron",
+        "x": 20,
+        "z": 300,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "ground-bypass",
+        "landing",
+        "curve",
+        "apron",
+        "lower-bypass"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.7416666666666596,
+          "x": 0,
+          "y": 0,
+          "z": 30.052627471810446,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 9.041666666666794,
+          "x": 6.037736423755773,
+          "y": 0,
+          "z": 75.1863361252187,
+          "pressure": 100,
+          "surface": "ground-bypass-002",
+          "group": "ground-bypass",
+          "route": "ground-bypass"
+        },
+        {
+          "type": "ground-stage",
+          "time": 31.449999999998855,
+          "x": 8.968368168400112,
+          "y": 0,
+          "z": 193.1641557491233,
+          "pressure": 100,
+          "surface": "landing",
+          "group": "landing",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 33.59999999999874,
+          "x": -0.5878260012690105,
+          "y": 0,
+          "z": 204.0437989363398,
+          "pressure": 100,
+          "surface": "curve-000",
+          "group": "curve",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 44.608333333331444,
+          "x": 20.005761256857078,
+          "y": 0,
+          "z": 284.0023237475153,
+          "pressure": 100,
+          "surface": "apron",
+          "group": "apron",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 50.10833333333113,
+          "x": 13.067091924942437,
+          "y": 0,
+          "z": 324.0021479182901,
+          "pressure": 100,
+          "surface": "lower-bypass-007",
+          "group": "lower-bypass",
+          "route": "ground-bypass"
+        }
+      ]
+    },
+    {
+      "time": 73.85833333333818,
+      "x": 21.027875437523512,
+      "y": 0,
+      "z": 489.49679706856733,
+      "vx": 6.442166822924236,
+      "vy": 0,
+      "vz": 3.8463573924758774,
+      "speed": 7.503064611546376,
+      "heading": 1.0325417079253392,
+      "pitch": 0,
+      "roll": -0.013927830517738259,
+      "reference": 1.0325417079253392,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "far",
+      "group": "far",
+      "route": "main",
+      "input": {
+        "throttle": 0,
+        "steer": 0.26418520672114615,
+        "lift": false,
+        "target": {
+          "x": 28.3062303801223,
+          "z": 492.5752243391598
+        },
+        "index": 125
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "far",
+        "x": 30,
+        "z": 490,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "ground-bypass",
+        "landing",
+        "curve",
+        "apron",
+        "lower-bypass",
+        "far"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.7416666666666596,
+          "x": 0,
+          "y": 0,
+          "z": 30.052627471810446,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 9.041666666666794,
+          "x": 6.037736423755773,
+          "y": 0,
+          "z": 75.1863361252187,
+          "pressure": 100,
+          "surface": "ground-bypass-002",
+          "group": "ground-bypass",
+          "route": "ground-bypass"
+        },
+        {
+          "type": "ground-stage",
+          "time": 31.449999999998855,
+          "x": 8.968368168400112,
+          "y": 0,
+          "z": 193.1641557491233,
+          "pressure": 100,
+          "surface": "landing",
+          "group": "landing",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 33.59999999999874,
+          "x": -0.5878260012690105,
+          "y": 0,
+          "z": 204.0437989363398,
+          "pressure": 100,
+          "surface": "curve-000",
+          "group": "curve",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 44.608333333331444,
+          "x": 20.005761256857078,
+          "y": 0,
+          "z": 284.0023237475153,
+          "pressure": 100,
+          "surface": "apron",
+          "group": "apron",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 50.10833333333113,
+          "x": 13.067091924942437,
+          "y": 0,
+          "z": 324.0021479182901,
+          "pressure": 100,
+          "surface": "lower-bypass-007",
+          "group": "lower-bypass",
+          "route": "ground-bypass"
+        },
+        {
+          "type": "ground-stage",
+          "time": 73.85833333333818,
+          "x": 21.027875437523512,
+          "y": 0,
+          "z": 489.49679706856733,
+          "pressure": 100,
+          "surface": "far",
+          "group": "far",
+          "route": "main"
+        }
+      ]
+    }
+  ],
+  "end": {
+    "time": 77.10833333334077,
+    "x": 30.251271342145685,
+    "y": 0,
+    "z": 510.0313777269797,
+    "vx": -0.2613638302869017,
+    "vy": 0,
+    "vz": 7.5241497530964105,
+    "speed": 7.5286878377844175,
+    "heading": -0.034722698414270295,
+    "pitch": 0,
+    "roll": 0.002762758673887244,
+    "reference": -0.034722698414270295,
+    "pressure": 100,
+    "grounded": true,
+    "surface": "far",
+    "group": "far",
+    "route": "main",
+    "input": {
+      "throttle": 0,
+      "steer": -0.04849488125310605,
+      "lift": false,
+      "target": {
+        "x": 30,
+        "z": 515
+      },
+      "index": 129
+    },
+    "jets": {
+      "lift": 0,
+      "forward": 0,
+      "side": 0,
+      "brake": 0
+    },
+    "forces": {
+      "lift": 0,
+      "forward": 0,
+      "side": 0,
+      "brake": 0,
+      "cost": 0
+    },
+    "reverse": false,
+    "checkpoint": {
+      "surface": "far",
+      "x": 30,
+      "z": 490,
+      "heading": 0,
+      "y": 0
+    },
+    "visits": {
+      "low": 0,
+      "high": 0,
+      "far": 0,
+      "start": 0,
+      "runway": 0,
+      "landing": 0,
+      "curve": 0,
+      "apron": 0,
+      "ramp": 0,
+      "recovery": 0,
+      "return-ramp": 0,
+      "return-top": 0,
+      "ground-bypass": 0,
+      "lower-bypass": 0
+    },
+    "groundContacts": [
+      "start",
+      "runway",
+      "ground-bypass",
+      "landing",
+      "curve",
+      "apron",
+      "lower-bypass",
+      "far"
+    ],
+    "complete": true,
+    "crashTimer": 0,
+    "reason": "",
+    "recoveryNotice": null,
+    "landingCount": 0,
+    "lastLanding": null,
+    "events": [
+      {
+        "type": "ground-stage",
+        "time": 2.7416666666666596,
+        "x": 0,
+        "y": 0,
+        "z": 30.052627471810446,
+        "pressure": 100,
+        "surface": "runway",
+        "group": "runway",
+        "route": "main"
+      },
+      {
+        "type": "ground-stage",
+        "time": 9.041666666666794,
+        "x": 6.037736423755773,
+        "y": 0,
+        "z": 75.1863361252187,
+        "pressure": 100,
+        "surface": "ground-bypass-002",
+        "group": "ground-bypass",
+        "route": "ground-bypass"
+      },
+      {
+        "type": "ground-stage",
+        "time": 31.449999999998855,
+        "x": 8.968368168400112,
+        "y": 0,
+        "z": 193.1641557491233,
+        "pressure": 100,
+        "surface": "landing",
+        "group": "landing",
+        "route": "main"
+      },
+      {
+        "type": "ground-stage",
+        "time": 33.59999999999874,
+        "x": -0.5878260012690105,
+        "y": 0,
+        "z": 204.0437989363398,
+        "pressure": 100,
+        "surface": "curve-000",
+        "group": "curve",
+        "route": "main"
+      },
+      {
+        "type": "ground-stage",
+        "time": 44.608333333331444,
+        "x": 20.005761256857078,
+        "y": 0,
+        "z": 284.0023237475153,
+        "pressure": 100,
+        "surface": "apron",
+        "group": "apron",
+        "route": "main"
+      },
+      {
+        "type": "ground-stage",
+        "time": 50.10833333333113,
+        "x": 13.067091924942437,
+        "y": 0,
+        "z": 324.0021479182901,
+        "pressure": 100,
+        "surface": "lower-bypass-007",
+        "group": "lower-bypass",
+        "route": "ground-bypass"
+      },
+      {
+        "type": "ground-stage",
+        "time": 73.85833333333818,
+        "x": 21.027875437523512,
+        "y": 0,
+        "z": 489.49679706856733,
+        "pressure": 100,
+        "surface": "far",
+        "group": "far",
+        "route": "main"
+      },
+      {
+        "type": "complete",
+        "time": 77.10833333334077,
+        "x": 30.251271342145685,
+        "y": 0,
+        "z": 510.0313777269797,
+        "pressure": 100,
+        "visits": {
+          "low": 0,
+          "high": 0,
+          "far": 0,
+          "start": 0,
+          "runway": 0,
+          "landing": 0,
+          "curve": 0,
+          "apron": 0,
+          "ramp": 0,
+          "recovery": 0,
+          "return-ramp": 0,
+          "return-top": 0,
+          "ground-bypass": 0,
+          "lower-bypass": 0
+        },
+        "route": "main",
+        "groundContacts": [
+          "start",
+          "runway",
+          "ground-bypass",
+          "landing",
+          "curve",
+          "apron",
+          "lower-bypass",
+          "far"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "Ready for GitHub Actions deployment",
+  "account": "cr3atL",
+  "accountId": 113228077,
+  "repository": "cr3atL/car-flycontral",
+  "url": "https://cr3atl.github.io/car-flycontral/roadster.html",
+  "productionBundle": "roadster-x2PXELdW.js",
+  "bundleSha256": "19da3d9793d572e4cc594f3d1c9afe0fad4cf047ab0b7b7e73f3f7ed1ee05f6e",
+  "productionFiles": 161,
+  "unit": {
+    "pass": 176,
+    "fail": 0
+  },
+  "localPlay": "docs/coastal-supervisor-production.json",
+  "resourceManifest": "docs/coastal-supervisor-production-files.json",
+  "scope": "No physical-phone, subjective-audio, novice-study or performance claim"
+}

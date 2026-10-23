@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-23",
+  "url": "http://localhost:4173/roadster.html",
+  "entry": "Ordinary entry, no qa query",
+  "bundle": "roadster-x2PXELdW.js",
+  "bundleBytes": 690455,
+  "bundleSha256": "19da3d9793d572e4cc594f3d1c9afe0fad4cf047ab0b7b7e73f3f7ed1ee05f6e",
+  "sceneSha256": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7",
+  "method": "Independent ordinary UI key inputs, screenshots and DOM ground/surface checks. No readonly observer or dev state accessed.",
+  "play": {
+    "firstBridge": "W5000, Space650, grounded wait, S850: actual landing; then pause",
+    "curve": "Legal landing checkpoint reset, W2200,D220,W850,S450,W1600,A100,S600,W1700,S650: uninterrupted ground driving to apron; then pause",
+    "high": "Legal apron checkpoint reset,W1400,W+Space800,Space+D200,D200,S600,actual high ground wait,S150: high contact26km/h",
+    "postLandingFailure": "A220 then drive/brake sequence collided and recovered to high. Failure screenshot retained.",
+    "exit": "Legal high checkpoint reset then W7600 crossed slope and grounded far exit;105km/h,100pressure,phase complete"
+  },
+  "conclusion": "All sections tested on the exact production asset and bundle, using pauses and legal checkpoints. Not an uninterrupted manual no-reset run.",
+  "errorsAndWarnings": [],
+  "screenshots": [
+    "docs/screenshots/coastal-supervisor-production-bridge.png",
+    "docs/screenshots/coastal-supervisor-production-high.png",
+    "docs/screenshots/coastal-supervisor-production-steering-failure.png",
+    "docs/screenshots/coastal-supervisor-production-complete.png"
+  ],
+  "unit": {
+    "pass": 176,
+    "fail": 0,
+    "durationMs": 83731.6166,
+    "log": "docs/coastal-supervisor-unit.txt"
+  },
+  "limits": [
+    "No physical phone/iOS",
+    "No novice study",
+    "No subjective audio evaluation",
+    "No performance audit"
+  ]
+}

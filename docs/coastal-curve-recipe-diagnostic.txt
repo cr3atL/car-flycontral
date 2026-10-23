@@ -1,0 +1,4 @@
+{"checkpoint":"landing","turn":0.15,"straight":1.3,"x":5.041900191294915,"z":241.73660643448648,"group":"curve","head":-0.048595581406814574,"speed":6.160487526791351,"reason":""}
+{"checkpoint":"landing","turn":0.15,"straight":1.6,"x":6.347204527043345,"z":248.7447668415288,"group":"curve","head":-0.050572335081499956,"speed":9.595086365942727,"reason":"碰到护栏或路障"}
+{"checkpoint":"landing","turn":0.3,"straight":1.3,"x":12.903201526494321,"z":242.78562186814307,"group":"curve","head":0.12377718254725315,"speed":6.049235083135764,"reason":""}
+{"checkpoint":"landing","turn":0.3,"straight":1.6,"x":10.659715731489689,"z":228.8706004324818,"group":"curve","head":0.34625514951285513,"speed":24.350774946847558,"reason":"碰到护栏或路障"}

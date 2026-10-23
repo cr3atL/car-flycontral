@@ -1,0 +1,10 @@
+import{chromium}from'@playwright/test';import{writeFileSync}from'node:fs';
+const b=await chromium.launch({channel:'msedge',headless:true}),p=await b.newPage({viewport:{width:667,height:375},hasTouch:true,isMobile:true}),c=await p.context().newCDPSession(p);
+await p.addInitScript(()=>{window.__focusEvents=[];for(const type of['blur','focus','visibilitychange'])addEventListener(type,e=>window.__focusEvents.push({type:e.type,trusted:e.isTrusted,hidden:document.hidden,focus:document.hasFocus()}));});
+await p.goto('http://127.0.0.1:5173/roadster.html');await p.waitForFunction(()=>window.__ROADSTER_DEV__);await p.click('#roadster-start');await p.keyboard.down('KeyW');await p.keyboard.down('Space');
+const {windowId}=await c.send('Browser.getWindowForTarget');await c.send('Browser.setWindowBounds',{windowId,bounds:{windowState:'minimized'}});await p.waitForTimeout(150);
+const minimized=await p.evaluate(()=>({hidden:document.hidden,focus:document.hasFocus(),events:window.__focusEvents,state:window.__ROADSTER_DEV__.getState()}));
+await c.send('Browser.setWindowBounds',{windowId,bounds:{windowState:'normal'}});await p.waitForTimeout(100);await p.keyboard.up('KeyW');await p.keyboard.up('Space');
+const restored=await p.evaluate(()=>({hidden:document.hidden,focus:document.hasFocus(),events:window.__focusEvents,state:window.__ROADSTER_DEV__.getState()}));
+const result={method:'Minimize/restore this test-only Chromium window via native Browser domain; no synthetic lifecycle events.',minimized,restored,pass:minimized.hidden&&minimized.state.paused&&minimized.state.controls.keys.length===0&&restored.state.paused};
+writeFileSync('docs/coastal-focus-probe.json',JSON.stringify(result,null,2));console.log(JSON.stringify({pass:result.pass,minimized:{hidden:minimized.hidden,focus:minimized.focus,paused:minimized.state.paused,controls:minimized.state.controls},events:restored.events}));await b.close();

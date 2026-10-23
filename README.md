@@ -1,14 +1,14 @@
 # 赤隼 · CRIMSON LIFT
 
-Babylon.js 单人喷气跑车原型，支持PC和手机横屏。当前新核心为Roadster：手动驾驶、持续抬升、空中前推与侧推、反推制动，在道路和不同高度的平台之间选择通往出口的路线。
+Babylon.js 单人喷气跑车原型，支持PC和手机横屏。当前场地为滨海立交试驾区：手动驾驶、短喷跨桥、抬升切入高架、反推落台，再接下坡驶出出口。沿岸普通道路和下层恢复路线均可驾驶。
 
-[在线驾驶](https://cr3atl.github.io/car-flycontral/roadster.html) · [源码仓库](https://github.com/cr3atL/car-flycontral) · [原型设计](docs/ROADSTER_CORE_PROTOTYPE.md)
+[在线驾驶](https://cr3atl.github.io/car-flycontral/roadster.html) · [源码仓库](https://github.com/cr3atL/car-flycontral) · [本轮设计与场景](docs/COASTAL_INTERCHANGE.md)
 
-[本轮Pages构建与部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39829688053)，线上主包和Blender场景已与验收构建核对，主控线上实际直跨通关。
+本轮主包 `roadster-x2PXELdW.js`，场景 `coastal-interchange.glb`。最终验收与上线结果分别见[验收记录](docs/CORE_ACCEPTANCE.md)和[部署记录](docs/coastal-deployment.json)。
 
 ## 开始驾驶
 
-从首页选择Roadster，或直接打开 `roadster.html`。推荐先直线加速、在断口前短喷跨到对岸，接地后继续驶过绿色出口。随后尝试低平台的两次起降，以及高平台的主动爬升与顺势滑落。
+从首页选择Roadster，或直接打开 `roadster.html`。沿直道加速，在琥珀标线处短喷跨桥；落地后顺着缓弯进入检修区，低速抬升并向右修正，反推缩短落点，接地后沿高架下坡驶出。起飞前可以停车观察，也可以沿岸绕行。
 
 可以停车看路、倒车调整，也能在空中改变落点。松开喷气后保留惯性并受重力下落。反推只减水平速度；看到下降预警时点喷缓冲。气压在稳定接地且所有喷气停止后恢复，平台中部的青色补气区域恢复更快。
 
@@ -27,13 +27,13 @@ Babylon.js 单人喷气跑车原型，支持PC和手机横屏。当前新核心�
 
 ## 场地与验证
 
-场地使用Blender MCP构建，GLB与布局数据共同定义9块道路、平台和回程坡道。低平台高4米，高平台高10米，下层道路可地面驶回起点。导出顶点已逐块核对，碰撞与预测沿用同源布局。
+场景由Blender MCP初建；实时画面接口超时后的回程修复与预览在独立Blender源中完成，未覆盖其他项目。GLB与布局共同定义154块真实路面和182段护栏碰撞，主线断口24米，高架高8米，恢复道路低5米。最终凸性、顶点和接缝均已核对。许可明确的免费ambientCG沥青贴图已嵌入场景，来源见构建参考。
 
-- [Blender构建说明与预览](docs/ROADSTER_BLENDER_SCENE.md)
-- [Blender源文件](assets/blender/roadster-lab.blend) · [构建脚本](assets/blender/build_roadster_lab.py)
-- [主控验收记录](docs/CORE_ACCEPTANCE.md) · [实际人工试玩范围](docs/roadster-supervisor-play.json)
+- [构建参考与免费资源](docs/COASTAL_SCENE_RESEARCH.md) · [实现说明](docs/COASTAL_IMPLEMENTATION.md)
+- [Blender源文件](assets/blender/coastal-interchange.blend) · [构建脚本](assets/blender/build_coastal_interchange.py)
+- [主控验收记录](docs/CORE_ACCEPTANCE.md) · [实际试玩范围](docs/coastal-supervisor-play.json)
 
-主控独立规则检查155项通过。原生键盘和多触点路线记录、人工试玩、固定步长诊断分别记录；浏览器触屏模拟不代表实体手机结果。具体候选、重复次数与发布状态以本轮验收和部署记录为准。
+开发与主控独立全量检查均176项通过。最终同包PC、667、844原生输入主线及修复后的回程通过；只读状态反馈自动控制与主控普通UI试玩、失败和检查点重试分别记录。主控已逐段实际操作PC及667手机布局，真机、新玩家上手研究、主观音频和性能专项未验证。
 
 ## 本地开发
 
@@ -47,9 +47,9 @@ npm run preview
 
 开发入口为 [127.0.0.1:5173/roadster.html](http://127.0.0.1:5173/roadster.html)，生产预览为 [127.0.0.1:4173/roadster.html](http://127.0.0.1:4173/roadster.html)。Windows受限环境可先设置 `$env:NODE_OPTIONS='--preserve-symlinks --preserve-symlinks-main'`。
 
-`src/roadster/` 包含独立输入、运动、预测、呈现和声音。`public/assets/roadster-lab-layout.json` 是场地几何契约，`roadster-lab.glb` 为实际显示资产。修改场地时同时更新Blender源和布局，再运行 `node scripts/audit-roadster-blender.mjs` 核对二进制顶点。
+`src/roadster/` 包含独立输入、运动、预测、呈现和声音。`public/assets/coastal-interchange-layout.json` 是场地几何契约，`coastal-interchange.glb` 为实际显示资产。修改场地时同时更新Blender源和布局，再运行 `node scripts/audit-coastal-blender.mjs` 核对凸性与二进制顶点。
 
-推送main后由GitHub Actions执行锁定依赖安装、规则检查、相对路径构建和Pages部署，见 [部署说明](docs/DEPLOYMENT.md)。开发调试接口仅出现在开发构建。
+推送main后由GitHub Actions执行锁定依赖安装、规则检查、相对路径构建和Pages部署，见 [部署说明](docs/DEPLOYMENT.md)。开发推进接口仅在开发构建；显式 `?qa=1` 的生产观察入口只返回状态深拷贝，普通入口关闭。
 
 ## 历史原型
 
