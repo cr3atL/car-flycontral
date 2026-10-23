@@ -1,0 +1,26 @@
+{
+  "constructedVia": "Live Blender MCP",
+  "scene": "FirstSpan_Coast_Source_v5",
+  "meshes": 5,
+  "triangles": 145895,
+  "blenderBounds": {
+    "min": [
+      -128.33042907714844,
+      -330.0,
+      -13.975151062011719
+    ],
+    "max": [
+      183.6264190673828,
+      -62.0,
+      14.851561546325684
+    ]
+  },
+  "materials": [
+    "FS_Coastal_Earth.002",
+    "FS_Coastal_Shrub.004",
+    "FS_Fractured_Warm_Limestone.002",
+    "FS_Quiet_Route_Paint.004",
+    "FS_Weathered_Wood.004"
+  ],
+  "sourceFileUnchanged": "D:\\project\\car-flycontral\\assets\\blender\\roadster-gt-library.blend"
+}

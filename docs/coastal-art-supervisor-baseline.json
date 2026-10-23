@@ -1,0 +1,246 @@
+{
+  "head": "cfde14818f24e800113140d6f350b42b71561515",
+  "scope": "Art slice only; original source and layout hashes for independent preservation audit",
+  "files": [
+    {
+      "path": "public/assets/coastal-interchange-layout.json",
+      "sha256": "224e7433a2e5f063eba9794ef2f94b6fb6d42bae5db723164d58ab2ef0f8417a"
+    },
+    {
+      "path": "src/art-config.js",
+      "sha256": "fc5cf7e5ce69879cfc1508011f03e3d9e0d6737c2865670880bde18d7df9600d"
+    },
+    {
+      "path": "src/art-geometry.js",
+      "sha256": "98ba39f83c47588bcfaab751a02424cfc42cf4fa6ef1ecca68980674d19c300f"
+    },
+    {
+      "path": "src/audio.js",
+      "sha256": "7a75e89d209a6b21c6326347c07f92737657dff71733ea3fb42aec35d578ab3b"
+    },
+    {
+      "path": "src/car-art.js",
+      "sha256": "4ae33301382a81a2f05196408a5e8c37ff602f16c90626f3b4f62e2e3dc27fd7"
+    },
+    {
+      "path": "src/ceiling-model.js",
+      "sha256": "fce3b2ddbf1300adc5ba2a480299e0d7e3f14d7044d6d81a027752570e648f51"
+    },
+    {
+      "path": "src/challenge-config.js",
+      "sha256": "aedc28159742986ba20f5ed39efe54b0e6f130f68506f4986393b2b1a6b7c473"
+    },
+    {
+      "path": "src/challenge-course.js",
+      "sha256": "56993c51fcde00dfa4b55856a0d78defee08149ed188897708359dc3b8aa4229"
+    },
+    {
+      "path": "src/challenge-scenario.js",
+      "sha256": "c74ef10cd7b74cae87a36608a136202a055b8691c455d3c953d92b4caf9778e4"
+    },
+    {
+      "path": "src/challenge.js",
+      "sha256": "b579a1052971f79593e54929d95242480437c238a8e42dd0caa074b5a5dec7b8"
+    },
+    {
+      "path": "src/city-art.js",
+      "sha256": "c20b4bbc0ad0bdeb171d0c2a734a6bd1b3cbfd37229efb1e29c6bdd290c81659"
+    },
+    {
+      "path": "src/config.js",
+      "sha256": "0d238911873c7b55ddfd3595abc92e30e97819542aea3f76b5002ac6137b667b"
+    },
+    {
+      "path": "src/drive-feedback.js",
+      "sha256": "f66aa1ea88fa6066ef327adb6662376f46ed2d5b1c936cd8557bd4ac57fb032d"
+    },
+    {
+      "path": "src/feedback-config.js",
+      "sha256": "6b705c28e3271da2ae44c63471686cde299d0049010dfe4693c96fd95f0e5f83"
+    },
+    {
+      "path": "src/feedback-model.js",
+      "sha256": "04527713aed62116822ff2c58cee80a0f825723149c0163f940e6beb4eace2dd"
+    },
+    {
+      "path": "src/feedback.js",
+      "sha256": "efb05894691df2c603d9546054fdf1189245b689d3042f5f621d0e5bdbc37725"
+    },
+    {
+      "path": "src/flight-audio.js",
+      "sha256": "b8839b5f9dfce876dd8ae872b5d70bc34d9c1c135f67d442e23e8eef21130fc0"
+    },
+    {
+      "path": "src/flight-effects.js",
+      "sha256": "89e376482db9a4e2b0ff29a625890e5c7d91ffd01ec046d11b223b981c9ba43f"
+    },
+    {
+      "path": "src/flow-model.js",
+      "sha256": "35931acbfee1e8a0359b705d9e7364d6edf2da0f706354aacf395d92751a9eb0"
+    },
+    {
+      "path": "src/flow-ui.css",
+      "sha256": "154e696bd0a619e7798cf3b520eb83f1d1a32e2033071e93e8e8542632fd70c5"
+    },
+    {
+      "path": "src/hud-model.js",
+      "sha256": "5c16c3539f9c931fda61c77aada199231cbeeb9ebef4238ac39210cc3bcf7f3d"
+    },
+    {
+      "path": "src/input.js",
+      "sha256": "39403710cd884655357b0587c7310a7ec25167e33b3c68497e68e59ba258ce23"
+    },
+    {
+      "path": "src/landing-model.js",
+      "sha256": "5a7c71a24b4115097fe521062a14fa7fbc0eafcca7031ef444895677e24850c1"
+    },
+    {
+      "path": "src/main.js",
+      "sha256": "f94728a4116a112c3f43abbba78e86176dc696bdcf6331f774954cd8a18fe5f0"
+    },
+    {
+      "path": "src/mobile-hud.css",
+      "sha256": "5719b90debecdf4019a168456bc636700d1b978af7b23f5445c6a142a5b01766"
+    },
+    {
+      "path": "src/one-jump-art.js",
+      "sha256": "e094fc3286802021fac65140f914f4ae594283919097aa5dcbc6e7efdb5fc895"
+    },
+    {
+      "path": "src/one-jump-config.js",
+      "sha256": "1b707691b3fc1f1122152a22a05f5364ff542afd0745765169838df5883895b0"
+    },
+    {
+      "path": "src/one-jump.js",
+      "sha256": "83c2ae116205be8b7036c881d19720e1cc011f95d9143628efa855aac99f258f"
+    },
+    {
+      "path": "src/parking-art.js",
+      "sha256": "2e5361996217388bbdb42fca235fe1a3aa4d6f6a365524552796a3e7ba74fc5a"
+    },
+    {
+      "path": "src/parking-audio.js",
+      "sha256": "7980863305afd8aeb6a5b32e24dc1f012d1cfbbc344de3cc10d5f93fe3465ab3"
+    },
+    {
+      "path": "src/parking-config.js",
+      "sha256": "f10101ebbb0f337e7850465926f7c80f0dcaf635584689251eeb4e8cdfbbc90e"
+    },
+    {
+      "path": "src/parking.css",
+      "sha256": "f784dbc435f02231daaf0d44ed9d8e4e61e0907fb083a92a09b69f59f1a1ab5c"
+    },
+    {
+      "path": "src/parking.js",
+      "sha256": "18a044cb1bf8023f48fd4c8b970645f8d1e052ddedb14ecb8e658eab0e9cc9f9"
+    },
+    {
+      "path": "src/particles.js",
+      "sha256": "6ecba52d66d716fc216faded5e0b74bcc72f58277409cb6f8dcd5883096835dc"
+    },
+    {
+      "path": "src/pc-hud.css",
+      "sha256": "b3f1db06887a69d1f6c5132fbce09ab8cd54a7d5ba7616ed1de61d5c32f8bac3"
+    },
+    {
+      "path": "src/presentation-model.js",
+      "sha256": "25da896d123c2f6bcc6dfb8419df42033b9cf81271bb99e293514097b1ea823a"
+    },
+    {
+      "path": "src/roadster-entry.css",
+      "sha256": "75e8f15663f4de4456d819e9bc704b4f6a20e34f0b7a15f1e55767792c9033c8"
+    },
+    {
+      "path": "src/roadster/audio.js",
+      "sha256": "f93ace31f0373553a075e092bbb4a071923487d0c136eebf0dae6b293cfd6d5e"
+    },
+    {
+      "path": "src/roadster/config.js",
+      "sha256": "08a49bf8ab5f99c1eb8c9284a465d4c27b633e24ab4252f5fb20da533cb202ca"
+    },
+    {
+      "path": "src/roadster/geometry.js",
+      "sha256": "6cf2ad230dc9f962010ac4559cd4ea9b49a82334ce3ad24053403bbfad536332"
+    },
+    {
+      "path": "src/roadster/input.js",
+      "sha256": "b0220bf36b9dc310928e95178963fe131f63370ba79c71f3b769ad352ad95ae4"
+    },
+    {
+      "path": "src/roadster/main.js",
+      "sha256": "9c52d67bd35f86d3c641aa969f3098d67891317ce45dcef093eabdc914ed15f6"
+    },
+    {
+      "path": "src/roadster/simulation.js",
+      "sha256": "503dad1a8e114374e61be71cdaa6a0c173850412c856c5f50bcf27d155d1ce4f"
+    },
+    {
+      "path": "src/roadster/style.css",
+      "sha256": "d97a20f4422492a5e17491945c4deb529d7783b1f35418dfc98ed3c20b974775"
+    },
+    {
+      "path": "src/roadster/world.js",
+      "sha256": "3f35e105a9e6f03101cf996734139d336618f7386b9c0f940136555c11e91672"
+    },
+    {
+      "path": "src/scenarios.js",
+      "sha256": "2839eee80e069fe68a3b94ceb59fe6f2100bb7754001bbf3c1303835e3cd88e8"
+    },
+    {
+      "path": "src/score-config.js",
+      "sha256": "c96c35b6d7faf679793cc7ef508a7c0e8c516b753269f461648131bc9267ba48"
+    },
+    {
+      "path": "src/scoring.js",
+      "sha256": "33e8cd69e1ebbf1a8c03eaf1dbb0d369384c89c6f3b33e0d0a2a8e5ba6222084"
+    },
+    {
+      "path": "src/simulation.js",
+      "sha256": "6ba386f0fd98eac43954e59be24b1bc45a5a813faa11f317ec0ec5ad988eda78"
+    },
+    {
+      "path": "src/speed-lines.js",
+      "sha256": "34957cd65f652d6495a430e1740c5de3ad305032d2c8b9d8a23b1f0c931c7153"
+    },
+    {
+      "path": "src/sprint-art.js",
+      "sha256": "e0d3e1fa0dbc8c301ef7d961475749ebcacf75c7b0eca822ddbb01d647f384f3"
+    },
+    {
+      "path": "src/sprint-config.js",
+      "sha256": "2717dd36a7bcaae246c619c314f994d4c40c5ae0a9032aaf6bf7fba448f0507e"
+    },
+    {
+      "path": "src/sprint-visuals.js",
+      "sha256": "43b0911e74eaeb0418a7937ac1b038462e55332edb5af738ec9b6b56141f15f0"
+    },
+    {
+      "path": "src/sprint.js",
+      "sha256": "7fd775a944dbf2645dd06c558f71832db269d7e841667cf070b9635d56d1325d"
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "a83f4ce89541cb385a1b77d090b6de7c48ebef5da9302b989c80467c32b7350a"
+    },
+    {
+      "path": "src/supply-art.js",
+      "sha256": "1bc52ec246f06c7307bae2ecd910a27d7153e17fa9911a1c314d931a56b1c931"
+    },
+    {
+      "path": "src/supply-config.js",
+      "sha256": "413402a1fb2b37d46869b04a0421887be9f04ae9d1b1ca0dac25024a74a68ef4"
+    },
+    {
+      "path": "src/touch-layout.js",
+      "sha256": "2c9665e143f88b57d67d1616af532b4a0290ee0b4068e9cd9090ef01ebfd30a7"
+    },
+    {
+      "path": "src/vehicle-feedback.js",
+      "sha256": "a054efd48a4e4fbf7d38f28c4ee6a9919e40e2209e4f5fbdc677504df90cde61"
+    },
+    {
+      "path": "src/world.js",
+      "sha256": "4d9a8649d9925ba7c19023de5cad34d458783bdb7bd141af36b0363298a31640"
+    }
+  ]
+}

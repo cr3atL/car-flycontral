@@ -1,0 +1,2481 @@
+{
+  "method": "Actual production render loop. Native keyboard/CDP touch. Read-only getState observations; no simulation stepping/state injection.",
+  "viewport": {
+    "width": 844,
+    "height": 390
+  },
+  "actions": [
+    {
+      "wallMs": 5352,
+      "observed": {
+        "time": 0.45000000000000057,
+        "x": 0,
+        "y": 0,
+        "z": 12,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "speed": 0,
+        "pressure": 100,
+        "group": "start",
+        "surface": "start",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 6710,
+      "observed": {
+        "time": 1.824999999999996,
+        "x": 0,
+        "y": 0,
+        "z": 19.510671816439736,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 11.581435207758147,
+        "speed": 11.581435207758147,
+        "pressure": 100,
+        "group": "start",
+        "surface": "start",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 7990,
+      "observed": {
+        "time": 3.108333333333325,
+        "x": 0,
+        "y": 0,
+        "z": 22.097674591559738,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": -3.35244044903426,
+        "speed": 3.35244044903426,
+        "pressure": 100,
+        "group": "start",
+        "surface": "start",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 8609,
+      "observed": {
+        "time": 3.7333333333333227,
+        "x": 0,
+        "y": 0,
+        "z": 19.406803835533236,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": -5.074837260383978,
+        "speed": 5.074837260383978,
+        "pressure": 100,
+        "group": "start",
+        "surface": "start",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 8972,
+      "observed": {
+        "time": 0.14166666666666666,
+        "x": 0,
+        "y": 0,
+        "z": 12,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "speed": 0,
+        "pressure": 100,
+        "group": "start",
+        "surface": "start",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10259,
+      "observed": {
+        "time": 1.4249999999999974,
+        "x": 3.5791274301541245,
+        "y": 0,
+        "z": 17.86333968053873,
+        "heading": 1.0281572833844574,
+        "pitch": 0,
+        "roll": -0.061907950901829364,
+        "vx": 0,
+        "vy": 0,
+        "vz": 4.8690178852022425,
+        "speed": 4.8690178852022425,
+        "pressure": 100,
+        "group": "start",
+        "surface": "start",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11688,
+      "observed": {
+        "time": 2.858333333333326,
+        "x": 3.579432019068337,
+        "y": 0,
+        "z": 19.462561067364348,
+        "heading": 1.0683615746564248,
+        "pitch": 0,
+        "roll": -0.0000032527423307785997,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0.8242698732658208,
+        "speed": 0.8242698732658208,
+        "pressure": 100,
+        "group": "start",
+        "surface": "start",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12140,
+      "observed": {
+        "time": 3.3083333333333242,
+        "x": 3.1295665125184446,
+        "y": 0,
+        "z": 19.3251078449172,
+        "heading": 1.0683614909421553,
+        "pitch": 0,
+        "roll": -1.3938692702431665e-7,
+        "vx": -1.9418959784109935,
+        "vy": 0,
+        "vz": -1.047626136231795,
+        "speed": 2.2064633494089017,
+        "pressure": 100,
+        "group": "start",
+        "surface": "start",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12379,
+      "observed": {
+        "time": 3.3083333333333242,
+        "x": 3.1295665125184446,
+        "y": 0,
+        "z": 19.3251078449172,
+        "heading": 1.0683614909421553,
+        "pitch": 0,
+        "roll": -1.3938692702431665e-7,
+        "vx": -1.9418959784109935,
+        "vy": 0,
+        "vz": -1.047626136231795,
+        "speed": 2.2064633494089017,
+        "pressure": 100,
+        "group": "start",
+        "surface": "start",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17522,
+      "observed": {
+        "time": 5.275000000000052,
+        "x": 0,
+        "y": 0,
+        "z": 101.29758503455957,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 27.017114172924522,
+        "speed": 27.017114172924522,
+        "pressure": 100,
+        "group": "runway",
+        "surface": "runway",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": true
+      }
+    },
+    {
+      "wallMs": 18021,
+      "observed": {
+        "time": 5.766666666666743,
+        "x": 0,
+        "y": 0.8447598370979997,
+        "z": 115.22039191965241,
+        "heading": 0,
+        "pitch": -0.10235595578578555,
+        "roll": 0,
+        "vx": 0,
+        "vy": 4.918732984982673,
+        "vz": 30.252922844765706,
+        "speed": 30.252922844765706,
+        "pressure": 91.16826129735423,
+        "group": null,
+        "surface": null,
+        "grounded": false,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 19668,
+      "observed": {
+        "time": 7.391666666666824,
+        "x": 0,
+        "y": 0,
+        "z": 175.53393514126057,
+        "heading": 0,
+        "pitch": -0.03231440473861009,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 41.70055081866941,
+        "speed": 41.70055081866941,
+        "pressure": 80.18399424400008,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 20041,
+      "observed": {
+        "time": 7.391666666666824,
+        "x": 0,
+        "y": 0,
+        "z": 175.53393514126057,
+        "heading": 0,
+        "pitch": -0.03231440473861009,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 41.70055081866941,
+        "speed": 41.70055081866941,
+        "pressure": 80.18399424400008,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    }
+  ],
+  "phases": [
+    {
+      "name": "forward",
+      "wallMs": 6687,
+      "time": 1.8083333333333294,
+      "x": 0,
+      "y": 0,
+      "z": 19.318186734104778,
+      "vx": 0,
+      "vy": 0,
+      "vz": 11.45192085450387,
+      "speed": 11.45192085450387,
+      "heading": 0,
+      "pitch": 0,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "start",
+      "group": "start",
+      "route": "main",
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastContact": null,
+      "lastLanding": null,
+      "events": [],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false,
+        "keys": [],
+        "pointers": [
+          {
+            "id": 2,
+            "kind": "stick",
+            "x": 102,
+            "y": 296,
+            "axes": {
+              "steer": 0,
+              "throttle": 1
+            }
+          }
+        ]
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 0,
+          "y": 5.2,
+          "z": 5.6263014837629335,
+          "heading": 0
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                0.608973918272987,
+                0,
+                0,
+                -0.793190246323822
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                0.608973918272987,
+                0,
+                0,
+                -0.793190246323822
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                0.608973918272987,
+                0,
+                0,
+                -0.793190246323822
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                0.608973918272987,
+                0,
+                0,
+                -0.793190246323822
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 2.579799999999812,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "mobile 64px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "continuous-reverse",
+      "wallMs": 7957,
+      "time": 3.0666666666666584,
+      "x": 0,
+      "y": 0,
+      "z": 22.234830466985223,
+      "vx": 0,
+      "vy": 0,
+      "vz": -3.1995519876364455,
+      "speed": 3.1995519876364455,
+      "heading": 0,
+      "pitch": 0,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "start",
+      "group": "start",
+      "route": "main",
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": true,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastContact": null,
+      "lastLanding": null,
+      "events": [],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false,
+        "keys": [],
+        "pointers": [
+          {
+            "id": 2,
+            "kind": "stick",
+            "x": 102,
+            "y": 296,
+            "axes": {
+              "steer": 0,
+              "throttle": -1
+            }
+          }
+        ]
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 0,
+          "y": 5.2,
+          "z": 11.442955259453624,
+          "heading": 0
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.3776900509028044,
+                0,
+                0,
+                0.9259320846849606
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.3776900509028044,
+                0,
+                0,
+                0.9259320846849606
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.3776900509028044,
+                0,
+                0,
+                0.9259320846849606
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.3776900509028044,
+                0,
+                0,
+                0.9259320846849606
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 3.8439999999999994,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "mobile 64px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "guard-contact",
+      "wallMs": 10243,
+      "time": 1.4083333333333308,
+      "x": 3.579603482744811,
+      "y": 0,
+      "z": 17.781801852915518,
+      "vx": 0,
+      "vy": 0,
+      "vz": 5.330881111524974,
+      "speed": 5.330881111524974,
+      "heading": 1.0222611507629604,
+      "pitch": 0,
+      "roll": -0.06525647085562246,
+      "reference": 1.0222611507629604,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "start",
+      "group": "start",
+      "route": "main",
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastContact": {
+        "id": "approach-rail-1-14.0",
+        "normal": {
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        "impact": 0.27141695711764635,
+        "position": {
+          "x": 3.579603482744811,
+          "y": 0,
+          "z": 17.737377843652812
+        },
+        "kind": "guardrail",
+        "time": 1.4083333333333308
+      },
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "contact",
+          "time": 1.3916666666666642,
+          "x": 3.5803931399833075,
+          "y": 0,
+          "z": 17.69236924350069,
+          "pressure": 100,
+          "id": "approach-rail-1-14.0",
+          "normal": {
+            "x": -1,
+            "y": 0,
+            "z": 0
+          },
+          "impact": 9.5695977801388,
+          "position": {
+            "x": 3.5803931399833075,
+            "y": 0,
+            "z": 17.689978719713785
+          },
+          "kind": "guardrail"
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false,
+        "keys": [],
+        "pointers": [
+          {
+            "id": 3,
+            "kind": "stick",
+            "x": 102,
+            "y": 296,
+            "axes": {
+              "steer": 1,
+              "throttle": 1
+            }
+          }
+        ]
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": -2.0826446530732223,
+          "y": 5.2,
+          "z": 5.84503749118014,
+          "heading": 0.49297196855727693
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.8996468199566932,
+                -0.06383661784989139,
+                0.14062528099423385,
+                -0.4083932123684099
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.8996468199566932,
+                -0.06383661784989139,
+                0.14062528099423385,
+                -0.4083932123684099
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.9105711780596275,
+                0,
+                0,
+                -0.4133523069817105
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.9105711780596275,
+                0,
+                0,
+                -0.4133523069817105
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 5.969299999999811,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "mobile 64px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "guard-reverse-escape",
+      "wallMs": 12128,
+      "time": 3.2916666666666576,
+      "x": 3.1616542929144664,
+      "y": 0,
+      "z": 19.342403413097617,
+      "vx": -1.8751768976844743,
+      "vy": 0,
+      "vz": -1.0078291260295398,
+      "speed": 2.1288513205207718,
+      "heading": 1.068361493303255,
+      "pitch": 0,
+      "roll": -1.5663533243248394e-7,
+      "reference": 1.068361493303255,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "start",
+      "group": "start",
+      "route": "main",
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": true,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastContact": {
+        "id": "approach-rail-1-14.0",
+        "normal": {
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        "impact": 0.10861615497582994,
+        "position": {
+          "x": 3.579432019068337,
+          "y": 0,
+          "z": 19.480274754736982
+        },
+        "kind": "guardrail",
+        "time": 2.891666666666659
+      },
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "contact",
+          "time": 1.3916666666666642,
+          "x": 3.5803931399833075,
+          "y": 0,
+          "z": 17.69236924350069,
+          "pressure": 100,
+          "id": "approach-rail-1-14.0",
+          "normal": {
+            "x": -1,
+            "y": 0,
+            "z": 0
+          },
+          "impact": 9.5695977801388,
+          "position": {
+            "x": 3.5803931399833075,
+            "y": 0,
+            "z": 17.689978719713785
+          },
+          "kind": "guardrail"
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false,
+        "keys": [],
+        "pointers": [
+          {
+            "id": 3,
+            "kind": "stick",
+            "x": 102,
+            "y": 296,
+            "axes": {
+              "steer": 0,
+              "throttle": -1
+            }
+          }
+        ]
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": -6.2133718633475965,
+          "y": 5.2,
+          "z": 13.818087937324789,
+          "heading": 1.0522433146607137
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.9926911928176518,
+                1.1659985864652372e-8,
+                9.591111497895565e-8,
+                0.12068220955160829
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.9926911928176518,
+                1.1659985864652372e-8,
+                9.591111497895565e-8,
+                0.12068220955160829
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.9926911928176565,
+                0,
+                0,
+                0.12068220955160885
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.9926911928176565,
+                0,
+                0,
+                0.12068220955160885
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 7.852099999999624,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "mobile 64px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "first-approach",
+      "wallMs": 17507,
+      "time": 5.266666666666718,
+      "x": 0,
+      "y": 0,
+      "z": 101.07244241645186,
+      "vx": 0,
+      "vy": 0,
+      "vz": 27.00360130717298,
+      "speed": 27.00360130717298,
+      "heading": 0,
+      "pitch": 0,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "runway",
+      "group": "runway",
+      "route": "main",
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastContact": null,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.1666666666666616,
+          "x": 0,
+          "y": 0,
+          "z": 30.072066974072264,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false,
+        "keys": [],
+        "pointers": [
+          {
+            "id": 4,
+            "kind": "stick",
+            "x": 102,
+            "y": 296,
+            "axes": {
+              "steer": 0,
+              "throttle": 1
+            }
+          }
+        ]
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 0,
+          "y": 5.2,
+          "z": 82.69198935454762,
+          "heading": 0
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.702082274539633,
+                0,
+                0,
+                -0.7120958360903786
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.702082274539633,
+                0,
+                0,
+                -0.7120958360903786
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.702082274539633,
+                0,
+                0,
+                -0.7120958360903786
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.702082274539633,
+                0,
+                0,
+                -0.7120958360903786
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 13.186299999998877,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "mobile 64px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "first-flight",
+      "wallMs": 18001,
+      "time": 5.7500000000000755,
+      "x": 0,
+      "y": 0.7648746826228775,
+      "z": 114.7167762939046,
+      "vx": 0,
+      "vy": 4.667538990990482,
+      "vz": 30.108976722352512,
+      "speed": 30.108976722352512,
+      "heading": 0,
+      "pitch": -0.10261097403600458,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 91.56681848133343,
+      "grounded": false,
+      "surface": null,
+      "group": null,
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": true
+      },
+      "jets": {
+        "lift": 26.851052760639462,
+        "forward": 8.998042542332238,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 26.851052760639462,
+        "forward": 8.998042542332238,
+        "side": 0,
+        "brake": 0,
+        "cost": 23.8993968686478
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastContact": null,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.1666666666666616,
+          "x": 0,
+          "y": 0,
+          "z": 30.072066974072264,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "takeoff",
+          "time": 5.366666666666723,
+          "x": 0,
+          "y": 0,
+          "z": 103.7814702044567,
+          "pressure": 99.7435073100457,
+          "from": "runway",
+          "group": "runway",
+          "vx": 0,
+          "vz": 27.162560786542148
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": true,
+        "keys": [],
+        "pointers": [
+          {
+            "id": 4,
+            "kind": "stick",
+            "x": 102,
+            "y": 296,
+            "axes": {
+              "steer": 0,
+              "throttle": 1
+            }
+          },
+          {
+            "id": 5,
+            "kind": "jet",
+            "x": 771,
+            "y": 308,
+            "axes": {
+              "throttle": 0,
+              "steer": 0
+            }
+          }
+        ]
+      },
+      "prediction": {
+        "trace": [
+          {
+            "x": 0,
+            "y": 0.4870636706268902,
+            "z": 112.72630788346368
+          },
+          {
+            "x": 0,
+            "y": 0.5181532794670165,
+            "z": 112.9730167411673
+          },
+          {
+            "x": 0,
+            "y": 1.2561683526024159,
+            "z": 117.5163421191121
+          },
+          {
+            "x": 0,
+            "y": 2.3348023925240295,
+            "z": 122.25381320139431
+          },
+          {
+            "x": 0,
+            "y": 3.7552081491908083,
+            "z": 127.1850916329716
+          },
+          {
+            "x": 0,
+            "y": 5.517576170889362,
+            "z": 132.30982925570203
+          },
+          {
+            "x": 0,
+            "y": 7.62193795503962,
+            "z": 137.62767815358225
+          },
+          {
+            "x": 0,
+            "y": 10.06829870813008,
+            "z": 143.13829102216215
+          },
+          {
+            "x": 0,
+            "y": 12.856659290787503,
+            "z": 148.84132118108616
+          },
+          {
+            "x": 0,
+            "y": 15.98701984527253,
+            "z": 154.7364225734739
+          },
+          {
+            "x": 0,
+            "y": 19.459380395100702,
+            "z": 160.82324976481746
+          },
+          {
+            "x": 0,
+            "y": 23.273740944159094,
+            "z": 167.10145794186278
+          },
+          {
+            "x": 0,
+            "y": 27.430101493090238,
+            "z": 173.57070291149248
+          },
+          {
+            "x": 0,
+            "y": 31.92846204200035,
+            "z": 180.23064109961032
+          },
+          {
+            "x": 0,
+            "y": 36.768822590906986,
+            "z": 187.08092955002812
+          },
+          {
+            "x": 0,
+            "y": 41.95118313981304,
+            "z": 194.12122592335433
+          },
+          {
+            "x": 0,
+            "y": 47.47554368871901,
+            "z": 201.35118849588483
+          },
+          {
+            "x": 0,
+            "y": 53.341904237624966,
+            "z": 208.77047615849577
+          },
+          {
+            "x": 0,
+            "y": 59.550264786530924,
+            "z": 216.37874841553776
+          },
+          {
+            "x": 0,
+            "y": 66.10062533543686,
+            "z": 224.17566538373316
+          },
+          {
+            "x": 0,
+            "y": 72.99298588434277,
+            "z": 232.1608877910745
+          },
+          {
+            "x": 0,
+            "y": 80.2273464332487,
+            "z": 240.334076975725
+          },
+          {
+            "x": 0,
+            "y": 87.80370698215461,
+            "z": 248.69489488492144
+          },
+          {
+            "x": 0,
+            "y": 95.72206753106052,
+            "z": 257.24300407387835
+          },
+          {
+            "x": 0,
+            "y": 103.98242807996643,
+            "z": 265.9780677046952
+          },
+          {
+            "x": 0,
+            "y": 112.58478862887232,
+            "z": 274.8997495452644
+          },
+          {
+            "x": 0,
+            "y": 121.52914917777822,
+            "z": 284.00771396818203
+          },
+          {
+            "x": 0,
+            "y": 130.80624340018548,
+            "z": 293.2975605035843
+          },
+          {
+            "x": 0,
+            "y": 140.02534141281262,
+            "z": 302.63513750608837
+          },
+          {
+            "x": 0,
+            "y": 148.97893942543973,
+            "z": 311.9559211488641
+          },
+          {
+            "x": 0,
+            "y": 157.66703743806684,
+            "z": 321.25994163427896
+          },
+          {
+            "x": 0,
+            "y": 166.08963545069398,
+            "z": 330.5472291103823
+          },
+          {
+            "x": 0,
+            "y": 174.24673346332105,
+            "z": 339.8178136710028
+          },
+          {
+            "x": 0,
+            "y": 182.13833147594815,
+            "z": 349.0717253558465
+          },
+          {
+            "x": 0,
+            "y": 189.76442948857525,
+            "z": 358.3089941505941
+          },
+          {
+            "x": 0,
+            "y": 197.12502750120234,
+            "z": 367.52964998699764
+          },
+          {
+            "x": 0,
+            "y": 204.2201255138294,
+            "z": 376.7337227429779
+          },
+          {
+            "x": 0,
+            "y": 211.04972352645643,
+            "z": 385.92124224272084
+          },
+          {
+            "x": 0,
+            "y": 217.61382153908352,
+            "z": 395.09223825677486
+          },
+          {
+            "x": 0,
+            "y": 223.91241955171054,
+            "z": 404.24674050214685
+          },
+          {
+            "x": 0,
+            "y": 229.9455175643376,
+            "z": 413.3847786423983
+          },
+          {
+            "x": 0,
+            "y": 235.7131155769646,
+            "z": 422.50638228774187
+          },
+          {
+            "x": 0,
+            "y": 241.21521358959166,
+            "z": 431.611580995137
+          },
+          {
+            "x": 0,
+            "y": 246.45181160221867,
+            "z": 440.7004042683857
+          },
+          {
+            "x": 0,
+            "y": 251.42290961484565,
+            "z": 449.77288155822845
+          },
+          {
+            "x": 0,
+            "y": 256.1285076274727,
+            "z": 458.82904226243926
+          },
+          {
+            "x": 0,
+            "y": 260.56860564009963,
+            "z": 467.86891572592145
+          },
+          {
+            "x": 0,
+            "y": 264.74320365272666,
+            "z": 476.89253124080216
+          },
+          {
+            "x": 0,
+            "y": 268.65230166535366,
+            "z": 485.8999180465272
+          },
+          {
+            "x": 0,
+            "y": 272.2958996779807,
+            "z": 494.8911053299564
+          },
+          {
+            "x": 0,
+            "y": 275.67399769060773,
+            "z": 503.866122225458
+          },
+          {
+            "x": 0,
+            "y": 278.78659570323475,
+            "z": 512.8249978150028
+          },
+          {
+            "x": 0,
+            "y": 281.6336937158618,
+            "z": 521.7677611282584
+          },
+          {
+            "x": 0,
+            "y": 284.2152917284888,
+            "z": 530.6944411426832
+          },
+          {
+            "x": 0,
+            "y": 286.53138974111585,
+            "z": 539.6050667836212
+          },
+          {
+            "x": 0,
+            "y": 288.58198775374285,
+            "z": 548.4996669243941
+          },
+          {
+            "x": 0,
+            "y": 290.3670857663699,
+            "z": 557.3782703863968
+          },
+          {
+            "x": 0,
+            "y": 291.8866837789969,
+            "z": 566.2409059391889
+          }
+        ],
+        "x": 0,
+        "y": 292.47683845127557,
+        "z": 570.1747370849346,
+        "time": 8.474999999999763,
+        "heading": 0,
+        "safe": false,
+        "reason": "驶出试驾区",
+        "surface": null,
+        "group": null
+      },
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 0,
+          "y": 5.718177270904042,
+          "z": 96.20090807286468,
+          "heading": 0
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                0.9996716153542081,
+                0,
+                0,
+                -0.025625406437913365
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                0.9996716153542081,
+                0,
+                0,
+                -0.025625406437913365
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                0.9996716153542081,
+                0,
+                0,
+                -0.025625406437913365
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                0.9996716153542081,
+                0,
+                0,
+                -0.025625406437913365
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 13.676299999998877,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "mobile 64px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "first-landing",
+      "wallMs": 19623,
+      "time": 7.325000000000154,
+      "x": 0,
+      "y": 0,
+      "z": 172.74452132898278,
+      "vx": 0,
+      "vy": 0,
+      "vz": 42.022895586019565,
+      "speed": 42.022895586019565,
+      "heading": 0,
+      "pitch": -0.05508329153744336,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 80.19867405993067,
+      "grounded": true,
+      "surface": "landing",
+      "group": "landing",
+      "route": "main",
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0.6911198062107129,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0.6911198062107129,
+        "side": 0,
+        "brake": 0,
+        "cost": 0.4607465374738086
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 1,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "landing"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastContact": null,
+      "lastLanding": {
+        "time": 7.208333333333481,
+        "surface": "landing",
+        "group": "landing",
+        "impact": 8.957609931622743,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.1666666666666616,
+          "x": 0,
+          "y": 0,
+          "z": 30.072066974072264,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "takeoff",
+          "time": 5.366666666666723,
+          "x": 0,
+          "y": 0,
+          "z": 103.7814702044567,
+          "pressure": 99.7435073100457,
+          "from": "runway",
+          "group": "runway",
+          "vx": 0,
+          "vz": 27.162560786542148
+        },
+        {
+          "type": "landing",
+          "time": 7.208333333333481,
+          "x": 0,
+          "y": 0,
+          "z": 167.81083531208157,
+          "pressure": 80.42808291975264,
+          "surface": "landing",
+          "group": "landing",
+          "impact": 8.957609931622743,
+          "safe": true,
+          "flight": 1
+        },
+        {
+          "type": "ground-stage",
+          "time": 7.208333333333481,
+          "x": 0,
+          "y": 0,
+          "z": 167.81083531208157,
+          "pressure": 80.42808291975264,
+          "surface": "landing",
+          "group": "landing",
+          "route": "main"
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false,
+        "keys": [],
+        "pointers": [
+          {
+            "id": 4,
+            "kind": "stick",
+            "x": 102,
+            "y": 296,
+            "axes": {
+              "steer": 0,
+              "throttle": 1
+            }
+          }
+        ]
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 0,
+          "y": 5.7246308635320835,
+          "z": 150.90254237370638,
+          "heading": 0
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                0.9989591162241785,
+                0,
+                0,
+                0.045614516467984714
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                0.9989591162241785,
+                0,
+                0,
+                0.045614516467984714
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                0.9989591162241785,
+                0,
+                0,
+                0.045614516467984714
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                0.9989591162241785,
+                0,
+                0,
+                0.045614516467984714
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 15.247899999999435,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "mobile 64px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    }
+  ],
+  "errors": [],
+  "observer": {
+    "dev": false,
+    "keys": [
+      "getState"
+    ]
+  },
+  "reverse": {
+    "forwardV": 11.581435207758147,
+    "reverseV": -3.2919681503501987,
+    "cameraHeading": 0,
+    "bodyHeading": 0
+  },
+  "contact": {
+    "id": "approach-rail-1-14.0",
+    "contactPosition": {
+      "x": 3.579432019068337,
+      "z": 19.462561067364348
+    },
+    "escapePosition": {
+      "x": 3.1295665125184446,
+      "z": 19.3251078449172
+    },
+    "grounded": true
+  },
+  "end": {
+    "time": 7.391666666666824,
+    "x": 0,
+    "y": 0,
+    "z": 175.53393514126057,
+    "vx": 0,
+    "vy": 0,
+    "vz": 41.70055081866941,
+    "speed": 41.70055081866941,
+    "heading": 0,
+    "pitch": -0.03231440473861009,
+    "roll": 0,
+    "reference": 0,
+    "pressure": 80.18399424400008,
+    "grounded": true,
+    "surface": "landing",
+    "group": "landing",
+    "route": "main",
+    "input": {
+      "throttle": 1,
+      "steer": 0,
+      "lift": false
+    },
+    "jets": {
+      "lift": 0,
+      "forward": 0.15943662741418269,
+      "side": 0,
+      "brake": 0
+    },
+    "forces": {
+      "lift": 0,
+      "forward": 0.15943662741418269,
+      "side": 0,
+      "brake": 0,
+      "cost": 0.10629108494278845
+    },
+    "reverse": false,
+    "checkpoint": {
+      "surface": "start",
+      "x": 0,
+      "z": 12,
+      "heading": 0,
+      "y": 0
+    },
+    "visits": {
+      "low": 0,
+      "high": 0,
+      "far": 0,
+      "start": 0,
+      "runway": 0,
+      "landing": 1,
+      "curve": 0,
+      "apron": 0,
+      "ramp": 0,
+      "recovery": 0,
+      "return-ramp": 0,
+      "return-top": 0,
+      "ground-bypass": 0,
+      "lower-bypass": 0
+    },
+    "groundContacts": [
+      "start",
+      "runway",
+      "landing"
+    ],
+    "complete": false,
+    "crashTimer": 0,
+    "reason": "",
+    "recoveryNotice": null,
+    "landingCount": 1,
+    "lastContact": null,
+    "lastLanding": {
+      "time": 7.208333333333481,
+      "surface": "landing",
+      "group": "landing",
+      "impact": 8.957609931622743,
+      "safe": true,
+      "flight": 1
+    },
+    "events": [
+      {
+        "type": "ground-stage",
+        "time": 2.1666666666666616,
+        "x": 0,
+        "y": 0,
+        "z": 30.072066974072264,
+        "pressure": 100,
+        "surface": "runway",
+        "group": "runway",
+        "route": "main"
+      },
+      {
+        "type": "takeoff",
+        "time": 5.366666666666723,
+        "x": 0,
+        "y": 0,
+        "z": 103.7814702044567,
+        "pressure": 99.7435073100457,
+        "from": "runway",
+        "group": "runway",
+        "vx": 0,
+        "vz": 27.162560786542148
+      },
+      {
+        "type": "landing",
+        "time": 7.208333333333481,
+        "x": 0,
+        "y": 0,
+        "z": 167.81083531208157,
+        "pressure": 80.42808291975264,
+        "surface": "landing",
+        "group": "landing",
+        "impact": 8.957609931622743,
+        "safe": true,
+        "flight": 1
+      },
+      {
+        "type": "ground-stage",
+        "time": 7.208333333333481,
+        "x": 0,
+        "y": 0,
+        "z": 167.81083531208157,
+        "pressure": 80.42808291975264,
+        "surface": "landing",
+        "group": "landing",
+        "route": "main"
+      }
+    ],
+    "paused": false,
+    "manual": false,
+    "controls": {
+      "throttle": 1,
+      "steer": 0,
+      "lift": false,
+      "keys": [],
+      "pointers": [
+        {
+          "id": 4,
+          "kind": "stick",
+          "x": 102,
+          "y": 296,
+          "axes": {
+            "steer": 0,
+            "throttle": 1
+          }
+        }
+      ]
+    },
+    "prediction": null,
+    "world": {
+      "asset": "coastal-interchange.glb",
+      "meshes": 438,
+      "rightHanded": false,
+      "camera": {
+        "x": 0,
+        "y": 5.524049162192484,
+        "z": 153.81879161116248,
+        "heading": 0
+      },
+      "assetMeshes": 326,
+      "hero": {
+        "asset": "roadster-gt.glb",
+        "meshes": 83,
+        "wheelPivots": 4,
+        "wheels": [
+          {
+            "name": "GT_Wheel_FL.001",
+            "position": [
+              -0.9900000095367432,
+              0.4300000071525574,
+              1.1799999475479126
+            ],
+            "rotation": [
+              -0.9520626471561892,
+              0,
+              0,
+              0.30590311520144686
+            ]
+          },
+          {
+            "name": "GT_Wheel_FR.001",
+            "position": [
+              0.9900000095367432,
+              0.4300000071525574,
+              1.1799999475479126
+            ],
+            "rotation": [
+              -0.9520626471561892,
+              0,
+              0,
+              0.30590311520144686
+            ]
+          },
+          {
+            "name": "GT_Wheel_RL.001",
+            "position": [
+              -0.9900000095367432,
+              0.4300000071525574,
+              -1.1799999475479126
+            ],
+            "rotation": [
+              -0.9520626471561892,
+              0,
+              0,
+              0.30590311520144686
+            ]
+          },
+          {
+            "name": "GT_Wheel_RR.001",
+            "position": [
+              0.9900000095367432,
+              0.4300000071525574,
+              -1.1799999475479126
+            ],
+            "rotation": [
+              -0.9520626471561892,
+              0,
+              0,
+              0.30590311520144686
+            ]
+          }
+        ],
+        "triangles": 33180,
+        "mode": "Blender MCP curved 3D geometry"
+      },
+      "visuals": {
+        "hdr": "local CC0 Kloppenheim 06 1K",
+        "ocean": {
+          "type": "animated multi-wave HDR reflection",
+          "time": 15.318199999999248,
+          "contacts": 12
+        },
+        "coast": "firstspan-coast.glb",
+        "quality": "mobile 64px IBL",
+        "sun": [
+          0.4811319918377679,
+          0.5512970739807758,
+          0.6816036551035045
+        ]
+      }
+    },
+    "layout": {
+      "version": 2,
+      "name": "滨海立交试驾区",
+      "asset": "coastal-interchange.glb",
+      "surfaces": 154
+    }
+  },
+  "pass": true,
+  "wallMs": 20041
+}

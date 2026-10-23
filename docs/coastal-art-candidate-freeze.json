@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-23 Asia/Shanghai",
+  "base": "cfde14818f24e800113140d6f350b42b71561515",
+  "status": "Frozen final production candidate; authorized native browser tests passed; supervisor visual acceptance and deployment pending",
+  "files": [
+    {
+      "path": "package.json",
+      "bytes": 1769,
+      "sha256": "08431c95db6a5d138dad4a5a01da3e3c4194acbdc43629154deaf6e50f7ef4a2"
+    },
+    {
+      "path": "roadster.html",
+      "bytes": 2361,
+      "sha256": "c4284f36f9bfa3b2c95d49a496e08575867ceab5ec26eb1457706302348422fa"
+    },
+    {
+      "path": "src/roadster/main.js",
+      "bytes": 8435,
+      "sha256": "9ec5dce3f3591ff5ea9dedd7ac55ea3e16d00db48d614e0fc38e55c355abd510"
+    },
+    {
+      "path": "src/roadster/simulation.js",
+      "bytes": 15949,
+      "sha256": "8370e7e24a1870cf4f5dee60f32e67f9194c5f6557eb000f2b436c8adc352e8b"
+    },
+    {
+      "path": "src/roadster/collision.js",
+      "bytes": 4808,
+      "sha256": "9c1e407327931b0f77282376a892d8f8b7cfcc0dcfcee968f9821d3436121739"
+    },
+    {
+      "path": "src/roadster/world.js",
+      "bytes": 8290,
+      "sha256": "eeb404f59d9c21895f2a1ba96990bfa727508c453d587d76f3ff1118e23e7134"
+    },
+    {
+      "path": "src/roadster/visuals/hero-car.js",
+      "bytes": 2057,
+      "sha256": "7dd233906dcb36bec098fd63750cd5e64f400ebb2c4f32a62d84283bcf66c96b"
+    },
+    {
+      "path": "src/roadster/visuals/environment.js",
+      "bytes": 3527,
+      "sha256": "84f232388adc7e1653b22dca36f0a2779d9974b59d61be482aa0d72b30d1b149"
+    },
+    {
+      "path": "src/roadster/visuals/ocean.js",
+      "bytes": 3983,
+      "sha256": "d851715c5a88109ee0ce37be9ff8b345f5f1ff522925e62943f1d2ba165a4e1d"
+    },
+    {
+      "path": "src/roadster/visuals/sky.js",
+      "bytes": 2049,
+      "sha256": "52525011f66a093406c064a1bbcbc723307e9fadda509353eae3d37d4b4c709c"
+    },
+    {
+      "path": "tests/roadster.test.js",
+      "bytes": 7388,
+      "sha256": "2134bd2e4156efab7515ffada42a233dedfc5e331491b7a12309b55e6a7713b0"
+    },
+    {
+      "path": "tests/coastal-geometry.test.js",
+      "bytes": 9220,
+      "sha256": "bc67845b1e53dc363d13f14087a348d1be8d20b7eedf32d7633e2edaa218f0a3"
+    },
+    {
+      "path": "tests/roadster-contact.test.js",
+      "bytes": 4983,
+      "sha256": "1b370e0ae27cda23a5ba5c1c286a1a2bf459e1f48c5b04e79808646e83513b96"
+    },
+    {
+      "path": "scripts/audit-firstspan-assets.mjs",
+      "bytes": 3892,
+      "sha256": "547a73575551d83ff63d4a94a1d34a42d332f850f6adf2b7b1ef35835d31dfb4"
+    },
+    {
+      "path": "public/assets/roadster-gt.glb",
+      "bytes": 617904,
+      "sha256": "b249fae79d0ae81cda657af4467ca26a32e80e9b6394c0fd7fcb36bb56f27235"
+    },
+    {
+      "path": "public/assets/firstspan-coast.glb",
+      "bytes": 9455324,
+      "sha256": "1971bf4746a26da6f3b0c28254fabc9b521c8074a3cf3183e63119b8b0e59195"
+    },
+    {
+      "path": "public/assets/firstspan/visual-manifest.json",
+      "bytes": 1381,
+      "sha256": "9e6331de3d38fc39dda52801b626aa190c6efa75f57a89e191840f5df22b6533"
+    },
+    {
+      "path": "public/assets/firstspan/shore-contacts.json",
+      "bytes": 1341,
+      "sha256": "87188f6eddb8f19c35eb45a4dbc315ff68c9b657bf4553ea8e39fe08dad59422"
+    },
+    {
+      "path": "public/assets/firstspan/kloppenheim_06_puresky_1k.hdr",
+      "bytes": 1173154,
+      "sha256": "206c67e3a1b992282821cf06662bdd69bbb4915c1c4444a66338a40d6a7d4e34"
+    },
+    {
+      "path": "assets/blender/build_firstspan_car.py",
+      "bytes": 9040,
+      "sha256": "7a3a3cdf09ade84703675c34b4e1167e40f576498867aa6aa8a7139d35c80c31"
+    },
+    {
+      "path": "assets/blender/build_firstspan_coast.py",
+      "bytes": 8678,
+      "sha256": "615ae0d72140145c484f6cd2c99588125ea49ef5f706a03e032c0263b746e013"
+    },
+    {
+      "path": "assets/blender/export_firstspan_scene.py",
+      "bytes": 2066,
+      "sha256": "39d94dbeded1f0ae34cfce51fcf0cb854114c7e5ec0874e80365d793f308ae17"
+    },
+    {
+      "path": "assets/blender/normalize_firstspan_sources.py",
+      "bytes": 927,
+      "sha256": "ec42fe65608219e6b64ed6122a99054742c18546f32a40d29843ae67190648be"
+    },
+    {
+      "path": "assets/blender/roadster-gt.blend",
+      "bytes": 356206,
+      "sha256": "cdf805dd76a835326d9650bc62ac17bd73fe9424db9ea5c8518335b16c35b8e3"
+    },
+    {
+      "path": "assets/blender/firstspan-coast.blend",
+      "bytes": 3924245,
+      "sha256": "614b0b8f4cd6e7333d162aeea908afa30bf8336407ade4668c9dcc59f57f32e6"
+    },
+    {
+      "path": "assets/blender/roadster-gt-library.blend",
+      "bytes": 1994975,
+      "sha256": "77e6bed7db3f8d65eeef432935115c9f4ff83bc47a7648219a49736a10e1801c"
+    },
+    {
+      "path": "assets/blender/firstspan-coast-library.blend",
+      "bytes": 9028291,
+      "sha256": "6a5614302c0a5265d7918703c4798f048f85a044e8c83855b1b4c6ca99d550a9"
+    },
+    {
+      "path": "assets/blender/roadster-gt-mcp-report.json",
+      "bytes": 743,
+      "sha256": "144055f51433e340544d9d008725118f7468b6b344e7578ec7a2c5ec6fc11968"
+    },
+    {
+      "path": "assets/blender/firstspan-coast-mcp-report.json",
+      "bytes": 617,
+      "sha256": "6b76821cd4ca7447511501761502690692a53a14c93cdcd47a127f84af8882f3"
+    },
+    {
+      "path": "assets/blender/firstspan-coast-roots.json",
+      "bytes": 26533,
+      "sha256": "d36a4e3d8adf74bceaa21ffa15e29e11f790d89b894301b70754ba33acfcd307"
+    },
+    {
+      "path": "assets/blender/FIRSTSPAN_SOURCES.txt",
+      "bytes": 6522,
+      "sha256": "31a41448d90f4e2d3e958d25b4dafae21bf9649d6858639fdd759b06698d0078"
+    },
+    {
+      "path": "assets/third-party/polyhaven-kloppenheim06/README.md",
+      "bytes": 630,
+      "sha256": "636361683c0c10891f9656b4e51d5395e6729a1a69090d0b784d6210551bbecf"
+    },
+    {
+      "path": "docs/coastal-art-all-tests.txt",
+      "bytes": 41010,
+      "sha256": "c20ca955ee7ee381771c2fbde3d5e55008c298fcc4162c75b993e018a7161587"
+    },
+    {
+      "path": "docs/coastal-art-contact-tests.txt",
+      "bytes": 10001,
+      "sha256": "ddc7dd0834ca5d24fca28438d2d580edadff73fe1ab67d4ec9c8d48f775735d9"
+    },
+    {
+      "path": "docs/coastal-art-build.txt",
+      "bytes": 20329,
+      "sha256": "1976e7e8e4fc4acc1e64f4a65ab2e8a1f8c7fa145295808a308ddfc4bdff5be1"
+    },
+    {
+      "path": "docs/coastal-art-final-audit.json",
+      "bytes": 2330,
+      "sha256": "2f304f8c4d99f883c412fdf561cfae3f5d92d5b6b8b1143becbeeaf5d7ca4dcc"
+    },
+    {
+      "path": "scripts/firstspan-native.mjs",
+      "bytes": 9456,
+      "sha256": "ac675e74dbaa1bc4ae622026528475d57051485c54b851d76497d1804f1942e0"
+    },
+    {
+      "path": "scripts/firstspan-controls.mjs",
+      "bytes": 8835,
+      "sha256": "43c4a0220cf8692f420120247af33e93cd4c7309f0b717b69aa89c6e01ca4f32"
+    },
+    {
+      "path": "scripts/firstspan-lifecycle.mjs",
+      "bytes": 6099,
+      "sha256": "5c60c28ebb20f0389aaa54ba6b81ae5b0b8d384fd23dd8febe512eba78d03796"
+    },
+    {
+      "path": "scripts/firstspan-auto-recovery.mjs",
+      "bytes": 2716,
+      "sha256": "0942935b0ec3c755a7a54240918958cd687cd1c0ac04bf53d430fa242f414a16"
+    },
+    {
+      "path": "scripts/verify-firstspan-browser.mjs",
+      "bytes": 3200,
+      "sha256": "93bcfb7632bc1ca0d3d8887539152483b4a1c3ded22962e4526cf8f8fce207f8"
+    },
+    {
+      "path": "docs/coastal-art-browser-verification.json",
+      "bytes": 6954,
+      "sha256": "39861b04880a17f89f8b2ea9b2237206693b1cef583369ebdf8b6214fcd945f9"
+    },
+    {
+      "path": "docs/coastal-art-browser-verification.txt",
+      "bytes": 1884,
+      "sha256": "7f1f55d1bc37557072ac845664546374deb84e8ee082fb72c5e7fe3fc85d2165"
+    },
+    {
+      "path": "docs/coastal-art-production-native-pc.json",
+      "bytes": 189534,
+      "sha256": "5d2b064185ebf4fdf8288977396488df168550deb2cad14dd0d62ee98c132c28"
+    },
+    {
+      "path": "docs/coastal-art-production-native-touch-667.json",
+      "bytes": 198757,
+      "sha256": "ec1c8d2cad7dad68d87699de29135ae6c1e8906653fdabe00b342ae41bf35761"
+    },
+    {
+      "path": "docs/coastal-art-production-native-touch-844.json",
+      "bytes": 196423,
+      "sha256": "f4e2c0cdab544a51e131aa46879ca7a470274ff00720509df3240c17ca38222f"
+    },
+    {
+      "path": "docs/coastal-art-controls-pc.json",
+      "bytes": 56528,
+      "sha256": "0e42219f18fb70766640a22a6274a5fe653b5fc6574b27157941d676f2d6f2d7"
+    },
+    {
+      "path": "docs/coastal-art-controls-touch-667.json",
+      "bytes": 58275,
+      "sha256": "413393c1678fbe4f4f760bf6aaa1ed13fd497fab5b5970fc8528968e21eaba7b"
+    },
+    {
+      "path": "docs/coastal-art-controls-touch-844.json",
+      "bytes": 58329,
+      "sha256": "ffdaa62eb9cb0c690a0d186e330c7aabee1f911d8d6737bd8064fd7e3bbaa3b1"
+    },
+    {
+      "path": "docs/coastal-art-auto-recovery.json",
+      "bytes": 18474,
+      "sha256": "6c743bef7aeb1ceaee09c00c4cb4a6ed7a3d168c475ae0900c9474df9101cda2"
+    },
+    {
+      "path": "docs/coastal-art-lifecycle.json",
+      "bytes": 1920,
+      "sha256": "5b9c5168fd5aeccf5bc149b3327ce15eb33899da5f845b58e88ce6ad3761e518"
+    }
+  ],
+  "productionCopies": [
+    {
+      "path": "dist/assets/roadster-gt.glb",
+      "matchesPublic": true
+    },
+    {
+      "path": "dist/assets/firstspan-coast.glb",
+      "matchesPublic": true
+    },
+    {
+      "path": "dist/assets/firstspan/visual-manifest.json",
+      "matchesPublic": true
+    },
+    {
+      "path": "dist/assets/firstspan/shore-contacts.json",
+      "matchesPublic": true
+    },
+    {
+      "path": "dist/assets/firstspan/kloppenheim_06_puresky_1k.hdr",
+      "matchesPublic": true
+    }
+  ],
+  "roadsterBundles": [
+    {
+      "path": "dist/assets/roadster-6L2jcyue.js",
+      "sha256": "b08e7573f55d65a823f808ff2e91e24eb68cb28043d5df28500c470de2f96e7f"
+    }
+  ]
+}

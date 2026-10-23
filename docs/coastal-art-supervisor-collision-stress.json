@@ -1,0 +1,7 @@
+{
+  "scope": "Independent continuous collision stress over every actual exported guardrail; analytic long sweeps, not browser play",
+  "cases": 728,
+  "contacts": 728,
+  "pass": true,
+  "failures": []
+}

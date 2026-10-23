@@ -43,13 +43,13 @@ test('air collisions use actual road polygon, not its bounding rectangle',()=>{
   const face=rect('diagonal',0,11,0,20,5,{depth:3,polygon:[[0,0],[1,0],[11,20],[10,20]]});
   for(const [x,collision]of[[1,false],[8,true]]){
     const s=new RoadsterSimulation(layout([face]));Object.assign(s,{x,z:15,y:3,vy:0,grounded:false,surfaceId:null});run(s,.05);
-    assert.equal(!!s.crashTimer,collision);
+    assert.equal(s.crashTimer,0);assert.equal(!!s.lastContact,collision);
   }
 });
 test('polygon guardrail also rejects AABB-only overlaps',()=>{
   const guard=rect('rail',0,11,0,20,0,{ymin:0,ymax:6,polygon:[[0,0],[1,0],[11,20],[10,20]]});
   const s=new RoadsterSimulation(layout([rect('road',-20,20,-20,50)],{colliders:[guard]}));s.x=1;s.z=15;run(s,.1);assert.equal(s.crashTimer,0);
-  s.x=8;run(s,.1);assert.ok(s.crashTimer>0);
+  s.x=8;run(s,.1);assert.equal(s.crashTimer,0);assert.equal(s.lastContact?.id,'rail');
 });
 test('ground driving crosses flat/downhill/flat without fictitious flight',()=>{
   const surfaces=[rect('flat',-8,8,0,20,8),rect('ramp',-8,8,20,100,8,{slope:-.1,origin_z:20}),rect('far',-8,8,100,180)];

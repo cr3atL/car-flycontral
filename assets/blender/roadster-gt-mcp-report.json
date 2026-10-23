@@ -1,0 +1,31 @@
+{
+  "constructedVia": "Live Blender MCP",
+  "scene": "FirstSpan_GT_Source_v2",
+  "meshes": 82,
+  "triangles": 33180,
+  "blenderBounds": {
+    "min": [
+      -1.1299999952316284,
+      -2.009999990463257,
+      0.010000020265579224
+    ],
+    "max": [
+      1.1360000371932983,
+      2.002500057220459,
+      1.310983419418335
+    ]
+  },
+  "materials": [
+    "GT_Brake_Disc.001",
+    "GT_Caliper.001",
+    "GT_Carbon_Undertray.001",
+    "GT_Crimson_Clearcoat.001",
+    "GT_Forged_Alloy.001",
+    "GT_Head_LED.001",
+    "GT_Rim_Inset.001",
+    "GT_Rubber.001",
+    "GT_Smoked_Glass.001",
+    "GT_Tail_LED.001"
+  ],
+  "sourceFileUnchanged": "D:\\project\\car-flycontral\\assets\\blender\\roadster-gt-library.blend"
+}

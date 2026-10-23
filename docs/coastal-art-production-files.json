@@ -1,0 +1,1070 @@
+{
+  "files": [
+    {
+      "path": "assets/abstractAudioBus-BRlfl0YY.js",
+      "bytes": 108,
+      "sha256": "5a35e41c186691fc5bf438adf7a6f469c1227fd261a5646e67dd6300b6d96a45"
+    },
+    {
+      "path": "assets/animationGroup-CXgjkz6L.js",
+      "bytes": 13542,
+      "sha256": "2dc258cdb4c84bfb47c638ecf8741b5f84bb965e6bdd9aadd7e8d55d3fe7cb40"
+    },
+    {
+      "path": "assets/background.fragment-BdvA5ETk.js",
+      "bytes": 9425,
+      "sha256": "8e3917464d377501169c594368b82e71002fea2ee50e6c8eeabacb84d00327a9"
+    },
+    {
+      "path": "assets/background.fragment-CUGe3CLW.js",
+      "bytes": 9724,
+      "sha256": "0366146c7844fe21b06e928dec645a6e77676527e2d9c861a3658fcb6e55d2cf"
+    },
+    {
+      "path": "assets/background.vertex-BOLTm92u.js",
+      "bytes": 3757,
+      "sha256": "90d9f9f3fa2e6f41b9247699923480bba2d481cf7637c5598e8e14fe84575102"
+    },
+    {
+      "path": "assets/background.vertex-Cy7TjKLT.js",
+      "bytes": 3669,
+      "sha256": "cee060cd444c253cced11b6b4a80129f336958a1a373b86b3099f5c61fca8b34"
+    },
+    {
+      "path": "assets/backgroundUboDeclaration-BV8LUQwV.js",
+      "bytes": 685,
+      "sha256": "9dd088e45bc68d2d049c6daa414dafe48343245d5c0e5295303841d4e451cd36"
+    },
+    {
+      "path": "assets/backgroundUboDeclaration-CRxTpPmI.js",
+      "bytes": 662,
+      "sha256": "e458bf7e997f485994b26ca4ff67534d7768358a6011f5b819bbbc955206bf4c"
+    },
+    {
+      "path": "assets/basisTextureLoader-Du9l0A5Z.js",
+      "bytes": 8185,
+      "sha256": "8a5fb523d33986647dc7c1e9ed55589a0237c4a05f7f282393e6e2aef39e788d"
+    },
+    {
+      "path": "assets/bumpVertex-BEXGYZT7.js",
+      "bytes": 744,
+      "sha256": "b666c47dedf0099559add559c51638123810d9bdf41862ee7ad9458598374780"
+    },
+    {
+      "path": "assets/bumpVertex-DGzRtIH0.js",
+      "bytes": 974,
+      "sha256": "5e16cc16bd368537da751a9d50d64c6746d070fdcd391b1132795048e9540574"
+    },
+    {
+      "path": "assets/clipPlaneFragment-CWZojRDb.js",
+      "bytes": 1213,
+      "sha256": "f78b764a0c2ba25f2069ae525c287a74d60de674914232c001e0830a11a181a9"
+    },
+    {
+      "path": "assets/clipPlaneVertex-DOLSxqFX.js",
+      "bytes": 9465,
+      "sha256": "9f5d90d2c9af25cd901056b1ddf48d16cea8110fc98e9129b6c7ff50b4afd81b"
+    },
+    {
+      "path": "assets/coastal-interchange-layout.json",
+      "bytes": 191503,
+      "sha256": "224e7433a2e5f063eba9794ef2f94b6fb6d42bae5db723164d58ab2ef0f8417a"
+    },
+    {
+      "path": "assets/coastal-interchange.glb",
+      "bytes": 2362328,
+      "sha256": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7"
+    },
+    {
+      "path": "assets/color.fragment-bWs6SIsn.js",
+      "bytes": 891,
+      "sha256": "9cecb9af5ef6b8ccf6c9b42cb68d0e51d9fd30ef3f3d891fa2cc930b886f6267"
+    },
+    {
+      "path": "assets/color.fragment-C5D8dQ6w.js",
+      "bytes": 751,
+      "sha256": "e445e771bd4653a932eb75379beba79efcdb7167d435d24be367870772547b6a"
+    },
+    {
+      "path": "assets/color.vertex-DqfuXnnW.js",
+      "bytes": 1253,
+      "sha256": "22e1c72ca0a990f72c21a0cb22338271fb62027f4a71be4be711255d0455f1c1"
+    },
+    {
+      "path": "assets/color.vertex-fgObAN2c.js",
+      "bytes": 1266,
+      "sha256": "e887faa0e7572c6b63f29f1030aba55849d7a4f44750296cd49c8898e77aff20"
+    },
+    {
+      "path": "assets/cubemapToSphericalPolynomial-CQYvCilV.js",
+      "bytes": 5291,
+      "sha256": "e0d895991c1358a99e67a480c5f5ad0ad87f815091a6c667528c5c8811161961"
+    },
+    {
+      "path": "assets/dds-C_8RGUes.js",
+      "bytes": 10622,
+      "sha256": "8958adf31523eddde8e691745506a44450afb4b83af1fb64855786e4cc4ead19"
+    },
+    {
+      "path": "assets/ddsTextureLoader-qDKnWJ0R.js",
+      "bytes": 1311,
+      "sha256": "9cd900912c5f07a601e37a73d7e06189bd9a4e67e8194688513d2a9157b3391d"
+    },
+    {
+      "path": "assets/decalFragment-BvKgG1pP.js",
+      "bytes": 7006,
+      "sha256": "c4dbc4513854e3e35d4f3555fcc5f99d0d88adef57fe50945a88f8f2345c2b97"
+    },
+    {
+      "path": "assets/decalFragment-CLbmqLse.js",
+      "bytes": 8259,
+      "sha256": "e575d0f1714f784f386d99c0a42277e1dcdce7cd63a86b71b2c398d6bbf1ed6b"
+    },
+    {
+      "path": "assets/default.fragment-BAGUVLEc.js",
+      "bytes": 17050,
+      "sha256": "b9f0901b88181e3652017be70125eeca131e2a21d5d542b88a64e07d6f58ca18"
+    },
+    {
+      "path": "assets/default.fragment-BITISQah.js",
+      "bytes": 16251,
+      "sha256": "7ec02ba30e8e85e69796d582fd5568a52c79e6df65ba4babca01e0afd97ce1df"
+    },
+    {
+      "path": "assets/default.vertex-BmH36TO7.js",
+      "bytes": 8069,
+      "sha256": "1770ec311941e71c46773092cdd57dae6faf5443cb8622760457c8f1f0ffc51e"
+    },
+    {
+      "path": "assets/default.vertex-C1XOTNNW.js",
+      "bytes": 7370,
+      "sha256": "4a3dc1d4a0c103f43193b189aceabf8fdb87d6da76248859063d9ee9c71aa06f"
+    },
+    {
+      "path": "assets/defaultUboDeclaration-9-UFvREv.js",
+      "bytes": 1187,
+      "sha256": "3ab6d0447c35a3f8a0001e4958722727a59326720b28b0103f26e52c7827c166"
+    },
+    {
+      "path": "assets/defaultUboDeclaration-DzpptfxH.js",
+      "bytes": 1540,
+      "sha256": "8c681afc24d7aa1a6bcb1285af4f1ce8a9d47bfe630c90a91a8fd896a9932324"
+    },
+    {
+      "path": "assets/depth.fragment-DdoI_r7X.js",
+      "bytes": 1266,
+      "sha256": "e36a254beaac95c570b3e94b5662522e1a3cdafb23ec07ccc641acd09a0a0fba"
+    },
+    {
+      "path": "assets/depth.vertex-DYYVN_t8.js",
+      "bytes": 2097,
+      "sha256": "a7517ed12ca9aca3847349e0102b0b6678aae3229cbb797b7506bef0eb2a0d4b"
+    },
+    {
+      "path": "assets/depthBoxBlur.fragment-Czg5e1bu.js",
+      "bytes": 539,
+      "sha256": "0ac6ac927ab68bd31d55676dbd126e8d5fa40fcb98ff4bb5a3c6a8181afe4836"
+    },
+    {
+      "path": "assets/depthBoxBlur.fragment-Dzj0BenO.js",
+      "bytes": 718,
+      "sha256": "4c148638ee2970fba398a5786bc61ddd559dd80eedd0e10101bac995c0b271e6"
+    },
+    {
+      "path": "assets/dumpTools-DRLo2zVi.js",
+      "bytes": 3054,
+      "sha256": "bb30d9f3e731425f241aa5288143e8f418d37caee25f5eda26925d4f172a1164"
+    },
+    {
+      "path": "assets/environmentTextureTools-BfuuA_Vq.js",
+      "bytes": 7686,
+      "sha256": "f28aa1a71e85caf11a819a2619f5d6210f3b8f07bca39a95edfd7031b31834a2"
+    },
+    {
+      "path": "assets/envTextureLoader-Bc7v50dW.js",
+      "bytes": 687,
+      "sha256": "001a4a6a6a299b056b45ea9d3dd15b885b813c367091a1bc4c5f52913b5ada0b"
+    },
+    {
+      "path": "assets/exrTextureLoader-CVTJ-u1U.js",
+      "bytes": 15534,
+      "sha256": "fa4ceb825c8f2bc5344983aba917734ecfb31fb940ef77f1e31c82548d7d0c68"
+    },
+    {
+      "path": "assets/firstspan/kloppenheim_06_puresky_1k.hdr",
+      "bytes": 1173154,
+      "sha256": "206c67e3a1b992282821cf06662bdd69bbb4915c1c4444a66338a40d6a7d4e34"
+    },
+    {
+      "path": "assets/firstspan/shore-contacts.json",
+      "bytes": 1341,
+      "sha256": "87188f6eddb8f19c35eb45a4dbc315ff68c9b657bf4553ea8e39fe08dad59422"
+    },
+    {
+      "path": "assets/firstspan/visual-manifest.json",
+      "bytes": 1381,
+      "sha256": "9e6331de3d38fc39dda52801b626aa190c6efa75f57a89e191840f5df22b6533"
+    },
+    {
+      "path": "assets/firstspan-coast.glb",
+      "bytes": 9455324,
+      "sha256": "1971bf4746a26da6f3b0c28254fabc9b521c8074a3cf3183e63119b8b0e59195"
+    },
+    {
+      "path": "assets/flowGraphArrayIndexBlock-Ru3k7onD.js",
+      "bytes": 844,
+      "sha256": "734a15f18c62a4fe9da32e3d1dfc676c984fcd4c0e3015f9e027521bc7065b0d"
+    },
+    {
+      "path": "assets/flowGraphBezierCurveEasingBlock-DyTx1hU2.js",
+      "bytes": 1129,
+      "sha256": "6ed209a88dac1e681433eb476c45bd951ed4eaf9d6f2278bfaf6aa70beacf062"
+    },
+    {
+      "path": "assets/flowGraphBinaryOperationBlock-DOvJOxS2.js",
+      "bytes": 375,
+      "sha256": "f1b6486c07f2e51c1366e0d6bcefa5aa8eae20bbc7304adbd5ddf1b82661de0e"
+    },
+    {
+      "path": "assets/flowGraphBranchBlock-CTQo6X6U.js",
+      "bytes": 728,
+      "sha256": "6430fa028531863c13dfb984a0ebff92ce6370986df73f72318ea182f16c170f"
+    },
+    {
+      "path": "assets/flowGraphCachedOperationBlock-ezs_dz3s.js",
+      "bytes": 696,
+      "sha256": "3120e3b74112fd699e7e2a4004e60425a39c60ee739aad88610e16f3cd2c3f2e"
+    },
+    {
+      "path": "assets/flowGraphCancelDelayBlock-DmR4aS7t.js",
+      "bytes": 787,
+      "sha256": "5e2b4a3f024f89b72974b8ae822b69a6027cfc9c7ce0c8569ca7b258b2fa013d"
+    },
+    {
+      "path": "assets/flowGraphCodeExecutionBlock-Zh6ra6cu.js",
+      "bytes": 734,
+      "sha256": "2ff17a66075bcd50b7ad5aacdcb7aa70c7c0483b500745f7426e5e67121330c2"
+    },
+    {
+      "path": "assets/flowGraphConditionalDataBlock-DrEr0CiK.js",
+      "bytes": 824,
+      "sha256": "3ec609d0dbc6d1830b9b0255b35ee9bf660c0dc96a220559eea8e625471f1f92"
+    },
+    {
+      "path": "assets/flowGraphConsoleLogBlock-DHbKIlUI.js",
+      "bytes": 1274,
+      "sha256": "502a160c3230d9cdb9d25bf3925616e7a2c61b2425e4ff7df4fa3f5b6dd1db0f"
+    },
+    {
+      "path": "assets/flowGraphConstantBlock-DJvXxTCc.js",
+      "bytes": 694,
+      "sha256": "8e990373816b905dd0ac8e74b673482a1160c279c0bec15d868571d5ad0a0717"
+    },
+    {
+      "path": "assets/flowGraphContextBlock-aev9t82H.js",
+      "bytes": 743,
+      "sha256": "79cd07081e21ed5ad74d6b61081dacc0efc2676ee2c5aeb0afbbfcb2f03d8b57"
+    },
+    {
+      "path": "assets/flowGraphCounterBlock-oaeODdsv.js",
+      "bytes": 828,
+      "sha256": "2dcf9d85050c2ac37d5e6ed7693d9abd5fb0eb5ecefea25e839e0459ed300e4b"
+    },
+    {
+      "path": "assets/flowGraphDataSwitchBlock-DyLU7zWR.js",
+      "bytes": 1099,
+      "sha256": "2f5239d8d5414f1b6778c6de08f735c4fe67d91bcb322be5e574b3f30f21b78d"
+    },
+    {
+      "path": "assets/flowGraphDebounceBlock-Sn1xzJiQ.js",
+      "bytes": 965,
+      "sha256": "b8cb0d6c3db9f7215c4b98bbfb6026805888e0e074f596b8f371290386efd092"
+    },
+    {
+      "path": "assets/flowGraphDoNBlock-8KaBcswi.js",
+      "bytes": 972,
+      "sha256": "c7883744badd61e95550406ecc1420be866103589b28053541aaa921cb0951dd"
+    },
+    {
+      "path": "assets/flowGraphEasingBlock-D1nae14R.js",
+      "bytes": 1819,
+      "sha256": "5182ed74e9418f90a36384850c4d3f1e3b4206f3630c08074a413201402fd7b3"
+    },
+    {
+      "path": "assets/flowGraphFlipFlopBlock-CMZv8CyZ.js",
+      "bytes": 875,
+      "sha256": "ec9243f6093f770de074d62c3b96abd51a9449ad2569ccc8de18ad5829acd6e0"
+    },
+    {
+      "path": "assets/flowGraphForLoopBlock-BBMnnL_o.js",
+      "bytes": 1306,
+      "sha256": "dbeebb59395b0b36b921a8d9dec85559d9c13e077547dd8d10abd0b6952892f8"
+    },
+    {
+      "path": "assets/flowGraphFunctionReferenceBlock-BPF0yuhT.js",
+      "bytes": 902,
+      "sha256": "e04c12b51865d2728f1278c93d5f3fa5517896d234c13570878e668976348215"
+    },
+    {
+      "path": "assets/flowGraphGetAssetBlock-UwkQ1Y4t.js",
+      "bytes": 834,
+      "sha256": "093a5b0455c32c6d1a37b70fff96f682166ffc891e05a05840b4c0de84d3d9a5"
+    },
+    {
+      "path": "assets/flowGraphGetPropertyBlock-DkJwCkDE.js",
+      "bytes": 1117,
+      "sha256": "41da1fd5beb1ae0ae598b3e6db94dd6982b2925c291d18b4abb5e3efa8f7cfd5"
+    },
+    {
+      "path": "assets/flowGraphGetVariableBlock-CJfFK3sU.js",
+      "bytes": 739,
+      "sha256": "17b1a5fec701f8dd04080eefc5f7d65df77d5da2a52010084fe5a16b3220c807"
+    },
+    {
+      "path": "assets/flowGraphGLTFDataProvider-2C3v1gkM.js",
+      "bytes": 679,
+      "sha256": "65c072101826aa9748555d54a04840c1c254f098e02b70ccf9102de0cf045867"
+    },
+    {
+      "path": "assets/flowGraphIndexOfBlock-D-nLwiye.js",
+      "bytes": 805,
+      "sha256": "7aefee9c9d55f48756703bb89f2f9367478bfea9b0b2127a4ba93bbf2f05850b"
+    },
+    {
+      "path": "assets/flowGraphInterpolationBlock-Dmt4Im9R.js",
+      "bytes": 2306,
+      "sha256": "1806bbc821fab4e90340071288ee4f9645f533ac8d6672aaeffa0cc7af15f266"
+    },
+    {
+      "path": "assets/flowGraphJsonPointerParserBlock-CGKflh50.js",
+      "bytes": 3214,
+      "sha256": "595c5cb2726747b63e17ce5b7af8f910070887c9edcc9fa28fecf62f3dc399ac"
+    },
+    {
+      "path": "assets/flowGraphMathBlocks-W1jOi_ln.js",
+      "bytes": 18692,
+      "sha256": "343cbbeb3a9fea8c9d585e295986b6da75a354adfaebb4ba614f91303c099e6f"
+    },
+    {
+      "path": "assets/flowGraphMathCombineExtractBlocks-5XdiQuHm.js",
+      "bytes": 8145,
+      "sha256": "b1f42b2011b802824b14b19e6d7330289324502a868460a8028a47ba55061d3f"
+    },
+    {
+      "path": "assets/flowGraphMatrixMathBlocks-Cxevzhm7.js",
+      "bytes": 3759,
+      "sha256": "f4d9e02360e9c234e23ac78c1d9011841ff3d7ff6812a1dd070fadee99f9c6d9"
+    },
+    {
+      "path": "assets/flowGraphMeshPickEventBlock-BzbVJfSM.js",
+      "bytes": 1617,
+      "sha256": "40fc1161a80c7c5c867decf386c85fd359cd9f8bff05365d49eada0a455cddf6"
+    },
+    {
+      "path": "assets/flowGraphMultiGateBlock-BPmryf9f.js",
+      "bytes": 1856,
+      "sha256": "6e3886678458acff31fe122293885ff2b411a1177e4fcdb03615e087741ba9b0"
+    },
+    {
+      "path": "assets/flowGraphPauseAnimationBlock-DNi5DNgc.js",
+      "bytes": 646,
+      "sha256": "e8a65af339700875756c83edb21a09d8040f18c30e102d977b5c1b14e8125725"
+    },
+    {
+      "path": "assets/flowGraphPlayAnimationBlock-CvYjqjXD.js",
+      "bytes": 3881,
+      "sha256": "1e4445ba37c650a93cfa50e475a29a046008fc332125fe23bf5a4b39f4b9f8fc"
+    },
+    {
+      "path": "assets/flowGraphPointerOutEventBlock-CDdakkE2.js",
+      "bytes": 1021,
+      "sha256": "ad1a5b8bbcf7b35ea82fe74346207ff2ba7ee80af3dce64ed76a0c1f00231128"
+    },
+    {
+      "path": "assets/flowGraphPointerOverEventBlock-CFxCs2Ut.js",
+      "bytes": 1031,
+      "sha256": "b4008da6c0828615839166f1cb7b5a7afd8ff33d894087b934a82c74a28dce0d"
+    },
+    {
+      "path": "assets/flowGraphReceiveCustomEventBlock-DBtgK4Nh.js",
+      "bytes": 1433,
+      "sha256": "7d6d99cfbf00ebbe60d45e2b6a697a92a0cbf064bbd8de083647d1d55adbda79"
+    },
+    {
+      "path": "assets/flowGraphSceneReadyEventBlock-DqkZQyKt.js",
+      "bytes": 642,
+      "sha256": "7cbd72d18ba81ea2a9206231c4aaeb1dbe86a6dd85094b549d8439272284b99e"
+    },
+    {
+      "path": "assets/flowGraphSceneTickEventBlock-TZrGcIRY.js",
+      "bytes": 826,
+      "sha256": "d4622730ae392ccfcb2490412e5db47f57efbbc93937690d36825daaa026182a"
+    },
+    {
+      "path": "assets/flowGraphSendCustomEventBlock-CKx4ixjz.js",
+      "bytes": 816,
+      "sha256": "f98bb990a75fd9448e612ffcb9d415c3b72ec507a518b18d0f44bd3136cdad1c"
+    },
+    {
+      "path": "assets/flowGraphSequenceBlock-Dil6eDaO.js",
+      "bytes": 974,
+      "sha256": "5bf0e0d4da82947a86bd8dd2127a6977c6cbbcd8e937efb97afda6f042d3c17d"
+    },
+    {
+      "path": "assets/flowGraphSetDelayBlock-g3vq3biS.js",
+      "bytes": 2407,
+      "sha256": "2a0dec94e5b5d5be5ac3df1c68fafc4a973656132707629784f752bcc7fc8f4e"
+    },
+    {
+      "path": "assets/flowGraphSetPropertyBlock-CoRjcWff.js",
+      "bytes": 1595,
+      "sha256": "c067d374737f321294ccc16dceec7758aa409f62df989e1f1ef625554e73d535"
+    },
+    {
+      "path": "assets/flowGraphSetVariableBlock-Cfj1eGkq.js",
+      "bytes": 1531,
+      "sha256": "78e82d1a41492e3d18203ac19e9280a0740926bd791668b8fd5e2ceed0c6fe7e"
+    },
+    {
+      "path": "assets/flowGraphStopAnimationBlock-BWwyD0wB.js",
+      "bytes": 2081,
+      "sha256": "2d49e30eb1a5f24f380c8734fef585e83e7a1cd50b743843fa1503d053322cb8"
+    },
+    {
+      "path": "assets/flowGraphSwitchBlock-Cw-IoGC0.js",
+      "bytes": 1333,
+      "sha256": "2db4ab68ef77612e60495ba9edd27a4e7bcaf64d4a9522565a713f6ae13760b7"
+    },
+    {
+      "path": "assets/flowGraphThrottleBlock-DGrXqZcu.js",
+      "bytes": 1560,
+      "sha256": "0f02991063048e21abc45eb6ac8184eaa2e6fb16ec6bbbb6acad079755c5d4b6"
+    },
+    {
+      "path": "assets/flowGraphTransformCoordinatesSystemBlock-BPGn8djc.js",
+      "bytes": 1146,
+      "sha256": "126960c50f4e487bd632d03f194659323e08df418c48e1d46d71f1d043f275de"
+    },
+    {
+      "path": "assets/flowGraphTypeToTypeBlocks-BfWxtfoO.js",
+      "bytes": 1475,
+      "sha256": "6325b622b8ecf1694c8da063ae9b1c5f66d28671b4eaa8b0f64138f5acbea59d"
+    },
+    {
+      "path": "assets/flowGraphUnaryOperationBlock-Dt-JjJms.js",
+      "bytes": 303,
+      "sha256": "17a29d90603d4c55d4973c5436ef34230bd8489eb6136b10103fde69fdd2ed0d"
+    },
+    {
+      "path": "assets/flowGraphVectorMathBlocks-OODATR4P.js",
+      "bytes": 4921,
+      "sha256": "a85d67e7e9ead00e616bfb350a163bbdd8fc26cc24463c323e4801b41307a283"
+    },
+    {
+      "path": "assets/flowGraphWaitAllBlock-BCJI8xdC.js",
+      "bytes": 1729,
+      "sha256": "f98768cf18b84e64c7c669f2446b8677353ca794e2f7773e216981377b67cfdc"
+    },
+    {
+      "path": "assets/flowGraphWhileLoopBlock-CTVw5rwN.js",
+      "bytes": 1059,
+      "sha256": "6cc1fc076c72a8fa25e04ef4cffca7eae1b7fba864bf73dd99e1ea2daa67d38c"
+    },
+    {
+      "path": "assets/fogFragment-CmikJA5e.js",
+      "bytes": 1153,
+      "sha256": "71793225ad01f17cef8b405087cd1d2297a5e03e079b1950bd31e360de9f0b7c"
+    },
+    {
+      "path": "assets/fogFragment-Ix0ie2Dp.js",
+      "bytes": 1023,
+      "sha256": "65bfc6530afd29da0aecfc69747ccaea905d4fff24ad571dd47fedea73393a7f"
+    },
+    {
+      "path": "assets/fogVertex-BUogkapg.js",
+      "bytes": 319,
+      "sha256": "c671ffa3c26c8ec37e64a55df9c71079e5fb7cf27078f72ef1dd73364f273e59"
+    },
+    {
+      "path": "assets/fogVertex-CZUhqjDC.js",
+      "bytes": 444,
+      "sha256": "309a127bd716e676e3d78178da2e47e1acb02e7b6c8dd564c363405fd055ef1a"
+    },
+    {
+      "path": "assets/freeCamera-DBQ0p9fu.js",
+      "bytes": 1225238,
+      "sha256": "e8106421b674c039b698afbe979dfff46db565b6ffce76b60ba2cec0c26f1999"
+    },
+    {
+      "path": "assets/harmonicsFunctions-gLicQ4UK.js",
+      "bytes": 1385,
+      "sha256": "5644a7c90d966bd73cc78246b8724589de9d5a3af8c8773afeae7447c35e62ce"
+    },
+    {
+      "path": "assets/harmonicsFunctions-yCAh2Gi9.js",
+      "bytes": 1090,
+      "sha256": "f45dd5807ee22e4a46c4c07d73c91b6c1dac13857f846e6a26b0d21eebe6e058"
+    },
+    {
+      "path": "assets/hdr-Br9vpNYI.js",
+      "bytes": 4111,
+      "sha256": "8026bdf169b58e643333aef84879ec195c79e6fa5e0e37d55d122f3a78a48ffc"
+    },
+    {
+      "path": "assets/hdrFiltering.fragment-CB0pGTjd.js",
+      "bytes": 671,
+      "sha256": "d42b277d115f3ff2485a109c887a52198d3c0957ff23862a8fcf2b33a0fd1124"
+    },
+    {
+      "path": "assets/hdrFiltering.fragment-DYcjAOt_.js",
+      "bytes": 837,
+      "sha256": "ded0f27123ed8e8a5e7d5a1b8c14d75baf23f539a178e18cb5b8f19efc9b12ae"
+    },
+    {
+      "path": "assets/hdrFiltering.vertex-C23hPVKn.js",
+      "bytes": 665,
+      "sha256": "237fe14c5c61d6fb5b358eed95268e7e668f17ed95b61e232c5df981e82a6375"
+    },
+    {
+      "path": "assets/hdrFiltering.vertex-Cg5c6mzA.js",
+      "bytes": 512,
+      "sha256": "99ff3902e205f8dc6c76a60f1036781829dfe7425b70a6463b7033276743de17"
+    },
+    {
+      "path": "assets/hdrFilteringFunctions-DJW_ZY89.js",
+      "bytes": 8551,
+      "sha256": "e888afaa2871fea9324aae37e1fe0bd9aed2c131a95ddbd1a4c5cc8d41bfc000"
+    },
+    {
+      "path": "assets/hdrFilteringFunctions-DKkG3dL5.js",
+      "bytes": 8618,
+      "sha256": "59255bd830af0390019dc0743e5691c1085b5cbbb63b5db3f3d1d7748582414d"
+    },
+    {
+      "path": "assets/hdrIrradianceFiltering.fragment-Bnvhqo5A.js",
+      "bytes": 799,
+      "sha256": "3c9ab27957803d5807e03637abb4a6966db481f23ad5ec2a61a9dfcd1c299b91"
+    },
+    {
+      "path": "assets/hdrIrradianceFiltering.fragment-CRG4A49Z.js",
+      "bytes": 1018,
+      "sha256": "7c66e7dfb0de8e99aa9fe98c1b27369243145b93ff5d71a18951d38e179326a5"
+    },
+    {
+      "path": "assets/hdrIrradianceFiltering.vertex-BvqBuJjV.js",
+      "bytes": 532,
+      "sha256": "d75a4755a236e2ff06e2e6ce684adbf322cb6285b46e20b4d5ed259b66076e82"
+    },
+    {
+      "path": "assets/hdrIrradianceFiltering.vertex-DyLEJBGd.js",
+      "bytes": 685,
+      "sha256": "a78db6a4b6cab0d5e58bc83984a6c0fead99acc4e4ecbd2f03debc2dd2dc5b4e"
+    },
+    {
+      "path": "assets/hdrTextureLoader-DJnEXnsd.js",
+      "bytes": 565,
+      "sha256": "5dd4d6f40281544f22fdc6eff7968007889ca51231038a9be9ca99df48746b19"
+    },
+    {
+      "path": "assets/helperFunctions-CbAIhAL7.js",
+      "bytes": 5870,
+      "sha256": "92889db52c52c6c24f81e2a356296c5f11d3e01f7a6708c3695278452db24eea"
+    },
+    {
+      "path": "assets/helperFunctions-CCd54GLa.js",
+      "bytes": 6225,
+      "sha256": "3a3b34344514992bb916a735976836aa832094be637faa9eeaf3378b69722a46"
+    },
+    {
+      "path": "assets/iblCdfDebug.fragment-De9gr56x.js",
+      "bytes": 3056,
+      "sha256": "4a818b0541502956f1f18d615efad9f57b286b4e55472ff72be767ffbed4cce0"
+    },
+    {
+      "path": "assets/iblCdfDebug.fragment-xo13DSDM.js",
+      "bytes": 2681,
+      "sha256": "73aee6c837ab292a5e92cfa5317fa074e2ffec20b1671ea07515d9ddc8955065"
+    },
+    {
+      "path": "assets/iblCdfx.fragment-CV5sleGs.js",
+      "bytes": 570,
+      "sha256": "be693ca18d30cca04e324828c9aa8713f97b97ad5e1afb8ab6a365829ec836f2"
+    },
+    {
+      "path": "assets/iblCdfx.fragment-D8Tmpc3Z.js",
+      "bytes": 502,
+      "sha256": "da95271975788ef7afce85dbe5fd04bc91143f6f83a01de5073467ed7a200bf5"
+    },
+    {
+      "path": "assets/iblCdfy.fragment-DBNuW0Wa.js",
+      "bytes": 1264,
+      "sha256": "c4295c7e13d48d56844e6386a9b58e4d3ef83acc70710e4f6c13e5d1d624105c"
+    },
+    {
+      "path": "assets/iblCdfy.fragment-Dxc2N3y6.js",
+      "bytes": 1168,
+      "sha256": "bbf45846f15b55066409e402ae9a8ef805d2dc7a8039d6f48f0f58519bc92ea1"
+    },
+    {
+      "path": "assets/iblDominantDirection.fragment-Db4SzZuG.js",
+      "bytes": 1012,
+      "sha256": "7e4987ada5eedcff1a5bdd2756fa6286116daaa48e4f3bec37e233605db1c4c7"
+    },
+    {
+      "path": "assets/iblDominantDirection.fragment-DrZ-yBL8.js",
+      "bytes": 886,
+      "sha256": "5f2b46b1f3c75b34bdc7b2adca1d6ca1e1b24ce5e0b6fa3be852715425ac3702"
+    },
+    {
+      "path": "assets/iblIcdf.fragment-D9YawwlK.js",
+      "bytes": 2464,
+      "sha256": "4b923d402ccc4e44d3545347b04ee0438a65c76e873d9731019f9c7d63b44a96"
+    },
+    {
+      "path": "assets/iblIcdf.fragment-DIphD0SH.js",
+      "bytes": 2846,
+      "sha256": "e702051271d0f95e3ae9b3350ca78c9d41de8573ee7778a0d81c52366cf34451"
+    },
+    {
+      "path": "assets/iblScaledLuminance.fragment-B92O8gyB.js",
+      "bytes": 886,
+      "sha256": "234ff1f4b59ccaf2d38ec1249e14b31f9a5860ae3423172b57fd6abb2c74c3fd"
+    },
+    {
+      "path": "assets/iblScaledLuminance.fragment-BPSnGSvS.js",
+      "bytes": 1029,
+      "sha256": "6d0be984c036bc59f9be26b59e1dfe50f63e990f612c9fdaa2f3f522b114259f"
+    },
+    {
+      "path": "assets/iesTextureLoader-D-QVecQ1.js",
+      "bytes": 2706,
+      "sha256": "272cc0269f628a4c935a31d927572d52e005167f3253fd128165af93ca681c82"
+    },
+    {
+      "path": "assets/instancesDeclaration-DGj1X8U1.js",
+      "bytes": 1004,
+      "sha256": "9df19ea8f2581c2bbc2cb06bad9d9faebe0fc42d6887bca774895884b2418fa9"
+    },
+    {
+      "path": "assets/kernelBlur.fragment-BM2xxo2E.js",
+      "bytes": 2105,
+      "sha256": "7b026d5ad62db4acb29b4183257fe434e7bd04fad8b890627139016b5c4d6590"
+    },
+    {
+      "path": "assets/kernelBlur.fragment-DwxGtFGw.js",
+      "bytes": 2676,
+      "sha256": "d0e26bab9ae34dfc25365c58dd7ad4ec2a67f0fa2034a4ec17f377ff5acc78cc"
+    },
+    {
+      "path": "assets/kernelBlur.vertex-B_HatI9j.js",
+      "bytes": 925,
+      "sha256": "2f310497314c78a5658f50fea8e4e8dda59d6c5e3e194ecc8f5e2ab7a5eb85d1"
+    },
+    {
+      "path": "assets/kernelBlur.vertex-vOezdFWU.js",
+      "bytes": 768,
+      "sha256": "771ba2bfea4bb32602d5dce78bc4e36e45f8e7f2f2a5ba1945b878b255e84115"
+    },
+    {
+      "path": "assets/kernelBlurVaryingDeclaration-Bq1DHOiU.js",
+      "bytes": 186,
+      "sha256": "68b9c67e02b769a7150e323ab3f3ad723a3d492e3fe8da5ad73b6ad543267476"
+    },
+    {
+      "path": "assets/kernelBlurVaryingDeclaration-C857I4ac.js",
+      "bytes": 176,
+      "sha256": "4eaae1a4ceb4e74c85ce3be211679c3a3e4008e156c71d0dc04ab0af36f2caad"
+    },
+    {
+      "path": "assets/khronosTextureContainer2-D5HasXLc.js",
+      "bytes": 14504,
+      "sha256": "3b901361cf1c56a8b5855d7b2b2db44339ac70655ad795cd974e140ee6a67d10"
+    },
+    {
+      "path": "assets/ktxTextureLoader-ZQpdCGsb.js",
+      "bytes": 1435,
+      "sha256": "23ed36689e92f640507c7c231d7e2eebd286df6f507c4bda3ea3bd744f26c29f"
+    },
+    {
+      "path": "assets/lightFragment-BHd6hrAl.js",
+      "bytes": 22145,
+      "sha256": "232cc63319cd43320d7deafc35579542da504ee820fa3ca707f4dad6d6544b6a"
+    },
+    {
+      "path": "assets/lightFragment-D28-PByQ.js",
+      "bytes": 20179,
+      "sha256": "e2c91f09a35df78c4e06a87fd0ba511bc6592c510c8062de036e836785406b0f"
+    },
+    {
+      "path": "assets/lightsFragmentFunctions-aMFqesKu.js",
+      "bytes": 7986,
+      "sha256": "198d614ed0d9115ab7bdf4ded80ff07777e48a7d02f80d8bd978157e2612c218"
+    },
+    {
+      "path": "assets/lightsFragmentFunctions-BTrlT1Jz.js",
+      "bytes": 7213,
+      "sha256": "a05f23e76df905d1724d5fe94031f51e673c015b5706a67ad0ff184417dac479"
+    },
+    {
+      "path": "assets/logDepthDeclaration-DKQgSnJy.js",
+      "bytes": 245,
+      "sha256": "3ed26f03ba05ff76dd5c60d3c91f8270bd8fdddfba69e07208dad8393a03ed41"
+    },
+    {
+      "path": "assets/logDepthDeclaration-EcNjT7TU.js",
+      "bytes": 239,
+      "sha256": "6c9c1c9281889a69c602d8242d2a22fbe38ba9297bb4c8b55818e011853699d7"
+    },
+    {
+      "path": "assets/logDepthFragment-Dt5lZ6ez.js",
+      "bytes": 48444,
+      "sha256": "f56313de09cf66fca4a13048ed3517c9db63c2b545efa6467ee8229d3fe99ced"
+    },
+    {
+      "path": "assets/logDepthFragment-DTM6LeYm.js",
+      "bytes": 46768,
+      "sha256": "947a308bf613c750e615893ff017e9e77e96bf00130e6dc578c5bda903b02677"
+    },
+    {
+      "path": "assets/logDepthVertex-B2rav59J.js",
+      "bytes": 3188,
+      "sha256": "feae10b99450eb2803b67132e39f14df1ca7f42143b985a1fa6417b5fa11a6d7"
+    },
+    {
+      "path": "assets/logDepthVertex-DoI4Ml23.js",
+      "bytes": 3802,
+      "sha256": "52d0588ae400b5572c755fb198eebd65ddd49b4e1c5692cfd9f1cbe09ff79cc4"
+    },
+    {
+      "path": "assets/main-CWqn90wK.css",
+      "bytes": 54726,
+      "sha256": "749a0accae9dd1171e1535bec4941b968dc4bd46e2a4cdf1e8279f287b64c5c2"
+    },
+    {
+      "path": "assets/main-mmiXCc6L.js",
+      "bytes": 206469,
+      "sha256": "a998d90f86e6d31c2d1454a3042e353b35250a34fb9b40a2294b92c82b4aff1b"
+    },
+    {
+      "path": "assets/mainUVVaryingDeclaration-DURcanu3.js",
+      "bytes": 193,
+      "sha256": "f451bb2b48c212c3e02cbc84c821a8e8bf260397d5919bb6342f60cd4d2a443e"
+    },
+    {
+      "path": "assets/mainUVVaryingDeclaration-UHyxCWMv.js",
+      "bytes": 203,
+      "sha256": "0f1acff72a16e0edfecc87dc79ec77c0c42ea5590d17453604cfb77824205965"
+    },
+    {
+      "path": "assets/mesh.vertexData.functions-ayNlGC5K.js",
+      "bytes": 960,
+      "sha256": "109b0c291f78ec6b98053b23c7a9ce01eb8bcee909a0964ce337a68a9b4bc61e"
+    },
+    {
+      "path": "assets/meshUboDeclaration-B0Ox2p1I.js",
+      "bytes": 309,
+      "sha256": "780c99466f7f92262043c584196f70992e8bbf82e9a98bfdf799139365d3814b"
+    },
+    {
+      "path": "assets/meshUboDeclaration-DNoSaReX.js",
+      "bytes": 243,
+      "sha256": "707deefaf4ff1d2adfba9d0cb4b8044e138de14e54f25de3e335e260806d04af"
+    },
+    {
+      "path": "assets/morphTargetsVertex-d92siR_j.js",
+      "bytes": 4359,
+      "sha256": "d44a11448e636538920fdb59d2ef0957baea6fb403455d2e583ae196dff2ca37"
+    },
+    {
+      "path": "assets/oitFragment-BMV3S46D.js",
+      "bytes": 3061,
+      "sha256": "216a98aa60fb69f801bf9027a6eb4bec1313e2584a768db299ed8880d498c6bb"
+    },
+    {
+      "path": "assets/oitFragment-BmxKCbXC.js",
+      "bytes": 3038,
+      "sha256": "a8cb7c752d67856d14ab4274db45e612920f26e7d73361814aa142630e984ede"
+    },
+    {
+      "path": "assets/openpbr.fragment-BtkIFCtm.js",
+      "bytes": 80355,
+      "sha256": "b6383fd79964b8910cad2f050d3066c098256683e49394b6f1d6abac09aeaf19"
+    },
+    {
+      "path": "assets/openpbr.fragment-DiJYB1tb.js",
+      "bytes": 81650,
+      "sha256": "a0f537ae777f7c4b6e0c535a82b336f8a35e664fd4f63588684ed2dcdef71f99"
+    },
+    {
+      "path": "assets/openpbr.vertex-BV8VVk10.js",
+      "bytes": 15149,
+      "sha256": "cb9412b86038ad1fc0ca404d9d2654753555402df7016511813ee21ade5d9d44"
+    },
+    {
+      "path": "assets/openpbr.vertex-DhEXfQ5Z.js",
+      "bytes": 18752,
+      "sha256": "0ebd2fa86f8b78a57815157130aa5436fa0781a9c7a7478fcb61c4f426732b34"
+    },
+    {
+      "path": "assets/openpbrMaterial-DNS3-Nyx.js",
+      "bytes": 52747,
+      "sha256": "ec25a0d49e1d473e7ab0c1eef5cdc0f66c64beadbb3c5602c571b519c806e55e"
+    },
+    {
+      "path": "assets/openpbrMaterialLoadingAdapter-6-XxmcqL.js",
+      "bytes": 9205,
+      "sha256": "3d69d014c0d9af77d5e9085ebf1bbe53c0aeb05edcf5ca874d2c8a271a2bc462"
+    },
+    {
+      "path": "assets/openpbrUboDeclaration-Bf7wggtu.js",
+      "bytes": 3443,
+      "sha256": "7e0af206075598db2b51e61cad70011939e9ce5013f480d430771858a44e035d"
+    },
+    {
+      "path": "assets/openpbrUboDeclaration-C-j39D4O.js",
+      "bytes": 4646,
+      "sha256": "661f836acec7725f3c11e26614c7533f4bb88a0b17962afa99c9ce3d23f67940"
+    },
+    {
+      "path": "assets/packingFunctions-Cxe_AlH4.js",
+      "bytes": 527,
+      "sha256": "ebce01f4331b0392f0ca5525241e1cddfea802cd1d838070c3c33de6d35791de"
+    },
+    {
+      "path": "assets/pass.fragment-Cpq_A4CR.js",
+      "bytes": 323,
+      "sha256": "a1fd2ce2870af2232e436f65dd6c341140fdb64c12d50a37bdbb2e82761b9522"
+    },
+    {
+      "path": "assets/pass.fragment-mhRl1gHX.js",
+      "bytes": 457,
+      "sha256": "3a9fc8d93623ea6f250e7337e76e3a6749216e75141e500193088d57bb965dc9"
+    },
+    {
+      "path": "assets/passCube.fragment-Bwt27TBj.js",
+      "bytes": 828,
+      "sha256": "5d2101c3de470f528e8343a735c3e13f7d2a76d80585f452a5f33eb28eb0802b"
+    },
+    {
+      "path": "assets/passCube.fragment-zuZNbCbl.js",
+      "bytes": 1137,
+      "sha256": "3731c47a3a98e3f940e3843eb7222bd0aba271a441b9f447b995f280f92efc4a"
+    },
+    {
+      "path": "assets/pbr.fragment-BagMojbJ.js",
+      "bytes": 89666,
+      "sha256": "a740ef90f16712500cd488d92109a3989c683361ea75f9f266c8b22376a95e13"
+    },
+    {
+      "path": "assets/pbr.fragment-DIpTuG5M.js",
+      "bytes": 93203,
+      "sha256": "653f9f5eaf13f8b3b89377e6df8379d43fee198efaada4f0edaa68d68397c7e5"
+    },
+    {
+      "path": "assets/pbr.vertex-B63IiH5H.js",
+      "bytes": 16398,
+      "sha256": "0e0441c9a6b610b68a68c902c28cecb736b0b14c8878b791f83c390be0be2cc5"
+    },
+    {
+      "path": "assets/pbr.vertex-DwHQvtWg.js",
+      "bytes": 13063,
+      "sha256": "e8aabfdbb203463891235415b6d99ee06e573a0dcdff9e3f03ca23080d877a2b"
+    },
+    {
+      "path": "assets/pbrBRDFFunctions-BuqOtdxU.js",
+      "bytes": 11586,
+      "sha256": "dfce6139e722dc001a982c47b3c8d5280eeea745b3c5a4c2f8718317768b955c"
+    },
+    {
+      "path": "assets/pbrBRDFFunctions-ZvneHXBW.js",
+      "bytes": 12334,
+      "sha256": "98957af75860b097f2fa55c9707bff1051e6e1fafb53bb2389eb9d5393ed36cf"
+    },
+    {
+      "path": "assets/pbrDebug-DLkKUrJZ.js",
+      "bytes": 32037,
+      "sha256": "d9fa66c0436fea569702fc268f93f2f7c41e14f6cb7445c05b1363524793f897"
+    },
+    {
+      "path": "assets/pbrDebug-NXyGYc2e.js",
+      "bytes": 39649,
+      "sha256": "921d524d62549d6ac60f13b46bd556a63023d2326a3744b1ed538ff01a586117"
+    },
+    {
+      "path": "assets/pbrMaterialLoadingAdapter-B9Oz9krT.js",
+      "bytes": 11842,
+      "sha256": "1c5f4373b59b04bb7ac45f6057bcb76e5c50c56fd70944faff354b4d43a8f17f"
+    },
+    {
+      "path": "assets/pbrUboDeclaration-ZpaGT7n4.js",
+      "bytes": 2314,
+      "sha256": "d4bbf43d0e08a6f88f939749580e7ce6375dceebcaffea45636fce4d18cdcdba"
+    },
+    {
+      "path": "assets/pbrUboDeclaration-_AcPaBby.js",
+      "bytes": 1726,
+      "sha256": "db01c7493b530d3f2d904e2127f39035e67f36a5aed5409539cca4e2457f0fde"
+    },
+    {
+      "path": "assets/procedural.vertex-1Njc5HWC.js",
+      "bytes": 618,
+      "sha256": "2ec8a13750ee094bfa520321824696801214aedbb3bf5a6d5b8c93f90b232c16"
+    },
+    {
+      "path": "assets/procedural.vertex-CklQtIwA.js",
+      "bytes": 478,
+      "sha256": "54cf2f4daa3ac876273bbacb72e4c8849f37c40bd5edb4da82e6cfa4cc5ee4a3"
+    },
+    {
+      "path": "assets/rgbdDecode.fragment-BwRXOcYR.js",
+      "bytes": 554,
+      "sha256": "07013491193bcb6ac4d17d50d9dafc75c21acf34f22a7e36a9a33384d1078351"
+    },
+    {
+      "path": "assets/rgbdDecode.fragment-C9PQNGc-.js",
+      "bytes": 419,
+      "sha256": "fc52b49e231ac048b03b02e39698307a8f1da11af34477cfc71450c5b6c1cdad"
+    },
+    {
+      "path": "assets/rgbdEncode.fragment-CVJFDi2p.js",
+      "bytes": 545,
+      "sha256": "9c05f816dbbcd44454e3b550d2f2b134e9c62b5ff1b27ecfbada139e091f61ef"
+    },
+    {
+      "path": "assets/rgbdEncode.fragment-Dt2HfPRE.js",
+      "bytes": 411,
+      "sha256": "d7869c76b0ab28b964424f4cd64dd9012b91674822728a5bf8a594d8d1077ffe"
+    },
+    {
+      "path": "assets/roadster-6L2jcyue.js",
+      "bytes": 1206750,
+      "sha256": "b08e7573f55d65a823f808ff2e91e24eb68cb28043d5df28500c470de2f96e7f"
+    },
+    {
+      "path": "assets/roadster-gt.glb",
+      "bytes": 617904,
+      "sha256": "b249fae79d0ae81cda657af4467ca26a32e80e9b6394c0fd7fcb36bb56f27235"
+    },
+    {
+      "path": "assets/roadster-H2iFeJGx.css",
+      "bytes": 6240,
+      "sha256": "cd448f68ea5aaf8c7c0c5165c91cc4f32d5943b43d1616ce143bf549cf3fe29f"
+    },
+    {
+      "path": "assets/roadster-lab-layout.json",
+      "bytes": 3400,
+      "sha256": "d748258f0972b8178ccc55c81db3d4b0b80d245b7a92fd456d092858094709b3"
+    },
+    {
+      "path": "assets/roadster-lab.glb",
+      "bytes": 81452,
+      "sha256": "b9da2c3c5e10677f8a8290f58fc6f6b159d12c1202fa62806f185b9f95e1237b"
+    },
+    {
+      "path": "assets/samplerVertexImplementation-0qh5RM0l.js",
+      "bytes": 3669,
+      "sha256": "b7e2ff6bbac4fb5916542400e8254fbd1f88894351e299a21a21035cbb540cab"
+    },
+    {
+      "path": "assets/samplerVertexImplementation-Bwr8FXgi.js",
+      "bytes": 4312,
+      "sha256": "26735f09707f92d9e5e5c59f86f96c562130fdd5d378a3bdfbf2d5b8caeaaf7b"
+    },
+    {
+      "path": "assets/sceneUboDeclaration-DHthnDv5.js",
+      "bytes": 367,
+      "sha256": "f10826b31095917520ad04cb05777c3585035170dcb354cc786fc6b1affb96dc"
+    },
+    {
+      "path": "assets/sceneUboDeclaration-EQ8qcKMa.js",
+      "bytes": 305,
+      "sha256": "e879fd1f459219eac7dc08ede794bc2b3c3c7035a394938e9a41675541564128"
+    },
+    {
+      "path": "assets/sceneVertexDeclaration-DutM1dqB.js",
+      "bytes": 294,
+      "sha256": "ca7304a82fdadd170eb14a5fccf2f85490fffccb1fc224fa700d39fd5ebae65a"
+    },
+    {
+      "path": "assets/shadowMap.fragment-CeXr2Q7n.js",
+      "bytes": 3669,
+      "sha256": "7b721ea1b27a26425e7378dac03f46ffe689b7bb6784d04ca1bdea93680fa7a1"
+    },
+    {
+      "path": "assets/shadowMap.fragment-COlnVfKg.js",
+      "bytes": 3038,
+      "sha256": "b6878efa3c27428ab561fca05daa8f5bf11a1d73d9fa03884d45020f3dd18d69"
+    },
+    {
+      "path": "assets/shadowMap.vertex-DChwD-R9.js",
+      "bytes": 4451,
+      "sha256": "040938f372e8d523925db64a8b3ae39f36d786ceb76189c37272974b4c3a43e2"
+    },
+    {
+      "path": "assets/shadowMap.vertex-DXpTebKV.js",
+      "bytes": 4269,
+      "sha256": "5b9b1100d5179494ae2103bfeb82104c56e0d799d79fb705e22f42001c8808cd"
+    },
+    {
+      "path": "assets/shadowMapFragmentSoftTransparentShadow-CFkx8qdA.js",
+      "bytes": 375,
+      "sha256": "39cc4b76993ea4a2bfd995cfee42c1fe7494c5a391c23b84b1c293cfabd98aab"
+    },
+    {
+      "path": "assets/shadowMapFragmentSoftTransparentShadow-Cmgx7ypk.js",
+      "bytes": 410,
+      "sha256": "38d67862c1252e663210abe6e4ffa2d2b3ad5d725c35b213a0ddf062c677bc9c"
+    },
+    {
+      "path": "assets/tgaTextureLoader-LEJqyzJ4.js",
+      "bytes": 3532,
+      "sha256": "12b907ae95032e7fd8710e6c3c6e4f0df491ea1c7346513dec6f42829bc1ef32"
+    },
+    {
+      "path": "assets/vertexColorMixing-B2c2-l3N.js",
+      "bytes": 538,
+      "sha256": "49a627940d1abf0336cd7c10f556a5578e49d4da01c0c2a5959bfb3acc6ab65e"
+    },
+    {
+      "path": "assets/vertexColorMixing-nUEaih04.js",
+      "bytes": 398,
+      "sha256": "2a1e14d0542675e5341fd5a0a0bc8284f7dc6dc6fd9ffdca7e02c62f89ca41a3"
+    },
+    {
+      "path": "assets/vrDistortionCorrection.fragment-8-BhUb8S.js",
+      "bytes": 804,
+      "sha256": "f71dc6ab4c8a0ce1db526ae6f0ae3dc2b293b65efde94d84453086593a49ba11"
+    },
+    {
+      "path": "assets/vrDistortionCorrection.fragment-DBn9qn8p.js",
+      "bytes": 1096,
+      "sha256": "ac43621fab52d121bb45cf344d44ba06b54fab6413727317586d77afe8bec8d5"
+    },
+    {
+      "path": "assets/webAudioBus-Dx--J-BH.js",
+      "bytes": 2555,
+      "sha256": "b6b9e04bf3e94b65f351f9dbadc9cf496ef5584e80be8c9f6375b424639a7329"
+    },
+    {
+      "path": "assets/webAudioMainBus-CcIO_zVl.js",
+      "bytes": 1168,
+      "sha256": "30696f53940b3dad0e3cc969c8c47ff6c81ec4a7174b1865a83e170203e7f409"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 199,
+      "sha256": "4e1858f24e85cc71b88502caf6968c5ee53048485c18c63bfcc9ff800ec6fc10"
+    },
+    {
+      "path": "index.html",
+      "bytes": 10348,
+      "sha256": "ac932a14069e650b445c1d9abebd53aacc7701ad2dd4cf5476aa4b19bc3e4fba"
+    },
+    {
+      "path": "roadster.html",
+      "bytes": 3040,
+      "sha256": "815ddf45f633edf455494981f5666e51acab43534791755a12c1b8b8e80b36aa"
+    }
+  ],
+  "totalBytes": 17770224
+}

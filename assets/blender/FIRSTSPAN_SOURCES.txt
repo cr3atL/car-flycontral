@@ -1,0 +1,41 @@
+First-span candidate, 2026-10-23
+
+Construction and sources
+- build_firstspan_car.py -> live Blender MCP scene FirstSpan_GT_Source_v2 -> roadster-gt.glb.
+- build_firstspan_coast.py -> live Blender MCP scene FirstSpan_Coast_Source_v5 -> firstspan-coast.glb.
+- export_firstspan_scene.py limits export to selected objects in the active task scene. Each export includes only referenced meshes/materials.
+- Both model scripts ran in the live Blender MCP process. No geometry was constructed offline. The original RX100 file was never saved or modified.
+- normalize_firstspan_sources.py runs in a separate factory/background Blender and only packs those MCP scene libraries as ordinary, independently openable roadster-gt.blend / firstspan-coast.blend. This is packaging, not modeling.
+- Rebuild in a live Blender MCP session with the model script executed via exec(compile(Path(...).read_text(encoding='utf-8-sig'), ..., 'exec')). Existing named scenes are deliberately protected against accidental overwrite; use a fresh task session for reproduction.
+- First-span car: continuous body shoulder and real wheel-well Boolean openings; shared canopy/roof surface; four independent wheel pivots; modeled tire/rim/disc/caliper, diffuser and jet nozzles. Renderer drives front steering and signed wheel roll. Physical vehicle size and suspension response were preserved.
+- First-span coast: irregular cliff silhouette and angular fractured rocks, terrain-following soil and grass patches, shrubs and trees. firstspan-coast-roots.json records roots sampled with exact barycentric interpolation of the exported terrain triangles. Visual meshes add no colliders.
+
+Runtime integration
+- src/roadster/visuals/hero-car.js loads the car GLB and preserves pivot transforms.
+- environment.js loads coast GLB, local HDR, unified warm sunlight, IBL, shadows and atmosphere; sky.js renders a smooth clear atmospheric sky with a small local HDR contribution, avoiding magnification of low-resolution IBL cubemap texels. Original scenery batches are clipped only through the sample band; original track GLB remains byte-identical.
+- ocean.js shades the existing sea mesh with moving wave normals, HDR reflection, sunlight highlights, near-shore color, contact foam, pier/deck shadows and haze. It has no physics input/output.
+- public/assets/firstspan/visual-manifest.json binds coast and foam contacts.
+- Sample coast z approximately62..330, including the forward background visible from the first-span chase camera; normal full route remains intact.
+
+Downloaded media
+- Only new external media is Poly Haven Kloppenheim 06 Pure Sky 1K HDR (1,173,154 bytes), CC0. Source https://polyhaven.com/a/kloppenheim_06_puresky ; license https://polyhaven.com/license . Credit Greg Zaal / Jarod Guest.
+- Full source/download/hash/usage record: assets/third-party/polyhaven-kloppenheim06/README.md.
+- Models, material vertex colors and ocean shader are original task work. No downloaded scripts or runtime external requests.
+
+Authorized behavior exception to the original art-only baseline
+- Human explicitly requested continuous S / downward stick brake-through-zero into reverse, and removal of collision-triggered automatic resets.
+- simulation.js and new collision.js implement continuous convex-prism contact resolution against the original182 guardrail colliders and existing road faces. Contacts block, slow and slide; hard landings retain impact/control; actual map bounds/fall-out still recover. Manual R/pause recovery remains.
+- Air S continues to stop horizontal speed at zero without reverse or gravity changes. Ground reverse camera keeps body heading. Lift/jet strengths, gravity, body dimensions, road layout, input and audio constants remain unchanged.
+
+Verification and limits
+- Relevant tests49/49; complete npm test186/186. Logs docs/coastal-art-contact-tests.txt and docs/coastal-art-all-tests.txt. Supervisor independent full suite also186/186.
+- Production npm run build passed; docs/coastal-art-build.txt. Final build includes current car v2, coast v5, HDR, visual manifest and shader source.
+- scripts/audit-firstspan-assets.mjs writes docs/coastal-art-final-audit.json: referenced resource counts, asset hashes, original60-file preservation, and projected triangle/road polygon driving-envelope checks. The latter excludes intentional route paint and degenerate vertical projections; it is not a gameplay collision test.
+- Offline Cycles CPU inspection only: docs/screenshots/coastal-art-car-v2-inspection.png and coastal-art-coast-v4-inspection.png. Inspection scripts create no source geometry and save no project. These are not game screenshots and do not validate Babylon water, lighting, mobile performance, or gameplay.
+- Human subsequently explicitly authorized ordinary local gameplay at http://localhost:5173/roadster.html and http://localhost:4173/roadster.html. All new browser work used those exact localhost origins, no address aliases. The earlier approval block is no longer pending.
+- Native production keyboard / emulated667x375 and844x390 touch checks passed continuous brake-through-zero reverse, nonrotating reverse camera, persistent real guard contact and reverse escape, and first-span takeoff/landing. Production getState observer was read-only; no DEV API, simulation stepping or state writes were used.
+- Native PC and both mobile sizes completed the full main route including high platform, slope and exit. PC pure-ground bypass also completed, with no takeoff/landing events. See docs/coastal-art-browser-verification.txt for exact evidence binding and limitations.
+- Main.js now resets camera heading/position and prediction bookkeeping immediately when automatic out-of-map recovery completes, matching the existing manual recovery path. Native angled drive-out/fall/recovery proof passed: heading0 and camera(0,5.2,1) at checkpoint(0,0,12) on the first recovered observation.
+- Mobile cancellation, independent two-finger controls, pause/resume and landscape/portrait interruption passed. Synthetic blur wiring passed; headless actual tab focus did not emit blur, so actual OS/background interruption is not claimed from that test.
+- Current screenshots are Babylon production frames. Offline model inspection images remain geometry evidence only. Ordinary human IAB visual acceptance is performed independently by supervisor. No physical-phone performance, new-player usability or subjective audio approval is claimed.
+- No deploy, push or commit performed.

@@ -1,0 +1,7627 @@
+{
+  "production": true,
+  "scenario": "main",
+  "environment": "Windows / headless Microsoft Edge, normal real-time render loop. Native keyboard or two independent touch points. Read-only state feedback controller, not human play; no advance/setManual/state writes.",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "source": {
+    "simulation": "8370e7e24a1870cf4f5dee60f32e67f9194c5f6557eb000f2b436c8adc352e8b",
+    "geometry": "6cf2ad230dc9f962010ac4559cd4ea9b49a82334ce3ad24053403bbfad536332",
+    "config": "08a49bf8ab5f99c1eb8c9284a465d4c27b633e24ab4252f5fb20da533cb202ca",
+    "main": "9ec5dce3f3591ff5ea9dedd7ac55ea3e16d00db48d614e0fc38e55c355abd510",
+    "layout": "224e7433a2e5f063eba9794ef2f94b6fb6d42bae5db723164d58ab2ef0f8417a",
+    "glb": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7"
+  },
+  "phases": [
+    {
+      "name": "first-approach",
+      "wallMs": 7204,
+      "time": 5.225000000000049,
+      "x": 0,
+      "y": 0,
+      "z": 100.173002118352,
+      "vx": 0,
+      "vy": 0,
+      "vz": 26.949056724768475,
+      "speed": 26.949056724768475,
+      "heading": 0,
+      "pitch": 0,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "runway",
+      "group": "runway",
+      "route": "main",
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastContact": null,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.1583333333333283,
+          "x": 0,
+          "y": 0,
+          "z": 30.072066974072264,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false,
+        "keys": [
+          "KeyW"
+        ],
+        "pointers": []
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 0,
+          "y": 5.2,
+          "z": 81.94433370650884,
+          "heading": 0
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.9891468296595128,
+                0,
+                0,
+                -0.14693042358386746
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.9891468296595128,
+                0,
+                0,
+                -0.14693042358386746
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.9891468296595128,
+                0,
+                0,
+                -0.14693042358386746
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.9891468296595128,
+                0,
+                0,
+                -0.14693042358386746
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 5.589000000000005,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "desktop 128px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "first-flight",
+      "wallMs": 7708,
+      "time": 5.708333333333407,
+      "x": 0,
+      "y": 0.9288348705002505,
+      "z": 113.87489841784691,
+      "vx": 0,
+      "vy": 5.170314775406143,
+      "vz": 30.29217137842074,
+      "speed": 30.29217137842074,
+      "heading": 0,
+      "pitch": -0.10200719859436415,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 90.76944049002816,
+      "grounded": false,
+      "surface": null,
+      "group": null,
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": true
+      },
+      "jets": {
+        "lift": 26.900157679654964,
+        "forward": 8.999059822705513,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 26.900157679654964,
+        "forward": 8.999059822705513,
+        "side": 0,
+        "brake": 0,
+        "cost": 23.93281166824032
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 0,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 0,
+      "lastContact": null,
+      "lastLanding": null,
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.1583333333333283,
+          "x": 0,
+          "y": 0,
+          "z": 30.072066974072264,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "takeoff",
+          "time": 5.291666666666719,
+          "x": 0,
+          "y": 0,
+          "z": 101.97368445839746,
+          "pressure": 99.7435073100457,
+          "from": "runway",
+          "group": "runway",
+          "vx": 0,
+          "vz": 27.057359628260063
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": true,
+        "keys": [
+          "KeyW",
+          "Space"
+        ],
+        "pointers": []
+      },
+      "prediction": {
+        "trace": [
+          {
+            "x": 0,
+            "y": 0.9288348705002505,
+            "z": 113.87489841784691
+          },
+          {
+            "x": 0,
+            "y": 0.9724454678971297,
+            "z": 114.12793288150421
+          },
+          {
+            "x": 0,
+            "y": 1.937304349924458,
+            "z": 118.78503968382552
+          },
+          {
+            "x": 0,
+            "y": 3.243747272741337,
+            "z": 123.63609753855167
+          },
+          {
+            "x": 0,
+            "y": 4.892121437963182,
+            "z": 128.6807588281952
+          },
+          {
+            "x": 0,
+            "y": 6.88248423763101,
+            "z": 133.9186754068079
+          },
+          {
+            "x": 0,
+            "y": 9.214845158585394,
+            "z": 139.34949971202218
+          },
+          {
+            "x": 0,
+            "y": 11.889205768990537,
+            "z": 144.97288480498165
+          },
+          {
+            "x": 0,
+            "y": 14.905566328062234,
+            "z": 150.78848437073154
+          },
+          {
+            "x": 0,
+            "y": 18.263926878648572,
+            "z": 156.79595271715223
+          },
+          {
+            "x": 0,
+            "y": 21.96428742783229,
+            "z": 162.99494477384118
+          },
+          {
+            "x": 0,
+            "y": 26.00664797678415,
+            "z": 169.38511609099518
+          },
+          {
+            "x": 0,
+            "y": 30.391008525697693,
+            "z": 175.96612283829344
+          },
+          {
+            "x": 0,
+            "y": 35.117369074604895,
+            "z": 182.7376218037845
+          },
+          {
+            "x": 0,
+            "y": 40.185729623511044,
+            "z": 189.69927039277317
+          },
+          {
+            "x": 0,
+            "y": 45.59609017241702,
+            "z": 196.85072662671098
+          },
+          {
+            "x": 0,
+            "y": 51.34845072132298,
+            "z": 204.19164914208798
+          },
+          {
+            "x": 0,
+            "y": 57.44281127022894,
+            "z": 211.7216971893264
+          },
+          {
+            "x": 0,
+            "y": 63.87917181913489,
+            "z": 219.44053063167675
+          },
+          {
+            "x": 0,
+            "y": 70.6575323680408,
+            "z": 227.34780994411534
+          },
+          {
+            "x": 0,
+            "y": 77.77789291694673,
+            "z": 235.44319621224463
+          },
+          {
+            "x": 0,
+            "y": 85.24025346585263,
+            "z": 243.72635113119443
+          },
+          {
+            "x": 0,
+            "y": 93.04461401475855,
+            "z": 252.1969370045263
+          },
+          {
+            "x": 0,
+            "y": 101.19097456366445,
+            "z": 260.85461674313876
+          },
+          {
+            "x": 0,
+            "y": 109.67933511257036,
+            "z": 269.6990538641753
+          },
+          {
+            "x": 0,
+            "y": 118.50969566147626,
+            "z": 278.7299124899339
+          },
+          {
+            "x": 0,
+            "y": 127.68205621038214,
+            "z": 287.9468573467789
+          },
+          {
+            "x": 0,
+            "y": 136.9818087419369,
+            "z": 297.27332672575875
+          },
+          {
+            "x": 0,
+            "y": 146.02390675456402,
+            "z": 306.58473698776805
+          },
+          {
+            "x": 0,
+            "y": 154.80050476719114,
+            "z": 315.8794009501682
+          },
+          {
+            "x": 0,
+            "y": 163.31160277981826,
+            "z": 325.1573487306902
+          },
+          {
+            "x": 0,
+            "y": 171.55720079244537,
+            "z": 334.4186103928995
+          },
+          {
+            "x": 0,
+            "y": 179.53729880507245,
+            "z": 343.6632159462927
+          },
+          {
+            "x": 0,
+            "y": 187.25189681769956,
+            "z": 352.8911953463956
+          },
+          {
+            "x": 0,
+            "y": 194.70099483032664,
+            "z": 362.1025784948597
+          },
+          {
+            "x": 0,
+            "y": 201.8845928429537,
+            "z": 371.2973952395591
+          },
+          {
+            "x": 0,
+            "y": 208.80269085558078,
+            "z": 380.4756753746875
+          },
+          {
+            "x": 0,
+            "y": 215.45528886820782,
+            "z": 389.6374486408545
+          },
+          {
+            "x": 0,
+            "y": 221.84238688083488,
+            "z": 398.78274472518234
+          },
+          {
+            "x": 0,
+            "y": 227.9639848934619,
+            "z": 407.91159326140155
+          },
+          {
+            "x": 0,
+            "y": 233.82008290608894,
+            "z": 417.02402382994757
+          },
+          {
+            "x": 0,
+            "y": 239.41068091871597,
+            "z": 426.12006595805593
+          },
+          {
+            "x": 0,
+            "y": 244.735778931343,
+            "z": 435.1997491198585
+          },
+          {
+            "x": 0,
+            "y": 249.79537694397,
+            "z": 444.263102736479
+          },
+          {
+            "x": 0,
+            "y": 254.589474956597,
+            "z": 453.31015617612763
+          },
+          {
+            "x": 0,
+            "y": 259.118072969224,
+            "z": 462.34093875419717
+          },
+          {
+            "x": 0,
+            "y": 263.38117098185097,
+            "z": 471.3554797333568
+          },
+          {
+            "x": 0,
+            "y": 267.37876899447804,
+            "z": 480.35380832364876
+          },
+          {
+            "x": 0,
+            "y": 271.110867007105,
+            "z": 489.3359536825809
+          },
+          {
+            "x": 0,
+            "y": 274.5774650197321,
+            "z": 498.30194491522286
+          },
+          {
+            "x": 0,
+            "y": 277.77856303235905,
+            "z": 507.2518110742991
+          },
+          {
+            "x": 0,
+            "y": 280.7141610449861,
+            "z": 516.185581160284
+          },
+          {
+            "x": 0,
+            "y": 283.3842590576131,
+            "z": 525.1032841214949
+          },
+          {
+            "x": 0,
+            "y": 285.78885707024017,
+            "z": 534.0049488541871
+          },
+          {
+            "x": 0,
+            "y": 287.9279550828672,
+            "z": 542.8906042026466
+          },
+          {
+            "x": 0,
+            "y": 289.8015530954942,
+            "z": 551.7602789592835
+          },
+          {
+            "x": 0,
+            "y": 291.40965110812124,
+            "z": 560.614001864726
+          },
+          {
+            "x": 0,
+            "y": 292.7522491207483,
+            "z": 569.4518016079126
+          }
+        ],
+        "x": 0,
+        "y": 292.88503778881795,
+        "z": 570.4327976903659,
+        "time": 8.424999999999764,
+        "heading": 0,
+        "safe": false,
+        "reason": "驶出试驾区",
+        "surface": null,
+        "group": null
+      },
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 0,
+          "y": 5.81476371517602,
+          "z": 95.13779520018862,
+          "heading": 0
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                0.8749935895828147,
+                0,
+                0,
+                -0.48413450423304966
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                0.8749935895828147,
+                0,
+                0,
+                -0.48413450423304966
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                0.8749935895828147,
+                0,
+                0,
+                -0.48413450423304966
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                0.8749935895828147,
+                0,
+                0,
+                -0.48413450423304966
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 6.072500000000004,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "desktop 128px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "bridge-contact",
+      "wallMs": 9049,
+      "time": 7.075000000000141,
+      "x": 0,
+      "y": 0,
+      "z": 163.33111492552842,
+      "vx": 0,
+      "vy": 0,
+      "vz": 41.44683443221058,
+      "speed": 41.44683443221058,
+      "heading": 0,
+      "pitch": -0.09901265795382792,
+      "roll": 0,
+      "reference": 0,
+      "pressure": 81.32851371438473,
+      "grounded": true,
+      "surface": "landing",
+      "group": "landing",
+      "route": "main",
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 3.5986468891036263,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 3.5986468891036263,
+        "side": 0,
+        "brake": 0,
+        "cost": 2.3990979260690843
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "start",
+        "x": 0,
+        "z": 12,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 1,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "landing"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastContact": null,
+      "lastLanding": {
+        "time": 7.033333333333473,
+        "surface": "landing",
+        "group": "landing",
+        "impact": 8.451953823459402,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.1583333333333283,
+          "x": 0,
+          "y": 0,
+          "z": 30.072066974072264,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "takeoff",
+          "time": 5.291666666666719,
+          "x": 0,
+          "y": 0,
+          "z": 101.97368445839746,
+          "pressure": 99.7435073100457,
+          "from": "runway",
+          "group": "runway",
+          "vx": 0,
+          "vz": 27.057359628260063
+        },
+        {
+          "type": "landing",
+          "time": 7.033333333333473,
+          "x": 0,
+          "y": 0,
+          "z": 161.60085720127762,
+          "pressure": 81.4776455143104,
+          "surface": "landing",
+          "group": "landing",
+          "impact": 8.451953823459402,
+          "safe": true,
+          "flight": 1
+        },
+        {
+          "type": "ground-stage",
+          "time": 7.033333333333473,
+          "x": 0,
+          "y": 0,
+          "z": 161.60085720127762,
+          "pressure": 81.4776455143104,
+          "surface": "landing",
+          "group": "landing",
+          "route": "main"
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false,
+        "keys": [
+          "KeyW"
+        ],
+        "pointers": []
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 0,
+          "y": 5.991189480040131,
+          "z": 141.60251196003156,
+          "heading": 0
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.9677603031383569,
+                0,
+                0,
+                -0.2518729752664139
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.9677603031383569,
+                0,
+                0,
+                -0.2518729752664139
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.9677603031383569,
+                0,
+                0,
+                -0.2518729752664139
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.9677603031383569,
+                0,
+                0,
+                -0.2518729752664139
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 7.4391000000005665,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "desktop 128px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "upper-approach",
+      "wallMs": 18946,
+      "time": 16.974999999999678,
+      "x": 19.849068793073204,
+      "y": 0,
+      "z": 314.3975436413704,
+      "vx": -0.3707613276501542,
+      "vy": 0,
+      "vz": 8.125551684304218,
+      "speed": 8.134006032477478,
+      "heading": -0.045597437959542304,
+      "pitch": -3.9771113681337956e-36,
+      "roll": -0.03242891112650636,
+      "reference": -0.045597437959542304,
+      "pressure": 100,
+      "grounded": true,
+      "surface": "apron",
+      "group": "apron",
+      "route": "main",
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "apron",
+        "x": 20,
+        "z": 300,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 0,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 1,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "landing",
+        "curve",
+        "apron"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 1,
+      "lastContact": null,
+      "lastLanding": {
+        "time": 7.033333333333473,
+        "surface": "landing",
+        "group": "landing",
+        "impact": 8.451953823459402,
+        "safe": true,
+        "flight": 1
+      },
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.1583333333333283,
+          "x": 0,
+          "y": 0,
+          "z": 30.072066974072264,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "takeoff",
+          "time": 5.291666666666719,
+          "x": 0,
+          "y": 0,
+          "z": 101.97368445839746,
+          "pressure": 99.7435073100457,
+          "from": "runway",
+          "group": "runway",
+          "vx": 0,
+          "vz": 27.057359628260063
+        },
+        {
+          "type": "landing",
+          "time": 7.033333333333473,
+          "x": 0,
+          "y": 0,
+          "z": 161.60085720127762,
+          "pressure": 81.4776455143104,
+          "surface": "landing",
+          "group": "landing",
+          "impact": 8.451953823459402,
+          "safe": true,
+          "flight": 1
+        },
+        {
+          "type": "ground-stage",
+          "time": 7.033333333333473,
+          "x": 0,
+          "y": 0,
+          "z": 161.60085720127762,
+          "pressure": 81.4776455143104,
+          "surface": "landing",
+          "group": "landing",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 8.725000000000145,
+          "x": 0.10046539284288991,
+          "y": 0,
+          "z": 204.07425871235776,
+          "pressure": 88.63755303393579,
+          "surface": "curve-000",
+          "group": "curve",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 13.674999999999864,
+          "x": 19.420855230704465,
+          "y": 0,
+          "z": 284.088964694244,
+          "pressure": 100,
+          "surface": "apron",
+          "group": "apron",
+          "route": "main"
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false,
+        "keys": [
+          "KeyD"
+        ],
+        "pointers": []
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 19.90360921663662,
+          "y": 10.599987247353484,
+          "z": 301.1616717657084,
+          "heading": -0.017674103076696424
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.7689082246240234,
+                0.06795016073506757,
+                0.08289152552388555,
+                0.6303109651258924
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.7689082246240234,
+                0.06795016073506757,
+                0.08289152552388555,
+                0.6303109651258924
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.7733633446822681,
+                0,
+                0,
+                0.6339630408011616
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.7733633446822681,
+                0,
+                0,
+                0.6339630408011616
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 17.339000000000002,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "desktop 128px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    },
+    {
+      "name": "upper-contact",
+      "wallMs": 22822,
+      "time": 20.841666666666125,
+      "x": 33.32823723604309,
+      "y": 8,
+      "z": 370.91625595068734,
+      "vx": 3.6234972144725606,
+      "vy": 0,
+      "vz": 13.5037910455332,
+      "speed": 13.981491503581191,
+      "heading": 0.262164614230959,
+      "pitch": -0.04372862579805356,
+      "roll": -4.5733337447625054e-11,
+      "reference": 0.262164614230959,
+      "pressure": 65.71432837559827,
+      "grounded": true,
+      "surface": "high",
+      "group": "high",
+      "route": "upper",
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      },
+      "jets": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0
+      },
+      "forces": {
+        "lift": 0,
+        "forward": 0,
+        "side": 0,
+        "brake": 0,
+        "cost": 0
+      },
+      "reverse": false,
+      "checkpoint": {
+        "surface": "apron",
+        "x": 20,
+        "z": 300,
+        "heading": 0,
+        "y": 0
+      },
+      "visits": {
+        "low": 0,
+        "high": 1,
+        "far": 0,
+        "start": 0,
+        "runway": 0,
+        "landing": 1,
+        "curve": 0,
+        "apron": 0,
+        "ramp": 0,
+        "recovery": 0,
+        "return-ramp": 0,
+        "return-top": 0,
+        "ground-bypass": 0,
+        "lower-bypass": 0
+      },
+      "groundContacts": [
+        "start",
+        "runway",
+        "landing",
+        "curve",
+        "apron",
+        "high"
+      ],
+      "complete": false,
+      "crashTimer": 0,
+      "reason": "",
+      "recoveryNotice": null,
+      "landingCount": 2,
+      "lastContact": null,
+      "lastLanding": {
+        "time": 20.816666666666126,
+        "surface": "high",
+        "group": "high",
+        "impact": 15.79781706887655,
+        "safe": true,
+        "flight": 2
+      },
+      "events": [
+        {
+          "type": "ground-stage",
+          "time": 2.1583333333333283,
+          "x": 0,
+          "y": 0,
+          "z": 30.072066974072264,
+          "pressure": 100,
+          "surface": "runway",
+          "group": "runway",
+          "route": "main"
+        },
+        {
+          "type": "takeoff",
+          "time": 5.291666666666719,
+          "x": 0,
+          "y": 0,
+          "z": 101.97368445839746,
+          "pressure": 99.7435073100457,
+          "from": "runway",
+          "group": "runway",
+          "vx": 0,
+          "vz": 27.057359628260063
+        },
+        {
+          "type": "landing",
+          "time": 7.033333333333473,
+          "x": 0,
+          "y": 0,
+          "z": 161.60085720127762,
+          "pressure": 81.4776455143104,
+          "surface": "landing",
+          "group": "landing",
+          "impact": 8.451953823459402,
+          "safe": true,
+          "flight": 1
+        },
+        {
+          "type": "ground-stage",
+          "time": 7.033333333333473,
+          "x": 0,
+          "y": 0,
+          "z": 161.60085720127762,
+          "pressure": 81.4776455143104,
+          "surface": "landing",
+          "group": "landing",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 8.725000000000145,
+          "x": 0.10046539284288991,
+          "y": 0,
+          "z": 204.07425871235776,
+          "pressure": 88.63755303393579,
+          "surface": "curve-000",
+          "group": "curve",
+          "route": "main"
+        },
+        {
+          "type": "ground-stage",
+          "time": 13.674999999999864,
+          "x": 19.420855230704465,
+          "y": 0,
+          "z": 284.088964694244,
+          "pressure": 100,
+          "surface": "apron",
+          "group": "apron",
+          "route": "main"
+        },
+        {
+          "type": "takeoff",
+          "time": 17.04166666666634,
+          "x": 19.83721564286349,
+          "y": 0,
+          "z": 314.9519900718945,
+          "pressure": 99.7435073100457,
+          "from": "apron",
+          "group": "apron",
+          "vx": -0.04542820626211127,
+          "vz": 8.567691590609662
+        },
+        {
+          "type": "landing",
+          "time": 20.816666666666126,
+          "x": 33.23949546903655,
+          "y": 8,
+          "z": 370.5779728584401,
+          "pressure": 65.71432837559827,
+          "surface": "high",
+          "group": "high",
+          "impact": 15.79781706887655,
+          "safe": true,
+          "flight": 2
+        },
+        {
+          "type": "ground-stage",
+          "time": 20.816666666666126,
+          "x": 33.23949546903655,
+          "y": 8,
+          "z": 370.5779728584401,
+          "pressure": 65.71432837559827,
+          "surface": "high",
+          "group": "high",
+          "route": "upper"
+        }
+      ],
+      "paused": false,
+      "manual": false,
+      "controls": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false,
+        "keys": [],
+        "pointers": []
+      },
+      "prediction": null,
+      "world": {
+        "asset": "coastal-interchange.glb",
+        "meshes": 438,
+        "rightHanded": false,
+        "camera": {
+          "x": 29.738225766948975,
+          "y": 15.037851642231493,
+          "z": 356.5413226238553,
+          "heading": 0.24521708379348295
+        },
+        "assetMeshes": 326,
+        "hero": {
+          "asset": "roadster-gt.glb",
+          "meshes": 83,
+          "wheelPivots": 4,
+          "wheels": [
+            {
+              "name": "GT_Wheel_FL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.6046240856725544,
+                0.05017802599091865,
+                0.03820964789059328,
+                0.7940100147607455
+              ]
+            },
+            {
+              "name": "GT_Wheel_FR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                1.1799999475479126
+              ],
+              "rotation": [
+                -0.6046240856725544,
+                0.05017802599091865,
+                0.03820964789059328,
+                0.7940100147607455
+              ]
+            },
+            {
+              "name": "GT_Wheel_RL.001",
+              "position": [
+                -0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.6058302255312915,
+                0,
+                0,
+                0.7955939528633338
+              ]
+            },
+            {
+              "name": "GT_Wheel_RR.001",
+              "position": [
+                0.9900000095367432,
+                0.4300000071525574,
+                -1.1799999475479126
+              ],
+              "rotation": [
+                -0.6058302255312915,
+                0,
+                0,
+                0.7955939528633338
+              ]
+            }
+          ],
+          "triangles": 33180,
+          "mode": "Blender MCP curved 3D geometry"
+        },
+        "visuals": {
+          "hdr": "local CC0 Kloppenheim 06 1K",
+          "ocean": {
+            "type": "animated multi-wave HDR reflection",
+            "time": 21.20540000000038,
+            "contacts": 12
+          },
+          "coast": "firstspan-coast.glb",
+          "quality": "desktop 128px IBL",
+          "sun": [
+            0.4811319918377679,
+            0.5512970739807758,
+            0.6816036551035045
+          ]
+        }
+      },
+      "layout": {
+        "version": 2,
+        "name": "滨海立交试驾区",
+        "asset": "coastal-interchange.glb",
+        "surfaces": 154
+      }
+    }
+  ],
+  "actions": [
+    {
+      "wallMs": 2167,
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 7214,
+      "observed": {
+        "time": 5.241666666666717,
+        "x": 0,
+        "y": 0,
+        "z": 100.62249541138576,
+        "heading": 0,
+        "pitch": 0,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 26.976427982675943,
+        "speed": 26.976427982675943,
+        "pressure": 100,
+        "group": "runway",
+        "surface": "runway",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": true
+      }
+    },
+    {
+      "wallMs": 7708,
+      "observed": {
+        "time": 5.708333333333407,
+        "x": 0,
+        "y": 0.9288348705002505,
+        "z": 113.87489841784691,
+        "heading": 0,
+        "pitch": -0.10200719859436415,
+        "roll": 0,
+        "vx": 0,
+        "vy": 5.170314775406143,
+        "vz": 30.29217137842074,
+        "speed": 30.29217137842074,
+        "pressure": 90.76944049002816,
+        "group": null,
+        "surface": null,
+        "grounded": false,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 9067,
+      "observed": {
+        "time": 7.091666666666809,
+        "x": 0,
+        "y": 0,
+        "z": 164.02090760975642,
+        "heading": 0,
+        "pitch": -0.08665323648871567,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 41.3678260102413,
+        "speed": 41.3678260102413,
+        "pressure": 81.29801455758039,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 9173,
+      "observed": {
+        "time": 7.191666666666814,
+        "x": 0,
+        "y": 0,
+        "z": 168.05257241333362,
+        "heading": 0,
+        "pitch": -0.038935808988879266,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 39.16558089150958,
+        "speed": 39.16558089150958,
+        "pressure": 81.23678466108127,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 9256,
+      "observed": {
+        "time": 7.275000000000151,
+        "x": 0,
+        "y": 0,
+        "z": 171.22038956327162,
+        "heading": 0,
+        "pitch": -0.019990310878273698,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 37.07641634798623,
+        "speed": 37.07641634798623,
+        "pressure": 81.2303746436778,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 9368,
+      "observed": {
+        "time": 7.391666666666824,
+        "x": 0,
+        "y": 0,
+        "z": 175.36592085953782,
+        "heading": 0,
+        "pitch": -0.007861004260159734,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 34.204833016855225,
+        "speed": 34.204833016855225,
+        "pressure": 81.22924845491141,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 9466,
+      "observed": {
+        "time": 7.491666666666829,
+        "x": 0,
+        "y": 0,
+        "z": 178.65520605149172,
+        "heading": 0,
+        "pitch": -0.003532176901138641,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 31.788793848385,
+        "speed": 31.788793848385,
+        "pressure": 81.22921970060197,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 9549,
+      "observed": {
+        "time": 7.575000000000166,
+        "x": 0,
+        "y": 0,
+        "z": 181.21315679316876,
+        "heading": 0,
+        "pitch": -0.0018134800884960702,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 29.804633138384702,
+        "speed": 29.804633138384702,
+        "pressure": 81.22921970060197,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 9666,
+      "observed": {
+        "time": 7.691666666666839,
+        "x": 0,
+        "y": 0,
+        "z": 184.51885181472585,
+        "heading": 0,
+        "pitch": -0.0007131342172810445,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 27.06744931190564,
+        "speed": 27.06744931190564,
+        "pressure": 81.46255303393532,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 9786,
+      "observed": {
+        "time": 7.808333333333511,
+        "x": 0,
+        "y": 0,
+        "z": 187.50793139190827,
+        "heading": 0,
+        "pitch": -0.00028043341367966167,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 24.37305695324561,
+        "speed": 24.37305695324561,
+        "pressure": 82.27921970060204,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 9907,
+      "observed": {
+        "time": 7.925000000000184,
+        "x": 0,
+        "y": 0,
+        "z": 190.18508225534575,
+        "heading": 0,
+        "pitch": -0.00011027783775103203,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 21.716607199521338,
+        "speed": 21.716607199521338,
+        "pressure": 83.09588636726876,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10017,
+      "observed": {
+        "time": 8.04166666666685,
+        "x": 0,
+        "y": 0,
+        "z": 192.5544411502254,
+        "heading": 0,
+        "pitch": -0.00004336573641304618,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 19.093497117141602,
+        "speed": 19.093497117141602,
+        "pressure": 83.91255303393548,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10115,
+      "observed": {
+        "time": 8.141666666666845,
+        "x": 0,
+        "y": 0,
+        "z": 194.34309554492643,
+        "heading": 0,
+        "pitch": -0.00001948548142065453,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 16.86831917387632,
+        "speed": 16.86831917387632,
+        "pressure": 84.61255303393553,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10215,
+      "observed": {
+        "time": 8.24166666666684,
+        "x": 0,
+        "y": 0,
+        "z": 196.02365296934596,
+        "heading": 0,
+        "pitch": -0.00000875539118206807,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 16.75263103356841,
+        "speed": 16.75263103356841,
+        "pressure": 85.31255303393557,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10316,
+      "observed": {
+        "time": 8.341666666666834,
+        "x": 0,
+        "y": 0,
+        "z": 197.69269400575243,
+        "heading": 0,
+        "pitch": -0.000003934050850279704,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 16.637908506792524,
+        "speed": 16.637908506792524,
+        "pressure": 86.01255303393562,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10416,
+      "observed": {
+        "time": 8.441666666666828,
+        "x": 0,
+        "y": 0,
+        "z": 199.35031442269536,
+        "heading": 0,
+        "pitch": -0.0000017676829933406551,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 16.524137001021792,
+        "speed": 16.524137001021792,
+        "pressure": 86.71255303393566,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10517,
+      "observed": {
+        "time": 8.541666666666822,
+        "x": 0,
+        "y": 0,
+        "z": 200.99660854488562,
+        "heading": 0,
+        "pitch": -7.942711682853863e-7,
+        "roll": 0,
+        "vx": 0,
+        "vy": 0,
+        "vz": 16.411302207226758,
+        "speed": 16.411302207226758,
+        "pressure": 87.41255303393571,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10639,
+      "observed": {
+        "time": 8.658333333333482,
+        "x": 0.02625127483718466,
+        "y": 0,
+        "z": 202.9407117884205,
+        "heading": 0.03802701562836569,
+        "pitch": -3.1233976678168923e-7,
+        "roll": -0.05900773028957044,
+        "vx": 0.6454595260321306,
+        "vy": 0,
+        "vz": 16.965527330556167,
+        "speed": 16.977801259397342,
+        "pressure": 88.22921970060243,
+        "group": "landing",
+        "surface": "landing",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10731,
+      "observed": {
+        "time": 8.758333333333477,
+        "x": 0.1608474753668164,
+        "y": 0,
+        "z": 204.63734087872828,
+        "heading": 0.11804630229159828,
+        "pitch": -1.4034330386063112e-7,
+        "roll": -0.08927533986561387,
+        "vx": 1.9992151044413506,
+        "vy": 0,
+        "vz": 16.85711555756023,
+        "speed": 16.975252750836013,
+        "pressure": 88.92921970060247,
+        "group": "curve",
+        "surface": "curve-000",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10819,
+      "observed": {
+        "time": 8.841666666666805,
+        "x": 0.3717629323900681,
+        "y": 0,
+        "z": 206.0314683971791,
+        "heading": 0.1711112552549932,
+        "pitch": -7.205465474364092e-8,
+        "roll": -0.04981877729557834,
+        "vx": 2.873948234178743,
+        "vy": 0,
+        "vz": 16.631544730251097,
+        "speed": 16.87802887090439,
+        "pressure": 89.51255303393584,
+        "group": "curve",
+        "surface": "curve-001",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 10917,
+      "observed": {
+        "time": 8.9416666666668,
+        "x": 0.672883110464839,
+        "y": 0,
+        "z": 207.6858018515268,
+        "heading": 0.1740860549354357,
+        "pitch": -3.2376243375784234e-8,
+        "roll": 0.02723881187720297,
+        "vx": 2.903358748636305,
+        "vy": 0,
+        "vz": 16.50890207416459,
+        "speed": 16.762259385823825,
+        "pressure": 90.21255303393589,
+        "group": "curve",
+        "surface": "curve-001",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11002,
+      "observed": {
+        "time": 9.025000000000128,
+        "x": 0.8814911561819562,
+        "y": 0,
+        "z": 209.0624061828601,
+        "heading": 0.12637986613697128,
+        "pitch": -1.6622517599093193e-8,
+        "roll": 0.06688128392973647,
+        "vx": 2.1007105882996964,
+        "vy": 0,
+        "vz": 16.533603276880594,
+        "speed": 16.66652400151487,
+        "pressure": 90.79588636726926,
+        "group": "curve",
+        "surface": "curve-002",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11083,
+      "observed": {
+        "time": 9.108333333333457,
+        "x": 1.0137158616516833,
+        "y": 0,
+        "z": 210.44044977323708,
+        "heading": 0.07516966912443301,
+        "pitch": -8.534285096794988e-9,
+        "roll": 0.04537135053255858,
+        "vx": 1.2444977561947497,
+        "vy": 0,
+        "vz": 16.524655280886456,
+        "speed": 16.571451560358327,
+        "pressure": 91.37921970060263,
+        "group": "curve",
+        "surface": "curve-003",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11164,
+      "observed": {
+        "time": 9.191666666666785,
+        "x": 1.095166211238575,
+        "y": 0,
+        "z": 211.81462364797963,
+        "heading": 0.04876539063707938,
+        "pitch": -4.381648067399269e-9,
+        "roll": 0.02531880820822023,
+        "vx": 0.8031905582536095,
+        "vy": 0,
+        "vz": 16.457445894971983,
+        "speed": 16.477033727549323,
+        "pressure": 91.962553033936,
+        "group": "curve",
+        "surface": "curve-003",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11255,
+      "observed": {
+        "time": 9.275000000000114,
+        "x": 1.1679470507907181,
+        "y": 0,
+        "z": 213.20819925906267,
+        "heading": 0.06286890084978565,
+        "pitch": -2.249613127378858e-9,
+        "roll": -0.037750913631356055,
+        "vx": 1.0657810186298076,
+        "vy": 0,
+        "vz": 16.930095294776926,
+        "speed": 16.96360857453093,
+        "pressure": 92.54588636726938,
+        "group": "curve",
+        "surface": "curve-004",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11331,
+      "observed": {
+        "time": 9.358333333333443,
+        "x": 1.2953332403570808,
+        "y": 0,
+        "z": 214.62054147800234,
+        "heading": 0.11619950340594912,
+        "pitch": -1.1549898907967529e-9,
+        "roll": -0.07370883721193223,
+        "vx": 1.968718304727252,
+        "vy": 0,
+        "vz": 16.86624729965091,
+        "speed": 16.980758220301876,
+        "pressure": 93.12921970060275,
+        "group": "curve",
+        "surface": "curve-005",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11413,
+      "observed": {
+        "time": 9.441666666666771,
+        "x": 1.5134378443003356,
+        "y": 0,
+        "z": 216.01385565501502,
+        "heading": 0.18939327620778376,
+        "pitch": -5.929915822446371e-10,
+        "roll": -0.0934863433786992,
+        "vx": 3.178538462634109,
+        "vy": 0,
+        "vz": 16.581595746590917,
+        "speed": 16.88349561737161,
+        "pressure": 93.71255303393612,
+        "group": "curve",
+        "surface": "curve-006",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11535,
+      "observed": {
+        "time": 9.558333333333431,
+        "x": 2.0016358314281537,
+        "y": 0,
+        "z": 217.9122242671105,
+        "heading": 0.30777590007019684,
+        "pitch": -2.3318843727089187e-10,
+        "roll": -0.1069519918246431,
+        "vx": 5.07377880444235,
+        "vy": 0,
+        "vz": 15.961456405915301,
+        "speed": 16.74847222747027,
+        "pressure": 94.52921970060284,
+        "group": "curve",
+        "surface": "curve-006",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11634,
+      "observed": {
+        "time": 9.658333333333426,
+        "x": 2.568194724202451,
+        "y": 0,
+        "z": 219.48154658815884,
+        "heading": 0.3600532171650599,
+        "pitch": -1.0477831896304359e-10,
+        "roll": -0.008729378098394861,
+        "vx": 5.860482057384256,
+        "vy": 0,
+        "vz": 15.567194026369144,
+        "speed": 16.63378428979846,
+        "pressure": 95.22921970060288,
+        "group": "curve",
+        "surface": "curve-007",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11722,
+      "observed": {
+        "time": 9.741666666666754,
+        "x": 3.0397416662016212,
+        "y": 0,
+        "z": 220.78033622751667,
+        "heading": 0.33207225426613457,
+        "pitch": -5.379498265908386e-11,
+        "roll": 0.04641394613781409,
+        "vx": 5.391739526385935,
+        "vy": 0,
+        "vz": 15.63539589994526,
+        "speed": 16.538937694677294,
+        "pressure": 95.81255303393625,
+        "group": "curve",
+        "surface": "curve-008",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11799,
+      "observed": {
+        "time": 9.825000000000083,
+        "x": 3.446931254355705,
+        "y": 0,
+        "z": 222.09230936232356,
+        "heading": 0.2720477978206712,
+        "pitch": -2.76192650152351e-11,
+        "roll": 0.07689363463918744,
+        "vx": 4.4187761486100445,
+        "vy": 0,
+        "vz": 15.83994903993798,
+        "speed": 16.444742875440685,
+        "pressure": 96.39588636726963,
+        "group": "curve",
+        "surface": "curve-009",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 11917,
+      "observed": {
+        "time": 9.941666666666743,
+        "x": 3.862598731836448,
+        "y": 0,
+        "z": 224.0079314262462,
+        "heading": 0.16016090485683376,
+        "pitch": -1.0861019684451912e-11,
+        "roll": 0.09983037366628644,
+        "vx": 2.730731392638439,
+        "vy": 0,
+        "vz": 16.903889466989092,
+        "speed": 17.12303632685879,
+        "pressure": 97.21255303393635,
+        "group": "curve",
+        "surface": "curve-010",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12023,
+      "observed": {
+        "time": 10.041666666666737,
+        "x": 4.0712724244153184,
+        "y": 0,
+        "z": 225.71184890709065,
+        "heading": 0.1085290232270836,
+        "pitch": -4.880170724071532e-12,
+        "roll": 0.003887083866559616,
+        "vx": 1.8542124937145656,
+        "vy": 0,
+        "vz": 17.017814575061337,
+        "speed": 17.11853138803143,
+        "pressure": 97.91255303393639,
+        "group": "curve",
+        "surface": "curve-010",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12121,
+      "observed": {
+        "time": 10.141666666666731,
+        "x": 4.283020972425569,
+        "y": 0,
+        "z": 227.40398936385674,
+        "heading": 0.14702126241809022,
+        "pitch": -2.1928020561622533e-12,
+        "roll": -0.05814478669188585,
+        "vx": 2.4904743913170675,
+        "vy": 0,
+        "vz": 16.817325349612087,
+        "speed": 17.000732178600764,
+        "pressure": 98.61255303393644,
+        "group": "curve",
+        "surface": "curve-011",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12205,
+      "observed": {
+        "time": 10.22500000000006,
+        "x": 4.537016467954638,
+        "y": 0,
+        "z": 228.79296355478127,
+        "heading": 0.21155389285710438,
+        "pitch": -1.1258221142835688e-12,
+        "roll": -0.08486259020575417,
+        "vx": 3.549350925396034,
+        "vy": 0,
+        "vz": 16.526482950380764,
+        "speed": 16.903328982802048,
+        "pressure": 99.19588636726981,
+        "group": "curve",
+        "surface": "curve-012",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12302,
+      "observed": {
+        "time": 10.325000000000054,
+        "x": 4.973434334886396,
+        "y": 0,
+        "z": 230.41880266434347,
+        "heading": 0.30731747592827396,
+        "pitch": -5.058644843912965e-13,
+        "roll": -0.10146206333796821,
+        "vx": 5.078220982974942,
+        "vy": 0,
+        "vz": 16.000834408681275,
+        "speed": 16.78734732249159,
+        "pressure": 99.89588636726985,
+        "group": "curve",
+        "surface": "curve-013",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12398,
+      "observed": {
+        "time": 10.425000000000049,
+        "x": 5.568193717622294,
+        "y": 0,
+        "z": 231.98115015096408,
+        "heading": 0.4125284546265427,
+        "pitch": -2.2729956475523378e-13,
+        "roll": -0.10929846185134685,
+        "vx": 6.684388706779368,
+        "vy": 0,
+        "vz": 15.273693925058739,
+        "speed": 16.672335724177813,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-013",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12488,
+      "observed": {
+        "time": 10.508333333333377,
+        "x": 6.156760931321173,
+        "y": 0,
+        "z": 233.23480387236913,
+        "heading": 0.44767577719252966,
+        "pitch": -1.1669948769399426e-13,
+        "roll": -0.009588361312925479,
+        "vx": 7.175807804859872,
+        "vy": 0,
+        "vz": 14.943631070997327,
+        "speed": 16.57722314618358,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-014",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12582,
+      "observed": {
+        "time": 10.608333333333372,
+        "x": 6.848467826136825,
+        "y": 0,
+        "z": 234.73442552875431,
+        "heading": 0.40997188358613346,
+        "pitch": -5.243645991855293e-14,
+        "roll": 0.053415677922504866,
+        "vx": 6.562260328431473,
+        "vy": 0,
+        "vz": 15.099617787854253,
+        "speed": 16.463952075895694,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-015",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12670,
+      "observed": {
+        "time": 10.6916666666667,
+        "x": 7.360167677271603,
+        "y": 0,
+        "z": 236.03129611502288,
+        "heading": 0.34494769240500167,
+        "pitch": -2.692177618365144e-14,
+        "roll": 0.08164781757770784,
+        "vx": 5.731916844391173,
+        "vy": 0,
+        "vz": 15.952412499726107,
+        "speed": 16.950939067568882,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-016",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12764,
+      "observed": {
+        "time": 10.791666666666694,
+        "x": 7.867547536447264,
+        "y": 0,
+        "z": 237.65323790838167,
+        "heading": 0.27579011375015244,
+        "pitch": -1.2096733804795796e-14,
+        "roll": 0.047867671260253715,
+        "vx": 4.615268318793223,
+        "vy": 0,
+        "vz": 16.308263806689855,
+        "speed": 16.948751282706546,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-016",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12847,
+      "observed": {
+        "time": 10.875000000000023,
+        "x": 8.24410671042102,
+        "y": 0,
+        "z": 239.00988698510864,
+        "heading": 0.2759386445920048,
+        "pitch": -6.2106702197624254e-15,
+        "roll": -0.02554377393400637,
+        "vx": 4.59125262010134,
+        "vy": 0,
+        "vz": 16.21421140697443,
+        "speed": 16.85171362715517,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-017",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 12964,
+      "observed": {
+        "time": 10.991666666666683,
+        "x": 8.840366095230701,
+        "y": 0,
+        "z": 240.87399816535256,
+        "heading": 0.34738510418323887,
+        "pitch": -2.4422884342965128e-15,
+        "roll": -0.07680458998893934,
+        "vx": 5.691140225060907,
+        "vy": 0,
+        "vz": 15.718429455543967,
+        "speed": 16.717000377167505,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-018",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13049,
+      "observed": {
+        "time": 11.075000000000012,
+        "x": 9.350120281749998,
+        "y": 0,
+        "z": 242.16563497924554,
+        "heading": 0.394511165687044,
+        "pitch": -1.253912691783136e-15,
+        "roll": -0.04285966057028646,
+        "vx": 6.388619366833982,
+        "vy": 0,
+        "vz": 15.344785002270715,
+        "speed": 16.621578871460994,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-019",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13130,
+      "observed": {
+        "time": 11.15833333333334,
+        "x": 9.899266605234297,
+        "y": 0,
+        "z": 243.43248862421268,
+        "heading": 0.418513626153984,
+        "pitch": -6.437802417337005e-16,
+        "roll": -0.023917196933994547,
+        "vx": 6.716544635138303,
+        "vy": 0,
+        "vz": 15.100453209246597,
+        "speed": 16.5268163588893,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-019",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13222,
+      "observed": {
+        "time": 11.241666666666669,
+        "x": 10.452042750826969,
+        "y": 0,
+        "z": 244.6891827240351,
+        "heading": 0.4032290584567696,
+        "pitch": -3.3052779700102233e-16,
+        "roll": 0.03760903836040162,
+        "vx": 6.448036615410411,
+        "vy": 0,
+        "vz": 15.114780952584141,
+        "speed": 16.43270456858133,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-020",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13322,
+      "observed": {
+        "time": 11.341666666666663,
+        "x": 11.05287762389985,
+        "y": 0,
+        "z": 246.24053184135252,
+        "heading": 0.3354892397657776,
+        "pitch": -1.485157126384168e-16,
+        "roll": 0.07742674810709421,
+        "vx": 5.564836820735878,
+        "vy": 0,
+        "vz": 15.96019444846545,
+        "speed": 16.90252098576556,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-021",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13413,
+      "observed": {
+        "time": 11.441666666666658,
+        "x": 11.546835996678693,
+        "y": 0,
+        "z": 247.86162975566222,
+        "heading": 0.26969806399872565,
+        "pitch": -6.673241131495081e-17,
+        "roll": 0.04575082424935814,
+        "vx": 4.503105000808823,
+        "vy": 0,
+        "vz": 16.29003544536922,
+        "speed": 16.900982499833994,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-021",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13505,
+      "observed": {
+        "time": 11.524999999999986,
+        "x": 11.915158003033387,
+        "y": 0,
+        "z": 249.21642887573609,
+        "heading": 0.2711528204682918,
+        "pitch": -3.426156236342e-17,
+        "roll": -0.02657788465733407,
+        "vx": 4.500897181869756,
+        "vy": 0,
+        "vz": 16.190297820290244,
+        "speed": 16.80427978080162,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-022",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13581,
+      "observed": {
+        "time": 11.608333333333315,
+        "x": 12.31973306781468,
+        "y": 0,
+        "z": 250.55232553200628,
+        "heading": 0.3175746515249393,
+        "pitch": -1.7590472642182586e-17,
+        "roll": -0.06664192275253365,
+        "vx": 5.217375830637918,
+        "vy": 0,
+        "vz": 15.87276540909709,
+        "speed": 16.70825222129334,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-023",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13663,
+      "observed": {
+        "time": 11.691666666666643,
+        "x": 12.786240162325509,
+        "y": 0,
+        "z": 251.8594601044385,
+        "heading": 0.35928376393711553,
+        "pitch": -9.031249786371016e-18,
+        "roll": -0.03718853507760634,
+        "vx": 5.841156036744671,
+        "vy": 0,
+        "vz": 15.55213982383486,
+        "speed": 16.61289128796396,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-023",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13753,
+      "observed": {
+        "time": 11.774999999999972,
+        "x": 13.288029691556934,
+        "y": 0,
+        "z": 253.1450394077862,
+        "heading": 0.3805376970418575,
+        "pitch": -4.636798246582322e-18,
+        "roll": -0.020752509593006563,
+        "vx": 6.1351815742194935,
+        "vy": 0,
+        "vz": 15.336560932076315,
+        "speed": 16.518188586280637,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-024",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13849,
+      "observed": {
+        "time": 11.874999999999966,
+        "x": 13.895981935665283,
+        "y": 0,
+        "z": 254.67429715463032,
+        "heading": 0.36527612024054473,
+        "pitch": -2.0834477529573854e-18,
+        "roll": 0.04056558454372418,
+        "vx": 5.860128110644242,
+        "vy": 0,
+        "vz": 15.323058856258394,
+        "speed": 16.405402591388047,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-025",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 13953,
+      "observed": {
+        "time": 11.97499999999996,
+        "x": 14.438466303392056,
+        "y": 0,
+        "z": 256.25589041040314,
+        "heading": 0.2956686271649094,
+        "pitch": -9.361534206286955e-19,
+        "roll": 0.07919614250055466,
+        "vx": 4.950577388851742,
+        "vy": 0,
+        "vz": 16.252890633163304,
+        "speed": 16.99013450260408,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-026",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14048,
+      "observed": {
+        "time": 12.074999999999955,
+        "x": 14.868821505971207,
+        "y": 0,
+        "z": 257.9039831818648,
+        "heading": 0.2290086993614804,
+        "pitch": -4.2064084674588547e-19,
+        "roll": 0.04666698348105659,
+        "vx": 3.856351909106155,
+        "vy": 0,
+        "vz": 16.543911173851022,
+        "speed": 16.987420256623412,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-026",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14130,
+      "observed": {
+        "time": 12.158333333333283,
+        "x": 15.183051842306794,
+        "y": 0,
+        "z": 259.2797014388991,
+        "heading": 0.23013637690649671,
+        "pitch": -2.1596421168370272e-19,
+        "roll": -0.026332928585206694,
+        "vx": 3.852808355539511,
+        "vy": 0,
+        "vz": 16.44480799246318,
+        "speed": 16.890110779195496,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-027",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14215,
+      "observed": {
+        "time": 12.241666666666612,
+        "x": 15.534167612313787,
+        "y": 0,
+        "z": 260.6379945481415,
+        "heading": 0.27640982397655106,
+        "pitch": -1.1087972337679153e-19,
+        "roll": -0.0667696587374567,
+        "vx": 4.583000885124684,
+        "vy": 0,
+        "vz": 16.156027142130014,
+        "speed": 16.793484156966812,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-028",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14300,
+      "observed": {
+        "time": 12.32499999999994,
+        "x": 15.948533762096014,
+        "y": 0,
+        "z": 261.9699930200156,
+        "heading": 0.318050970327077,
+        "pitch": -5.692754813524308e-20,
+        "roll": -0.037259816246572944,
+        "vx": 5.221583267552052,
+        "vy": 0,
+        "vz": 15.860095651804928,
+        "speed": 16.697531730899065,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-028",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14396,
+      "observed": {
+        "time": 12.424999999999935,
+        "x": 16.4765957369516,
+        "y": 0,
+        "z": 263.5475004307923,
+        "heading": 0.3145036152391523,
+        "pitch": -2.5579196233342054e-20,
+        "roll": 0.03292009428844952,
+        "vx": 5.129941908757795,
+        "vy": 0,
+        "vz": 15.769858368412807,
+        "speed": 16.58326677548875,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-029",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14479,
+      "observed": {
+        "time": 12.508333333333264,
+        "x": 16.869515153012085,
+        "y": 0,
+        "z": 264.86772001100655,
+        "heading": 0.2642492931942963,
+        "pitch": -1.3132797237291811e-20,
+        "roll": 0.06950017080033703,
+        "vx": 4.3066137526211365,
+        "vy": 0,
+        "vz": 15.91642363532127,
+        "speed": 16.488767793661207,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-030",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14566,
+      "observed": {
+        "time": 12.591666666666592,
+        "x": 17.176629018563954,
+        "y": 0,
+        "z": 266.20230097851163,
+        "heading": 0.19274573751705681,
+        "pitch": -6.742602922409548e-21,
+        "roll": 0.08962198201373239,
+        "vx": 3.140520072913251,
+        "vy": 0,
+        "vz": 16.09131480101861,
+        "speed": 16.39491623503614,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-031",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14664,
+      "observed": {
+        "time": 12.691666666666586,
+        "x": 17.432607808242288,
+        "y": 0,
+        "z": 267.8424527179743,
+        "heading": 0.13033081585018866,
+        "pitch": -3.0296467865800352e-21,
+        "roll": 0.044504959164677546,
+        "vx": 2.1919381621389635,
+        "vy": 0,
+        "vz": 16.722931014561308,
+        "speed": 16.865972092483066,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-031",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14764,
+      "observed": {
+        "time": 12.79166666666658,
+        "x": 17.648026637566232,
+        "y": 0,
+        "z": 269.508890643118,
+        "heading": 0.13957056722861813,
+        "pitch": -1.3613080522550772e-21,
+        "roll": -0.037089060020636236,
+        "vx": 2.330266569738417,
+        "vy": 0,
+        "vz": 16.58742079660928,
+        "speed": 16.750303608288014,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-032",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14848,
+      "observed": {
+        "time": 12.87499999999991,
+        "x": 17.878400835067513,
+        "y": 0,
+        "z": 270.8809842891002,
+        "heading": 0.19238699077863694,
+        "pitch": -6.989188583046713e-22,
+        "roll": -0.0723412341261874,
+        "vx": 3.184409114348045,
+        "vy": 0,
+        "vz": 16.347383457288117,
+        "speed": 16.6546512214204,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-033",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 14929,
+      "observed": {
+        "time": 12.958333333333238,
+        "x": 18.179745635933674,
+        "y": 0,
+        "z": 272.2311875467379,
+        "heading": 0.23735234566160995,
+        "pitch": -3.5883690666833295e-22,
+        "roll": -0.0403689511307921,
+        "vx": 3.893673509480547,
+        "vy": 0,
+        "vz": 16.095392824623325,
+        "speed": 16.559660732556285,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-034",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15034,
+      "observed": {
+        "time": 13.058333333333232,
+        "x": 18.56815872395021,
+        "y": 0,
+        "z": 273.8346205355708,
+        "heading": 0.22571555127397158,
+        "pitch": -1.6123581556031026e-22,
+        "roll": 0.038068906799329984,
+        "vx": 3.680797170337474,
+        "vy": 0,
+        "vz": 16.0293548751003,
+        "speed": 16.446534149208038,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-034",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15132,
+      "observed": {
+        "time": 13.158333333333227,
+        "x": 18.88559550950837,
+        "y": 0,
+        "z": 275.46907513211863,
+        "heading": 0.15769814953508915,
+        "pitch": -7.244792198430965e-23,
+        "roll": 0.07770297433853002,
+        "vx": 2.6565627118079354,
+        "vy": 0,
+        "vz": 16.705994099279273,
+        "speed": 16.91589679227567,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-035",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15218,
+      "observed": {
+        "time": 13.241666666666555,
+        "x": 19.04943846768735,
+        "y": 0,
+        "z": 276.87350646330054,
+        "heading": 0.0803923385119416,
+        "pitch": -3.719600338508227e-23,
+        "roll": 0.09585721303482202,
+        "vx": 1.359867418585718,
+        "vy": 0,
+        "vz": 16.87892908167002,
+        "speed": 16.933620001056386,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-036",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15313,
+      "observed": {
+        "time": 13.34166666666655,
+        "x": 19.108437467467745,
+        "y": 0,
+        "z": 278.55916180050536,
+        "heading": 0.005262843940345894,
+        "pitch": -1.6713241670319698e-23,
+        "roll": 0.05487892761411255,
+        "vx": 0.08850685834737645,
+        "vy": 0,
+        "vz": 16.817150994544686,
+        "speed": 16.817383893973812,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-037",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15415,
+      "observed": {
+        "time": 13.441666666666544,
+        "x": 19.108890201200094,
+        "y": 0,
+        "z": 280.234635879141,
+        "heading": 0.009198947585637055,
+        "pitch": -7.509743566765537e-24,
+        "roll": -0.03176713920101675,
+        "vx": 0.15363977530830683,
+        "vy": 0,
+        "vz": 16.70141504286913,
+        "speed": 16.70212170997242,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-038",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15507,
+      "observed": {
+        "time": 13.524999999999872,
+        "x": 19.157016426617542,
+        "y": 0,
+        "z": 281.6211130569916,
+        "heading": 0.05989439153921346,
+        "pitch": -3.8556309067223056e-24,
+        "roll": -0.06922297092041242,
+        "vx": 0.9940597864743038,
+        "vy": 0,
+        "vz": 16.577024999974572,
+        "speed": 16.606803205580157,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-038",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15605,
+      "observed": {
+        "time": 13.624999999999867,
+        "x": 19.315459156403346,
+        "y": 0,
+        "z": 283.26780131448464,
+        "heading": 0.11961538993919732,
+        "pitch": -1.732446641335878e-24,
+        "roll": -0.041512323234427814,
+        "vx": 1.9681499516293621,
+        "vy": 0,
+        "vz": 16.37543737217043,
+        "speed": 16.49328843384407,
+        "pressure": 100,
+        "group": "curve",
+        "surface": "curve-039",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15699,
+      "observed": {
+        "time": 13.724999999999861,
+        "x": 19.525929796332214,
+        "y": 0,
+        "z": 284.9244115072593,
+        "heading": 0.11903447668845048,
+        "pitch": -7.784384547398102e-25,
+        "roll": 0.03125747799204225,
+        "vx": 2.0141931424668105,
+        "vy": 0,
+        "vz": 16.841095343711874,
+        "speed": 16.961116307341154,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15782,
+      "observed": {
+        "time": 13.80833333333319,
+        "x": 19.658739236103823,
+        "y": 0,
+        "z": 286.32695546538605,
+        "heading": 0.06977661915065003,
+        "pitch": -3.996636287766963e-25,
+        "roll": 0.0697364815589772,
+        "vx": 1.1757577073346996,
+        "vy": 0,
+        "vz": 16.82295494933467,
+        "speed": 16.86399179950289,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15883,
+      "observed": {
+        "time": 13.908333333333184,
+        "x": 19.70122733989625,
+        "y": 0,
+        "z": 287.8926657585353,
+        "heading": -0.012743315735974484,
+        "pitch": -1.795804443135628e-25,
+        "roll": 0.08939376772327236,
+        "vx": -0.1867795210454963,
+        "vy": 0,
+        "vz": 14.65626484501347,
+        "speed": 14.657454956323752,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 15991,
+      "observed": {
+        "time": 14.008333333333178,
+        "x": 19.632481777608117,
+        "y": 0,
+        "z": 289.2376712570021,
+        "heading": -0.07619802946385028,
+        "pitch": -8.069069501912361e-26,
+        "roll": 0.05057724220822484,
+        "vx": -0.9490377649866591,
+        "vy": 0,
+        "vz": 12.430771657534017,
+        "speed": 12.46694656606508,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16082,
+      "observed": {
+        "time": 14.108333333333173,
+        "x": 19.539765534276206,
+        "y": 0,
+        "z": 290.36252337641326,
+        "heading": -0.07471665532851825,
+        "pitch": -3.625666640684147e-26,
+        "roll": -0.008972625626914988,
+        "vx": -0.7681166007790783,
+        "vy": 0,
+        "vz": 10.261255781103724,
+        "speed": 10.289964689814393,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16166,
+      "observed": {
+        "time": 14.191666666666501,
+        "x": 19.49851849348627,
+        "y": 0,
+        "z": 291.1360531709166,
+        "heading": -0.031152187148995182,
+        "pitch": -1.8614793212326318e-26,
+        "roll": -0.03350032303046857,
+        "vx": -0.26426432739674405,
+        "vy": 0,
+        "vz": 8.480266079697286,
+        "speed": 8.484382618505535,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16256,
+      "observed": {
+        "time": 14.27499999999983,
+        "x": 19.49904984494164,
+        "y": 0,
+        "z": 291.8129169099805,
+        "heading": 0.029551710775080793,
+        "pitch": -9.55715350246003e-27,
+        "roll": -0.04380625785548331,
+        "vx": 0.2388351342936801,
+        "vy": 0,
+        "vz": 8.079586554831089,
+        "speed": 8.083115805082862,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16352,
+      "observed": {
+        "time": 14.374999999999824,
+        "x": 19.55328847140513,
+        "y": 0,
+        "z": 292.6159581275298,
+        "heading": 0.09214963812817648,
+        "pitch": -4.294305883169644e-27,
+        "roll": -0.025227157660815538,
+        "vx": 0.7381689690322183,
+        "vy": 0,
+        "vz": 7.987859737818548,
+        "speed": 8.021894827153039,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16439,
+      "observed": {
+        "time": 14.458333333333153,
+        "x": 19.620586547061812,
+        "y": 0,
+        "z": 293.2787082891668,
+        "heading": 0.09987772652884949,
+        "pitch": -2.2047701547816703e-27,
+        "roll": 0.006772193529955681,
+        "vx": 0.7948088426037401,
+        "vy": 0,
+        "vz": 7.931339879370935,
+        "speed": 7.971064758134942,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16530,
+      "observed": {
+        "time": 14.558333333333147,
+        "x": 19.684192743050332,
+        "y": 0,
+        "z": 294.1063920197942,
+        "heading": 0.05055654021360881,
+        "pitch": -9.906670897646145e-28,
+        "roll": 0.03279233734182998,
+        "vx": 0.43972528137494576,
+        "vy": 0,
+        "vz": 8.690281713060521,
+        "speed": 8.701399575667951,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16612,
+      "observed": {
+        "time": 14.641666666666476,
+        "x": 19.70299589252733,
+        "y": 0,
+        "z": 294.8287795971754,
+        "heading": 0.01003584168180819,
+        "pitch": -5.086254431473508e-28,
+        "roll": 0.018299276748688652,
+        "vx": 0.08679063372929868,
+        "vy": 0,
+        "vz": 8.647776904513682,
+        "speed": 8.648212416698803,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16719,
+      "observed": {
+        "time": 14.74166666666647,
+        "x": 19.699480636250648,
+        "y": 0,
+        "z": 295.6901301200809,
+        "heading": -0.013205101564638768,
+        "pitch": -2.2854014349306204e-28,
+        "roll": 0.00908715190341063,
+        "vx": -0.11335775275326133,
+        "vy": 0,
+        "vz": 8.583891855241838,
+        "speed": 8.584640316437051,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16814,
+      "observed": {
+        "time": 14.841666666666464,
+        "x": 19.69033246569463,
+        "y": 0,
+        "z": 296.5451000083463,
+        "heading": 0.0016787919921900049,
+        "pitch": -1.0268970593493882e-28,
+        "roll": -0.02191594417868456,
+        "vx": 0.014305551704335421,
+        "vy": 0,
+        "vz": 8.52132862890068,
+        "speed": 8.521340636926322,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16904,
+      "observed": {
+        "time": 14.924999999999793,
+        "x": 19.709939078993752,
+        "y": 0,
+        "z": 297.2524501181401,
+        "heading": 0.05264055031957321,
+        "pitch": -5.272265297542037e-29,
+        "roll": -0.03849556723197817,
+        "vx": 0.44559626007490283,
+        "vy": 0,
+        "vz": 8.457065794623842,
+        "speed": 8.468796719817362,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 16979,
+      "observed": {
+        "time": 15.008333333333121,
+        "x": 19.768339660013627,
+        "y": 0,
+        "z": 297.9532823222048,
+        "heading": 0.10337119026154827,
+        "pitch": -2.706871259839545e-29,
+        "roll": -0.025571667032658507,
+        "vx": 0.8684685959232891,
+        "vy": 0,
+        "vz": 8.37151064672157,
+        "speed": 8.416437976381548,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17065,
+      "observed": {
+        "time": 15.09166666666645,
+        "x": 19.844047273085085,
+        "y": 0,
+        "z": 298.6481458021178,
+        "heading": 0.10417852690180777,
+        "pitch": -1.3897540438189428e-29,
+        "roll": 0.011671950729866216,
+        "vx": 0.8698012139907432,
+        "vy": 0,
+        "vz": 8.318914288761304,
+        "speed": 8.364262615175157,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17145,
+      "observed": {
+        "time": 15.174999999999779,
+        "x": 19.902277695694607,
+        "y": 0,
+        "z": 299.34028463592136,
+        "heading": 0.06287044301694192,
+        "pitch": -7.135235173414165e-30,
+        "roll": 0.0322941170054386,
+        "vx": 0.5222518170194933,
+        "vy": 0,
+        "vz": 8.295846351663378,
+        "speed": 8.312268862999245,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17254,
+      "observed": {
+        "time": 15.274999999999773,
+        "x": 19.920971315737077,
+        "y": 0,
+        "z": 300.16771839519345,
+        "heading": -0.014822187851952214,
+        "pitch": -3.2060678292029515e-30,
+        "roll": 0.045197114145359006,
+        "vx": -0.12228025623574017,
+        "vy": 0,
+        "vz": 8.249207367162752,
+        "speed": 8.250113614218733,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17347,
+      "observed": {
+        "time": 15.374999999999767,
+        "x": 19.87595714825904,
+        "y": 0,
+        "z": 300.98800141993956,
+        "heading": -0.08087678787781714,
+        "pitch": -1.4405791365853126e-30,
+        "roll": 0.025989633367759668,
+        "vx": -0.6615147575088146,
+        "vy": 0,
+        "vz": 8.161449171185515,
+        "speed": 8.188214356515507,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17429,
+      "observed": {
+        "time": 15.458333333333096,
+        "x": 19.81747889318328,
+        "y": 0,
+        "z": 301.6654753775336,
+        "heading": -0.08186702810695665,
+        "pitch": -7.396179900440904e-31,
+        "roll": -0.01073409886742838,
+        "vx": -0.6653938353763735,
+        "vy": 0,
+        "vz": 8.109572921213877,
+        "speed": 8.136825051618244,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17531,
+      "observed": {
+        "time": 15.55833333333309,
+        "x": 19.771336239821007,
+        "y": 0,
+        "z": 302.47441333575404,
+        "heading": -0.029727158632689505,
+        "pitch": -3.3233178530897287e-31,
+        "roll": -0.03387399649962621,
+        "vx": -0.2400229682754453,
+        "vy": 0,
+        "vz": 8.071819577243746,
+        "speed": 8.07538744041889,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17614,
+      "observed": {
+        "time": 15.641666666666419,
+        "x": 19.774895406122685,
+        "y": 0,
+        "z": 303.14489086549634,
+        "heading": 0.03608644262425099,
+        "pitch": -1.7062482777629082e-31,
+        "roll": -0.043791754477960555,
+        "vx": 0.28950843962310063,
+        "vy": 0,
+        "vz": 8.019154526730446,
+        "speed": 8.024378758520463,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17699,
+      "observed": {
+        "time": 15.724999999999747,
+        "x": 19.818967062132735,
+        "y": 0,
+        "z": 303.80973602025983,
+        "heading": 0.08575742950087178,
+        "pitch": -8.760170751233546e-32,
+        "roll": -0.024437338093634835,
+        "vx": 0.6829525013564696,
+        "vy": 0,
+        "vz": 7.944238336072012,
+        "speed": 7.973540421884452,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17798,
+      "observed": {
+        "time": 15.824999999999742,
+        "x": 19.89898845378496,
+        "y": 0,
+        "z": 304.6515139498768,
+        "heading": 0.08996485334564756,
+        "pitch": -3.936198449141754e-32,
+        "roll": 0.014362465806870808,
+        "vx": 0.7959390673687535,
+        "vy": 0,
+        "vz": 8.823340681985533,
+        "speed": 8.859168120616335,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17879,
+      "observed": {
+        "time": 15.90833333333307,
+        "x": 19.949244959651587,
+        "y": 0,
+        "z": 305.3855310678283,
+        "heading": 0.04629133213560122,
+        "pitch": -2.0209116676989165e-32,
+        "roll": 0.03532336038337658,
+        "vx": 0.4074684247414256,
+        "vy": 0,
+        "vz": 8.795973487476797,
+        "speed": 8.80540630008383,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 17985,
+      "observed": {
+        "time": 16.008333333333066,
+        "x": 19.953458726001124,
+        "y": 0,
+        "z": 306.2623408101807,
+        "heading": -0.03353804879249704,
+        "pitch": -9.080541462195613e-33,
+        "roll": 0.04843472172771501,
+        "vx": -0.2931062261900043,
+        "vy": 0,
+        "vz": 8.736236398151373,
+        "speed": 8.741151964370385,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18063,
+      "observed": {
+        "time": 16.091666666666395,
+        "x": 19.907516926250555,
+        "y": 0,
+        "z": 306.9868230126315,
+        "heading": -0.07556024156578853,
+        "pitch": -4.6621054367764747e-33,
+        "roll": 0.008526725374234037,
+        "vx": -0.655829376268716,
+        "vy": 0,
+        "vz": 8.663031874206721,
+        "speed": 8.68782098251907,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18169,
+      "observed": {
+        "time": 16.19166666666639,
+        "x": 19.851344568623833,
+        "y": 0,
+        "z": 307.8502865845608,
+        "heading": -0.04688722066816224,
+        "pitch": -2.0948190065120415e-33,
+        "roll": -0.026246135895210007,
+        "vx": -0.40421091292834366,
+        "vy": 0,
+        "vz": 8.614600235407142,
+        "speed": 8.624078134966494,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18245,
+      "observed": {
+        "time": 16.274999999999718,
+        "x": 19.838985638242058,
+        "y": 0,
+        "z": 308.56632663681967,
+        "heading": 0.010070996482670168,
+        "pitch": -1.0755159392181292e-33,
+        "roll": -0.041229134270610084,
+        "vx": 0.08631875213494329,
+        "vy": 0,
+        "vz": 8.570734184194542,
+        "speed": 8.571168845792913,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18330,
+      "observed": {
+        "time": 16.358333333333047,
+        "x": 19.8657864902187,
+        "y": 0,
+        "z": 309.27761194079795,
+        "heading": 0.05562234056116675,
+        "pitch": -5.521882949870045e-34,
+        "roll": -0.02300730595267274,
+        "vx": 0.4735717495312663,
+        "vy": 0,
+        "vz": 8.505274286721471,
+        "speed": 8.518448267983997,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18436,
+      "observed": {
+        "time": 16.45833333333304,
+        "x": 19.926364521398387,
+        "y": 0,
+        "z": 310.1238535536842,
+        "heading": 0.08169788993968663,
+        "pitch": -2.4811419458416567e-34,
+        "roll": -0.0114250900159299,
+        "vx": 0.6900226018390125,
+        "vy": 0,
+        "vz": 8.427227718008652,
+        "speed": 8.455430101551428,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18514,
+      "observed": {
+        "time": 16.54166666666637,
+        "x": 19.98387927630049,
+        "y": 0,
+        "z": 310.82371075609666,
+        "heading": 0.0748507961823243,
+        "pitch": -1.2738607497449435e-34,
+        "roll": 0.015603287331871229,
+        "vx": 0.6283929332883595,
+        "vy": 0,
+        "vz": 8.379589439656662,
+        "speed": 8.403118281674502,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18598,
+      "observed": {
+        "time": 16.624999999999698,
+        "x": 20.020400566975987,
+        "y": 0,
+        "z": 311.5205606663534,
+        "heading": 0.029803265431037364,
+        "pitch": -6.540219161827467e-35,
+        "roll": 0.03460790059421901,
+        "vx": 0.24884991007256235,
+        "vy": 0,
+        "vz": 8.347280845749273,
+        "speed": 8.350989390219329,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18681,
+      "observed": {
+        "time": 16.708333333333027,
+        "x": 20.016965142005617,
+        "y": 0,
+        "z": 312.2139599897324,
+        "heading": -0.03561375120440367,
+        "pitch": -3.3578604799072126e-35,
+        "roll": 0.045052204268845784,
+        "vx": -0.2954975304326136,
+        "vy": 0,
+        "vz": 8.293779214606241,
+        "speed": 8.29904165859687,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18780,
+      "observed": {
+        "time": 16.80833333333302,
+        "x": 19.959356401429314,
+        "y": 0,
+        "z": 313.0383887147493,
+        "heading": -0.09171892086312285,
+        "pitch": -1.5087839710868656e-35,
+        "roll": 0.022372262543317426,
+        "vx": -0.7544245565394894,
+        "vy": 0,
+        "vz": 8.20231927052483,
+        "speed": 8.236941047933557,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18862,
+      "observed": {
+        "time": 16.89166666666635,
+        "x": 19.89480282311015,
+        "y": 0,
+        "z": 313.7193811591995,
+        "heading": -0.08866823992562542,
+        "pitch": -7.746355196779725e-36,
+        "roll": -0.012903159863571002,
+        "vx": -0.7248330941093678,
+        "vy": 0,
+        "vz": 8.153229822704375,
+        "speed": 8.185385730443752,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 18953,
+      "observed": {
+        "time": 16.974999999999678,
+        "x": 19.849068793073204,
+        "y": 0,
+        "z": 314.3975436413704,
+        "heading": -0.045597437959542304,
+        "pitch": -3.9771113681337956e-36,
+        "roll": -0.03242891112650636,
+        "vx": -0.3707613276501542,
+        "vy": 0,
+        "vz": 8.125551684304218,
+        "speed": 8.134006032477478,
+        "pressure": 100,
+        "group": "apron",
+        "surface": "apron",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": true
+      }
+    },
+    {
+      "wallMs": 19232,
+      "observed": {
+        "time": 17.258333333332995,
+        "x": 19.826570620134937,
+        "y": 0.19374075703257684,
+        "z": 316.9596253984363,
+        "heading": -0.005302219397736984,
+        "pitch": -0.09598241699877724,
+        "roll": -0.005431178321480291,
+        "vx": -0.053681067229137215,
+        "vy": 2.2096092867740604,
+        "vz": 10.12416879549178,
+        "speed": 10.12431111022317,
+        "pressure": 95.5144891088906,
+        "group": null,
+        "surface": null,
+        "grounded": false,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": true
+      }
+    },
+    {
+      "wallMs": 19667,
+      "observed": {
+        "time": 17.691666666666304,
+        "x": 20.68997167784761,
+        "y": 2.547793188068437,
+        "z": 322.1750905574042,
+        "heading": 0.04095319565658598,
+        "pitch": -0.09178188446959752,
+        "roll": -0.1525567609403857,
+        "vx": 4.38754165019295,
+        "vy": 8.709551401501079,
+        "vz": 13.772506083375394,
+        "speed": 14.454495686421927,
+        "pressure": 83.21481360890206,
+        "group": null,
+        "surface": null,
+        "grounded": false,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": true
+      }
+    },
+    {
+      "wallMs": 20069,
+      "observed": {
+        "time": 18.09166666666628,
+        "x": 22.595375245333152,
+        "y": 7.247461111306198,
+        "z": 328.3782472782342,
+        "heading": 0.16046797579566022,
+        "pitch": -0.06816327082250895,
+        "roll": -0.010480974693151528,
+        "vx": 4.778518619020626,
+        "vy": 14.789074285169026,
+        "vz": 17.23119120451215,
+        "speed": 17.881504145870494,
+        "pressure": 73.32478292202444,
+        "group": null,
+        "surface": null,
+        "grounded": false,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 20509,
+      "observed": {
+        "time": 18.52499999999959,
+        "x": 24.76756713778725,
+        "y": 13.154375661361227,
+        "z": 336.6785546594986,
+        "heading": 0.2247675974789283,
+        "pitch": -0.07002596525714962,
+        "roll": -0.0005047098073966632,
+        "vx": 5.323603617170879,
+        "vy": 11.243830030600417,
+        "vz": 20.988772252671758,
+        "speed": 21.653390407677012,
+        "pressure": 69.679390202871,
+        "group": null,
+        "surface": null,
+        "grounded": false,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": -1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 21022,
+      "observed": {
+        "time": 19.041666666666227,
+        "x": 27.148574001735497,
+        "y": 17.388725649800584,
+        "z": 346.16498288847424,
+        "heading": 0.242587706056684,
+        "pitch": 0.141887165882809,
+        "roll": -0.000013562612939766232,
+        "vx": 3.676172372052438,
+        "vy": 5.14718293112341,
+        "vz": 14.726251930578973,
+        "speed": 15.178166530642711,
+        "pressure": 66.1208523588276,
+        "group": null,
+        "surface": null,
+        "grounded": false,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 22836,
+      "observed": {
+        "time": 20.85833333333279,
+        "x": 33.39026449090881,
+        "y": 8,
+        "z": 371.1406703173921,
+        "heading": 0.27206228164018775,
+        "pitch": -0.038270126576869595,
+        "roll": -4.069726332108549e-11,
+        "vx": 3.7527861337576187,
+        "vy": 0,
+        "vz": 13.452196459888565,
+        "speed": 13.96585097160792,
+        "pressure": 65.71432837559827,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 22928,
+      "observed": {
+        "time": 20.958333333332785,
+        "x": 33.790943251638936,
+        "y": 8,
+        "z": 372.5041044551402,
+        "heading": 0.28318164467838747,
+        "pitch": -0.01719587633141978,
+        "roll": 0.04420776965704401,
+        "vx": 4.055668196994429,
+        "vy": 0,
+        "vz": 13.937042094868902,
+        "speed": 14.515150253382146,
+        "pressure": 65.71432837559827,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23013,
+      "observed": {
+        "time": 21.041666666666114,
+        "x": 34.10988936583412,
+        "y": 8,
+        "z": 373.6968993960374,
+        "heading": 0.23854493773794416,
+        "pitch": -0.008828657285318285,
+        "roll": 0.07059289600459329,
+        "vx": 3.5591500474345286,
+        "vy": 0,
+        "vz": 14.636245121270859,
+        "speed": 15.06277598286844,
+        "pressure": 65.71432837559827,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23112,
+      "observed": {
+        "time": 21.141666666666108,
+        "x": 34.40644144478746,
+        "y": 8,
+        "z": 375.20846325629145,
+        "heading": 0.15257144102652023,
+        "pitch": -0.003966971432558029,
+        "roll": 0.08948230973971197,
+        "vx": 2.3857276060390187,
+        "vy": 0,
+        "vz": 15.515321069841471,
+        "speed": 15.697671295784078,
+        "pressure": 65.71432837559827,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23198,
+      "observed": {
+        "time": 21.224999999999437,
+        "x": 34.54729985291351,
+        "y": 8,
+        "z": 376.53225544773466,
+        "heading": 0.06703574113749654,
+        "pitch": -0.0020367110441885383,
+        "roll": 0.0994481654776974,
+        "vx": 1.0857437360859947,
+        "vy": 0,
+        "vz": 16.17227647359521,
+        "speed": 16.20868180324517,
+        "pressure": 67.81432837559828,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23302,
+      "observed": {
+        "time": 21.32499999999943,
+        "x": 34.55922998504585,
+        "y": 8,
+        "z": 378.184498257516,
+        "heading": -0.04372076438692708,
+        "pitch": -0.0009151532636913409,
+        "roll": 0.10775883558144787,
+        "vx": -0.7343120475939853,
+        "vy": 0,
+        "vz": 16.784761904770765,
+        "speed": 16.800816836781642,
+        "pressure": 69.03932837559832,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23380,
+      "observed": {
+        "time": 21.40833333333276,
+        "x": 34.42240452800648,
+        "y": 8,
+        "z": 379.59936537394003,
+        "heading": -0.13942205343282543,
+        "pitch": -0.0004698553521176823,
+        "roll": 0.11299564838100795,
+        "vx": -2.4010226921628237,
+        "vy": 0,
+        "vz": 17.10951959866708,
+        "speed": 17.277169063983074,
+        "pressure": 69.62266170893169,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23462,
+      "observed": {
+        "time": 21.491666666666088,
+        "x": 34.14225292580395,
+        "y": 8,
+        "z": 381.0326793552066,
+        "heading": -0.23665839430204288,
+        "pitch": -0.0002412317812463047,
+        "roll": 0.1173636357670513,
+        "vx": -4.158866768158874,
+        "vy": 0,
+        "vz": 17.243980861987673,
+        "speed": 17.738406037857327,
+        "pressure": 70.20599504226506,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23569,
+      "observed": {
+        "time": 21.591666666666082,
+        "x": 33.621078880027554,
+        "y": 8,
+        "z": 382.7202129658122,
+        "heading": -0.35256221088477585,
+        "pitch": -0.00010839242637955437,
+        "roll": 0.12052914356253873,
+        "vx": -6.082606288491067,
+        "vy": 0,
+        "vz": 16.531748505622076,
+        "speed": 17.615243623462288,
+        "pressure": 70.9059950422651,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23664,
+      "observed": {
+        "time": 21.691666666666077,
+        "x": 32.94595573917552,
+        "y": 8,
+        "z": 384.3398209103775,
+        "heading": -0.4108558749404921,
+        "pitch": -0.00004870385666327738,
+        "roll": 0.013177689479438436,
+        "vx": -6.9866661119438564,
+        "vy": 0,
+        "vz": 16.037369204901655,
+        "speed": 17.493161931855333,
+        "pressure": 71.60599504226515,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23768,
+      "observed": {
+        "time": 21.79166666666607,
+        "x": 32.27277693363376,
+        "y": 8,
+        "z": 385.9471850387403,
+        "heading": -0.3751761997954885,
+        "pitch": -0.00002188405346302408,
+        "roll": -0.05484456070635326,
+        "vx": -6.3657873258287685,
+        "vy": 0,
+        "vz": 16.16379107223564,
+        "speed": 17.372144084843608,
+        "pressure": 72.3059950422652,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23847,
+      "observed": {
+        "time": 21.8749999999994,
+        "x": 31.783789952251347,
+        "y": 8,
+        "z": 387.3225387720118,
+        "heading": -0.3110781733178211,
+        "pitch": -0.000011235647681741046,
+        "roll": -0.0848699817664753,
+        "vx": -5.423935570552148,
+        "vy": 0,
+        "vz": 16.869839767359817,
+        "speed": 17.720343417944687,
+        "pressure": 72.88932837559857,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 23931,
+      "observed": {
+        "time": 21.958333333332728,
+        "x": 31.393770461250742,
+        "y": 8,
+        "z": 388.7415135836569,
+        "heading": -0.2316228976170491,
+        "pitch": -0.000005768573863224711,
+        "roll": -0.10199290015858117,
+        "vx": -4.04428808847259,
+        "vy": 0,
+        "vz": 17.147285053605064,
+        "speed": 17.617765205954722,
+        "pressure": 73.47266170893194,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24047,
+      "observed": {
+        "time": 22.074999999999388,
+        "x": 31.05431743771051,
+        "y": 8,
+        "z": 390.7583568480705,
+        "heading": -0.10900598871009533,
+        "pitch": -0.000002268438144358241,
+        "roll": -0.11356232508422942,
+        "vx": -1.9011546224439084,
+        "vy": 0,
+        "vz": 17.3716934089231,
+        "speed": 17.475414753077025,
+        "pressure": 74.28932837559866,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24130,
+      "observed": {
+        "time": 22.158333333332717,
+        "x": 30.96843874259777,
+        "y": 8,
+        "z": 392.2325684051658,
+        "heading": -0.016366314942317026,
+        "pitch": -0.0000011646549767800477,
+        "roll": -0.11828145924454694,
+        "vx": -0.29344040354927103,
+        "vy": 0,
+        "vz": 17.927933279005813,
+        "speed": 17.9303346016442,
+        "pressure": 74.87266170893203,
+        "group": "high",
+        "surface": "high",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24218,
+      "observed": {
+        "time": 22.241666666666045,
+        "x": 30.986154212855396,
+        "y": 7.927819340243872,
+        "z": 393.7218065975613,
+        "heading": 0.02178685249470495,
+        "pitch": -0.028247769423939743,
+        "roll": -0.01072595546414006,
+        "vx": 0.38834619579818563,
+        "vy": -1.782197540019983,
+        "vz": 17.82197540019983,
+        "speed": 17.826205988182647,
+        "pressure": 75.4559950422654,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24298,
+      "observed": {
+        "time": 22.324999999999374,
+        "x": 31.002395098269105,
+        "y": 7.77975615213042,
+        "z": 395.2024384786958,
+        "heading": -0.004645609629081362,
+        "pitch": -0.06299603271644386,
+        "roll": 0.048973076154106406,
+        "vx": -0.08233313943975706,
+        "vy": -1.7722657203909198,
+        "vz": 17.722657203909197,
+        "speed": 17.722848448066255,
+        "pressure": 76.03932837559877,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24381,
+      "observed": {
+        "time": 22.408333333332703,
+        "x": 30.95025606292801,
+        "y": 7.632651432943379,
+        "z": 396.6734856705662,
+        "heading": -0.06413516985778167,
+        "pitch": -0.0807967238031962,
+        "roll": 0.08196888107939625,
+        "vx": -1.1293032759919406,
+        "vy": -1.7584025401061578,
+        "vz": 17.584025401061577,
+        "speed": 17.620251848209914,
+        "pressure": 76.62266170893214,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24470,
+      "observed": {
+        "time": 22.49166666666603,
+        "x": 30.813692272164488,
+        "y": 7.486934976473572,
+        "z": 398.1306502352643,
+        "heading": -0.11259072448305747,
+        "pitch": -0.089753611999616,
+        "roll": 0.04574151650174854,
+        "vx": -1.9682454239563605,
+        "vy": -1.7407485938970155,
+        "vz": 17.407485938970154,
+        "speed": 17.518406227861277,
+        "pressure": 77.20599504226551,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24563,
+      "observed": {
+        "time": 22.591666666666026,
+        "x": 30.604948440309556,
+        "y": 7.313662347254223,
+        "z": 399.8633765274578,
+        "heading": -0.11283496878506742,
+        "pitch": -0.09482398635591976,
+        "roll": -0.031233420910959007,
+        "vx": -1.958846255146051,
+        "vy": -1.7286538421280806,
+        "vz": 17.286538421280806,
+        "speed": 17.39716900078048,
+        "pressure": 77.90599504226556,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24648,
+      "observed": {
+        "time": 22.674999999999354,
+        "x": 30.475639367912887,
+        "y": 7.1671649928048,
+        "z": 401.328350071952,
+        "heading": -0.0632803241569582,
+        "pitch": -0.09700077421189149,
+        "roll": -0.07210159550591333,
+        "vx": -1.1290899580032798,
+        "vy": -1.781884750854993,
+        "vz": 17.81884750854993,
+        "speed": 17.85458402389201,
+        "pressure": 78.48932837559893,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24732,
+      "observed": {
+        "time": 22.758333333332683,
+        "x": 30.421151350365953,
+        "y": 7.018963047617365,
+        "z": 402.81036952382635,
+        "heading": -0.019416092387136537,
+        "pitch": -0.09826696955798431,
+        "roll": -0.04023522435839533,
+        "vx": -0.3446337273598638,
+        "vy": -1.7747670962277227,
+        "vz": 17.747670962277226,
+        "speed": 17.751016787533388,
+        "pressure": 79.0726617089323,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24813,
+      "observed": {
+        "time": 22.84166666666601,
+        "x": 30.412450256374406,
+        "y": 6.87151499734656,
+        "z": 404.2848500265344,
+        "heading": 0.0029352194172552653,
+        "pitch": -0.09894759120252143,
+        "roll": -0.022452669289927688,
+        "vx": 0.05180130380704844,
+        "vy": -1.7648137219063784,
+        "vz": 17.648137219063784,
+        "speed": 17.64821324321475,
+        "pressure": 79.65599504226567,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24902,
+      "observed": {
+        "time": 22.92499999999934,
+        "x": 30.426861107148618,
+        "y": 6.724922609460293,
+        "z": 405.75077390539707,
+        "heading": 0.01433915114589683,
+        "pitch": -0.0992955998653986,
+        "roll": -0.01252937858013146,
+        "vx": 0.25158846700828635,
+        "vy": -1.7544359570025279,
+        "vz": 17.54435957002528,
+        "speed": 17.546163383459906,
+        "pressure": 80.23932837559904,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 24979,
+      "observed": {
+        "time": 23.00833333333267,
+        "x": 30.443397362292483,
+        "y": 6.579180526992792,
+        "z": 407.2081947300721,
+        "heading": 0.0012982664659612624,
+        "pitch": -0.09947385829331074,
+        "roll": 0.03863013827595724,
+        "vx": 0.0226480669649272,
+        "vy": -1.7444842668828244,
+        "vz": 17.444842668828244,
+        "speed": 17.444857370443238,
+        "pressure": 80.82266170893242,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25087,
+      "observed": {
+        "time": 23.108333333332663,
+        "x": 30.38735618919786,
+        "y": 6.401883892326913,
+        "z": 408.98116107673087,
+        "heading": -0.06514587190315135,
+        "pitch": -0.09953528648771884,
+        "roll": 0.08181439195371307,
+        "vx": -1.1711564200730633,
+        "vy": -1.7952007195719586,
+        "vz": 17.952007195719585,
+        "speed": 17.990168696136404,
+        "pressure": 81.52266170893246,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25179,
+      "observed": {
+        "time": 23.208333333332657,
+        "x": 30.19926492573801,
+        "y": 6.222627739453651,
+        "z": 410.7737226054635,
+        "heading": -0.13041853690577138,
+        "pitch": -0.09927877579520905,
+        "roll": 0.04839522924391542,
+        "vx": -2.3374730169919777,
+        "vy": -1.782112674560037,
+        "vz": 17.82112674560037,
+        "speed": 17.973768068713873,
+        "pressure": 82.2226617089325,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25261,
+      "observed": {
+        "time": 23.291666666665986,
+        "x": 29.99908591289686,
+        "y": 6.074674199800609,
+        "z": 412.2532580019939,
+        "heading": -0.12860639382246938,
+        "pitch": -0.09903544722791548,
+        "roll": -0.028406791160618484,
+        "vx": -2.291778625784696,
+        "vy": -1.7721744361059386,
+        "vz": 17.721744361059386,
+        "speed": 17.869316508147246,
+        "pressure": 82.80599504226588,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25363,
+      "observed": {
+        "time": 23.39166666666598,
+        "x": 29.821481982771857,
+        "y": 5.897571984404356,
+        "z": 414.02428015595643,
+        "heading": -0.069124159963175,
+        "pitch": -0.09912531067790963,
+        "roll": -0.07681334992728535,
+        "vx": -1.2256314367708798,
+        "vy": -1.7702619922009095,
+        "vz": 17.702619922009095,
+        "speed": 17.744997168833653,
+        "pressure": 83.50599504226592,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25447,
+      "observed": {
+        "time": 23.47499999999931,
+        "x": 29.777076420733287,
+        "y": 5.750268676985314,
+        "z": 415.49731323014686,
+        "heading": 0.003951579195649086,
+        "pitch": -0.09936262900124784,
+        "roll": -0.09757295356009466,
+        "vx": 0.06971451872485904,
+        "vy": -1.7642100134975018,
+        "vz": 17.642100134975017,
+        "speed": 17.642237876375166,
+        "pressure": 84.0893283755993,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25535,
+      "observed": {
+        "time": 23.558333333332637,
+        "x": 29.831934503108517,
+        "y": 5.603837964193781,
+        "z": 416.9616203580622,
+        "heading": 0.059315240119753414,
+        "pitch": -0.09946696419429285,
+        "roll": -0.05444913736312146,
+        "vx": 1.0397930871349645,
+        "vy": -1.750938485692575,
+        "vz": 17.50938485692575,
+        "speed": 17.54023168980371,
+        "pressure": 84.67266170893267,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25613,
+      "observed": {
+        "time": 23.641666666665966,
+        "x": 29.93360972764413,
+        "y": 5.458489813351662,
+        "z": 418.4151018664834,
+        "heading": 0.06863181796013482,
+        "pitch": -0.09944654338969805,
+        "roll": 0.015222032311696592,
+        "vx": 1.195928745463888,
+        "vy": -1.7397913282439301,
+        "vz": 17.3979132824393,
+        "speed": 17.438968781080625,
+        "pressure": 85.25599504226604,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25694,
+      "observed": {
+        "time": 23.724999999999294,
+        "x": 30.00565387152317,
+        "y": 5.311252258554504,
+        "z": 419.88747741445496,
+        "heading": 0.02744878128529775,
+        "pitch": -0.0994985112019972,
+        "roll": 0.06329352258540348,
+        "vx": 0.4911356666546352,
+        "vy": -1.7888310194571944,
+        "vz": 17.888310194571943,
+        "speed": 17.895051155564957,
+        "pressure": 85.83932837559941,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25785,
+      "observed": {
+        "time": 23.808333333332623,
+        "x": 29.99350649080586,
+        "y": 5.162637260152536,
+        "z": 421.37362739847464,
+        "heading": -0.04006146446233531,
+        "pitch": -0.09956860230190949,
+        "roll": 0.09049059272491318,
+        "vx": -0.7125502647726553,
+        "vy": -1.7776909504586407,
+        "vz": 17.776909504586406,
+        "speed": 17.79118431735454,
+        "pressure": 86.42266170893278,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25879,
+      "observed": {
+        "time": 23.908333333332617,
+        "x": 29.865335550206183,
+        "y": 4.98587140234606,
+        "z": 423.1412859765394,
+        "heading": -0.08184842268875168,
+        "pitch": -0.09946884705133943,
+        "roll": -0.0022045478264361897,
+        "vx": -1.4444476049408939,
+        "vy": -1.760841059010598,
+        "vz": 17.60841059010598,
+        "speed": 17.667556491863152,
+        "pressure": 87.12266170893282,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 25963,
+      "observed": {
+        "time": 23.991666666665946,
+        "x": 29.76642338777217,
+        "y": 4.839451866274624,
+        "z": 424.60548133725376,
+        "heading": -0.049498054123586495,
+        "pitch": -0.09946021076768219,
+        "roll": -0.05570008973596,
+        "vx": -0.8690964042740604,
+        "vy": -1.7543851470693914,
+        "vz": 17.543851470693912,
+        "speed": 17.565365153781777,
+        "pressure": 87.7059950422662,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26048,
+      "observed": {
+        "time": 24.074999999999275,
+        "x": 29.741780841081287,
+        "y": 4.693584625104222,
+        "z": 426.0641537489578,
+        "heading": 0.013003487625400224,
+        "pitch": -0.09954930572709604,
+        "roll": -0.08523770904932383,
+        "vx": 0.2270854613910798,
+        "vy": -1.7462443033930937,
+        "vz": 17.462443033930935,
+        "speed": 17.46391950622936,
+        "pressure": 88.28932837559957,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26129,
+      "observed": {
+        "time": 24.158333333332603,
+        "x": 29.80628448654535,
+        "y": 4.546110667410346,
+        "z": 427.53889332589654,
+        "heading": 0.06377031145000851,
+        "pitch": -0.09955132232015847,
+        "roll": -0.047565637394444284,
+        "vx": 1.1419390069782094,
+        "vy": -1.7882782831062851,
+        "vz": 17.88278283106285,
+        "speed": 17.91920607835667,
+        "pressure": 88.87266170893294,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26236,
+      "observed": {
+        "time": 24.258333333332597,
+        "x": 29.924495349171426,
+        "y": 4.367989102571368,
+        "z": 429.3201089742863,
+        "heading": 0.05565175087731999,
+        "pitch": -0.09949880597488694,
+        "roll": 0.03926142687726122,
+        "vx": 0.9897808469281123,
+        "vy": -1.7766894981953691,
+        "vz": 17.76689498195369,
+        "speed": 17.794443610990395,
+        "pressure": 89.57266170893298,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26312,
+      "observed": {
+        "time": 24.341666666665926,
+        "x": 29.967365375766143,
+        "y": 4.220255482543086,
+        "z": 430.79744517456913,
+        "heading": 0.003017955074473141,
+        "pitch": -0.09955929060159308,
+        "roll": 0.07676996151005354,
+        "vx": 0.053391529070046,
+        "vy": -1.769123981464355,
+        "vz": 17.69123981464355,
+        "speed": 17.691320381322743,
+        "pressure": 90.15599504226635,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26396,
+      "observed": {
+        "time": 24.424999999999255,
+        "x": 29.931833663305984,
+        "y": 4.073351832546621,
+        "z": 432.2664816745338,
+        "heading": -0.04195195805241636,
+        "pitch": -0.09959199876080604,
+        "roll": 0.04284033666202364,
+        "vx": -0.7376746782850258,
+        "vy": -1.7573479302250448,
+        "vz": 17.573479302250448,
+        "speed": 17.58895502062609,
+        "pressure": 90.73932837559973,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26481,
+      "observed": {
+        "time": 24.508333333332583,
+        "x": 29.867257268174853,
+        "y": 3.927386976885657,
+        "z": 433.72613023114343,
+        "heading": -0.037175917843912394,
+        "pitch": -0.09958298625290782,
+        "roll": -0.030321350854931515,
+        "vx": -0.6499580902283622,
+        "vy": -1.7475254834332703,
+        "vz": 17.475254834332702,
+        "speed": 17.487337620230296,
+        "pressure": 91.3226617089331,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26563,
+      "observed": {
+        "time": 24.591666666665912,
+        "x": 29.84815745595489,
+        "y": 3.7821497268548683,
+        "z": 435.1785027314513,
+        "heading": 0.011112886805654311,
+        "pitch": -0.09961704613072737,
+        "roll": -0.07083513237070829,
+        "vx": 0.19320976774625287,
+        "vy": -1.7385384868823701,
+        "vz": 17.3853848688237,
+        "speed": 17.38645843901157,
+        "pressure": 91.90599504226647,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26668,
+      "observed": {
+        "time": 24.691666666665906,
+        "x": 29.920647359108006,
+        "y": 3.6054667408515284,
+        "z": 436.9453325914847,
+        "heading": 0.06032689923576371,
+        "pitch": -0.09958811554679628,
+        "roll": -0.035175685727412885,
+        "vx": 1.0812463764010536,
+        "vy": -1.7901374000971395,
+        "vz": 17.901374000971394,
+        "speed": 17.933998016313456,
+        "pressure": 92.60599504226651,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26746,
+      "observed": {
+        "time": 24.774999999999235,
+        "x": 30.01918958413896,
+        "y": 3.4559502757710447,
+        "z": 438.44049724228955,
+        "heading": 0.06129358232721038,
+        "pitch": -0.09952337247361036,
+        "roll": 0.027286384428539416,
+        "vx": 1.098874395404721,
+        "vy": -1.790559284279733,
+        "vz": 17.90559284279733,
+        "speed": 17.939280364298646,
+        "pressure": 93.18932837559989,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26829,
+      "observed": {
+        "time": 24.858333333332563,
+        "x": 30.077580043533462,
+        "y": 3.3070625455129283,
+        "z": 439.9293745448707,
+        "heading": 0.016181258721546445,
+        "pitch": -0.09955736325338413,
+        "roll": 0.07053357026055126,
+        "vx": 0.2885815357872708,
+        "vy": -1.7832750441559906,
+        "vz": 17.832750441559906,
+        "speed": 17.835085298751792,
+        "pressure": 93.77266170893326,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 26947,
+      "observed": {
+        "time": 24.974999999999223,
+        "x": 30.046100197954022,
+        "y": 3.0999363060256364,
+        "z": 442.00063693974363,
+        "heading": -0.035071448165679774,
+        "pitch": -0.09960871494969187,
+        "roll": 0.031168940548022966,
+        "vx": -0.6203045109673558,
+        "vy": -1.7679628197623352,
+        "vz": 17.67962819762335,
+        "speed": 17.69050680146064,
+        "pressure": 94.58932837559998,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27028,
+      "observed": {
+        "time": 25.058333333332552,
+        "x": 29.980349303356594,
+        "y": 2.9531336947388294,
+        "z": 443.4686630526117,
+        "heading": -0.05109317584217103,
+        "pitch": -0.099587351983161,
+        "roll": 0.01739336428221393,
+        "vx": -0.8982433763015076,
+        "vy": -1.7565195355793901,
+        "vz": 17.5651953557939,
+        "speed": 17.58814740244899,
+        "pressure": 95.17266170893335,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27113,
+      "observed": {
+        "time": 25.14166666666588,
+        "x": 29.915434941345264,
+        "y": 2.8071795855597195,
+        "z": 444.9282041444028,
+        "heading": -0.031578216398544585,
+        "pitch": -0.09958086245627627,
+        "roll": -0.044519168126243513,
+        "vx": -0.5521018457596997,
+        "vy": -1.7477817965707179,
+        "vz": 17.477817965707178,
+        "speed": 17.486535885946303,
+        "pressure": 95.75599504226672,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27196,
+      "observed": {
+        "time": 25.22499999999921,
+        "x": 29.91111554832959,
+        "y": 2.6619417396631544,
+        "z": 446.38058260336845,
+        "heading": 0.024293068817197578,
+        "pitch": -0.09961703774499325,
+        "roll": -0.0787555437928009,
+        "vx": 0.42230955509121076,
+        "vy": -1.7380532662313677,
+        "vz": 17.380532662313676,
+        "speed": 17.38566251214126,
+        "pressure": 96.33932837560009,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27278,
+      "observed": {
+        "time": 25.308333333332538,
+        "x": 29.9888643949906,
+        "y": 2.5151712703482128,
+        "z": 447.84828729651787,
+        "heading": 0.07162907519269114,
+        "pitch": -0.09956458619918407,
+        "roll": -0.04394836136061498,
+        "vx": 1.2770167530891,
+        "vy": -1.7797688930762723,
+        "vz": 17.79768893076272,
+        "speed": 17.84344426011593,
+        "pressure": 96.92266170893346,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27385,
+      "observed": {
+        "time": 25.408333333332532,
+        "x": 30.118376772011295,
+        "y": 2.3378846195661644,
+        "z": 449.62115380433835,
+        "heading": 0.06153252956156832,
+        "pitch": -0.09948022738407399,
+        "roll": 0.04079215841397309,
+        "vx": 1.0896287830851397,
+        "vy": -1.7685819849532127,
+        "vz": 17.685819849532127,
+        "speed": 17.719354238657576,
+        "pressure": 97.6226617089335,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27464,
+      "observed": {
+        "time": 25.49166666666586,
+        "x": 30.169032793452452,
+        "y": 2.190799632611589,
+        "z": 451.0920036738841,
+        "heading": 0.008132328498981297,
+        "pitch": -0.09954216844225687,
+        "roll": 0.07739287875362917,
+        "vx": 0.1432638896516266,
+        "vy": -1.7616200749187052,
+        "vz": 17.61620074918705,
+        "speed": 17.6167832869039,
+        "pressure": 98.20599504226688,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27546,
+      "observed": {
+        "time": 25.57499999999919,
+        "x": 30.14079303665064,
+        "y": 2.044499056030446,
+        "z": 452.55500943969554,
+        "heading": -0.037220931856187744,
+        "pitch": -0.09958879408113018,
+        "roll": 0.04318794637684504,
+        "vx": -0.6517727251197489,
+        "vy": -1.7502831784931836,
+        "vz": 17.502831784931836,
+        "speed": 17.514962979602046,
+        "pressure": 98.78932837560025,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27641,
+      "observed": {
+        "time": 25.658333333332518,
+        "x": 30.06634449453253,
+        "y": 1.899198392619871,
+        "z": 454.0080160738013,
+        "heading": -0.06032754550552017,
+        "pitch": -0.09956057914759786,
+        "roll": 0.024100391951911694,
+        "vx": -1.049899744180895,
+        "vy": -1.7382204984826768,
+        "vz": 17.382204984826767,
+        "speed": 17.41388353031476,
+        "pressure": 99.37266170893362,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27724,
+      "observed": {
+        "time": 25.741666666665846,
+        "x": 29.97724132624149,
+        "y": 1.7531322680663033,
+        "z": 455.46867731933696,
+        "heading": -0.0532444550166462,
+        "pitch": -0.09952505617944382,
+        "roll": -0.03253308831617828,
+        "vx": -0.9452257217007005,
+        "vy": -1.7735787192476922,
+        "vz": 17.73578719247692,
+        "speed": 17.760957153312233,
+        "pressure": 99.95599504226699,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27830,
+      "observed": {
+        "time": 25.858333333332506,
+        "x": 29.94241017407102,
+        "y": 1.545661289467989,
+        "z": 457.5433871053201,
+        "heading": 0.022891388644302894,
+        "pitch": -0.09959330285169982,
+        "roll": -0.08384494080891747,
+        "vx": 0.4057629553091183,
+        "vy": -1.772247563282399,
+        "vz": 17.72247563282399,
+        "speed": 17.727120074392833,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 27931,
+      "observed": {
+        "time": 25.9583333333325,
+        "x": 30.041897265915413,
+        "y": 1.3693585622548934,
+        "z": 459.30641437745106,
+        "heading": 0.07800023905123178,
+        "pitch": -0.09953141823745386,
+        "roll": -0.041636165402969036,
+        "vx": 1.3717287251745118,
+        "vy": -1.7550532279476365,
+        "vz": 17.550532279476364,
+        "speed": 17.60405700366852,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28011,
+      "observed": {
+        "time": 26.04166666666583,
+        "x": 30.158062291242466,
+        "y": 1.2235878326591827,
+        "z": 460.76412167340817,
+        "heading": 0.07200209848548501,
+        "pitch": -0.09944774873194691,
+        "roll": 0.03103983860833887,
+        "vx": 1.2591158565292762,
+        "vy": -1.74569804427889,
+        "vz": 17.4569804427889,
+        "speed": 17.50232952838215,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28121,
+      "observed": {
+        "time": 26.141666666665824,
+        "x": 30.23113037769942,
+        "y": 1.0494042829522634,
+        "z": 462.50595717047736,
+        "heading": 0.010199484243729086,
+        "pitch": -0.09952144680493963,
+        "roll": 0.07683447256932978,
+        "vx": 0.17727652871658986,
+        "vy": -1.738032797635318,
+        "vz": 17.38032797635318,
+        "speed": 17.381232048771423,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28213,
+      "observed": {
+        "time": 26.241666666665818,
+        "x": 30.18240477567916,
+        "y": 0.8737671835482042,
+        "z": 464.26232816451795,
+        "heading": -0.05266180093991118,
+        "pitch": -0.09956755887688998,
+        "roll": 0.04562484570497,
+        "vx": -0.9379845595247421,
+        "vy": -1.779501059796385,
+        "vz": 17.79501059796385,
+        "speed": 17.819714285463515,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28295,
+      "observed": {
+        "time": 26.324999999999147,
+        "x": 30.08172938807407,
+        "y": 0.7260900356530611,
+        "z": 465.7390996434694,
+        "heading": -0.07813883096233291,
+        "pitch": -0.09949962841991997,
+        "roll": 0.02546026742370885,
+        "vx": -1.3829308583756355,
+        "vy": -1.7662346860304732,
+        "vz": 17.66234686030473,
+        "speed": 17.716404668350854,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28382,
+      "observed": {
+        "time": 26.408333333332475,
+        "x": 29.97234134950413,
+        "y": 0.5793331687346317,
+        "z": 467.2066683126537,
+        "heading": -0.06342950087148204,
+        "pitch": -0.09945142947088462,
+        "roll": -0.04041261150644499,
+        "vx": -1.1164890405194432,
+        "vy": -1.7578434315156763,
+        "vz": 17.578434315156763,
+        "speed": 17.61385536303398,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28463,
+      "observed": {
+        "time": 26.491666666665804,
+        "x": 29.919241505048856,
+        "y": 0.4331328935255101,
+        "z": 468.6686710647449,
+        "heading": -0.010001773958261382,
+        "pitch": -0.09952445755578006,
+        "roll": -0.07685612108526699,
+        "vx": -0.1751487096363726,
+        "vy": -1.7511180513220364,
+        "vz": 17.511180513220364,
+        "speed": 17.512056419423615,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28570,
+      "observed": {
+        "time": 26.591666666665798,
+        "x": 29.956152319672587,
+        "y": 0.25872621427848763,
+        "z": 470.4127378572151,
+        "heading": 0.0412973326040343,
+        "pitch": -0.09958258253418847,
+        "roll": -0.038165620237356666,
+        "vx": 0.7179925981385102,
+        "vy": -1.737604670663432,
+        "vz": 17.37604670663432,
+        "speed": 17.39087440360947,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28663,
+      "observed": {
+        "time": 26.691666666665792,
+        "x": 30.03618450569288,
+        "y": 0.0830831392342759,
+        "z": 472.16916860765724,
+        "heading": 0.03650709464539347,
+        "pitch": -0.09957450244470768,
+        "roll": 0.03563968240867635,
+        "vx": 0.6507417309174918,
+        "vy": -1.7817156244181545,
+        "vz": 17.817156244181543,
+        "speed": 17.82903590859402,
+        "pressure": 100,
+        "group": "ramp",
+        "surface": "ramp",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28745,
+      "observed": {
+        "time": 26.77499999999912,
+        "x": 30.05209903335982,
+        "y": 0,
+        "z": 473.6499209073518,
+        "heading": -0.014668323123963581,
+        "pitch": -0.07136146403323487,
+        "roll": 0.07485544800238925,
+        "vx": -0.25999634769403746,
+        "vy": 0,
+        "vz": 17.723750582607245,
+        "speed": 17.72565747201736,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28872,
+      "observed": {
+        "time": 26.89166666666578,
+        "x": 29.952497621349412,
+        "y": 0,
+        "z": 475.7062849768376,
+        "heading": -0.0697575655428433,
+        "pitch": -0.02806223355866784,
+        "roll": 0.03307878787169535,
+        "vx": -1.2254972993176463,
+        "vy": 0,
+        "vz": 17.539443067369366,
+        "speed": 17.582204262950825,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 28973,
+      "observed": {
+        "time": 26.991666666665775,
+        "x": 29.826609811480843,
+        "y": 0,
+        "z": 477.45335155785756,
+        "heading": -0.06155163449292921,
+        "pitch": -0.012609174335731761,
+        "roll": -0.03771777571862317,
+        "vx": -1.0740383647070477,
+        "vy": 0,
+        "vz": 17.427346361475706,
+        "speed": 17.460411209696726,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29063,
+      "observed": {
+        "time": 27.09166666666577,
+        "x": 29.77599311746622,
+        "y": 0,
+        "z": 479.2173898526879,
+        "heading": 0.004840439892421972,
+        "pitch": -0.00566566724264781,
+        "roll": -0.08103696806255963,
+        "vx": 0.08662542488419175,
+        "vy": 0,
+        "vz": 17.89604876165764,
+        "speed": 17.896258414648138,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29148,
+      "observed": {
+        "time": 27.1749999999991,
+        "x": 29.826690524328015,
+        "y": 0,
+        "z": 480.7029805268408,
+        "heading": 0.053233425741864945,
+        "pitch": -0.0029088505531175693,
+        "roll": -0.04522147628555311,
+        "vx": 0.9467022044555262,
+        "vy": 0,
+        "vz": 17.767178575051954,
+        "speed": 17.792382628015456,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29231,
+      "observed": {
+        "time": 27.258333333332427,
+        "x": 29.92731696265498,
+        "y": 0,
+        "z": 482.17748409870813,
+        "heading": 0.07788328174947673,
+        "pitch": -0.001493453670677985,
+        "roll": -0.025235173110945367,
+        "vx": 1.3763063702299076,
+        "vy": 0,
+        "vz": 17.63565185123308,
+        "speed": 17.689274587801393,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29313,
+      "observed": {
+        "time": 27.341666666665756,
+        "x": 30.035792254092552,
+        "y": 0,
+        "z": 483.64286184099603,
+        "heading": 0.06275639936742292,
+        "pitch": -0.0007667646810081407,
+        "roll": 0.04045465684631202,
+        "vx": 1.1029677253504528,
+        "vy": 0,
+        "vz": 17.552303712958633,
+        "speed": 17.586924217585807,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29405,
+      "observed": {
+        "time": 27.424999999999084,
+        "x": 30.087643620768905,
+        "y": 0,
+        "z": 485.1026717107204,
+        "heading": 0.009120247601263369,
+        "pitch": -0.0003936701134991442,
+        "roll": 0.07679662930676594,
+        "vx": 0.15946825173562082,
+        "vy": 0,
+        "vz": 17.484594412059366,
+        "speed": 17.485321612070198,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29505,
+      "observed": {
+        "time": 27.52499999999908,
+        "x": 30.037312987518792,
+        "y": 0,
+        "z": 486.8692467018073,
+        "heading": -0.05319668916474864,
+        "pitch": -0.0001768873843024796,
+        "roll": 0.0456507780702553,
+        "vx": -0.952853154343062,
+        "vy": 0,
+        "vz": 17.894988902263538,
+        "speed": 17.920339197288556,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29586,
+      "observed": {
+        "time": 27.608333333332407,
+        "x": 29.944510994045775,
+        "y": 0,
+        "z": 488.3636475516079,
+        "heading": -0.059683999922914836,
+        "pitch": -0.00009081701124179007,
+        "roll": -0.02140561870795252,
+        "vx": -1.0692478510477788,
+        "vy": 0,
+        "vz": 17.893873284335598,
+        "speed": 17.925791254023615,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29661,
+      "observed": {
+        "time": 27.691666666665736,
+        "x": 29.88601108165342,
+        "y": 0,
+        "z": 489.8514154998438,
+        "heading": -0.017407889652564304,
+        "pitch": -0.0000466270082709104,
+        "roll": -0.0672103499537599,
+        "vx": -0.3102224553814501,
+        "vy": 0,
+        "vz": 17.81899615008731,
+        "speed": 17.8216963774117,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29739,
+      "observed": {
+        "time": 27.7583333333324,
+        "x": 29.899383068226218,
+        "y": 0,
+        "z": 491.03620834860425,
+        "heading": 0.035403650904286675,
+        "pitch": -0.000027353558129192576,
+        "roll": -0.08853841346456258,
+        "vx": 0.6278933192136625,
+        "vy": 0,
+        "vz": 17.72785979859404,
+        "speed": 17.738975817642906,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29817,
+      "observed": {
+        "time": 27.841666666665727,
+        "x": 30.004204560745258,
+        "y": 0,
+        "z": 492.5058052473553,
+        "heading": 0.09500875278888739,
+        "pitch": -0.000014043785009980598,
+        "roll": -0.05797462659103503,
+        "vx": 1.6730794327489347,
+        "vy": 0,
+        "vz": 17.556722340156806,
+        "speed": 17.6362607748255,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 29896,
+      "observed": {
+        "time": 27.924999999999056,
+        "x": 30.160702340859082,
+        "y": 0,
+        "z": 493.96242384339894,
+        "heading": 0.10679339106207499,
+        "pitch": -0.0000072103196401373425,
+        "roll": 0.013504112716677844,
+        "vx": 1.868989853630595,
+        "vy": 0,
+        "vz": 17.434405420773516,
+        "speed": 17.534298259379273,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30018,
+      "observed": {
+        "time": 28.041666666665716,
+        "x": 30.319290894882524,
+        "y": 0,
+        "z": 495.9926676600879,
+        "heading": 0.043152019212745744,
+        "pitch": -0.000002835391292980622,
+        "roll": 0.07413485800273403,
+        "vx": 0.7503013748007741,
+        "vy": 0,
+        "vz": 17.37660529920692,
+        "speed": 17.39279632139277,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30112,
+      "observed": {
+        "time": 28.14166666666571,
+        "x": 30.312431647587708,
+        "y": 0,
+        "z": 497.7505077428752,
+        "heading": -0.04663541828865782,
+        "pitch": -0.000001274023432541973,
+        "roll": 0.09888721804362843,
+        "vx": -0.8312498097074393,
+        "vy": 0,
+        "vz": 17.811507537749147,
+        "speed": 17.830893892719832,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30203,
+      "observed": {
+        "time": 28.22499999999904,
+        "x": 30.191740165379695,
+        "y": 0,
+        "z": 499.2265565227911,
+        "heading": -0.10440207700507265,
+        "pitch": -6.541054403157137e-7,
+        "roll": 0.05518254313577064,
+        "vx": -1.847427631883853,
+        "vy": 0,
+        "vz": 17.63097640238505,
+        "speed": 17.727501734776574,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30286,
+      "observed": {
+        "time": 28.308333333332367,
+        "x": 30.021809343415754,
+        "y": 0,
+        "z": 500.68929427393647,
+        "heading": -0.11491472416813749,
+        "pitch": -3.3582893071043903e-7,
+        "roll": -0.015299177693260568,
+        "vx": -2.0209025218997065,
+        "vy": 0,
+        "vz": 17.508627294774858,
+        "speed": 17.624870971169,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30379,
+      "observed": {
+        "time": 28.40833333333236,
+        "x": 29.862505889348885,
+        "y": 0,
+        "z": 502.4376944038294,
+        "heading": -0.06304469870481742,
+        "pitch": -1.5089766555671588e-7,
+        "roll": -0.0694474554091201,
+        "vx": -1.1027219428633266,
+        "vy": 0,
+        "vz": 17.467933167481778,
+        "speed": 17.502705071699125,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30483,
+      "observed": {
+        "time": 28.508333333332356,
+        "x": 29.83024112861836,
+        "y": 0,
+        "z": 504.18055343756913,
+        "heading": 0.02260153101859316,
+        "pitch": -6.780269175230611e-8,
+        "roll": -0.09590844710109754,
+        "vx": 0.3928174236355373,
+        "vy": 0,
+        "vz": 17.377165002544675,
+        "speed": 17.381604329116893,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 1,
+        "steer": 0,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30579,
+      "observed": {
+        "time": 28.60833333333235,
+        "x": 29.94803049270678,
+        "y": 0,
+        "z": 505.933584183613,
+        "heading": 0.09623464641146823,
+        "pitch": -3.0465713249423e-8,
+        "roll": -0.055096861102741264,
+        "vx": 1.7122627715535026,
+        "vy": 0,
+        "vz": 17.737621038577576,
+        "speed": 17.820074183544744,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30661,
+      "observed": {
+        "time": 28.69166666666568,
+        "x": 30.099666805060654,
+        "y": 0,
+        "z": 507.4060588420556,
+        "heading": 0.09826798108487132,
+        "pitch": -1.5641618725791827e-8,
+        "roll": 0.024193664936055966,
+        "vx": 1.7381897699513356,
+        "vy": 0,
+        "vz": 17.631288917746147,
+        "speed": 17.716761910050085,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30766,
+      "observed": {
+        "time": 28.791666666665673,
+        "x": 30.22483876993325,
+        "y": 0,
+        "z": 509.16635865833996,
+        "heading": 0.041068583449042954,
+        "pitch": -7.0282323391765805e-9,
+        "roll": 0.07418643645495131,
+        "vx": 0.7223489355027236,
+        "vy": 0,
+        "vz": 17.5789549518347,
+        "speed": 17.59378996075762,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": false,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": -1,
+        "lift": false
+      }
+    },
+    {
+      "wallMs": 30841,
+      "observed": {
+        "time": 28.84166666666567,
+        "x": 30.240051684574457,
+        "y": 0,
+        "z": 510.0440707072747,
+        "heading": -0.0004816892396999747,
+        "pitch": -4.711165025146016e-9,
+        "roll": 0.08857061708377705,
+        "vx": -0.008445317037223482,
+        "vy": 0,
+        "vz": 17.53270716470635,
+        "speed": 17.532709198715562,
+        "pressure": 100,
+        "group": "far",
+        "surface": "far",
+        "grounded": true,
+        "complete": true,
+        "crashTimer": 0,
+        "reason": ""
+      },
+      "input": {
+        "throttle": 0,
+        "steer": 0,
+        "lift": false
+      }
+    }
+  ],
+  "errors": [],
+  "bundle": "/assets/roadster-6L2jcyue.js",
+  "observer": {
+    "dev": false,
+    "keys": [
+      "getState"
+    ]
+  },
+  "end": {
+    "time": 28.84166666666567,
+    "x": 30.240051684574457,
+    "y": 0,
+    "z": 510.0440707072747,
+    "vx": -0.008445317037223482,
+    "vy": 0,
+    "vz": 17.53270716470635,
+    "speed": 17.532709198715562,
+    "heading": -0.0004816892396999747,
+    "pitch": -4.711165025146016e-9,
+    "roll": 0.08857061708377705,
+    "reference": -0.0004816892396999747,
+    "pressure": 100,
+    "grounded": true,
+    "surface": "far",
+    "group": "far",
+    "route": "main",
+    "input": {
+      "throttle": 0,
+      "steer": -1,
+      "lift": false
+    },
+    "jets": {
+      "lift": 0,
+      "forward": 0,
+      "side": 0,
+      "brake": 0
+    },
+    "forces": {
+      "lift": 0,
+      "forward": 0,
+      "side": 0,
+      "brake": 0,
+      "cost": 0
+    },
+    "reverse": false,
+    "checkpoint": {
+      "surface": "far",
+      "x": 30,
+      "z": 490,
+      "heading": 0,
+      "y": 0
+    },
+    "visits": {
+      "low": 0,
+      "high": 1,
+      "far": 0,
+      "start": 0,
+      "runway": 0,
+      "landing": 1,
+      "curve": 0,
+      "apron": 0,
+      "ramp": 0,
+      "recovery": 0,
+      "return-ramp": 0,
+      "return-top": 0,
+      "ground-bypass": 0,
+      "lower-bypass": 0
+    },
+    "groundContacts": [
+      "start",
+      "runway",
+      "landing",
+      "curve",
+      "apron",
+      "high",
+      "ramp",
+      "far"
+    ],
+    "complete": true,
+    "crashTimer": 0,
+    "reason": "",
+    "recoveryNotice": null,
+    "landingCount": 2,
+    "lastContact": null,
+    "lastLanding": {
+      "time": 20.816666666666126,
+      "surface": "high",
+      "group": "high",
+      "impact": 15.79781706887655,
+      "safe": true,
+      "flight": 2
+    },
+    "events": [
+      {
+        "type": "ground-stage",
+        "time": 2.1583333333333283,
+        "x": 0,
+        "y": 0,
+        "z": 30.072066974072264,
+        "pressure": 100,
+        "surface": "runway",
+        "group": "runway",
+        "route": "main"
+      },
+      {
+        "type": "takeoff",
+        "time": 5.291666666666719,
+        "x": 0,
+        "y": 0,
+        "z": 101.97368445839746,
+        "pressure": 99.7435073100457,
+        "from": "runway",
+        "group": "runway",
+        "vx": 0,
+        "vz": 27.057359628260063
+      },
+      {
+        "type": "landing",
+        "time": 7.033333333333473,
+        "x": 0,
+        "y": 0,
+        "z": 161.60085720127762,
+        "pressure": 81.4776455143104,
+        "surface": "landing",
+        "group": "landing",
+        "impact": 8.451953823459402,
+        "safe": true,
+        "flight": 1
+      },
+      {
+        "type": "ground-stage",
+        "time": 7.033333333333473,
+        "x": 0,
+        "y": 0,
+        "z": 161.60085720127762,
+        "pressure": 81.4776455143104,
+        "surface": "landing",
+        "group": "landing",
+        "route": "main"
+      },
+      {
+        "type": "ground-stage",
+        "time": 8.725000000000145,
+        "x": 0.10046539284288991,
+        "y": 0,
+        "z": 204.07425871235776,
+        "pressure": 88.63755303393579,
+        "surface": "curve-000",
+        "group": "curve",
+        "route": "main"
+      },
+      {
+        "type": "ground-stage",
+        "time": 13.674999999999864,
+        "x": 19.420855230704465,
+        "y": 0,
+        "z": 284.088964694244,
+        "pressure": 100,
+        "surface": "apron",
+        "group": "apron",
+        "route": "main"
+      },
+      {
+        "type": "takeoff",
+        "time": 17.04166666666634,
+        "x": 19.83721564286349,
+        "y": 0,
+        "z": 314.9519900718945,
+        "pressure": 99.7435073100457,
+        "from": "apron",
+        "group": "apron",
+        "vx": -0.04542820626211127,
+        "vz": 8.567691590609662
+      },
+      {
+        "type": "landing",
+        "time": 20.816666666666126,
+        "x": 33.23949546903655,
+        "y": 8,
+        "z": 370.5779728584401,
+        "pressure": 65.71432837559827,
+        "surface": "high",
+        "group": "high",
+        "impact": 15.79781706887655,
+        "safe": true,
+        "flight": 2
+      },
+      {
+        "type": "ground-stage",
+        "time": 20.816666666666126,
+        "x": 33.23949546903655,
+        "y": 8,
+        "z": 370.5779728584401,
+        "pressure": 65.71432837559827,
+        "surface": "high",
+        "group": "high",
+        "route": "upper"
+      },
+      {
+        "type": "ground-stage",
+        "time": 22.208333333332714,
+        "x": 30.973765899230486,
+        "y": 7.9872790073225755,
+        "z": 393.12720992677424,
+        "pressure": 75.16432837559871,
+        "surface": "ramp",
+        "group": "ramp",
+        "route": "upper"
+      },
+      {
+        "type": "ground-stage",
+        "time": 26.74166666666579,
+        "x": 30.05531567074088,
+        "y": 0,
+        "z": 473.0585726265978,
+        "pressure": 100,
+        "surface": "far",
+        "group": "far",
+        "route": "main"
+      },
+      {
+        "type": "complete",
+        "time": 28.84166666666567,
+        "x": 30.240051684574457,
+        "y": 0,
+        "z": 510.0440707072747,
+        "pressure": 100,
+        "visits": {
+          "low": 0,
+          "high": 1,
+          "far": 0,
+          "start": 0,
+          "runway": 0,
+          "landing": 1,
+          "curve": 0,
+          "apron": 0,
+          "ramp": 0,
+          "recovery": 0,
+          "return-ramp": 0,
+          "return-top": 0,
+          "ground-bypass": 0,
+          "lower-bypass": 0
+        },
+        "route": "main",
+        "groundContacts": [
+          "start",
+          "runway",
+          "landing",
+          "curve",
+          "apron",
+          "high",
+          "ramp",
+          "far"
+        ]
+      }
+    ],
+    "paused": false,
+    "manual": false,
+    "controls": {
+      "throttle": 0,
+      "steer": 0,
+      "lift": false,
+      "keys": [],
+      "pointers": []
+    },
+    "prediction": null,
+    "world": {
+      "asset": "coastal-interchange.glb",
+      "meshes": 438,
+      "rightHanded": false,
+      "camera": {
+        "x": 30.010058322476375,
+        "y": 5.200000506597635,
+        "z": 495.59472116957903,
+        "heading": 0.01664709285541683
+      },
+      "assetMeshes": 326,
+      "hero": {
+        "asset": "roadster-gt.glb",
+        "meshes": 83,
+        "wheelPivots": 4,
+        "wheels": [
+          {
+            "name": "GT_Wheel_FL.001",
+            "position": [
+              -0.9900000095367432,
+              0.4300000071525574,
+              1.1799999475479126
+            ],
+            "rotation": [
+              -0.9931284496824918,
+              -0.006454331231524326,
+              -0.06691263152313129,
+              0.09579626183862089
+            ]
+          },
+          {
+            "name": "GT_Wheel_FR.001",
+            "position": [
+              0.9900000095367432,
+              0.4300000071525574,
+              1.1799999475479126
+            ],
+            "rotation": [
+              -0.9931284496824918,
+              -0.006454331231524326,
+              -0.06691263152313129,
+              0.09579626183862089
+            ]
+          },
+          {
+            "name": "GT_Wheel_RL.001",
+            "position": [
+              -0.9900000095367432,
+              0.4300000071525574,
+              -1.1799999475479126
+            ],
+            "rotation": [
+              -0.9953800368834509,
+              0,
+              0,
+              0.09601344788049142
+            ]
+          },
+          {
+            "name": "GT_Wheel_RR.001",
+            "position": [
+              0.9900000095367432,
+              0.4300000071525574,
+              -1.1799999475479126
+            ],
+            "rotation": [
+              -0.9953800368834509,
+              0,
+              0,
+              0.09601344788049142
+            ]
+          }
+        ],
+        "triangles": 33180,
+        "mode": "Blender MCP curved 3D geometry"
+      },
+      "visuals": {
+        "hdr": "local CC0 Kloppenheim 06 1K",
+        "ocean": {
+          "type": "animated multi-wave HDR reflection",
+          "time": 29.305299999999814,
+          "contacts": 12
+        },
+        "coast": "firstspan-coast.glb",
+        "quality": "desktop 128px IBL",
+        "sun": [
+          0.4811319918377679,
+          0.5512970739807758,
+          0.6816036551035045
+        ]
+      }
+    },
+    "layout": {
+      "version": 2,
+      "name": "滨海立交试驾区",
+      "asset": "coastal-interchange.glb",
+      "surfaces": 154
+    }
+  },
+  "pass": true,
+  "ordinaryEntry": {
+    "readonly": false,
+    "dev": false,
+    "bundle": "/assets/roadster-6L2jcyue.js"
+  },
+  "wallMs": 32048
+}

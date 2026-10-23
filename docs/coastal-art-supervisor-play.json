@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-23",
+  "method": "Supervisor ordinary browser UI inputs chosen after visible DOM and screenshots. No app state, position, velocity, gas, time or completion writes. Browser timing is approximate. Pauses and legal checkpoints are recorded; this is not a human novice or physical-phone test.",
+  "pc": {
+    "firstBridge": {
+      "inputs": [
+        "R legal reset",
+        "W held 5000ms",
+        "Space held 650ms",
+        "wait for actual grounded landing DOM",
+        "S held 900ms"
+      ],
+      "result": "Actual grounded landing surface reached, forward motion retained before braking",
+      "screenshots": [
+        "coastal-art-supervisor-approach.png",
+        "coastal-art-supervisor-flight.png",
+        "coastal-art-supervisor-landing.png"
+      ]
+    },
+    "observations": [
+      {
+        "case": "Continuous S from forward movement through stop into reverse",
+        "inputs": [
+          "Restart",
+          "W2000",
+          "S3000 uninterrupted"
+        ],
+        "before": {
+          "contact": "",
+          "grounded": "true",
+          "group": "runway",
+          "phase": "running",
+          "pressure": "100",
+          "speed": "61",
+          "surface": "runway",
+          "tip": ""
+        },
+        "after": {
+          "contact": "",
+          "grounded": "true",
+          "group": "start",
+          "phase": "running",
+          "pressure": "100",
+          "speed": "23",
+          "surface": "start",
+          "tip": ""
+        }
+      },
+      {
+        "case": "Development HMR interrupted first rail attempt before input; not counted as a physics failure"
+      },
+      {
+        "case": "Held forward into actual starting guardrail, stayed in scene, reversed away",
+        "inputs": [
+          "Start",
+          "W+D2800",
+          "W1000",
+          "S1600"
+        ],
+        "before": {
+          "contact": "",
+          "grounded": "true",
+          "group": "start",
+          "phase": "running",
+          "pressure": "100",
+          "speed": "0",
+          "surface": "start",
+          "tip": ""
+        },
+        "after": {
+          "contact": "",
+          "grounded": "true",
+          "group": "start",
+          "phase": "running",
+          "pressure": "100",
+          "speed": "20",
+          "surface": "start",
+          "tip": ""
+        }
+      },
+      {
+        "case": "Drove backwards off the real start road, observed airborne outside and automatic safe recovery",
+        "inputs": [
+          "Start",
+          "S3000",
+          "wait actual airborne DOM",
+          "wait actual grounded start DOM"
+        ],
+        "before": {
+          "contact": "",
+          "grounded": "false",
+          "group": "air",
+          "phase": "running",
+          "pressure": "96",
+          "speed": "0",
+          "surface": "air",
+          "tip": "W油门 · 空格喷气"
+        },
+        "after": {
+          "contact": "已复位 · 驶出试驾区",
+          "grounded": "true",
+          "group": "start",
+          "phase": "running",
+          "pressure": "100",
+          "speed": "0",
+          "surface": "start",
+          "tip": "W油门 · 空格喷气"
+        }
+      }
+    ]
+  },
+  "mobile": {
+    "observations": [
+      {
+        "case": "One held downward joystick request brakes through zero into reverse",
+        "inputs": [
+          "forward pad2000",
+          "down pad3000 uninterrupted"
+        ],
+        "before": {
+          "contact": "",
+          "grounded": "true",
+          "group": "runway",
+          "phase": "running",
+          "pressure": "100",
+          "speed": "62",
+          "surface": "runway",
+          "tip": ""
+        },
+        "after": {
+          "contact": "",
+          "grounded": "true",
+          "group": "runway",
+          "phase": "running",
+          "pressure": "100",
+          "speed": "23",
+          "surface": "runway",
+          "tip": ""
+        }
+      },
+      {
+        "case": "HMR interrupted first mobile flight attempt before driving; not a control failure"
+      },
+      {
+        "case": "First sequential mouse flight attempt did not reach receiving road within wait; recorded failure, not counted as a pass",
+        "inputs": [
+          "up5000",
+          "jet650"
+        ],
+        "flight": {
+          "contact": "",
+          "grounded": "false",
+          "group": "air",
+          "phase": "running",
+          "pressure": "88",
+          "speed": "93",
+          "surface": "air",
+          "tip": "摇杆后推反推减速，喷气缓冲下降"
+        },
+        "current": {
+          "contact": "",
+          "grounded": "true",
+          "group": "start",
+          "phase": "running",
+          "pressure": "100",
+          "speed": "0",
+          "surface": "start",
+          "tip": ""
+        }
+      },
+      {
+        "case": "Earlier takeoff retry completed actual first bridge receiving-road contact and retained motion",
+        "inputs": [
+          "Restart",
+          "up4200",
+          "jet650",
+          "wait receiving-road grounded",
+          "down850"
+        ],
+        "flight": {
+          "contact": "",
+          "grounded": "false",
+          "group": "air",
+          "phase": "running",
+          "pressure": "86",
+          "speed": "85",
+          "surface": "air",
+          "tip": "摇杆后推反推减速，喷气缓冲下降"
+        },
+        "landing": {
+          "contact": "",
+          "grounded": "true",
+          "group": "landing",
+          "phase": "running",
+          "pressure": "97",
+          "speed": "8",
+          "surface": "landing",
+          "tip": ""
+        }
+      }
+    ],
+    "method": "667x375 phone layout operated through actual joystick and jet DOM mouse holds; not a physical phone or multi-touch test."
+  },
+  "production": {
+    "url": "http://localhost:4173/roadster.html",
+    "bundle": "/assets/roadster-6L2jcyue.js",
+    "pc": {
+      "inputs": [
+        "Start",
+        "W4200",
+        "Space650",
+        "wait actual receiving-road contact",
+        "S800"
+      ],
+      "flight": {
+        "contact": "",
+        "grounded": "false",
+        "group": "air",
+        "phase": "running",
+        "pressure": "88",
+        "speed": "87",
+        "surface": "air",
+        "tip": "S反推减速，空格缓冲下降"
+      },
+      "landing": {
+        "contact": "",
+        "grounded": "true",
+        "group": "landing",
+        "phase": "running",
+        "pressure": "100",
+        "speed": "19",
+        "surface": "landing",
+        "tip": ""
+      },
+      "viewport": [
+        1280,
+        720
+      ],
+      "automaticReset": {
+        "inputs": [
+          "Restart",
+          "S3000",
+          "wait airborne outside",
+          "wait safe grounded recovery"
+        ],
+        "fall": {
+          "contact": "",
+          "grounded": "false",
+          "group": "air",
+          "phase": "running",
+          "pressure": "96",
+          "speed": "0",
+          "surface": "air",
+          "tip": "W油门 · 空格喷气"
+        },
+        "reset": {
+          "contact": "已复位 · 驶出试驾区",
+          "grounded": "true",
+          "group": "start",
+          "phase": "running",
+          "pressure": "100",
+          "speed": "0",
+          "surface": "start",
+          "tip": "W油门 · 空格喷气"
+        },
+        "cameraVisual": "Immediately behind car after recovery, no side-view spin residue"
+      }
+    },
+    "mobile": {
+      "method": "667x375 actual on-screen control mouse holds; not physical touch",
+      "inputs": [
+        "Restart",
+        "up4200",
+        "jet650",
+        "wait receiving-road ground",
+        "down850"
+      ],
+      "flight": {
+        "contact": "",
+        "grounded": "false",
+        "group": "air",
+        "phase": "running",
+        "pressure": "85",
+        "speed": "90",
+        "surface": "air",
+        "tip": "摇杆后推反推减速，喷气缓冲下降"
+      },
+      "landing": {
+        "contact": "",
+        "grounded": "true",
+        "group": "landing",
+        "phase": "running",
+        "pressure": "100",
+        "speed": "0",
+        "surface": "landing",
+        "tip": ""
+      },
+      "released": {
+        "jet": false,
+        "stick": false
+      },
+      "continuation": {
+        "contact": "",
+        "grounded": "true",
+        "group": "landing",
+        "phase": "running",
+        "pressure": "100",
+        "speed": "29",
+        "surface": "landing",
+        "tip": ""
+      },
+      "note": "After contact the downward brake hold reached zero; a fresh forward hold resumed driving on the real receiving road."
+    },
+    "console": []
+  }
+}

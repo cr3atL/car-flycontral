@@ -1,5 +1,6 @@
 import { ROADSTER as C } from './config.js';
 import { inside, topAt, footprint, footprintBounds, overlaps, surfaceAt, surfaceGroup, slopeVelocity, supported, contactPolygon, querySurfaces } from './geometry.js';
+import {moveAgainstSolids} from './collision.js';
 
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 const mix=(a,b,k,dt)=>a+(b-a)*(1-Math.exp(-k*dt));
@@ -26,7 +27,7 @@ export class RoadsterSimulation {
       pressure:100,grounded:true,surfaceId:face?.id??p.surface,groundAge:0,refillAge:0,
       crashTimer:0,reason:'',reverse:false,previousThrottle:0,
       jets:{lift:0,forward:0,side:0,brake:0},forces:{lift:0,forward:0,side:0,brake:0,cost:0},
-      input:{throttle:0,steer:0,lift:false},lastLanding:null,departureSurface:null,departureIds:[]
+      input:{throttle:0,steer:0,lift:false},lastLanding:null,lastContact:null,departureSurface:null,departureIds:[]
     });
     this.lastGroundGroup=surfaceGroup(face);
     if(record){this.resets++;this.emit('reset',{checkpoint:p.surface,group:surfaceGroup(face)});}
@@ -71,10 +72,12 @@ export class RoadsterSimulation {
     if(this.grounded) {
       const dx=Math.sin(this.heading),dz=Math.cos(this.heading),rightX=dz,rightZ=-dx;
       let longitudinal=this.vx*dx+this.vz*dz,lateral=this.vx*rightX+this.vz*rightZ;
-      if(t<-.05&&this.previousThrottle>=-.05)this.reverse=Math.abs(longitudinal)<.12;
-      if(t>=-.05)this.reverse=false;
       if(t>0){if(longitudinal<-.05)longitudinal=Math.min(0,longitudinal+C.brake*t*dt);else longitudinal+=C.motor*t*Math.max(0,1-longitudinal/(this.coastal?C.coastalMotorMax:55))*dt;}
-      else if(t<0){if(this.reverse)longitudinal-=C.reverseMotor*-t*Math.max(0,1+longitudinal/C.reverseMax)*dt;else longitudinal=Math.max(0,longitudinal-C.brake*-t*dt);}
+      else if(t<0){
+        let remaining=dt;if(longitudinal>0){const stopTime=longitudinal/(C.brake*-t);longitudinal=Math.max(0,longitudinal-C.brake*-t*dt);remaining=Math.max(0,dt-stopTime);}
+        if(longitudinal<=0)longitudinal-=C.reverseMotor*-t*Math.max(0,1+longitudinal/C.reverseMax)*remaining;
+      }
+      this.reverse=longitudinal<-.05;
       const drag=C.rolling+C.groundDrag*longitudinal*longitudinal;
       longitudinal=Math.sign(longitudinal)*Math.max(0,Math.abs(longitudinal)-drag*dt);lateral*=Math.exp(-C.lateralGrip*dt);
       const maxSteer=this.coastal?C.coastalSteerHigh+(C.steerLow-C.coastalSteerHigh)/(1+(Math.abs(longitudinal)/9)**2):
@@ -93,6 +96,9 @@ export class RoadsterSimulation {
       this.heading=angle(this.heading+angle(this.reference-this.heading)*(1-Math.exp(-C.headingResponse*dt)));
     }
     this.previousThrottle=t;this.x+=this.vx*dt;this.z+=this.vz*dt;
+    // Ground guardrails constrain motion before support is evaluated: scraping a rail
+    // must not invent an airborne/landing cycle at the outer road edge.
+    if(wasGround)this.resolveContactMotion(prev,this.layout.colliders??[]);
 
     let groundSurface=null;
     if(this.grounded) {
@@ -112,9 +118,7 @@ export class RoadsterSimulation {
       const top=topAt(s,this.x,this.z);return this.y<=top+.1&&bodyTop>=top-s.depth-.05;
     });
     this.departureSurface=this.departureIds[0]??null;
-    for(const obstacle of this.layout.colliders??[]) {
-      if(overlaps(bounds,obstacle)&&bodyTop>obstacle.ymin&&this.y<obstacle.ymax&&contactPolygon(body,obstacle).length){this.crash(obstacle.reason??(this.coastal?'碰到护栏或路障':'碰到出口结构'));return;}
-    }
+    if(!wasGround)this.resolveContactMotion(prev,this.layout.colliders??[]);
     let landed=null;
     if(!this.grounded)for(const face of candidates) {
       const top=topAt(face,this.x,this.z),oldTop=topAt(face,prev.x,prev.z),relative=this.vy-slopeVelocity(face,this.vx,this.vz);
@@ -123,13 +127,14 @@ export class RoadsterSimulation {
     if(landed&&supported(this.layout,this,landed.surface).count<3)landed=null;
     if(landed) {
       const face=landed.surface,support=supported(this.layout,this,face),impact=Math.max(0,landed.impact);
-      if(impact>C.crashImpact){this.crash('下降冲击过大');return;}
+      if(impact>C.crashImpact){const retained=Math.max(.55,1-(impact-C.crashImpact)*.012);this.vx*=retained;this.vz*=retained;}
       this.y=landed.top;this.vy=slopeVelocity(face,this.vx,this.vz);this.grounded=true;
       this.surfaceId=face.id;groundSurface=face;this.groundAge=0;this.refillAge=0;this.landingCount++;
       const group=surfaceGroup(face);this.visits[face.id]=(this.visits[face.id]??0)+1;
       if(group!==face.id)this.visits[group]=(this.visits[group]??0)+1;
       this.lastLanding={time:this.time,surface:face.id,group,impact,safe:support.safe,flight:this.flight};this.emit('landing',this.lastLanding);
     }else if(!this.grounded) {
+      const solidFaces=[];
       for(const face of candidates) {
         if(this.departureIds.includes(face.id))continue;
         const contact=contactPolygon(body,face);if(!contact.length)continue;
@@ -139,8 +144,9 @@ export class RoadsterSimulation {
           const underside=this.vy>0&&this.y<bottom&&bodyTop>bottom;
           return (side||underside)&&prev.y+C.height>=bottom-.3;
         });
-        if(hits){this.crash(this.vy>0?'碰到道路底面':'碰到道路侧面');return;}
+        if(hits)solidFaces.push(face);
       }
+      if(solidFaces.length)this.resolveContactMotion(prev,solidFaces);
     }
     if(this.grounded) {
       this.groundAge+=dt;groundSurface??=this.surface;
@@ -151,6 +157,14 @@ export class RoadsterSimulation {
     const grade=groundSurface?slopeVelocity(groundSurface,Math.sin(this.heading),Math.cos(this.heading)):0;
     this.pitch=mix(this.pitch,this.grounded?Math.atan(grade):clamp(-t*.12+this.vy*.004,-.2,.2),8,dt);
     this.roll=mix(this.roll,clamp(-turn*(this.grounded?this.speed*.007:.16),-.22,.22),7,dt);
+  }
+
+  resolveContactMotion(previous,shapes){
+    if(!shapes.length)return;
+    const result=moveAgainstSolids(previous,{x:this.x,y:this.y,z:this.z,heading:this.heading},{x:this.vx,y:this.vy,z:this.vz},shapes);
+    if(!result.contacts.length)return;
+    this.x=result.x;this.y=result.y;this.z=result.z;this.vx=result.vx;this.vy=result.vy;this.vz=result.vz;
+    if(result.contacts.length){const contact=result.contacts.reduce((a,b)=>a.impact>b.impact?a:b),old=this.lastContact;this.lastContact={...contact,time:this.time};if(!old||old.id!==contact.id||this.time-old.time>.2)this.emit('contact',contact);}
   }
 
   updateGround(face,prev,dt,lift) {
@@ -187,6 +201,7 @@ export class RoadsterSimulation {
     for(let i=0;i<C.predictionSeconds/C.step;i++) {
       g.step(C.step);if(i%18===0)trace.push({x:g.x,y:g.y,z:g.z});
       if(g.crashTimer)return result({safe:false,reason:g.reason,surface:null,group:null});
+      if(g.lastContact&&g.lastContact.time>start)return result({safe:false,reason:g.lastContact.kind==='road'?(g.lastContact.normal.y<-.5?'预计碰到道路底面':g.lastContact.normal.y>.5?'落点靠近边缘':'预计碰到道路侧面'):'预计碰到护栏',surface:null,group:null,contact:g.lastContact});
       if(g.grounded){const face=g.surface,safe=!!face&&supported(g.layout,g,face).safe;return result({safe,reason:!safe?'落点靠近边缘':g.lastLanding.impact>C.dangerImpact?'预计下降冲击较大':'',impact:g.lastLanding.impact,surface:g.surfaceId,group:surfaceGroup(face),corners:footprint(g)});}
     }
     return result({safe:false,reason:'尚无安全落点',surface:null,group:null});
@@ -198,6 +213,6 @@ export class RoadsterSimulation {
       input:{...this.input},jets:{...this.jets},forces:{...this.forces},reverse:this.reverse,
       checkpoint:{...this.checkpoint},visits:{...this.visits},groundContacts:[...this.groundContacts],
       complete:this.complete,crashTimer:this.crashTimer,reason:this.reason,recoveryNotice:this.recoveryNotice,
-      landingCount:this.landingCount,lastLanding:this.lastLanding&&{...this.lastLanding},events:this.events.map(e=>({...e}))};
+      landingCount:this.landingCount,lastContact:this.lastContact&&{...this.lastContact},lastLanding:this.lastLanding&&{...this.lastLanding},events:this.events.map(e=>({...e}))};
   }
 }

@@ -1,0 +1,54 @@
+[
+  {
+    "viewport": {
+      "width": 667,
+      "height": 375
+    },
+    "method": "Chromium native multi-touch/cancel, viewport orientation; synthetic blur dispatch tests wiring only",
+    "checks": [
+      "independent diagonal + lift simultaneously",
+      "rear diagonal brake + side correction + lift simultaneously",
+      "lifting right finger preserves left throttle/steer",
+      "captured stick releases outside bounds",
+      "touch cancellation clears both controls",
+      "pause freezes time; resume has no stale keyboard input",
+      "portrait clears touches and requires explicit resume after landscape",
+      "synthetic blur clears input and pauses",
+      "restart clears run and no automatic cruise"
+    ],
+    "errors": [],
+    "browserTabBlur": {
+      "paused": false,
+      "pointers": 2,
+      "lift": true,
+      "scope": "Headless browser did not deliver blur; only synthetic blur wiring is verified."
+    },
+    "pass": true
+  },
+  {
+    "viewport": {
+      "width": 844,
+      "height": 390
+    },
+    "method": "Chromium native multi-touch/cancel, viewport orientation; synthetic blur dispatch tests wiring only",
+    "checks": [
+      "independent diagonal + lift simultaneously",
+      "rear diagonal brake + side correction + lift simultaneously",
+      "lifting right finger preserves left throttle/steer",
+      "captured stick releases outside bounds",
+      "touch cancellation clears both controls",
+      "pause freezes time; resume has no stale keyboard input",
+      "portrait clears touches and requires explicit resume after landscape",
+      "synthetic blur clears input and pauses",
+      "restart clears run and no automatic cruise"
+    ],
+    "errors": [],
+    "browserTabBlur": {
+      "paused": false,
+      "pointers": 2,
+      "lift": true,
+      "scope": "Headless browser did not deliver blur; only synthetic blur wiring is verified."
+    },
+    "pass": true
+  }
+]

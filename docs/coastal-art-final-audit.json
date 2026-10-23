@@ -1,0 +1,88 @@
+{
+  "assets": [
+    {
+      "asset": "roadster-gt.glb",
+      "sha256": "b249fae79d0ae81cda657af4467ca26a32e80e9b6394c0fd7fcb36bb56f27235",
+      "bytes": 617904,
+      "scenes": [
+        "FirstSpan_GT_Source_v2"
+      ],
+      "nodes": 87,
+      "meshes": 82,
+      "referencedMeshes": 82,
+      "materials": 10,
+      "referencedMaterials": 10,
+      "triangles": 33180,
+      "wheelPivots": [
+        {
+          "name": "GT_Wheel_FL.001",
+          "translation": [
+            -0.9900000095367432,
+            0.4300000071525574,
+            1.1799999475479126
+          ]
+        },
+        {
+          "name": "GT_Wheel_FR.001",
+          "translation": [
+            0.9900000095367432,
+            0.4300000071525574,
+            1.1799999475479126
+          ]
+        },
+        {
+          "name": "GT_Wheel_RL.001",
+          "translation": [
+            -0.9900000095367432,
+            0.4300000071525574,
+            -1.1799999475479126
+          ]
+        },
+        {
+          "name": "GT_Wheel_RR.001",
+          "translation": [
+            0.9900000095367432,
+            0.4300000071525574,
+            -1.1799999475479126
+          ]
+        }
+      ],
+      "foreignNodes": []
+    },
+    {
+      "asset": "firstspan-coast.glb",
+      "sha256": "1971bf4746a26da6f3b0c28254fabc9b521c8074a3cf3183e63119b8b0e59195",
+      "bytes": 9455324,
+      "scenes": [
+        "FirstSpan_Coast_Source_v5"
+      ],
+      "nodes": 5,
+      "meshes": 5,
+      "referencedMeshes": 5,
+      "materials": 5,
+      "referencedMaterials": 5,
+      "triangles": 145895,
+      "allCoastPrimitivesHaveVertexColors": true,
+      "wheelPivots": [],
+      "foreignNodes": []
+    }
+  ],
+  "coastRoadClearance": {
+    "method": "Exact nonvertical projected triangle/convex road polygon intersection, linear height range in driving envelope top-0.12m to top+3m; route paint excluded",
+    "trianglesChecked": 145881,
+    "overlaps": []
+  },
+  "preservation": {
+    "baseline": "cfde14818f24e800113140d6f350b42b71561515",
+    "total": 60,
+    "changed": [
+      "src/roadster/main.js",
+      "src/roadster/simulation.js",
+      "src/roadster/world.js"
+    ],
+    "unchanged": 57,
+    "layoutSurfaces": 154,
+    "layoutColliders": 182,
+    "originalTrackGLBSha256": "2d827d96b66834ef3afd788f2cae10d6a7f4d8154087ce0daec44d6fa02966e7"
+  }
+}

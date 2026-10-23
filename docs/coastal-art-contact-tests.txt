@@ -1,0 +1,255 @@
+TAP version 13
+# Subtest: convex road containment respects winding and perpendicular margin
+ok 1 - convex road containment respects winding and perpendicular margin
+  ---
+  duration_ms: 2.1489
+  ...
+# Subtest: polygon intersection has known area and rejects an AABB-only overlap
+ok 2 - polygon intersection has known area and rejects an AABB-only overlap
+  ---
+  duration_ms: 1.1921
+  ...
+# Subtest: dual slope plane uses both independent origins
+ok 3 - dual slope plane uses both independent origins
+  ---
+  duration_ms: 1.7288
+  ...
+# Subtest: full footprint spans multiple small faces without a seam penalty
+ok 4 - full footprint spans multiple small faces without a seam penalty
+  ---
+  duration_ms: 2.4492
+  ...
+# Subtest: four supported corners cannot hide an uncovered strip in the footprint
+ok 5 - four supported corners cannot hide an uncovered strip in the footprint
+  ---
+  duration_ms: 0.7897
+  ...
+# Subtest: air collisions use actual road polygon, not its bounding rectangle
+ok 6 - air collisions use actual road polygon, not its bounding rectangle
+  ---
+  duration_ms: 5.8972
+  ...
+# Subtest: polygon guardrail also rejects AABB-only overlaps
+ok 7 - polygon guardrail also rejects AABB-only overlaps
+  ---
+  duration_ms: 11.558
+  ...
+# Subtest: ground driving crosses flat/downhill/flat without fictitious flight
+ok 8 - ground driving crosses flat/downhill/flat without fictitious flight
+  ---
+  duration_ms: 116.1841
+  ...
+# Subtest: cross-slope ground velocity inherits slopeX as well as slopeZ
+ok 9 - cross-slope ground velocity inherits slopeX as well as slopeZ
+  ---
+  duration_ms: 34.2886
+  ...
+# Subtest: landing impact is relative to the downhill tangent and preserves horizontal motion
+ok 10 - landing impact is relative to the downhill tangent and preserves horizontal motion
+  ---
+  duration_ms: 2.8347
+  ...
+# Subtest: moving safe contact activates only the current group checkpoint
+ok 11 - moving safe contact activates only the current group checkpoint
+  ---
+  duration_ms: 12.5672
+  ...
+# Subtest: checkpoint activation spans sampled faces instead of requiring one tiny quad
+ok 12 - checkpoint activation spans sampled faces instead of requiring one tiny quad
+  ---
+  duration_ms: 30.2119
+  ...
+# Subtest: ground contact underneath the high deck cannot activate its checkpoint
+ok 13 - ground contact underneath the high deck cannot activate its checkpoint
+  ---
+  duration_ms: 6.0039
+  ...
+# Subtest: continuous ground bypass can finish without a fabricated far landing event
+ok 14 - continuous ground bypass can finish without a fabricated far landing event
+  ---
+  duration_ms: 27.7519
+  ...
+# Subtest: flight above the exit is not completed by previous grounded contact
+ok 15 - flight above the exit is not completed by previous grounded contact
+  ---
+  duration_ms: 1.3892
+  ...
+# Subtest: lift responds immediately and reaches ninety percent in the specified build interval
+ok 16 - lift responds immediately and reaches ninety percent in the specified build interval
+  ---
+  duration_ms: 2.2463
+  ...
+# Subtest: moving through a marked refill strip gains more gas without stopping or an air reward
+ok 17 - moving through a marked refill strip gains more gas without stopping or an air reward
+  ---
+  duration_ms: 24.1573
+  ...
+# Subtest: coastal reverse thrust dissipates horizontal energy for different headings without stopping gravity
+ok 18 - coastal reverse thrust dissipates horizontal energy for different headings without stopping gravity
+  ---
+  duration_ms: 22.4247
+  ...
+# Subtest: held-input prediction lands across dense seams and leaves the source untouched
+ok 19 - held-input prediction lands across dense seams and leaves the source untouched
+  ---
+  duration_ms: 11.2521
+  ...
+# Subtest: exported coastal collision faces satisfy the promised convex, non-folded schema
+ok 20 - exported coastal collision faces satisfy the promised convex, non-folded schema
+  ---
+  duration_ms: 4.9252
+  ...
+# Subtest: repaired return apron joins the real ramp with continuous full-footprint support
+ok 21 - repaired return apron joins the real ramp with continuous full-footprint support
+  ---
+  duration_ms: 3.6473
+  ...
+# Subtest: held negative throttle brakes through zero and reverses without a release
+ok 22 - held negative throttle brakes through zero and reverses without a release
+  ---
+  duration_ms: 68.4529
+  ...
+# Subtest: fixed downward joystick is the same continuous reverse request as the keyboard
+ok 23 - fixed downward joystick is the same continuous reverse request as the keyboard
+  ---
+  duration_ms: 65.088
+  ...
+# Subtest: air braking still stops horizontal velocity without reverse or vertical suspension
+ok 24 - air braking still stops horizontal velocity without reverse or vertical suspension
+  ---
+  duration_ms: 7.8873
+  ...
+# Subtest: head-on guard contact blocks and continuous reverse frees the car
+ok 25 - head-on guard contact blocks and continuous reverse frees the car
+  ---
+  duration_ms: 76.9915
+  ...
+# Subtest: grazing a rail retains tangent motion and never teleports
+ok 26 - grazing a rail retains tangent motion and never teleports
+  ---
+  duration_ms: 13.4073
+  ...
+# Subtest: sustained normal pressure does not accumulate penetration or reset
+ok 27 - sustained normal pressure does not accumulate penetration or reset
+  ---
+  duration_ms: 115.1775
+  ...
+# Subtest: sweep stops high-speed movement that would cross a thin convex wall in one step
+ok 28 - sweep stops high-speed movement that would cross a thin convex wall in one step
+  ---
+  duration_ms: 1.1409
+  ...
+# Subtest: airborne platform side and underside block without a respawn timer
+ok 29 - airborne platform side and underside block without a respawn timer
+  ---
+  duration_ms: 4.0743
+  ...
+# Subtest: very hard supported landing keeps the impact and control, without auto reset
+ok 30 - very hard supported landing keeps the impact and control, without auto reset
+  ---
+  duration_ms: 7.0828
+  ...
+# Subtest: only actual map exit still automatically restores the safe checkpoint
+ok 31 - only actual map exit still automatically restores the safe checkpoint
+  ---
+  duration_ms: 4.8516
+  ...
+# Subtest: ground support updates identity across runway, lower road, ramp and top seam
+ok 32 - ground support updates identity across runway, lower road, ramp and top seam
+  ---
+  duration_ms: 491.0863
+  ...
+# Subtest: airborne flyover and lower road cannot trigger exit
+ok 33 - airborne flyover and lower road cannot trigger exit
+  ---
+  duration_ms: 2.3505
+  ...
+# Subtest: map exit stops forces; recovery retains the boundary reason and clears departure grace
+ok 34 - map exit stops forces; recovery retains the boundary reason and clears departure grace
+  ---
+  duration_ms: 2.5766
+  ...
+# Subtest: no automatic cruise; motor does not consume pressure; coast preserves motion
+ok 35 - no automatic cruise; motor does not consume pressure; coast preserves motion
+  ---
+  duration_ms: 23.0075
+  ...
+# Subtest: stationary steering changes wheels but cannot rotate body
+ok 36 - stationary steering changes wheels but cannot rotate body
+  ---
+  duration_ms: 9.2165
+  ...
+# Subtest: continuous brake input crosses zero into reverse; forward input first brakes reverse
+ok 37 - continuous brake input crosses zero into reverse; forward input first brakes reverse
+  ---
+  duration_ms: 17.7772
+  ...
+# Subtest: joystick axes remain independent at diagonals and outside its visible bounds
+ok 38 - joystick axes remain independent at diagonals and outside its visible bounds
+  ---
+  duration_ms: 0.9427
+  ...
+# Subtest: airborne side force changes actual route while lift preserves takeoff velocity
+ok 39 - airborne side force changes actual route while lift preserves takeoff velocity
+  ---
+  duration_ms: 6.6313
+  ...
+# Subtest: air brake follows velocity, stops without reverse regardless visual heading
+ok 40 - air brake follows velocity, stops without reverse regardless visual heading
+  ---
+  duration_ms: 11.0076
+  ...
+# Subtest: combined actual jets are paid and no old ceiling or rescue tank exists
+ok 41 - combined actual jets are paid and no old ceiling or rescue tank exists
+  ---
+  duration_ms: 9.1508
+  ...
+# Subtest: empty pressure cannot lift, push, steer or brake in air
+ok 42 - empty pressure cannot lift, push, steer or brake in air
+  ---
+  duration_ms: 0.6092
+  ...
+# Subtest: no ground pressure recovery while any residual actual jet is consuming
+ok 43 - no ground pressure recovery while any residual actual jet is consuming
+  ---
+  duration_ms: 20.5271
+  ...
+# Subtest: platform refill cannot make gas by alternating grounded lift
+ok 44 - platform refill cannot make gas by alternating grounded lift
+  ---
+  duration_ms: 28.6083
+  ...
+# Subtest: same edge contact cannot repeat landing/visits every step
+ok 45 - same edge contact cannot repeat landing/visits every step
+  ---
+  duration_ms: 35.4542
+  ...
+# Subtest: prediction is read-only and matches actual held input with finite tank
+ok 46 - prediction is read-only and matches actual held input with finite tank
+  ---
+  duration_ms: 31.5175
+  ...
+# Subtest: prediction distinguishes upper side/underside from support below
+ok 47 - prediction distinguishes upper side/underside from support below
+  ---
+  duration_ms: 3.4442
+  ...
+# Subtest: footprint includes real wheels and front lip, unsafe edges stay unsafe
+ok 48 - footprint includes real wheels and front lip, unsafe edges stay unsafe
+  ---
+  duration_ms: 0.2792
+  ...
+# Subtest: checkpoint confirmation is stable/inside; manual recovery clears input and speed
+ok 49 - checkpoint confirmation is stable/inside; manual recovery clears input and speed
+  ---
+  duration_ms: 3.193
+  ...
+1..49
+# tests 49
+# suites 0
+# pass 49
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 873.4335

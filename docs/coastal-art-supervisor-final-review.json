@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-23T09:16:47.512Z",
+  "independentReview": true,
+  "freezeFilesVerified": 51,
+  "assets": [
+    {
+      "file": "public/assets/roadster-gt.glb",
+      "bytes": 617904,
+      "sha256": "b249fae79d0ae81cda657af4467ca26a32e80e9b6394c0fd7fcb36bb56f27235",
+      "scenes": [
+        "FirstSpan_GT_Source_v2"
+      ],
+      "meshes": 82,
+      "materials": 10,
+      "triangles": 33180,
+      "bounds": {
+        "min": [
+          -1.1300000101327896,
+          0.010000020265579224,
+          -2.002500057220459
+        ],
+        "max": [
+          1.136000007390976,
+          1.310983419418335,
+          2.009999990463257
+        ]
+      }
+    },
+    {
+      "file": "public/assets/firstspan-coast.glb",
+      "bytes": 9455324,
+      "sha256": "1971bf4746a26da6f3b0c28254fabc9b521c8074a3cf3183e63119b8b0e59195",
+      "scenes": [
+        "FirstSpan_Coast_Source_v5"
+      ],
+      "meshes": 5,
+      "materials": 5,
+      "triangles": 145895,
+      "bounds": {
+        "min": [
+          -128.33042907714844,
+          -13.975151062011719,
+          62
+        ],
+        "max": [
+          183.6264190673828,
+          14.851561546325684,
+          330
+        ]
+      }
+    }
+  ],
+  "baseline": {
+    "head": "cfde14818f24e800113140d6f350b42b71561515",
+    "files": 60,
+    "unchanged": 57,
+    "authorizedChanged": [
+      "src/roadster/main.js",
+      "src/roadster/simulation.js",
+      "src/roadster/world.js"
+    ]
+  },
+  "geometry": {
+    "surfaces": 154,
+    "colliders": 182,
+    "originalGLBUnchanged": true
+  },
+  "receipts": [
+    {
+      "file": "docs/coastal-art-production-native-pc.json",
+      "pass": true,
+      "bundle": "/assets/roadster-6L2jcyue.js"
+    },
+    {
+      "file": "docs/coastal-art-production-native-touch-667.json",
+      "pass": true,
+      "bundle": "/assets/roadster-6L2jcyue.js"
+    },
+    {
+      "file": "docs/coastal-art-production-native-touch-844.json",
+      "pass": true,
+      "bundle": "/assets/roadster-6L2jcyue.js"
+    }
+  ],
+  "productionFiles": 213,
+  "bundles": [
+    {
+      "path": "dist/assets/roadster-6L2jcyue.js",
+      "sha256": "b08e7573f55d65a823f808ff2e91e24eb68cb28043d5df28500c470de2f96e7f"
+    }
+  ],
+  "pass": true
+}

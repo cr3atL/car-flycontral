@@ -2,9 +2,9 @@
 
 Babylon.js 单人喷气跑车原型，支持PC和手机横屏。当前场地为滨海立交试驾区：手动驾驶、短喷跨桥、抬升切入高架、反推落台，再接下坡驶出出口。沿岸普通道路和下层恢复路线均可驾驶。
 
-[在线驾驶](https://cr3atl.github.io/car-flycontral/roadster.html) · [源码仓库](https://github.com/cr3atL/car-flycontral) · [本轮设计与场景](docs/COASTAL_INTERCHANGE.md)
+[在线驾驶](https://cr3atl.github.io/car-flycontral/roadster.html) · [源码仓库](https://github.com/cr3atL/car-flycontral) · [本轮美术样段](docs/COASTAL_ART_SAMPLE.md)
 
-本轮[Pages构建与部署成功](https://github.com/cr3atL/car-flycontral/actions/runs/39893552399)。主包 `roadster-x2PXELdW.js` 与场景 `coastal-interchange.glb` 已核对线上散列；161项资源全部通过。主控线上实际跨桥并落到接收路面，另完成667布局操作冒烟。最终范围见[验收记录](docs/CORE_ACCEPTANCE.md)和[部署记录](docs/coastal-deployment.json)。
+首处跨桥新增Blender MCP制作的跑车、岩岸和植被，配合动态海面、暖色日光与阴影。地面持续按住制动可直接过渡到倒车；碰护栏会阻挡、减速或滑行，驶出地图才自动恢复。最终范围见[验收记录](docs/CORE_ACCEPTANCE.md)，发布结果见[本轮部署记录](docs/coastal-art-deployment.json)。
 
 ## 开始驾驶
 
@@ -21,7 +21,7 @@ Babylon.js 单人喷气跑车原型，支持PC和手机横屏。当前场地为�
 | 暂停 | Esc | 暂停按钮 |
 | 最近安全位置复位 | R | 暂停内复位 |
 
-停稳后松开制动，再次后推才倒车。手机摇杆两个轴独立，斜推和喷气可以同时使用；松手、取消触点、暂停、切后台和转屏都会清除输入。整场重开在暂停菜单中。
+持续按住S或向后推摇杆，车辆先刹停再倒车，无需松开重按。空中反推仍只把水平速度降到零。手机摇杆两个轴独立，斜推和喷气可以同时使用；松手、取消触点、暂停和转屏都会清除输入。切后台的清除接线已检查，真实系统后台行为尚待真机验证。整场重开在暂停菜单中。
 
 本模式没有自动前进、独立三轴特技或90秒限制。得分规则后续设计，当前不产生分数或评级。旧版停车场、90秒挑战、连续三段和自由练习通过“旧版试验场”保留。
 
@@ -33,7 +33,9 @@ Babylon.js 单人喷气跑车原型，支持PC和手机横屏。当前场地为�
 - [Blender源文件](assets/blender/coastal-interchange.blend) · [构建脚本](assets/blender/build_coastal_interchange.py)
 - [主控验收记录](docs/CORE_ACCEPTANCE.md) · [实际试玩范围](docs/coastal-supervisor-play.json)
 
-开发与主控独立全量检查均176项通过。最终同包PC、667、844原生输入主线及修复后的回程通过；只读状态反馈自动控制与主控普通UI试玩、失败和检查点重试分别记录。主控已逐段实际操作PC及667手机布局，真机、新玩家上手研究、主观音频和性能专项未验证。
+本轮开发与主控独立全量检查均186项通过。最终同包PC、667、844原生输入主线通过；主控另以普通游戏输入验证PC和667布局的跨桥、落地续行，及倒车、碰栏退出和出界恢复。只读状态反馈自动控制与主控普通UI试玩分列，失败尝试保留。真机、新玩家上手研究、主观音频和性能专项未验证。
+
+新增资产可从[样段源文件说明](assets/blender/FIRSTSPAN_SOURCES.txt)重建；[跑车](assets/blender/roadster-gt.blend)和[海岸](assets/blender/firstspan-coast.blend)均可独立打开编辑。新增外部资源仅为CC0的[Poly Haven天空HDR](assets/third-party/polyhaven-kloppenheim06/README.md)。
 
 ## 本地开发
 
@@ -45,7 +47,7 @@ npm run build -- --base=./
 npm run preview
 ```
 
-开发入口为 [127.0.0.1:5173/roadster.html](http://127.0.0.1:5173/roadster.html)，生产预览为 [127.0.0.1:4173/roadster.html](http://127.0.0.1:4173/roadster.html)。Windows受限环境可先设置 `$env:NODE_OPTIONS='--preserve-symlinks --preserve-symlinks-main'`。
+开发入口为 [localhost:5173/roadster.html](http://localhost:5173/roadster.html)，生产预览为 [localhost:4173/roadster.html](http://localhost:4173/roadster.html)。Windows受限环境可先设置 `$env:NODE_OPTIONS='--preserve-symlinks --preserve-symlinks-main'`。
 
 `src/roadster/` 包含独立输入、运动、预测、呈现和声音。`public/assets/coastal-interchange-layout.json` 是场地几何契约，`coastal-interchange.glb` 为实际显示资产。修改场地时同时更新Blender源和布局，再运行 `node scripts/audit-coastal-blender.mjs` 核对凸性与二进制顶点。
 

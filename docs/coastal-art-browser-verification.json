@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-23 Asia/Shanghai",
+  "authorizedOrigins": [
+    "http://localhost:5173/roadster.html",
+    "http://localhost:4173/roadster.html"
+  ],
+  "productionBundle": "/assets/roadster-6L2jcyue.js",
+  "productionBundleSHA256": "b08e7573f55d65a823f808ff2e91e24eb68cb28043d5df28500c470de2f96e7f",
+  "cases": [
+    {
+      "path": "docs/coastal-art-production-native-pc.json",
+      "pass": true,
+      "errors": [],
+      "bundle": "/assets/roadster-6L2jcyue.js",
+      "finalBundle": true,
+      "sha256": "5d2b064185ebf4fdf8288977396488df168550deb2cad14dd0d62ee98c132c28",
+      "end": {
+        "complete": true,
+        "grounded": true,
+        "z": 510.0440707072747,
+        "group": "far"
+      }
+    },
+    {
+      "path": "docs/coastal-art-production-native-touch-667.json",
+      "pass": true,
+      "errors": [],
+      "bundle": "/assets/roadster-6L2jcyue.js",
+      "finalBundle": true,
+      "sha256": "ec1c8d2cad7dad68d87699de29135ae6c1e8906653fdabe00b342ae41bf35761",
+      "end": {
+        "complete": true,
+        "grounded": true,
+        "z": 510.0527719668108,
+        "group": "far"
+      }
+    },
+    {
+      "path": "docs/coastal-art-production-native-touch-844.json",
+      "pass": true,
+      "errors": [],
+      "bundle": "/assets/roadster-6L2jcyue.js",
+      "finalBundle": true,
+      "sha256": "f4e2c0cdab544a51e131aa46879ca7a470274ff00720509df3240c17ca38222f",
+      "end": {
+        "complete": true,
+        "grounded": true,
+        "z": 510.1263785235556,
+        "group": "far"
+      }
+    },
+    {
+      "path": "docs/coastal-art-controls-pc.json",
+      "pass": true,
+      "errors": [],
+      "sha256": "0e42219f18fb70766640a22a6274a5fe653b5fc6574b27157941d676f2d6f2d7",
+      "end": {
+        "complete": false,
+        "grounded": true,
+        "z": 191.04578262052243,
+        "group": "landing"
+      },
+      "reverse": {
+        "forwardV": 12.466613992352146,
+        "reverseV": -3.2072730691543745,
+        "cameraHeading": 0,
+        "bodyHeading": 0
+      },
+      "contact": {
+        "id": "approach-rail-1-14.0",
+        "contactPosition": {
+          "x": 3.5794345242517007,
+          "z": 19.417292147277294
+        },
+        "escapePosition": {
+          "x": 3.0956935401137153,
+          "z": 19.24973213414984
+        },
+        "grounded": true
+      }
+    },
+    {
+      "path": "docs/coastal-art-controls-touch-667.json",
+      "pass": true,
+      "errors": [],
+      "sha256": "413393c1678fbe4f4f760bf6aaa1ed13fd497fab5b5970fc8528968e21eaba7b",
+      "end": {
+        "complete": false,
+        "grounded": true,
+        "z": 165.32448584724943,
+        "group": "landing"
+      },
+      "reverse": {
+        "forwardV": 11.901852742702365,
+        "reverseV": -3.177480807945211,
+        "cameraHeading": 0,
+        "bodyHeading": 0
+      },
+      "contact": {
+        "id": "approach-rail-1-14.0",
+        "contactPosition": {
+          "x": 3.5793591787115204,
+          "z": 19.45506141993537
+        },
+        "escapePosition": {
+          "x": 3.162796496690364,
+          "z": 19.34637314334643
+        },
+        "grounded": true
+      }
+    },
+    {
+      "path": "docs/coastal-art-controls-touch-844.json",
+      "pass": true,
+      "errors": [],
+      "sha256": "ffdaa62eb9cb0c690a0d186e330c7aabee1f911d8d6737bd8064fd7e3bbaa3b1",
+      "end": {
+        "complete": false,
+        "grounded": true,
+        "z": 175.53393514126057,
+        "group": "landing"
+      },
+      "reverse": {
+        "forwardV": 11.581435207758147,
+        "reverseV": -3.2919681503501987,
+        "cameraHeading": 0,
+        "bodyHeading": 0
+      },
+      "contact": {
+        "id": "approach-rail-1-14.0",
+        "contactPosition": {
+          "x": 3.579432019068337,
+          "z": 19.462561067364348
+        },
+        "escapePosition": {
+          "x": 3.1295665125184446,
+          "z": 19.3251078449172
+        },
+        "grounded": true
+      }
+    },
+    {
+      "path": "docs/coastal-art-auto-recovery.json",
+      "pass": true,
+      "errors": [],
+      "bundle": "/assets/roadster-6L2jcyue.js",
+      "finalBundle": true,
+      "sha256": "6c743bef7aeb1ceaee09c00c4cb4a6ed7a3d168c475ae0900c9474df9101cda2"
+    }
+  ],
+  "lifecycle": [
+    {
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "pass": true,
+      "checks": [
+        "independent diagonal + lift simultaneously",
+        "rear diagonal brake + side correction + lift simultaneously",
+        "lifting right finger preserves left throttle/steer",
+        "captured stick releases outside bounds",
+        "touch cancellation clears both controls",
+        "pause freezes time; resume has no stale keyboard input",
+        "portrait clears touches and requires explicit resume after landscape",
+        "synthetic blur clears input and pauses",
+        "restart clears run and no automatic cruise"
+      ],
+      "actualTabFocus": {
+        "paused": false,
+        "pointers": 2,
+        "lift": true,
+        "scope": "Headless browser did not deliver blur; only synthetic blur wiring is verified."
+      }
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "checks": [
+        "independent diagonal + lift simultaneously",
+        "rear diagonal brake + side correction + lift simultaneously",
+        "lifting right finger preserves left throttle/steer",
+        "captured stick releases outside bounds",
+        "touch cancellation clears both controls",
+        "pause freezes time; resume has no stale keyboard input",
+        "portrait clears touches and requires explicit resume after landscape",
+        "synthetic blur clears input and pauses",
+        "restart clears run and no automatic cruise"
+      ],
+      "actualTabFocus": {
+        "paused": false,
+        "pointers": 2,
+        "lift": true,
+        "scope": "Headless browser did not deliver blur; only synthetic blur wiring is verified."
+      }
+    }
+  ],
+  "groundRegression": {
+    "pass": true,
+    "complete": true,
+    "scope": "Completed before visual-only revisions; simulation/config/geometry/layout unchanged afterwards"
+  },
+  "limits": [
+    "Native keyboard and CDP touch in headless Edge; emulated mobile sizes, not physical-phone certification.",
+    "Lifecycle real tab focus did not deliver blur in headless mode. Synthetic blur wiring passed; real OS backgrounding not claimed.",
+    "Control-focused cases preceded final sky and automatic-recovery camera revisions; final production main-route cases and auto-recovery case bind to the final bundle.",
+    "First full-route failure retained in coastal-art-production-native-pc-first-failure.json. Screenshot I/O with controls still held delayed the upper launch. Moving capture outside timing-critical controls produced complete main-route replays; no physics was weakened.",
+    "Supervisor performs independent ordinary UI visual acceptance; no deploy/push/commit performed."
+  ]
+}

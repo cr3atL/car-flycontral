@@ -1,0 +1,54 @@
+{
+  "method": "Independent fixed-step physical rules on real exported layout; fixture setup for airborne and out-of-map cases. Not browser/native-input play.",
+  "pass": true,
+  "bounds": {
+    "xmin": -90,
+    "xmax": 140,
+    "zmin": -30,
+    "zmax": 570,
+    "ymin": -12
+  },
+  "results": [
+    {
+      "case": "Real start/runway, one uninterrupted negative-throttle hold brakes then reverses",
+      "pass": true,
+      "before": {
+        "z": 30.9111611380339,
+        "vz": 16.902785912641555
+      },
+      "after": {
+        "z": 28.113819406623428,
+        "vz": -6.353036008975641,
+        "reverse": true
+      }
+    },
+    {
+      "case": "Real guardrail approach, sustained contact and reverse away without checkpoint reset",
+      "pass": true,
+      "contact": {
+        "x": 3.623020432535692,
+        "z": 19.479016053411264,
+        "speed": 0.4699541728288553
+      },
+      "after": {
+        "x": -2.677328820125653,
+        "z": 17.336121986828513,
+        "speed": 5.886367917214564
+      },
+      "contacts": 1,
+      "resets": 0
+    },
+    {
+      "case": "Air brake still stops without reversing",
+      "pass": true,
+      "speed": 0,
+      "vz": 0
+    },
+    {
+      "case": "Below real map kill boundary still auto-recovers",
+      "pass": true,
+      "resets": 1,
+      "reason": "驶出试驾区"
+    }
+  ]
+}

@@ -52,7 +52,7 @@ function renderHud(){
   text('tip',guidance());text('menu-help',mobile()?'左摇杆油门、方向、制动 · 右侧按住喷气':'W 油门 · S 制动 · A D 方向 · 空格喷气');
   const contact=sim.crashTimer?sim.reason:sim.recoveryNotice&&sim.time-sim.recoveryNotice.time<3?'已复位 · '+sim.recoveryNotice.reason:sim.lastLanding&&sim.time-sim.lastLanding.time<.75?(sim.lastLanding.impact>C.dangerImpact?'重接地':'接地'):'';
   $('contact').hidden=!contact;text('contact',contact);
-  text('help',mobile()?'左摇杆前推油门，后推制动，左右方向。停稳后回中再后推倒车。右侧按住喷气。空中后推只减水平速度，下降较快时点喷缓冲。':'W油门，A/D方向，S制动。停稳后松开S，再按倒车。空中S反推减水平速度，空格抬升或缓冲下降。R复位。');
+  text('help',mobile()?'左摇杆前推油门，持续后推制动并倒车，左右方向。右侧按住喷气。空中后推只减水平速度，下降较快时点喷缓冲。':'W油门，A/D方向，持续S制动并倒车。空中S反推减水平速度，空格抬升或缓冲下降。R复位。');
 }
 function draw(dt){
   if(!sim||!world)return;
@@ -73,7 +73,7 @@ async function init(){
     window.addEventListener('resize',()=>{world.engine.resize();input.clear();if(portrait())pause();renderHud();});
     world.engine.runRenderLoop(()=>{
       const dt=Math.min(.08,world.engine.getDeltaTime()/1000);
-      if(!manual&&started&&!paused&&!portrait()&&!sim.complete){sim.input={...input.value};accumulator+=dt;while(accumulator>=C.step){sim.step(C.step);accumulator-=C.step;if(sim.crashTimer&&!wasCrash){input.clear();wasCrash=true;}if(!sim.crashTimer)wasCrash=false;}}
+      if(!manual&&started&&!paused&&!portrait()&&!sim.complete){sim.input={...input.value};accumulator+=dt;while(accumulator>=C.step){sim.step(C.step);accumulator-=C.step;if(sim.crashTimer&&!wasCrash){input.clear();wasCrash=true;}if(!sim.crashTimer&&wasCrash){wasCrash=false;world.resetCamera(sim.heading);prediction=null;predictedAt=-1;audio.lastLanding=-1;}}}
       draw(paused?0:dt);
     });renderHud();
     const observe=()=>structuredClone({...sim.snapshot(),paused,manual,controls:input.snapshot(),prediction,world:world.snapshot(),layout:{version:layout.version,name:layout.name,asset:layout.asset,surfaces:layout.surfaces.length}});

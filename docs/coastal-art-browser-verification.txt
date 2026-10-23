@@ -1,0 +1,19 @@
+2026-10-23 final candidate browser verification
+Production bundle: /assets/roadster-6L2jcyue.js
+SHA256: b08e7573f55d65a823f808ff2e91e24eb68cb28043d5df28500c470de2f96e7f
+
+docs/coastal-art-production-native-pc.json: PASS, errors=0, bundle=/assets/roadster-6L2jcyue.js, finalBundle=true
+docs/coastal-art-production-native-touch-667.json: PASS, errors=0, bundle=/assets/roadster-6L2jcyue.js, finalBundle=true
+docs/coastal-art-production-native-touch-844.json: PASS, errors=0, bundle=/assets/roadster-6L2jcyue.js, finalBundle=true
+docs/coastal-art-controls-pc.json: PASS, errors=0, bundle=control-focused run before final visual/camera revision, finalBundle=see scope
+docs/coastal-art-controls-touch-667.json: PASS, errors=0, bundle=control-focused run before final visual/camera revision, finalBundle=see scope
+docs/coastal-art-controls-touch-844.json: PASS, errors=0, bundle=control-focused run before final visual/camera revision, finalBundle=see scope
+docs/coastal-art-auto-recovery.json: PASS, errors=0, bundle=/assets/roadster-6L2jcyue.js, finalBundle=true
+
+Both mobile lifecycle suites PASS; PC pure ground route PASS.
+
+Native keyboard and CDP touch in headless Edge; emulated mobile sizes, not physical-phone certification.
+Lifecycle real tab focus did not deliver blur in headless mode. Synthetic blur wiring passed; real OS backgrounding not claimed.
+Control-focused cases preceded final sky and automatic-recovery camera revisions; final production main-route cases and auto-recovery case bind to the final bundle.
+First full-route failure retained in coastal-art-production-native-pc-first-failure.json. Screenshot I/O with controls still held delayed the upper launch. Moving capture outside timing-critical controls produced complete main-route replays; no physics was weakened.
+Supervisor performs independent ordinary UI visual acceptance; no deploy/push/commit performed.
